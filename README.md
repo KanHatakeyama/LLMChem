@@ -4,14 +4,15 @@
 - 2023/12/16
 - kan hatakeyama
 
+# アイデア
+- [こちらの記事を参照](https://note.com/kan_hatakeyama/n/n56afe0df282a)
+- ![](contents/scheme.png)
+
 # 使い方
 - api_key.pyを作成し､openaiのapiキーを設定(api_key ="***" )
 - [QTA_gen_practice.ipynb](QRA_gen_practice.ipynb)を実行
 - [Analyze_gen.ipynb](Analyze_gen.ipynb)で解析
 
-# アイデア
-- [こちらの記事を参照](https://note.com/kan_hatakeyama/n/n56afe0df282a)
-- ![](contents/scheme.png)
 
 # 結果
 - 条件
