@@ -1,0 +1,34 @@
+[
+    {
+        "mpC": 146.0,
+        "name": "(2E)-N-hydroxy-1,8,8-trimethylbicyclo[3.2.1]oct-3-en-2-imine",
+        "smiles": "ON=C1C=CC2CCC1(C)C2(C)C",
+        "csid": 7855495,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-881",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 146.0,
+        "name": "(2E)-N-hydroxy-1,8,8-trimethylbicyclo[3.2.1]oct-3-en-2-imine",
+        "smiles": "ON=C1C=CC2CCC1(C)C2(C)C",
+        "csid": 7855495,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-881",
+        "Reason": "The parent structure of the target compound is the bicyclo[3.2.1]octane system. Cyclooctane has a melting point of around -20 degrees Celsius, but the degree of unsaturation and functional groups present in the target compound significantly change the melting point. The presence of the double bond (E-configuration) introduces isomerism and planarity which would tend to increase the melting point, however, due to increased torsional strain, it might not raise significantly. We can estimate an increase of around +30 degrees for the introduction of the double bond. The N-hydroxyimine group is polar and can participate in intermolecular hydrogen bonding, which tends to increase melting points significantly. This group can contribute an estimated +80 degrees. The three methyl groups should increase the melting point slightly because of the increase in van der Waals interactions due to the larger size of the molecules; each methyl group could contribute around +2 degrees. Therefore, the predicted melting point would be summing contributions from cyclooctane, the double bond, the N-hydroxyimine group, and three methyl groups.",
+        "Prediction": "Cyclooctane base: -20 + Double bond: +30 + N-hydroxyimine: +80 + Three methyl groups: 6 (3x2) = -20 + 30 + 80 + 6 = 96 degrees Celsius",
+        "Prediction(integer)": 96.0
+    },
+    {
+        "mpC": 146.0,
+        "name": "(2E)-N-hydroxy-1,8,8-trimethylbicyclo[3.2.1]oct-3-en-2-imine",
+        "smiles": "ON=C1C=CC2CCC1(C)C2(C)C",
+        "csid": 7855495,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-881",
+        "Reason": "The target compound, (2E)-N-hydroxy-1,8,8-trimethylbicyclo[3.2.1]oct-3-en-2-imine, is based on a bicyclo[3.2.1]octane framework which is fundamentally different from simple cycloalkanes such as cyclooctane, meaning its melting point is not directly comparable to cyclooctane (which has a melting point of around -20 degrees Celsius). Bicyclo structure introduces significant rigidity, which increases the melting point. The presence of a double bond (E-configuration) adds to the planarity and rigidity of the molecule and typically increases the melting point; we can conservatively estimate this effect as +30 degrees. The N-hydroxyimine functional group adds polarity and can form hydrogen bonds, which usually has a substantial effect on the melting point; a rough estimation of the increase it provides might be around +100 due to the possibility for both intra- and inter-molecular hydrogen bonding. Each of the three methyl groups slightly increases the melting point due to increased van der Waals forces caused by a larger hydrophobic surface. The approximate increase for each methyl group can be around +5 degrees. Adding up these increments to the base value for simple cycloalkanes should give a more accurate prediction of the target compound's melting point.",
+        "Prediction": "Bicyclo[3.2.1]octane base (adjusted): ~0 (since bicyclo structure is more rigid than simple cycloalkanes) + Double bond: +30 + N-hydroxyimine: +100 + Three methyl groups: 15 (3x5) = 0 + 30 + 100 + 15 = 145 degrees Celsius",
+        "Prediction(integer)": 145.0
+    }
+]
