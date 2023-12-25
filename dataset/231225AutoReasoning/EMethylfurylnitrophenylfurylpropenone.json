@@ -1,0 +1,34 @@
+[
+    {
+        "mpC": 160.0,
+        "name": "(2E)-1-(5-Methyl-2-furyl)-3-[5-(3-nitrophenyl)-2-furyl]prop-2-en-1-one",
+        "smiles": "O=[N+]([O-])c1cccc(c1)c1oc(cc1)C=CC(=O)c1oc(C)cc1",
+        "csid": 4645639,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1186",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 160.0,
+        "name": "(2E)-1-(5-Methyl-2-furyl)-3-[5-(3-nitrophenyl)-2-furyl]prop-2-en-1-one",
+        "smiles": "O=[N+]([O-])c1cccc(c1)c1oc(cc1)C=CC(=O)c1oc(C)cc1",
+        "csid": 4645639,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1186",
+        "Reason": "The basic unit furan has a melting point around -85.6. However, the target compound is significantly more complex and contains several functional groups that will affect its melting point. The addition of methyl (+CH3) typically raises the melting point due to increased molecular weight, we can estimate this to be +20. The conjugated double bonds present in the compound would increase rigidity and intermolecular interactions, raising the melting point further, estimated at +60. The ketone (C=O) group tends to increase melting points due to polar interactions; this can be roughly estimated at +50. The nitro group (-NO2) is strongly electron-withdrawing and also introduces intermolecular dipole-dipole interactions, which significantly raises melting points; let's estimate this as +85. Summing these adjustments to the basic furan unit gives a prediction of the melting point.",
+        "Prediction": "Consider the basic unit of furan with a starting estimate of -85.6 (which is below room temperature and actual melting point would be for substituted furfurals) and adjust for the functional groups: (Base furan: -85.6) + Methyl (+20) + Conjugated double bonds (+60) + Ketone (+50) + Nitro group (+85) = Predicted melting point of 129.4",
+        "Prediction(integer)": 129.0
+    },
+    {
+        "mpC": 160.0,
+        "name": "(2E)-1-(5-Methyl-2-furyl)-3-[5-(3-nitrophenyl)-2-furyl]prop-2-en-1-one",
+        "smiles": "O=[N+]([O-])c1cccc(c1)c1oc(cc1)C=CC(=O)c1oc(C)cc1",
+        "csid": 4645639,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1186",
+        "Reason": "Starting with the basic unit furan, which has a melting point around -85.6, the target compound's melting point is significantly raised by a number of functional groups and structural features. The methyl (CH3) group generally increases molecular weight and Van der Waals forces, raising the melting point by an estimated +20. Conjugated double bonds strengthen the compound's planarity and rigidity and enhance \u03c0-\u03c0 stacking, contributing to an approximate increase of +100. The ketone group (C=O) is polar, leading to stronger dipole-dipole interactions; this typically raises the melting point by about +40. The nitro group (-NO2) is a strong electron-withdrawing group, which induces significant dipole moments, raising the melting point considerably; this effect can be estimated at +85. Combining these effects to estimate the overall influence on the basic furan unit results in the predicted value.",
+        "Prediction": "(Base furan: -85.6) + Methyl group (+20) + Conjugated double bonds (+100) + Ketone group (+40) + Nitro group (+85) = Predicted melting point of 159.4",
+        "Prediction(integer)": 159.0
+    }
+]
