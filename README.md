@@ -1,20 +1,18 @@
-# 分子の構造(Q)ー融点(A)データセットから説明(Reason: R)を自動生成して､説明付きで予測するデモ
+# 分子の構造(Q)ー融点(A)データセットから説明(Reason: R)を自動生成して､説明付きで予測
 
 # 情報
-- 2023/12/16
-- kan hatakeyama
+- オープンに進めています
 
-# アイデア
-- [こちらの記事を参照](https://note.com/kan_hatakeyama/n/n56afe0df282a)
+# 関連Note(上から順にnew)
+- [なぜ分子の融点が◯◯℃なのかをGPT-4に考えさせる際の試行錯誤メモ ](https://note.com/kan_hatakeyama/n/n84c84da8f551)
+- [Explainableな構造ー物性の予測LLMモデルを作る研究の「目標とTODO」メモ](https://note.com/kan_hatakeyama/n/n56afe0df282a)
+- [Explainableな構造ー物性データセットをLLMで自動生成する(定量的な説明ver) ](https://note.com/kan_hatakeyama/n/ndcdeaed60f48)
+- [explainableな構造ー物性相関のLLM予測モデルのデータセットの自動生成 ](https://note.com/kan_hatakeyama/n/n8e5506240630)
+
 - ![](contents/scheme.png)
 
-# 使い方
-- api_key.pyを作成し､openaiのapiキーを設定(api_key ="***" )
-- [QTA_gen_practice.ipynb](QRA_gen_practice.ipynb)を実行
-- [Analyze_gen.ipynb](Analyze_gen.ipynb)で解析
-
-
-# 結果
+# 結果の例
+― [codeはこちら](https://github.com/KanHatakeyama/LLMChem/tree/20231216pub)
 - 条件
   - ランダムに選択した10分子で比較
   - GPT3.5で理由生成&回答
@@ -30,16 +28,13 @@
     - 予測精度が向上
     - ![](contents/w_reason.png)
 
-
-# 考察
-  - 上記の結果は､ある種の訓練データになってしまっている点に注意
-    - 自動生成された理由の大半が､「未知分子の融点は､GPT3.5が知っている既知分子の融点の+XX℃である」という感じになっている
-      - この思考法自体は悪くないが､本質的にモデルの予測性能が向上したとは言い難い
-  - 最終目的は､このような自動生成されたデータセットを使ってモデルをファインチューニングし､未知分子について､Qのみから､RとAを生成すること
+# 研究進捗
+- 2023/12/16
+  - フレームを作る
+- 12/24
+  - 再帰などを実装
+  - 融点データセットの計算を開始 (現在: 約300件/2.5万件)
 
 # TODO
   - プロンプトチューニング
-  - 更に多くの分子での検討
   - ファインチューニング
-# Issue
-  - 自動生成されたテキストから融点の数値を抜き出す関数にバグ有り([code](src/utils/clean_prediction.py))
