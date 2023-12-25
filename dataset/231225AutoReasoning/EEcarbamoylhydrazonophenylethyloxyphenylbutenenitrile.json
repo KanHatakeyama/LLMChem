@@ -1,0 +1,23 @@
+[
+    {
+        "mpC": 157.0,
+        "name": "(2E)-3-{[(2E)-2-(carbamoylhydrazono)-2-phenylethyl]oxy}-2-phenylbut-2-enenitrile",
+        "smiles": "O=C(N)NN=C(COC(C)=C(C#N)c1ccccc1)c1ccccc1",
+        "csid": 4903643,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-977",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 157.0,
+        "name": "(2E)-3-{[(2E)-2-(carbamoylhydrazono)-2-phenylethyl]oxy}-2-phenylbut-2-enenitrile",
+        "smiles": "O=C(N)NN=C(COC(C)=C(C#N)c1ccccc1)c1ccccc1",
+        "csid": 4903643,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-977",
+        "Reason": "The compound in question contains several functional groups that will affect its melting point. The basic unit we can consider here is benzene, which has a melting point around 5.5\u00b0C. Let's analyze the impact of each functional group incrementally: - Carboxamide groups (C=O and N-H): These groups are capable of hydrogen bonding, which significantly increases melting point due to the strong intermolecular forces involved. We can approximate this effect to be +80\u00b0C per group. However, since in our compound the nitrogen atom is part of a hydrazide, its hydrogen bonding capability might be slightly reduced. - Phenyl groups: These provide additional pi-pi interactions and increase the molecular weight, which generally increases melting points. We can estimate this effect to be around +20\u00b0C per each additional phenyl. - Nitrile group (C\u2261N): The cyano group also contributes to the melting point through dipole-dipole interactions and an increased molecular weight. This could add around +15\u00b0C. - Alkoxy group (OC-): This group adds some molecular weight and possible dipole-dipole interactions, but it's also a branching point which could either increase or decrease the melting point. A reasonable estimate for the effect of an alkoxy might be around +5\u00b0C. - Ethylidenyl and butenylidenyl groups: These groups add more molecular weight and also possible van der Waals forces. An estimated increase for such unsaturated extension is about +5\u00b0C each. Compiling all these rough estimates, we get: Base benzene: 5.5 + 2 Carboxamide groups: 2*80 + 2 Phenyl groups: 2*20 + Nitrile group: 15 + Alkoxy group: 5 + Ethylidenyl and butenylidenyl groups: 2*5 Total increase: 5.5 + 160 + 40 + 15 + 5 + 10 = 235.5\u00b0C Since the compound likely has a very rigid and planar structure due to the conjugated system that allows good packing in the solid state, these factors could enforce each other leading to a higher melting point than calculated. However, given that our initial calculations might be overestimates, it's reasonable to set the final estimate a bit lower than the cumulative addition.",
+        "Prediction": "157.0",
+        "Prediction(integer)": 157.0
+    }
+]

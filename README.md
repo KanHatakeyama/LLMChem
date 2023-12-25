@@ -3,6 +3,9 @@
 # 情報
 - オープンに進めています
 
+# Setup
+- git clone https://github.com/KanHatakeyama/LLMChem
+
 # 関連Note(上から順にnew)
 - [なぜ分子の融点が◯◯℃なのかをGPT-4に考えさせる際の試行錯誤メモ ](https://note.com/kan_hatakeyama/n/n84c84da8f551)
 - [Explainableな構造ー物性の予測LLMモデルを作る研究の「目標とTODO」メモ](https://note.com/kan_hatakeyama/n/n56afe0df282a)
