@@ -3,7 +3,7 @@ import json
 
 #ask gpt
 def json_generate(prompt,model="gpt-3.5-turbo-1106"):
-    response = openai.ChatCompletion.create(
+    response = openai.chat.completions.create(
     model=model,
     messages=[
         {
@@ -18,6 +18,6 @@ def json_generate(prompt,model="gpt-3.5-turbo-1106"):
     response_format={ "type": "json_object" }
     )
 
-    return (json.loads(response.choices[0]["message"]["content"]))
+    return (json.loads(response.choices[0].message.content))
 
 
