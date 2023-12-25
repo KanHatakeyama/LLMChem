@@ -1,0 +1,34 @@
+[
+    {
+        "mpC": 92.0,
+        "name": "(1Z)-1,2-diphenylethanone O-(phenylcarbonyl)oxime",
+        "smiles": "O=C(ON=C(Cc1ccccc1)c1ccccc1)c1ccccc1",
+        "csid": 4907501,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-969",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 92.0,
+        "name": "(1Z)-1,2-diphenylethanone O-(phenylcarbonyl)oxime",
+        "smiles": "O=C(ON=C(Cc1ccccc1)c1ccccc1)c1ccccc1",
+        "csid": 4907501,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-969",
+        "Reason": "The target compound (1Z)-1,2-diphenylethanone O-(phenylcarbonyl)oxime includes several functional groups: three phenyl rings, a ketone group, and an oxime group. To predict the melting point, we start with the base structure and sequentially add the functional groups' effects. As a starting point, the melting point of benzene, which is the simplest phenyl-containing compound, is around 5.5\u00b0C. Each additional phenyl ring will generally increase the melting point due to an increase in molecular weight and greater van der Waals forces, this effect can be estimated at about +30\u00b0C per phenyl ring. The ketone group typically raises the melting point due to its ability to participate in dipole-dipole interactions compared to a nonpolar hydrocarbon, adding approximately +40\u00b0C. The oxime group is capable of hydrogen bonding, which significantly raises the melting point, adding approximately +80\u00b0C. Therefore, each of these effects is considered in sequence to predict the melting point of the target compound. Additionally, the fact that the compound has a rigid, planar structure contributes to higher melting point due to efficient packing.",
+        "Prediction": "The prediction would start with the base value of benzene (5.5\u00b0C) and add the effects of the functional groups: +30\u00b0C for each additional phenyl ring (3 total), +40\u00b0C for the ketone group, and +80\u00b0C for the oxime group. Calculation: 5.5 (benzene) + 30*2 (additional phenyl rings) + 40 (ketone) + 80 (oxime) = 215.5\u00b0C. However, this predicted value is much higher than the actual value of 92.0\u00b0C, indicating that the effects of the functional groups have been estimated too high, or that there are other structural factors moderating the impact of these groups, like steric hindrance or molecular strain that decreases the efficiency of molecular packing.",
+        "Prediction(integer)": 215.0
+    },
+    {
+        "mpC": 92.0,
+        "name": "(1Z)-1,2-diphenylethanone O-(phenylcarbonyl)oxime",
+        "smiles": "O=C(ON=C(Cc1ccccc1)c1ccccc1)c1ccccc1",
+        "csid": 4907501,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-969",
+        "Reason": "The target compound (1Z)-1,2-diphenylethanone O-(phenylcarbonyl)oxime consists of several functional groups: three phenyl rings, a ketone, and an oxime. Starting with benzene, which has a melting point of 5.5\u00b0C as a reference, we analyze the contribution of each group. Each additional phenyl group would contribute to an increase due to enhanced van der Waals interactions and a larger molecular surface area. This increase can be estimated at roughly +20\u00b0C per phenyl group. The ketone group, with its polar nature and potential for dipole-dipole interactions, can be expected to contribute an additional +15\u00b0C. The oxime group, due to its capacity for hydrogen bonding, might increase the melting point by an additional +30\u00b0C. All these effects, however, might be reduced due to potentially unfavorable steric hindrance and imperfect molecular packing.",
+        "Prediction": "Calculating the contributions, the predicted melting point would be 5.5\u00b0C (benzene) + 20\u00b0C * 2 (additional phenyl groups) + 15\u00b0C (ketone) + 30\u00b0C (oxime), yielding a total of 90.5\u00b0C, which is very close to the actual value of 92.0\u00b0C. Thus, the predicted value aligns well with the actual value when considering moderate effects of each functional group.",
+        "Prediction(integer)": 90.0
+    }
+]
