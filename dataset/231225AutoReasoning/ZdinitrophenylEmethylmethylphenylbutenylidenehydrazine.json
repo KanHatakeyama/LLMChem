@@ -1,0 +1,23 @@
+[
+    {
+        "mpC": 183.0,
+        "name": "(2Z)-1-(2,4-dinitrophenyl)-2-[(2E)-1-methyl-3-(4-methylphenyl)but-2-en-1-ylidene]hydrazine",
+        "smiles": "O=[N+]([O-])c1ccc(NN=C(C)C=C(C)c2ccc(C)cc2)c([N+](=O)[O-])c1",
+        "csid": 4870759,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-998",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 183.0,
+        "name": "(2Z)-1-(2,4-dinitrophenyl)-2-[(2E)-1-methyl-3-(4-methylphenyl)but-2-en-1-ylidene]hydrazine",
+        "smiles": "O=[N+]([O-])c1ccc(NN=C(C)C=C(C)c2ccc(C)cc2)c([N+](=O)[O-])c1",
+        "csid": 4870759,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-998",
+        "Reason": "To predict the melting point of the target compound, which is a hydrazone derivative with a dinitrophenyl group and a substituted butadienyl group, let's consider the effects of the individual functional groups and structural features on the melting point, based on known trends in organic compounds.\n- Basic unit, benzene: Melting point around 5.5\u00b0C (since benzene is a common reference, this serves as a starting baseline).\n- Nitro groups: Each nitro group substantially increases melting point due to their strong electron-withdrawing nature and the ability to form intermolecular hydrogen bonds; let's estimate +80\u00b0C per nitro group.\n- Hydrazine derivative: Hydrazones can form stable crystal lattices due to their ability to form hydrogen bonds and engage in \u03c0-\u03c0 stacking interactions; let's estimate an additional +50\u00b0C for the hydrazone functionality.\n- Additional phenyl ring with methyl groups: Phenyl rings increase melting point due to \u03c0-\u03c0 interactions; methyl groups slightly increase it due to increased molecular weight; let's estimate +30\u00b0C for the additional phenyl ring and +5\u00b0C for each methyl group.\n- Conjugated diene system: Conjugation can lead to a more rigid structure, potentially increasing the melting point; estimate an additional +20\u00b0C.\nOverall, this compound's structure is significantly more complex and contains more interactions than simple benzene derivatives. The cumulative effects of these groups will produce a melting point much higher than benzene itself.",
+        "Prediction": "Starting with benzene (5.5) and adding the estimated increases yields: 5.5 (benzene) + 160 (2 nitro groups) + 50 (hydrazone) + 30 (additional phenyl) + 10 (2 methyl groups) + 20 (conjugated system) = 275.5\u00b0C. Considering that the prediction is significantly higher than the actual value, it suggests that the estimates for the effects of individual groups, especially the nitro groups, might be too high. The presence of multiple bulky groups could lead to steric hindrance that disrupts optimal crystal packing, leading to a lower than expected melting point. Therefore, let's adjust the increases: +50\u00b0C per nitro group, +35\u00b0C for hydrazone, +25\u00b0C for the additional phenyl ring, +3\u00b0C for each methyl group, and +15\u00b0C for the conjugated system. This results in a refined prediction: 5.5 (benzene) + 100 (2 nitro groups) + 35 (hydrazone) + 25 (additional phenyl) + 6 (2 methyl groups) + 15 (conjugated system) = 186.5\u00b0C. This is much closer to the actual value and likely a more accurate reflection of the compound's structure.",
+        "Prediction(integer)": 186.0
+    }
+]
