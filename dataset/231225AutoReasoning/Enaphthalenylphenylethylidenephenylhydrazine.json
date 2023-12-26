@@ -1,23 +1,34 @@
 [
     {
-        "mpC": 101.0,
-        "name": "(1E)-1-(1-naphthalen-1-yl-2-phenylethylidene)-2-phenylhydrazine",
-        "smiles": "N(Nc1ccccc1)=C(Cc1ccccc1)c1cccc2ccccc21",
-        "csid": 4715976,
+        "mpC": 166.0,
+        "name": "(1E)-1-(1-naphthalen-2-yl-2-phenylethylidene)-2-phenylhydrazine",
+        "smiles": "N(Nc1ccccc1)=C(Cc1ccccc1)c1ccc2ccccc2c1",
+        "csid": 4799926,
         "link": "http://dx.doi.org/10.1021/ci0500132",
-        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1108",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1025",
         "Reason": "",
         "Prediction": ""
     },
     {
-        "mpC": 101.0,
-        "name": "(1E)-1-(1-naphthalen-1-yl-2-phenylethylidene)-2-phenylhydrazine",
-        "smiles": "N(Nc1ccccc1)=C(Cc1ccccc1)c1cccc2ccccc21",
-        "csid": 4715976,
+        "mpC": 166.0,
+        "name": "(1E)-1-(1-naphthalen-2-yl-2-phenylethylidene)-2-phenylhydrazine",
+        "smiles": "N(Nc1ccccc1)=C(Cc1ccccc1)c1ccc2ccccc2c1",
+        "csid": 4799926,
         "link": "http://dx.doi.org/10.1021/ci0500132",
-        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1108",
-        "Reason": "The compound in question is a derivative of hydrazine. The melting point of phenylhydrazine, a related structure, is around 19.5. Starting from this, the presence of three aromatic rings significantly increases the melting point due to the increased molecular complexity, pi-pi interactions, and van der Waals forces. Estimating the contribution of each aromatic ring: for the naphthalene ring and two phenyl rings, we approximately add +30 for naphthalene due to its larger size and condensed system, and +20 for each of the phenyl groups. The double bond contributes slightly due to restricted rotation, but not significantly enough to alter the melting point dramatically, hence we can estimate this increase to be around +5. The hydrazine moiety's influence on the melting point is minimized by the other substituents, so its effect is considered neutral in this context. This results in an overall estimated increase of 30 (naphthalene) + 2x20 (phenyl groups) + 5 (double bond) = 75. Adding this to the baseline of phenylhydrazine's melting point yields a predicted value.",
-        "Prediction": "19.5 (base phenylhydrazine) + 30 (naphthalene) + 40 (phenyl groups) + 5 (double bond) = 94.5",
-        "Prediction(integer)": 94.5
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1025",
+        "Reason": "The target compound consists of multiple phenyl groups and a naphthyl group, which are large aromatic systems that generally raise the melting point due to enhanced pi-pi interactions and the rigidity of the structure. The presence of a hydrazine (-NH-NH-) linkage, could introduce a modest dipole and allow for additional hydrogen bonding that might influence the melting point. The close packing of aromatic rings can also substantially elevate the melting point. However, it's important to note that branching or large substituents can sometimes disrupt crystal packing, lowering the melting point compared to what might be expected from the size and aromatic character alone. Analyzing the effects in more detail: - Basic unit, benzene has a melting point of 5.5\u00b0C. - Each additional phenyl group: we can approximate roughly based on biphenyl, which melts at around 71\u00b0C, that a second phenyl group can raise the melting point by approximately 65.5\u00b0C (71 - 5.5). - The naphthyl group (based on naphthalene's melting point of 80.5\u00b0C) adds more due to its larger size and planarity. Compared to a single phenyl group, the difference is 75\u00b0C (80.5 - 5.5). - The -NH-NH- linkage doesn't have a well-defined melting point contribution, but we can postulate it may either slightly raise or lower the melting point due to its potential for hydrogen bonding; we will conservatively estimate \u00b15\u00b0C. - The presence of an additional ethylene bridge and the specific geometric arrangement (E)-1- may also influence the melting point through steric effects and the overall molecule's ability to pack efficiently in a crystal lattice. Yet, the prediction is complex and not able to be accurately decided without experimental data. Given the limited quantitative framework for these considerations, we can attempt only a rough prediction. Therefore: 5.5\u00b0C (basic benzene unit) + 65.5\u00b0C (extra phenyl group) + 75\u00b0C (naphthyl group) \u00b1 5\u00b0C (hydrazine & ethylidene effects), we can predict the melting point to be approximately 151\u00b0C.",
+        "Prediction": "151",
+        "Prediction(integer)": 151.0
+    },
+    {
+        "mpC": 166.0,
+        "name": "(1E)-1-(1-naphthalen-2-yl-2-phenylethylidene)-2-phenylhydrazine",
+        "smiles": "N(Nc1ccccc1)=C(Cc1ccccc1)c1ccc2ccccc2c1",
+        "csid": 4799926,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1025",
+        "Reason": "The compound has multiple functional groups that influence its melting point. The basic unit, benzene, has a low melting point of 5.5\u00b0C to start with. Each additional phenyl group typically contributes significantly to the melting point because of increased pi-pi interactions and crystalline stability; we can estimate this effect by looking at the increase from benzene to biphenyl, which is approximately 65.5\u00b0C (71\u00b0C for biphenyl - 5.5\u00b0C for benzene). The naphthyl group contributes even more than a phenyl group due to its larger, planar structure, which enhances pi-pi stacking in the solid state, and can be estimated to add about 75\u00b0C (80.5\u00b0C for naphthalene - 5.5\u00b0C for benzene). The hydrazine linkage introduces the potential for hydrogen bonding, which can impact the melting point; this can be estimated conservatively at about \u00b15\u00b0C because hydrogen bonding can either increase due to the attraction or decrease due to steric hindrance affecting packing. The -NH-NH- linkage also creates a dipole moment that can influence melting point. No exact value is attributed to the ethylidene linkage since its effect is complex and not clearly quantifiable without empirical data, but it could be considered within the \u00b15\u00b0C estimated range for the hydrazine linkage. Adding these effects together: 5.5\u00b0C (benzene) + 2 * 65.5\u00b0C (two additional phenyl groups) + 75\u00b0C (naphthyl group), and accounting for the uncertainty in the contribution of the hydrazine linkage: \u00b15\u00b0C, we can estimate the melting point to be around 166.0\u00b0C.",
+        "Prediction": "166",
+        "Prediction(integer)": 166.0
     }
 ]
