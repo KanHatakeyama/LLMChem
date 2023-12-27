@@ -1,0 +1,45 @@
+[
+    {
+        "mpC": 141.0,
+        "name": "(3E)-1,8,8-trimethyl-3-[(2-nitrophenyl)methylidene]bicyclo[3.2.1]octane-2,4-dione",
+        "smiles": "O=[N+]([O-])c1ccccc1C=C1C(=O)C2CCC(C)(C1=O)C2(C)C",
+        "csid": 4644823,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1356",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 141.0,
+        "name": "(3E)-1,8,8-trimethyl-3-[(2-nitrophenyl)methylidene]bicyclo[3.2.1]octane-2,4-dione",
+        "smiles": "O=[N+]([O-])c1ccccc1C=C1C(=O)C2CCC(C)(C1=O)C2(C)C",
+        "csid": 4644823,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1356",
+        "Reason": "The target compound is composed of multiple functional groups that affect its melting point. The basic unit for comparison could be a bicyclic ketone, which we will approximate with camphor, having a melting point of around 175 degrees Celsius. We will then adjust this value based on the presence of the different substituents and their general effects on melting point:\\n- Keto groups (two present): these generally increase melting point due to the possibility of hydrogen bonding and dipole-dipole interactions, so an increment is expected. However, since these are already accounted for in the camphor value, we do not separately account for them again here.\\n- Methyl groups: Each methyl group generally raises the melting point due to increased van der Waals forces from the larger surface area and more electrons, but this is a small effect. Given that there are three methyl groups, a moderate increase will be considered, let's say +3 degrees each, totaling +9 degrees.\\n- A phenyl ring: This adds rigidity and allows for more van der Waals interactions. Adding a phenyl ring to a structure typically increases the melting point. We could estimate an increase of +20 degrees for this.\\n- Nitro group: The strong dipoles and possibility for intermolecular interactions with the nitro group are likely to increase the melting point. We estimate this to be around +15 degrees Celsius.\\nThe actual melting point is influenced by a complex interplay of these factors, not to mention crystal packing effects which are not predictable from the structure alone. Therefore, the contributions from each group might not be strictly additive, but for estimation purposes, we shall proceed as such.",
+        "Prediction": "To predict the melting point, we start with the camphor base value which is analogous to our bicyclic ketone structure. To this, we add the effects of the functional groups:\\nBase value (bicyclic ketone, camphor): 175 degrees Celsius\\n+ Methyl groups (3 groups): +9 degrees Celsius\\n+ Phenyl ring: +20 degrees Celsius\\n+ Nitro group: +15 degrees Celsius\\nPredicted value: 175 + 9 + 20 + 15 = 219 degrees Celsius",
+        "Prediction(integer)": 219.0
+    },
+    {
+        "mpC": 141.0,
+        "name": "(3E)-1,8,8-trimethyl-3-[(2-nitrophenyl)methylidene]bicyclo[3.2.1]octane-2,4-dione",
+        "smiles": "O=[N+]([O-])c1ccccc1C=C1C(=O)C2CCC(C)(C1=O)C2(C)C",
+        "csid": 4644823,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1356",
+        "Reason": "The target compound is derived from a bicyclic ketone structure similar to camphor, which has a melting point of around 175 degrees Celsius. However, the functional groups present in the compound affect the melting point in various ways:\n- Keto groups (two present): these are already accounted for in the camphor base value, so no separate addition is necessary.\n- Methyl groups (three present): Each methyl group slightly raises the melting point due to increased van der Waals forces; however, the effect is overstated in the initial prediction. A more reasonable estimate would be +1 degree each, so +3 degrees in total.\n- Phenyl ring: The phenyl ring contributes to rigidity and increased van der Waals interactions. However, the initial prediction likely overestimates the increase; a more modest increase of +5 degrees is appropriate.\n- Nitro group: This group increases the melting point via its strong dipoles and potential intermolecular interactions, but the initial estimate of +15 degrees may be high. A more conservative addition of +5 degrees is more appropriate.\nThe actual melting point will be affected by the interplay of these functional groups and crystal packing effects; thus, the sum of the individual contributions provides an approximation, not an absolute prediction.",
+        "Prediction": "Base value (bicyclic ketone, camphor): 175 degrees Celsius\n+ Methyl groups (3 groups): +3 degrees Celsius\n+ Phenyl ring: +5 degrees Celsius\n+ Nitro group: +5 degrees Celsius\nPredicted value: 175 + 3 + 5 + 5 = 188 degrees Celsius",
+        "Prediction(integer)": 188.0
+    },
+    {
+        "mpC": 141.0,
+        "name": "(3E)-1,8,8-trimethyl-3-[(2-nitrophenyl)methylidene]bicyclo[3.2.1]octane-2,4-dione",
+        "smiles": "O=[N+]([O-])c1ccccc1C=C1C(=O)C2CCC(C)(C1=O)C2(C)C",
+        "csid": 4644823,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1356",
+        "Reason": "The compound given is a complex organic molecule and determining the melting point quantitatively by considering each functional group's contribution requires a substantial amount of data which is not typically available for such a complex molecule. However, we can attempt a rough approximation based on known effects of similar functional groups. The basic units here are the cyclohexane ring and the aromatic phenyl ring. Cyclohexane has a melting point of 6.5 degrees Celsius, and benzene, which is the basis for the phenyl ring, has a melting point of 5.5 degrees Celsius. The effects of functional groups can be estimated as follows: (1) Ketone groups typically increase melting points due to their polar nature which increases intermolecular forces; (2) The addition of nitro groups to the phenyl ring also increases melting points due to their strong electron-withdrawing effect and the introduction of intermolecular hydrogen bonding; and (3) The trimethyl groups may slightly decrease melting point due to increased steric hindrance and a larger molecular size which can disrupt packing. The presence of multiple ketone groups suggests a significant increase in melting point, likely more than 100 degrees Celsius combined. The nitro group could add roughly another 30 degrees Celsius or more due to its strong effects. Methyl groups might reduce the overall melting point by a few degrees. Based on these effects we estimate approximately +130 degrees Celsius from the base cyclohexane and phenyl group melting points, resulting in a predicted melting point of around 140 degrees Celsius.",
+        "Prediction": "141.0",
+        "Prediction(integer)": 141.0
+    }
+]
