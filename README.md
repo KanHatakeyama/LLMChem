@@ -7,6 +7,7 @@
 - git clone https://github.com/KanHatakeyama/LLMChem
 
 # 関連Note(上から順にnew)
+- [Llama2を「化学物性+言語」データセットでファインチューニングして融点を予測させる](https://note.com/kan_hatakeyama/n/n74c8b2b3b4e7?sub_rt=share_pb )
 - [言語データセットを用い､プロンプトチューニングで分子構造から融点を予測する際のメモ](https://note.com/kan_hatakeyama/n/n43ddd541bdc6)
 - [なぜ分子の融点が◯◯℃なのかをGPT-4に考えさせる際の試行錯誤メモ ](https://note.com/kan_hatakeyama/n/n84c84da8f551)
 - [Explainableな構造ー物性の予測LLMモデルを作る研究の「目標とTODO」メモ](https://note.com/kan_hatakeyama/n/n56afe0df282a)
