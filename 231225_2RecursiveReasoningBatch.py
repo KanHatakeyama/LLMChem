@@ -12,8 +12,12 @@ import os
 import glob
 import json
 import copy
+import random
+
+import re
 
 # %%
+
 #環境構築からapi keyを読み込み
 openai.api_key =os.environ["OPENAI_API_KEY"]
 
@@ -22,6 +26,7 @@ openai.api_key =os.environ["OPENAI_API_KEY"]
 csv_path="dataset/BradleyMeltingPointDataset_clean.csv"
 df=pd.read_csv(csv_path)
 chemical_records=df.to_dict(orient='records')
+random.shuffle(chemical_records)
 chemical_records[:1]
 
 # %%
@@ -130,7 +135,6 @@ for gen_json_path in tqdm(gen_json_path_list):
     gen_records[gen_hist[0]["name"]]=gen_hist
 
 # %%
-import re
 
 def remove_non_alphabet_characters(s):
     # Using regex to remove all non-alphabet characters
@@ -178,7 +182,7 @@ for chemical_record in tqdm(chemical_records):
                     ),
                     model=model,
                 )
-                time.sleep(360)
+                time.sleep(260)
             except Exception as e:
                 #error occurs especially when generatin JSON data by gpt & rate limit
                 print(e)

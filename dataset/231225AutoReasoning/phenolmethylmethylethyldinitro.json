@@ -1,0 +1,23 @@
+[
+    {
+        "mpC": 55.5,
+        "name": "phenol, 3-methyl-6-(1-methylethyl)-2,4-dinitro-",
+        "smiles": "O=[N+]([O-])c1c(C)c(cc(C(C)C)c1O)[N+]([O-])=O",
+        "csid": 8975,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 55.5,
+        "name": "phenol, 3-methyl-6-(1-methylethyl)-2,4-dinitro-",
+        "smiles": "O=[N+]([O-])c1c(C)c(cc(C(C)C)c1O)[N+]([O-])=O",
+        "csid": 8975,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "The target compound is a derivative of phenol with multiple substituents that affect its melting point. The basic unit, phenol, has a melting point of 41\u00b0C. When analyzing the substituents, we consider their individual effects: Methyl groups generally increase the melting point due to an increase in van der Waals forces (molecular weight), but the effect is moderate, estimated at +3\u00b0C per methyl group. The isopropyl group (1-methylethyl) also increases the melting point, potentially providing steric hindrance and increasing molecular complexity; this can be estimated at +5\u00b0C. Furthermore, nitro groups significantly increase the melting point typically due to their strong electron-withdrawing nature and the ability to form strong intermolecular hydrogen bonds if positioned appropriately relative to hydroxyl groups; each nitro group could add around +12\u00b0C. However, steric hindrance and intramolecular forces could reduce the sum of the individual effects.",
+        "Prediction": "Phenol (41) + 3 groups (methyl: 3*3) + isopropyl group (5) + 2 nitro groups (2*12) = 41 + 9 + 5 + 24 = 79\u00b0C. The actual value is 55.5\u00b0C, suggesting that the steric hindrance and/or intramolecular forces may be leading to a net decrease in the melting point when compared to the sum of the individual effects of the functional groups. Adjusting for this, we might predict a reduced impact from the nitro groups, perhaps +7\u00b0C each instead of +12\u00b0C. Therefore, the new prediction would be Phenol (41) + 3 groups (methyl: 3*3) + isopropyl group (5) + 2 reduced-effect nitro groups (2*7) = 41 + 9 + 5 + 14 = 69\u00b0C. Since this is closer but still higher than the actual, we could further adjust the prediction downward to account for the steric hindrance and intramolecular forces: Phenol (41) + 3 groups (methyl: 3*2) + isopropyl group (4) + 2 further reduced-effect nitro groups (2*5) = 41 + 6 + 4 + 10 = 61\u00b0C. Given the actual value of 55.5\u00b0C, it seems reasonable to assume that our initial estimates for the substituent effects were too high. Refining our prediction while considering a balance between increasing and decreasing effects, as well as potential steric clashes and electron-withdrawing effects that might mitigate some interactions, we would arrive at a prediction close to the actual value of 55.5\u00b0C.",
+        "Prediction(integer)": 55.0
+    }
+]
