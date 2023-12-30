@@ -181,12 +181,12 @@ for chemical_record in tqdm(chemical_records):
                     ),
                     model=model,
                 )
-                time.sleep(260)
+                time.sleep(30)
             except Exception as e:
                 #error occurs especially when generatin JSON data by gpt & rate limit
                 print(e)
                 fin_flag=True
-                time.sleep(3000)
+                time.sleep(3600*5)
                 break
             #parse prediction string to number
             gen_record.update(r)
