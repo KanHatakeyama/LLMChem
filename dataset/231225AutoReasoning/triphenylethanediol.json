@@ -1,0 +1,34 @@
+[
+    {
+        "mpC": 163.0,
+        "name": "1,1,2-triphenylethane-1,2-diol",
+        "smiles": "OC(c1ccccc1)C(O)(c1ccccc1)c1ccccc1",
+        "csid": 86221,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4305",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 163.0,
+        "name": "1,1,2-triphenylethane-1,2-diol",
+        "smiles": "OC(c1ccccc1)C(O)(c1ccccc1)c1ccccc1",
+        "csid": 86221,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4305",
+        "Reason": "The basic unit here is the benzene ring, which has a melting point of 5.5\u00b0C. The compound in question, 1,1,2-triphenylethane-1,2-diol, has three phenyl groups and two hydroxyl groups attached. Each phenyl group raises the melting point due to increased pi-pi interactions and molecular weight. The introduction of a substituent to benzene generally increases its melting point by 20-30\u00b0C per phenyl group (let's take an average of 25\u00b0C for each). The hydroxyl groups introduce hydrogen bonding, which significantly raises the melting point. Hydrogen bonding typically contributes with a very significant increase which can be around 100\u00b0C when we have intermolecular hydrogen bonding between two OH groups over the molecule. Considering the effects to be additive, the overall prediction is calculated as the sum of these contributions.",
+        "Prediction": "5.5 + (3 * 25) + 100 = 180.5",
+        "Prediction(integer)": 180.0
+    },
+    {
+        "mpC": 163.0,
+        "name": "1,1,2-triphenylethane-1,2-diol",
+        "smiles": "OC(c1ccccc1)C(O)(c1ccccc1)c1ccccc1",
+        "csid": 86221,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4305",
+        "Reason": "The basic unit here is the benzene ring, which has a melting point of 5.5\u00b0C. The compound in question, 1,1,2-triphenylethane-1,2-diol, contains three phenyl groups and two hydroxyl groups. Each phenyl group is expected to increase the melting point due to increased pi-pi interactions and van der Waals forces. We can estimate an average increase of around 20\u00b0C for each phenyl group. The presence of two hydroxyl groups introduces strong intermolecular hydrogen bonding, which greatly increases the melting point. The influence of a single hydroxyl group on the melting point can be significant, ranging upwards of 50\u00b0C for intermolecularly hydrogen-bonded diols. Taking the arithmetic sum of these increments: for three phenyl groups, we predict an increase of 20\u00b0C each, totaling 60\u00b0C. For two hydroxyl groups capable of extensive hydrogen bonding, we estimate an increase of 50\u00b0C each, totaling 100\u00b0C. Adding these increments to the base melting point of benzene, we arrive at our predicted melting point.",
+        "Prediction": "5.5 + (3 * 20) + (2 * 50) = 165.5",
+        "Prediction(integer)": 165.5
+    }
+]
