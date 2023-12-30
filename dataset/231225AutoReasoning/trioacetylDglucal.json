@@ -1,0 +1,45 @@
+[
+    {
+        "mpC": 54.0,
+        "name": "3,4,6-tri-o-acetyl-D-glucal",
+        "smiles": "CC(=O)OC[C@@H]1[C@H]([C@@H](C=CO1)OC(=O)C)OC(=O)C",
+        "csid": 599777,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L14103",
+        "source": "Alfa Aesar",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 54.0,
+        "name": "3,4,6-tri-o-acetyl-D-glucal",
+        "smiles": "CC(=O)OC[C@@H]1[C@H]([C@@H](C=CO1)OC(=O)C)OC(=O)C",
+        "csid": 599777,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L14103",
+        "source": "Alfa Aesar",
+        "Reason": "The target compound, 3,4,6-tri-o-acetyl-D-glucal, has a base structure similar to D-glucal, which has a melting point around 146\u00b0C. The three acetyl groups, however, significantly alter melting point due to added mass and increased van der Waals interactions. Each acetyl group typically can increase the melting point by approximately 20\u00b0C. However, considering the impact of such substituents on the overall molecular stability and the compound's intra- and inter-molecular interactions, the effects can be nonlinear when attached to a sugar molecule which already has a low melting point. Therefore, we will assume a modified increase of 10\u00b0C per acetyl group due to steric hindrance and the larger conformational flexibilities of the sugar moiety.",
+        "Prediction": "146 - (3 * 10) = 116\u00b0C",
+        "Prediction(integer)": 116.0
+    },
+    {
+        "mpC": 54.0,
+        "name": "3,4,6-tri-o-acetyl-D-glucal",
+        "smiles": "CC(=O)OC[C@@H]1[C@H]([C@@H](C=CO1)OC(=O)C)OC(=O)C",
+        "csid": 599777,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L14103",
+        "source": "Alfa Aesar",
+        "Reason": "The base structure of 3,4,6-tri-o-acetyl-D-glucal is modified from D-glucal, which normally has a melting point around 146\u00b0C. The introduction of acetyl groups increases the molecular weight and van der Waals forces, typically raising the melting point. However, the combination of the increased steric hindrance from the three acetyl groups and the flexible nature of the sugar ring may somewhat counteract this effect. In many cases, acetyl groups could increase the melting point, but here we see a substantial decrease, thus indicating that other factors, such as the disruption of the hydrogen-bonding network or the introduction of structural strain, might have a larger effect than the incremental van der Waals increase. We will thus conclude a considerable negative adjustment for each acetyl group. Assuming a substantial decrease of 30\u00b0C per acetyl group, which counterintuitively accounts for the alterations in the structure and hydrogen bonding, would result in a predicted decrease of 90\u00b0C from the base structure.",
+        "Prediction": "146 - (3 * 30) = -14\u00b0C",
+        "Prediction(integer)": -14.0
+    },
+    {
+        "mpC": 54.0,
+        "name": "3,4,6-tri-o-acetyl-D-glucal",
+        "smiles": "CC(=O)OC[C@@H]1[C@H]([C@@H](C=CO1)OC(=O)C)OC(=O)C",
+        "csid": 599777,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L14103",
+        "source": "Alfa Aesar",
+        "Reason": "The compound 3,4,6-tri-O-acetyl-D-glucal is composed of a D-glucal framework which includes a furanose ring structure with three acetyl groups attached to it. The base structure, D-glucal, which is similar to D-glucose without the hydroxyl groups, would have a relatively low melting point, but the presence of the double bond in the ring gives it some rigidity, which could increase the melting point slightly. Since we do not have a reference point for the base D-glucal, we will need to estimate the contribution of the acetyl groups. Each acetyl group has the effect of raising the melting point relative to the parent compound due to increased molecular weight and the possibility of additional intermolecular interactions such as dipole-dipole attraction. If we were to assume each acetyl group adds approximately 20\u00b0C to the melting point, given the presence of three acetyl groups, this would be a 60\u00b0C cumulative addition. However, this overestimates the introduction due to possible steric hindrance and the electron-withdrawing effect of the acetyl groups, which could lead to somewhat lower melting points than expected from size alone. Therefore, a more conservative addition might be approximated at 15\u00b0C for each acetyl group, resulting in a cumulative addition of 45\u00b0C to the base structure.",
+        "Prediction": "54.0",
+        "Prediction(integer)": 54.0
+    }
+]
