@@ -1,0 +1,45 @@
+[
+    {
+        "mpC": 113.0,
+        "name": "1,3-propanediol, 2,2-bis(brme)-",
+        "smiles": "OCC(CBr)(CBr)CO",
+        "csid": 17652,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 113.0,
+        "name": "1,3-propanediol, 2,2-bis(brme)-",
+        "smiles": "OCC(CBr)(CBr)CO",
+        "csid": 17652,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "The basic unit to consider is ethylene glycol, which has a melting point of -13 degrees Celsius. Adding a carbon (propylene glycol) increases the melting point to -59 degrees Celsius due to the increased molecular weight and size, which usually leads to a higher melting point, but in this case the introduction of the third carbon disrupts the linear structure and strong hydrogen-bonding pattern of ethylene glycol, causing a decrease in melting point. Bromine substituents are large, heavy atoms that significantly increase the molecular weight, which will greatly increase the melting point. Each bromine atom could contribute significantly to the melting point; a conservatively low estimate would be a +40 degrees Celsius per bromine. Lastly, the addition of a second \u2013OH group will reintroduce hydrogen bonding, raising the melting point further, possibly by another +5 degrees Celsius due to increased opportunities for hydrogen bonding.",
+        "Prediction": "-59 (from the ethylene glycol after adjustment for propylene glycol) + 40 (for Br1) + 40 (for Br2) + 5 (second \u2013OH group) = 26 degrees Celsius",
+        "Prediction(integer)": 99999
+    },
+    {
+        "mpC": 113.0,
+        "name": "1,3-propanediol, 2,2-bis(brme)-",
+        "smiles": "OCC(CBr)(CBr)CO",
+        "csid": 17652,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "The basic unit we start with is ethylene glycol, which has a melting point of -13 degrees Celsius. Upon expanding to propylene glycol by adding one carbon, there is an expected increase in melting point due to increased molecular weight and size, but in reality, the melting point decreases to -59 degrees Celsius indicating that the added methyl group in propylene glycol disrupts the hydrogen-bonding network more than it stabilizes the molecule with van der Waals forces. The bromine atoms added to this structure are large and heavy, and their contribution to the molecular weight and polarizability is expected to significantly increase the melting point. Estimating conservatively, each bromine might contribute around +86 degrees Celsius, as seen in other compounds where bromine is substituted into a carbon chain. For the additional hydroxyl group, having two -OH groups can lead to increased hydrogen bonding compared to one, which could add a conservative estimate of +5 degrees Celsius to the melting point.",
+        "Prediction": "-59 + 86 (for Br1) + 86 (for Br2) + 5 (for second \u2013OH group) = 118 degrees Celsius",
+        "Prediction(integer)": 99999
+    },
+    {
+        "mpC": 113.0,
+        "name": "1,3-propanediol, 2,2-bis(brme)-",
+        "smiles": "OCC(CBr)(CBr)CO",
+        "csid": 17652,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "The basic unit here is ethane, which has a melting point of -183\u00b0C. When we add functional groups, the melting point is affected by several factors: (1) the hydroxyl (-OH) groups increase hydrogen bonding, which significantly increases the melting point, (2) the carbon-bromine (C-Br) bonds add polarizable mass, which modestly increases the melting point due to increased London dispersion forces, but also (3) the increased molecular weight and size could reduce symmetry, which might lower the melting point as compared to a more compact molecule. Each hydroxyl group might add approximately +100\u00b0C due to hydrogen bonding, and each C-Br could add about +50\u00b0C due to increased mass and London dispersion forces. Thus, the total increase in melting point could be estimated by: 2*(Hydroxyl effect) + 2*(C-Br effect).",
+        "Prediction": "Ethane: -183\u00b0C + 2*(100\u00b0C for hydroxyl groups) + 2*(50\u00b0C for bromine groups) = -183 + 200 + 100 = 117\u00b0C",
+        "Prediction(integer)": 117.0
+    }
+]

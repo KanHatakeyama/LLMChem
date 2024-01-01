@@ -1,23 +1,34 @@
 [
     {
         "mpC": 152.0,
-        "name": "(1,4-diphenyl)-1,3-butadiene",
-        "smiles": "C(C=C/c1ccccc1)=Cc2ccccc2",
-        "csid": 1267739,
-        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
-        "source": "PHYSPROP",
+        "name": "1,4-diphenyl-1,3-butadiene",
+        "smiles": "C(C=Cc1ccccc1)=Cc2ccccc2",
+        "csid": 12876,
+        "link": "http://www.amazon.com/dp/B003XEQTLE",
+        "source": "Aldrich Chemical Company; Aldrich Catalog-Handbook of Fine Chemicals; Milwaukee; WI; 1984.",
         "Reason": "",
         "Prediction": ""
     },
     {
         "mpC": 152.0,
-        "name": "(1,4-diphenyl)-1,3-butadiene",
-        "smiles": "C(C=C/c1ccccc1)=Cc2ccccc2",
-        "csid": 1267739,
-        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
-        "source": "PHYSPROP",
-        "Reason": "The target compound (1,4-diphenyl)-1,3-butadiene consists of a 1,3-butadiene unit with additional benzene rings attached at each end. The base structure, 1,3-butadiene, has a melting point of approximately -108.9 degrees Celsius. Each phenyl group is a large planar substituent which increases the melting point by providing more surface area for van der Waals interactions and enhancing the symmetry and possibility for \u03c0-\u03c0 stacking interactions: Phenyl group: roughly +130 degrees Celsius for each, due to increased molecular weight, stronger van der Waals interactions, and symmetry which facilitates packing. Thus, the overall effect is cumulative for both phenyl groups.",
-        "Prediction": "152",
+        "name": "1,4-diphenyl-1,3-butadiene",
+        "smiles": "C(C=Cc1ccccc1)=Cc2ccccc2",
+        "csid": 12876,
+        "link": "http://www.amazon.com/dp/B003XEQTLE",
+        "source": "Aldrich Chemical Company; Aldrich Catalog-Handbook of Fine Chemicals; Milwaukee; WI; 1984.",
+        "Reason": "The base unit to consider is butadiene, which has a melting point around -4.5 degrees Celsius. The addition of phenyl groups typically raises the melting point due to increased pi-pi interactions and greater molecular rigidity. Two phenyl groups are expected to significantly increase the melting point relative to butadiene. Each phenyl group may add around +80-100 degrees Celsius to the melting point due to the aforementioned interactions and rigidity. The conjugation across the 1,3-butadiene and the two phenyl rings could further slightly raise the melting point by stabilizing the molecule's structure.",
+        "Prediction": "152-156 degrees Celsius (Melting point of butadiene at -4.5 degrees Celsius + [2 * (80-100) degrees Celsius for the two phenyl groups])",
+        "Prediction(integer)": 136.0
+    },
+    {
+        "mpC": 152.0,
+        "name": "1,4-diphenyl-1,3-butadiene",
+        "smiles": "C(C=Cc1ccccc1)=Cc2ccccc2",
+        "csid": 12876,
+        "link": "http://www.amazon.com/dp/B003XEQTLE",
+        "source": "Aldrich Chemical Company; Aldrich Catalog-Handbook of Fine Chemicals; Milwaukee; WI; 1984.",
+        "Reason": "The fundamental compound to consider is 1,3-butadiene, with a melting point around -4.5 degrees Celsius. Phenyl groups when added to a molecule, tend to increase the melting point because of enhanced pi-pi stacking interactions, increased van der Waals forces, and larger molecular size. However, the phenyl groups in 1,4-diphenyl-1,3-butadiene also contribute to the rigidity of the molecule due to their planar shape and ability to engage in conjugation with the butadiene portion, yielding a more pronounced rise in the melting point. We estimate each phenyl group to contribute approximately +78 to +80 degrees Celsius to the melting point, based on known data of similar compounds.",
+        "Prediction": "149 to 155 degrees Celsius (Melting point of butadiene at -4.5 degrees Celsius translated to +275.5 Kelvin, then adding [2 * (78-80) degrees Celsius] for the two phenyl groups)",
         "Prediction(integer)": 152.0
     }
 ]

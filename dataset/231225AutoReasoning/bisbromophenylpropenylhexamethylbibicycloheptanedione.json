@@ -1,0 +1,34 @@
+[
+    {
+        "mpC": 118.0,
+        "name": "2,2'-bis(2-bromo-3-phenylprop-2-en-1-yl)-4,4',7,7,7',7'-hexamethyl-2,2'-bi(bicyclo[2.2.1]heptane)-3,3'-dione",
+        "smiles": "BrC(=Cc1ccccc1)CC1(C(=O)C2(C)CCC1C2(C)C)C1(CC(Br)=Cc2ccccc2)C(=O)C2(C)CCC1C2(C)C",
+        "csid": 2032051,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2902",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 118.0,
+        "name": "2,2'-bis(2-bromo-3-phenylprop-2-en-1-yl)-4,4',7,7,7',7'-hexamethyl-2,2'-bi(bicyclo[2.2.1]heptane)-3,3'-dione",
+        "smiles": "BrC(=Cc1ccccc1)CC1(C(=O)C2(C)CCC1C2(C)C)C1(CC(Br)=Cc2ccccc2)C(=O)C2(C)CCC1C2(C)C",
+        "csid": 2032051,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2902",
+        "Reason": "Considering the target compound's structure, we must evaluate the influence of various functional groups on the melting point relative to a simple hydrocarbon compound such as octane, which has a melting point of about -57 degrees Celsius. The target compound is rich with the following features: the presence of bromophenyl groups, double bonds, cyclohexane rings, ketones, tertiary carbons, and a large molecular weight due to its dimeric structure. Each phenyl ring contributes significantly to the melting point due to \u03c0-\u03c0 stacking interactions, which we can estimate as +100 degrees per phenyl group because aromatic interactions are strong. For each bromo group, we can estimate an increase of about +10 degrees due to increased molecular weight and dipole interactions. Double bonds contribute less to the melting point than single bonds, but in this case their conjugation with the aromatic ring might slightly increase the rigidity of the compound; therefore, we can conservatively estimate +5 degrees for the entire structure. Each ketone within the molecule contributes to the melting point through dipole-dipole interactions and possible hydrogen bonding, which we could estimate as +20 degrees for each ketone. The highly substituted tertiary carbons, specifically the quaternary carbon atoms at the centre of the dione structures, provide significant steric bulk, adding rigidity to the molecule, which can be estimated as +10 degrees per quaternary centre. Additionally, the two cyclohexane units bring up the melting point as well, estimated at +20 degrees per cyclohexyl dione unit due to increased rigidity and van der Waals interactions. Altogether, our compound has 2 phenyl groups, 2 bromo groups, 2 ketone groups, multiple tertiary carbons, and 2 cyclohexane dione units.",
+        "Prediction": "95",
+        "Prediction(integer)": 95.0
+    },
+    {
+        "mpC": 118.0,
+        "name": "2,2'-bis(2-bromo-3-phenylprop-2-en-1-yl)-4,4',7,7,7',7'-hexamethyl-2,2'-bi(bicyclo[2.2.1]heptane)-3,3'-dione",
+        "smiles": "BrC(=Cc1ccccc1)CC1(C(=O)C2(C)CCC1C2(C)C)C1(CC(Br)=Cc2ccccc2)C(=O)C2(C)CCC1C2(C)C",
+        "csid": 2032051,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2902",
+        "Reason": "Starting from a baseline hydrocarbon like octane with a melting point of -57 \u00b0C, we consider the addition of various functional groups to our target compound. For each of the aromatic phenyl groups, due to strong intermolecular \u03c0-\u03c0 stacking interactions, which could greatly increase the melting point, we might estimate an increase of about +50 \u00b0C per group. Bromine atoms have a significant atomic weight, which increases van der Waals interactions, and their polarity also contributes to the melting point; we can estimate an increase of about +15 \u00b0C for each bromine atom. Double bonds might not significantly alter the melting point compared to single bonds; however, their conjugation with aromatic rings may slightly increase rigidity, so let's allocate about +5 \u00b0C for the presence of this conjugated system. Each ketone contributes to the melting point through dipole-dipole interactions, which can be estimated as +10 \u00b0C per ketone. Highly substituted tertiary carbons and particularly quaternary carbon centers are intended to add steric bulk and rigidity, possibly contributing +5 \u00b0C per center. Lastly, each cyclohexane dione unit adds rigidity and increased van der Waals forces due to its saturated nature, possibly contributing +10 \u00b0C per unit. The target compound contains 2 phenyl groups, 2 bromo groups, 2 ketone groups, and 2 cyclohexane dione units. Therefore, the contributions are approximately: (2 phenyl groups * +50 \u00b0C) + (2 bromo groups * +15 \u00b0C) + (conjugation * +5 \u00b0C) + (2 ketone groups * +10 \u00b0C) + (2 quaternary centers * +5 \u00b0C) + (2 cyclohexane dione units * +10 \u00b0C). This gives us a total estimated increase of +180 \u00b0C from the baseline melting point of octane.",
+        "Prediction": "123 \u00b0C",
+        "Prediction(integer)": 123.0
+    }
+]

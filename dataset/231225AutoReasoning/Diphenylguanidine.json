@@ -1,0 +1,45 @@
+[
+    {
+        "mpC": 150.0,
+        "name": "1,1-Diphenylguanidine",
+        "smiles": "NC(=N)N(c1ccccc1)c2ccccc2",
+        "csid": 13990,
+        "link": "http://msds.chem.ox.ac.uk/",
+        "source": "academic website",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 150.0,
+        "name": "1,1-Diphenylguanidine",
+        "smiles": "NC(=N)N(c1ccccc1)c2ccccc2",
+        "csid": 13990,
+        "link": "http://msds.chem.ox.ac.uk/",
+        "source": "academic website",
+        "Reason": "The basic structure for comparison is benzene, with a melting point of 5.5\u00b0C. Adding a single amine group to the benzene would increase the melting point significantly because of stronger intermolecular hydrogen bonding; aniline, for example, has a melting point of -6\u00b0C. The presence of two phenyl groups further raises the temperature due to an increase in molecular weight and van der Waals forces, approximately +50\u00b0C for each phenyl group. The guanidine group is strongly basic and can engage in extensive hydrogen bonding, raising the temperature substantially, estimated to be an additional +60\u00b0C. The symmetric attachment of the phenyl groups in 1,1 orientation can increase the regularity and packing efficiency in the solid state, contributing further to increased melting point, possibly by an additional +10\u00b0C. There would be some steric hindrance between the two phenyl groups, but the effect on melting point is less predictable and likely smaller in comparison to the contributions from hydrogen bonding and molecular weight, so we will only slightly modify the overall prediction by -5\u00b0C considering steric effects.",
+        "Prediction": "170.0",
+        "Prediction(integer)": 170.0
+    },
+    {
+        "mpC": 150.0,
+        "name": "1,1-Diphenylguanidine",
+        "smiles": "NC(=N)N(c1ccccc1)c2ccccc2",
+        "csid": 13990,
+        "link": "http://msds.chem.ox.ac.uk/",
+        "source": "academic website",
+        "Reason": "The basic unit for comparison is benzene, with a melting point of 5.5\u00b0C. Guanidine has a very high melting point (e.g., a simple guanidine has a melting point around 50\u00b0C) primarily due to strong intermolecular hydrogen bonding, so for the central guanidine unit let's assign an increase of +45\u00b0C. Each of the two phenyl groups contributes to the melting point by increasing the molecular weight and van der Waals forces; however, the effect is less than that for a simple alkyl chain due to the planar and rigid structure that doesn't increase the surface area as much. For each phenyl group, let's estimate an increase of about +20\u00b0C. The symmetric 1,1-disubstituted arrangement can lead to more efficient molecular packing due to better symmetry, which could raise the melting point by approximately +5\u00b0C. There are no groups attached that create significant steric hindrance or reduce symmetry that would lead to a decrease in melting point in this case.",
+        "Prediction": "5.5 (benzene) + 45 (guanidine group) + 2*20 (two phenyl groups) + 5 (symmetry of 1,1-disubstitution) = 95.5\u00b0C",
+        "Prediction(integer)": 95.0
+    },
+    {
+        "mpC": 150.0,
+        "name": "1,1-Diphenylguanidine",
+        "smiles": "NC(=N)N(c1ccccc1)c2ccccc2",
+        "csid": 13990,
+        "link": "http://msds.chem.ox.ac.uk/",
+        "source": "academic website",
+        "Reason": "Starting with the basic unit aniline (phenylamine), which has a melting point around 184\u00b0C, we then analyze the impacts of each functional group. Substituting the hydrogen in aniline for a guanidine group (-C(=N)NH-) significantly alters the melting characteristics. The guanidine group adds additional nitrogen atoms, which contribute to a network of hydrogen bonds that would generally increase the melting point due to stronger intermolecular attractions. Adding a second phenyl group would also increase the molecular weight but can also increase the melting point due to enhanced pi-pi stacking interactions between the rings. However, the presence of guanidine brings steric hindrance which may disrupt the crystalline structure, thus lowering the melting point slightly compared to a more symmetrical di-substituted aniline. Adding these effects together, the guanidine group can be estimated to lower the melting point compared to aniline by 25\u00b0C (due to disruption of symmetry and steric hindrance), and each additional phenyl group may raise it by 5\u00b0C (due to pi-pi interactions and increased molecular weight).",
+        "Prediction": "164\u00b0C (184 - 25 + 5)",
+        "Prediction(integer)": 144.0
+    }
+]
