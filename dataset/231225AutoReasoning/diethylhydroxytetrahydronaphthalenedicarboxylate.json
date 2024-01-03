@@ -1,0 +1,63 @@
+[
+    {
+        "mpC": 46.0,
+        "name": "diethyl 2-hydroxy-5,6,7,8-tetrahydronaphthalene-1,3-dicarboxylate",
+        "smiles": "CCOC(=O)c1cc2c(c(c1O)C(=O)OCC)CCCC2",
+        "csid": 25027427,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H32720",
+        "source": "Alfa Aesar",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 46.0,
+        "name": "diethyl 2-hydroxy-5,6,7,8-tetrahydronaphthalene-1,3-dicarboxylate",
+        "smiles": "CCOC(=O)c1cc2c(c(c1O)C(=O)OCC)CCCC2",
+        "csid": 25027427,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H32720",
+        "source": "Alfa Aesar",
+        "Reason": "The basic unit for comparison is benzene, which has a melting point of 5.5 degrees Celsius. The diethyl ester groups (-COOCC) would generally increase the melting point due to the increase in molecular weight and the potential for additional weak intermolecular interactions, like dipole-dipole attraction. Each ester group could contribute approximately +15 degrees Celsius. The presence of a hydroxyl (-OH) group can significantly increase the melting point due to the ability to form strong intermolecular hydrogen bonds; this might contribute +40 degrees Celsius. The tetrahydronaphthalene structure deviates from the planar aromatic benzene structure, reducing pi-pi stacking interactions that could decrease the melting point relative to benzene; that effect might be around -10 degrees Celsius. Additionally, the molecule has a significant non-planar structure which could make the packing in the solid state less efficient, further slightly lowering the melting point. This last effect might be around -5 degrees Celsius.",
+        "Prediction": "5.5 (benzene) + 30 (2 ester groups) + 40 (hydroxyl group) - 10 (tetrahydronaphthalene structure) - 5 (non-planar structure) = 60.5",
+        "Prediction(integer)": 60.5
+    },
+    {
+        "mpC": 46.0,
+        "name": "diethyl 2-hydroxy-5,6,7,8-tetrahydronaphthalene-1,3-dicarboxylate",
+        "smiles": "CCOC(=O)c1cc2c(c(c1O)C(=O)OCC)CCCC2",
+        "csid": 25027427,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H32720",
+        "source": "Alfa Aesar",
+        "Reason": "The starting reference point, benzene, has a melting point of 5.5 degrees Celsius. Adding two diethyl ester groups is anticipated to raise the melting point due to an increase in molecular weight and possible intermolecular interactions such as dipole-dipole attractions; each ester group might add approximately +15 degrees Celsius. The hydroxyl (-OH) group is likely to substantially increase the melting point due to hydrogen bonding capabilities, potentially contributing +40 degrees Celsius. The tetrahydronaphthalene structure reduces the planarity compared to benzene, diminishing pi-pi stacking interactions, and is expected to lower the melting point, estimated to be a -10 degree Celsius change. The overall non-planar structure leads to less efficient packing in the solid state, which may slightly decrease the melting point by about -5 degrees Celsius.",
+        "Prediction": 5.5,
+        "Prediction(integer)": 5.5,
+        "smarts": "[cH:1]1ccc(cc1)-[#6:2](-[#6:3])(-[#6:4])-[#6:5]",
+        "actual": 80,
+        "reasoning": [
+            {
+                "group": "methyl",
+                "value": 30
+            }
+        ],
+        "appropriate": true
+    },
+    {
+        "mpC": 46.0,
+        "name": "diethyl 2-hydroxy-5,6,7,8-tetrahydronaphthalene-1,3-dicarboxylate",
+        "smiles": "CCOC(=O)c1cc2c(c(c1O)C(=O)OCC)CCCC2",
+        "csid": 25027427,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H32720",
+        "source": "Alfa Aesar",
+        "Reason": "The compound in question, diethyl 2-hydroxy-5,6,7,8-tetrahydronaphthalene-1,3-dicarboxylate, has several functional groups that will influence the melting point. Starting with the base structure, naphthalene has a melting point of 80 degrees Celsius. However, this compound is a derivative with additional structural modifications that we need to consider: \n1. The compound is partially hydrogenated (tetrahydronaphthalene). For every degree of saturation (removal of one double bond), the melting point is expected to decrease because the molecule becomes more flexible and less symmetric. For hydrogentated naphthalene we could consider each saturation point as decreasing by about -5 degrees Celsius, with 4 saturation points total. \n2. Two ester groups (diethyl dicarboxylate) are added, which generally increase the melting point due to increased molecular weight and possible dipole-dipole interactions. Each ester could be estimated to increase the melting point by +10 degrees Celsius. \n3. A hydroxyl group (alcohol) would increase the melting point due to the capability of hydrogen bonding. This could contribute an increase of about +5 degrees Celsius. \nConsidering these adjustments, we can estimate the melting point shift quantitatively for each functional group effect and predict the melting point accordingly.",
+        "Prediction": "80 (base naphthalene) - 20 (4x -5 for saturation) + 20 (2x +10 for ester groups) + 5 (hydroxyl group) = 85 degrees Celsius",
+        "Prediction(integer)": 85.0,
+        "smarts": "[cH:1]1ccc(cc1)-[#6:2](-[#6:3])(-[#6:4])-[#6:5]",
+        "actual": 80,
+        "reasoning": [
+            {
+                "group": "methyl",
+                "value": 30
+            }
+        ],
+        "appropriate": true
+    }
+]

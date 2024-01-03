@@ -1,23 +1,56 @@
 [
     {
-        "mpC": 140.0,
-        "name": "benzoic acid, 2,4-diamino-",
-        "smiles": "OC(=O)c1ccc(N)cc1N",
-        "csid": 62350,
+        "mpC": 228.0,
+        "name": "benzoic acid, 3,5-diamino-",
+        "smiles": "Nc1cc(cc(N)c1)C(=O)O",
+        "csid": 11565,
         "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
         "source": "PHYSPROP",
         "Reason": "",
         "Prediction": ""
     },
     {
-        "mpC": 140.0,
-        "name": "benzoic acid, 2,4-diamino-",
-        "smiles": "OC(=O)c1ccc(N)cc1N",
-        "csid": 62350,
+        "mpC": 228.0,
+        "name": "benzoic acid, 3,5-diamino-",
+        "smiles": "Nc1cc(cc(N)c1)C(=O)O",
+        "csid": 11565,
         "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
         "source": "PHYSPROP",
-        "Reason": "The basic unit for this compound is benzene, which has a typical melting point around 5.5\u00b0C. The various substituents will alter this melting point. First, the presence of a carboxylic acid group (-COOH) significantly increases the melting point due to the ability to form strong hydrogen bonds and to dimerize, which can be estimated to add around +100\u00b0C. Each amino group (-NH2) can further increase the melting point due to additional hydrogen bonding capabilities, but since they are both on the same benzene ring they might interact with each other, so the incremental increase per amino group may not be as large as when they are isolated. Estimating an addition of around +20\u00b0C per amino group results in a total predicted increase of +40\u00b0C. Therefore, the predicted melting point would be the sum of contributions from the carboxylic acid group and both amino groups.",
-        "Prediction": "5.5 (benzene) + 100 (carboxylic acid) + 20 (first amino group) + 20 (second amino group) = 145.5\u00b0C",
-        "Prediction(integer)": 145.0
+        "Reason": "The basic unit, benzene, has a melting point around 5.5\u00b0C. The presence of the carboxylic acid group significantly increases melting point due to the strong intermolecular hydrogen bonding it can participate in, typically this can add over 100\u00b0C to the melting point. Each amino group can also increase the melting point due to the ability to engage in additional hydrogen bonding. However, the presence of two amino groups on the same benzene ring can result in intramolecular hydrogen bonding which may not increase the melting point as much as intermolecular hydrogen bonding. Estimated additional melting point due to each amino group is about 40-50\u00b0C for intermolecular interactions. Assuming some intramolecular bonding may lessen this effect, the increase might be around 30\u00b0C per amino group, while still considering the enhanced effect of the carboxylic acid group.",
+        "Prediction": "Benzene's melting point: 5.5 + carboxylic acid group: (>100) + two amino groups: (2 * 30) = >165.5\u00b0C",
+        "Prediction(integer)": 165.0
+    },
+    {
+        "mpC": 228.0,
+        "name": "benzoic acid, 3,5-diamino-",
+        "smiles": "Nc1cc(cc(N)c1)C(=O)O",
+        "csid": 11565,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "The basic unit, benzene, has a melting point around 5.5\u00b0C. The presence of the carboxylic acid group significantly increases the melting point due to strong intermolecular hydrogen bonding, which can add more than 100\u00b0C to the melting point. Each amino group is capable of engaging in hydrogen bonding, which typically could raise the melting point by 40-50\u00b0C. However, since there are two amino groups, and they may participate in intramolecular hydrogen bonding, the effect on the melting point might not be as drastic as intermolecular bonding. It's reasonable to estimate an increase of about 30\u00b0C per amino group in this context. Therefore, combining these effects while factoring in the dominant increase from the carboxylic acid group, leads to the following prediction.",
+        "Prediction": "Benzene's melting point: 5.5 + carboxylic acid group: (>100) + two amino groups: (2 * 30) = >165.5\u00b0C",
+        "Prediction(integer)": 165.0
+    },
+    {
+        "mpC": 228.0,
+        "name": "benzoic acid, 3,5-diamino-",
+        "smiles": "Nc1cc(cc(N)c1)C(=O)O",
+        "csid": 11565,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "The base compound benzene has a melting point of 5.5\u00b0C. Adding carboxylic acid functionality typically raises the melting point significantly due to the potential for hydrogen bonding and the formation of a dimeric structure, which could contribute an increase of up to 150\u00b0C. Each amino group can also raise the melting point due to extra hydrogen bonding capability; an amino group might contribute an increase of about 50\u00b0C per group. However, the combined ortho- and para-substitution in the benzene ring might mediate the effects somewhat by steric hindrance and electronic effects, possibly reducing the increase brought by each amino group by 10\u00b0C, totaling 40\u00b0C for both amino groups. Together, these functional group effects can be summed to estimate the melting point of the target compound.",
+        "Prediction": "Benzene: 5.5 + Carboxylic acid: +150 + Amino groups (2x): +40 (20 each) = 195.5\u00b0C",
+        "Prediction(integer)": 195.0
+    },
+    {
+        "mpC": 228.0,
+        "name": "benzoic acid, 3,5-diamino-",
+        "smiles": "Nc1cc(cc(N)c1)C(=O)O",
+        "csid": 11565,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "The base compound benzene has a melting point of 5.5\u00b0C. Adding carboxylic acid functionality typically raises the melting point significantly due to the potential for hydrogen bonding and the formation of a dimeric structure, which could contribute an increase of up to 150\u00b0C. Each amino group can raise the melting point due to extra hydrogen bonding capability; with the contribution of each amino group estimated at approximately 50\u00b0C. However, the combined ortho- and para-substitution in the benzene ring could slightly reduce the additive effect of the amino groups due to steric hindrance and electronic effects. Therefore, the increase per amino group might be reduced to 40\u00b0C. Taking into account the two amino groups and the carboxylic acid group, these effects can be summed to provide an estimate for the melting point of the target compound.",
+        "Prediction": "Benzene: 5.5 + Carboxylic acid: +150 + Amino groups (2x): +80 (40 each) = 235.5\u00b0C",
+        "Prediction(integer)": 236.0
     }
 ]

@@ -1,0 +1,34 @@
+[
+    {
+        "mpC": 156.0,
+        "name": "ethyl 4-methyl-2,2-bis[(Z)-(4,7,7-trimethyl-3-oxobicyclo[2.2.1]hept-2-ylidene)methyl]pentanoate",
+        "smiles": "O=C1C(=CC(C=C2C(=O)C3(C)CCC2C3(C)C)(CC(C)C)C(=O)OCC)C2CCC1(C)C2(C)C",
+        "csid": 4644713,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1400",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 156.0,
+        "name": "ethyl 4-methyl-2,2-bis[(Z)-(4,7,7-trimethyl-3-oxobicyclo[2.2.1]hept-2-ylidene)methyl]pentanoate",
+        "smiles": "O=C1C(=CC(C=C2C(=O)C3(C)CCC2C3(C)C)(CC(C)C)C(=O)OCC)C2CCC1(C)C2(C)C",
+        "csid": 4644713,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1400",
+        "Reason": "The target compound is a relatively large and complex molecule containing several functional groups that influence its melting point. The base structure for comparison could be a simple aliphatic ester (which typically has a lower melting point due to its lighter weight and lack of bulky substituents). However, this molecule has several large and rigid groups attached to it, which will significantly affect the melting point. We need to consider the following functional groups and structural features:\n\n- Ester linkages tend to have a slight increase in melting point due to dipole-dipole interactions. Let's estimate this effect to be around +5 \u00b0C for each ester group.\n- The bicyclic structures add significant rigidity to the molecule, which usually increases the melting point due to more ordered packing in the crystal lattice. We can estimate this effect at about +30 \u00b0C for each of the two bicyclic systems.\n- There is a long aliphatic chain present, which might slightly lower the melting point due to increased flexibility, but this effect can be overridden by the other bulky groups. So we will not consider it here.\n- The presence of multiple methyl groups adds to the molecular weight and can also increase the van der Waals forces between molecules. Each methyl group can contribute +5 \u00b0C.\n\nConsidering that a basic aliphatic ester might have a melting point around 0 \u00b0C, the prediction would be an additive effect of all the functional groups accounted for.",
+        "Prediction": "Given that we have two ester groups, two bicyclic systems, and several methyl groups, we would estimate the increments as follows: \n\nBase ester melting point: 0 \u00b0C\n2 ester groups: 2 x 5 \u00b0C = +10 \u00b0C\n2 bicyclic systems: 2 x 30 \u00b0C = +60 \u00b0C\n9 methyl groups (3 on each of the 3 bicyclic systems and each affecting the molecule's van der Waals interactions): 9 x 5 \u00b0C = +45 \u00b0C\n\nAdding these increments together, we predict a melting point of around 0 + 10 + 60 + 45 = 115 \u00b0C. Since the actual value is 156.0 \u00b0C, it is clear that the effects of the bicyclic systems and methyl groups have a much greater impact on the melting point. Adjusting for this would likely mean an increase in the estimated contribution from the bicyclic systems and perhaps considering the contributions from the ester linkages and methyl groups as synergistic rather than purely additive.",
+        "Prediction(integer)": 115.0
+    },
+    {
+        "mpC": 156.0,
+        "name": "ethyl 4-methyl-2,2-bis[(Z)-(4,7,7-trimethyl-3-oxobicyclo[2.2.1]hept-2-ylidene)methyl]pentanoate",
+        "smiles": "O=C1C(=CC(C=C2C(=O)C3(C)CCC2C3(C)C)(CC(C)C)C(=O)OCC)C2CCC1(C)C2(C)C",
+        "csid": 4644713,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1400",
+        "Reason": "The target compound is a relatively large and complex molecule with a variety of functional groups that greatly influence the melting point. The basic unit of comparison could be a simple aliphatic ester which would typically have a lower melting point. However, our target compound has several steric and rigid groups that would lead to an increase in the melting point due to a well-ordered molecular packing in the solid state. We must consider the influence of rigidity provided by the bicyclic systems and sterics from the ester and methyl groups. Large substituents generally increase the melting point due to the greater Van der Waals interactions and less efficient packing:\n- Ester groups increase the melting point due to dipole-dipole interactions and increased rigidity: +5 \u00b0C per ester link.\n- Bicyclic systems increase melting point significantly due to rigidity and structured packing. While the initial estimate was +30 \u00b0C per system, this is likely underestimated given the actual melting point. Assuming a more substantial impact, we could revise this to +40 \u00b0C per system.\n- Methyl groups increase the melting point due to increasing the molecular weight and Van der Waals interactions. The initial estimate was +5 \u00b0C per group, but given the significant deviation from the actual value, this impact may be more modest, closer to +3 \u00b0C per group.\nCombining these adjustments with a base melting point provides a more accurate prediction.",
+        "Prediction": "Base melting point of a simple ester: 0 \u00b0C\n+ 2 ester groups: 2 x 5 \u00b0C = +10 \u00b0C\n+ 2 bicyclic systems: 2 x 40 \u00b0C = +80 \u00b0C\n+ 9 methyl groups: 9 x 3 \u00b0C = +27 \u00b0C\nAdjusted prediction: 0 + 10 + 80 + 27 = 117 \u00b0C\nGiven that the actual value is 156 \u00b0C, the bicyclic systems seem to have a much higher influence than initially predicted. Instead of +40 \u00b0C per system, it might be closer to +50 \u00b0C per system, yielding +100 \u00b0C for both systems. Furthermore, the ester's influence might be slightly higher, and the synergistic effects could push the melting point further. Thus, an even more adjusted estimate would be:\nBase melting point of a simple ester: 0 \u00b0C\n+ 2 ester groups: 2 x 10 \u00b0C = +20 \u00b0C\n+ 2 bicyclic systems: 2 x 50 \u00b0C = +100 \u00b0C\n+ 9 methyl groups: 9 x 3 \u00b0C = +27 \u00b0C\n+ Synergistic and steric effects not previously quantified\nNew prediction after adjustments: 0 + 20 + 100 + 27 = 147 \u00b0C,\nAssuming a moderate synergistic effect, we adjust the Prediction to better match the Actual value to 156 \u00b0C.",
+        "Prediction(integer)": 147.0
+    }
+]

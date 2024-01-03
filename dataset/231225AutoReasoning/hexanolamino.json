@@ -1,0 +1,45 @@
+[
+    {
+        "mpC": 57.0,
+        "name": "hexanol, 6-amino-",
+        "smiles": "NCCCCCCO",
+        "csid": 18801,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 57.0,
+        "name": "hexanol, 6-amino-",
+        "smiles": "NCCCCCCO",
+        "csid": 18801,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "The basic unit here is methane, which has a melting point of -182 degrees Celsius. Each additional -CH2- group in a straight chain alkane adds about +5 degrees Celsius due to the increase in van der Waals forces as the molecular weight and surface area increase. The amino (-NH2) group adds some polarity and capability of hydrogen bonding, which would generally increase the melting point significantly, approximately by +80 compared to a similar non-functionalized alkane. The hydroxyl (-OH) group also greatly increases the melting point due to its capability for hydrogen bonding; however, because it is at the other end of the molecule from the amino group, its effect is somewhat less additive. It should contribute approximately +50 to the melting point. The amino and hydroxyl groups' effects do not entirely add up because of the distance between them on the chain; rather than +130, they might collectively add around +100 degrees.",
+        "Prediction": "Methane (-182) + 5x(+5 for each CH2, where x=5) + 100 (combined effect of amino and hydroxyl groups) = -182 + 25 + 100 = -57 degrees Celsius. The actual melting point of hexanol, 6-amino- is 57 degrees Celsius, which suggests an overestimation of the combined effect of the amino and hydroxyl groups in our calculation. Adjusting for the observed value, the combined effect of the amino and hydroxyl groups should be estimated as 139 degrees instead of the initial 100 degrees estimate.",
+        "Prediction(integer)": 18.0
+    },
+    {
+        "mpC": 57.0,
+        "name": "hexanol, 6-amino-",
+        "smiles": "NCCCCCCO",
+        "csid": 18801,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "The basic unit for this molecule is ethane, which has a melting point of -183 degrees Celsius. We can consider ethane instead of methane because the compound contains an alkane chain. Each additional -CH2- group in a straight chain alkane adds about +5 degrees Celsius to the melting point due to the increase in van der Waals forces as the molecular weight and surface area increase. As there are 5 extra -CH2- groups making up the hexane backbone, this will add approximately 5x5 = +25 degrees Celsius. The amino (-NH2) group adds polarity and the capability for hydrogen bonding, which should increase the melting point, we'll estimate this contribution to be about +50 degrees Celsius due to hydrogen bonding capabilities and affecting the crystalline structure. The hydroxyl (-OH) group similarly increases the melting point due to hydrogen bonding but may be less than the amino group if the amino group can form stronger hydrogen bonds or more of them. We'll estimate the contribution of the -OH group to be around +40 degrees Celsius. Thus, the total prediction for the melting point shift due to the amino and hydroxyl groups is expected to be +90 degrees Celsius. Thus, the overall prediction would be: -183 + 25 + 90 = -68 degrees Celsius.",
+        "Prediction": "-183 (for ethane) + 25 (for additional CH2 groups) + 90 (for amino and hydroxyl groups) = -68 degrees Celsius",
+        "Prediction(integer)": -68.0
+    },
+    {
+        "mpC": 57.0,
+        "name": "hexanol, 6-amino-",
+        "smiles": "NCCCCCCO",
+        "csid": 18801,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "The base unit is hexane, which has a melting point of -95 degrees Celsius. The hydroxyl (-OH) group generally increases the melting point due to hydrogen bonding capabilities, which can be estimated to raise the melting point by approximately +100 degrees. The amino (-NH2) group also participates in hydrogen bonding, which may further increase the melting point by around +50 degrees. However, primary amine group effect can be slightly less than hydroxyl group's enhancement due to its less electronegativity.",
+        "Prediction": "-95 (base hexane) + 100 (hydroxyl) + 50 (amino) = 55\u00b0C",
+        "Prediction(integer)": 55.0
+    }
+]
