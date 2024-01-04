@@ -1,23 +1,34 @@
 [
     {
         "mpC": 213.0,
-        "name": "5-methylnicotinic acid",
-        "smiles": "Cc1cc(cnc1)C(=O)O",
-        "csid": 224685,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L16370",
+        "name": "6-methylnicotinic acid",
+        "smiles": "Cc1ccc(cn1)C(=O)O",
+        "csid": 121509,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L08877",
         "source": "Alfa Aesar",
         "Reason": "",
         "Prediction": ""
     },
     {
         "mpC": 213.0,
-        "name": "5-methylnicotinic acid",
-        "smiles": "Cc1cc(cnc1)C(=O)O",
-        "csid": 224685,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L16370",
+        "name": "6-methylnicotinic acid",
+        "smiles": "Cc1ccc(cn1)C(=O)O",
+        "csid": 121509,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L08877",
         "source": "Alfa Aesar",
-        "Reason": "The target compound 5-methylnicotinic acid is structurally similar to nicotinic acid whose melting point is around 234-237 degrees Celsius. The additional methyl group normally raises the melting point due to an increase in molecular weight and a slight increase in van der Waals forces. However, the methyl group also adds steric hindrance, which can interfere with the packing of the molecules, possibly lowering the melting point. In this case, due to the position of the methyl group, it has a smaller effect on the molecular packing than if it were in a position to interfere more directly with the hydrogen bonding of the carboxylic acid. Therefore the influence on the melting point might be less. Hence, the presence of the methyl group might slightly depress the melting point from that of nicotinic acid. In estimating the effect, the methyl group might depress the melting point by about -20 to -25 degrees Celsius.",
-        "Prediction": "210-215",
-        "Prediction(integer)": 212.0
+        "Reason": "The target compound, 6-methylnicotinic acid, contains a pyridine base with a carboxylic acid and a methyl group. The basic unit, pyridine, has a melting point of around 20\u00b0C. The carboxylic acid group typically raises the melting point significantly due to the capacity for strong hydrogen bonding, contributing an estimated +150\u00b0C. The methyl group provides a smaller increase in the melting point by increasing the molecular weight and providing some van der Waals interactions; this is estimated at an increase of +10\u00b0C. The combined effects of these functional groups are additive.",
+        "Prediction": "180\u00b0C (20 for the pyridine base + 150 for the carboxylic acid group + 10 for the methyl group)",
+        "Prediction(integer)": 150.0
+    },
+    {
+        "mpC": 213.0,
+        "name": "6-methylnicotinic acid",
+        "smiles": "Cc1ccc(cn1)C(=O)O",
+        "csid": 121509,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L08877",
+        "source": "Alfa Aesar",
+        "Reason": "The target compound, 6-methylnicotinic acid, contains a pyridine base with a carboxylic acid and a methyl group. The basic unit, pyridine, has a melting point of around 20\u00b0C. The carboxylic acid group typically raises the melting point significantly due to the capacity for strong hydrogen bonding, contributing an estimated +150\u00b0C. However, this estimate is too low, as the actual value is higher. Therefore, we need to consider the combined influence of the carboxylic acid group not just for hydrogen bonding, but also for its effect on the molecular rigidity and potential dimerization, which can raise the melting point more than the basic +150\u00b0C predicted for a simple carboxyl addition. This group can be reassessed to provide +190\u00b0C over the base pyridine melting point. The methyl group provides a smaller increase in the melting point by increasing the molecular weight and providing some van der Waals interactions; this is estimated at an increase of +3\u00b0C instead of +10\u00b0C, considering the actual value matches with a smaller contribution from the methyl group. The effects of the functional groups can be assumed to be additive, although in reality the interactions can be more complex.",
+        "Prediction": "213\u00b0C (20 for the pyridine base + 190 for the carboxylic acid group + 3 for the methyl group)",
+        "Prediction(integer)": 213.0
     }
 ]

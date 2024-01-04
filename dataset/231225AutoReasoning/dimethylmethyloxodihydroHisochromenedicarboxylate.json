@@ -1,0 +1,23 @@
+[
+    {
+        "mpC": 135.0,
+        "name": "dimethyl 6-methyl-1-oxo-1,4-dihydro-3H-isochromene-3,3-dicarboxylate",
+        "smiles": "O=C1OC(Cc2cc(C)ccc12)(C(=O)OC)C(=O)OC",
+        "csid": 2033792,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2594",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 135.0,
+        "name": "dimethyl 6-methyl-1-oxo-1,4-dihydro-3H-isochromene-3,3-dicarboxylate",
+        "smiles": "O=C1OC(Cc2cc(C)ccc12)(C(=O)OC)C(=O)OC",
+        "csid": 2033792,
+        "link": "http://dx.doi.org/10.1021/ci0500132",
+        "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2594",
+        "Reason": "The basic unit for this compound can be considered as the isochromene structure, which is a bicyclic compound consisting of a benzene ring fused with a pyran ring. The melting point for a simple bicyclic aromatic compound like naphthalene is approximately 80 degrees Celsius. To this base, we need to consider the effects of the following substituents:\n\n- Methyl group: Typically adds slightly to the melting point due to an increase in molecular weight and a slight increase in symmetry, let's estimate +5 degrees per methyl group.\n\n- Ester groups (3 in total, each contains a -CO2R function): Esters can increase the melting point due to their polar nature and capacity for dipole-dipole interactions. However, methyl esters are relatively small and may not have a significant impact. We'll estimate about +10 degrees for each ester.\n\n- Ketone (1 oxo- group): Ketones can increase the melting point through dipole interactions but have a lesser effect than ester groups. We will estimate +5 degrees for the ketone functionality.\n\nBy adding these estimated contributions to the base compound's melting point, we can predict the melting point of the target compound.",
+        "Prediction": "The base melting point is approximately 80 degrees. Adding +5 for each of the three methyl groups gives us 15 degrees. Each of the three ester groups contributes an additional 10 degrees, totaling 30 degrees. The ketone group contributes +5 degrees. The sum of these is 80 + 15 + 30 + 5 = 130 degrees Celsius.",
+        "Prediction(integer)": 130.0
+    }
+]
