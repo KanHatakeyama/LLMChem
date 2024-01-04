@@ -15,29 +15,32 @@
 - [explainableな構造ー物性相関のLLM予測モデルのデータセットの自動生成 ](https://note.com/kan_hatakeyama/n/n8e5506240630)
 
 - ![](contents/scheme.png)
+- ![](contents/reason.png)
 
 # 結果の例
-― [codeはこちら](https://github.com/KanHatakeyama/LLMChem/tree/20231216pub)
+- [GoogleColabのNotebook(24/1/4)](https://drive.google.com/file/d/1Hn61xplqK2zDxMQ_yp1qPt2kpBwO8a8T/view?usp=sharing)
+- [codeはこちら](https://github.com/KanHatakeyama/LLMChem/tree/20231216pub)
 - 条件
-  - ランダムに選択した10分子で比較
-  - GPT3.5で理由生成&回答
-  - ランダム性を考慮して､予測は独立に3回
-  - 単一の予測において､範囲が10-20のように示された場合､10,20にplot
+  - GPT-4で理由を自動生成(約2500件 計算済み)
+  - LLama2で構造ー理由ー物性データをLoRAファインチューニング
+  - ランダムに選択した50分子の融点を予測
 - 結果
-  - オリジナルのモデル
-    - "回答不能"な結果が帰ってきたデータが過半数を占めたので､そもそもプロットが少ない
-    - 精度も微妙
-    - ![](contents/wo_reason.png)
+  - オリジナルのLLama2-13b
+    - ![](results/model=13_20240104_085244_train=False.png)
 
-  - Rを生成して回答させたモデル
+  - 構造ー理由ー物性の関係を学習したモデル 
     - 予測精度が向上
-    - ![](contents/w_reason.png)
+    - ![](results/model=13_20240104_103546_train=True.png)
 
 # 研究進捗
 - 2023/12/16
-  - フレームを作る
+  - フレームを作成
 - 12/24
   - 再帰などを実装
-  - 融点データセットの計算を開始 (現在: 約300件/2.5万件)
+  - 融点データセットの計算を開始 (約300件/2.5万件)
 - 12/29
   - プロンプトチューニングやファインチューニングを軽く実装
+- 2024/1/4
+  - ファインチューニングを本格実装
+  - 推論の高速化 など
+  - Google Colabのサンプルコードを実装
