@@ -1,0 +1,23 @@
+[
+    {
+        "mpC": 93.5,
+        "name": "2,3,5,6-tetrachlorotoluene",
+        "smiles": "Cc1c(Cl)c(Cl)cc(Cl)c1Cl",
+        "csid": 13270,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "",
+        "Prediction": ""
+    },
+    {
+        "mpC": 93.5,
+        "name": "2,3,5,6-tetrachlorotoluene",
+        "smiles": "Cc1c(Cl)c(Cl)cc(Cl)c1Cl",
+        "csid": 13270,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "The basic structure of toluene has a melting point of -93\u00b0C. Each chloro group, being electronegative and contributing to the overall dipole, generally increases the molecular interactions such as dipole-dipole attractions and van der Waals forces compared to the hydrogen it replaces, thereby increasing the melting point. The methyl group makes the compound more hydrophobic and slightly raises the melting point due to increased van der Waals interactions. Considering the effects of these functional groups: \n- Chloro group (4x): Given chlorobenzene has a melting point of -45\u00b0C compared to benzene with 5.5\u00b0C, each chloro substituent increases the melting point by approximately (5.5 - (-45)) / 1 = 50.5\u00b0C. Since there are four chloro groups, the total increment due to chloro group would be 4 x 50.5 = 202\u00b0C (adjusting for the fact that the change will not be linear as the molecule becomes more substituted). However, the presence of four chlorine atoms adds steric hindrance and affects the crystalline structure stability, which may decrease the expected linear increment. Therefore, we might allow for a decrease in the increment per chloro group from 50.5\u00b0C to around 30\u00b0C. \n- Methyl group: Given that toluene's melting point is higher than benzene by about 3\u00b0C, we can assign a small increase due to the methyl group, such as 3\u00b0C. \nTherefore, we predict an increase over the base benzene melting point of about (4x30 + 3) = 123\u00b0C.",
+        "Prediction": "Benzene has a melting point of 5.5\u00b0C. Adjusting for four chloro groups and one methyl group, the predicted melting point of 2,3,5,6-tetrachlorotoluene would be approximately 5.5 + 123 = 128.5\u00b0C. However, the actual value of 93.5\u00b0C indicates that the predicted increase by the chloro groups was overestimated. After accounting for steric and electronic factors collectively, the total effect of the chloro groups should be reduced. An adjusted increase might instead be 22\u00b0C per chloro group and 3\u00b0C for the methyl group, which would result in a prediction closer to the actual value: (4x22 + 3 + 5.5) = 94.5\u00b0C.",
+        "Prediction(integer)": 94.0
+    }
+]
