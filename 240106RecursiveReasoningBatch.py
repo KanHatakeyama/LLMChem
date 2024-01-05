@@ -85,11 +85,20 @@ def json_generate(prompt,model="gpt-3.5-turbo-1106"):
             "content": f"""{prompt}"""
         }  
     ],
+    logprobs=True,
     response_format={ "type": "json_object" }
     )
 
-    return (json.loads(response.choices[0].message.content))
+    return (json.loads(response.choices[0].message.content)),response
 
+def parse_log_probs(response):
+    log_probs=[]
+    for token_pack in (response.choices[0].logprobs.content):
+        token=token_pack.token
+        logprob=token_pack.logprob
+        log_probs.append((token,logprob))
+
+    return log_probs
 
 #parse prediction
 def prediction_string_to_number(prompt,model="gpt-3.5-turbo-1106"):
@@ -174,13 +183,14 @@ for chemical_record in tqdm(chemical_records):
         #improve reasoing
         for i in range(n_recursion):
             try:
-                r=json_generate(
+                r,response=json_generate(
                     gen_prompt(gen_record,
                             reason=gen_record["Reason"],
                             prediction=gen_record["Prediction"]
                     ),
                     model=model,
                 )
+                r["logprob"]=parse_log_probs(response)
                 time.sleep(30)
             except Exception as e:
                 #error occurs especially when generatin JSON data by gpt & rate limit
@@ -207,6 +217,7 @@ for chemical_record in tqdm(chemical_records):
     save_path=save_base_path+f"{save_name}.json"
     with open(save_path, 'w') as f:
         json.dump(record_history, f, indent=4)
+    print(save_path)
 
     gen_records[gen_record["name"]]=record_history
 
