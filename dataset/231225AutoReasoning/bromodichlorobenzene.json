@@ -1,34 +1,789 @@
 [
     {
-        "mpC": 34.0,
-        "name": "2-bromo-1,4-dichlorobenzene",
-        "smiles": "c1cc(c(cc1Cl)Br)Cl",
-        "csid": 14309,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A12056",
+        "mpC": 61.0,
+        "name": "2-bromo-1,3-dichlorobenzene",
+        "smiles": "c1cc(c(c(c1)Cl)Br)Cl",
+        "csid": 27488,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L11062",
         "source": "Alfa Aesar",
         "Reason": "",
         "Prediction": ""
     },
     {
-        "mpC": 34.0,
-        "name": "2-bromo-1,4-dichlorobenzene",
-        "smiles": "c1cc(c(cc1Cl)Br)Cl",
-        "csid": 14309,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A12056",
+        "mpC": 61.0,
+        "name": "2-bromo-1,3-dichlorobenzene",
+        "smiles": "c1cc(c(c(c1)Cl)Br)Cl",
+        "csid": 27488,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L11062",
         "source": "Alfa Aesar",
-        "Reason": "The basic unit for 2-bromo-1,4-dichlorobenzene is benzene, which has a melting point of 5.5\u00b0C. Each chlorine atom, being an electron-withdrawing group via inductive effect, would increase the melting point because it makes the molecule more polar and increases intermolecular forces. A bromine atom is larger than a chlorine atom, and while it also has some electron-withdrawing effect, the larger size contributes significantly to increasing London dispersion forces. Thus, bromine's effect on the melting point will be approximately similar to that of chlorine, but slightly more due to its larger size. If we assume each chlorine adds +20\u00b0C to the melting point due to these effects, and bromine adds around +25\u00b0C (being similar but slightly more potent), we can predict the melting point as follows: 5.5 (benzene) + (2 x 20) (for two chlorines) + 25 (for one bromine) = 70.5\u00b0C.",
-        "Prediction": "70.5",
-        "Prediction(integer)": 70.0
-    },
-    {
-        "mpC": 34.0,
-        "name": "2-bromo-1,4-dichlorobenzene",
-        "smiles": "c1cc(c(cc1Cl)Br)Cl",
-        "csid": 14309,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A12056",
-        "source": "Alfa Aesar",
-        "Reason": "The base structure of 2-bromo-1,4-dichlorobenzene is benzene, with a melting point of 5.5\u00b0C. Adding halogens to a benzene ring generally increases its melting point due to the enhancement of intermolecular forces, such as dipole-dipole interactions and London dispersion forces. Chlorine atoms not only contribute to dipole interactions but also increase van der Waals forces due to their size and mass. However, each chlorine atom likely contributes less to the melting point than the given value since the actual melting point is significantly lower than predicted. Assuming each chlorine contributes +10\u00b0C, the result is a more modest increase. Similarly, the bromine atom contributes due to its larger size and higher mass, but clearly the effect of this contribution must also be smaller than initially predicted. Let's estimate it to be slightly higher than that of chlorine due to its larger size, say +12\u00b0C. The revised prediction is calculated by summing the contributions: 5.5 (benzene) + (2 x 10) (for two chlorines) + 12 (for one bromine) = 37.5\u00b0C.",
-        "Prediction": "37.5",
-        "Prediction(integer)": 37.0
+        "Reason": "The basic unit, benzene, has a melting point of 5.5\u00b0C. Chlorine substituents on the benzene ring, due to their electron-withdrawing nature and increased molecular weight, tend to increase the melting point by approximately 20\u00b0C for each chlorine. A bromine substituent, being similar but larger and more polarizable than chlorine, typically increases the melting point by approximately 30\u00b0C. Since the compound has two chlorines and one bromine, we would predict an increase of (2 * 20) + 30 = 70\u00b0C. However, their placement on the ring at ortho and para positions could result in steric hindrance that reduces the overall impact of these groups on the melting point, so we might expect a slight deduction in the overall predicted increase, let's say a 9\u00b0C deduction for steric factors.",
+        "Prediction": "66.5",
+        "logprob": [
+            [
+                "{\n",
+                -0.00011951648
+            ],
+            [
+                " ",
+                -0.17978883
+            ],
+            [
+                " \"",
+                -1.9361265e-07
+            ],
+            [
+                "Reason",
+                0.0
+            ],
+            [
+                "\":",
+                -0.0003421376
+            ],
+            [
+                " \"",
+                -0.0027402083
+            ],
+            [
+                "The",
+                -0.11953049
+            ],
+            [
+                " basic",
+                -0.72163093
+            ],
+            [
+                " unit",
+                -0.040525492
+            ],
+            [
+                ",",
+                -0.91030747
+            ],
+            [
+                " benz",
+                -0.00054135814
+            ],
+            [
+                "ene",
+                -6.704273e-07
+            ],
+            [
+                ",",
+                -0.032924112
+            ],
+            [
+                " has",
+                -0.00248315
+            ],
+            [
+                " a",
+                -0.00044377794
+            ],
+            [
+                " melting",
+                -0.005933186
+            ],
+            [
+                " point",
+                -1.867018e-05
+            ],
+            [
+                " of",
+                -0.028757308
+            ],
+            [
+                " ",
+                -0.004338022
+            ],
+            [
+                "5",
+                -2.7133641e-05
+            ],
+            [
+                ".",
+                -3.261701e-05
+            ],
+            [
+                "5",
+                -0.0021300411
+            ],
+            [
+                "\u00b0C",
+                -0.6910312
+            ],
+            [
+                ".",
+                -0.002480531
+            ],
+            [
+                " Chlor",
+                -1.1694806
+            ],
+            [
+                "ine",
+                -0.35811174
+            ],
+            [
+                " substit",
+                -0.46654597
+            ],
+            [
+                "u",
+                -0.0045826156
+            ],
+            [
+                "ents",
+                -4.4849444e-06
+            ],
+            [
+                " on",
+                -3.8527236
+            ],
+            [
+                " the",
+                -0.30239835
+            ],
+            [
+                " benz",
+                -0.089982726
+            ],
+            [
+                "ene",
+                -1.4378848e-05
+            ],
+            [
+                " ring",
+                -0.03752895
+            ],
+            [
+                ",",
+                -3.237588
+            ],
+            [
+                " due",
+                -0.27370602
+            ],
+            [
+                " to",
+                -0.000626299
+            ],
+            [
+                " their",
+                -0.050467785
+            ],
+            [
+                " electron",
+                -1.5907186
+            ],
+            [
+                "-with",
+                -0.013854353
+            ],
+            [
+                "drawing",
+                -2.58224e-05
+            ],
+            [
+                " nature",
+                -0.12131718
+            ],
+            [
+                " and",
+                -0.014945832
+            ],
+            [
+                " increased",
+                -1.2863338
+            ],
+            [
+                " molecular",
+                -0.07929302
+            ],
+            [
+                " weight",
+                -0.025208788
+            ],
+            [
+                ",",
+                -0.080795616
+            ],
+            [
+                " tend",
+                -1.6274818
+            ],
+            [
+                " to",
+                -0.00017612721
+            ],
+            [
+                " increase",
+                -0.49857464
+            ],
+            [
+                " the",
+                -0.01792691
+            ],
+            [
+                " melting",
+                -0.0011947522
+            ],
+            [
+                " point",
+                -0.0001752928
+            ],
+            [
+                " by",
+                -3.8101766
+            ],
+            [
+                " approximately",
+                -0.62312055
+            ],
+            [
+                " ",
+                -0.43497732
+            ],
+            [
+                "20",
+                -0.17852549
+            ],
+            [
+                "\u00b0C",
+                -0.018028889
+            ],
+            [
+                " for",
+                -1.4717915
+            ],
+            [
+                " each",
+                -0.008716332
+            ],
+            [
+                " chlorine",
+                -0.25088128
+            ],
+            [
+                ".",
+                -0.3567433
+            ],
+            [
+                " A",
+                -2.426438
+            ],
+            [
+                " brom",
+                -0.008901849
+            ],
+            [
+                "ine",
+                -0.0003155625
+            ],
+            [
+                " substit",
+                -0.051151138
+            ],
+            [
+                "uent",
+                -0.00035608074
+            ],
+            [
+                ",",
+                -1.2416104
+            ],
+            [
+                " being",
+                -0.40265197
+            ],
+            [
+                " similar",
+                -5.690953
+            ],
+            [
+                " but",
+                -0.7140588
+            ],
+            [
+                " larger",
+                -1.6330596
+            ],
+            [
+                " and",
+                -0.38699466
+            ],
+            [
+                " more",
+                -1.2556121
+            ],
+            [
+                " polar",
+                -0.7629341
+            ],
+            [
+                "izable",
+                -0.004035303
+            ],
+            [
+                " than",
+                -0.02938187
+            ],
+            [
+                " chlorine",
+                -0.0017800184
+            ],
+            [
+                ",",
+                -0.0005837726
+            ],
+            [
+                " typically",
+                -2.0660145
+            ],
+            [
+                " increases",
+                -0.6163543
+            ],
+            [
+                " the",
+                -0.006888708
+            ],
+            [
+                " melting",
+                -0.0003277176
+            ],
+            [
+                " point",
+                -0.0004391327
+            ],
+            [
+                " by",
+                -0.26364616
+            ],
+            [
+                " approximately",
+                -2.3308573
+            ],
+            [
+                " ",
+                -0.0017998889
+            ],
+            [
+                "30",
+                -1.8290424
+            ],
+            [
+                "\u00b0C",
+                -0.0011521248
+            ],
+            [
+                ".",
+                -0.042069715
+            ],
+            [
+                " Since",
+                -2.0706568
+            ],
+            [
+                " the",
+                -1.8916645
+            ],
+            [
+                " compound",
+                -0.33932847
+            ],
+            [
+                " has",
+                -0.11456128
+            ],
+            [
+                " two",
+                -0.0668234
+            ],
+            [
+                " chlor",
+                -0.49849692
+            ],
+            [
+                "ines",
+                -0.0013660697
+            ],
+            [
+                " and",
+                -0.009744283
+            ],
+            [
+                " one",
+                -0.0013089291
+            ],
+            [
+                " brom",
+                -1.147242e-06
+            ],
+            [
+                "ine",
+                -1.569009e-05
+            ],
+            [
+                ",",
+                -0.03542174
+            ],
+            [
+                " we",
+                -1.4999611
+            ],
+            [
+                " would",
+                -0.6259802
+            ],
+            [
+                " predict",
+                -2.1591806
+            ],
+            [
+                " an",
+                -0.21975988
+            ],
+            [
+                " increase",
+                -0.49277583
+            ],
+            [
+                " of",
+                -0.19663031
+            ],
+            [
+                " (",
+                -0.4579267
+            ],
+            [
+                "2",
+                -0.061975636
+            ],
+            [
+                " *",
+                -0.29995006
+            ],
+            [
+                " ",
+                -0.00031532408
+            ],
+            [
+                "20",
+                -3.7697225e-06
+            ],
+            [
+                ")",
+                -0.30844557
+            ],
+            [
+                " +",
+                -0.007536114
+            ],
+            [
+                " ",
+                -0.022679737
+            ],
+            [
+                "30",
+                -2.0100624e-05
+            ],
+            [
+                " =",
+                -0.11746322
+            ],
+            [
+                " ",
+                -0.001262733
+            ],
+            [
+                "70",
+                -1.2590794e-05
+            ],
+            [
+                "\u00b0C",
+                -0.0009352823
+            ],
+            [
+                ".",
+                -0.49227065
+            ],
+            [
+                " However",
+                -0.0476751
+            ],
+            [
+                ",",
+                -6.217952e-05
+            ],
+            [
+                " their",
+                -6.574234
+            ],
+            [
+                " placement",
+                -5.945496
+            ],
+            [
+                " on",
+                -0.91461086
+            ],
+            [
+                " the",
+                -0.005660222
+            ],
+            [
+                " ring",
+                -0.21172401
+            ],
+            [
+                " at",
+                -2.9224987
+            ],
+            [
+                " orth",
+                -0.38028675
+            ],
+            [
+                "o",
+                -1.8624639e-06
+            ],
+            [
+                " and",
+                -0.0689837
+            ],
+            [
+                " para",
+                -0.7921616
+            ],
+            [
+                " positions",
+                -0.0053309975
+            ],
+            [
+                " could",
+                -3.1753654
+            ],
+            [
+                " result",
+                -1.8042605
+            ],
+            [
+                " in",
+                -0.0004769056
+            ],
+            [
+                " st",
+                -0.5814916
+            ],
+            [
+                "eric",
+                -4.365741e-06
+            ],
+            [
+                " hind",
+                -0.16422328
+            ],
+            [
+                "rance",
+                -0.0034414844
+            ],
+            [
+                " that",
+                -2.6854355
+            ],
+            [
+                " reduces",
+                -3.7123532
+            ],
+            [
+                " the",
+                -0.3559442
+            ],
+            [
+                " overall",
+                -0.88577485
+            ],
+            [
+                " impact",
+                -2.800797
+            ],
+            [
+                " of",
+                -3.2039526
+            ],
+            [
+                " these",
+                -1.8715189
+            ],
+            [
+                " groups",
+                -1.8615925
+            ],
+            [
+                " on",
+                -0.6980819
+            ],
+            [
+                " the",
+                -0.11436949
+            ],
+            [
+                " melting",
+                -0.0049804244
+            ],
+            [
+                " point",
+                -0.00032902884
+            ],
+            [
+                ",",
+                -1.4054946
+            ],
+            [
+                " so",
+                -1.2810353
+            ],
+            [
+                " we",
+                -0.50381213
+            ],
+            [
+                " might",
+                -1.4628592
+            ],
+            [
+                " expect",
+                -1.1100957
+            ],
+            [
+                " a",
+                -0.2680224
+            ],
+            [
+                " slight",
+                -1.9643362
+            ],
+            [
+                " deduction",
+                -6.5534706
+            ],
+            [
+                " in",
+                -2.7508082
+            ],
+            [
+                " the",
+                -0.05782012
+            ],
+            [
+                " overall",
+                -2.5265179
+            ],
+            [
+                " predicted",
+                -0.92950505
+            ],
+            [
+                " increase",
+                -0.69208807
+            ],
+            [
+                ",",
+                -1.8567768
+            ],
+            [
+                " let",
+                -1.8452095
+            ],
+            [
+                "'s",
+                -0.026863651
+            ],
+            [
+                " say",
+                -1.0033836
+            ],
+            [
+                " a",
+                -2.60323
+            ],
+            [
+                " ",
+                -1.4570935
+            ],
+            [
+                "9",
+                -1.0146332
+            ],
+            [
+                "\u00b0C",
+                -0.015813923
+            ],
+            [
+                " deduction",
+                -0.99002117
+            ],
+            [
+                " for",
+                -0.6182625
+            ],
+            [
+                " st",
+                -1.30499
+            ],
+            [
+                "eric",
+                -9.968313e-06
+            ],
+            [
+                " factors",
+                -1.6538377
+            ],
+            [
+                ".\",\n",
+                -0.35231996
+            ],
+            [
+                " ",
+                -0.0041992557
+            ],
+            [
+                " \"",
+                -3.1281633e-07
+            ],
+            [
+                "Prediction",
+                -3.1281633e-07
+            ],
+            [
+                "\":",
+                -2.1769476e-05
+            ],
+            [
+                " \"",
+                -0.0048899045
+            ],
+            [
+                "66",
+                -0.124115415
+            ],
+            [
+                ".",
+                -0.06455852
+            ],
+            [
+                "5",
+                -0.00076293026
+            ],
+            [
+                "\"\n",
+                -0.13743204
+            ],
+            [
+                "}",
+                -0.009694828
+            ]
+        ],
+        "Prediction(integer)": 66.5
     }
 ]

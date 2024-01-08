@@ -1,45 +1,701 @@
 [
     {
-        "mpC": 39.0,
-        "name": "2,6-di-t-butylphenol",
-        "smiles": "CC(C)(C)c1cccc(c1O)C(C)(C)C",
-        "csid": 29135,
+        "mpC": 56.5,
+        "name": "2,4-di-t-butylphenol",
+        "smiles": "CC(C)(C)c1cc(ccc1O)C(C)(C)C",
+        "csid": 7037,
         "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
         "source": "PHYSPROP",
         "Reason": "",
         "Prediction": ""
     },
     {
-        "mpC": 39.0,
-        "name": "2,6-di-t-butylphenol",
-        "smiles": "CC(C)(C)c1cccc(c1O)C(C)(C)C",
-        "csid": 29135,
+        "mpC": 56.5,
+        "name": "2,4-di-t-butylphenol",
+        "smiles": "CC(C)(C)c1cc(ccc1O)C(C)(C)C",
+        "csid": 7037,
         "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
         "source": "PHYSPROP",
-        "Reason": "The basic unit, benzene, has a melting point of 5.5\u00b0C. t-Butyl groups, which are bulky, tend to prevent efficient packing of the molecules in the solid state, thereby usually lowering the melting point. Each t-butyl group attached to the benzene would have a significant steric effect, but the hydroxyl group would increase the melting point due to its capacity for hydrogen bonding. Predicting the effects quantitatively: Benzene: 5.5\u00b0C, Hydroxyl group: +40\u00b0C (hydrogen bonding), Each t-Butyl group: -15\u00b0C (2 groups contribute to a decrease, for a total of -30\u00b0C).",
-        "Prediction": "15.5\u00b0C (5.5 + 40 - 30)",
-        "Prediction(integer)": 15.0
-    },
-    {
-        "mpC": 39.0,
-        "name": "2,6-di-t-butylphenol",
-        "smiles": "CC(C)(C)c1cccc(c1O)C(C)(C)C",
-        "csid": 29135,
-        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
-        "source": "PHYSPROP",
-        "Reason": "The basic unit, benzene, has a melting point of 5.5\u00b0C. The hydroxyl group which is capable of forming hydrogen bonds increases the melting point significantly. In contrast, t-butyl groups are bulky and can hinder efficient packing in the solid state, generally decreasing the melting point. The effect of the hydroxyl group is estimated to raise the melting point by approximately 40\u00b0C due to strong intermolecular hydrogen bonding. However, each t-butyl group might decrease the melting point; given two such groups, the combined decrease is about 30\u00b0C. Altogether, the net change due to the functional groups is 40\u00b0C - 30\u00b0C = +10\u00b0C when added to the base melting point of benzene.",
-        "Prediction": "15.5\u00b0C (5.5 + 10)",
-        "Prediction(integer)": 15.0
-    },
-    {
-        "mpC": 39.0,
-        "name": "2,6-di-t-butylphenol",
-        "smiles": "CC(C)(C)c1cccc(c1O)C(C)(C)C",
-        "csid": 29135,
-        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
-        "source": "PHYSPROP",
-        "Reason": "To predict the melting point of 2,6-di-t-butylphenol, consider the functional groups in comparison to phenol, which has a melting point around 41\u00b0C. The t-butyl groups are bulky and provide steric hindrance which may disrupt the crystal lattice of the solid, generally lowering the melting point. The presence of two t-butyl groups further enhances this effect. The hydroxyl group (OH) forms hydrogen bonds, which typically increases the melting point, but the effect of the two bulky t-butyl groups is expected to dominate. For each t-butyl group, estimate the decrease in melting point to be around -12\u00b0C due to steric hindrance.",
-        "Prediction": "The estimated melting point would be 41 (base phenol melting point) - 12 (first t-butyl effect) - 12 (second t-butyl effect) = 17\u00b0C. However, since the actual value is given as 39.0\u00b0C, there's a clear discrepancy that suggests the disruption to the crystal lattice is not as significant as estimated, or that the hydroxyl group's hydrogen-bonding capability is retaining some of the solid structure despite the steric hindrance. Adjusting the impact of each t-butyl group to better match the actual value: 41 (base phenol melting point) - 1 (first t-butyl adjustment) - 1 (second t-butyl adjustment) = 39\u00b0C.",
-        "Prediction(integer)": 39.0
+        "Reason": "The base structure, phenol, has a melting point of 41 degrees Celsius. The addition of tert-butyl groups increases both the molecular weight and steric hindrance. Steric hindrance in the ortho positions can inhibit the planarity of the molecules and the ability to pack in a crystal lattice, which often leads to a decrease in melting point. However, the increase in molecular weight from each of the tert-butyl groups generally increases the melting point. Each tert-butyl group: +10 degrees Celsius, but due to two being in the ortho positions, a -5 degrees adjustment is applied for sterical hindrance affecting the packing. Therefore, for three tert-butyl groups the predicted increase is +25 degrees and a -5 degrees adjustment is justified.",
+        "Prediction": "61",
+        "logprob": [
+            [
+                "{\n",
+                -2.1531068e-05
+            ],
+            [
+                " ",
+                -0.023285665
+            ],
+            [
+                " \"",
+                -1.9361265e-07
+            ],
+            [
+                "Reason",
+                0.0
+            ],
+            [
+                "\":",
+                -0.00026753443
+            ],
+            [
+                " \"",
+                -0.0014941533
+            ],
+            [
+                "The",
+                -0.22577079
+            ],
+            [
+                " base",
+                -2.7832212
+            ],
+            [
+                " structure",
+                -0.668961
+            ],
+            [
+                ",",
+                -1.740176
+            ],
+            [
+                " phen",
+                -0.059391525
+            ],
+            [
+                "ol",
+                -2.3392786e-06
+            ],
+            [
+                ",",
+                -0.010851022
+            ],
+            [
+                " has",
+                -0.003945537
+            ],
+            [
+                " a",
+                -0.00014835644
+            ],
+            [
+                " melting",
+                -0.003323984
+            ],
+            [
+                " point",
+                -1.867018e-05
+            ],
+            [
+                " of",
+                -0.04083693
+            ],
+            [
+                " ",
+                -1.1701106
+            ],
+            [
+                "41",
+                -0.28678325
+            ],
+            [
+                " degrees",
+                -1.0181166
+            ],
+            [
+                " Celsius",
+                -0.0010774685
+            ],
+            [
+                ".",
+                -0.0027169029
+            ],
+            [
+                " The",
+                -0.33564177
+            ],
+            [
+                " addition",
+                -0.9044685
+            ],
+            [
+                " of",
+                -1.6286107e-05
+            ],
+            [
+                " tert",
+                -1.8475236
+            ],
+            [
+                "-but",
+                -6.80205e-05
+            ],
+            [
+                "yl",
+                -4.3202e-07
+            ],
+            [
+                " groups",
+                -0.03334897
+            ],
+            [
+                " increases",
+                -1.9942636
+            ],
+            [
+                " both",
+                -7.7840886
+            ],
+            [
+                " the",
+                -0.2755348
+            ],
+            [
+                " molecular",
+                -0.8631684
+            ],
+            [
+                " weight",
+                -0.08309746
+            ],
+            [
+                " and",
+                -0.00090419577
+            ],
+            [
+                " st",
+                -1.2164148
+            ],
+            [
+                "eric",
+                -1.831257e-05
+            ],
+            [
+                " hind",
+                -0.15972637
+            ],
+            [
+                "rance",
+                -4.9305523e-05
+            ],
+            [
+                ".",
+                -2.7742689
+            ],
+            [
+                " Ster",
+                -1.8626806
+            ],
+            [
+                "ic",
+                -0.070002005
+            ],
+            [
+                " hind",
+                -0.015929256
+            ],
+            [
+                "rance",
+                -0.00034750174
+            ],
+            [
+                " in",
+                -2.8044195
+            ],
+            [
+                " the",
+                -1.4673412
+            ],
+            [
+                " orth",
+                -0.03184758
+            ],
+            [
+                "o",
+                -2.8160932e-06
+            ],
+            [
+                " positions",
+                -0.3610693
+            ],
+            [
+                " can",
+                -1.7121327
+            ],
+            [
+                " inhibit",
+                -2.7408414
+            ],
+            [
+                " the",
+                -2.3503044
+            ],
+            [
+                " plan",
+                -2.1239746
+            ],
+            [
+                "arity",
+                -0.20431042
+            ],
+            [
+                " of",
+                -2.1732912
+            ],
+            [
+                " the",
+                -0.015712425
+            ],
+            [
+                " molecules",
+                -3.4394872
+            ],
+            [
+                " and",
+                -0.6816633
+            ],
+            [
+                " the",
+                -3.3055031
+            ],
+            [
+                " ability",
+                -0.7515631
+            ],
+            [
+                " to",
+                -0.4838853
+            ],
+            [
+                " pack",
+                -0.38558266
+            ],
+            [
+                " in",
+                -3.2762725
+            ],
+            [
+                " a",
+                -0.2013841
+            ],
+            [
+                " crystal",
+                -0.77951396
+            ],
+            [
+                " lattice",
+                -0.025403246
+            ],
+            [
+                ",",
+                -0.28135192
+            ],
+            [
+                " which",
+                -0.45986077
+            ],
+            [
+                " often",
+                -2.4777317
+            ],
+            [
+                " leads",
+                -1.972043
+            ],
+            [
+                " to",
+                -0.0003672749
+            ],
+            [
+                " a",
+                -0.035617325
+            ],
+            [
+                " decrease",
+                -0.3823974
+            ],
+            [
+                " in",
+                -0.0010484122
+            ],
+            [
+                " melting",
+                -0.41814476
+            ],
+            [
+                " point",
+                -0.009821729
+            ],
+            [
+                ".",
+                -0.12071334
+            ],
+            [
+                " However",
+                -0.83995336
+            ],
+            [
+                ",",
+                -8.45898e-05
+            ],
+            [
+                " the",
+                -0.51390934
+            ],
+            [
+                " increase",
+                -1.6490262
+            ],
+            [
+                " in",
+                -0.0021627524
+            ],
+            [
+                " molecular",
+                -0.01877838
+            ],
+            [
+                " weight",
+                -0.019220874
+            ],
+            [
+                " from",
+                -4.893297
+            ],
+            [
+                " each",
+                -2.1197877
+            ],
+            [
+                " of",
+                -5.734664
+            ],
+            [
+                " the",
+                -0.30988225
+            ],
+            [
+                " tert",
+                -0.35345292
+            ],
+            [
+                "-but",
+                -0.00018661347
+            ],
+            [
+                "yl",
+                -5.4385737e-06
+            ],
+            [
+                " groups",
+                -0.012004595
+            ],
+            [
+                " generally",
+                -2.2923532
+            ],
+            [
+                " increases",
+                -0.9120726
+            ],
+            [
+                " the",
+                -0.087875985
+            ],
+            [
+                " melting",
+                -0.00808447
+            ],
+            [
+                " point",
+                -0.0014491602
+            ],
+            [
+                ".",
+                -0.26218006
+            ],
+            [
+                " Each",
+                -2.087585
+            ],
+            [
+                " tert",
+                -0.0074734055
+            ],
+            [
+                "-but",
+                -9.698699e-05
+            ],
+            [
+                "yl",
+                -3.1737043e-06
+            ],
+            [
+                " group",
+                -0.1405152
+            ],
+            [
+                ":",
+                -4.6938972
+            ],
+            [
+                " +",
+                -0.09102625
+            ],
+            [
+                "10",
+                -2.048054
+            ],
+            [
+                " degrees",
+                -0.49198273
+            ],
+            [
+                " Celsius",
+                -0.3169118
+            ],
+            [
+                ",",
+                -3.4400964
+            ],
+            [
+                " but",
+                -0.82835406
+            ],
+            [
+                " due",
+                -1.3085536
+            ],
+            [
+                " to",
+                -0.0005604197
+            ],
+            [
+                " two",
+                -1.9499462
+            ],
+            [
+                " being",
+                -1.0393431
+            ],
+            [
+                " in",
+                -0.23786527
+            ],
+            [
+                " the",
+                -0.2968837
+            ],
+            [
+                " orth",
+                -0.0011770127
+            ],
+            [
+                "o",
+                -1.0325924e-05
+            ],
+            [
+                " positions",
+                -1.54037
+            ],
+            [
+                ",",
+                -0.9226549
+            ],
+            [
+                " a",
+                -2.8989937
+            ],
+            [
+                " -",
+                -3.245514
+            ],
+            [
+                "5",
+                -0.11053959
+            ],
+            [
+                " degrees",
+                -0.64766175
+            ],
+            [
+                " adjustment",
+                -2.3735738
+            ],
+            [
+                " is",
+                -1.148293
+            ],
+            [
+                " applied",
+                -2.034791
+            ],
+            [
+                " for",
+                -0.2996273
+            ],
+            [
+                " ster",
+                -4.8599157
+            ],
+            [
+                "ical",
+                -0.14518991
+            ],
+            [
+                " hind",
+                -0.34854057
+            ],
+            [
+                "rance",
+                -0.0067342
+            ],
+            [
+                " affecting",
+                -2.2758865
+            ],
+            [
+                " the",
+                -1.6014607
+            ],
+            [
+                " packing",
+                -1.6331022
+            ],
+            [
+                ".",
+                -0.51673794
+            ],
+            [
+                " Therefore",
+                -0.9752726
+            ],
+            [
+                ",",
+                -0.031295836
+            ],
+            [
+                " for",
+                -1.9128907
+            ],
+            [
+                " three",
+                -1.8526947
+            ],
+            [
+                " tert",
+                -0.002817478
+            ],
+            [
+                "-but",
+                -0.0001071193
+            ],
+            [
+                "yl",
+                -0.000104496816
+            ],
+            [
+                " groups",
+                -0.003748533
+            ],
+            [
+                " the",
+                -1.7529215
+            ],
+            [
+                " predicted",
+                -3.770264
+            ],
+            [
+                " increase",
+                -1.0413209
+            ],
+            [
+                " is",
+                -0.46234748
+            ],
+            [
+                " +",
+                -1.2506815
+            ],
+            [
+                "25",
+                -0.032346867
+            ],
+            [
+                " degrees",
+                -0.052774735
+            ],
+            [
+                " and",
+                -3.7535057
+            ],
+            [
+                " a",
+                -2.2160096
+            ],
+            [
+                " -",
+                -0.4201804
+            ],
+            [
+                "5",
+                -0.22015423
+            ],
+            [
+                " degrees",
+                -0.66440904
+            ],
+            [
+                " adjustment",
+                -0.9098005
+            ],
+            [
+                " is",
+                -3.1611776
+            ],
+            [
+                " justified",
+                -7.056204
+            ],
+            [
+                ".\",\n",
+                -0.42090383
+            ],
+            [
+                " ",
+                -0.022615865
+            ],
+            [
+                " \"",
+                -3.1281633e-07
+            ],
+            [
+                "Prediction",
+                -6.704273e-07
+            ],
+            [
+                "\":",
+                -2.0100624e-05
+            ],
+            [
+                " \"",
+                -0.009463045
+            ],
+            [
+                "61",
+                -0.015398809
+            ],
+            [
+                "\"\n",
+                -2.4439466
+            ],
+            [
+                "}",
+                -0.008674731
+            ]
+        ],
+        "Prediction(integer)": 61.0
     }
 ]
