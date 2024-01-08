@@ -191,7 +191,7 @@ for chemical_record in tqdm(chemical_records):
                     model=model,
                 )
                 r["logprob"]=parse_log_probs(response)
-                time.sleep(30)
+                time.sleep(1)
             except Exception as e:
                 #error occurs especially when generatin JSON data by gpt & rate limit
                 print(e)
