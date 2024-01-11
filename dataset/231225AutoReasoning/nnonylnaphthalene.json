@@ -1,78 +1,2443 @@
 [
     {
-        "mpC": 8.0,
-        "name": "1-n-nonylnaphthalene",
-        "smiles": "CCCCCCCCCc2cccc1ccccc12",
-        "csid": 105267,
+        "mpC": 12.0,
+        "name": "2-n-nonylnaphthalene",
+        "smiles": "CCCCCCCCCc1ccc2ccccc2c1",
+        "csid": 101076,
         "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
         "source": "PHYSPROP",
         "Reason": "",
         "Prediction": ""
     },
     {
-        "mpC": 8.0,
-        "name": "1-n-nonylnaphthalene",
-        "smiles": "CCCCCCCCCc2cccc1ccccc12",
-        "csid": 105267,
+        "mpC": 12.0,
+        "name": "2-n-nonylnaphthalene",
+        "smiles": "CCCCCCCCCc1ccc2ccccc2c1",
+        "csid": 101076,
         "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
         "source": "PHYSPROP",
-        "Reason": "The basic unit for the compound, naphthalene, has a melting point of 80 degrees Celsius. The addition of a nonyl (n-C9H19) group to naphthalene generally increases the molecular weight and size which can lead to an increase in melting point due to a higher surface area for Van der Waals interactions. However, long alkyl chains can also introduce flexibility to the molecule, which can lower the melting point as the molecule cannot pack as efficiently in a solid state. For example, adding a methyl group to benzene to form toluene raises the melting point by approximately 30 degrees Celsius, while a longer chain such as ethyl or propyl has less of an impact on the melting point and can sometimes lower it due to increased flexibility in comparison to a methyl group. Given the length of the nonyl group, there may be significant flexibility introduced to the molecule that would likely decrease the melting point of the compound. For quantitative estimation, if a methyl group adds +30, a nonyl group might add less due to the factors mentioned above, we might estimate around -5 for each additional -CH2- group past the first few, giving a rough estimate of an increase of about 30 for the first few carbons and then a decrease of about (5 * 7) = 35 for the rest. The total change attributed to the nonyl group would be 30 - 35 = -5.",
-        "Prediction": "75",
-        "Prediction(integer)": 75.0
+        "Reason": "The 2-n-nonylnaphthalene molecule contains two basic structural units: naphthalene and a nonyl (9-carbon alkyl) chain. The melting point of naphthalene is approximately 80\u00b0C. The additional nonyl group, being a large alkyl chain, will reduce the melting point due to the disruption of the crystalline structure of naphthalene and increasing the entropy of the system. Each methylene group in the alkyl chain might contribute a reduction of about 10\u00b0C compared to the basic unit of napthalene due to the aforementioned entropy increase and less efficient packing in the crystal lattice. With 8 methylene groups in the nonyl chain (since the first carbon is connected to the naphthalene), this would total an approximate reduction of 80\u00b0C.",
+        "Prediction": "0\u00b0C (80\u00b0C - 8 * 10\u00b0C for each methylene group in nonyl chain)",
+        "logprob": [
+            [
+                "{\n",
+                -2.618001e-05
+            ],
+            [
+                " ",
+                -0.029793888
+            ],
+            [
+                " \"",
+                -3.1281633e-07
+            ],
+            [
+                "Reason",
+                0.0
+            ],
+            [
+                "\":",
+                -0.00030769507
+            ],
+            [
+                " \"",
+                -0.0030753985
+            ],
+            [
+                "The",
+                -0.107159995
+            ],
+            [
+                " ",
+                -4.776599
+            ],
+            [
+                "2",
+                -2.1769476e-05
+            ],
+            [
+                "-n",
+                -0.00079676206
+            ],
+            [
+                "-n",
+                -0.0024977755
+            ],
+            [
+                "ony",
+                -4.823269e-05
+            ],
+            [
+                "ln",
+                -0.0063154125
+            ],
+            [
+                "aph",
+                -0.00036549784
+            ],
+            [
+                "thal",
+                -6.706687e-05
+            ],
+            [
+                "ene",
+                -6.6306106e-06
+            ],
+            [
+                " molecule",
+                -0.29303703
+            ],
+            [
+                " contains",
+                -4.206263
+            ],
+            [
+                " two",
+                -2.2196145
+            ],
+            [
+                " basic",
+                -3.5256047
+            ],
+            [
+                " structural",
+                -0.2311652
+            ],
+            [
+                " units",
+                -0.27265012
+            ],
+            [
+                ":",
+                -0.19888636
+            ],
+            [
+                " n",
+                -0.3004988
+            ],
+            [
+                "aph",
+                -5.6219335e-05
+            ],
+            [
+                "thal",
+                -5.3193703e-06
+            ],
+            [
+                "ene",
+                -2.577686e-06
+            ],
+            [
+                " and",
+                -0.07265794
+            ],
+            [
+                " a",
+                -0.1394449
+            ],
+            [
+                " non",
+                -0.04368295
+            ],
+            [
+                "yl",
+                -1.4378848e-05
+            ],
+            [
+                " (",
+                -0.43464717
+            ],
+            [
+                "9",
+                -1.0952255
+            ],
+            [
+                "-car",
+                -0.075361826
+            ],
+            [
+                "bon",
+                -0.00024488938
+            ],
+            [
+                " alk",
+                -0.09344864
+            ],
+            [
+                "yl",
+                -0.0060237185
+            ],
+            [
+                ")",
+                -0.0090438565
+            ],
+            [
+                " chain",
+                -0.1254115
+            ],
+            [
+                ".",
+                -0.013714205
+            ],
+            [
+                " The",
+                -0.3330787
+            ],
+            [
+                " melting",
+                -0.7722209
+            ],
+            [
+                " point",
+                -0.0005639958
+            ],
+            [
+                " of",
+                -0.064984664
+            ],
+            [
+                " n",
+                -0.18249837
+            ],
+            [
+                "aph",
+                -1.0325924e-05
+            ],
+            [
+                "thal",
+                -0.0009805283
+            ],
+            [
+                "ene",
+                -1.6524515e-05
+            ],
+            [
+                " is",
+                -0.1910423
+            ],
+            [
+                " approximately",
+                -2.8149297
+            ],
+            [
+                " ",
+                -2.0219828e-05
+            ],
+            [
+                "80",
+                -0.00370352
+            ],
+            [
+                "\u00b0C",
+                -0.89899254
+            ],
+            [
+                ".",
+                -0.011919076
+            ],
+            [
+                " The",
+                -0.43793026
+            ],
+            [
+                " additional",
+                -5.435222
+            ],
+            [
+                " non",
+                -0.09471306
+            ],
+            [
+                "yl",
+                -4.7040652e-05
+            ],
+            [
+                " group",
+                -0.7780286
+            ],
+            [
+                ",",
+                -1.9020509
+            ],
+            [
+                " being",
+                -0.22368892
+            ],
+            [
+                " a",
+                -0.04674189
+            ],
+            [
+                " large",
+                -1.306458
+            ],
+            [
+                " alk",
+                -1.0609767
+            ],
+            [
+                "yl",
+                -0.00011594037
+            ],
+            [
+                " chain",
+                -0.021887306
+            ],
+            [
+                ",",
+                -0.00039576087
+            ],
+            [
+                " will",
+                -0.4558085
+            ],
+            [
+                " reduce",
+                -3.5043023
+            ],
+            [
+                " the",
+                -0.0787198
+            ],
+            [
+                " melting",
+                -2.693078
+            ],
+            [
+                " point",
+                -0.00055052945
+            ],
+            [
+                " due",
+                -0.6398996
+            ],
+            [
+                " to",
+                -0.0006025958
+            ],
+            [
+                " the",
+                -0.7259492
+            ],
+            [
+                " disruption",
+                -2.049831
+            ],
+            [
+                " of",
+                -0.01718827
+            ],
+            [
+                " the",
+                -0.06788827
+            ],
+            [
+                " crystall",
+                -0.78911746
+            ],
+            [
+                "ine",
+                -0.0001558626
+            ],
+            [
+                " structure",
+                -0.043438267
+            ],
+            [
+                " of",
+                -0.30536243
+            ],
+            [
+                " n",
+                -0.8245714
+            ],
+            [
+                "aph",
+                -4.604148e-06
+            ],
+            [
+                "thal",
+                -1.3306016e-05
+            ],
+            [
+                "ene",
+                -1.4378848e-05
+            ],
+            [
+                " and",
+                -1.0433378
+            ],
+            [
+                " increasing",
+                -2.5324957
+            ],
+            [
+                " the",
+                -0.20464505
+            ],
+            [
+                " entropy",
+                -1.8316782
+            ],
+            [
+                " of",
+                -0.42440796
+            ],
+            [
+                " the",
+                -0.00037001655
+            ],
+            [
+                " system",
+                -1.7571754
+            ],
+            [
+                ".",
+                -0.3004078
+            ],
+            [
+                " Each",
+                -1.297618
+            ],
+            [
+                " meth",
+                -0.22710782
+            ],
+            [
+                "ylene",
+                -4.723352e-06
+            ],
+            [
+                " group",
+                -0.3700837
+            ],
+            [
+                " in",
+                -0.7659491
+            ],
+            [
+                " the",
+                -0.8453346
+            ],
+            [
+                " alk",
+                -0.4936215
+            ],
+            [
+                "yl",
+                -0.0015743756
+            ],
+            [
+                " chain",
+                -0.00021486107
+            ],
+            [
+                " might",
+                -2.7159953
+            ],
+            [
+                " contribute",
+                -0.5794305
+            ],
+            [
+                " a",
+                -1.7707574
+            ],
+            [
+                " reduction",
+                -1.4057732
+            ],
+            [
+                " of",
+                -0.09979679
+            ],
+            [
+                " about",
+                -0.94566095
+            ],
+            [
+                " ",
+                -0.26834422
+            ],
+            [
+                "10",
+                -4.0649776
+            ],
+            [
+                "\u00b0C",
+                -0.111328274
+            ],
+            [
+                " compared",
+                -4.2334285
+            ],
+            [
+                " to",
+                -0.0069048135
+            ],
+            [
+                " the",
+                -0.6452357
+            ],
+            [
+                " basic",
+                -2.377984
+            ],
+            [
+                " unit",
+                -2.4283175
+            ],
+            [
+                " of",
+                -1.7109675
+            ],
+            [
+                " nap",
+                -7.1108265
+            ],
+            [
+                "thal",
+                -0.20745677
+            ],
+            [
+                "ene",
+                -0.00032247265
+            ],
+            [
+                " due",
+                -1.4229075
+            ],
+            [
+                " to",
+                -0.0039352067
+            ],
+            [
+                " the",
+                -0.7601411
+            ],
+            [
+                " aforementioned",
+                -3.242858
+            ],
+            [
+                " entropy",
+                -3.0537884
+            ],
+            [
+                " increase",
+                -0.4791492
+            ],
+            [
+                " and",
+                -0.425265
+            ],
+            [
+                " less",
+                -1.642677
+            ],
+            [
+                " efficient",
+                -0.64971775
+            ],
+            [
+                " packing",
+                -0.028648408
+            ],
+            [
+                " in",
+                -2.0113392
+            ],
+            [
+                " the",
+                -0.12334952
+            ],
+            [
+                " crystal",
+                -2.0161219
+            ],
+            [
+                " lattice",
+                -0.012896189
+            ],
+            [
+                ".",
+                -0.17749475
+            ],
+            [
+                " With",
+                -0.5299959
+            ],
+            [
+                " ",
+                -0.28434685
+            ],
+            [
+                "8",
+                -0.08268104
+            ],
+            [
+                " meth",
+                -0.3620911
+            ],
+            [
+                "ylene",
+                -0.0025296486
+            ],
+            [
+                " groups",
+                -0.19187833
+            ],
+            [
+                " in",
+                -0.36585695
+            ],
+            [
+                " the",
+                -0.01840534
+            ],
+            [
+                " non",
+                -0.0036232353
+            ],
+            [
+                "yl",
+                -2.5226382e-05
+            ],
+            [
+                " chain",
+                -0.04456258
+            ],
+            [
+                " (",
+                -0.28941396
+            ],
+            [
+                "since",
+                -2.0030632
+            ],
+            [
+                " the",
+                -0.007005682
+            ],
+            [
+                " first",
+                -0.0038186067
+            ],
+            [
+                " carbon",
+                -0.021820009
+            ],
+            [
+                " is",
+                -0.10485652
+            ],
+            [
+                " connected",
+                -1.8567618
+            ],
+            [
+                " to",
+                -0.1405329
+            ],
+            [
+                " the",
+                -0.10867532
+            ],
+            [
+                " n",
+                -0.033785284
+            ],
+            [
+                "aph",
+                -8.418666e-06
+            ],
+            [
+                "thal",
+                -0.0023678013
+            ],
+            [
+                "ene",
+                -3.619312e-05
+            ],
+            [
+                "),",
+                -0.48882678
+            ],
+            [
+                " this",
+                -1.476387
+            ],
+            [
+                " would",
+                -0.6175048
+            ],
+            [
+                " total",
+                -4.5021257
+            ],
+            [
+                " an",
+                -0.75294447
+            ],
+            [
+                " approximate",
+                -0.42508897
+            ],
+            [
+                " reduction",
+                -0.45930237
+            ],
+            [
+                " of",
+                -0.004654288
+            ],
+            [
+                " ",
+                -0.0035065878
+            ],
+            [
+                "80",
+                -0.046391774
+            ],
+            [
+                "\u00b0C",
+                -0.00083261676
+            ],
+            [
+                ".\",\n",
+                -0.46901935
+            ],
+            [
+                " ",
+                -0.006223475
+            ],
+            [
+                " \"",
+                -5.5122365e-07
+            ],
+            [
+                "Prediction",
+                -4.00813e-06
+            ],
+            [
+                "\":",
+                -2.4153549e-05
+            ],
+            [
+                " \"",
+                -0.05015117
+            ],
+            [
+                "0",
+                -0.082436614
+            ],
+            [
+                "\u00b0C",
+                -0.030752989
+            ],
+            [
+                " (",
+                -0.770198
+            ],
+            [
+                "80",
+                -0.005254984
+            ],
+            [
+                "\u00b0C",
+                -0.38042733
+            ],
+            [
+                " -",
+                -0.88865227
+            ],
+            [
+                " ",
+                -0.014902622
+            ],
+            [
+                "8",
+                -0.21790299
+            ],
+            [
+                " *",
+                -1.1042271
+            ],
+            [
+                " ",
+                -0.00067597756
+            ],
+            [
+                "10",
+                -2.220075e-06
+            ],
+            [
+                "\u00b0C",
+                -0.00011081461
+            ],
+            [
+                " for",
+                -2.2301521
+            ],
+            [
+                " each",
+                -0.27336815
+            ],
+            [
+                " meth",
+                -0.23138162
+            ],
+            [
+                "ylene",
+                -1.0087517e-05
+            ],
+            [
+                " group",
+                -0.00922838
+            ],
+            [
+                " in",
+                -0.51625067
+            ],
+            [
+                " non",
+                -3.228181
+            ],
+            [
+                "yl",
+                -3.4285862e-05
+            ],
+            [
+                " chain",
+                -0.04299714
+            ],
+            [
+                ")\"\n",
+                -0.0071941195
+            ],
+            [
+                "}",
+                -0.014164802
+            ]
+        ],
+        "Prediction(integer)": 0.0
     },
     {
-        "mpC": 8.0,
-        "name": "1-n-nonylnaphthalene",
-        "smiles": "CCCCCCCCCc2cccc1ccccc12",
-        "csid": 105267,
+        "mpC": 12.0,
+        "name": "2-n-nonylnaphthalene",
+        "smiles": "CCCCCCCCCc1ccc2ccccc2c1",
+        "csid": 101076,
         "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
         "source": "PHYSPROP",
-        "Reason": "The base compound, naphthalene, has a melting point of 80 degrees Celsius. Adding an n-nonyl group increases molecular weight and surface area, which typically raises the melting point due to enhanced Van der Waals forces. However, the flexibility introduced by the long alkyl chain outweighs the effects of increased molecular weight, leading to a lower melting point due to reduced packing efficiency. Using the toluene example as a reference, where a methyl group adds roughly +30 degrees Celsius, we can assume each additional -CH2- group after the initial few provides a disproportionate negative effect due to increased flexibility. Estimating this effect as -5 degrees Celsius per -CH2- group past the initial ones, and assuming the first few carbons contribute +30 degrees Celsius, we would have a decrease of 35 degrees Celsius (5 * 7) for the remaining seven carbons in the nonyl group. The net effect of the nonyl group on the melting point would then be an estimated decrease of 5 degrees Celsius (30 - 35).",
-        "Prediction": "75",
-        "Prediction(integer)": 75.0
+        "Reason": "The compound 2-n-nonylnaphthalene consists of a naphthalene base structure and a nonyl side chain. The base naphthalene has a melting point of around 80\u00b0C. The nonyl group, a long hydrocarbon chain, tends to disrupt the structured packing of the naphthalene crystals, which typically lowers the melting point. However, the reduction is not as drastic as -10\u00b0C per methylene group, given that long alkyl chains can also add van der Waals interactions, which might mitigate the reduction to some extent. A typical reduction might be around -5\u00b0C per methylene group. The nonyl chain contains 8 methylene groups (ignoring the first carbon as it's directly attached to the ring), which would predict a reduction of 40\u00b0C from the base structure of naphthalene.",
+        "Prediction": "40\u00b0C (80\u00b0C - 8 methylene groups * 5\u00b0C reduction per group)",
+        "logprob": [
+            [
+                "{\n",
+                -0.008120657
+            ],
+            [
+                " ",
+                -0.02719562
+            ],
+            [
+                " \"",
+                -6.704273e-07
+            ],
+            [
+                "Reason",
+                -3.1281633e-07
+            ],
+            [
+                "\":",
+                -0.00024989594
+            ],
+            [
+                " \"",
+                -1.5451682e-05
+            ],
+            [
+                "The",
+                -0.0184298
+            ],
+            [
+                " compound",
+                -2.6065269
+            ],
+            [
+                " ",
+                -0.007319216
+            ],
+            [
+                "2",
+                -1.0280384e-06
+            ],
+            [
+                "-n",
+                -6.9882217e-06
+            ],
+            [
+                "-n",
+                -1.4140442e-05
+            ],
+            [
+                "ony",
+                -1.147242e-06
+            ],
+            [
+                "ln",
+                -7.433829e-05
+            ],
+            [
+                "aph",
+                -9.610702e-06
+            ],
+            [
+                "thal",
+                -4.00813e-06
+            ],
+            [
+                "ene",
+                -4.3202e-07
+            ],
+            [
+                " consists",
+                -1.0632873
+            ],
+            [
+                " of",
+                -0.0013964263
+            ],
+            [
+                " a",
+                -0.20142242
+            ],
+            [
+                " n",
+                -0.0104631
+            ],
+            [
+                "aph",
+                -2.9352968e-06
+            ],
+            [
+                "thal",
+                -2.7014437e-05
+            ],
+            [
+                "ene",
+                -2.8325678e-05
+            ],
+            [
+                " base",
+                -1.0718153
+            ],
+            [
+                " structure",
+                -0.45891756
+            ],
+            [
+                " and",
+                -0.5071947
+            ],
+            [
+                " a",
+                -0.30967999
+            ],
+            [
+                " non",
+                -0.023385355
+            ],
+            [
+                "yl",
+                -0.00012678056
+            ],
+            [
+                " side",
+                -0.80980134
+            ],
+            [
+                " chain",
+                -0.004418013
+            ],
+            [
+                ".",
+                -0.009927614
+            ],
+            [
+                " The",
+                -0.46765134
+            ],
+            [
+                " base",
+                -2.5333571
+            ],
+            [
+                " n",
+                -0.37943193
+            ],
+            [
+                "aph",
+                -5.4385737e-06
+            ],
+            [
+                "thal",
+                -0.00088894874
+            ],
+            [
+                "ene",
+                -8.776276e-06
+            ],
+            [
+                " has",
+                -0.13393326
+            ],
+            [
+                " a",
+                -0.002911385
+            ],
+            [
+                " melting",
+                -0.101029806
+            ],
+            [
+                " point",
+                -1.1517961e-05
+            ],
+            [
+                " of",
+                -0.27202806
+            ],
+            [
+                " around",
+                -1.2045896
+            ],
+            [
+                " ",
+                -3.2929079e-06
+            ],
+            [
+                "80",
+                -6.5278815e-05
+            ],
+            [
+                "\u00b0C",
+                -0.0026063335
+            ],
+            [
+                ".",
+                -0.007697245
+            ],
+            [
+                " The",
+                -0.4288325
+            ],
+            [
+                " non",
+                -0.26976293
+            ],
+            [
+                "yl",
+                -0.00015955791
+            ],
+            [
+                " group",
+                -0.6883375
+            ],
+            [
+                ",",
+                -0.58740497
+            ],
+            [
+                " a",
+                -2.0538156
+            ],
+            [
+                " long",
+                -0.26133457
+            ],
+            [
+                " hydro",
+                -1.6127708
+            ],
+            [
+                "carbon",
+                -0.13075404
+            ],
+            [
+                " chain",
+                -0.0012378488
+            ],
+            [
+                ",",
+                -0.010800675
+            ],
+            [
+                " tends",
+                -1.3602899
+            ],
+            [
+                " to",
+                -0.0001136755
+            ],
+            [
+                " disrupt",
+                -0.51465636
+            ],
+            [
+                " the",
+                -0.06238194
+            ],
+            [
+                " structured",
+                -3.5761867
+            ],
+            [
+                " packing",
+                -0.38324097
+            ],
+            [
+                " of",
+                -0.20814793
+            ],
+            [
+                " the",
+                -0.41656
+            ],
+            [
+                " n",
+                -0.2443172
+            ],
+            [
+                "aph",
+                -1.3856493e-06
+            ],
+            [
+                "thal",
+                -2.939851e-05
+            ],
+            [
+                "ene",
+                -4.0603656e-05
+            ],
+            [
+                " crystals",
+                -1.0363297
+            ],
+            [
+                ",",
+                -0.035598807
+            ],
+            [
+                " which",
+                -1.6718546
+            ],
+            [
+                " typically",
+                -2.3192754
+            ],
+            [
+                " lowers",
+                -1.0240036
+            ],
+            [
+                " the",
+                -0.0040472946
+            ],
+            [
+                " melting",
+                -0.014552568
+            ],
+            [
+                " point",
+                -0.00039611853
+            ],
+            [
+                ".",
+                -0.33573216
+            ],
+            [
+                " However",
+                -1.0025084
+            ],
+            [
+                ",",
+                -2.6656826e-05
+            ],
+            [
+                " the",
+                -0.45942235
+            ],
+            [
+                " reduction",
+                -2.160348
+            ],
+            [
+                " is",
+                -2.174736
+            ],
+            [
+                " not",
+                -0.23114288
+            ],
+            [
+                " as",
+                -0.35698193
+            ],
+            [
+                " drastic",
+                -1.3443379
+            ],
+            [
+                " as",
+                -0.023577604
+            ],
+            [
+                " -",
+                -3.3353782
+            ],
+            [
+                "10",
+                -9.913265e-05
+            ],
+            [
+                "\u00b0C",
+                -0.00023488728
+            ],
+            [
+                " per",
+                -0.04109793
+            ],
+            [
+                " meth",
+                -0.01646012
+            ],
+            [
+                "ylene",
+                -2.3392786e-06
+            ],
+            [
+                " group",
+                -0.031445786
+            ],
+            [
+                ",",
+                -1.4353439
+            ],
+            [
+                " given",
+                -4.6091514
+            ],
+            [
+                " that",
+                -0.22684039
+            ],
+            [
+                " long",
+                -1.9600192
+            ],
+            [
+                " alk",
+                -0.16999044
+            ],
+            [
+                "yl",
+                -0.00048167375
+            ],
+            [
+                " chains",
+                -0.015479791
+            ],
+            [
+                " can",
+                -0.19002487
+            ],
+            [
+                " also",
+                -0.3449831
+            ],
+            [
+                " add",
+                -2.737197
+            ],
+            [
+                " van",
+                -0.74498785
+            ],
+            [
+                " der",
+                -3.7146747e-05
+            ],
+            [
+                " Wa",
+                -1.2352386e-05
+            ],
+            [
+                "als",
+                -0.0005533903
+            ],
+            [
+                " interactions",
+                -0.9531215
+            ],
+            [
+                ",",
+                -1.0395529
+            ],
+            [
+                " which",
+                -0.31166226
+            ],
+            [
+                " might",
+                -1.1915985
+            ],
+            [
+                " mitigate",
+                -0.58421266
+            ],
+            [
+                " the",
+                -0.7704767
+            ],
+            [
+                " reduction",
+                -0.9805635
+            ],
+            [
+                " to",
+                -2.1838677
+            ],
+            [
+                " some",
+                -0.27579713
+            ],
+            [
+                " extent",
+                -0.05417337
+            ],
+            [
+                ".",
+                -0.0023193916
+            ],
+            [
+                " A",
+                -0.6875619
+            ],
+            [
+                " typical",
+                -6.916024
+            ],
+            [
+                " reduction",
+                -1.2527883
+            ],
+            [
+                " might",
+                -1.1602108
+            ],
+            [
+                " be",
+                -0.016158827
+            ],
+            [
+                " around",
+                -0.92660517
+            ],
+            [
+                " -",
+                -0.026250837
+            ],
+            [
+                "5",
+                -0.035529662
+            ],
+            [
+                "\u00b0C",
+                -0.012812516
+            ],
+            [
+                " per",
+                -0.087798364
+            ],
+            [
+                " meth",
+                -0.0684644
+            ],
+            [
+                "ylene",
+                -8.061054e-06
+            ],
+            [
+                " group",
+                -0.08674645
+            ],
+            [
+                ".",
+                -1.22631
+            ],
+            [
+                " The",
+                -2.420498
+            ],
+            [
+                " non",
+                -0.026395282
+            ],
+            [
+                "yl",
+                -4.894791e-05
+            ],
+            [
+                " chain",
+                -0.8031482
+            ],
+            [
+                " contains",
+                -1.277905
+            ],
+            [
+                " ",
+                -0.055370774
+            ],
+            [
+                "8",
+                -0.0023714893
+            ],
+            [
+                " meth",
+                -0.026390864
+            ],
+            [
+                "ylene",
+                -0.0018526007
+            ],
+            [
+                " groups",
+                -0.055775836
+            ],
+            [
+                " (",
+                -1.7501351
+            ],
+            [
+                "ign",
+                -2.2324712
+            ],
+            [
+                "oring",
+                -1.1637165e-05
+            ],
+            [
+                " the",
+                -0.00028636496
+            ],
+            [
+                " first",
+                -0.114795454
+            ],
+            [
+                " carbon",
+                -0.1382465
+            ],
+            [
+                " as",
+                -1.3360703
+            ],
+            [
+                " it",
+                -0.0036304812
+            ],
+            [
+                "'s",
+                -0.8573599
+            ],
+            [
+                " directly",
+                -1.2568444
+            ],
+            [
+                " attached",
+                -0.2323177
+            ],
+            [
+                " to",
+                -0.004224186
+            ],
+            [
+                " the",
+                -0.12337238
+            ],
+            [
+                " ring",
+                -2.916098
+            ],
+            [
+                "),",
+                -0.25394642
+            ],
+            [
+                " which",
+                -0.979232
+            ],
+            [
+                " would",
+                -0.52455497
+            ],
+            [
+                " predict",
+                -2.9521265
+            ],
+            [
+                " a",
+                -0.06912154
+            ],
+            [
+                " reduction",
+                -0.8930368
+            ],
+            [
+                " of",
+                -0.020851796
+            ],
+            [
+                " ",
+                -0.14384706
+            ],
+            [
+                "40",
+                -0.111610435
+            ],
+            [
+                "\u00b0C",
+                -8.602025e-05
+            ],
+            [
+                " from",
+                -0.97933716
+            ],
+            [
+                " the",
+                -0.06252697
+            ],
+            [
+                " base",
+                -0.85389024
+            ],
+            [
+                " structure",
+                -0.6404242
+            ],
+            [
+                " of",
+                -1.1268313
+            ],
+            [
+                " n",
+                -0.0009604159
+            ],
+            [
+                "aph",
+                -4.9617593e-06
+            ],
+            [
+                "thal",
+                -7.226629e-06
+            ],
+            [
+                "ene",
+                -6.869018e-06
+            ],
+            [
+                ".\",\n",
+                -0.06347233
+            ],
+            [
+                " ",
+                -0.0029048473
+            ],
+            [
+                " \"",
+                0.0
+            ],
+            [
+                "Prediction",
+                -2.6968896e-06
+            ],
+            [
+                "\":",
+                -4.739826e-05
+            ],
+            [
+                " \"",
+                -0.00014263466
+            ],
+            [
+                "40",
+                -0.00052813016
+            ],
+            [
+                "\u00b0C",
+                -0.001376303
+            ],
+            [
+                " (",
+                -0.0026070487
+            ],
+            [
+                "80",
+                -0.00015419374
+            ],
+            [
+                "\u00b0C",
+                -0.0009798168
+            ],
+            [
+                " -",
+                -0.09481402
+            ],
+            [
+                " ",
+                -0.0064223716
+            ],
+            [
+                "8",
+                -0.025689688
+            ],
+            [
+                " meth",
+                -4.160331
+            ],
+            [
+                "ylene",
+                -0.00012511172
+            ],
+            [
+                " groups",
+                -0.003377219
+            ],
+            [
+                " *",
+                -0.0074112783
+            ],
+            [
+                " ",
+                -0.055610083
+            ],
+            [
+                "5",
+                -1.0087517e-05
+            ],
+            [
+                "\u00b0C",
+                -2.451116e-05
+            ],
+            [
+                " reduction",
+                -1.7926664
+            ],
+            [
+                " per",
+                -0.02488267
+            ],
+            [
+                " group",
+                -0.07698355
+            ],
+            [
+                ")\"\n",
+                -0.008277081
+            ],
+            [
+                "}",
+                -0.072237946
+            ]
+        ],
+        "Prediction(integer)": 40.0
     },
     {
-        "mpC": 8.0,
-        "name": "1-n-nonylnaphthalene",
-        "smiles": "CCCCCCCCCc2cccc1ccccc12",
-        "csid": 105267,
+        "mpC": 12.0,
+        "name": "2-n-nonylnaphthalene",
+        "smiles": "CCCCCCCCCc1ccc2ccccc2c1",
+        "csid": 101076,
         "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
         "source": "PHYSPROP",
-        "Reason": "The melting point of naphthalene, the basic unit, is approximately 80\u00b0C. The nonyl group (a long alkyl chain with 9 carbons) significantly decreases the symmetry of the molecule and disrupts the packing efficiency in the solid state, leading to a substantial decrease in the melting point. Each methylene group (CH2) contributing in an alkyl chain generally decreases the melting point by approximately 5-10\u00b0C. With 8 methylene groups beyond the first carbon in the nonyl chain, this could result in an estimated decrease of around 40-80\u00b0C.",
-        "Prediction": "0 to -20\u00b0C",
-        "Prediction(integer)": -10.0
-    },
-    {
-        "mpC": 8.0,
-        "name": "1-n-nonylnaphthalene",
-        "smiles": "CCCCCCCCCc2cccc1ccccc12",
-        "csid": 105267,
-        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
-        "source": "PHYSPROP",
-        "Reason": "The melting point of naphthalene, the basic unit, is approximately 80\u00b0C. The addition of a nonyl group (a long alkyl chain with 9 carbons) significantly decreases the melting point as it increases molecular size but decreases the lattice energy due to a reduction in symmetry and poorer packing. Each methylene group in a long alkyl chain typically reduces the melting point by around 2-5\u00b0C due to the disruption of compact crystal packing. With 8 additional methylene groups in the nonyl chain (not counting the first CH2 connected to the naphthalene), this might result in a decrease of 16-40\u00b0C.",
-        "Prediction": "40 to 64\u00b0C",
-        "Prediction(integer)": 52.0
-    },
-    {
-        "mpC": 8.0,
-        "name": "1-n-nonylnaphthalene",
-        "smiles": "CCCCCCCCCc2cccc1ccccc12",
-        "csid": 105267,
-        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
-        "source": "PHYSPROP",
-        "Reason": "The basic unit of naphthalene has a melting point of 80.5 degrees Celsius. The n-nonyl group (a chain of 9 carbon atoms) attached to the naphthalene increases the molecular weight and surface area, which generally leads to an increase in melting point due to more van der Waals forces; however, it also makes the molecule more asymmetric and disrupts the crystalline structure that is necessary for a higher melting point. Typically, each methylene group in a linear alkyl chain might be expected to add about 2 degrees Celsius due to increased molecular weight, but the disruption of the crystal lattice structure and increased molecular asymmetry would tend to decrease the melting point overall. For the nonyl group, the addition might therefore be less than 9 * 2 = 18 degrees, and the net effect would be a decrease from this number due to the mentioned disruption of crystalline structure. I would estimate the net effect of the nonyl group might decrease the melting point by about 10 degrees Celsius, resulting in a prediction lower than the base value for naphthalene.",
-        "Prediction": "70.5",
-        "Prediction(integer)": 70.0
-    },
-    {
-        "mpC": 8.0,
-        "name": "1-n-nonylnaphthalene",
-        "smiles": "CCCCCCCCCc2cccc1ccccc12",
-        "csid": 105267,
-        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
-        "source": "PHYSPROP",
-        "Reason": "The basic unit of naphthalene has a melting point of 80.5 degrees Celsius. An n-nonyl group (a chain of 9 carbon atoms) attached to the naphthalene increases the molecular weight, which would typically lead to an increase in the melting point due to increased van der Waals forces. For the nonyl group, the addition might add approximately 2 degrees Celsius per methylene group due to increased molecular weight. Therefore, the increase could be about 9 * 2 = 18 degrees Celsius. However, the presence of the long alkyl chain also introduces asymmetry and can disrupt the crystal packing, leading to a lower melting point. The net effect of the nonyl group might then decrease the melting point by an estimated 5 degrees Celsius per methylene group for a long chain such as this, totaling a reduction of 9 * 5 = 45 degrees Celsius. The prediction is then calculated by adding the potential increase from molecular weight, then subtracting the decrease from asymmetry and crystal disruption.",
-        "Prediction": "53.5",
-        "Prediction(integer)": 53.5
+        "Reason": "The base structure for the target compound is naphthalene, which has a melting point of 80 degrees Celsius. Adding an n-nonyl (C9H19) side chain significantly increases the molecular weight and the van der Waals forces, which should increase the melting point. However, the side chain also increases the asymmetry of the molecule and can inhibit efficient packing of the molecules in the solid state, generally leading to a depression of the melting point. It is a balance between the increased molecular weight and the disrupted packing. A substantial alkyl side chain like n-nonyl typically has a larger effect on disrupting the crystal lattice than the increase in van der Waals forces due to its size, so we would expect the melting point to decrease compared to naphthalene. The effect of a n-nonyl group can lead to a decrease of approximately 70 degrees.",
+        "Prediction": "10",
+        "logprob": [
+            [
+                "{\n",
+                -4.5252596e-05
+            ],
+            [
+                " ",
+                -0.018189397
+            ],
+            [
+                " \"",
+                -3.1281633e-07
+            ],
+            [
+                "Reason",
+                0.0
+            ],
+            [
+                "\":",
+                -0.00019853383
+            ],
+            [
+                " \"",
+                -0.0011034219
+            ],
+            [
+                "The",
+                -0.088572405
+            ],
+            [
+                " base",
+                -2.1784732
+            ],
+            [
+                " structure",
+                -0.5388912
+            ],
+            [
+                " for",
+                -0.83307457
+            ],
+            [
+                " the",
+                -1.165606
+            ],
+            [
+                " target",
+                -1.4655788
+            ],
+            [
+                " compound",
+                -0.00735519
+            ],
+            [
+                " is",
+                -0.20661835
+            ],
+            [
+                " n",
+                -0.0022968017
+            ],
+            [
+                "aph",
+                -1.504853e-06
+            ],
+            [
+                "thal",
+                -4.9617593e-06
+            ],
+            [
+                "ene",
+                -1.7432603e-06
+            ],
+            [
+                ",",
+                -0.078420475
+            ],
+            [
+                " which",
+                -0.010251791
+            ],
+            [
+                " has",
+                -0.0064410954
+            ],
+            [
+                " a",
+                -0.00082082656
+            ],
+            [
+                " melting",
+                -0.013581201
+            ],
+            [
+                " point",
+                -1.9027791e-05
+            ],
+            [
+                " of",
+                -0.028376725
+            ],
+            [
+                " ",
+                -0.3820744
+            ],
+            [
+                "80",
+                -0.0006797884
+            ],
+            [
+                " degrees",
+                -1.833543
+            ],
+            [
+                " Celsius",
+                -0.00065012503
+            ],
+            [
+                ".",
+                -0.0011737979
+            ],
+            [
+                " Adding",
+                -2.0202506
+            ],
+            [
+                " an",
+                -0.53438604
+            ],
+            [
+                " n",
+                -0.006918315
+            ],
+            [
+                "-n",
+                -0.0008246337
+            ],
+            [
+                "ony",
+                -2.8160932e-06
+            ],
+            [
+                "l",
+                -1.147242e-06
+            ],
+            [
+                " (",
+                -1.0570884
+            ],
+            [
+                "C",
+                -0.06491619
+            ],
+            [
+                "9",
+                -9.968313e-06
+            ],
+            [
+                "H",
+                -0.0053727296
+            ],
+            [
+                "19",
+                -1.6286107e-05
+            ],
+            [
+                ")",
+                -0.010652789
+            ],
+            [
+                " side",
+                -2.677047
+            ],
+            [
+                " chain",
+                -0.0037786972
+            ],
+            [
+                " significantly",
+                -3.7553444
+            ],
+            [
+                " increases",
+                -0.0112365605
+            ],
+            [
+                " the",
+                -0.0075965766
+            ],
+            [
+                " molecular",
+                -0.1122556
+            ],
+            [
+                " weight",
+                -0.012040869
+            ],
+            [
+                " and",
+                -0.07813475
+            ],
+            [
+                " the",
+                -0.44707173
+            ],
+            [
+                " van",
+                -0.54593045
+            ],
+            [
+                " der",
+                -0.000112245056
+            ],
+            [
+                " Wa",
+                -2.7014437e-05
+            ],
+            [
+                "als",
+                -0.0010172101
+            ],
+            [
+                " forces",
+                -0.100598164
+            ],
+            [
+                ",",
+                -0.46493134
+            ],
+            [
+                " which",
+                -0.67580587
+            ],
+            [
+                " should",
+                -2.4438863
+            ],
+            [
+                " increase",
+                -0.6117613
+            ],
+            [
+                " the",
+                -0.0013427316
+            ],
+            [
+                " melting",
+                -0.002428575
+            ],
+            [
+                " point",
+                -0.000114033115
+            ],
+            [
+                ".",
+                -0.044607736
+            ],
+            [
+                " However",
+                -0.016645951
+            ],
+            [
+                ",",
+                -0.0001593195
+            ],
+            [
+                " the",
+                -0.71811074
+            ],
+            [
+                " side",
+                -4.728121
+            ],
+            [
+                " chain",
+                -0.0037534095
+            ],
+            [
+                " also",
+                -0.04250371
+            ],
+            [
+                " increases",
+                -1.151648
+            ],
+            [
+                " the",
+                -0.034423098
+            ],
+            [
+                " asym",
+                -0.20841451
+            ],
+            [
+                "metry",
+                -3.035214e-05
+            ],
+            [
+                " of",
+                -0.03078343
+            ],
+            [
+                " the",
+                -3.631232e-05
+            ],
+            [
+                " molecule",
+                -0.0019920398
+            ],
+            [
+                " and",
+                -2.6199214
+            ],
+            [
+                " can",
+                -1.3706554
+            ],
+            [
+                " inhibit",
+                -4.5745497
+            ],
+            [
+                " efficient",
+                -0.36256266
+            ],
+            [
+                " packing",
+                -0.026473302
+            ],
+            [
+                " of",
+                -4.5229535
+            ],
+            [
+                " the",
+                -0.073242515
+            ],
+            [
+                " molecules",
+                -0.0041311188
+            ],
+            [
+                " in",
+                -0.13010335
+            ],
+            [
+                " the",
+                -0.16151513
+            ],
+            [
+                " solid",
+                -0.014556565
+            ],
+            [
+                " state",
+                -0.08331202
+            ],
+            [
+                ",",
+                -0.047363065
+            ],
+            [
+                " generally",
+                -5.61134
+            ],
+            [
+                " leading",
+                -0.60826206
+            ],
+            [
+                " to",
+                -9.74638e-05
+            ],
+            [
+                " a",
+                -0.002888087
+            ],
+            [
+                " depression",
+                -5.749058
+            ],
+            [
+                " of",
+                -0.7661359
+            ],
+            [
+                " the",
+                -0.0038652776
+            ],
+            [
+                " melting",
+                -0.00018304103
+            ],
+            [
+                " point",
+                -9.364929e-05
+            ],
+            [
+                ".",
+                -0.069822155
+            ],
+            [
+                " It",
+                -4.26273
+            ],
+            [
+                " is",
+                -0.6721981
+            ],
+            [
+                " a",
+                -1.3410684
+            ],
+            [
+                " balance",
+                -0.32558075
+            ],
+            [
+                " between",
+                -0.0457855
+            ],
+            [
+                " the",
+                -1.4164405
+            ],
+            [
+                " increased",
+                -0.8936658
+            ],
+            [
+                " molecular",
+                -0.72198254
+            ],
+            [
+                " weight",
+                -0.390766
+            ],
+            [
+                " and",
+                -0.14205015
+            ],
+            [
+                " the",
+                -0.5105782
+            ],
+            [
+                " disrupted",
+                -1.9173354
+            ],
+            [
+                " packing",
+                -0.3502782
+            ],
+            [
+                ".",
+                -0.4093403
+            ],
+            [
+                " A",
+                -4.2706575
+            ],
+            [
+                " substantial",
+                -6.067014
+            ],
+            [
+                " alk",
+                -0.2848085
+            ],
+            [
+                "yl",
+                -0.0009862465
+            ],
+            [
+                " side",
+                -1.5349064
+            ],
+            [
+                " chain",
+                -0.008611149
+            ],
+            [
+                " like",
+                -0.7681174
+            ],
+            [
+                " n",
+                -0.13053624
+            ],
+            [
+                "-n",
+                -6.897413e-05
+            ],
+            [
+                "ony",
+                -1.3663626e-05
+            ],
+            [
+                "l",
+                -2.577686e-06
+            ],
+            [
+                " typically",
+                -1.1703956
+            ],
+            [
+                " has",
+                -0.35790697
+            ],
+            [
+                " a",
+                -0.16339073
+            ],
+            [
+                " larger",
+                -0.60702026
+            ],
+            [
+                " effect",
+                -0.10625452
+            ],
+            [
+                " on",
+                -0.5837993
+            ],
+            [
+                " disrupting",
+                -0.15266961
+            ],
+            [
+                " the",
+                -0.39599034
+            ],
+            [
+                " crystal",
+                -1.00157
+            ],
+            [
+                " lattice",
+                -0.5473455
+            ],
+            [
+                " than",
+                -0.085848235
+            ],
+            [
+                " the",
+                -2.5879207
+            ],
+            [
+                " increase",
+                -0.72782326
+            ],
+            [
+                " in",
+                -0.084034555
+            ],
+            [
+                " van",
+                -0.1128534
+            ],
+            [
+                " der",
+                -0.00019924906
+            ],
+            [
+                " Wa",
+                -3.23786e-05
+            ],
+            [
+                "als",
+                -0.0003306977
+            ],
+            [
+                " forces",
+                -0.12789804
+            ],
+            [
+                " due",
+                -0.97458625
+            ],
+            [
+                " to",
+                -0.0006311863
+            ],
+            [
+                " its",
+                -1.3131832
+            ],
+            [
+                " size",
+                -0.42869318
+            ],
+            [
+                ",",
+                -0.90255964
+            ],
+            [
+                " so",
+                -1.5953808
+            ],
+            [
+                " we",
+                -0.5085392
+            ],
+            [
+                " would",
+                -1.0144647
+            ],
+            [
+                " expect",
+                -0.18957259
+            ],
+            [
+                " the",
+                -0.46273443
+            ],
+            [
+                " melting",
+                -0.07003447
+            ],
+            [
+                " point",
+                -0.00037919526
+            ],
+            [
+                " to",
+                -0.023007268
+            ],
+            [
+                " decrease",
+                -0.47107536
+            ],
+            [
+                " compared",
+                -1.8353667
+            ],
+            [
+                " to",
+                -0.005595157
+            ],
+            [
+                " n",
+                -0.06486101
+            ],
+            [
+                "aph",
+                -4.3202e-07
+            ],
+            [
+                "thal",
+                -2.577686e-06
+            ],
+            [
+                "ene",
+                -1.7432603e-06
+            ],
+            [
+                ".",
+                -0.97784024
+            ],
+            [
+                " The",
+                -0.9504748
+            ],
+            [
+                " effect",
+                -1.3260705
+            ],
+            [
+                " of",
+                -0.023360783
+            ],
+            [
+                " a",
+                -1.2603257
+            ],
+            [
+                " n",
+                -1.7950121
+            ],
+            [
+                "-n",
+                -0.1333107
+            ],
+            [
+                "ony",
+                -1.1756368e-05
+            ],
+            [
+                "l",
+                -4.00813e-06
+            ],
+            [
+                " group",
+                -0.27071667
+            ],
+            [
+                " can",
+                -1.9296174
+            ],
+            [
+                " lead",
+                -3.6247234
+            ],
+            [
+                " to",
+                -0.00087310927
+            ],
+            [
+                " a",
+                -0.0755692
+            ],
+            [
+                " decrease",
+                -0.10290959
+            ],
+            [
+                " of",
+                -0.4206537
+            ],
+            [
+                " approximately",
+                -0.63694406
+            ],
+            [
+                " ",
+                -0.104417086
+            ],
+            [
+                "70",
+                -0.9943844
+            ],
+            [
+                " degrees",
+                -0.27376586
+            ],
+            [
+                ".\",\n",
+                -4.7306757
+            ],
+            [
+                " ",
+                -0.0022300712
+            ],
+            [
+                " \"",
+                -3.1281633e-07
+            ],
+            [
+                "Prediction",
+                -1.9361265e-07
+            ],
+            [
+                "\":",
+                -3.5597102e-05
+            ],
+            [
+                " \"",
+                -0.0033794763
+            ],
+            [
+                "10",
+                -0.006264593
+            ],
+            [
+                "\"\n",
+                -0.61314756
+            ],
+            [
+                "}",
+                -0.005075903
+            ]
+        ],
+        "Prediction(integer)": 10.0
     }
 ]

@@ -1,23 +1,881 @@
 [
     {
-        "mpC": 94.0,
-        "name": "2-cyanophenol",
-        "smiles": "N#Cc1ccccc1O",
-        "csid": 11413,
+        "mpC": 112.0,
+        "name": "4-cyanophenol",
+        "smiles": "N#Cc1ccc(O)cc1",
+        "csid": 12478,
         "link": "http://www.amazon.com/dp/B003XEQTLE",
         "source": "Aldrich Chemical Company; Aldrich Catalog-Handbook of Fine Chemicals; Milwaukee; WI; 1984.",
         "Reason": "",
         "Prediction": ""
     },
     {
-        "mpC": 94.0,
-        "name": "2-cyanophenol",
-        "smiles": "N#Cc1ccccc1O",
-        "csid": 11413,
+        "mpC": 112.0,
+        "name": "4-cyanophenol",
+        "smiles": "N#Cc1ccc(O)cc1",
+        "csid": 12478,
         "link": "http://www.amazon.com/dp/B003XEQTLE",
         "source": "Aldrich Chemical Company; Aldrich Catalog-Handbook of Fine Chemicals; Milwaukee; WI; 1984.",
-        "Reason": "For 2-cyanophenol, we must consider the effects of both the hydroxyl (-OH) group and the nitrile (\u2013C\u2261N) group on the base structure of benzene. The benzene ring has a basic melting point reference, which we will take as around 5.5 \u00b0C for the sake of comparison. The hydroxyl group is known to increase the melting point due to its ability to form hydrogen bonds; this could be estimated as an increase of approximately +70 \u00b0C. On the other hand, the nitrile group, being polar and having a cyano group attached directly to the ring, tends to increase the rigidity of the molecule and might contribute an additional +20 \u00b0C due to dipole-dipole interactions and potential for cyano group stacking. The sum of contributions from each functional group and the base benzene structure will give us the predicted melting point.",
-        "Prediction": "5.5 (base benzene) + 70 (hydroxyl group) + 20 (nitrile group) = 95.5",
-        "Prediction(integer)": 95.5
+        "Reason": "The basic unit for 4-cyanophenol is benzene, which has a melting point of 5.5\u00b0C. The hydroxyl group (-OH) generally increases the melting point due to hydrogen bonding, which could contribute roughly +80\u00b0C. The cyano group (-C\u2261N) is electron-withdrawing and also supports intermolecular interactions such as dipole-dipole attractions, which tends to increase the melting point as well; this group could contribute an additional +30\u00b0C. The positions of the substituents allow for intramolecular hydrogen bonding, which may slightly reduce the effectiveness of the intermolecular hydrogen bonding and the overall increase, so this could subtract around -3\u00b0C from the additive effects of the hydroxyl and cyano groups.",
+        "Prediction": "5.5 (benzene base) + 80 (hydroxyl group) + 30 (cyano group) - 3 (intramolecular hydrogen bond adjustment) = 112.5\u00b0C",
+        "logprob": [
+            [
+                "{\n",
+                -1.18755715e-05
+            ],
+            [
+                " ",
+                -0.07658843
+            ],
+            [
+                " \"",
+                -3.1281633e-07
+            ],
+            [
+                "Reason",
+                0.0
+            ],
+            [
+                "\":",
+                -0.00030161935
+            ],
+            [
+                " \"",
+                -0.005730044
+            ],
+            [
+                "The",
+                -0.1546865
+            ],
+            [
+                " basic",
+                -0.9320826
+            ],
+            [
+                " unit",
+                -0.07872277
+            ],
+            [
+                " for",
+                -0.62207735
+            ],
+            [
+                " ",
+                -0.28505832
+            ],
+            [
+                "4",
+                -4.3202e-07
+            ],
+            [
+                "-c",
+                -0.00027063373
+            ],
+            [
+                "yan",
+                -0.00034011112
+            ],
+            [
+                "oph",
+                -5.7961847e-06
+            ],
+            [
+                "en",
+                -3.1281633e-07
+            ],
+            [
+                "ol",
+                -7.89631e-07
+            ],
+            [
+                " is",
+                -0.07002691
+            ],
+            [
+                " benz",
+                -0.25274956
+            ],
+            [
+                "ene",
+                -4.4849444e-06
+            ],
+            [
+                ",",
+                -0.077529855
+            ],
+            [
+                " which",
+                -0.010676492
+            ],
+            [
+                " has",
+                -0.00086465315
+            ],
+            [
+                " a",
+                -0.0008436953
+            ],
+            [
+                " melting",
+                -0.025865812
+            ],
+            [
+                " point",
+                -1.18755715e-05
+            ],
+            [
+                " of",
+                -0.12019297
+            ],
+            [
+                " ",
+                -0.038842194
+            ],
+            [
+                "5",
+                -0.00025001515
+            ],
+            [
+                ".",
+                -4.727906e-05
+            ],
+            [
+                "5",
+                -0.00618818
+            ],
+            [
+                "\u00b0C",
+                -0.649967
+            ],
+            [
+                ".",
+                -0.008422256
+            ],
+            [
+                " The",
+                -0.39391503
+            ],
+            [
+                " hydro",
+                -0.23668936
+            ],
+            [
+                "x",
+                -0.094416335
+            ],
+            [
+                "yl",
+                -2.319992e-05
+            ],
+            [
+                " group",
+                -0.7096476
+            ],
+            [
+                " (-",
+                -0.4231232
+            ],
+            [
+                "OH",
+                -7.89631e-07
+            ],
+            [
+                ")",
+                -0.008423676
+            ],
+            [
+                " generally",
+                -1.863567
+            ],
+            [
+                " increases",
+                -0.05201486
+            ],
+            [
+                " the",
+                -0.15575477
+            ],
+            [
+                " melting",
+                -0.0026896752
+            ],
+            [
+                " point",
+                -0.00011963568
+            ],
+            [
+                " due",
+                -0.12469322
+            ],
+            [
+                " to",
+                -0.00032080378
+            ],
+            [
+                " hydrogen",
+                -1.0866245
+            ],
+            [
+                " bonding",
+                -0.0072317594
+            ],
+            [
+                ",",
+                -0.89612615
+            ],
+            [
+                " which",
+                -0.14556563
+            ],
+            [
+                " could",
+                -2.8058186
+            ],
+            [
+                " contribute",
+                -1.8239188
+            ],
+            [
+                " roughly",
+                -4.061631
+            ],
+            [
+                " +",
+                -0.01948441
+            ],
+            [
+                "80",
+                -0.7994906
+            ],
+            [
+                "\u00b0C",
+                -0.08203518
+            ],
+            [
+                ".",
+                -0.2868916
+            ],
+            [
+                " The",
+                -0.07478435
+            ],
+            [
+                " cy",
+                -0.15268445
+            ],
+            [
+                "ano",
+                0.0
+            ],
+            [
+                " group",
+                -0.0030455699
+            ],
+            [
+                " (-",
+                -0.042833373
+            ],
+            [
+                "C",
+                -0.20718792
+            ],
+            [
+                "\\xe2\\x89",
+                -0.0051234616
+            ],
+            [
+                "\\xa1",
+                -4.3202e-07
+            ],
+            [
+                "N",
+                -3.1281633e-07
+            ],
+            [
+                ")",
+                -0.043088373
+            ],
+            [
+                " is",
+                -0.18930902
+            ],
+            [
+                " electron",
+                -1.605638
+            ],
+            [
+                "-with",
+                -0.0358368
+            ],
+            [
+                "drawing",
+                -2.6968896e-06
+            ],
+            [
+                " and",
+                -0.040841166
+            ],
+            [
+                " also",
+                -1.2734514
+            ],
+            [
+                " supports",
+                -5.4263096
+            ],
+            [
+                " inter",
+                -0.2709108
+            ],
+            [
+                "m",
+                -0.00021236145
+            ],
+            [
+                "olecular",
+                -3.5313153e-06
+            ],
+            [
+                " interactions",
+                -0.34079644
+            ],
+            [
+                " such",
+                -1.1096194
+            ],
+            [
+                " as",
+                -4.3822154e-05
+            ],
+            [
+                " dip",
+                -0.0019132847
+            ],
+            [
+                "ole",
+                -0.0026786297
+            ],
+            [
+                "-d",
+                -0.033565246
+            ],
+            [
+                "ip",
+                -2.8160932e-06
+            ],
+            [
+                "ole",
+                -1.4617256e-05
+            ],
+            [
+                " attractions",
+                -0.62502605
+            ],
+            [
+                ",",
+                -0.16296442
+            ],
+            [
+                " which",
+                -0.76767194
+            ],
+            [
+                " tends",
+                -5.009804
+            ],
+            [
+                " to",
+                -0.00013178712
+            ],
+            [
+                " increase",
+                -0.41656086
+            ],
+            [
+                " the",
+                -0.24977842
+            ],
+            [
+                " melting",
+                -0.0014240451
+            ],
+            [
+                " point",
+                -0.00017588881
+            ],
+            [
+                " as",
+                -1.978536
+            ],
+            [
+                " well",
+                -0.00096886844
+            ],
+            [
+                ";",
+                -0.70560783
+            ],
+            [
+                " this",
+                -0.36265
+            ],
+            [
+                " group",
+                -3.2018204
+            ],
+            [
+                " could",
+                -0.6270226
+            ],
+            [
+                " contribute",
+                -0.41168913
+            ],
+            [
+                " an",
+                -1.8151605
+            ],
+            [
+                " additional",
+                -0.13350254
+            ],
+            [
+                " +",
+                -0.010691697
+            ],
+            [
+                "30",
+                -0.52745986
+            ],
+            [
+                "\u00b0C",
+                -0.002185711
+            ],
+            [
+                ".",
+                -0.39682204
+            ],
+            [
+                " The",
+                -1.7575694
+            ],
+            [
+                " positions",
+                -0.90789396
+            ],
+            [
+                " of",
+                -0.008624148
+            ],
+            [
+                " the",
+                -0.41505423
+            ],
+            [
+                " substit",
+                -0.13305205
+            ],
+            [
+                "u",
+                -0.0028828566
+            ],
+            [
+                "ents",
+                -4.3202e-07
+            ],
+            [
+                " allow",
+                -2.64766
+            ],
+            [
+                " for",
+                -0.056377355
+            ],
+            [
+                " intr",
+                -1.1024504
+            ],
+            [
+                "am",
+                -3.1281633e-07
+            ],
+            [
+                "olecular",
+                -2.4749568e-05
+            ],
+            [
+                " hydrogen",
+                -0.0006675215
+            ],
+            [
+                " bonding",
+                -0.0048437654
+            ],
+            [
+                ",",
+                -1.1593597
+            ],
+            [
+                " which",
+                -0.18732458
+            ],
+            [
+                " may",
+                -1.6345229
+            ],
+            [
+                " slightly",
+                -1.0985768
+            ],
+            [
+                " reduce",
+                -0.48925042
+            ],
+            [
+                " the",
+                -0.009484174
+            ],
+            [
+                " effectiveness",
+                -5.30734
+            ],
+            [
+                " of",
+                -0.005081007
+            ],
+            [
+                " the",
+                -1.7440131
+            ],
+            [
+                " inter",
+                -0.51828516
+            ],
+            [
+                "m",
+                -9.2695656e-05
+            ],
+            [
+                "olecular",
+                -6.46828e-05
+            ],
+            [
+                " hydrogen",
+                -0.06848511
+            ],
+            [
+                " bonding",
+                -0.07372166
+            ],
+            [
+                " and",
+                -2.9528153
+            ],
+            [
+                " the",
+                -3.3519604
+            ],
+            [
+                " overall",
+                -0.7757516
+            ],
+            [
+                " increase",
+                -1.4386516
+            ],
+            [
+                ",",
+                -5.195342
+            ],
+            [
+                " so",
+                -0.7153105
+            ],
+            [
+                " this",
+                -1.7179366
+            ],
+            [
+                " could",
+                -1.61255
+            ],
+            [
+                " subtract",
+                -3.307154
+            ],
+            [
+                " around",
+                -0.8510082
+            ],
+            [
+                " -",
+                -0.0013634509
+            ],
+            [
+                "3",
+                -0.64309776
+            ],
+            [
+                "\u00b0C",
+                -2.4613745
+            ],
+            [
+                " from",
+                -1.1384418
+            ],
+            [
+                " the",
+                -0.012969741
+            ],
+            [
+                " additive",
+                -3.6580122
+            ],
+            [
+                " effects",
+                -0.10383261
+            ],
+            [
+                " of",
+                -0.2572969
+            ],
+            [
+                " the",
+                -0.049565732
+            ],
+            [
+                " hydro",
+                -2.1322541
+            ],
+            [
+                "x",
+                -0.0016287636
+            ],
+            [
+                "yl",
+                -7.9418505e-06
+            ],
+            [
+                " and",
+                -0.00032021143
+            ],
+            [
+                " cy",
+                -0.026079997
+            ],
+            [
+                "ano",
+                0.0
+            ],
+            [
+                " groups",
+                -0.027906513
+            ],
+            [
+                ".\",\n",
+                -0.08902846
+            ],
+            [
+                " ",
+                -0.006370136
+            ],
+            [
+                " \"",
+                -3.1281633e-07
+            ],
+            [
+                "Prediction",
+                -4.3202e-07
+            ],
+            [
+                "\":",
+                -1.378283e-05
+            ],
+            [
+                " \"",
+                -0.004027703
+            ],
+            [
+                "5",
+                -3.1605897
+            ],
+            [
+                ".",
+                -9.729906e-06
+            ],
+            [
+                "5",
+                -1.8624639e-06
+            ],
+            [
+                " (",
+                -0.006144219
+            ],
+            [
+                "ben",
+                -0.14518301
+            ],
+            [
+                "z",
+                -6.704273e-07
+            ],
+            [
+                "ene",
+                0.0
+            ],
+            [
+                " base",
+                -2.5325894
+            ],
+            [
+                ")",
+                -0.024442915
+            ],
+            [
+                " +",
+                -3.035214e-05
+            ],
+            [
+                " ",
+                -0.0012158328
+            ],
+            [
+                "80",
+                -2.4153549e-05
+            ],
+            [
+                " (",
+                -0.0017415818
+            ],
+            [
+                "hydro",
+                -0.012902776
+            ],
+            [
+                "x",
+                -0.0019036512
+            ],
+            [
+                "yl",
+                -2.220075e-06
+            ],
+            [
+                " group",
+                -0.32604027
+            ],
+            [
+                ")",
+                -0.26661465
+            ],
+            [
+                " +",
+                -2.677603e-05
+            ],
+            [
+                " ",
+                -0.0003213998
+            ],
+            [
+                "30",
+                -5.6219335e-05
+            ],
+            [
+                " (",
+                -5.4669687e-05
+            ],
+            [
+                "cy",
+                -3.035214e-05
+            ],
+            [
+                "ano",
+                0.0
+            ],
+            [
+                " group",
+                -1.50940705e-05
+            ],
+            [
+                ")",
+                -4.143808e-05
+            ],
+            [
+                " -",
+                -0.000119039665
+            ],
+            [
+                " ",
+                -0.0010494812
+            ],
+            [
+                "3",
+                -2.9352968e-06
+            ],
+            [
+                " (",
+                -2.7610455e-05
+            ],
+            [
+                "intr",
+                -0.3639853
+            ],
+            [
+                "am",
+                -5.5122365e-07
+            ],
+            [
+                "olecular",
+                -1.2233183e-05
+            ],
+            [
+                " hydrogen",
+                -0.6206609
+            ],
+            [
+                " bond",
+                -1.9115592
+            ],
+            [
+                " adjustment",
+                -0.744518
+            ],
+            [
+                ")",
+                -0.0002639583
+            ],
+            [
+                " =",
+                -0.0027857425
+            ],
+            [
+                " ",
+                -0.0002226093
+            ],
+            [
+                "112",
+                -0.00042292834
+            ],
+            [
+                ".",
+                -9.0883464e-07
+            ],
+            [
+                "5",
+                -3.4121115e-06
+            ],
+            [
+                "\u00b0C",
+                -0.09603968
+            ],
+            [
+                "\"\n",
+                -0.0013247648
+            ],
+            [
+                "}",
+                -0.0047684265
+            ]
+        ],
+        "Prediction(integer)": 112.0
     }
 ]

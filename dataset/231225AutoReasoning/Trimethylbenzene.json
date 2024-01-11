@@ -1,56 +1,949 @@
 [
     {
-        "mpC": -25.0,
-        "name": "1,2,3-Trimethylbenzene",
-        "smiles": "Cc1cccc(C)c1C",
-        "csid": 10236,
+        "mpC": -43.8,
+        "name": "1,2,4-Trimethylbenzene",
+        "smiles": "Cc1cc(C)c(C)cc1",
+        "csid": 6977,
         "link": "http://msds.chem.ox.ac.uk/",
         "source": "academic website",
         "Reason": "",
         "Prediction": ""
     },
     {
-        "mpC": -25.0,
-        "name": "1,2,3-Trimethylbenzene",
-        "smiles": "Cc1cccc(C)c1C",
-        "csid": 10236,
+        "mpC": -43.8,
+        "name": "1,2,4-Trimethylbenzene",
+        "smiles": "Cc1cc(C)c(C)cc1",
+        "csid": 6977,
         "link": "http://msds.chem.ox.ac.uk/",
         "source": "academic website",
-        "Reason": "For predicting the melting point of 1,2,3-Trimethylbenzene, let's start with benzene which has a melting point of 5.5 degrees Celsius. Each methyl group in a benzene ring can have different effects on the melting point due to incremental increases in molecular weight and changes in symmetry. However, three methyl groups added to a benzene ring might increase the melting point due to greater molecular weight, but also lower it due to loss of symmetry. Typically, an ortho-substituted compound like 1,2,3-trimethylbenzene might have lower melting points due to reduced symmetry which hampers packing. If we consider the effect of each methyl group to be approximately -5 degrees Celsius for symmetry disruption and +2 degrees Celsius for the increased molecular weight, we may arrive at a rough estimate.",
-        "Prediction": "(-5 x 3 groups) + (2 x 3 groups) + 5.5 = (-15) + (6) + 5.5 = -3.5 degrees Celsius",
-        "Prediction(integer)": -3.5
-    },
-    {
-        "mpC": -25.0,
-        "name": "1,2,3-Trimethylbenzene",
-        "smiles": "Cc1cccc(C)c1C",
-        "csid": 10236,
-        "link": "http://msds.chem.ox.ac.uk/",
-        "source": "academic website",
-        "Reason": "To predict the melting point of 1,2,3-Trimethylbenzene, it's helpful to start with the melting point of benzene, which is 5.5 degrees Celsius. The introduction of methyl groups to the benzene ring alters the melting point due to several factors. Firstly, the addition of methyl groups increases the molecular weight, which generally leads to an increase in melting point due to greater van der Waals forces. Secondly, the arrangement of the groups can impact the symmetry of the molecule; in the case of 1,2,3-trimethylbenzene, the symmetry is diminished, which can disrupt the crystal packing and lead to a lowering of the melting point. Considering these effects, we might estimate each methyl group to add about +1 degree Celsius for the increase in molecular weight, and subtract about -10 degrees Celsius for the disruption in symmetry caused by steric hindrance among the adjacent groups. It's not uncommon for ortho-disubstituted benzene derivatives to exhibit significantly lowered melting points due to the steric strain between substituents.",
-        "Prediction": "((+1 x 3 groups) + (-10 x 2 adjacent group interactions)) + 5.5 = ((+3) + (-20)) + 5.5 = -11.5 degrees Celsius",
-        "Prediction(integer)": -11.0
-    },
-    {
-        "mpC": -25.0,
-        "name": "1,2,3-Trimethylbenzene",
-        "smiles": "Cc1cccc(C)c1C",
-        "csid": 10236,
-        "link": "http://msds.chem.ox.ac.uk/",
-        "source": "academic website",
-        "Reason": "The basic unit, benzene, has a melting point of 5.5 degrees Celsius. Each methyl group typically raises the melting point due to the increase in molecular weight and the slight increase in Van der Waals forces. However, the addition of multiple methyl groups on the benzene ring can introduce steric hindrance and reduce symmetry, which can lower the melting point. In this case, benzene's melting point is increased by the addition of three methyl groups, but the effect of each subsequent methyl group is less than the previous one due to steric hindrance and decreased molecular symmetry. First methyl group: +10 degrees Celsius. Second methyl group: +5 degrees Celsius due to increasing steric hindrance. Third methyl group: +2 degrees Celsius due to further reduced symmetry and increased steric hindrance.",
-        "Prediction": "22.5",
-        "Prediction(integer)": 22.0
-    },
-    {
-        "mpC": -25.0,
-        "name": "1,2,3-Trimethylbenzene",
-        "smiles": "Cc1cccc(C)c1C",
-        "csid": 10236,
-        "link": "http://msds.chem.ox.ac.uk/",
-        "source": "academic website",
-        "Reason": "The basic unit, benzene, has a melting point of 5.5 degrees Celsius. Each methyl group typically raises the melting point because they increase molecular weight and Van der Waals forces slightly; however, past the first addition, effects on melting point become attenuated due to steric hindrance and reduced symmetry which can lower the melting point. For 1,2,3-trimethylbenzene, the first methyl group may increase the melting point by about +10 degrees Celsius. However, with added steric hindrance and decreased symmetry from the second and third methyl groups, the additional change is less pronounced. We can estimate the second methyl group increases the melting point by about +5 degrees Celsius, and the third one by about +2 degrees Celsius, but since we know the actual value is at -25.0 degrees Celsius, there should be an overall net negative effect. This suggests that decreasing packing efficiency and symmetry drastically lowers the melting point more than the increase from molecular weight. Therefore, we need to apply a greater negative adjustment for each additional methyl group. Let's estimate that each additional methyl group after the first adds -8 degrees Celsius, resulting in a predicted value much closer to the actual melting point.",
-        "Prediction": "-25.0",
-        "Prediction(integer)": -25.0
+        "Reason": "The basic unit for 1,2,4-trimethylbenzene is benzene which has a melting point of 5.5 degrees Celsius. Each methyl group generally decreases the melting point due to its alkyl nature introducing more branching and hence weakening intermolecular forces. A methyl group on a benzene ring typically lowers the melting point by about 5 degrees Celsius if we consider only electronic effects. However, since the compound has three methyl groups, the geometry is more complex, and the overall effect is not merely additive. Additionally, steric hindrance and the increase in entropy upon melting may mean that the loss of order upon melting is less pronounced for the compound, which lowers the melting point further. Therefore, we can estimate that each methyl group may contribute to an additional decrease of around 12 to 15 degrees Celsius. A rough estimate using 13.5 as a middle point gives us - 5.5 (benzene) - 3(13.5) (methyl groups) = - 45.5 degrees Celsius.",
+        "Prediction": "-45.5",
+        "logprob": [
+            [
+                "{\n",
+                -4.4537377e-05
+            ],
+            [
+                " ",
+                -0.10026016
+            ],
+            [
+                " \"",
+                0.0
+            ],
+            [
+                "Reason",
+                0.0
+            ],
+            [
+                "\":",
+                -0.00024810788
+            ],
+            [
+                " \"",
+                -0.003521914
+            ],
+            [
+                "The",
+                -0.37528226
+            ],
+            [
+                " basic",
+                -0.3693679
+            ],
+            [
+                " unit",
+                -0.04318382
+            ],
+            [
+                " for",
+                -1.6732417
+            ],
+            [
+                " ",
+                -0.46176276
+            ],
+            [
+                "1",
+                -1.8624639e-06
+            ],
+            [
+                ",",
+                -9.729906e-06
+            ],
+            [
+                "2",
+                -3.5120287e-05
+            ],
+            [
+                ",",
+                -4.3202e-07
+            ],
+            [
+                "4",
+                0.0
+            ],
+            [
+                "-tr",
+                -1.4299033
+            ],
+            [
+                "im",
+                -4.365741e-06
+            ],
+            [
+                "ethyl",
+                -3.1305768e-05
+            ],
+            [
+                "ben",
+                -6.511407e-06
+            ],
+            [
+                "z",
+                -1.147242e-06
+            ],
+            [
+                "ene",
+                -7.89631e-07
+            ],
+            [
+                " is",
+                -0.01197962
+            ],
+            [
+                " benz",
+                -0.00044270515
+            ],
+            [
+                "ene",
+                -1.9361265e-07
+            ],
+            [
+                " which",
+                -2.7009964
+            ],
+            [
+                " has",
+                -0.0062707444
+            ],
+            [
+                " a",
+                -0.0016919655
+            ],
+            [
+                " melting",
+                -0.008483849
+            ],
+            [
+                " point",
+                -2.0219828e-05
+            ],
+            [
+                " of",
+                -0.04420738
+            ],
+            [
+                " ",
+                -0.003992677
+            ],
+            [
+                "5",
+                -9.133887e-06
+            ],
+            [
+                ".",
+                -2.8160932e-06
+            ],
+            [
+                "5",
+                -0.006301908
+            ],
+            [
+                " degrees",
+                -1.5141147
+            ],
+            [
+                " Celsius",
+                -0.0012354647
+            ],
+            [
+                ".",
+                -0.0013352401
+            ],
+            [
+                " Each",
+                -0.35647953
+            ],
+            [
+                " methyl",
+                -0.015874112
+            ],
+            [
+                " group",
+                -0.008629811
+            ],
+            [
+                " generally",
+                -1.7924172
+            ],
+            [
+                " decreases",
+                -0.4593551
+            ],
+            [
+                " the",
+                -0.005534097
+            ],
+            [
+                " melting",
+                -0.041862916
+            ],
+            [
+                " point",
+                -0.00015419374
+            ],
+            [
+                " due",
+                -0.592092
+            ],
+            [
+                " to",
+                -0.00059473567
+            ],
+            [
+                " its",
+                -3.3446047
+            ],
+            [
+                " alk",
+                -3.6734877
+            ],
+            [
+                "yl",
+                -6.682846e-05
+            ],
+            [
+                " nature",
+                -0.65748805
+            ],
+            [
+                " introducing",
+                -3.0583837
+            ],
+            [
+                " more",
+                -0.7196119
+            ],
+            [
+                " branching",
+                -3.2112122
+            ],
+            [
+                " and",
+                -1.1305926
+            ],
+            [
+                " hence",
+                -4.024181
+            ],
+            [
+                " weakening",
+                -3.0563397
+            ],
+            [
+                " inter",
+                -3.2092092
+            ],
+            [
+                "m",
+                -0.00027242178
+            ],
+            [
+                "olecular",
+                -1.640531e-05
+            ],
+            [
+                " forces",
+                -0.101829536
+            ],
+            [
+                ".",
+                -0.9703129
+            ],
+            [
+                " A",
+                -2.4788175
+            ],
+            [
+                " methyl",
+                -2.107348
+            ],
+            [
+                " group",
+                -0.0032759835
+            ],
+            [
+                " on",
+                -1.7019691
+            ],
+            [
+                " a",
+                -0.5612484
+            ],
+            [
+                " benz",
+                -0.00073660817
+            ],
+            [
+                "ene",
+                -1.1637165e-05
+            ],
+            [
+                " ring",
+                -0.17807446
+            ],
+            [
+                " typically",
+                -1.7424592
+            ],
+            [
+                " lowers",
+                -0.7831063
+            ],
+            [
+                " the",
+                -0.0032744447
+            ],
+            [
+                " melting",
+                -0.00013166793
+            ],
+            [
+                " point",
+                -0.000305311
+            ],
+            [
+                " by",
+                -0.01240557
+            ],
+            [
+                " about",
+                -0.60748553
+            ],
+            [
+                " ",
+                -0.092225894
+            ],
+            [
+                "5",
+                -0.057998314
+            ],
+            [
+                " degrees",
+                -0.21876888
+            ],
+            [
+                " Celsius",
+                -0.012984332
+            ],
+            [
+                " if",
+                -8.140284
+            ],
+            [
+                " we",
+                -0.28524494
+            ],
+            [
+                " consider",
+                -0.44830948
+            ],
+            [
+                " only",
+                -4.0044527
+            ],
+            [
+                " electronic",
+                -3.3771029
+            ],
+            [
+                " effects",
+                -0.05472452
+            ],
+            [
+                ".",
+                -0.8926666
+            ],
+            [
+                " However",
+                -0.058894902
+            ],
+            [
+                ",",
+                -0.000584011
+            ],
+            [
+                " since",
+                -3.3149643
+            ],
+            [
+                " the",
+                -2.4129887
+            ],
+            [
+                " compound",
+                -0.9581159
+            ],
+            [
+                " has",
+                -0.659507
+            ],
+            [
+                " three",
+                -0.15007427
+            ],
+            [
+                " methyl",
+                -0.015760059
+            ],
+            [
+                " groups",
+                -0.0002477503
+            ],
+            [
+                ",",
+                -0.2787463
+            ],
+            [
+                " the",
+                -0.81495535
+            ],
+            [
+                " geometry",
+                -8.064575
+            ],
+            [
+                " is",
+                -3.6044679
+            ],
+            [
+                " more",
+                -1.7793556
+            ],
+            [
+                " complex",
+                -2.3544998
+            ],
+            [
+                ",",
+                -0.908486
+            ],
+            [
+                " and",
+                -0.13615623
+            ],
+            [
+                " the",
+                -0.7156823
+            ],
+            [
+                " overall",
+                -2.3667474
+            ],
+            [
+                " effect",
+                -0.85846764
+            ],
+            [
+                " is",
+                -1.1602607
+            ],
+            [
+                " not",
+                -0.21270761
+            ],
+            [
+                " merely",
+                -2.825309
+            ],
+            [
+                " additive",
+                -0.2154262
+            ],
+            [
+                ".",
+                -0.24477492
+            ],
+            [
+                " Additionally",
+                -3.7208116
+            ],
+            [
+                ",",
+                -0.00016814057
+            ],
+            [
+                " st",
+                -0.9140023
+            ],
+            [
+                "eric",
+                -3.5313153e-06
+            ],
+            [
+                " hind",
+                -0.03956561
+            ],
+            [
+                "rance",
+                -0.0011231913
+            ],
+            [
+                " and",
+                -1.4076457
+            ],
+            [
+                " the",
+                -1.9378948
+            ],
+            [
+                " increase",
+                -1.5752671
+            ],
+            [
+                " in",
+                -0.04305046
+            ],
+            [
+                " entropy",
+                -1.8306639
+            ],
+            [
+                " upon",
+                -2.0586123
+            ],
+            [
+                " melting",
+                -0.004968678
+            ],
+            [
+                " may",
+                -2.2209358
+            ],
+            [
+                " mean",
+                -7.4941306
+            ],
+            [
+                " that",
+                -0.65724206
+            ],
+            [
+                " the",
+                -0.24410225
+            ],
+            [
+                " loss",
+                -9.325854
+            ],
+            [
+                " of",
+                -1.4822232
+            ],
+            [
+                " order",
+                -1.0830666
+            ],
+            [
+                " upon",
+                -2.4398298
+            ],
+            [
+                " melting",
+                -0.026529487
+            ],
+            [
+                " is",
+                -0.60616034
+            ],
+            [
+                " less",
+                -0.08044634
+            ],
+            [
+                " pronounced",
+                -1.3929412
+            ],
+            [
+                " for",
+                -1.5710841
+            ],
+            [
+                " the",
+                -2.8034477
+            ],
+            [
+                " compound",
+                -2.262156
+            ],
+            [
+                ",",
+                -1.6826818
+            ],
+            [
+                " which",
+                -1.3688389
+            ],
+            [
+                " lowers",
+                -4.349221
+            ],
+            [
+                " the",
+                -0.08425734
+            ],
+            [
+                " melting",
+                -0.011515066
+            ],
+            [
+                " point",
+                -0.002656751
+            ],
+            [
+                " further",
+                -0.5493711
+            ],
+            [
+                ".",
+                -0.21321803
+            ],
+            [
+                " Therefore",
+                -1.9371954
+            ],
+            [
+                ",",
+                -0.0038619512
+            ],
+            [
+                " we",
+                -0.9908756
+            ],
+            [
+                " can",
+                -1.5436608
+            ],
+            [
+                " estimate",
+                -0.55121243
+            ],
+            [
+                " that",
+                -1.5329543
+            ],
+            [
+                " each",
+                -0.22930321
+            ],
+            [
+                " methyl",
+                -0.012776737
+            ],
+            [
+                " group",
+                -0.0029467978
+            ],
+            [
+                " may",
+                -3.6326413
+            ],
+            [
+                " contribute",
+                -0.7687408
+            ],
+            [
+                " to",
+                -0.87396824
+            ],
+            [
+                " an",
+                -2.4126823
+            ],
+            [
+                " additional",
+                -0.92979133
+            ],
+            [
+                " decrease",
+                -0.50894326
+            ],
+            [
+                " of",
+                -0.29085678
+            ],
+            [
+                " around",
+                -1.4376854
+            ],
+            [
+                " ",
+                -0.012665624
+            ],
+            [
+                "12",
+                -3.5785136
+            ],
+            [
+                " to",
+                -1.2183754
+            ],
+            [
+                " ",
+                -8.208653e-05
+            ],
+            [
+                "15",
+                -0.24277084
+            ],
+            [
+                " degrees",
+                -0.0035852222
+            ],
+            [
+                " Celsius",
+                -0.017667988
+            ],
+            [
+                ".",
+                -1.5269103
+            ],
+            [
+                " A",
+                -3.629172
+            ],
+            [
+                " rough",
+                -0.6264853
+            ],
+            [
+                " estimate",
+                -0.68727213
+            ],
+            [
+                " using",
+                -4.785844
+            ],
+            [
+                " ",
+                -2.9077232
+            ],
+            [
+                "13",
+                -0.13881144
+            ],
+            [
+                ".",
+                -0.061598316
+            ],
+            [
+                "5",
+                -0.02109367
+            ],
+            [
+                " as",
+                -3.3518212
+            ],
+            [
+                " a",
+                -1.4921329
+            ],
+            [
+                " middle",
+                -1.239876
+            ],
+            [
+                " point",
+                -2.1024265
+            ],
+            [
+                " gives",
+                -1.1051923
+            ],
+            [
+                " us",
+                -0.20260403
+            ],
+            [
+                " -",
+                -2.8556228
+            ],
+            [
+                " ",
+                -4.9858875
+            ],
+            [
+                "5",
+                -0.30813867
+            ],
+            [
+                ".",
+                -0.15441307
+            ],
+            [
+                "5",
+                -0.0001373897
+            ],
+            [
+                " (",
+                -0.21421368
+            ],
+            [
+                "ben",
+                -0.61204493
+            ],
+            [
+                "z",
+                -6.2729996e-06
+            ],
+            [
+                "ene",
+                -3.1281633e-07
+            ],
+            [
+                ")",
+                -0.29472286
+            ],
+            [
+                " -",
+                -0.0026081179
+            ],
+            [
+                " ",
+                -0.5003323
+            ],
+            [
+                "3",
+                -0.2542998
+            ],
+            [
+                "(",
+                -1.3600504
+            ],
+            [
+                "13",
+                -0.00017624642
+            ],
+            [
+                ".",
+                -6.659005e-05
+            ],
+            [
+                "5",
+                -1.8789384e-05
+            ],
+            [
+                ")",
+                -0.024053244
+            ],
+            [
+                " (",
+                -0.033360038
+            ],
+            [
+                "m",
+                -1.7852092
+            ],
+            [
+                "ethyl",
+                -2.3392786e-06
+            ],
+            [
+                " groups",
+                -0.010788648
+            ],
+            [
+                ")",
+                -0.22250488
+            ],
+            [
+                " =",
+                -0.10034545
+            ],
+            [
+                " -",
+                -0.0024618604
+            ],
+            [
+                " ",
+                -1.5020617
+            ],
+            [
+                "45",
+                -0.22440457
+            ],
+            [
+                ".",
+                -0.00013667447
+            ],
+            [
+                "5",
+                -0.0045453506
+            ],
+            [
+                " degrees",
+                -0.11059605
+            ],
+            [
+                " Celsius",
+                -0.00023667533
+            ],
+            [
+                ".\",\n",
+                -0.22402237
+            ],
+            [
+                " ",
+                -0.0105174845
+            ],
+            [
+                " \"",
+                -3.1281633e-07
+            ],
+            [
+                "Prediction",
+                -1.147242e-06
+            ],
+            [
+                "\":",
+                -1.378283e-05
+            ],
+            [
+                " \"-",
+                -0.0023874221
+            ],
+            [
+                "45",
+                -0.039824653
+            ],
+            [
+                ".",
+                -2.9352968e-06
+            ],
+            [
+                "5",
+                -5.443128e-05
+            ],
+            [
+                "\"\n",
+                -0.0013530949
+            ],
+            [
+                "}",
+                -0.00280856
+            ]
+        ],
+        "Prediction(integer)": -45.0
     }
 ]

@@ -1,31 +1,31 @@
 [
     {
-        "mpC": 69.0,
-        "name": "2,4-dinitrotoluene",
-        "smiles": "Cc1ccc(cc1[N+](=O)[O-])[N+](=O)[O-]",
-        "csid": 8150,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A17452",
+        "mpC": 65.0,
+        "name": "2,6-dinitrotoluene",
+        "smiles": "Cc1c(cccc1[N+](=O)[O-])[N+](=O)[O-]",
+        "csid": 11320,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L00856",
         "source": "Alfa Aesar",
         "Reason": "",
         "Prediction": ""
     },
     {
-        "mpC": 69.0,
-        "name": "2,4-dinitrotoluene",
-        "smiles": "Cc1ccc(cc1[N+](=O)[O-])[N+](=O)[O-]",
-        "csid": 8150,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A17452",
+        "mpC": 65.0,
+        "name": "2,6-dinitrotoluene",
+        "smiles": "Cc1c(cccc1[N+](=O)[O-])[N+](=O)[O-]",
+        "csid": 11320,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L00856",
         "source": "Alfa Aesar",
-        "Reason": "The starting basic unit for 2,4-dinitrotoluene is benzene, which has a melting point of 5.5 degrees Celsius. Adding the methyl group to the benzene to form toluene increases its melting point due to larger molecular weight and increased van der Waals forces; the melting point of toluene is around -95 degrees Celsius, which is a decrease of -100.5 degrees Celsius from benzene, likely due to the introduction of asymmetry in the molecule. However, with the introduction of each nitro group, there is an increase in melting point attributed to the strong intermolecular attraction due to the presence of an electron-withdrawing group that can form hydrogen bonds and dipoles. This typically adds a significant increase to the melting point for each nitro group present. We therefore must consider the presence of two nitro groups in the molecule. If we estimate each nitro group to increase the melting point by approximately 60 to 80 degrees Celsius, we can account for their effects on the base structure of toluene. Since we have two nitro groups, we will consider twice the increase.",
-        "Prediction": "Given that toluene has a melting point of -95 degrees Celsius, and postulating that each nitro group raises the melting point by approximately 70 degrees Celsius (the mid-point in the 60 to 80 range), the estimated melting point shift for 2,4-dinitrotoluene would be an increase of 140 degrees Celsius. Therefore, the predicted melting point of 2,4-dinitrotoluene would be -95 + 140 = 45 degrees Celsius. This is significantly lower than the actual value of 69 degrees Celsius. Consequently, the estimated contribution of each nitro group might be slightly underestimated, or there could be additional effects due to the position of the substituents and the overall structure that have not been taken into account.",
+        "Reason": "Starting with toluene, which has a melting point of -95 degrees Celsius, we analyze the effect of the functional groups added. Each nitro group (NO2) typically raises the melting point because of its strong electron-withdrawing nature and the associated capability of forming intermolecular hydrogen bonds. This electron-withdrawing effect increases the compound's polarity and hence raises the melting point. Adding one nitro group can raise the melting point by about 80 degrees Celsius. However, when another nitro group is added in the ortho or para position relative to the first one, the combined electron-withdrawing effect does not simply double, because of steric hindrance and the disturbance of crystal lattice formation, which might lower the increase. Therefore, for two nitro groups, the increase might be around 140 degrees Celsius (80 + 60). Summing up: toluene base (-95) + 2 NO2 groups (+140) = 45 degrees Celsius predicted melting point.",
+        "Prediction": 45,
         "logprob": [
             [
                 "{\n",
-                -8.506662e-05
+                -5.50273e-05
             ],
             [
                 " ",
-                -0.088990286
+                -0.08635879
             ],
             [
                 " \"",
@@ -37,3211 +37,1507 @@
             ],
             [
                 "\":",
-                -0.0004150609
+                -0.00041684892
             ],
             [
                 " \"",
-                -0.005557575
+                -0.0015158154
             ],
             [
-                "The",
-                -0.31859767
-            ],
-            [
-                " starting",
-                -4.3642607
-            ],
-            [
-                " basic",
-                -3.5188673
-            ],
-            [
-                " unit",
-                -0.008617882
-            ],
-            [
-                " for",
-                -0.22173344
-            ],
-            [
-                " ",
-                -0.5695518
-            ],
-            [
-                "2",
-                -4.3202e-07
-            ],
-            [
-                ",",
-                -2.8325678e-05
-            ],
-            [
-                "4",
-                -6.0749073e-05
-            ],
-            [
-                "-d",
-                -0.0010035126
-            ],
-            [
-                "init",
-                -4.9617593e-06
-            ],
-            [
-                "rot",
-                -4.3941356e-05
-            ],
-            [
-                "olu",
-                -1.4021238e-05
-            ],
-            [
-                "ene",
-                -1.9361265e-07
-            ],
-            [
-                " is",
-                -0.020590706
-            ],
-            [
-                " benz",
-                -0.564395
-            ],
-            [
-                "ene",
-                -1.9361265e-07
-            ],
-            [
-                ",",
-                -0.06599056
-            ],
-            [
-                " which",
-                -0.015340106
-            ],
-            [
-                " has",
-                -0.002044152
-            ],
-            [
-                " a",
-                -0.0015673536
-            ],
-            [
-                " melting",
-                -0.021518106
-            ],
-            [
-                " point",
-                -1.3663626e-05
-            ],
-            [
-                " of",
-                -0.051501513
-            ],
-            [
-                " ",
-                -0.016521668
-            ],
-            [
-                "5",
-                -0.000357988
-            ],
-            [
-                ".",
-                -0.000119874094
-            ],
-            [
-                "5",
-                -0.018905895
-            ],
-            [
-                " degrees",
-                -1.3154864
-            ],
-            [
-                " Celsius",
-                -0.001146768
-            ],
-            [
-                ".",
-                -0.0045661265
-            ],
-            [
-                " Adding",
-                -1.5165416
-            ],
-            [
-                " the",
-                -4.1247835
-            ],
-            [
-                " methyl",
-                -0.22327568
-            ],
-            [
-                " group",
-                -0.025294926
-            ],
-            [
-                " to",
-                -1.6266477
-            ],
-            [
-                " the",
-                -4.853355
-            ],
-            [
-                " benz",
-                -0.045781396
-            ],
-            [
-                "ene",
-                -9.253091e-06
-            ],
-            [
-                " to",
-                -1.1330692
-            ],
-            [
-                " form",
-                -0.11895871
-            ],
-            [
-                " to",
-                -0.00024168189
-            ],
-            [
-                "lu",
-                -3.1281633e-07
-            ],
-            [
-                "ene",
-                -5.9153886e-06
-            ],
-            [
-                " increases",
-                -1.5749863
-            ],
-            [
-                " its",
-                -2.7703276
-            ],
-            [
-                " melting",
-                -0.2734749
-            ],
-            [
-                " point",
-                -0.0008832379
-            ],
-            [
-                " due",
-                -0.24491255
-            ],
-            [
-                " to",
-                -0.000462724
-            ],
-            [
-                " larger",
-                -4.4405313
-            ],
-            [
-                " molecular",
-                -0.0041937944
-            ],
-            [
-                " weight",
-                -0.06804463
-            ],
-            [
-                " and",
-                -0.119237766
-            ],
-            [
-                " increased",
-                -1.1240039
-            ],
-            [
-                " van",
-                -0.2785508
-            ],
-            [
-                " der",
-                -0.0003348698
-            ],
-            [
-                " Wa",
-                -7.338466e-05
-            ],
-            [
-                "als",
-                -0.0004586711
-            ],
-            [
-                " forces",
-                -0.25410724
-            ],
-            [
-                ";",
-                -1.4371536
-            ],
-            [
-                " the",
-                -1.5374305
-            ],
-            [
-                " melting",
-                -0.42958018
-            ],
-            [
-                " point",
-                -0.00023441046
-            ],
-            [
-                " of",
-                -0.1377038
-            ],
-            [
-                " to",
-                -0.0015039096
-            ],
-            [
-                "lu",
-                0.0
-            ],
-            [
-                "ene",
-                -4.3202e-07
-            ],
-            [
-                " is",
-                -0.0074339933
-            ],
-            [
-                " around",
-                -2.914409
-            ],
-            [
-                " -",
-                -0.057732243
-            ],
-            [
-                "95",
-                -0.10212795
-            ],
-            [
-                " degrees",
-                -0.019514222
-            ],
-            [
-                " Celsius",
-                -0.0011087824
-            ],
-            [
-                ",",
-                -1.1259712
-            ],
-            [
-                " which",
-                -0.7914311
-            ],
-            [
-                " is",
-                -0.45979017
-            ],
-            [
-                " a",
-                -1.4347267
-            ],
-            [
-                " decrease",
-                -0.1744932
-            ],
-            [
-                " of",
-                -1.1219805
-            ],
-            [
-                " -",
-                -1.3832554
-            ],
-            [
-                "100",
-                -0.0037057775
-            ],
-            [
-                ".",
-                -0.0003832445
-            ],
-            [
-                "5",
-                -0.00013035668
-            ],
-            [
-                " degrees",
-                -0.31630033
-            ],
-            [
-                " Celsius",
-                -0.47009796
-            ],
-            [
-                " from",
-                -0.6439899
-            ],
-            [
-                " benz",
-                -0.03327148
-            ],
-            [
-                "ene",
-                -6.704273e-07
-            ],
-            [
-                ",",
-                -0.6378883
-            ],
-            [
-                " likely",
-                -1.1946895
-            ],
-            [
-                " due",
-                -0.104107544
-            ],
-            [
-                " to",
-                -0.001479625
-            ],
-            [
-                " the",
-                -0.5659109
-            ],
-            [
-                " introduction",
-                -2.3124578
-            ],
-            [
-                " of",
-                -0.0011437879
-            ],
-            [
-                " asym",
-                -0.26048863
-            ],
-            [
-                "metry",
-                -0.00029494395
-            ],
-            [
-                " in",
-                -1.5598991
-            ],
-            [
-                " the",
-                -0.015971377
-            ],
-            [
-                " molecule",
-                -0.33478698
-            ],
-            [
-                ".",
-                -1.2800566
-            ],
-            [
-                " However",
-                -0.50810444
-            ],
-            [
-                ",",
-                -0.00029840085
+                "Starting",
+                -2.2886806
             ],
             [
                 " with",
-                -4.11615
+                -0.17068514
             ],
             [
-                " the",
-                -0.6023577
+                " to",
+                -2.0453887
             ],
             [
-                " introduction",
-                -1.7705288
-            ],
-            [
-                " of",
-                -9.138441e-05
-            ],
-            [
-                " each",
-                -2.5553339
-            ],
-            [
-                " nit",
-                -0.00042852355
-            ],
-            [
-                "ro",
+                "lu",
                 0.0
             ],
             [
-                " group",
-                -0.013819916
-            ],
-            [
-                ",",
-                -0.8120128
-            ],
-            [
-                " there",
-                -0.91658384
-            ],
-            [
-                " is",
-                -0.21124814
-            ],
-            [
-                " an",
-                -0.32589304
-            ],
-            [
-                " increase",
-                -0.11662423
-            ],
-            [
-                " in",
-                -0.035917655
-            ],
-            [
-                " melting",
-                -0.47526497
-            ],
-            [
-                " point",
-                -0.0009993442
-            ],
-            [
-                " attributed",
-                -4.0608487
-            ],
-            [
-                " to",
-                -0.0016512565
-            ],
-            [
-                " the",
-                -0.10926266
-            ],
-            [
-                " strong",
-                -0.5443872
-            ],
-            [
-                " inter",
-                -0.17931148
-            ],
-            [
-                "m",
-                -0.0003190194
-            ],
-            [
-                "olecular",
-                -1.504853e-06
-            ],
-            [
-                " attraction",
-                -1.7822144
-            ],
-            [
-                " due",
-                -0.7013638
-            ],
-            [
-                " to",
-                -0.00049703266
-            ],
-            [
-                " the",
-                -0.40758625
-            ],
-            [
-                " presence",
-                -1.3798414
-            ],
-            [
-                " of",
-                -1.4021238e-05
-            ],
-            [
-                " an",
-                -4.478176
-            ],
-            [
-                " electron",
-                -0.04501431
-            ],
-            [
-                "-with",
-                -0.028007595
-            ],
-            [
-                "drawing",
-                -6.869018e-06
-            ],
-            [
-                " group",
-                -0.0154319
-            ],
-            [
-                " that",
-                -1.033522
-            ],
-            [
-                " can",
-                -0.87702686
-            ],
-            [
-                " form",
-                -0.8387705
-            ],
-            [
-                " hydrogen",
-                -0.2863529
-            ],
-            [
-                " bonds",
-                -0.0006856294
-            ],
-            [
-                " and",
-                -2.4974036
-            ],
-            [
-                " d",
-                -2.099761
-            ],
-            [
-                "ipo",
-                -0.00039385364
-            ],
-            [
-                "les",
-                -0.0013883279
-            ],
-            [
-                ".",
-                -0.2983835
-            ],
-            [
-                " This",
-                -3.0445924
-            ],
-            [
-                " typically",
-                -4.4582157
-            ],
-            [
-                " adds",
-                -1.7239878
-            ],
-            [
-                " a",
-                -1.7051909
-            ],
-            [
-                " significant",
-                -0.3137078
-            ],
-            [
-                " increase",
-                -2.7788448
-            ],
-            [
-                " to",
-                -0.4586307
-            ],
-            [
-                " the",
-                -0.007872425
-            ],
-            [
-                " melting",
-                -0.002801437
-            ],
-            [
-                " point",
-                -0.00087430136
-            ],
-            [
-                " for",
-                -2.658304
-            ],
-            [
-                " each",
-                -0.005655252
-            ],
-            [
-                " nit",
-                -0.008324254
-            ],
-            [
-                "ro",
-                -8.5543434e-05
-            ],
-            [
-                " group",
-                -0.0026216705
-            ],
-            [
-                " present",
-                -3.0315614
-            ],
-            [
-                ".",
-                -0.07529339
-            ],
-            [
-                " We",
-                -2.7224183
-            ],
-            [
-                " therefore",
-                -6.3365192
-            ],
-            [
-                " must",
-                -4.3962264
-            ],
-            [
-                " consider",
-                -0.83447945
-            ],
-            [
-                " the",
-                -0.18283778
-            ],
-            [
-                " presence",
-                -4.8693614
-            ],
-            [
-                " of",
-                -0.0004104156
-            ],
-            [
-                " two",
-                -0.036559973
-            ],
-            [
-                " nit",
-                -0.028830849
-            ],
-            [
-                "ro",
-                -0.00015240935
-            ],
-            [
-                " groups",
-                -0.000957555
-            ],
-            [
-                " in",
-                -0.6370658
-            ],
-            [
-                " the",
-                -0.7539821
-            ],
-            [
-                " molecule",
-                -3.5901914
-            ],
-            [
-                ".",
-                -0.65869665
-            ],
-            [
-                " If",
-                -1.0391388
-            ],
-            [
-                " we",
-                -0.5032996
-            ],
-            [
-                " estimate",
-                -0.38419756
-            ],
-            [
-                " each",
-                -1.7284102
-            ],
-            [
-                " nit",
-                -0.00067514315
-            ],
-            [
-                "ro",
-                -3.4121115e-06
-            ],
-            [
-                " group",
-                -0.0006209385
-            ],
-            [
-                " to",
-                -0.34172246
-            ],
-            [
-                " increase",
-                -1.254473
-            ],
-            [
-                " the",
-                -0.005172089
-            ],
-            [
-                " melting",
-                -0.0008709637
-            ],
-            [
-                " point",
-                -0.00029804322
-            ],
-            [
-                " by",
-                -0.01998396
-            ],
-            [
-                " approximately",
-                -1.2467737
-            ],
-            [
-                " ",
-                -0.09706274
-            ],
-            [
-                "60",
-                -2.449697
-            ],
-            [
-                " to",
-                -3.0349755
-            ],
-            [
-                " ",
-                -9.221884e-05
-            ],
-            [
-                "80",
-                -0.95608085
-            ],
-            [
-                " degrees",
-                -0.0023959863
-            ],
-            [
-                " Celsius",
-                -0.024492823
-            ],
-            [
-                ",",
-                -1.0394199
-            ],
-            [
-                " we",
-                -1.1994852
-            ],
-            [
-                " can",
-                -0.8259516
-            ],
-            [
-                " account",
-                -2.7491138
-            ],
-            [
-                " for",
-                -0.00013440961
-            ],
-            [
-                " their",
-                -2.675895
-            ],
-            [
-                " effects",
-                -2.2987695
-            ],
-            [
-                " on",
-                -0.8585441
-            ],
-            [
-                " the",
-                -0.036052544
-            ],
-            [
-                " base",
-                -2.185749
-            ],
-            [
-                " structure",
-                -0.4362402
-            ],
-            [
-                " of",
-                -0.10353369
-            ],
-            [
-                " to",
-                -0.011889276
-            ],
-            [
-                "lu",
-                -1.9361265e-07
-            ],
-            [
                 "ene",
-                -1.6240566e-06
-            ],
-            [
-                ".",
-                -1.0881029
-            ],
-            [
-                " Since",
-                -3.243868
-            ],
-            [
-                " we",
-                -1.2839918
-            ],
-            [
-                " have",
-                -1.0129681
-            ],
-            [
-                " two",
-                -0.043997046
-            ],
-            [
-                " nit",
-                -0.16040477
-            ],
-            [
-                "ro",
-                -0.0024548457
-            ],
-            [
-                " groups",
-                -0.00044628125
-            ],
-            [
-                ",",
-                -0.040153604
-            ],
-            [
-                " we",
-                -0.5206976
-            ],
-            [
-                " will",
-                -1.2584041
-            ],
-            [
-                " consider",
-                -2.198595
-            ],
-            [
-                " twice",
-                -1.1371052
-            ],
-            [
-                " the",
-                -0.2315761
-            ],
-            [
-                " increase",
-                -1.388556
-            ],
-            [
-                ".\",\n",
-                -0.23884276
-            ],
-            [
-                " ",
-                -0.014269871
-            ],
-            [
-                " \"",
-                -3.1281633e-07
-            ],
-            [
-                "Prediction",
                 -2.1008714e-06
             ],
             [
-                "\":",
-                -3.070975e-05
+                ",",
+                -0.6942881
             ],
             [
-                " \"",
-                -0.010093314
-            ],
-            [
-                "Given",
-                -2.7902484
-            ],
-            [
-                " that",
-                -1.0719335
-            ],
-            [
-                " to",
-                -0.23477359
-            ],
-            [
-                "lu",
-                -2.3392786e-06
-            ],
-            [
-                "ene",
-                -4.3202e-07
+                " which",
+                -0.004261939
             ],
             [
                 " has",
-                -0.31965724
+                -0.0060040443
             ],
             [
                 " a",
-                -0.028105075
+                -0.0008937132
             ],
             [
                 " melting",
-                -0.048663102
+                -0.0278133
             ],
             [
                 " point",
-                -5.3239244e-05
+                -1.7478143e-05
             ],
             [
                 " of",
-                -0.048663218
+                -0.07819077
             ],
             [
                 " -",
-                -0.14765006
+                -0.23276135
             ],
             [
                 "95",
-                -2.1531068e-05
+                -0.06496758
             ],
             [
                 " degrees",
-                -0.020965157
+                -0.68555695
             ],
             [
                 " Celsius",
-                -0.0075293747
+                -0.0024724475
             ],
             [
                 ",",
-                -0.52895474
+                -0.10033812
             ],
             [
-                " and",
-                -0.61890507
+                " we",
+                -0.42289004
             ],
             [
-                " post",
-                -6.929367
+                " analyze",
+                -3.0369573
             ],
             [
-                "ulating",
-                -5.6576944e-05
+                " the",
+                -0.024913717
             ],
             [
-                " that",
-                -0.12836502
+                " effect",
+                -1.9131045
             ],
             [
-                " each",
-                -0.003029883
+                " of",
+                -0.0054349815
+            ],
+            [
+                " the",
+                -1.3789203
+            ],
+            [
+                " functional",
+                -0.4828773
+            ],
+            [
+                " groups",
+                -0.0028538518
+            ],
+            [
+                " added",
+                -2.6331313
+            ],
+            [
+                ".",
+                -0.87749475
+            ],
+            [
+                " Each",
+                -0.8202688
             ],
             [
                 " nit",
-                -0.0025711409
+                -0.0002750406
             ],
             [
                 "ro",
-                -0.00016671013
-            ],
-            [
-                " group",
-                -0.0005468378
-            ],
-            [
-                " raises",
-                -2.8081155
-            ],
-            [
-                " the",
-                -0.15002206
-            ],
-            [
-                " melting",
-                -0.007500502
-            ],
-            [
-                " point",
-                -0.0010164948
-            ],
-            [
-                " by",
-                -0.006766056
-            ],
-            [
-                " approximately",
-                -0.8224574
-            ],
-            [
-                " ",
-                -0.00036061046
-            ],
-            [
-                "70",
-                -0.11457404
-            ],
-            [
-                " degrees",
-                -0.002781935
-            ],
-            [
-                " Celsius",
-                -0.015283167
-            ],
-            [
-                " (",
-                -0.8740327
-            ],
-            [
-                "the",
-                -1.9461486
-            ],
-            [
-                " mid",
-                -4.0557265
-            ],
-            [
-                "-point",
-                -0.26708516
-            ],
-            [
-                " in",
-                -2.0420744
-            ],
-            [
-                " the",
-                -1.5643656
-            ],
-            [
-                " ",
-                -0.42271662
-            ],
-            [
-                "60",
-                -2.220075e-06
-            ],
-            [
-                " to",
-                -0.2871756
-            ],
-            [
-                " ",
-                -1.700133e-05
-            ],
-            [
-                "80",
-                -9.0883464e-07
-            ],
-            [
-                " range",
-                -0.3555712
-            ],
-            [
-                "),",
-                -0.15346576
-            ],
-            [
-                " the",
-                -0.599844
-            ],
-            [
-                " estimated",
-                -2.5775259
-            ],
-            [
-                " melting",
-                -0.40549812
-            ],
-            [
-                " point",
-                -0.0016539982
-            ],
-            [
-                " shift",
-                -3.8511658
-            ],
-            [
-                " for",
-                -1.7531645
-            ],
-            [
-                " ",
-                -0.13149524
-            ],
-            [
-                "2",
-                -1.9816675e-06
-            ],
-            [
-                ",",
-                -0.003945298
-            ],
-            [
-                "4",
-                -4.3464544e-05
-            ],
-            [
-                "-d",
-                -0.00060772157
-            ],
-            [
-                "init",
-                -2.1411865e-05
-            ],
-            [
-                "rot",
-                -0.00035333907
-            ],
-            [
-                "olu",
-                -1.8908588e-05
-            ],
-            [
-                "ene",
                 -4.3202e-07
             ],
             [
-                " would",
-                -0.13776375
+                " group",
+                -0.017127924
             ],
             [
-                " be",
-                -0.010485868
+                " (",
+                -1.2672094
             ],
             [
-                " an",
-                -3.8272982
-            ],
-            [
-                " increase",
-                -0.06566532
-            ],
-            [
-                " of",
-                -0.025933892
-            ],
-            [
-                " ",
-                -0.10942208
-            ],
-            [
-                "140",
-                -0.015096844
-            ],
-            [
-                " degrees",
-                -0.0015546207
-            ],
-            [
-                " Celsius",
-                -0.009384512
-            ],
-            [
-                ".",
-                -0.9865083
-            ],
-            [
-                " Therefore",
-                -1.0220442
-            ],
-            [
-                ",",
-                -0.0057396484
-            ],
-            [
-                " the",
-                -0.17711356
-            ],
-            [
-                " predicted",
-                -0.031398192
-            ],
-            [
-                " melting",
-                -0.0010075619
-            ],
-            [
-                " point",
-                -0.00026419671
-            ],
-            [
-                " of",
-                -1.3879597
-            ],
-            [
-                " ",
-                -0.00073672744
+                "NO",
+                -0.09291898
             ],
             [
                 "2",
-                -8.180258e-06
+                -0.0012865445
             ],
             [
-                ",",
-                -1.962381e-05
+                ")",
+                -0.0056692376
             ],
             [
-                "4",
-                -1.8074163e-05
+                " typically",
+                -2.0873203
             ],
             [
-                "-d",
-                -9.865584e-05
-            ],
-            [
-                "init",
-                -2.3392786e-06
-            ],
-            [
-                "rot",
-                -6.837811e-05
-            ],
-            [
-                "olu",
-                -1.1398757e-05
-            ],
-            [
-                "ene",
-                -1.0280384e-06
-            ],
-            [
-                " would",
-                -0.30169988
-            ],
-            [
-                " be",
-                -0.0026797024
-            ],
-            [
-                " -",
-                -0.32039058
-            ],
-            [
-                "95",
-                -4.365741e-06
-            ],
-            [
-                " +",
-                -0.014517097
-            ],
-            [
-                " ",
-                -0.027178213
-            ],
-            [
-                "140",
-                -0.0032122957
-            ],
-            [
-                " =",
-                -0.024748474
-            ],
-            [
-                " ",
-                -0.0012011818
-            ],
-            [
-                "45",
-                -5.3000836e-05
-            ],
-            [
-                " degrees",
-                -0.00033772705
-            ],
-            [
-                " Celsius",
-                -1.4498052e-05
-            ],
-            [
-                ".",
-                -2.4211144
-            ],
-            [
-                " This",
-                -1.0630548
-            ],
-            [
-                " is",
-                -1.5678769
-            ],
-            [
-                " significantly",
-                -2.0967443
-            ],
-            [
-                " lower",
-                -0.19865546
-            ],
-            [
-                " than",
-                -0.0013533296
+                " raises",
+                -0.6875636
             ],
             [
                 " the",
-                -0.0019630091
+                -0.004362829
             ],
             [
-                " actual",
-                -0.009829169
+                " melting",
+                -0.000709571
             ],
             [
-                " value",
-                -0.19829136
+                " point",
+                -0.00010211275
+            ],
+            [
+                " because",
+                -2.8291504
             ],
             [
                 " of",
-                -1.1557826
+                -0.87003344
             ],
             [
-                " ",
-                -0.00030984072
+                " its",
+                -0.86164933
             ],
             [
-                "69",
-                -3.6669935e-05
+                " strong",
+                -0.3129826
             ],
             [
-                " degrees",
-                -0.42419788
+                " electron",
+                -0.28468475
             ],
             [
-                " Celsius",
-                -0.0014742719
+                "-with",
+                -0.0038816654
             ],
             [
-                ".",
-                -1.6609439
+                "drawing",
+                -1.5809293e-05
             ],
             [
-                " Consequently",
-                -6.5125203
-            ],
-            [
-                ",",
-                -0.00018411019
-            ],
-            [
-                " the",
-                -0.7936046
-            ],
-            [
-                " estimated",
-                -1.8678111
-            ],
-            [
-                " contribution",
-                -3.0581913
-            ],
-            [
-                " of",
-                -0.06482614
-            ],
-            [
-                " each",
-                -0.102901086
-            ],
-            [
-                " nit",
-                -0.00048191214
-            ],
-            [
-                "ro",
-                -5.109358e-05
-            ],
-            [
-                " group",
-                -9.615256e-05
-            ],
-            [
-                " might",
-                -5.329319
-            ],
-            [
-                " be",
-                -0.16234922
-            ],
-            [
-                " slightly",
-                -6.155341
-            ],
-            [
-                " underestimated",
-                -0.7643424
-            ],
-            [
-                ",",
-                -0.8964807
-            ],
-            [
-                " or",
-                -0.36840123
-            ],
-            [
-                " there",
-                -0.32023507
-            ],
-            [
-                " could",
-                -1.2792232
-            ],
-            [
-                " be",
-                -0.005811125
-            ],
-            [
-                " additional",
-                -0.13929744
-            ],
-            [
-                " effects",
-                -2.4655356
-            ],
-            [
-                " due",
-                -0.30588987
-            ],
-            [
-                " to",
-                -0.00011880126
-            ],
-            [
-                " the",
-                -0.31372836
-            ],
-            [
-                " position",
-                -3.8260026
-            ],
-            [
-                " of",
-                -0.16091225
-            ],
-            [
-                " the",
-                -0.02910704
-            ],
-            [
-                " substit",
-                -1.0023701
-            ],
-            [
-                "u",
-                -0.0013852359
-            ],
-            [
-                "ents",
-                -1.6240566e-06
+                " nature",
+                -1.0937884
             ],
             [
                 " and",
-                -0.74042743
+                -1.4629309
             ],
             [
                 " the",
-                -1.349744
+                -0.5303807
             ],
             [
-                " overall",
-                -0.8074136
+                " associated",
+                -4.5023365
             ],
             [
-                " structure",
-                -3.2315636
+                " capability",
+                -3.5181072
             ],
             [
-                " that",
-                -1.2937671
+                " of",
+                -1.7869703
             ],
             [
-                " have",
-                -2.0897033
+                " forming",
+                -0.05233757
+            ],
+            [
+                " inter",
+                -0.16310184
+            ],
+            [
+                "m",
+                -0.0010903315
+            ],
+            [
+                "olecular",
+                -6.1821906e-05
+            ],
+            [
+                " hydrogen",
+                -0.012010015
+            ],
+            [
+                " bonds",
+                -0.05228361
+            ],
+            [
+                ".",
+                -1.3848972
+            ],
+            [
+                " This",
+                -2.1494923
+            ],
+            [
+                " electron",
+                -5.03977
+            ],
+            [
+                "-with",
+                -0.036728565
+            ],
+            [
+                "drawing",
+                -0.0029084159
+            ],
+            [
+                " effect",
+                -0.18259719
+            ],
+            [
+                " increases",
+                -1.0415646
+            ],
+            [
+                " the",
+                -0.27688733
+            ],
+            [
+                " compound",
+                -3.3076353
+            ],
+            [
+                "'s",
+                -0.039111067
+            ],
+            [
+                " polarity",
+                -0.032174435
+            ],
+            [
+                " and",
+                -1.4834762
+            ],
+            [
+                " hence",
+                -2.0187473
+            ],
+            [
+                " raises",
+                -2.2671244
+            ],
+            [
+                " the",
+                -0.44210196
+            ],
+            [
+                " melting",
+                -0.0059958636
+            ],
+            [
+                " point",
+                -0.0013177391
+            ],
+            [
+                ".",
+                -0.37639788
+            ],
+            [
+                " Adding",
+                -3.2715254
+            ],
+            [
+                " one",
+                -1.265193
+            ],
+            [
+                " nit",
+                -0.00937329
+            ],
+            [
+                "ro",
+                -6.392203e-06
+            ],
+            [
+                " group",
+                -0.00026443513
+            ],
+            [
+                " can",
+                -1.6539103
+            ],
+            [
+                " raise",
+                -0.6158782
+            ],
+            [
+                " the",
+                -0.014600619
+            ],
+            [
+                " melting",
+                -0.0066278623
+            ],
+            [
+                " point",
+                -0.0008782314
+            ],
+            [
+                " by",
+                -0.44973928
+            ],
+            [
+                " about",
+                -2.0906448
+            ],
+            [
+                " ",
+                -0.11507928
+            ],
+            [
+                "80",
+                -0.20284414
+            ],
+            [
+                " degrees",
+                -0.4509209
+            ],
+            [
+                " Celsius",
+                -0.033775713
+            ],
+            [
+                ".",
+                -0.12894446
+            ],
+            [
+                " However",
+                -0.9589726
+            ],
+            [
+                ",",
+                -9.74638e-05
+            ],
+            [
+                " when",
+                -2.782463
+            ],
+            [
+                " another",
+                -4.621895
+            ],
+            [
+                " nit",
+                -0.01567182
+            ],
+            [
+                "ro",
+                -8.9834764e-05
+            ],
+            [
+                " group",
+                -0.0012705894
+            ],
+            [
+                " is",
+                -0.005563975
+            ],
+            [
+                " added",
+                -0.29575124
+            ],
+            [
+                " in",
+                -1.5319489
+            ],
+            [
+                " the",
+                -0.3445765
+            ],
+            [
+                " orth",
+                -0.26138955
+            ],
+            [
+                "o",
+                -7.89631e-07
+            ],
+            [
+                " or",
+                -0.19204256
+            ],
+            [
+                " para",
+                -0.031825993
+            ],
+            [
+                " position",
+                -0.044484034
+            ],
+            [
+                " relative",
+                -0.3677672
+            ],
+            [
+                " to",
+                -2.546479e-05
+            ],
+            [
+                " the",
+                -0.03533625
+            ],
+            [
+                " first",
+                -0.009929029
+            ],
+            [
+                " one",
+                -0.9830516
+            ],
+            [
+                ",",
+                -0.12370162
+            ],
+            [
+                " the",
+                -0.8622672
+            ],
+            [
+                " combined",
+                -3.2090373
+            ],
+            [
+                " electron",
+                -4.057164
+            ],
+            [
+                "-with",
+                -0.005412573
+            ],
+            [
+                "drawing",
+                -3.106736e-05
+            ],
+            [
+                " effect",
+                -0.21091321
+            ],
+            [
+                " does",
+                -1.1165758
             ],
             [
                 " not",
-                -0.028449606
+                -0.00064822147
             ],
             [
-                " been",
-                -5.3954464e-05
+                " simply",
+                -0.27749276
             ],
             [
-                " taken",
-                -1.6925105
+                " double",
+                -0.018909635
             ],
             [
-                " into",
-                -0.0026933632
+                ",",
+                -1.8021929
             ],
             [
-                " account",
-                -0.036720745
+                " because",
+                -1.3238738
             ],
             [
-                ".\"\n",
-                -0.5660749
+                " of",
+                -0.54772526
+            ],
+            [
+                " st",
+                -0.16065231
+            ],
+            [
+                "eric",
+                -1.11603495e-05
+            ],
+            [
+                " hind",
+                -0.021738585
+            ],
+            [
+                "rance",
+                -0.0014390426
+            ],
+            [
+                " and",
+                -0.102403015
+            ],
+            [
+                " the",
+                -1.6989361
+            ],
+            [
+                " disturbance",
+                -5.459567
+            ],
+            [
+                " of",
+                -0.78494084
+            ],
+            [
+                " crystal",
+                -2.8605216
+            ],
+            [
+                " lattice",
+                -1.3203812
+            ],
+            [
+                " formation",
+                -0.76905644
+            ],
+            [
+                ",",
+                -1.1985568
+            ],
+            [
+                " which",
+                -0.6210169
+            ],
+            [
+                " might",
+                -2.7009025
+            ],
+            [
+                " lower",
+                -2.1427693
+            ],
+            [
+                " the",
+                -0.03707416
+            ],
+            [
+                " increase",
+                -3.0217004
+            ],
+            [
+                ".",
+                -2.9306529
+            ],
+            [
+                " Therefore",
+                -1.0938686
+            ],
+            [
+                ",",
+                -0.003450388
+            ],
+            [
+                " for",
+                -2.2648396
+            ],
+            [
+                " two",
+                -2.315434
+            ],
+            [
+                " nit",
+                -0.029854504
+            ],
+            [
+                "ro",
+                -0.0010858054
+            ],
+            [
+                " groups",
+                -0.00014478032
+            ],
+            [
+                ",",
+                -0.40772837
+            ],
+            [
+                " the",
+                -0.5260111
+            ],
+            [
+                " increase",
+                -0.75869375
+            ],
+            [
+                " might",
+                -0.36931595
+            ],
+            [
+                " be",
+                -0.011351013
+            ],
+            [
+                " around",
+                -0.81841224
+            ],
+            [
+                " ",
+                -0.0020618767
+            ],
+            [
+                "140",
+                -0.8812338
+            ],
+            [
+                " degrees",
+                -0.025686085
+            ],
+            [
+                " Celsius",
+                -0.047454245
+            ],
+            [
+                " (",
+                -1.9163682
+            ],
+            [
+                "80",
+                -0.8560706
+            ],
+            [
+                " +",
+                -0.49218485
+            ],
+            [
+                " ",
+                -0.28814185
+            ],
+            [
+                "60",
+                -0.04985748
+            ],
+            [
+                ").",
+                -0.8675949
+            ],
+            [
+                " Sum",
+                -3.4541245
+            ],
+            [
+                "ming",
+                -0.009149347
+            ],
+            [
+                " up",
+                -0.45310044
+            ],
+            [
+                ":",
+                -3.3669176
+            ],
+            [
+                " to",
+                -1.0738988
+            ],
+            [
+                "lu",
+                -1.147242e-06
+            ],
+            [
+                "ene",
+                -1.5570886e-05
+            ],
+            [
+                " base",
+                -1.1362913
+            ],
+            [
+                " (-",
+                -0.21009552
+            ],
+            [
+                "95",
+                -8.180258e-06
+            ],
+            [
+                ")",
+                -0.09106542
+            ],
+            [
+                " +",
+                -0.014035039
+            ],
+            [
+                " ",
+                -0.62391895
+            ],
+            [
+                "2",
+                -0.2169802
+            ],
+            [
+                " NO",
+                -3.4697018
+            ],
+            [
+                "2",
+                -0.00010175513
+            ],
+            [
+                " groups",
+                -0.015302301
+            ],
+            [
+                " (+",
+                -0.5727185
+            ],
+            [
+                "140",
+                -0.0021835691
+            ],
+            [
+                ")",
+                -0.38143274
+            ],
+            [
+                " =",
+                -1.1578394
+            ],
+            [
+                " ",
+                -0.056133732
+            ],
+            [
+                "45",
+                -0.0005028736
+            ],
+            [
+                " degrees",
+                -0.010900551
+            ],
+            [
+                " Celsius",
+                -0.00022475497
+            ],
+            [
+                " predicted",
+                -2.9054785
+            ],
+            [
+                " melting",
+                -0.0675175
+            ],
+            [
+                " point",
+                -0.00013297916
+            ],
+            [
+                ".\",\n",
+                -0.2744648
+            ],
+            [
+                " ",
+                -0.00890775
+            ],
+            [
+                " \"",
+                0.0
+            ],
+            [
+                "Prediction",
+                -5.5122365e-07
+            ],
+            [
+                "\":",
+                -1.60477e-05
+            ],
+            [
+                " ",
+                -2.5212886
+            ],
+            [
+                "45",
+                -0.0008042683
+            ],
+            [
+                "\n",
+                -0.047038075
             ],
             [
                 "}",
-                -0.006976079
+                -0.008628525
             ]
         ],
         "Prediction(integer)": 45.0
     },
     {
-        "mpC": 69.0,
-        "name": "2,4-dinitrotoluene",
-        "smiles": "Cc1ccc(cc1[N+](=O)[O-])[N+](=O)[O-]",
-        "csid": 8150,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A17452",
+        "mpC": 65.0,
+        "name": "2,6-dinitrotoluene",
+        "smiles": "Cc1c(cccc1[N+](=O)[O-])[N+](=O)[O-]",
+        "csid": 11320,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L00856",
         "source": "Alfa Aesar",
-        "Reason": "Starting with the base unit, benzene has a melting point of 5.5 degrees Celsius. Upon adding a methyl group to form toluene, the melting point decreases, likely due to an increase in asymmetry which lowers the melting point contrary to the initial assumption; toluene in fact has a lower melting point than benzene, at -95 degrees Celsius instead of higher. This indicates a decrease of approximately 100.5 degrees Celsius when comparing toluene to benzene. However, this comparison is between solid and liquid phase transitions and may not be linear or symmetrical due to structural changes. For the prediction of 2,4-dinitrotoluene, the addition of electron-withdrawing nitro groups contributes to increased intermolecular forces such as hydrogen bonding and dipole-dipole interactions. Nitro groups, being strongly electronegative and capable of forming additional interactions, significantly raise melting points. Each nitro group is estimated to increase the melting point substantially; however, given the complexity of the interactions and the crystal packing effects in solids, the exact contribution per nitro group is difficult to quantify without experimental data or literature precedence. Considering these factors, the estimation of the increase from each nitro group to the melting point should be in a region that accounts for both strong intermolecular forces and potential steric hindrance that can influence the crystal lattice structure. Therefore, if we estimate each nitro group contributes approximately 82.25 degrees Celsius to the melting point (based on the difference between the actual value and the melting point of toluene), it suggests a strong effect due to these functional groups.",
-        "Prediction": "Starting with toluene's melting point of -95 degrees Celsius, and adding the effect of two nitro groups with an estimated increase of 82.25 degrees Celsius each yields a predicted melting point increase of 164.5 degrees Celsius. The predicted melting point of 2,4-dinitrotoluene would then be -95 + 164.5 = 69.5 degrees Celsius, which closely matches the actual value of 69.0 degrees Celsius.",
+        "Reason": "Starting with toluene, which has a melting point of -95 degrees Celsius, we analyze the effect of the functional groups added. Each nitro group (NO2) typically raises the melting point because of its strong electron-withdrawing nature and the potential for hydrogen bonding and dipole-dipole interactions, which stabilize the solid form. Adding one nitro group can raise the melting point by approximately 80 degrees Celsius due to these effects. However, with a second nitro group, the incremental increase may be less than the first due to steric hindrance and a potential decrease in symmetry, hindering optimal packing in the solid state. Therefore, the increase might be around 70 degrees Celsius for the second nitro group instead of 80 degrees. Summing up: toluene base (-95) + 2 NO2 groups (80 + 70) = 55 degrees Celsius predicted melting point.",
+        "Prediction": "55",
         "logprob": [
             [
                 "{\n",
-                -0.874272
+                -0.08320003
             ],
             [
                 " ",
-                -0.07443906
+                -0.022619128
             ],
             [
                 " \"",
-                -2.3392786e-06
-            ],
-            [
-                "Reason",
-                0.0
-            ],
-            [
-                "\":",
-                -0.00032855204
-            ],
-            [
-                " \"",
-                -4.3822154e-05
-            ],
-            [
-                "Starting",
-                -1.888952
-            ],
-            [
-                " with",
-                -0.20193833
-            ],
-            [
-                " the",
-                -0.6091989
-            ],
-            [
-                " base",
-                -1.5324097
-            ],
-            [
-                " unit",
-                -0.7617974
-            ],
-            [
-                ",",
-                -1.7340472
-            ],
-            [
-                " benz",
-                -0.0035549316
-            ],
-            [
-                "ene",
-                0.0
-            ],
-            [
-                " has",
-                -1.3156433
-            ],
-            [
-                " a",
-                -0.00050394284
-            ],
-            [
-                " melting",
-                -0.0022422045
-            ],
-            [
-                " point",
-                -1.1279553e-05
-            ],
-            [
-                " of",
-                -0.0009493336
-            ],
-            [
-                " ",
-                -0.0034048979
-            ],
-            [
-                "5",
-                -1.504853e-06
-            ],
-            [
-                ".",
-                -1.6166903e-05
-            ],
-            [
-                "5",
-                -5.4385737e-06
-            ],
-            [
-                " degrees",
-                -0.074388824
-            ],
-            [
-                " Celsius",
-                -6.8854926e-05
-            ],
-            [
-                ".",
-                -0.00066394533
-            ],
-            [
-                " Upon",
-                -3.4797993
-            ],
-            [
-                " adding",
-                -0.8011138
-            ],
-            [
-                " a",
-                -0.10360591
-            ],
-            [
-                " methyl",
-                -0.0011942753
-            ],
-            [
-                " group",
-                -7.255024e-05
-            ],
-            [
-                " to",
-                -0.057665057
-            ],
-            [
-                " form",
-                -0.20425862
-            ],
-            [
-                " to",
-                -1.5570886e-05
-            ],
-            [
-                "lu",
-                0.0
-            ],
-            [
-                "ene",
-                -4.3202e-07
-            ],
-            [
-                ",",
-                -0.003065534
-            ],
-            [
-                " the",
-                -0.4169916
-            ],
-            [
-                " melting",
-                -0.10275437
-            ],
-            [
-                " point",
-                -0.00041744497
-            ],
-            [
-                " decreases",
-                -1.3573635
-            ],
-            [
-                ",",
-                -1.2459633
-            ],
-            [
-                " likely",
-                -1.5872965
-            ],
-            [
-                " due",
-                -0.07850225
-            ],
-            [
-                " to",
-                -0.0002786167
-            ],
-            [
-                " an",
-                -2.5292768
-            ],
-            [
-                " increase",
-                -0.27099827
-            ],
-            [
-                " in",
-                -0.0028020293
-            ],
-            [
-                " asym",
-                -0.74417126
-            ],
-            [
-                "metry",
-                -0.0005147867
-            ],
-            [
-                " which",
-                -3.022775
-            ],
-            [
-                " lowers",
-                -1.9448569
-            ],
-            [
-                " the",
-                -0.07641992
-            ],
-            [
-                " melting",
-                -0.11609918
-            ],
-            [
-                " point",
-                -0.0015803283
-            ],
-            [
-                " contrary",
-                -7.9600945
-            ],
-            [
-                " to",
-                -0.00010413921
-            ],
-            [
-                " the",
-                -0.57264125
-            ],
-            [
-                " initial",
-                -2.9250817
-            ],
-            [
-                " assumption",
-                -1.0024947
-            ],
-            [
-                ";",
-                -2.2883816
-            ],
-            [
-                " to",
-                -0.8719732
-            ],
-            [
-                "lu",
-                -5.9153886e-06
-            ],
-            [
-                "ene",
-                -2.220075e-06
-            ],
-            [
-                " in",
-                -5.856099
-            ],
-            [
-                " fact",
-                -0.091874376
-            ],
-            [
-                " has",
-                -0.04059028
-            ],
-            [
-                " a",
-                -0.0018996018
-            ],
-            [
-                " lower",
-                -3.3952684
-            ],
-            [
-                " melting",
-                -0.0008030762
-            ],
-            [
-                " point",
-                -6.0033854e-05
-            ],
-            [
-                " than",
-                -0.760523
-            ],
-            [
-                " benz",
-                -0.00039825685
-            ],
-            [
-                "ene",
-                0.0
-            ],
-            [
-                ",",
-                -1.8638396
-            ],
-            [
-                " at",
-                -0.24923858
-            ],
-            [
-                " -",
-                -0.042564373
-            ],
-            [
-                "95",
-                -0.00059354363
-            ],
-            [
-                " degrees",
-                -0.007304541
-            ],
-            [
-                " Celsius",
-                -0.0004331725
-            ],
-            [
-                " instead",
-                -7.161634
-            ],
-            [
-                " of",
-                -0.044365335
-            ],
-            [
-                " higher",
-                -2.0064998
-            ],
-            [
-                ".",
-                -0.23246482
-            ],
-            [
-                " This",
-                -1.0970285
-            ],
-            [
-                " indicates",
-                -1.7539566
-            ],
-            [
-                " a",
-                -0.9754711
-            ],
-            [
-                " decrease",
-                -0.39412633
-            ],
-            [
-                " of",
-                -0.15121697
-            ],
-            [
-                " approximately",
-                -1.8954761
-            ],
-            [
-                " ",
-                -1.0538915
-            ],
-            [
-                "100",
-                -0.023361946
-            ],
-            [
-                ".",
-                -0.0020108372
-            ],
-            [
-                "5",
-                -3.5313153e-06
-            ],
-            [
-                " degrees",
-                -0.0025016982
-            ],
-            [
-                " Celsius",
-                -0.04631518
-            ],
-            [
-                " when",
-                -2.9817524
-            ],
-            [
-                " comparing",
-                -0.9845472
-            ],
-            [
-                " to",
-                -0.017964615
-            ],
-            [
-                "lu",
-                -0.026603207
-            ],
-            [
-                "ene",
-                -4.3202e-07
-            ],
-            [
-                " to",
-                -0.121297
-            ],
-            [
-                " benz",
-                -0.0036311925
-            ],
-            [
-                "ene",
-                -1.0280384e-06
-            ],
-            [
-                ".",
-                -0.062638044
-            ],
-            [
-                " However",
-                -1.336356
-            ],
-            [
-                ",",
-                -9.960947e-05
-            ],
-            [
-                " this",
-                -4.6061344
-            ],
-            [
-                " comparison",
-                -2.122964
-            ],
-            [
-                " is",
-                -0.36066952
-            ],
-            [
-                " between",
-                -4.903414
-            ],
-            [
-                " solid",
-                -2.0987563
-            ],
-            [
-                " and",
-                -0.8683721
-            ],
-            [
-                " liquid",
-                -0.00051645556
-            ],
-            [
-                " phase",
-                -2.0793147
-            ],
-            [
-                " transitions",
-                -1.4194803
-            ],
-            [
-                " and",
-                -1.1761668
-            ],
-            [
-                " may",
-                -2.4923508
-            ],
-            [
-                " not",
-                -0.019252917
-            ],
-            [
-                " be",
-                -0.35943663
-            ],
-            [
-                " linear",
-                -1.0056589
-            ],
-            [
-                " or",
-                -1.0186871
-            ],
-            [
-                " sym",
-                -5.1134596
-            ],
-            [
-                "metrical",
-                -1.18755715e-05
-            ],
-            [
-                " due",
-                -2.6905267
-            ],
-            [
-                " to",
-                -0.00032831362
-            ],
-            [
-                " structural",
-                -1.8288652
-            ],
-            [
-                " changes",
-                -0.544783
-            ],
-            [
-                ".",
-                -0.25960302
-            ],
-            [
-                " For",
-                -2.5572014
-            ],
-            [
-                " the",
-                -0.5469664
-            ],
-            [
-                " prediction",
-                -3.840337
-            ],
-            [
-                " of",
-                -1.2508063
-            ],
-            [
-                " ",
-                -0.10046427
-            ],
-            [
-                "2",
-                -7.107425e-06
-            ],
-            [
-                ",",
-                -1.92662e-05
-            ],
-            [
-                "4",
-                -1.0325924e-05
-            ],
-            [
-                "-d",
-                -0.00024596223
-            ],
-            [
-                "init",
-                -1.0206721e-05
-            ],
-            [
-                "rot",
-                -0.0002781399
-            ],
-            [
-                "olu",
-                -2.2246291e-05
-            ],
-            [
-                "ene",
-                -4.3202e-07
-            ],
-            [
-                ",",
-                -0.09996108
-            ],
-            [
-                " the",
-                -0.9781543
-            ],
-            [
-                " addition",
-                -1.9738218
-            ],
-            [
-                " of",
-                -8.804671e-05
-            ],
-            [
-                " electron",
-                -1.9429946
-            ],
-            [
-                "-with",
-                -0.0013416734
-            ],
-            [
-                "drawing",
-                -9.0883464e-07
-            ],
-            [
-                " nit",
-                -0.010186658
-            ],
-            [
-                "ro",
-                -5.5122365e-07
-            ],
-            [
-                " groups",
-                -0.00079390116
-            ],
-            [
-                " contributes",
-                -2.7790692
-            ],
-            [
-                " to",
-                -0.092807196
-            ],
-            [
-                " increased",
-                -3.2287822
-            ],
-            [
-                " inter",
-                -0.24730596
-            ],
-            [
-                "m",
-                -3.23786e-05
-            ],
-            [
-                "olecular",
-                -3.5313153e-06
-            ],
-            [
-                " forces",
-                -0.030715872
-            ],
-            [
-                " such",
-                -0.85822517
-            ],
-            [
-                " as",
-                -0.00044949973
-            ],
-            [
-                " hydrogen",
-                -0.044088185
-            ],
-            [
-                " bonding",
-                -0.04146535
-            ],
-            [
-                " and",
-                -0.043861642
-            ],
-            [
-                " dip",
-                -0.2242858
-            ],
-            [
-                "ole",
-                -0.14648087
-            ],
-            [
-                "-d",
-                -0.059126846
-            ],
-            [
-                "ip",
                 -6.704273e-07
             ],
             [
-                "ole",
-                -5.6769813e-06
-            ],
-            [
-                " interactions",
-                -0.086289346
-            ],
-            [
-                ".",
-                -0.8491037
-            ],
-            [
-                " Nit",
-                -4.0132136
-            ],
-            [
-                "ro",
-                -0.00040981956
-            ],
-            [
-                " groups",
-                -0.00051931274
-            ],
-            [
-                ",",
-                -3.1010942
-            ],
-            [
-                " being",
-                -0.08195303
-            ],
-            [
-                " strongly",
-                -1.663577
-            ],
-            [
-                " electr",
-                -0.9340215
-            ],
-            [
-                "one",
-                0.0
-            ],
-            [
-                "g",
+                "Reason",
                 -5.5122365e-07
             ],
             [
-                "ative",
-                -1.3544423e-05
-            ],
-            [
-                " and",
-                -0.85347986
-            ],
-            [
-                " capable",
-                -0.23798881
-            ],
-            [
-                " of",
-                -6.8854926e-05
-            ],
-            [
-                " forming",
-                -0.124547884
-            ],
-            [
-                " additional",
-                -0.10219661
-            ],
-            [
-                " interactions",
-                -2.4853244
-            ],
-            [
-                ",",
-                -0.043455053
-            ],
-            [
-                " significantly",
-                -1.7810671
-            ],
-            [
-                " raise",
-                -0.45144364
-            ],
-            [
-                " melting",
-                -4.3568625
-            ],
-            [
-                " points",
-                -0.0016334053
-            ],
-            [
-                ".",
-                -0.13646589
-            ],
-            [
-                " Each",
-                -2.604947
-            ],
-            [
-                " nit",
-                -0.0022952557
-            ],
-            [
-                "ro",
-                -1.3856493e-06
-            ],
-            [
-                " group",
-                -0.00071147823
-            ],
-            [
-                " is",
-                -1.499779
-            ],
-            [
-                " estimated",
-                -0.6429309
-            ],
-            [
-                " to",
-                -0.0065974253
-            ],
-            [
-                " increase",
-                -0.67292804
-            ],
-            [
-                " the",
-                -0.005491534
-            ],
-            [
-                " melting",
-                -0.0016269792
-            ],
-            [
-                " point",
-                -0.00018375258
-            ],
-            [
-                " substantially",
-                -1.6572385
-            ],
-            [
-                ";",
-                -2.3272636
-            ],
-            [
-                " however",
-                -0.5247005
-            ],
-            [
-                ",",
-                -0.002133252
-            ],
-            [
-                " given",
-                -3.2202697
-            ],
-            [
-                " the",
-                -0.39208472
-            ],
-            [
-                " complexity",
-                -2.6837945
-            ],
-            [
-                " of",
-                -0.04660297
-            ],
-            [
-                " the",
-                -1.0278549
-            ],
-            [
-                " interactions",
-                -0.7383124
-            ],
-            [
-                " and",
-                -0.23609854
-            ],
-            [
-                " the",
-                -0.23362602
-            ],
-            [
-                " crystal",
-                -6.2959347
-            ],
-            [
-                " packing",
-                -0.7110186
-            ],
-            [
-                " effects",
-                -1.2916193
-            ],
-            [
-                " in",
-                -0.8124751
-            ],
-            [
-                " solids",
-                -1.2562487
-            ],
-            [
-                ",",
-                -0.006870833
-            ],
-            [
-                " the",
-                -0.48085672
-            ],
-            [
-                " exact",
-                -0.45032653
-            ],
-            [
-                " contribution",
-                -1.0197912
-            ],
-            [
-                " per",
-                -1.5842087
-            ],
-            [
-                " nit",
-                -0.14018646
-            ],
-            [
-                "ro",
-                -0.00012272765
-            ],
-            [
-                " group",
-                -0.0005653034
-            ],
-            [
-                " is",
-                -0.85329354
-            ],
-            [
-                " difficult",
-                -0.96659565
-            ],
-            [
-                " to",
-                -0.00012868783
-            ],
-            [
-                " quantify",
-                -0.6987468
-            ],
-            [
-                " without",
-                -0.12239857
-            ],
-            [
-                " experimental",
-                -2.1114767
-            ],
-            [
-                " data",
-                -0.062599525
-            ],
-            [
-                " or",
-                -0.49559724
-            ],
-            [
-                " literature",
-                -3.659827
-            ],
-            [
-                " precedence",
-                -0.9871252
-            ],
-            [
-                ".",
-                -0.08041521
-            ],
-            [
-                " Considering",
-                -2.530835
-            ],
-            [
-                " these",
-                -2.406596
-            ],
-            [
-                " factors",
-                -0.656139
-            ],
-            [
-                ",",
-                -0.3700099
-            ],
-            [
-                " the",
-                -1.2703605
-            ],
-            [
-                " estimation",
-                -3.7467012
-            ],
-            [
-                " of",
-                -0.97516423
-            ],
-            [
-                " the",
-                -0.699813
-            ],
-            [
-                " increase",
-                -0.80460095
-            ],
-            [
-                " from",
-                -4.982173
-            ],
-            [
-                " each",
-                -1.1485322
-            ],
-            [
-                " nit",
-                -0.0009912493
-            ],
-            [
-                "ro",
-                -7.58424e-06
-            ],
-            [
-                " group",
-                -0.000688725
-            ],
-            [
-                " to",
-                -3.7652166
-            ],
-            [
-                " the",
-                -0.76438403
-            ],
-            [
-                " melting",
-                -0.03514935
-            ],
-            [
-                " point",
-                -0.0003550079
-            ],
-            [
-                " should",
-                -2.2359185
-            ],
-            [
-                " be",
-                -0.14432907
-            ],
-            [
-                " in",
-                -6.2102957
-            ],
-            [
-                " a",
-                -1.2869732
-            ],
-            [
-                " region",
-                -6.445962
-            ],
-            [
-                " that",
-                -0.20406307
-            ],
-            [
-                " accounts",
-                -2.457768
-            ],
-            [
-                " for",
-                -0.004675288
-            ],
-            [
-                " both",
-                -2.897175
-            ],
-            [
-                " strong",
-                -1.442478
-            ],
-            [
-                " inter",
-                -0.04212353
-            ],
-            [
-                "m",
-                -5.4312077e-05
-            ],
-            [
-                "olecular",
-                -8.876193e-05
-            ],
-            [
-                " forces",
-                -0.15265754
-            ],
-            [
-                " and",
-                -0.01480278
-            ],
-            [
-                " potential",
-                -2.1484914
-            ],
-            [
-                " st",
-                -1.674542
-            ],
-            [
-                "eric",
-                -7.226629e-06
-            ],
-            [
-                " hind",
-                -0.3346197
-            ],
-            [
-                "rance",
-                -0.037475213
-            ],
-            [
-                " that",
-                -1.0782952
-            ],
-            [
-                " can",
-                -2.9380739
-            ],
-            [
-                " influence",
-                -1.8567154
-            ],
-            [
-                " the",
-                -0.5816374
-            ],
-            [
-                " crystal",
-                -1.196147
-            ],
-            [
-                " lattice",
-                -1.5238457
-            ],
-            [
-                " structure",
-                -2.2654862
-            ],
-            [
-                ".",
-                -0.16734788
-            ],
-            [
-                " Therefore",
-                -2.553917
-            ],
-            [
-                ",",
-                -0.0013427316
-            ],
-            [
-                " if",
-                -2.2542949
-            ],
-            [
-                " we",
-                -0.24606505
-            ],
-            [
-                " estimate",
-                -2.4928348
-            ],
-            [
-                " each",
-                -1.6252375
-            ],
-            [
-                " nit",
-                -0.0016355473
-            ],
-            [
-                "ro",
-                -2.6968896e-06
-            ],
-            [
-                " group",
-                -0.0003119864
-            ],
-            [
-                " contributes",
-                -2.039073
-            ],
-            [
-                " approximately",
-                -1.3171115
-            ],
-            [
-                " ",
-                -0.015168824
-            ],
-            [
-                "82",
-                -0.2936157
-            ],
-            [
-                ".",
-                -0.22676343
-            ],
-            [
-                "25",
-                -0.0042201476
-            ],
-            [
-                " degrees",
-                -0.0016357856
-            ],
-            [
-                " Celsius",
-                -0.0011341434
-            ],
-            [
-                " to",
-                -0.7657389
-            ],
-            [
-                " the",
-                -0.015865779
-            ],
-            [
-                " melting",
-                -0.0039771236
-            ],
-            [
-                " point",
-                -0.0002007987
-            ],
-            [
-                " (",
-                -2.283685
-            ],
-            [
-                "based",
-                -3.4112525
-            ],
-            [
-                " on",
-                -0.001976692
-            ],
-            [
-                " the",
-                -0.15535314
-            ],
-            [
-                " difference",
-                -1.670867
-            ],
-            [
-                " between",
-                -0.58590174
-            ],
-            [
-                " the",
-                -0.066340245
-            ],
-            [
-                " actual",
-                -0.4503974
-            ],
-            [
-                " value",
-                -0.14624216
-            ],
-            [
-                " and",
-                -0.00816618
-            ],
-            [
-                " the",
-                -0.22573532
-            ],
-            [
-                " melting",
-                -0.36894587
-            ],
-            [
-                " point",
-                -9.2457245e-05
-            ],
-            [
-                " of",
-                -0.0012504661
-            ],
-            [
-                " to",
-                -0.004394156
-            ],
-            [
-                "lu",
-                -3.1281633e-07
-            ],
-            [
-                "ene",
-                -1.2664457e-06
-            ],
-            [
-                "),",
-                -0.3476288
-            ],
-            [
-                " it",
-                -5.7690377
-            ],
-            [
-                " suggests",
-                -3.7373347
-            ],
-            [
-                " a",
-                -1.1766458
-            ],
-            [
-                " strong",
-                -2.4688764
-            ],
-            [
-                " effect",
-                -2.0489643
-            ],
-            [
-                " due",
-                -3.4018273
-            ],
-            [
-                " to",
-                -0.0007613879
-            ],
-            [
-                " these",
-                -1.9292414
-            ],
-            [
-                " functional",
-                -1.5874352
-            ],
-            [
-                " groups",
-                -0.0012976157
-            ],
-            [
-                ".\",\n",
-                -0.3887032
-            ],
-            [
-                " ",
-                -0.07949332
-            ],
-            [
-                " \"",
-                -3.1281633e-07
-            ],
-            [
-                "Prediction",
-                -4.365741e-06
-            ],
-            [
                 "\":",
-                -8.75699e-05
+                -0.000191024
             ],
             [
                 " \"",
-                -0.026519386
+                -0.00016873659
             ],
             [
                 "Starting",
-                -1.6316811
+                -0.16460052
             ],
             [
                 " with",
-                -0.44864324
+                -0.18259817
             ],
             [
                 " to",
-                -0.57137835
+                -0.11254646
             ],
             [
                 "lu",
-                0.0
-            ],
-            [
-                "ene",
-                -2.1008714e-06
-            ],
-            [
-                "'s",
-                -0.1754547
-            ],
-            [
-                " melting",
-                -0.0022124657
-            ],
-            [
-                " point",
-                -9.729906e-06
-            ],
-            [
-                " of",
-                -0.20211084
-            ],
-            [
-                " -",
-                -0.0001309527
-            ],
-            [
-                "95",
-                -1.147242e-06
-            ],
-            [
-                " degrees",
-                -0.0036049401
-            ],
-            [
-                " Celsius",
-                -0.00011462913
-            ],
-            [
-                ",",
-                -0.7941575
-            ],
-            [
-                " and",
-                -0.41915822
-            ],
-            [
-                " adding",
-                -0.67452204
-            ],
-            [
-                " the",
-                -0.067126535
-            ],
-            [
-                " effect",
-                -1.0355897
-            ],
-            [
-                " of",
-                -0.00025895544
-            ],
-            [
-                " two",
-                -0.062405232
-            ],
-            [
-                " nit",
-                -0.000118324446
-            ],
-            [
-                "ro",
-                -7.107425e-06
-            ],
-            [
-                " groups",
-                -0.0001006823
-            ],
-            [
-                " with",
-                -2.0490825
-            ],
-            [
-                " an",
-                -0.081968844
-            ],
-            [
-                " estimated",
-                -0.037021667
-            ],
-            [
-                " increase",
-                -1.0567063
-            ],
-            [
-                " of",
-                -0.0067338455
-            ],
-            [
-                " ",
-                -0.069341004
-            ],
-            [
-                "82",
-                -0.00011105302
-            ],
-            [
-                ".",
-                -9.0883464e-07
-            ],
-            [
-                "25",
                 -1.2664457e-06
             ],
             [
-                " degrees",
-                -0.0005694755
-            ],
-            [
-                " Celsius",
-                -0.011594136
-            ],
-            [
-                " each",
-                -0.07004558
-            ],
-            [
-                " yields",
-                -4.634369
-            ],
-            [
-                " a",
-                -0.2675859
-            ],
-            [
-                " predicted",
-                -0.34525368
-            ],
-            [
-                " melting",
-                -0.020821322
-            ],
-            [
-                " point",
-                -0.0001246349
-            ],
-            [
-                " increase",
-                -2.8805678
-            ],
-            [
-                " of",
-                -0.008675196
-            ],
-            [
-                " ",
-                -0.006515468
-            ],
-            [
-                "164",
-                -0.0013080946
-            ],
-            [
-                ".",
-                -7.89631e-07
-            ],
-            [
-                "5",
-                -0.0013484497
-            ],
-            [
-                " degrees",
-                -0.0032326137
-            ],
-            [
-                " Celsius",
-                -0.0009604159
-            ],
-            [
-                ".",
-                -0.09934291
-            ],
-            [
-                " The",
-                -2.6238256
-            ],
-            [
-                " predicted",
-                -0.29832652
-            ],
-            [
-                " melting",
-                -0.008073473
-            ],
-            [
-                " point",
-                -7.886803e-05
-            ],
-            [
-                " of",
-                -1.1647472
-            ],
-            [
-                " ",
-                -0.00015217095
-            ],
-            [
-                "2",
-                -7.58424e-06
+                "ene",
+                -1.9361265e-07
             ],
             [
                 ",",
-                -1.4617256e-05
+                -0.057259537
             ],
             [
-                "4",
-                0.0
+                " which",
+                -0.0021803577
+            ],
+            [
+                " has",
+                -0.0002930367
+            ],
+            [
+                " a",
+                -0.00030721823
+            ],
+            [
+                " melting",
+                -0.0019416073
+            ],
+            [
+                " point",
+                -7.107425e-06
+            ],
+            [
+                " of",
+                -0.00035548472
+            ],
+            [
+                " -",
+                -0.0012020161
+            ],
+            [
+                "95",
+                -8.184812e-05
+            ],
+            [
+                " degrees",
+                -0.0028487444
+            ],
+            [
+                " Celsius",
+                -1.2948405e-05
+            ],
+            [
+                ",",
+                -0.0044914777
+            ],
+            [
+                " we",
+                -0.18484682
+            ],
+            [
+                " analyze",
+                -0.78857595
+            ],
+            [
+                " the",
+                -0.0029340796
+            ],
+            [
+                " effect",
+                -0.10235643
+            ],
+            [
+                " of",
+                -0.0007169579
+            ],
+            [
+                " the",
+                -0.107825585
+            ],
+            [
+                " functional",
+                -0.043646894
+            ],
+            [
+                " groups",
+                -0.00071207434
+            ],
+            [
+                " added",
+                -0.011196244
+            ],
+            [
+                ".",
+                -0.00469463
+            ],
+            [
+                " Each",
+                -0.26668996
+            ],
+            [
+                " nit",
+                -0.0021181428
+            ],
+            [
+                "ro",
+                -4.604148e-06
+            ],
+            [
+                " group",
+                -0.0019984657
+            ],
+            [
+                " (",
+                -0.027164638
+            ],
+            [
+                "NO",
+                -0.00018673266
+            ],
+            [
+                "2",
+                -4.9067115e-05
+            ],
+            [
+                ")",
+                -0.0009735173
+            ],
+            [
+                " typically",
+                -0.18277106
+            ],
+            [
+                " raises",
+                -0.021321839
+            ],
+            [
+                " the",
+                -0.000110576206
+            ],
+            [
+                " melting",
+                -0.00021212305
+            ],
+            [
+                " point",
+                -4.2272506e-05
+            ],
+            [
+                " because",
+                -0.8788581
+            ],
+            [
+                " of",
+                -0.06090617
+            ],
+            [
+                " its",
+                -0.013570988
+            ],
+            [
+                " strong",
+                -0.09898687
+            ],
+            [
+                " electron",
+                -0.00090681826
+            ],
+            [
+                "-with",
+                -3.4762674e-05
+            ],
+            [
+                "drawing",
+                -4.3202e-07
+            ],
+            [
+                " nature",
+                -0.004254812
+            ],
+            [
+                " and",
+                -0.10783682
+            ],
+            [
+                " the",
+                -0.014357889
+            ],
+            [
+                " potential",
+                -4.00661
+            ],
+            [
+                " for",
+                -0.38317078
+            ],
+            [
+                " hydrogen",
+                -5.0085196
+            ],
+            [
+                " bonding",
+                -0.1931852
+            ],
+            [
+                " and",
+                -1.629959
+            ],
+            [
+                " dip",
+                -0.0875543
+            ],
+            [
+                "ole",
+                -0.21920587
             ],
             [
                 "-d",
-                -2.7848862e-05
+                -0.02073212
             ],
             [
-                "init",
-                -1.3856493e-06
+                "ip",
+                -1.9361265e-07
             ],
             [
-                "rot",
+                "ole",
+                -2.577686e-06
+            ],
+            [
+                " interactions",
+                -0.013508295
+            ],
+            [
+                ",",
+                -0.92679477
+            ],
+            [
+                " which",
+                -0.5226907
+            ],
+            [
+                " stabilize",
+                -1.3467935
+            ],
+            [
+                " the",
+                -0.00435001
+            ],
+            [
+                " solid",
+                -0.2986116
+            ],
+            [
+                " form",
+                -1.1257174
+            ],
+            [
+                ".",
+                -0.18349881
+            ],
+            [
+                " Adding",
+                -1.451287
+            ],
+            [
+                " one",
+                -0.06266794
+            ],
+            [
+                " nit",
+                -0.00083690806
+            ],
+            [
+                "ro",
+                -2.4584822e-06
+            ],
+            [
+                " group",
                 -1.640531e-05
             ],
             [
-                "olu",
+                " can",
+                -0.13854349
+            ],
+            [
+                " raise",
+                -0.09337958
+            ],
+            [
+                " the",
+                -0.0003463097
+            ],
+            [
+                " melting",
+                -0.00038288688
+            ],
+            [
+                " point",
+                -7.231183e-05
+            ],
+            [
+                " by",
+                -0.62386006
+            ],
+            [
+                " approximately",
+                -2.293597
+            ],
+            [
+                " ",
+                -0.0012349952
+            ],
+            [
+                "80",
+                -0.18747985
+            ],
+            [
+                " degrees",
+                -0.0120256785
+            ],
+            [
+                " Celsius",
+                -0.0011387886
+            ],
+            [
+                " due",
+                -0.60959196
+            ],
+            [
+                " to",
+                -5.4550484e-05
+            ],
+            [
+                " these",
+                -0.33018526
+            ],
+            [
+                " effects",
+                -0.8021347
+            ],
+            [
+                ".",
+                -0.010225831
+            ],
+            [
+                " However",
+                -0.33597594
+            ],
+            [
+                ",",
+                -3.1544176e-05
+            ],
+            [
+                " with",
+                -2.4601047
+            ],
+            [
+                " a",
+                -1.5878153
+            ],
+            [
+                " second",
+                -0.000656916
+            ],
+            [
+                " nit",
+                -0.0018919838
+            ],
+            [
+                "ro",
+                -1.9361265e-07
+            ],
+            [
+                " group",
+                -0.00024965755
+            ],
+            [
+                ",",
+                -0.405148
+            ],
+            [
+                " the",
+                -1.0841
+            ],
+            [
+                " incremental",
+                -4.0245156
+            ],
+            [
+                " increase",
+                -0.039261796
+            ],
+            [
+                " may",
+                -2.2657843
+            ],
+            [
+                " be",
+                -0.4993106
+            ],
+            [
+                " less",
+                -0.15188514
+            ],
+            [
+                " than",
+                -1.1494408
+            ],
+            [
+                " the",
+                -0.282927
+            ],
+            [
+                " first",
+                -0.025845602
+            ],
+            [
+                " due",
+                -0.34261397
+            ],
+            [
+                " to",
+                -0.0001376281
+            ],
+            [
+                " st",
+                -0.107783735
+            ],
+            [
+                "eric",
+                -6.704273e-07
+            ],
+            [
+                " hind",
+                -0.031235762
+            ],
+            [
+                "rance",
+                -0.0009560054
+            ],
+            [
+                " and",
+                -0.16340743
+            ],
+            [
+                " a",
+                -2.190413
+            ],
+            [
+                " potential",
+                -1.4291832
+            ],
+            [
+                " decrease",
+                -1.0857219
+            ],
+            [
+                " in",
+                -0.00023607932
+            ],
+            [
+                " symmetry",
+                -0.3242098
+            ],
+            [
+                ",",
+                -0.19443458
+            ],
+            [
+                " hind",
+                -6.847596
+            ],
+            [
+                "ering",
+                -0.00022618541
+            ],
+            [
+                " optimal",
+                -0.3527637
+            ],
+            [
+                " packing",
+                -0.5107707
+            ],
+            [
+                " in",
+                -0.06280173
+            ],
+            [
+                " the",
+                -0.002202594
+            ],
+            [
+                " solid",
+                -0.08593061
+            ],
+            [
+                " state",
+                -0.02384304
+            ],
+            [
+                ".",
+                -0.13040704
+            ],
+            [
+                " Therefore",
+                -1.2051097
+            ],
+            [
+                ",",
+                -0.000614386
+            ],
+            [
+                " the",
+                -0.8723959
+            ],
+            [
+                " increase",
+                -1.7881765
+            ],
+            [
+                " might",
+                -1.5891755
+            ],
+            [
+                " be",
+                -0.039860394
+            ],
+            [
+                " around",
+                -0.7817172
+            ],
+            [
+                " ",
+                -0.012029916
+            ],
+            [
+                "70",
+                -1.1806422
+            ],
+            [
+                " degrees",
+                -0.0046472843
+            ],
+            [
+                " Celsius",
+                -0.103016905
+            ],
+            [
+                " for",
+                -0.021714212
+            ],
+            [
+                " the",
+                -0.00043829824
+            ],
+            [
+                " second",
+                -0.0011893989
+            ],
+            [
+                " nit",
+                -0.35348156
+            ],
+            [
+                "ro",
+                -3.7697225e-06
+            ],
+            [
+                " group",
+                -0.003456095
+            ],
+            [
+                " instead",
+                -2.4613714
+            ],
+            [
+                " of",
+                -0.0018339187
+            ],
+            [
+                " ",
+                -1.2512393
+            ],
+            [
+                "80",
+                -1.867018e-05
+            ],
+            [
+                " degrees",
+                -2.4763894
+            ],
+            [
+                ".",
+                -0.4744512
+            ],
+            [
+                " Sum",
+                -0.25583807
+            ],
+            [
+                "ming",
+                -0.0008891871
+            ],
+            [
+                " up",
+                -0.011105126
+            ],
+            [
+                ":",
+                -0.11479843
+            ],
+            [
+                " to",
+                -0.029209157
+            ],
+            [
+                "lu",
                 -1.147242e-06
             ],
             [
@@ -3249,138 +1545,138 @@
                 0.0
             ],
             [
-                " would",
-                -0.2947266
+                " base",
+                -0.0042677466
             ],
             [
-                " then",
-                -1.0097327
-            ],
-            [
-                " be",
-                -0.00049953593
-            ],
-            [
-                " -",
-                -0.021587176
+                " (-",
+                -0.002126707
             ],
             [
                 "95",
-                -1.504853e-06
+                -1.9361265e-07
+            ],
+            [
+                ")",
+                -0.0017252765
             ],
             [
                 " +",
-                -0.0044311862
+                -0.0016059132
             ],
             [
                 " ",
-                -8.709308e-05
+                -0.42726356
             ],
             [
-                "164",
-                -0.00016814057
+                "2",
+                -0.8908542
             ],
             [
-                ".",
-                -2.577686e-06
+                " NO",
+                -0.004771753
             ],
             [
-                "5",
+                "2",
+                -6.2729996e-06
+            ],
+            [
+                " groups",
+                -0.00018530223
+            ],
+            [
+                " (",
+                -0.23057184
+            ],
+            [
+                "80",
+                -0.028083166
+            ],
+            [
+                " +",
+                -0.28103444
+            ],
+            [
+                " ",
+                -0.00019376569
+            ],
+            [
+                "70",
                 -1.8193366e-05
             ],
             [
+                ")",
+                -0.019070355
+            ],
+            [
                 " =",
-                -0.032078035
+                -0.11108327
             ],
             [
                 " ",
-                -0.00048596508
+                -0.039776765
             ],
             [
-                "69",
-                -6.5278815e-05
-            ],
-            [
-                ".",
-                -2.7729659e-05
-            ],
-            [
-                "5",
-                -1.18755715e-05
+                "55",
+                -0.00053897407
             ],
             [
                 " degrees",
-                -8.733149e-05
+                -0.00012094693
             ],
             [
                 " Celsius",
-                -5.080963e-06
+                -8.89548e-06
             ],
             [
-                ",",
-                -0.12800166
+                " predicted",
+                -0.020160511
             ],
             [
-                " which",
-                -0.09596506
+                " melting",
+                -0.00027587503
             ],
             [
-                " closely",
-                -0.27349856
+                " point",
+                -1.2829201e-05
             ],
             [
-                " matches",
-                -0.48820114
-            ],
-            [
-                " the",
-                -0.0009001429
-            ],
-            [
-                " actual",
-                -0.0033328952
-            ],
-            [
-                " value",
-                -0.09324395
-            ],
-            [
-                " of",
-                -0.0130742295
+                ".\",\n",
+                -0.08616282
             ],
             [
                 " ",
-                -7.505351e-05
+                -0.0043143993
             ],
             [
-                "69",
-                -1.9816675e-06
+                " \"",
+                -1.9361265e-07
             ],
             [
-                ".",
-                -1.6886622
+                "Prediction",
+                -4.00813e-06
             ],
             [
-                "0",
-                -6.0345924e-06
+                "\":",
+                -2.0815847e-05
             ],
             [
-                " degrees",
-                -0.0001341712
+                " \"",
+                -0.041080885
             ],
             [
-                " Celsius",
-                -3.1424974e-05
+                "55",
+                -0.0003465481
             ],
             [
-                ".\"\n",
-                -0.24855472
+                "\"\n",
+                -0.00057221355
             ],
             [
                 "}",
-                -0.0029879247
+                -0.004361164
             ]
         ],
-        "Prediction(integer)": 69.0
+        "Prediction(integer)": 55.0
     }
 ]

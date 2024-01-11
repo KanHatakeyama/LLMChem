@@ -1,9 +1,9 @@
 [
     {
         "mpC": -26.0,
-        "name": "ethane, 1,2-dibromo-1,2-dichloro-",
-        "smiles": "BrC(Cl)C(Br)Cl",
-        "csid": 71424,
+        "name": "ethane, 1,2-dibromo-1,1-dichloro-",
+        "smiles": "BrC(Cl)(Cl)CBr",
+        "csid": 6161,
         "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
         "source": "PHYSPROP",
         "Reason": "",
@@ -11,46 +11,815 @@
     },
     {
         "mpC": -26.0,
-        "name": "ethane, 1,2-dibromo-1,2-dichloro-",
-        "smiles": "BrC(Cl)C(Br)Cl",
-        "csid": 71424,
+        "name": "ethane, 1,2-dibromo-1,1-dichloro-",
+        "smiles": "BrC(Cl)(Cl)CBr",
+        "csid": 6161,
         "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
         "source": "PHYSPROP",
-        "Reason": "The base unit, ethane, has a melting point of -183.0\u00b0C. Adding halogens like bromine and chlorine to organic compounds generally increases the melting point due to increased molecular weight and van der Waals forces. Bromine is heavier than chlorine, so each bromine addition has a more substantial effect on the melting point. We can estimate the effect of each halogen on the melting point: For each chlorine, we add about +50\u00b0C (reflecting the increase in intermolecular forces and molecular weight), and for each bromine, we add about +70\u00b0C (due to higher atomic weight and larger size increasing intermolecular forces even more than chlorine). With two chlorines and two bromines, the total estimated increase would be (2 * 50) + (2 * 70) = 100 + 140 = 240\u00b0C. The predicted melting point would then be the sum of the base melting point and the increases due to halogens: -183.0 + 240 = 57.0\u00b0C. However, since the actual value -26.0\u00b0C does not match our initial prediction, we need to adjust the contributions. Halogens also increase the polarity and might facilitate tighter molecular packing in the solid state, but it seems that each halogen's effect is overestimated. Adjusting the contributions to +30\u00b0C for each chlorine and +40\u00b0C for each bromine gives us a better estimate: (2 * 30) + (2 * 40) = 60 + 80 = 140\u00b0C. So the prediction would be -183.0 + 140 = -43.0\u00b0C.",
-        "Prediction": "-43.0",
-        "Prediction(integer)": -43.0
-    },
-    {
-        "mpC": -26.0,
-        "name": "ethane, 1,2-dibromo-1,2-dichloro-",
-        "smiles": "BrC(Cl)C(Br)Cl",
-        "csid": 71424,
-        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
-        "source": "PHYSPROP",
-        "Reason": "The base unit, ethane, has a melting point of -183.0\u00b0C. Adding halogens like bromine and chlorine to organic compounds generally increases the melting point due to increased molecular weight and van der Waals forces. Bromine is heavier than chlorine, so each bromine addition has a more substantial effect on the melting point. After adjusting for the overestimation, we can assign a smaller increment for the effect of each halogen on the melting point: we can estimate +30\u00b0C for each chlorine due to the increase in molecular weight and intermolecular forces, and +40\u00b0C for each bromine due to its higher atomic weight and larger size, which increase intermolecular forces. For the two chlorines, the increase would be 2 * 30\u00b0C = 60\u00b0C, and for the two bromines, the increase would be 2 * 40\u00b0C = 80\u00b0C. The total increase would be 60 + 80 = 140\u00b0C. Therefore, the predicted melting point would be the sum of the base melting point of ethane and the increases due to the halogens: -183.0 + 140 = -43.0\u00b0C",
-        "Prediction": "-43.0",
-        "Prediction(integer)": -43.0
-    },
-    {
-        "mpC": -26.0,
-        "name": "ethane, 1,2-dibromo-1,2-dichloro-",
-        "smiles": "BrC(Cl)C(Br)Cl",
-        "csid": 71424,
-        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
-        "source": "PHYSPROP",
-        "Reason": "The basic unit, ethane, has a melting point of -183.3 degrees Celsius. Each bromine adds approximately +55 because of the increased molecular weight and polarity. Each chlorine adds approximately +35 for the same reasons. So adding two bromines results in a shift of +110, and adding two chlorines results in a shift of +70.",
-        "Prediction": "-3.3",
-        "Prediction(integer)": -3.0
-    },
-    {
-        "mpC": -26.0,
-        "name": "ethane, 1,2-dibromo-1,2-dichloro-",
-        "smiles": "BrC(Cl)C(Br)Cl",
-        "csid": 71424,
-        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
-        "source": "PHYSPROP",
-        "Reason": "The basic structural unit, ethane, has a melting point of -183.3 degrees Celsius. Each bromine substituent is expected to add approximately +57 degrees Celsius due to the increased molecular weight and polarity. Each chlorine substituent adds approximately +37 degrees Celsius for the same reasons. Adding two bromines results in an upwards shift of +114 degrees Celsius, and adding two chlorines results in an upwards shift of +74 degrees Celsius.",
-        "Prediction": "-26.0",
+        "Reason": "The base molecule we'll begin with for comparison is ethane, which has a melting point of -183\u00b0C. Adding halogens (like Chlorine or Bromine) increases the molecular weight and introduces stronger intermolecular forces such as dipole-dipole interactions and London dispersion forces. Each chlorine would add approximately +50\u00b0C due to its electronegativity and size, contributing to stronger intermolecular attractions. Each bromine would add approximately +90\u00b0C due to being larger than chlorine and contributing significantly to London dispersion forces. However, since these halogens are also adding to the size and polarity of the molecule, there's a limit to how much they can actually increase the melting point, and increasing steric hindrance may destabilize the lattice structure, reducing the melting point. Therefore, we wouldn't simply add these effects linearly without considering the combined effect which typically leads to a less drastic increase in melting point.",
+        "Prediction": "-26",
+        "logprob": [
+            [
+                "{\n",
+                -5.0735965e-05
+            ],
+            [
+                " ",
+                -0.028012004
+            ],
+            [
+                " \"",
+                -1.9361265e-07
+            ],
+            [
+                "Reason",
+                0.0
+            ],
+            [
+                "\":",
+                -0.00033510823
+            ],
+            [
+                " \"",
+                -0.004695107
+            ],
+            [
+                "The",
+                -0.21754266
+            ],
+            [
+                " base",
+                -2.4232628
+            ],
+            [
+                " molecule",
+                -0.5806701
+            ],
+            [
+                " we",
+                -3.4243894
+            ],
+            [
+                "'ll",
+                -1.4621359
+            ],
+            [
+                " begin",
+                -6.9883027
+            ],
+            [
+                " with",
+                -0.0027530456
+            ],
+            [
+                " for",
+                -3.104643
+            ],
+            [
+                " comparison",
+                -0.32156435
+            ],
+            [
+                " is",
+                -0.18769933
+            ],
+            [
+                " eth",
+                -0.002478747
+            ],
+            [
+                "ane",
+                -0.043518513
+            ],
+            [
+                ",",
+                -0.016144516
+            ],
+            [
+                " which",
+                -0.026672848
+            ],
+            [
+                " has",
+                -0.0023042932
+            ],
+            [
+                " a",
+                -0.00045033416
+            ],
+            [
+                " melting",
+                -0.009142266
+            ],
+            [
+                " point",
+                -1.1398757e-05
+            ],
+            [
+                " of",
+                -0.043073982
+            ],
+            [
+                " -",
+                -0.22201255
+            ],
+            [
+                "183",
+                -0.57171404
+            ],
+            [
+                "\u00b0C",
+                -0.7339849
+            ],
+            [
+                ".",
+                -0.0011833232
+            ],
+            [
+                " Adding",
+                -1.859675
+            ],
+            [
+                " hal",
+                -0.14664353
+            ],
+            [
+                "ogens",
+                -0.22890364
+            ],
+            [
+                " (",
+                -5.145416
+            ],
+            [
+                "like",
+                -1.391847
+            ],
+            [
+                " Chlor",
+                -6.052755
+            ],
+            [
+                "ine",
+                -0.0039177495
+            ],
+            [
+                " or",
+                -0.71609056
+            ],
+            [
+                " Brom",
+                -7.822647e-06
+            ],
+            [
+                "ine",
+                -8.657073e-06
+            ],
+            [
+                ")",
+                -0.004727261
+            ],
+            [
+                " increases",
+                -3.9546983
+            ],
+            [
+                " the",
+                -0.08696874
+            ],
+            [
+                " molecular",
+                -0.43640405
+            ],
+            [
+                " weight",
+                -0.008180249
+            ],
+            [
+                " and",
+                -0.073555216
+            ],
+            [
+                " introduces",
+                -2.3186715
+            ],
+            [
+                " stronger",
+                -1.4871689
+            ],
+            [
+                " inter",
+                -0.2566232
+            ],
+            [
+                "m",
+                -0.00033713103
+            ],
+            [
+                "olecular",
+                -4.2391708e-05
+            ],
+            [
+                " forces",
+                -0.2904897
+            ],
+            [
+                " such",
+                -1.4464073
+            ],
+            [
+                " as",
+                -0.00023941702
+            ],
+            [
+                " dip",
+                -0.13989027
+            ],
+            [
+                "ole",
+                -0.00043829824
+            ],
+            [
+                "-d",
+                -0.0020157173
+            ],
+            [
+                "ip",
+                -2.3392786e-06
+            ],
+            [
+                "ole",
+                -4.1273333e-06
+            ],
+            [
+                " interactions",
+                -0.028838262
+            ],
+            [
+                " and",
+                -0.034455113
+            ],
+            [
+                " London",
+                -1.7341481
+            ],
+            [
+                " dispersion",
+                -0.001926375
+            ],
+            [
+                " forces",
+                -9.138441e-05
+            ],
+            [
+                ".",
+                -0.6023817
+            ],
+            [
+                " Each",
+                -0.17826091
+            ],
+            [
+                " chlorine",
+                -0.7174712
+            ],
+            [
+                " would",
+                -4.5317073
+            ],
+            [
+                " add",
+                -0.5251343
+            ],
+            [
+                " approximately",
+                -0.9809325
+            ],
+            [
+                " +",
+                -0.012320918
+            ],
+            [
+                "50",
+                -1.815954
+            ],
+            [
+                "\u00b0C",
+                -0.050326213
+            ],
+            [
+                " due",
+                -0.30804303
+            ],
+            [
+                " to",
+                -0.0005892523
+            ],
+            [
+                " its",
+                -0.7277075
+            ],
+            [
+                " electr",
+                -0.5261323
+            ],
+            [
+                "one",
+                0.0
+            ],
+            [
+                "g",
+                -2.3392786e-06
+            ],
+            [
+                "ativity",
+                -0.001512243
+            ],
+            [
+                " and",
+                -0.0023140493
+            ],
+            [
+                " size",
+                -0.86167675
+            ],
+            [
+                ",",
+                -0.27690223
+            ],
+            [
+                " contributing",
+                -1.4989228
+            ],
+            [
+                " to",
+                -0.03816382
+            ],
+            [
+                " stronger",
+                -0.38417882
+            ],
+            [
+                " inter",
+                -0.650295
+            ],
+            [
+                "m",
+                -7.433829e-05
+            ],
+            [
+                "olecular",
+                -1.1994775e-05
+            ],
+            [
+                " attractions",
+                -2.1843233
+            ],
+            [
+                ".",
+                -0.10939207
+            ],
+            [
+                " Each",
+                -0.06321184
+            ],
+            [
+                " brom",
+                -0.0020423676
+            ],
+            [
+                "ine",
+                -3.5313153e-06
+            ],
+            [
+                " would",
+                -0.6844075
+            ],
+            [
+                " add",
+                -0.17556043
+            ],
+            [
+                " approximately",
+                -0.97603536
+            ],
+            [
+                " +",
+                -0.0031614378
+            ],
+            [
+                "90",
+                -7.5491605
+            ],
+            [
+                "\u00b0C",
+                -0.0004973903
+            ],
+            [
+                " due",
+                -1.4517308
+            ],
+            [
+                " to",
+                -0.004383844
+            ],
+            [
+                " being",
+                -2.3227787
+            ],
+            [
+                " larger",
+                -0.077520154
+            ],
+            [
+                " than",
+                -1.7203078
+            ],
+            [
+                " chlorine",
+                -0.00043174208
+            ],
+            [
+                " and",
+                -0.6429635
+            ],
+            [
+                " contributing",
+                -1.0389684
+            ],
+            [
+                " significantly",
+                -2.544608
+            ],
+            [
+                " to",
+                -0.08599089
+            ],
+            [
+                " London",
+                -1.5160085
+            ],
+            [
+                " dispersion",
+                -0.0059840204
+            ],
+            [
+                " forces",
+                -0.00066156493
+            ],
+            [
+                ".",
+                -0.20991804
+            ],
+            [
+                " However",
+                -1.1901256
+            ],
+            [
+                ",",
+                -0.00012570774
+            ],
+            [
+                " since",
+                -1.7352874
+            ],
+            [
+                " these",
+                -1.4828442
+            ],
+            [
+                " hal",
+                -1.0034243
+            ],
+            [
+                "ogens",
+                -0.022445355
+            ],
+            [
+                " are",
+                -0.12377947
+            ],
+            [
+                " also",
+                -1.0917406
+            ],
+            [
+                " adding",
+                -3.1933525
+            ],
+            [
+                " to",
+                -1.7068644
+            ],
+            [
+                " the",
+                -0.45756227
+            ],
+            [
+                " size",
+                -3.4028978
+            ],
+            [
+                " and",
+                -0.9135712
+            ],
+            [
+                " polarity",
+                -7.6074038
+            ],
+            [
+                " of",
+                -0.024923142
+            ],
+            [
+                " the",
+                -0.0009774327
+            ],
+            [
+                " molecule",
+                -0.007673587
+            ],
+            [
+                ",",
+                -0.2494935
+            ],
+            [
+                " there",
+                -1.4933093
+            ],
+            [
+                "'s",
+                -2.336443
+            ],
+            [
+                " a",
+                -0.5439922
+            ],
+            [
+                " limit",
+                -0.9247089
+            ],
+            [
+                " to",
+                -0.008814882
+            ],
+            [
+                " how",
+                -0.28984264
+            ],
+            [
+                " much",
+                -0.15078749
+            ],
+            [
+                " they",
+                -1.0892226
+            ],
+            [
+                " can",
+                -0.21775775
+            ],
+            [
+                " actually",
+                -5.288405
+            ],
+            [
+                " increase",
+                -0.97662145
+            ],
+            [
+                " the",
+                -0.0033972908
+            ],
+            [
+                " melting",
+                -0.001573068
+            ],
+            [
+                " point",
+                -0.00042698128
+            ],
+            [
+                ",",
+                -2.3358502
+            ],
+            [
+                " and",
+                -1.1985419
+            ],
+            [
+                " increasing",
+                -6.3058205
+            ],
+            [
+                " st",
+                -0.46723562
+            ],
+            [
+                "eric",
+                -2.7372049e-05
+            ],
+            [
+                " hind",
+                -0.3834749
+            ],
+            [
+                "rance",
+                -0.0010262586
+            ],
+            [
+                " may",
+                -1.2885064
+            ],
+            [
+                " destabil",
+                -4.276418
+            ],
+            [
+                "ize",
+                -0.0010837789
+            ],
+            [
+                " the",
+                -0.09939871
+            ],
+            [
+                " lattice",
+                -5.1418047
+            ],
+            [
+                " structure",
+                -0.18831798
+            ],
+            [
+                ",",
+                -0.6309644
+            ],
+            [
+                " reducing",
+                -1.6861444
+            ],
+            [
+                " the",
+                -0.063966595
+            ],
+            [
+                " melting",
+                -0.2903975
+            ],
+            [
+                " point",
+                -0.027822698
+            ],
+            [
+                ".",
+                -1.5245242
+            ],
+            [
+                " Therefore",
+                -1.6864933
+            ],
+            [
+                ",",
+                -0.009637087
+            ],
+            [
+                " we",
+                -1.5548296
+            ],
+            [
+                " wouldn",
+                -5.1525717
+            ],
+            [
+                "'t",
+                -0.010805161
+            ],
+            [
+                " simply",
+                -0.27787402
+            ],
+            [
+                " add",
+                -0.3826786
+            ],
+            [
+                " these",
+                -0.9415329
+            ],
+            [
+                " effects",
+                -1.6007307
+            ],
+            [
+                " linear",
+                -0.69927275
+            ],
+            [
+                "ly",
+                -3.4121115e-06
+            ],
+            [
+                " without",
+                -1.2564815
+            ],
+            [
+                " considering",
+                -0.11644059
+            ],
+            [
+                " the",
+                -1.0822432
+            ],
+            [
+                " combined",
+                -3.297826
+            ],
+            [
+                " effect",
+                -0.43352568
+            ],
+            [
+                " which",
+                -3.4725099
+            ],
+            [
+                " typically",
+                -3.828215
+            ],
+            [
+                " leads",
+                -2.009577
+            ],
+            [
+                " to",
+                -0.00020520923
+            ],
+            [
+                " a",
+                -0.5622749
+            ],
+            [
+                " less",
+                -1.5318972
+            ],
+            [
+                " drastic",
+                -3.0502026
+            ],
+            [
+                " increase",
+                -0.17124078
+            ],
+            [
+                " in",
+                -2.5601501
+            ],
+            [
+                " melting",
+                -0.5155278
+            ],
+            [
+                " point",
+                -0.03680015
+            ],
+            [
+                ".\",\n",
+                -0.555777
+            ],
+            [
+                " ",
+                -0.0070087556
+            ],
+            [
+                " \"",
+                -1.9361265e-07
+            ],
+            [
+                "Prediction",
+                -2.1008714e-06
+            ],
+            [
+                "\":",
+                -1.6524515e-05
+            ],
+            [
+                " \"-",
+                -0.0425694
+            ],
+            [
+                "26",
+                -0.03229632
+            ],
+            [
+                "\"\n",
+                -2.0042503
+            ],
+            [
+                "}",
+                -0.008614808
+            ]
+        ],
         "Prediction(integer)": -26.0
     }
 ]

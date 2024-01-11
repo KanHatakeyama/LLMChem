@@ -1,45 +1,849 @@
 [
     {
-        "mpC": -17.0,
-        "name": "2,3-lutidine",
-        "smiles": "Cc1cccnc1C",
-        "csid": 10940,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L03697",
+        "mpC": -9.0,
+        "name": "3,5-lutidine",
+        "smiles": "Cc1cc(cnc1)C",
+        "csid": 11077,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A14877",
         "source": "Alfa Aesar",
         "Reason": "",
         "Prediction": ""
     },
     {
-        "mpC": -17.0,
-        "name": "2,3-lutidine",
-        "smiles": "Cc1cccnc1C",
-        "csid": 10940,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L03697",
+        "mpC": -9.0,
+        "name": "3,5-lutidine",
+        "smiles": "Cc1cc(cnc1)C",
+        "csid": 11077,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A14877",
         "source": "Alfa Aesar",
-        "Reason": "The target compound is 2,3-lutidine, also known as 2,3-dimethylpyridine. The basic unit here is pyridine, which has a melting point of -42\u00b0C. Structural features to consider are the two methyl groups that are attached in the 2 and 3 positions on the pyridine ring. Each methyl group tends to increase the melting point due to increased van der Waals interactions and molecular weight. Typically, a methyl group in an aromatic compound might contribute an increase of around 5\u00b0C to the melting point. However, since the methyl groups are adjacent to each other, there might be some steric hindrance that slightly lessens the increase in melting point for the second methyl group. Given steric hindrance, the second methyl group's effect might be around 3\u00b0C instead of 5\u00b0C.",
-        "Prediction": "-34\u00b0C (original pyridine melting point: -42\u00b0C + 5\u00b0C for the first methyl group + 3\u00b0C for the second methyl group due to steric hindrance)",
-        "Prediction(integer)": -32.0
-    },
-    {
-        "mpC": -17.0,
-        "name": "2,3-lutidine",
-        "smiles": "Cc1cccnc1C",
-        "csid": 10940,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L03697",
-        "source": "Alfa Aesar",
-        "Reason": "The target compound is 2,3-lutidine, which is based on the pyridine structure. Pyridine has a melting point of -42\u00b0C. For the 2,3-lutidine, we must consider the influence of two methyl groups attached at the 2 and 3 positions of the pyridine ring. Each methyl group is expected to raise the melting point due to incremental increase in van der Waals interactions and a marginal increase in molecular weight. The presence of a methyl group on an aromatic ring typically increases the melting point by about 5\u00b0C. However, the proximity of the two methyl groups to each other could lead to some steric hindrance, which may moderate their individual effects on the melting point. Assuming the steric hindrance slightly diminishes the effect of the second methyl group, it may contribute only around 3\u00b0C to the melting point instead of 5\u00b0C. Therefore, the overall predicted increase in melting point would be 5\u00b0C for the first methyl group and 3\u00b0C for the second, summing up to an 8\u00b0C increase.",
-        "Prediction": "-34\u00b0C (original pyridine melting point: -42\u00b0C + 5\u00b0C for the first methyl group + 3\u00b0C for the second methyl group due to steric hindrance)",
-        "Prediction(integer)": -34.0
-    },
-    {
-        "mpC": -17.0,
-        "name": "2,3-lutidine",
-        "smiles": "Cc1cccnc1C",
-        "csid": 10940,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L03697",
-        "source": "Alfa Aesar",
-        "Reason": "The basic unit, pyridine, has a melting point of approximately -42\u00b0C. The presence of two methyl groups at the 2 and 3 positions on the pyridine ring can affect the melting point. Each methyl group typically raises the melting point due to increased molecular weight and slight increase in symmetry. However, in this case, the position of the groups adjacent to the nitrogen in the ring creates steric hindrance which could potentially lower the melting point. Considering each methyl group on pyridine might raise the melting point by about +13\u00b0C, and steric hindrance might decrease it a little, we estimate the effect of steric hindrance as a -3\u00b0C reduction per methyl group.",
-        "Prediction": "-17.0",
-        "Prediction(integer)": -17.0
+        "Reason": "The compound 3,5-lutidine is a methylated derivative of pyridine. The basic unit, pyridine, has a melting point of around -42\u00b0C. Methyl groups are known to generally increase the melting point due to the increase in van der Waals forces; however, the effect in the case of pyridine derivatives is diminished by the mesomeric effect of the nitrogen atom in the aromatic ring, which distributes electron density. For 3,5-lutidine, the introduction of two methyl groups, one on the third and one on the fifth position of the pyridine ring, would be expected to raise the melting point relative to pyridine. Each methyl group might contribute approximately +8\u00b0C to +15\u00b0C to the melting point, considering their steric hindrance and inductive effect.",
+        "Prediction": "-42 + (2 x 8) to -42 + (2 x 15) = -26 to -12",
+        "logprob": [
+            [
+                "{\n",
+                -2.1531068e-05
+            ],
+            [
+                " ",
+                -0.043027394
+            ],
+            [
+                " \"",
+                0.0
+            ],
+            [
+                "Reason",
+                0.0
+            ],
+            [
+                "\":",
+                -0.00022976153
+            ],
+            [
+                " \"",
+                -0.0018878262
+            ],
+            [
+                "The",
+                -0.22243635
+            ],
+            [
+                " compound",
+                -3.9735048
+            ],
+            [
+                " ",
+                -0.020345313
+            ],
+            [
+                "3",
+                -1.2664457e-06
+            ],
+            [
+                ",",
+                -9.253091e-06
+            ],
+            [
+                "5",
+                -2.3392786e-06
+            ],
+            [
+                "-l",
+                -0.005058587
+            ],
+            [
+                "ut",
+                -1.9361265e-07
+            ],
+            [
+                "idine",
+                -3.2929079e-06
+            ],
+            [
+                " is",
+                -0.35796458
+            ],
+            [
+                " a",
+                -0.7713376
+            ],
+            [
+                " methyl",
+                -5.0845356
+            ],
+            [
+                "ated",
+                -1.7432027
+            ],
+            [
+                " derivative",
+                -0.03394604
+            ],
+            [
+                " of",
+                -1.3306016e-05
+            ],
+            [
+                " py",
+                -0.0028456487
+            ],
+            [
+                "rid",
+                -3.1281633e-07
+            ],
+            [
+                "ine",
+                -1.6240566e-06
+            ],
+            [
+                ".",
+                -0.104603805
+            ],
+            [
+                " The",
+                -0.3993619
+            ],
+            [
+                " basic",
+                -0.29716766
+            ],
+            [
+                " unit",
+                -0.2589911
+            ],
+            [
+                ",",
+                -0.07521976
+            ],
+            [
+                " py",
+                -0.002256595
+            ],
+            [
+                "rid",
+                -5.5122365e-07
+            ],
+            [
+                "ine",
+                -7.89631e-07
+            ],
+            [
+                ",",
+                -0.052684255
+            ],
+            [
+                " has",
+                -0.00055303273
+            ],
+            [
+                " a",
+                -0.00021271907
+            ],
+            [
+                " melting",
+                -0.00081689283
+            ],
+            [
+                " point",
+                -7.9418505e-06
+            ],
+            [
+                " of",
+                -0.024972904
+            ],
+            [
+                " around",
+                -1.8092363
+            ],
+            [
+                " -",
+                -0.0041630454
+            ],
+            [
+                "42",
+                -0.007772609
+            ],
+            [
+                "\u00b0C",
+                -0.4184336
+            ],
+            [
+                ".",
+                -0.004290896
+            ],
+            [
+                " M",
+                -2.2897828
+            ],
+            [
+                "ethyl",
+                -4.5371802e-05
+            ],
+            [
+                " groups",
+                -0.017987331
+            ],
+            [
+                " are",
+                -3.6952217
+            ],
+            [
+                " known",
+                -0.89821726
+            ],
+            [
+                " to",
+                -0.0018045341
+            ],
+            [
+                " generally",
+                -1.7258122
+            ],
+            [
+                " increase",
+                -0.088161014
+            ],
+            [
+                " the",
+                -0.14890851
+            ],
+            [
+                " melting",
+                -0.010547101
+            ],
+            [
+                " point",
+                -0.018128758
+            ],
+            [
+                " due",
+                -0.2947945
+            ],
+            [
+                " to",
+                -0.00029422872
+            ],
+            [
+                " the",
+                -1.7117093
+            ],
+            [
+                " increase",
+                -0.45070302
+            ],
+            [
+                " in",
+                -0.0036102824
+            ],
+            [
+                " van",
+                -0.40804896
+            ],
+            [
+                " der",
+                -0.0001246349
+            ],
+            [
+                " Wa",
+                -4.85903e-05
+            ],
+            [
+                "als",
+                -0.002363398
+            ],
+            [
+                " forces",
+                -0.15213089
+            ],
+            [
+                ";",
+                -2.0469189
+            ],
+            [
+                " however",
+                -0.1016326
+            ],
+            [
+                ",",
+                -0.0044641816
+            ],
+            [
+                " the",
+                -0.66255194
+            ],
+            [
+                " effect",
+                -0.70443547
+            ],
+            [
+                " in",
+                -3.984071
+            ],
+            [
+                " the",
+                -2.4397116
+            ],
+            [
+                " case",
+                -0.04672266
+            ],
+            [
+                " of",
+                -0.00037311585
+            ],
+            [
+                " py",
+                -0.67730206
+            ],
+            [
+                "rid",
+                -5.9153886e-06
+            ],
+            [
+                "ine",
+                -0.0052126483
+            ],
+            [
+                " derivatives",
+                -0.0670796
+            ],
+            [
+                " is",
+                -0.5439082
+            ],
+            [
+                " diminished",
+                -6.334269
+            ],
+            [
+                " by",
+                -2.0082004
+            ],
+            [
+                " the",
+                -0.04282618
+            ],
+            [
+                " mes",
+                -6.9536066
+            ],
+            [
+                "om",
+                -0.0050314213
+            ],
+            [
+                "eric",
+                -4.7517467e-05
+            ],
+            [
+                " effect",
+                -0.18342668
+            ],
+            [
+                " of",
+                -0.6083189
+            ],
+            [
+                " the",
+                -0.019190464
+            ],
+            [
+                " nitrogen",
+                -0.0706007
+            ],
+            [
+                " atom",
+                -1.1993841
+            ],
+            [
+                " in",
+                -1.4091871
+            ],
+            [
+                " the",
+                -0.010091306
+            ],
+            [
+                " aromatic",
+                -1.3870862
+            ],
+            [
+                " ring",
+                -0.0007542394
+            ],
+            [
+                ",",
+                -0.3265488
+            ],
+            [
+                " which",
+                -0.013882569
+            ],
+            [
+                " distributes",
+                -2.324245
+            ],
+            [
+                " electron",
+                -1.4866326
+            ],
+            [
+                " density",
+                -0.00059020595
+            ],
+            [
+                ".",
+                -3.6725125
+            ],
+            [
+                " For",
+                -2.2749095
+            ],
+            [
+                " ",
+                -2.0876932
+            ],
+            [
+                "3",
+                -0.0008612
+            ],
+            [
+                ",",
+                -3.059055e-05
+            ],
+            [
+                "5",
+                -1.504853e-06
+            ],
+            [
+                "-l",
+                -0.019643629
+            ],
+            [
+                "ut",
+                -8.180258e-06
+            ],
+            [
+                "idine",
+                -2.677603e-05
+            ],
+            [
+                ",",
+                -0.022116462
+            ],
+            [
+                " the",
+                -2.321472
+            ],
+            [
+                " introduction",
+                -3.4468496
+            ],
+            [
+                " of",
+                -9.133887e-06
+            ],
+            [
+                " two",
+                -0.02842515
+            ],
+            [
+                " methyl",
+                -0.0003812217
+            ],
+            [
+                " groups",
+                -0.00035739198
+            ],
+            [
+                ",",
+                -4.8726335
+            ],
+            [
+                " one",
+                -0.20197923
+            ],
+            [
+                " on",
+                -0.45969594
+            ],
+            [
+                " the",
+                -0.49516246
+            ],
+            [
+                " third",
+                -0.83139426
+            ],
+            [
+                " and",
+                -0.83425665
+            ],
+            [
+                " one",
+                -0.4321166
+            ],
+            [
+                " on",
+                -0.0004922682
+            ],
+            [
+                " the",
+                -0.0003710894
+            ],
+            [
+                " fifth",
+                -2.1769476e-05
+            ],
+            [
+                " position",
+                -0.35416007
+            ],
+            [
+                " of",
+                -1.2101747
+            ],
+            [
+                " the",
+                -0.06251957
+            ],
+            [
+                " py",
+                -0.11750031
+            ],
+            [
+                "rid",
+                -2.577686e-06
+            ],
+            [
+                "ine",
+                -6.0033854e-05
+            ],
+            [
+                " ring",
+                -0.014398898
+            ],
+            [
+                ",",
+                -0.027870338
+            ],
+            [
+                " would",
+                -1.3776975
+            ],
+            [
+                " be",
+                -2.6220484
+            ],
+            [
+                " expected",
+                -0.019626098
+            ],
+            [
+                " to",
+                -0.0014798635
+            ],
+            [
+                " raise",
+                -0.55338615
+            ],
+            [
+                " the",
+                -0.0058407574
+            ],
+            [
+                " melting",
+                -0.00044044392
+            ],
+            [
+                " point",
+                -0.00012380048
+            ],
+            [
+                " relative",
+                -1.889016
+            ],
+            [
+                " to",
+                -1.247159e-05
+            ],
+            [
+                " py",
+                -0.06848098
+            ],
+            [
+                "rid",
+                -2.3392786e-06
+            ],
+            [
+                "ine",
+                -5.5577775e-06
+            ],
+            [
+                ".",
+                -0.16088587
+            ],
+            [
+                " Each",
+                -0.5053008
+            ],
+            [
+                " methyl",
+                -0.0065931557
+            ],
+            [
+                " group",
+                -0.0010836597
+            ],
+            [
+                " might",
+                -1.3445364
+            ],
+            [
+                " contribute",
+                -0.5728493
+            ],
+            [
+                " approximately",
+                -0.7852953
+            ],
+            [
+                " +",
+                -0.13505743
+            ],
+            [
+                "8",
+                -5.2145576
+            ],
+            [
+                "\u00b0C",
+                -1.0447696
+            ],
+            [
+                " to",
+                -0.07148298
+            ],
+            [
+                " +",
+                -0.17070454
+            ],
+            [
+                "15",
+                -0.1998986
+            ],
+            [
+                "\u00b0C",
+                -8.697388e-05
+            ],
+            [
+                " to",
+                -0.30716702
+            ],
+            [
+                " the",
+                -0.000513237
+            ],
+            [
+                " melting",
+                -0.0018014385
+            ],
+            [
+                " point",
+                -0.0009763599
+            ],
+            [
+                ",",
+                -1.2809292
+            ],
+            [
+                " considering",
+                -0.7656886
+            ],
+            [
+                " their",
+                -1.74823
+            ],
+            [
+                " st",
+                -0.94428533
+            ],
+            [
+                "eric",
+                -6.1537958e-06
+            ],
+            [
+                " hind",
+                -1.5769882
+            ],
+            [
+                "rance",
+                -0.00056959473
+            ],
+            [
+                " and",
+                -0.015185256
+            ],
+            [
+                " in",
+                -0.891667
+            ],
+            [
+                "ductive",
+                -4.8425554e-06
+            ],
+            [
+                " effect",
+                -1.4023268
+            ],
+            [
+                ".\",\n",
+                -0.5429334
+            ],
+            [
+                " ",
+                -0.0025913503
+            ],
+            [
+                " \"",
+                -3.1281633e-07
+            ],
+            [
+                "Prediction",
+                -1.9361265e-07
+            ],
+            [
+                "\":",
+                -9.253091e-06
+            ],
+            [
+                " \"-",
+                -0.2232151
+            ],
+            [
+                "42",
+                -2.114962
+            ],
+            [
+                " +",
+                -0.57855034
+            ],
+            [
+                " (",
+                -0.28938806
+            ],
+            [
+                "2",
+                -0.21335943
+            ],
+            [
+                " x",
+                -1.5505242
+            ],
+            [
+                " ",
+                -0.7550973
+            ],
+            [
+                "8",
+                -0.039808497
+            ],
+            [
+                ")",
+                -1.9841763
+            ],
+            [
+                " to",
+                -0.14622498
+            ],
+            [
+                " -",
+                -0.0057522035
+            ],
+            [
+                "42",
+                -4.143808e-05
+            ],
+            [
+                " +",
+                -4.596782e-05
+            ],
+            [
+                " (",
+                -1.6166903e-05
+            ],
+            [
+                "2",
+                -4.7994283e-05
+            ],
+            [
+                " x",
+                -2.6060809e-05
+            ],
+            [
+                " ",
+                -5.4788892e-05
+            ],
+            [
+                "15",
+                -3.7697225e-06
+            ],
+            [
+                ")",
+                -0.004596507
+            ],
+            [
+                " =",
+                -0.11830189
+            ],
+            [
+                " -",
+                -0.004724653
+            ],
+            [
+                "26",
+                -8.268255e-05
+            ],
+            [
+                " to",
+                -0.39218643
+            ],
+            [
+                " -",
+                -4.2868523e-05
+            ],
+            [
+                "12",
+                -0.00083166314
+            ],
+            [
+                "\"\n",
+                -2.1474028
+            ],
+            [
+                "}",
+                -0.0073764925
+            ]
+        ],
+        "Prediction(integer)": -19.0
     }
 ]

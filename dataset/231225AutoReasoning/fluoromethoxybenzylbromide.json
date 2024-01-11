@@ -1,23 +1,2386 @@
 [
     {
-        "mpC": 60.0,
-        "name": "5-fluoro-2-methoxybenzyl bromide",
-        "smiles": "COc1ccc(cc1CBr)F",
-        "csid": 16787577,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H25957",
+        "mpC": 45.0,
+        "name": "3-fluoro-4-methoxybenzyl bromide",
+        "smiles": "COc1ccc(cc1F)CBr",
+        "csid": 2054949,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H26116",
         "source": "Alfa Aesar",
         "Reason": "",
         "Prediction": ""
     },
     {
-        "mpC": 60.0,
-        "name": "5-fluoro-2-methoxybenzyl bromide",
-        "smiles": "COc1ccc(cc1CBr)F",
-        "csid": 16787577,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H25957",
+        "mpC": 45.0,
+        "name": "3-fluoro-4-methoxybenzyl bromide",
+        "smiles": "COc1ccc(cc1F)CBr",
+        "csid": 2054949,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H26116",
         "source": "Alfa Aesar",
-        "Reason": "The compound 5-fluoro-2-methoxybenzyl bromide contains a benzene ring which we can use as our basic unit for prediction. Benzene has a melting point around 5.5\u00b0C. Each substituent on the benzene ring can modify this melting point. Methoxy group (OCH3) is weakly polar and electron donating, which might slightly increase the melting point due to a modest increase in molecular weight, let's estimate this as +5\u00b0C. The fluoro group is strongly electronegative and increases the polarity of the molecule, it may also participate in dipole-dipole interactions, likely increasing the melting point more than the methoxy group. This effect can be approximated as +20\u00b0C. The benzyl bromide moiety (-CH2Br) adds significant molecular weight and bulkiness, which increases the van der Waals interactions and is likely the most significant contributor to an increase in melting point, we will estimate this effect as +40\u00b0C.",
-        "Prediction": "70.5",
-        "Prediction(integer)": 70.0
+        "Reason": "For predicting the melting point of 3-fluoro-4-methoxybenzyl bromide, we will consider the structural units relative to benzene which has a melting point of 5.5 \u00b0C. A bromo substituent is a heavy atom, generally increasing the melting point significantly, we can estimate this at +40 \u00b0C. A methoxy group (\u2013OCH3) is electron-donating and also increases the melting point due to the ability to form dipoles; this might be around +20 \u00b0C. A fluoro substituent (\u2013F) is highly electronegative and can increase the melting point through dipole-dipole interactions, estimated at +30 \u00b0C. However, we need to consider that as we add more substituents, the overall symmetry of the molecule decreases, which can slightly lower the melting point due to lesser crystal packing efficiency. This might reduce the melting point by around -10 \u00b0C. Adding these adjustments together, we get: 5.5 (benzene) + 40 (Br) + 20 (OCH3) + 30 (F) - 10 (loss of symmetry) = 85.5 \u00b0C.",
+        "Prediction": "85.5",
+        "logprob": [
+            [
+                "{\n",
+                -1.735894e-05
+            ],
+            [
+                " ",
+                -0.040472828
+            ],
+            [
+                " \"",
+                -1.9361265e-07
+            ],
+            [
+                "Reason",
+                0.0
+            ],
+            [
+                "\":",
+                -0.00023333763
+            ],
+            [
+                " \"",
+                -0.0012163059
+            ],
+            [
+                "For",
+                -4.3926725
+            ],
+            [
+                " predicting",
+                -1.1140134
+            ],
+            [
+                " the",
+                -0.001024951
+            ],
+            [
+                " melting",
+                -0.0011895108
+            ],
+            [
+                " point",
+                -0.0005890139
+            ],
+            [
+                " of",
+                -0.03572328
+            ],
+            [
+                " ",
+                -0.0065081287
+            ],
+            [
+                "3",
+                -3.1737043e-06
+            ],
+            [
+                "-fl",
+                -0.0005568436
+            ],
+            [
+                "u",
+                -3.2140193e-05
+            ],
+            [
+                "oro",
+                -0.00081784645
+            ],
+            [
+                "-",
+                -3.1281633e-07
+            ],
+            [
+                "4",
+                0.0
+            ],
+            [
+                "-m",
+                -1.9027791e-05
+            ],
+            [
+                "eth",
+                -3.4121115e-06
+            ],
+            [
+                "oxy",
+                -0.00031341682
+            ],
+            [
+                "ben",
+                -1.867018e-05
+            ],
+            [
+                "z",
+                -2.6968896e-06
+            ],
+            [
+                "yl",
+                -0.00026896485
+            ],
+            [
+                " brom",
+                -1.18755715e-05
+            ],
+            [
+                "ide",
+                -4.3202e-07
+            ],
+            [
+                ",",
+                -0.011644226
+            ],
+            [
+                " we",
+                -0.23463501
+            ],
+            [
+                " will",
+                -2.157555
+            ],
+            [
+                " consider",
+                -0.6209077
+            ],
+            [
+                " the",
+                -0.061163668
+            ],
+            [
+                " structural",
+                -5.9578648
+            ],
+            [
+                " units",
+                -3.351397
+            ],
+            [
+                " relative",
+                -2.505164
+            ],
+            [
+                " to",
+                -5.6457742e-05
+            ],
+            [
+                " benz",
+                -0.023604734
+            ],
+            [
+                "ene",
+                -0.0014003564
+            ],
+            [
+                " which",
+                -3.865918
+            ],
+            [
+                " has",
+                -0.028973522
+            ],
+            [
+                " a",
+                -0.008174812
+            ],
+            [
+                " melting",
+                -0.0649525
+            ],
+            [
+                " point",
+                -2.451116e-05
+            ],
+            [
+                " of",
+                -0.033625178
+            ],
+            [
+                " ",
+                -0.008936345
+            ],
+            [
+                "5",
+                -9.293406e-05
+            ],
+            [
+                ".",
+                -0.00037669198
+            ],
+            [
+                "5",
+                -0.004567781
+            ],
+            [
+                " \u00b0",
+                -0.84281504
+            ],
+            [
+                "C",
+                -1.3306016e-05
+            ],
+            [
+                ".",
+                -0.3660738
+            ],
+            [
+                " A",
+                -2.6386056
+            ],
+            [
+                " brom",
+                -0.83548474
+            ],
+            [
+                "o",
+                -3.4363284
+            ],
+            [
+                " substit",
+                -0.3791286
+            ],
+            [
+                "uent",
+                -0.00016408764
+            ],
+            [
+                " is",
+                -2.3551033
+            ],
+            [
+                " a",
+                -0.8940612
+            ],
+            [
+                " heavy",
+                -0.10848871
+            ],
+            [
+                " atom",
+                -0.40150726
+            ],
+            [
+                ",",
+                -2.8692923
+            ],
+            [
+                " generally",
+                -3.3046253
+            ],
+            [
+                " increasing",
+                -0.21432249
+            ],
+            [
+                " the",
+                -0.24474196
+            ],
+            [
+                " melting",
+                -0.026045738
+            ],
+            [
+                " point",
+                -0.0002943479
+            ],
+            [
+                " significantly",
+                -2.448614
+            ],
+            [
+                ",",
+                -1.4537795
+            ],
+            [
+                " we",
+                -1.8060598
+            ],
+            [
+                " can",
+                -0.19873755
+            ],
+            [
+                " estimate",
+                -0.17483966
+            ],
+            [
+                " this",
+                -0.3324548
+            ],
+            [
+                " at",
+                -2.7947054
+            ],
+            [
+                " +",
+                -0.6003883
+            ],
+            [
+                "40",
+                -0.9335054
+            ],
+            [
+                " \u00b0",
+                -0.72064936
+            ],
+            [
+                "C",
+                -0.00014191943
+            ],
+            [
+                ".",
+                -0.24832775
+            ],
+            [
+                " A",
+                -0.35286406
+            ],
+            [
+                " meth",
+                -0.115953766
+            ],
+            [
+                "oxy",
+                -0.0013438044
+            ],
+            [
+                " group",
+                -0.031465773
+            ],
+            [
+                " (",
+                -3.0825834
+            ],
+            [
+                "\u2013",
+                -0.4663818
+            ],
+            [
+                "O",
+                -3.7146747e-05
+            ],
+            [
+                "CH",
+                -7.0523776e-05
+            ],
+            [
+                "3",
+                -0.025538173
+            ],
+            [
+                ")",
+                -0.015101304
+            ],
+            [
+                " is",
+                -0.41509664
+            ],
+            [
+                " electron",
+                -0.97596717
+            ],
+            [
+                "-d",
+                -0.039178003
+            ],
+            [
+                "on",
+                -6.749814e-06
+            ],
+            [
+                "ating",
+                -2.577686e-06
+            ],
+            [
+                " and",
+                -0.03740298
+            ],
+            [
+                " also",
+                -2.0494509
+            ],
+            [
+                " increases",
+                -0.5382723
+            ],
+            [
+                " the",
+                -0.08566737
+            ],
+            [
+                " melting",
+                -1.3240659
+            ],
+            [
+                " point",
+                -0.00066168414
+            ],
+            [
+                " due",
+                -0.6583854
+            ],
+            [
+                " to",
+                -0.001419519
+            ],
+            [
+                " the",
+                -1.7364442
+            ],
+            [
+                " ability",
+                -3.3930116
+            ],
+            [
+                " to",
+                -0.21551251
+            ],
+            [
+                " form",
+                -0.9514365
+            ],
+            [
+                " d",
+                -1.475235
+            ],
+            [
+                "ipo",
+                -0.0019557523
+            ],
+            [
+                "les",
+                -0.00049167214
+            ],
+            [
+                ";",
+                -1.374891
+            ],
+            [
+                " this",
+                -0.9436347
+            ],
+            [
+                " might",
+                -1.2241493
+            ],
+            [
+                " be",
+                -1.4753532
+            ],
+            [
+                " around",
+                -1.2264589
+            ],
+            [
+                " +",
+                -0.0035671657
+            ],
+            [
+                "20",
+                -0.56926405
+            ],
+            [
+                " \u00b0",
+                -0.008525922
+            ],
+            [
+                "C",
+                -2.8160932e-06
+            ],
+            [
+                ".",
+                -0.0050296444
+            ],
+            [
+                " A",
+                -0.5745116
+            ],
+            [
+                " flu",
+                -0.022705013
+            ],
+            [
+                "oro",
+                0.0
+            ],
+            [
+                " substit",
+                -0.06215399
+            ],
+            [
+                "uent",
+                -4.370295e-05
+            ],
+            [
+                " (",
+                -2.0840027
+            ],
+            [
+                "\u2013",
+                -0.0015318858
+            ],
+            [
+                "F",
+                -1.0280384e-06
+            ],
+            [
+                ")",
+                -0.026315164
+            ],
+            [
+                " is",
+                -0.069811486
+            ],
+            [
+                " highly",
+                -0.22176437
+            ],
+            [
+                " electr",
+                -0.0002786167
+            ],
+            [
+                "one",
+                0.0
+            ],
+            [
+                "g",
+                0.0
+            ],
+            [
+                "ative",
+                -4.3202e-07
+            ],
+            [
+                " and",
+                -0.16270408
+            ],
+            [
+                " can",
+                -1.0832126
+            ],
+            [
+                " increase",
+                -1.7295604
+            ],
+            [
+                " the",
+                -0.2840752
+            ],
+            [
+                " melting",
+                -0.0051827626
+            ],
+            [
+                " point",
+                -0.00055482076
+            ],
+            [
+                " through",
+                -1.1813798
+            ],
+            [
+                " dip",
+                -0.86064583
+            ],
+            [
+                "ole",
+                -0.029306635
+            ],
+            [
+                "-d",
+                -0.11248328
+            ],
+            [
+                "ip",
+                -4.365741e-06
+            ],
+            [
+                "ole",
+                -2.9352968e-06
+            ],
+            [
+                " interactions",
+                -0.046780445
+            ],
+            [
+                ",",
+                -1.7889932
+            ],
+            [
+                " estimated",
+                -1.1918868
+            ],
+            [
+                " at",
+                -0.18454336
+            ],
+            [
+                " +",
+                -0.07055805
+            ],
+            [
+                "30",
+                -0.5735762
+            ],
+            [
+                " \u00b0",
+                -0.00799401
+            ],
+            [
+                "C",
+                -3.888926e-06
+            ],
+            [
+                ".",
+                -0.0027322401
+            ],
+            [
+                " However",
+                -0.22149485
+            ],
+            [
+                ",",
+                -0.0001626572
+            ],
+            [
+                " we",
+                -2.7091403
+            ],
+            [
+                " need",
+                -1.9409256
+            ],
+            [
+                " to",
+                -0.003344421
+            ],
+            [
+                " consider",
+                -0.32283586
+            ],
+            [
+                " that",
+                -0.111140236
+            ],
+            [
+                " as",
+                -4.453387
+            ],
+            [
+                " we",
+                -1.4574682
+            ],
+            [
+                " add",
+                -0.3672947
+            ],
+            [
+                " more",
+                -1.2624843
+            ],
+            [
+                " substit",
+                -0.038010046
+            ],
+            [
+                "u",
+                -0.0026215513
+            ],
+            [
+                "ents",
+                -6.704273e-07
+            ],
+            [
+                ",",
+                -0.14621611
+            ],
+            [
+                " the",
+                -0.5514749
+            ],
+            [
+                " overall",
+                -1.0984942
+            ],
+            [
+                " symmetry",
+                -0.4006328
+            ],
+            [
+                " of",
+                -0.047531888
+            ],
+            [
+                " the",
+                -0.000371447
+            ],
+            [
+                " molecule",
+                -0.018158842
+            ],
+            [
+                " decreases",
+                -0.5277945
+            ],
+            [
+                ",",
+                -0.26757678
+            ],
+            [
+                " which",
+                -0.16513996
+            ],
+            [
+                " can",
+                -0.69033
+            ],
+            [
+                " slightly",
+                -2.1722155
+            ],
+            [
+                " lower",
+                -0.6567937
+            ],
+            [
+                " the",
+                -0.0077484716
+            ],
+            [
+                " melting",
+                -0.025275627
+            ],
+            [
+                " point",
+                -0.00037383108
+            ],
+            [
+                " due",
+                -2.0111332
+            ],
+            [
+                " to",
+                -0.001031619
+            ],
+            [
+                " lesser",
+                -3.7075686
+            ],
+            [
+                " crystal",
+                -1.0293386
+            ],
+            [
+                " packing",
+                -0.05103888
+            ],
+            [
+                " efficiency",
+                -0.006954419
+            ],
+            [
+                ".",
+                -0.36660933
+            ],
+            [
+                " This",
+                -0.43530005
+            ],
+            [
+                " might",
+                -1.5637476
+            ],
+            [
+                " reduce",
+                -0.8209506
+            ],
+            [
+                " the",
+                -0.026047938
+            ],
+            [
+                " melting",
+                -0.46121007
+            ],
+            [
+                " point",
+                -0.00038991994
+            ],
+            [
+                " by",
+                -0.02567342
+            ],
+            [
+                " around",
+                -1.299705
+            ],
+            [
+                " -",
+                -0.04042292
+            ],
+            [
+                "10",
+                -0.38415325
+            ],
+            [
+                " \u00b0",
+                -0.044828657
+            ],
+            [
+                "C",
+                -9.610702e-06
+            ],
+            [
+                ".",
+                -1.077374
+            ],
+            [
+                " Adding",
+                -1.666199
+            ],
+            [
+                " these",
+                -0.44470155
+            ],
+            [
+                " adjustments",
+                -0.7928866
+            ],
+            [
+                " together",
+                -0.31907347
+            ],
+            [
+                ",",
+                -1.7860553
+            ],
+            [
+                " we",
+                -0.20502095
+            ],
+            [
+                " get",
+                -0.5781427
+            ],
+            [
+                ":",
+                -2.6978364
+            ],
+            [
+                " ",
+                -0.06848722
+            ],
+            [
+                "5",
+                -0.0001202317
+            ],
+            [
+                ".",
+                -0.00010485443
+            ],
+            [
+                "5",
+                -3.1737043e-06
+            ],
+            [
+                " (",
+                -0.01206961
+            ],
+            [
+                "ben",
+                -0.25508323
+            ],
+            [
+                "z",
+                -1.8624639e-06
+            ],
+            [
+                "ene",
+                -4.7875077e-05
+            ],
+            [
+                ")",
+                -0.08635682
+            ],
+            [
+                " +",
+                -1.8074163e-05
+            ],
+            [
+                " ",
+                -0.0042387857
+            ],
+            [
+                "40",
+                -6.849731e-05
+            ],
+            [
+                " (",
+                -5.2285613e-05
+            ],
+            [
+                "Br",
+                -0.76665384
+            ],
+            [
+                ")",
+                -0.0008857302
+            ],
+            [
+                " +",
+                -2.6895234e-05
+            ],
+            [
+                " ",
+                -0.0005992618
+            ],
+            [
+                "20",
+                -0.00015955791
+            ],
+            [
+                " (",
+                -0.0008762086
+            ],
+            [
+                "O",
+                -0.032945335
+            ],
+            [
+                "CH",
+                -6.704273e-07
+            ],
+            [
+                "3",
+                -0.00035465028
+            ],
+            [
+                ")",
+                -4.9067115e-05
+            ],
+            [
+                " +",
+                -0.00045926712
+            ],
+            [
+                " ",
+                -0.00030805267
+            ],
+            [
+                "30",
+                -7.465036e-06
+            ],
+            [
+                " (",
+                -0.00015240935
+            ],
+            [
+                "F",
+                -0.0014216646
+            ],
+            [
+                ")",
+                -1.8193366e-05
+            ],
+            [
+                " -",
+                -0.0017326562
+            ],
+            [
+                " ",
+                -0.0028148629
+            ],
+            [
+                "10",
+                -3.2929079e-06
+            ],
+            [
+                " (",
+                -0.000321519
+            ],
+            [
+                "loss",
+                -1.3641984
+            ],
+            [
+                " of",
+                -0.0121448655
+            ],
+            [
+                " symmetry",
+                -0.0007100478
+            ],
+            [
+                ")",
+                -0.020749163
+            ],
+            [
+                " =",
+                -0.008382422
+            ],
+            [
+                " ",
+                -0.013173052
+            ],
+            [
+                "85",
+                -0.00023691374
+            ],
+            [
+                ".",
+                -1.8624639e-06
+            ],
+            [
+                "5",
+                -9.0883464e-07
+            ],
+            [
+                " \u00b0",
+                -0.01408934
+            ],
+            [
+                "C",
+                -4.723352e-06
+            ],
+            [
+                ".\",\n",
+                -0.18681303
+            ],
+            [
+                " ",
+                -0.020031517
+            ],
+            [
+                " \"",
+                -1.9361265e-07
+            ],
+            [
+                "Prediction",
+                -9.0883464e-07
+            ],
+            [
+                "\":",
+                -2.6418418e-05
+            ],
+            [
+                " \"",
+                -0.0018723556
+            ],
+            [
+                "85",
+                -0.00039897207
+            ],
+            [
+                ".",
+                -1.9816675e-06
+            ],
+            [
+                "5",
+                -6.9882217e-06
+            ],
+            [
+                "\"\n",
+                -0.00075197447
+            ],
+            [
+                "}",
+                -0.0063387454
+            ]
+        ],
+        "Prediction(integer)": 85.0
+    },
+    {
+        "mpC": 45.0,
+        "name": "3-fluoro-4-methoxybenzyl bromide",
+        "smiles": "COc1ccc(cc1F)CBr",
+        "csid": 2054949,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H26116",
+        "source": "Alfa Aesar",
+        "Reason": "For predicting the melting point of 3-fluoro-4-methoxybenzyl bromide, we need to consider the contributions of individual functional groups in the molecule. Starting with the base molecule, benzene, which has a melting point of 5.5 \u00b0C, we then add the effects of the substituents. A bromo substituent typically increases the melting point since it is a heavy atom that can lead to stronger London dispersion forces; this may be estimated to increase the melting point by approximately +15\u00b0C. A methoxy group (-OCH3), introduces both dipole-dipole interactions and slightly increases molecular weight, which could raise the melting point by around +10\u00b0C. The fluoro group (-F) is highly electronegative and will substantially contribute to the melting point through strong dipole-dipole interactions, an increase of about +20\u00b0C can be estimated. The combined effects of these groups may not be purely additive due to potential steric hindrance and structural effects that impact the crystalline packing efficiency, which in this compound may reduce the benefits of the individual substituents. Considering a moderate loss in structural symmetry, we might adjust the impact of the groups downward by -5\u00b0C. Summing these effects, we get: 5.5 (benzene) + 15 (Br) + 10 (OCH3) + 20 (F) - 5 (loss of symmetry) = 45.5 \u00b0C.",
+        "Prediction": "45.5",
+        "logprob": [
+            [
+                "{\n",
+                -0.0011728443
+            ],
+            [
+                " ",
+                -0.024737544
+            ],
+            [
+                " \"",
+                0.0
+            ],
+            [
+                "Reason",
+                0.0
+            ],
+            [
+                "\":",
+                -0.0002513264
+            ],
+            [
+                " \"",
+                -1.5213274e-05
+            ],
+            [
+                "For",
+                -0.55352485
+            ],
+            [
+                " predicting",
+                -0.02457413
+            ],
+            [
+                " the",
+                -4.723352e-06
+            ],
+            [
+                " melting",
+                -5.8126592e-05
+            ],
+            [
+                " point",
+                -7.703444e-06
+            ],
+            [
+                " of",
+                -0.000119993296
+            ],
+            [
+                " ",
+                -2.9160103e-05
+            ],
+            [
+                "3",
+                -1.504853e-06
+            ],
+            [
+                "-fl",
+                -1.2113979e-05
+            ],
+            [
+                "u",
+                -2.3392786e-06
+            ],
+            [
+                "oro",
+                -1.4378848e-05
+            ],
+            [
+                "-",
+                0.0
+            ],
+            [
+                "4",
+                0.0
+            ],
+            [
+                "-m",
+                -1.6286107e-05
+            ],
+            [
+                "eth",
+                -7.89631e-07
+            ],
+            [
+                "oxy",
+                -1.3663626e-05
+            ],
+            [
+                "ben",
+                -2.6968896e-06
+            ],
+            [
+                "z",
+                -5.5122365e-07
+            ],
+            [
+                "yl",
+                -1.8624639e-06
+            ],
+            [
+                " brom",
+                -1.0280384e-06
+            ],
+            [
+                "ide",
+                0.0
+            ],
+            [
+                ",",
+                -0.0015857934
+            ],
+            [
+                " we",
+                -0.24220875
+            ],
+            [
+                " need",
+                -1.499462
+            ],
+            [
+                " to",
+                -0.00027242178
+            ],
+            [
+                " consider",
+                -0.472183
+            ],
+            [
+                " the",
+                -0.11177281
+            ],
+            [
+                " contributions",
+                -1.9692564
+            ],
+            [
+                " of",
+                -0.18177572
+            ],
+            [
+                " individual",
+                -1.724266
+            ],
+            [
+                " functional",
+                -0.196564
+            ],
+            [
+                " groups",
+                -0.00018172979
+            ],
+            [
+                " in",
+                -3.613089
+            ],
+            [
+                " the",
+                -1.7753352
+            ],
+            [
+                " molecule",
+                -0.7369447
+            ],
+            [
+                ".",
+                -2.5024097
+            ],
+            [
+                " Starting",
+                -0.17808294
+            ],
+            [
+                " with",
+                -0.1219636
+            ],
+            [
+                " the",
+                -1.1945014
+            ],
+            [
+                " base",
+                -0.38619807
+            ],
+            [
+                " molecule",
+                -1.6810842
+            ],
+            [
+                ",",
+                -1.2037965
+            ],
+            [
+                " benz",
+                -0.00089311716
+            ],
+            [
+                "ene",
+                -5.5577775e-06
+            ],
+            [
+                ",",
+                -0.09326317
+            ],
+            [
+                " which",
+                -0.022830056
+            ],
+            [
+                " has",
+                -0.0007051641
+            ],
+            [
+                " a",
+                -0.0008015266
+            ],
+            [
+                " melting",
+                -0.0040837433
+            ],
+            [
+                " point",
+                -5.2001665e-06
+            ],
+            [
+                " of",
+                -0.0034025249
+            ],
+            [
+                " ",
+                -0.0018073877
+            ],
+            [
+                "5",
+                -4.3202e-07
+            ],
+            [
+                ".",
+                -9.729906e-06
+            ],
+            [
+                "5",
+                -4.604148e-06
+            ],
+            [
+                " \u00b0",
+                -0.032653715
+            ],
+            [
+                "C",
+                -1.6240566e-06
+            ],
+            [
+                ",",
+                -0.23541418
+            ],
+            [
+                " we",
+                -0.2753764
+            ],
+            [
+                " then",
+                -2.6718044
+            ],
+            [
+                " add",
+                -1.2290891
+            ],
+            [
+                " the",
+                -0.032333367
+            ],
+            [
+                " effects",
+                -0.3163972
+            ],
+            [
+                " of",
+                -0.0012429672
+            ],
+            [
+                " the",
+                -0.38271672
+            ],
+            [
+                " substit",
+                -0.08628912
+            ],
+            [
+                "u",
+                -0.010608076
+            ],
+            [
+                "ents",
+                -7.89631e-07
+            ],
+            [
+                ".",
+                -0.020713555
+            ],
+            [
+                " A",
+                -0.35270354
+            ],
+            [
+                " brom",
+                -0.0017848948
+            ],
+            [
+                "o",
+                -0.43424052
+            ],
+            [
+                " substit",
+                -0.18263394
+            ],
+            [
+                "uent",
+                -2.9279307e-05
+            ],
+            [
+                " typically",
+                -1.6922903
+            ],
+            [
+                " increases",
+                -0.4867603
+            ],
+            [
+                " the",
+                -0.094810866
+            ],
+            [
+                " melting",
+                -0.0047710417
+            ],
+            [
+                " point",
+                -0.000113913906
+            ],
+            [
+                " since",
+                -4.59585
+            ],
+            [
+                " it",
+                -0.077911034
+            ],
+            [
+                " is",
+                -0.334229
+            ],
+            [
+                " a",
+                -0.034273006
+            ],
+            [
+                " heavy",
+                -0.23310049
+            ],
+            [
+                " atom",
+                -0.16359046
+            ],
+            [
+                " that",
+                -0.9949149
+            ],
+            [
+                " can",
+                -0.5993529
+            ],
+            [
+                " lead",
+                -1.6978209
+            ],
+            [
+                " to",
+                -1.2829201e-05
+            ],
+            [
+                " stronger",
+                -0.17835326
+            ],
+            [
+                " London",
+                -0.99930596
+            ],
+            [
+                " dispersion",
+                -0.0010546034
+            ],
+            [
+                " forces",
+                -0.0014202341
+            ],
+            [
+                ";",
+                -0.18536445
+            ],
+            [
+                " this",
+                -0.9699586
+            ],
+            [
+                " may",
+                -3.9810996
+            ],
+            [
+                " be",
+                -1.4624213
+            ],
+            [
+                " estimated",
+                -0.1611419
+            ],
+            [
+                " to",
+                -1.2099881
+            ],
+            [
+                " increase",
+                -1.2648408
+            ],
+            [
+                " the",
+                -0.04695972
+            ],
+            [
+                " melting",
+                -0.005579622
+            ],
+            [
+                " point",
+                -0.0005388548
+            ],
+            [
+                " by",
+                -0.00069242035
+            ],
+            [
+                " approximately",
+                -1.5438023
+            ],
+            [
+                " +",
+                -0.00042543162
+            ],
+            [
+                "15",
+                -2.8436184
+            ],
+            [
+                "\u00b0C",
+                -4.618495
+            ],
+            [
+                ".",
+                -0.1271615
+            ],
+            [
+                " A",
+                -0.62707275
+            ],
+            [
+                " meth",
+                -0.0017301602
+            ],
+            [
+                "oxy",
+                -3.3213026e-05
+            ],
+            [
+                " group",
+                -0.011825897
+            ],
+            [
+                " (-",
+                -2.4238224
+            ],
+            [
+                "O",
+                -1.9816675e-06
+            ],
+            [
+                "CH",
+                -3.1281633e-07
+            ],
+            [
+                "3",
+                -0.00079128606
+            ],
+            [
+                "),",
+                -3.3784587
+            ],
+            [
+                " introduces",
+                -5.4281335
+            ],
+            [
+                " both",
+                -2.4774356
+            ],
+            [
+                " dip",
+                -2.6445405
+            ],
+            [
+                "ole",
+                -0.15077908
+            ],
+            [
+                "-d",
+                -0.037768316
+            ],
+            [
+                "ip",
+                -0.00029768562
+            ],
+            [
+                "ole",
+                -0.000450811
+            ],
+            [
+                " interactions",
+                -0.013531586
+            ],
+            [
+                " and",
+                -0.04234718
+            ],
+            [
+                " slightly",
+                -3.4467573
+            ],
+            [
+                " increases",
+                -0.33055028
+            ],
+            [
+                " molecular",
+                -1.3582542
+            ],
+            [
+                " weight",
+                -0.19276637
+            ],
+            [
+                ",",
+                -0.22379528
+            ],
+            [
+                " which",
+                -0.54012144
+            ],
+            [
+                " could",
+                -1.4651756
+            ],
+            [
+                " raise",
+                -1.7895979
+            ],
+            [
+                " the",
+                -0.0020077454
+            ],
+            [
+                " melting",
+                -0.00046475048
+            ],
+            [
+                " point",
+                -0.00033629662
+            ],
+            [
+                " by",
+                -0.08843438
+            ],
+            [
+                " around",
+                -1.2890518
+            ],
+            [
+                " +",
+                -0.00024965755
+            ],
+            [
+                "10",
+                -0.80885404
+            ],
+            [
+                "\u00b0C",
+                -0.29311416
+            ],
+            [
+                ".",
+                -0.012945619
+            ],
+            [
+                " The",
+                -0.4798585
+            ],
+            [
+                " flu",
+                -0.060810156
+            ],
+            [
+                "oro",
+                0.0
+            ],
+            [
+                " group",
+                -2.14433
+            ],
+            [
+                " (-",
+                -0.16721395
+            ],
+            [
+                "F",
+                -3.1281633e-07
+            ],
+            [
+                ")",
+                -0.2850142
+            ],
+            [
+                " is",
+                -0.10254041
+            ],
+            [
+                " highly",
+                -0.09297482
+            ],
+            [
+                " electr",
+                -8.566264e-05
+            ],
+            [
+                "one",
+                0.0
+            ],
+            [
+                "g",
+                0.0
+            ],
+            [
+                "ative",
+                -1.0280384e-06
+            ],
+            [
+                " and",
+                -0.2858028
+            ],
+            [
+                " will",
+                -2.078318
+            ],
+            [
+                " substantially",
+                -3.917653
+            ],
+            [
+                " contribute",
+                -2.8148966
+            ],
+            [
+                " to",
+                -0.0011696294
+            ],
+            [
+                " the",
+                -1.4421043
+            ],
+            [
+                " melting",
+                -0.17125142
+            ],
+            [
+                " point",
+                -0.00011415232
+            ],
+            [
+                " through",
+                -0.5028276
+            ],
+            [
+                " strong",
+                -0.28926143
+            ],
+            [
+                " dip",
+                -0.0054956838
+            ],
+            [
+                "ole",
+                -0.00025561772
+            ],
+            [
+                "-d",
+                -0.0050404407
+            ],
+            [
+                "ip",
+                -6.704273e-07
+            ],
+            [
+                "ole",
+                -3.1737043e-06
+            ],
+            [
+                " interactions",
+                -0.00558626
+            ],
+            [
+                ",",
+                -0.3698605
+            ],
+            [
+                " an",
+                -4.070352
+            ],
+            [
+                " increase",
+                -0.8979324
+            ],
+            [
+                " of",
+                -0.27599028
+            ],
+            [
+                " about",
+                -0.56866384
+            ],
+            [
+                " +",
+                -0.00022797346
+            ],
+            [
+                "20",
+                -0.058237445
+            ],
+            [
+                "\u00b0C",
+                -0.039470043
+            ],
+            [
+                " can",
+                -1.5780541
+            ],
+            [
+                " be",
+                -0.00014644918
+            ],
+            [
+                " estimated",
+                -1.2864765
+            ],
+            [
+                ".",
+                -0.25825226
+            ],
+            [
+                " The",
+                -2.196023
+            ],
+            [
+                " combined",
+                -1.2481319
+            ],
+            [
+                " effects",
+                -0.99116194
+            ],
+            [
+                " of",
+                -0.037834667
+            ],
+            [
+                " these",
+                -0.26831725
+            ],
+            [
+                " groups",
+                -0.5801647
+            ],
+            [
+                " may",
+                -3.4228256
+            ],
+            [
+                " not",
+                -0.18470284
+            ],
+            [
+                " be",
+                -0.08258171
+            ],
+            [
+                " purely",
+                -1.7291716
+            ],
+            [
+                " additive",
+                -3.5120287e-05
+            ],
+            [
+                " due",
+                -0.0997765
+            ],
+            [
+                " to",
+                -0.00026026298
+            ],
+            [
+                " potential",
+                -1.0824596
+            ],
+            [
+                " st",
+                -0.043511767
+            ],
+            [
+                "eric",
+                -5.2001665e-06
+            ],
+            [
+                " hind",
+                -0.12191843
+            ],
+            [
+                "rance",
+                -0.03117059
+            ],
+            [
+                " and",
+                -0.027131684
+            ],
+            [
+                " structural",
+                -8.039948
+            ],
+            [
+                " effects",
+                -0.8212446
+            ],
+            [
+                " that",
+                -1.0355209
+            ],
+            [
+                " impact",
+                -3.0136323
+            ],
+            [
+                " the",
+                -2.033588
+            ],
+            [
+                " crystall",
+                -1.508448
+            ],
+            [
+                "ine",
+                -0.22380757
+            ],
+            [
+                " packing",
+                -0.24696527
+            ],
+            [
+                " efficiency",
+                -1.4283409
+            ],
+            [
+                ",",
+                -0.9563864
+            ],
+            [
+                " which",
+                -1.1116074
+            ],
+            [
+                " in",
+                -3.6633193
+            ],
+            [
+                " this",
+                -1.6907839
+            ],
+            [
+                " compound",
+                -5.1642194
+            ],
+            [
+                " may",
+                -1.4753247
+            ],
+            [
+                " reduce",
+                -1.5675471
+            ],
+            [
+                " the",
+                -0.007927776
+            ],
+            [
+                " benefits",
+                -8.180151
+            ],
+            [
+                " of",
+                -2.1477091
+            ],
+            [
+                " the",
+                -0.6667366
+            ],
+            [
+                " individual",
+                -1.4030099
+            ],
+            [
+                " substit",
+                -1.5665238
+            ],
+            [
+                "u",
+                -0.15132734
+            ],
+            [
+                "ents",
+                -4.048445e-05
+            ],
+            [
+                ".",
+                -2.7541037
+            ],
+            [
+                " Considering",
+                -1.8055407
+            ],
+            [
+                " a",
+                -1.6571424
+            ],
+            [
+                " moderate",
+                -3.1718855
+            ],
+            [
+                " loss",
+                -2.695046
+            ],
+            [
+                " in",
+                -1.5419375
+            ],
+            [
+                " structural",
+                -4.6385036
+            ],
+            [
+                " symmetry",
+                -0.36178207
+            ],
+            [
+                ",",
+                -0.5761536
+            ],
+            [
+                " we",
+                -0.47962886
+            ],
+            [
+                " might",
+                -0.57131463
+            ],
+            [
+                " adjust",
+                -2.8438497
+            ],
+            [
+                " the",
+                -0.4050363
+            ],
+            [
+                " impact",
+                -7.62378
+            ],
+            [
+                " of",
+                -0.4019416
+            ],
+            [
+                " the",
+                -0.3057415
+            ],
+            [
+                " groups",
+                -1.8999455
+            ],
+            [
+                " downward",
+                -0.8135498
+            ],
+            [
+                " by",
+                -0.88884413
+            ],
+            [
+                " -",
+                -0.8413074
+            ],
+            [
+                "5",
+                -0.38125896
+            ],
+            [
+                "\u00b0C",
+                -0.043319672
+            ],
+            [
+                ".",
+                -0.18465398
+            ],
+            [
+                " Sum",
+                -1.7237015
+            ],
+            [
+                "ming",
+                -0.008183087
+            ],
+            [
+                " these",
+                -0.28845644
+            ],
+            [
+                " effects",
+                -1.6440852
+            ],
+            [
+                ",",
+                -0.902276
+            ],
+            [
+                " we",
+                -0.21973939
+            ],
+            [
+                " get",
+                -0.8989025
+            ],
+            [
+                ":",
+                -0.32264093
+            ],
+            [
+                " ",
+                -0.00033475063
+            ],
+            [
+                "5",
+                -0.00015979631
+            ],
+            [
+                ".",
+                -1.2352386e-05
+            ],
+            [
+                "5",
+                -1.9361265e-07
+            ],
+            [
+                " (",
+                -0.052153826
+            ],
+            [
+                "ben",
+                -0.10510102
+            ],
+            [
+                "z",
+                -9.0883464e-07
+            ],
+            [
+                "ene",
+                -1.147242e-06
+            ],
+            [
+                ")",
+                -0.088482074
+            ],
+            [
+                " +",
+                -8.776276e-06
+            ],
+            [
+                " ",
+                -0.0011358123
+            ],
+            [
+                "15",
+                -3.8100377e-05
+            ],
+            [
+                " (",
+                -0.00024667746
+            ],
+            [
+                "Br",
+                -0.0004063627
+            ],
+            [
+                ")",
+                -9.1742026e-05
+            ],
+            [
+                " +",
+                -1.2590794e-05
+            ],
+            [
+                " ",
+                -0.00036394817
+            ],
+            [
+                "10",
+                -1.4498052e-05
+            ],
+            [
+                " (",
+                -0.00035953766
+            ],
+            [
+                "O",
+                -0.00011534435
+            ],
+            [
+                "CH",
+                -2.3392786e-06
+            ],
+            [
+                "3",
+                -2.4034345e-05
+            ],
+            [
+                ")",
+                -3.1186566e-05
+            ],
+            [
+                " +",
+                -1.4855664e-05
+            ],
+            [
+                " ",
+                -8.351697e-05
+            ],
+            [
+                "20",
+                -4.246537e-06
+            ],
+            [
+                " (",
+                -0.00025716738
+            ],
+            [
+                "F",
+                -7.58424e-06
+            ],
+            [
+                ")",
+                -1.5451682e-05
+            ],
+            [
+                " -",
+                -0.0004942946
+            ],
+            [
+                " ",
+                -0.0010279274
+            ],
+            [
+                "5",
+                -8.776276e-06
+            ],
+            [
+                " (",
+                -0.00036894376
+            ],
+            [
+                "loss",
+                -0.091963
+            ],
+            [
+                " of",
+                -0.010747244
+            ],
+            [
+                " symmetry",
+                -0.005892769
+            ],
+            [
+                ")",
+                -0.0257063
+            ],
+            [
+                " =",
+                -0.0060650716
+            ],
+            [
+                " ",
+                -0.00047226032
+            ],
+            [
+                "45",
+                -0.00029136782
+            ],
+            [
+                ".",
+                -2.4584822e-06
+            ],
+            [
+                "5",
+                -3.1737043e-06
+            ],
+            [
+                " \u00b0",
+                -0.4180193
+            ],
+            [
+                "C",
+                -9.014684e-06
+            ],
+            [
+                ".\",\n",
+                -0.07848915
+            ],
+            [
+                " ",
+                -0.027244683
+            ],
+            [
+                " \"",
+                -3.1281633e-07
+            ],
+            [
+                "Prediction",
+                -1.2664457e-06
+            ],
+            [
+                "\":",
+                -3.7385154e-05
+            ],
+            [
+                " \"",
+                -0.050866228
+            ],
+            [
+                "45",
+                -9.138441e-05
+            ],
+            [
+                ".",
+                -5.080963e-06
+            ],
+            [
+                "5",
+                -1.1517961e-05
+            ],
+            [
+                "\"\n",
+                -0.0038777427
+            ],
+            [
+                "}",
+                -0.003607794
+            ]
+        ],
+        "Prediction(integer)": 45.0
     }
 ]
