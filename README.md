@@ -7,6 +7,7 @@
 - git clone https://github.com/KanHatakeyama/LLMChem
 
 # 関連Note(上から順にnew)
+- [24/1/15大規模言語モデルが自分で作った文章を「自習」をさせながら､分子物性の予測精度を上げる試行 ](https://note.com/kan_hatakeyama/n/n5683cad82587)
 - [24/1/5概要スライドほか](https://www.docswell.com/s/KanHatakeyama/KGXYQL-2024-01-05-135948?utm_source=twitter&utm_medium=social&utm_campaign=singlepage)
 - [Llama2を「化学物性+言語」データセットでファインチューニングして融点を予測させる](https://note.com/kan_hatakeyama/n/n74c8b2b3b4e7?sub_rt=share_pb )
 - [言語データセットを用い､プロンプトチューニングで分子構造から融点を予測する際のメモ](https://note.com/kan_hatakeyama/n/n43ddd541bdc6)
