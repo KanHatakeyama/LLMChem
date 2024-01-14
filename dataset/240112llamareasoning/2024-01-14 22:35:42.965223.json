@@ -1,0 +1,14 @@
+{
+    "name": "(2Z)-[(2,5-dichlorophenyl)hydrazono](4-phenyl-1,3-thiazol-2-yl)ethanenitrile",
+    "smiles": "Clc1ccc(Cl)c(NN=C(C#N)c2scc([nH0]2)c2ccccc2)c1",
+    "csid": 5006437,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-954",
+    "Reason": "The target compound contains several functional groups and structural features that influence its melting point. The base unit we can consider is benzene, which has a melting point of 5.5\u00b0C. Each additional structural feature will modify this baseline. Phenyl groups are expected to moderately increase the melting point by adding rigidity and pi-pi interactions (+5 per phenyl group), the nitrile group is expected to introduce dipole-dipole interactions and significantly raise the melting point (+50), the thiazole ring further raises the melting point due to its heterocyclic and aromatic nature (+20), and the presence of chlorine atoms which increase the molecular weight and provide additional dipolar interactions (+15 per chlorine atom). The azo group (NN=C) contributes to the rigidity and can provide some additional dipole interactions, so it could moderately increase the melting point (+10). The hydrazone group (NHN=C) is similar in effect to the azo and might slightly increase the melting point (+5). Summing these modifications gives us the predicted melting point.",
+    "mpC": 134.0,
+    "Prediction(integer)": 130.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Chlorine substituents: Each chlorine atom is expected to increase the melting point due to increased molecular weight and polarizability, which can lead to stronger intermolecular forces such as dipole-dipole interactions. The effect of each chlorine might be around +20\u00b0C. \n- Hydrazono group: This group can form hydrogen bonds, which significantly increases the melting point. The effect could be around +40\u00b0C. \n- Nitrile group: This group is polar and can participate in dipole-dipole interactions, which could increase the melting point. The effect might be around +10\u00b0C. \n- Thiazole ring: This heterocyclic ring can contribute to the rigidity of the molecule, which can increase the melting point. The effect might be around +20\u00b0C. \n- Phenyl groups: Each phenyl group can increase the melting point due to increased molecular weight and pi-pi interactions. The effect might be around +10\u00b0C for each phenyl group. \n- Total predicted increase: 5.5 (base benzene) + 2 * 20 (chlorine) + 40 (hydrazono) + 10 (nitrile) + 20 (thiazole) + 2 * 10 (phenyl) = 125.5\u00b0C.\n##Prediction: 125.0\n##Reason",
+    "Test (Predicted value)": 125.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

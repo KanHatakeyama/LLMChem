@@ -1,0 +1,14 @@
+{
+    "name": "probarbital",
+    "smiles": "O=C1NC(=O)NC(=O)C1(CC)C(C)C",
+    "csid": 6213,
+    "link": "http://dx.doi.org/10.1021/ci700307p",
+    "source": "Hughes LD; Palmer DS; Nigsch F and Mitchell JBO. 2008 Why are some properties more difficult to predict than others? A study of QSPR models of solubility; melting point and LogP. J. Chem. Inf. Model. 2008. 48 (1). pp 220?334",
+    "Reason": "The base structure to consider for probarbital can be pyrimidine, which has a melting point around 20-22 degrees Celsius. Probarbital is a barbituric acid derivative. Introduction of the two carbonyl groups adjacent to the nitrogens in barbituric acid core would significantly increase melting point because these groups are capable of forming strong hydrogen bonds, and add conjugation to the system. For each carbonyl group, we can estimate this effect to be about +100 degrees due to the added rigidity and hydrogen bonding potential. Additionally, two ethyl groups are present. Alkyl groups typically increase the molecular weight and thus, generally raise the melting point. The effect of an ethyl group can be around +20 degrees for each group due to increased van der Waals forces. Isopropyl substitution has a slightly larger alkyl group effect, and could be estimated at around +25 degrees due to branched structure which may impede packing efficiency slightly less than straight-chain alkyls. The sum of these modifications can be used to estimate the melting point of probarbital.",
+    "mpC": 203.0,
+    "Prediction(integer)": 205.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The presence of two phenyl groups in probarbital increases the melting point due to increased molecular weight and pi-pi interactions, estimated at +40\u00b0C per group. \n- The barbituric acid moiety contributes significantly to the melting point due to its ability to form strong intermolecular hydrogen bonds and dimerization, estimated at +100\u00b0C. \n- The tertiary butyl group attached to the benzene ring increases the molecular weight and steric hindrance, estimated at +5\u00b0C. \n- The presence of two carbonyl groups (C=O) in the barbituric acid moiety also contributes to the melting point through dipole-dipole interactions and potential hydrogen bonding, estimated at +20\u00b0C per group. \n- The overall molecular structure is complex and rigid, which can lead to a higher melting point due to better packing in the solid state, estimated at +10\u00b0C. \n- The cumulative effect of these functional groups and structural features leads to a significant increase in the melting point compared to benzene.\n##Prediction: 205.0\n##Reason",
+    "Test (Predicted value)": 205.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

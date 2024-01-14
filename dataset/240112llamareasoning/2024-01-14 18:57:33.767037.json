@@ -1,0 +1,14 @@
+{
+    "name": "N-(2-Methylphenyl)formamide",
+    "smiles": "O=CNc1ccccc1C",
+    "csid": 6933,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4560",
+    "Reason": "To predict the melting point of N-(2-Methylphenyl)formamide, we need to consider the effect of various functional groups on a parent structure and how they would affect intermolecular forces. Using benzene as a reference compound with a melting point of 5.5\u00b0C: - The amide group introduces hydrogen bonding capability, significantly increasing the melting point. However, the effect of a simple amide group would be less than that of larger or multiple amide groups. A reasonable estimate for the increase might be approximately +40\u00b0C. - A methyl group on the benzene ring adds slight steric bulk and hydrophobic character, contributing to an increase in melting point due to minimal enhancement of van der Waals forces. This could add about +5\u00b0C. As a result, we adjust our estimate from the reference point for benzene: 5.5 (reference benzene) + 40 (amide) + 5 (methyl group) = 50.5\u00b0C.",
+    "mpC": 53.0,
+    "Prediction(integer)": 50.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "The target compound, N-(2-Methylphenyl)formamide, has several functional groups that influence its melting point. The basic unit we can consider is benzene, which has a melting point of 5.5 \u00b0C. The following considerations modify this base value:\n\n- Methyl group: +5\u00b0C (increase due to the addition of a small alkyl group which increases the molecular weight and slightly increases van der Waals forces)\n- Phenyl group: +20\u00b0C (increase due to the presence of an additional phenyl group which increases the molecular weight and rigidity of the molecule)\n- Formamide group: +30\u00b0C (increase due to the presence of a polar group capable of hydrogen bonding, which significantly increases the melting point)\n\nThe sum of these individual group contributions would provide an estimated shift in melting point.\n##Prediction: 55.0\n\n\n#Prediction",
+    "Test (Predicted value)": 55.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

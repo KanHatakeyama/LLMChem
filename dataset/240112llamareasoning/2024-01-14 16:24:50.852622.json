@@ -1,0 +1,14 @@
+{
+    "name": "3-methyl-4-chlorophenol",
+    "smiles": "Oc1ccc(Cl)c(C)c1",
+    "csid": 21106018,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The compound 3-methyl-4-chlorophenol is based on the phenol structure. The basic phenol has a melting point around 41\u00b0C. Each substituent in the phenol will influence this melting point. The methyl group generally increases the melting point due to an increase in hydrophobic interactions and Van der Waals forces caused by the added bulkiness. This could add around +5\u00b0C. The chlorine atom also increases the melting point because of its larger size and the possibility of inducing dipole-dipole interactions compared to hydrogen. This could contribute approximately +20\u00b0C, taking into account chlorobenzene's melting point shift from benzene. Therefore, the predicted melting point would be the sum of phenol's 41\u00b0C plus the shifts caused by each functional group.",
+    "mpC": 67.0,
+    "Prediction(integer)": 66.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, phenol: 40\u00b0C\n- Methyl group: +5 (increase in molecular weight and van der Waals forces)\n- Chlorine atom: +10 (due to increased molecular weight and polarizability)\n- Hydroxyl group: +20 (capable of hydrogen bonding, which significantly increases the melting point)\n- Predicted change: +(5+10+20) = +45\n\n##Prediction: 85.0\n\n\n#Problem",
+    "Test (Predicted value)": 85.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

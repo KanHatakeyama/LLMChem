@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-2-(1H-Benzimidazol-2-yl)-3-(2-methylphenyl)acrylonitrile",
+    "smiles": "N#CC(=Cc1ccccc1C)c1[nH0]c2ccccc2[nH]1",
+    "csid": 4645359,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1292",
+    "Reason": "The target compound (2E)-2-(1H-Benzimidazol-2-yl)-3-(2-methylphenyl)acrylonitrile has several structural features that influence the melting point. The basic unit for comparison can be benzene, which has a melting point of 5.5\u00b0C. Each functional group present in the target compound affects the melting point in the following manner based on intermolecular forces, molecular symmetry, and molecular weight: \n1) Benzimidazole ring: +150 (introduces nitrogen atoms which increases hydrogen bonding and rigidity), \n2) Phenyl ring with a methyl group (ortho-toluidine as a reference): +45 (phenyl ring contributes to pi-pi interactions and methyl adds to the molecular weight and weak molecular interactions), \n3) Acrylonitrile group: +10 (nitrile group can introduce dipole interactions, but the effect might be partially offset by the compound's increased linearity reducing crystal packing efficiency). \nThe adjustments are additive since the benzimidazole and substituted phenyl ring likely act independently in raising the melting point. Therefore, the estimated melting point can be calculated by adding these adjustments to the melting point of benzene.",
+    "mpC": 211.0,
+    "Prediction(integer)": 211.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The compound in question is a complex molecule with multiple functional groups that influence its melting point. The base structure we can consider is benzene, which has a melting point of 5.5 \u00b0C. The presence of a benzimidazole ring contributes significantly to the melting point due to its rigidity and potential for hydrogen bonding, which could be estimated at +100 \u00b0C. The acrylonitrile group is polar and can form strong dipole-dipole interactions, adding approximately +50 \u00b0C. The methyl group attached to the phenyl ring adds steric bulk and may slightly increase the melting point, estimated at +5 \u00b0C. The conjugated system of the acrylonitrile and the benzimidazole also contributes to the rigidity and planarity of the molecule, which could be estimated at +20 \u00b0C.\n\nConsidering these estimations, the total increase in melting point due to each functional group addition and the base structure is: Benzene base value (5.5 \u00b0C) + Benzimidazole (+100 \u00b0C) + Acrylonitrile (+50 \u00b0C) + Methyl group (+5 \u00b0C) + Conjugation (+20 \u00b0C) = 230.5 \u00b0C.\n##Prediction: 230.0\n\n\n#Prediction",
+    "Test (Predicted value)": 230.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

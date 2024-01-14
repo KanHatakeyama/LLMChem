@@ -1,0 +1,14 @@
+{
+    "name": "Digoxin",
+    "smiles": "O=C1C=C(CO1)C2CC[C@@]8(O)[C@]2(C)[C@H](O)C[C@H]4[C@H]8CC[C@@H]3C[C@H](CC[C@@]34C)O[C@@H]7O[C@H](C)[C@@H](O[C@H]6C[C@H](O)[C@H](O[C@H]5C[C@H](O)[C@H](O)[C@@H](C)O5)[C@@H](C)O6)[C@@H](O)C7",
+    "csid": 28162,
+    "link": "http://www.drugbank.ca/drugs/DB00390",
+    "source": "DrugBank",
+    "Reason": "The basic structural unit in digoxin is the steroid nucleus, which has a high melting point due to the rigid, well-packed structure typical of steroid rings. Let's estimate the melting point based on various functional groups present in digoxin:\n- Steroid nucleus: High baseline melting point due to rigid structure. Let's estimate about 180\u00b0C as a starting point based on typical steroid compounds.\n- Five hydroxyl groups (-OH): Each hydroxyl group can form hydrogen bonds, increasing intermolecular interactions and melting point. We can estimate approximately +5\u00b0C for each hydroxyl group, resulting in +25\u00b0C collectively.\n- Three additional oxygen atoms in ether linkages: Ethers slightly raise the melting point due to polarizability. We can estimate about +2\u00b0C for each ether linkage, adding +6\u00b0C.\n- Two lactone rings: Lactones significantly increase the melting point due to rigid cyclic structure and potential for additional hydrogen bonding. Estimating about +15\u00b0C for each lactone ring gives us +30\u00b0C.\n- One additional secondary alcohol: Secondary alcohols tend to increase the melting point due to hydrogen bonding, but less so than primary alcohols. Let's estimate an additional +5\u00b0C.\n- Two additional tertiary carbons: The increased steric bulk may slightly raise the melting point due to more van der Waals interactions. We can estimate +2\u00b0C per tertiary carbon for an additional +4\u00b0C.\n\nAdding all these modifications to the baseline estimation for the steroid nucleus gives a total increase of +70\u00b0C.",
+    "mpC": 249.0,
+    "Prediction(integer)": 250.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "The compound Digoxin has a complex structure with multiple functional groups that influence its melting point. The basic unit we can consider is the steroid structure, which has a high melting point due to its rigid and planar structure. The presence of a lactone ring and multiple hydroxyl groups will further increase the melting point due to hydrogen bonding and polar interactions. The compound also contains a quaternary carbon center, which can contribute to the melting point through increased molecular rigidity and potential for additional hydrogen bonding. The presence of a tertiary amine and a tertiary carbonyl group may also contribute to the melting point through increased polarity and potential for hydrogen bonding.\n##Prediction: 230.0\n\n\n#Prediction",
+    "Test (Predicted value)": 230.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "phenol, 2,3,5,6-tetrachloro-4-methoxy-",
+    "smiles": "Oc1c(Cl)c(Cl)c(OC)c(Cl)c1Cl",
+    "csid": 61400,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The core structure for this analysis is benzene, which has a melting point of 5.5\u00b0C. First, we must consider the effects of halogen substitution. Generally, a chlorine substituent on a benzene ring increases the melting point due to the higher molecular weight and the polarizability of chlorine, which can promote intermolecular interactions. With four chlorines, the impact is amplified. Estimating conservatively, each chlorine may contribute about a +20\u00b0C increase to the benzene's melting point. The methoxy group is an electron-donating group and can form an internal hydrogen bond with the phenol hydroxyl. This can increase the melting point due to additional stabilization. It may contribute about +10\u00b0C. However, such electron-donating groups can also decrease melting point if they disrupt the crystal packing unfavorably, which in reality may happen since it adds steric bulk interfering with the packing. Therefore, the methoxy group impact is complex and difficult to estimate accurately without considering the specific crystal structure. However, the overall effect is expected to be an increase in melting point due to hydrogen bonding. Since we have contradictory effects, a conservative estimate may be to not count methoxy's effect at all or count it as a minimal increase. Finally, the hydroxy group itself also increases the melting point due to its capability to form hydrogen bonds, contributing about a +40\u00b0C. Combining these effects: benzene's 5.5\u00b0C + (4 chlorines * 20\u00b0C) + (hydroxy group 40\u00b0C) gives us a prediction of the melting point.",
+    "mpC": 116.0,
+    "Prediction(integer)": 125.0,
+    "Abs error": 9.0,
+    "Test (Predicted reason)": "The basic unit, phenol, has a melting point of 41.0\u00b0C. Each chloro group in a compound elevates the melting point due to increased molecular weight and the resultant increased Van der Waals forces. A single chloro group can raise the melting point by approximately +40\u00b0C. The methoxy group (\u2013OCH3) is an electron-donating group that can increase the melting point by about +10\u00b0C due to its ability to participate in dipole-dipole interactions. Since there are four chloro groups and one methoxy group, the total expected increase is about +180\u00b0C.\n##Prediction: 131.0\n\n\n#Prediction",
+    "Test (Predicted value)": 131.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

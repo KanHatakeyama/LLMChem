@@ -1,0 +1,14 @@
+{
+    "name": "4-phenoxyphenol",
+    "smiles": "c1ccc(cc1)Oc2ccc(cc2)O",
+    "csid": 12696,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A18489",
+    "source": "Alfa Aesar",
+    "Reason": "The basic unit for calculating the melting point is benzene, which has a melting point of 5.5\u00b0C. The introduction of a hydroxyl group to form phenol increases the melting point due to hydrogen bonding; this increase can be around +160\u00b0C. For the second phenyl group connected through an ether linkage (phenoxy group), the effect is not as pronounced as the hydroxyl group's because ether linkages do not significantly contribute to hydrogen bonding. However, it does increase the molecular weight and can slightly enhance van der Waals interactions. Therefore, the phenoxy group might be predicted to increase the melting point by approximately +20\u00b0C. When combined, the total predicted shift from benzene would be +180\u00b0C, yet our actual value indicates this predicted shift is too high. Given the observed melting point, the contribution of the hydroxyl group should be reconsidered, and estimated as less than +160\u00b0C, while the phenoxy group's impact might also be overestimated. After adjustment, the hydroxyl contribution might be around +70\u00b0C, given its strong hydrogen bonding capability, and the phenoxy group's influence might be closer to +10\u00b0C due to increased molecular size and weak dipole interactions.",
+    "mpC": 84.0,
+    "Prediction(integer)": 85.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "The basic unit for the target compound is benzene, which has a melting point of 5.5 \u00b0C. The phenol group (OH) is a hydrogen-bonding group that significantly increases the melting point due to its ability to form strong intermolecular hydrogen bonds, estimated at +80 \u00b0C. The ether linkage (O) between the two phenyl rings is expected to have a smaller effect on the melting point, estimated at +5 \u00b0C. The combined effects of the substituents include: Benzene (5.5) + Phenol group (80) + Ether linkage (5).\n##Prediction: 90.0\n\n##Prediction",
+    "Test (Predicted value)": 90.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

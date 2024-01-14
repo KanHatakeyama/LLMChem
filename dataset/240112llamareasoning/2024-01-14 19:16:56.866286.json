@@ -1,0 +1,14 @@
+{
+    "name": "2-phenylacetophenone",
+    "smiles": "O=C(Cc1ccccc1)c2ccccc2",
+    "csid": 9554,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The target compound, 2-phenylacetophenone, consists of two benzene rings, which provide significant aromatic stability and allow for possible \u03c0-\u03c0 stacking interactions that usually lead to higher melting points. Taking benzene's melting point as a base of 5.5 \u00b0C, the extra phenyl group may contribute an estimated 40 to 50 \u00b0C due to its contribution to molecular weight, planarity, and crystalline packability. The presence of a carbonyl group introduces polarity to the molecule and facilitates dipole-dipole interactions and potentially increases the strength of intermolecular forces. The carbonyl group is predicted to increase the melting point by 20 to 30 \u00b0C. However, the actual value of the melting point is lower than the predicted effect of the additional functional groups. Considering the cumulative effects of the aromatic rings and carbonyl group, and the actual melting point of 60.0 \u00b0C, the effects of the phenyl groups and the carbonyl group are likely overestimated. Adjusting the predicted values to match the actual melting point, we can approximate the effect of an additional phenyl group to be around 27.25 \u00b0C (instead of 40-50 \u00b0C) and the carbonyl group to be around 27.25 \u00b0C (instead of 20-30 \u00b0C), assuming the increments are equal. Therefore, the base benzene ring (5.5) + additional phenyl group (27.25) + carbonyl group (27.25) align with the actual melting point.",
+    "mpC": 60.0,
+    "Prediction(integer)": 60.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The basic unit for comparison is benzene, which has a melting point of 5.5\u00b0C. The compound 2-phenylacetophenone contains several functional groups that will affect its melting point:\n- Phenyl group: This group increases the melting point due to increased molecular weight and pi-pi interactions. We can estimate an increase of +40\u00b0C for the phenyl group.\n- Acetophenone group: This group introduces a polar carbonyl group, which can engage in dipole-dipole interactions and potentially hydrogen bonding. We can estimate an increase of +30\u00b0C for the acetophenone group.\n- Ether linkages (C-O-C): These add some polarity and potential for dipole-dipole interactions but do not significantly raise the melting point as hydrogen bonds do. We will estimate a slight increase of +5\u00b0C for the ether effects.\nTherefore, the estimated increase in melting point due to the functional groups is 40 + 30 + 5 = 75\u00b0C. Adding this to the base melting point of benzene gives us a predicted value.\n##Prediction: 61.0\n\n\n##Prediction",
+    "Test (Predicted value)": 61.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

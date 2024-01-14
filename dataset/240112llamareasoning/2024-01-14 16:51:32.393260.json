@@ -1,0 +1,14 @@
+{
+    "name": "(3Z)-3-{[hydroxy(phenyl)amino]methylidene}-1,7,7-trimethylbicyclo[2.2.1]heptan-2-one",
+    "smiles": "O=C1C(=CN(O)c2ccccc2)C2CCC1(C)C2(C)C",
+    "csid": 2031344,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3099",
+    "Reason": "The base structure for our prediction is bicyclo[2.2.1]heptan-2-one, also known as norcamphor, which has a melting point of around 76 degrees Celsius. We need to consider the effects of the additional substituents:\n- Hydroxy(phenyl)amino substituent: This introduces hydrogen bonding and increased molecular weight and rigidity to the molecular structure. Each aromatic ring typically increases the melting point by about 20 degrees due to pi-stacking interactions and the amino group add about 10 due to hydrogen bonding capacity, in total we estimate an increase by about 30 degrees.\n- Methylidene group attached to the cyclic structure: This can slightly increase the melting point due to increased rigidity and molecular weight, estimated increase by about 5 degrees.\n- Two additional methyl groups on the cyclohexane ring: Each methyl group contributes by increasing the melting point slightly due to increased molecular weight and steric hindrance, estimated increase by about 2 degrees each, total of 4 degrees.\nThus, overall estimated increase is 30 + 5 + 4 = 39 degrees.",
+    "mpC": 107.0,
+    "Prediction(integer)": 115.0,
+    "Abs error": 8.0,
+    "Test (Predicted reason)": "- Basic unit, cyclohexanone has a melting point of around 42\u00b0C. \n- The presence of a phenyl group contributes to an increase in melting point due to increased molecular weight and pi-pi interactions, estimated at +20\u00b0C. \n- The hydroxy(phenyl)amino group introduces hydrogen bonding and increases molecular rigidity, estimated at +30\u00b0C. \n- The bicyclic structure adds rigidity and complexity to the molecule, estimated at +15\u00b0C. \n- The three methyl groups on the bicyclic ring increase the molecular weight and van der Waals forces, estimated at +5\u00b0C each, for a total of +15\u00b0C. \n- The ketone group contributes to the melting point through dipole-dipole interactions and possible hydrogen bonding, estimated at +5\u00b0C. \n- The overall molecular complexity and rigidity of the structure suggest a significant increase in melting point compared to a simpler cyclohexanone.\n##Prediction: 120.0\n##Reason",
+    "Test (Predicted value)": 120.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

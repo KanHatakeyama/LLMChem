@@ -1,0 +1,14 @@
+{
+    "name": "1-acetyl-3,5-diphenyl-2,3-dihydro-1H-pyrrole",
+    "smiles": "O=C(N1CC(C=C1c1ccccc1)c1ccccc1)C",
+    "csid": 2032036,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2908",
+    "Reason": "The compound 1-acetyl-3,5-diphenyl-2,3-dihydro-1H-pyrrole consists of several functional groups that affect its melting point. Starting with a basic pyrrole structure, which has a melting point around 23\u00b0C, we consider the inductive and resonance effects of each substituent. The acetyl group generally increases the melting point due to its ability to form intermolecular hydrogen bonds and also due to the increase in molecular weight and rigidity, which we can estimate to add around +40\u00b0C. Each phenyl group also stabilizes the structure and increases the melting point due to its large, planar, and aromatic nature, as well as through \u03c0-\u03c0 interactions between molecules. The addition of each phenyl group might add approximately +20\u00b0C. The second phenyl group may not have as strong an effect due to potential steric hindrance, so the addition could be slightly less, say +15\u00b0C. The structural rigidity provided by the dihydro-2,3-dihydro part of the compound also contributes to the melting point stabilization, roughly estimated at +10\u00b0C.",
+    "mpC": 105.0,
+    "Prediction(integer)": 108.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "- Basic unit, pyrrole has a melting point of around 23\u00b0C. \n- Acetyl group: +40\u00b0C (introduces polarity and potential for hydrogen bonding). \n- Phenyl groups: +20\u00b0C each (increases molecular weight and enhances \u03c0-\u03c0 interactions). \n- Hydrogen bonding potential of the N-H bond in the pyrrole ring: +10\u00b0C (due to the possibility of hydrogen bonding with other molecules). \n- Conjugation and rigidity of the molecule: +10\u00b0C (due to the planar structure and the ability of the molecule to pack efficiently). \n- Overall, the presence of multiple phenyl groups and the acetyl group significantly increase the melting point due to increased molecular weight and \u03c0-\u03c0 interactions.\n##Prediction: 103.0\n##Reason",
+    "Test (Predicted value)": 103.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "3,4-dimethoxy-5-hydroxybenzoic acid",
+    "smiles": "O=C(O)c1cc(O)c(OC)c(OC)c1",
+    "csid": 67282,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4354",
+    "Reason": "Starting base unit is benzoic acid, which has a melting point of 122\u00b0C. Adding hydroxy groups (OH) generally increases the melting point due to the hydrogen bonding, with an approximate increment of +40\u00b0C for each hydroxy group. Two methoxy groups (OCH3) are expected to raise the melting point as well due to an increase in molecular weight and slight increase in polarity, estimate an increase of +10\u00b0C for each methoxy group. However, because of the intramolecular hydrogen bonding that may occur between the hydroxy group and the carboxyl group, the net effect on the melting point might be less than that of typical hydrogen bond formation, therefore, we will adjust the hydroxy contribution to +30\u00b0C. Thus, 122\u00b0C (benzoic acid) + 40\u00b0C (two methoxy groups) + 30\u00b0C (hydroxy group) = 192\u00b0C.",
+    "mpC": 195.0,
+    "Prediction(integer)": 192.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5 \u00b0C.\n- Hydroxy group: +40 (due to hydrogen bonding capabilities and increased polarity)\n- Carboxylic acid group: +80 (due to strong hydrogen bonding and dimerization)\n- Methoxy groups: +10 each (due to increased molecular weight and polarity)\n\nThe compound has two methoxy groups and one hydroxy group.\n##Prediction: 205.0\n\n\n#Problem",
+    "Test (Predicted value)": 205.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "N-Phenylbenzene-1,4-diamine",
+    "smiles": "Nc2ccc(Nc1ccccc1)cc2",
+    "csid": 7283,
+    "link": "http://msds.chem.ox.ac.uk/",
+    "source": "academic website",
+    "Reason": "The basic molecular structure consists of two benzene rings connected through an amine (-NH) linker. A single benzene ring has a melting point of approximately 5.5 \u00b0C. Each amine group introduces an increase due to the capability of hydrogen bonding, which could be estimated around +20 \u00b0C for each. The two nitrogen atoms connected to the central benzene ring also create a symmetric arrangement that may result in more efficient packing, hence a slight increase in the melting point as well. However, the presence of two benzene rings also increases the molecular weight and the Van der Waals forces, which could contribute to increasing the melting point by approximately +30 \u00b0C for the whole molecule when compared to a single benzene unit.",
+    "mpC": 74.0,
+    "Prediction(integer)": 75.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5 \u00b0C. \n- Phenyl group: The presence of an additional phenyl ring can increase the melting point due to increased molecular rigidity and pi-pi stacking interactions. We can estimate an increase of +40 \u00b0C. \n- Amine groups: Each amine group can form hydrogen bonds, which significantly raises the melting point. We'll estimate an increase of +20 \u00b0C per amine group, so +40 \u00b0C in total. \nSumming up these adjustments, we get a predicted melting point increase of 90 \u00b0C from the base value of benzene. However, this would exceed the actual value, so we have to adjust downwards. The amine groups' contribution could be overestimated, as they may not raise the melting point as much as +40 \u00b0C given their potential for intramolecular hydrogen bonding, which wouldn't contribute to the crystal lattice as effectively as intermolecular bonding. Let's adjust the amine effect to +30 \u00b0C. \nThis brings our new total predicted increase to 60 \u00b0C, for a predicted melting point of 55 \u00b0C. This is more in line with the actual value.\n##Prediction: 55.0\n\n\n#Prediction",
+    "Test (Predicted value)": 55.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

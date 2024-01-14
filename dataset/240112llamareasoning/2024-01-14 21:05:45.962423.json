@@ -1,0 +1,14 @@
+{
+    "name": "(2,4-Dichlorophenyl)(4,5-dimethoxy-2-nitrophenyl)methanone",
+    "smiles": "Clc1ccc(c(Cl)c1)C(=O)c1cc(OC)c(OC)cc1[N+](=O)[O-]",
+    "csid": 1466860,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3774",
+    "Reason": "The target compound combines several functional groups with different properties. Benzophenone is the core structure with a default melting point around 48\u00b0C. When substituents are added to the benzophenone, the melting point can be affected in various ways. The compound has several functional groups that could affect its melting point: chlorine atoms, methoxy groups, and a nitro group. Each chloro group on the benzene ring can increase the melting point due to the increased molecular weight and polarity, which strengthens intermolecular interactions. This might add +20\u00b0C for each. The methoxy groups (-OCH3) could contribute to a raise in melting point through weak intermolecular hydrogen bonding and increased molecular weight. This might add +10\u00b0C for each. The nitro group is electron-withdrawing and can also participate in intermolecular interactions due to dipole moments, possibly adding +15\u00b0C. Combining these increases, we expect the overall melting point to be significantly higher than that of the benzophenone base.",
+    "mpC": 114.0,
+    "Prediction(integer)": 123.0,
+    "Abs error": 9.0,
+    "Test (Predicted reason)": "The compound in question has several functional groups that influence its melting point: a benzene ring, two chlorine atoms, a methoxy group, a nitro group, and a ketone. The base melting point of benzene is 5\u00b0C. The chlorine atoms, due to their electronegativity and size, increase the melting point by about 20\u00b0C each, as they enhance intermolecular forces. The methoxy group, being an electron-donating group, can increase the melting point by about 5\u00b0C due to the increase in molecular weight and polarity. The nitro group, being highly electronegative and capable of strong dipole-dipole interactions, adds about 20\u00b0C. The ketone group, which can form hydrogen bonds, adds about 10\u00b0C. The cumulative effect of these groups is estimated to be 20\u00b0C for the chlorine atoms, 5\u00b0C for the methoxy group, 20\u00b0C for the nitro group, and 10\u00b0C for the ketone group.\n##Prediction: 95.0\n\n\n#Prediction",
+    "Test (Predicted value)": 95.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

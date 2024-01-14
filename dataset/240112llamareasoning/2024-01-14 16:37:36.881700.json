@@ -1,0 +1,14 @@
+{
+    "name": "3-(boc-amino)-3-(2-fluorophenyl)propionic acid",
+    "smiles": "CC(C)(C)OC(=O)NC(CC(=O)O)c1ccccc1F",
+    "csid": 2037555,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L19804",
+    "source": "Alfa Aesar",
+    "Reason": "The target compound has several functional groups that influence its melting point. The base structure is phenylpropionic acid, and we will use benzoic acid (a compound with a similar structure, with a melting point around 122 \u00b0C) as our starting reference point. Each functional group contributes to the melting point as follows:\n- Fluorination on the phenyl ring: +20 (due to the strong electronegativity and dipole-dipole interaction of the fluorine atom)\n- The boc-amino group: +2 (due to the steric hindrance and substitution on the nitrogen, which slightly increases the melting point)\n- The propionic acid moiety usually doesn't have a significant deviation from the benzoic acid reference, but the attachment to the aminoboc group could result in a slight decrease. So, let's assume a -1 change.\nAdding this together to the reference benzoic acid melting point of 122 \u00b0C, we get an estimated melting point for the target compound.",
+    "mpC": 143.0,
+    "Prediction(integer)": 143.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The prediction of 167.0 degrees Celsius for the melting point of our target compound is significantly higher than the actual value of 127.0. We may have overestimated the individual contributions of the functional groups, and the synergistic effects of how these groups interact with each other could lead to a lower than predicted value. The amino group's contribution to the melting point is likely lower than the predicted +20 due to the presence of the benzene ring, which can lead to a more rigid structure but also to steric hindrance that might limit hydrogen bonding. The propionic acid group's contribution is likely lower than the predicted +15 due to the presence of the fluorine atom, which can increase the melting point due to its electronegativity but also due to the increased molecular weight and the potential for additional intermolecular interactions. The benzene ring itself contributes to a higher melting point due to its planar structure and the presence of aromaticity, but the actual value is lower than the predicted +10.\n##Prediction: 127.0\n\n\n#Prediction",
+    "Test (Predicted value)": 127.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

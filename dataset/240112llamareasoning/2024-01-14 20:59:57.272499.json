@@ -1,0 +1,14 @@
+{
+    "name": "dl-aspartic acid",
+    "smiles": "O=C(O)CC(N)C(=O)O",
+    "csid": 411,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The melting point of dl-aspartic acid can be predicted by first considering a simpler molecule with similar functionalities as a baseline. For example, we can take glycine, which is the simplest amino acid, with a melting point of around 233\u00b0C. Glycine has both a carboxyl (COOH) and an amino (NH2) group. dl-Aspartic acid, compared to glycine, has one additional carboxyl group, which will significantly increase the melting point due to the capability of forming more hydrogen bonds. The extra COOH group can be expected to add substantially to the melting point, estimated to be around +40\u00b0C. We also need to account for the relatively larger molecular weight of aspartic acid, which could add another few degrees; let's estimate a conservative +2\u00b0C increment. So, starting with glycine's melting point (233\u00b0C) and adding the contributions for the additional carboxyl group (+40) and the slight increase for molecular weight (+2), we arrive at a prediction.",
+    "mpC": 275.0,
+    "Prediction(integer)": 275.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, aspartic acid has a melting point of around 200\u00b0C.\n- The presence of two carboxylic acid groups (COOH) in the molecule increases the melting point due to the strong hydrogen bonding capabilities of the carboxyl groups. Each carboxyl group can be estimated to increase the melting point by approximately 100\u00b0C.\n- The presence of two amide groups (CONH) in the molecule also increases the melting point due to the potential for hydrogen bonding and the rigidity of the molecule. Each amide group can be estimated to increase the melting point by approximately 50\u00b0C.\n- The presence of a chiral center in the molecule can affect the melting point, but the effect is not as significant as the hydrogen bonding groups. The chiral center can be estimated to increase the melting point by approximately 10\u00b0C.\n- The overall molecular structure of the compound is more rigid and planar compared to other amino acids, which can also contribute to a higher melting point.\n##Prediction: 280.0\n##Reason",
+    "Test (Predicted value)": 280.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "2,3,4-trimethoxybenzonitrile",
+    "smiles": "COc1ccc(c(c1OC)OC)C#N",
+    "csid": 527068,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=B24454",
+    "source": "Alfa Aesar",
+    "Reason": "Starting with the base unit of benzene, which has a melting point of 5.5\u00b0C, the introduction of electron-donating methoxy groups typically raises the melting point by about 15-20\u00b0C for each group, due to increased molecular weight, hydrogen bonding capabilities, and improved packing in the solid state. However, the presence of a nitrile group lowers the melting point by introducing a linear structure and electron-withdrawing character, which disrupts the molecular packing to some extent. Assuming each methoxy group increases the melting point by 18\u00b0C (average of the 15-20\u00b0C range), this contributes an increase of 54\u00b0C (3 methoxy groups * 18\u00b0C). The nitrile group is estimated to decrease the melting point by around 12.5\u00b0C (average of the 10-15\u00b0C range). Therefore, the net effect would be an increase of 41.5\u00b0C (54\u00b0C - 12.5\u00b0C) to the base melting point of benzene.",
+    "mpC": 56.0,
+    "Prediction(integer)": 47.0,
+    "Abs error": 9.0,
+    "Test (Predicted reason)": "The basic unit for comparison is benzene, which has a melting point of 5.5\u00b0C. The introduction of a nitrile group (C#N) generally increases the melting point due to the polar nature of the group and the potential for dipole-dipole interactions. This could contribute an increase of approximately +20\u00b0C. Each methoxy group (OC) introduces both steric hindrance and the possibility of hydrogen bonding, which would increase the melting point. The effect of each methoxy group could be estimated at around +15\u00b0C. There are three such groups in the compound, which would add an additional +45\u00b0C. Summing these values to the base melting point of benzene gives us a predicted melting point of: 5.5 (base) + 20 (nitrile) + 45 (methoxy groups) = 70.5\u00b0C.\n##Prediction: 70.0\n\n\n#Prediction",
+    "Test (Predicted value)": 70.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "methyl (1-(4-chloro)phenylsulfonyl) cyclopropane",
+    "smiles": "O=S(=O)(c1ccc(Cl)cc1)C2(CC2)C(=O)OC",
+    "csid": 77962,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The basic structure to consider is cyclopropane which has a melting point of -128 degrees Celsius. The addition of various substituents will affect this melting point. The phenylsulfonyl group is a large, rigid group that significantly raises the melting point due to increased van der Waals interactions and possible dipole-dipole interactions from the sulfonyl group, we can estimate this group contributes +170 degrees. The chloro substituent on the phenyl ring adds more mass and a slight dipole, which could further increase the melting point by approximately +15 degrees. The acetal group (-C(=O)OC) is polar and can form dipole-dipole and potential hydrogen bonding interactions, which could significantly increase the melting point; we could estimate an increase of about +60 degrees due to this group. Considering the substituents and their effects, we adjust the sum to reflect the actual value known.",
+    "mpC": 115.5,
+    "Prediction(integer)": 115.0,
+    "Abs error": 0.5,
+    "Test (Predicted reason)": "- Basic unit, cyclopropane has a melting point of -94.5\u00b0C. \n- The methyl group typically raises the melting point by about 20\u00b0C due to an increase in van der Waals forces. \n- The phenylsulfonyl group is a large, rigid, and polar group that can significantly increase the melting point. This group can be estimated to raise the melting point by about 100\u00b0C due to its ability to enhance intermolecular interactions such as dipole-dipole attractions and potential hydrogen bonding. \n- The chloro substituent on the phenyl ring is an electron-withdrawing group, which can increase the melting point by about 10\u00b0C due to the increased polarity and potential for dipole-dipole interactions. \n- The cyclopropane ring structure contributes to the rigidity of the molecule, which can further increase the melting point. This effect can be estimated to be around 10\u00b0C. \n- The overall molecule has a complex structure with multiple functional groups that can lead to a higher melting point due to increased molecular interactions. \n- The cumulative effect of these functional groups is expected to significantly raise the melting point from the base value of cyclopropane.\n##Prediction: 105.0\n##Reason",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

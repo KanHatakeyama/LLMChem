@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-4-methyl-1-phenylpentan-2-one semicarbazone",
+    "smiles": "O=C(N)NN=C(Cc1ccccc1)CC(C)C",
+    "csid": 4758731,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1083",
+    "Reason": "The compound in question, (2E)-4-methyl-1-phenylpentan-2-one semicarbazone, is a semicarbazone derivative of a ketone with several functional groups that influence its melting point. The base structure is a ketone with a phenyl group and additional aliphatic carbons. The basic ketone structure (such as acetone) has a melting point of -94.9. The presence of the phenyl group significantly raises the melting point due to increased molecular weight and van der Waals interactions, this might add +100. The aliphatic chain contributes to a further incremental increase due to increased molecular weight and chain interactions, we'll approximate this at +20. The methyl group also adds to the molecular weight and provides a small increase due to branching, approximated at +5. The semicarbazone group is a significant contributor to the melting point due to potential hydrogen bonding and polarity, potentially adding +60 to the melting point. Summing the incremental changes: -94.9 (acetone) + 100 (phenyl) + 20 (aliphatic chain) + 5 (methyl group) + 60 (semicarbazone), we get a predicted melting point of 90.1 degrees Celsius.",
+    "mpC": 89.0,
+    "Prediction(integer)": 90.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "The basic unit, benzene, has a melting point of 5.5 \u00b0C. The presence of a phenyl group (C6H5) generally increases the melting point due to increased molecular weight and pi-pi interactions, which can be estimated as +20.0 \u00b0C. The semicarbazone group (NN=C) introduces a nitrogen atom which can form hydrogen bonds, significantly raising the melting point, estimated at +40.0 \u00b0C. The ketone (C=O) group also contributes to an increase in melting point due to dipole-dipole interactions, estimated at +10.0 \u00b0C. The methyl group (CH3) attached to the phenyl ring is a small alkyl group that may slightly increase the melting point due to increased molecular weight, estimated at +5.0 \u00b0C.\n##Prediction: 70.0\n\n##Prediction",
+    "Test (Predicted value)": 70.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

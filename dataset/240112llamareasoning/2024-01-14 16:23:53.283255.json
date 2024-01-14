@@ -1,0 +1,14 @@
+{
+    "name": "2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,9-heptadecafluoro-N-pyridin-3-ylnonanamide",
+    "smiles": "FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(=O)Nc1c[nH0]ccc1",
+    "csid": 2029927,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3456",
+    "Reason": "The compound 2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,9-heptadecafluoro-N-pyridin-3-ylnonanamide is a large molecule consisting of several functional groups. The base structure for the melting point estimation would be nonanamide, which has an estimated melting point of around -5\u00b0C, due to its long aliphatic chain which is typical for such amides. Each fluorine atom attached to the carbon atoms increases the melting point due to the added electronegativity and the increased van der Waals forces, approximately +5\u00b0C per fluorine atom. There are 17 fluorine atoms, adding up to +85\u00b0C. The pyridine ring increases the rigidity and planarity of the molecule, typically raising the melting point by another +50\u00b0C. Combining these adjustments, the predicted melting point is (-5) + 17(5) + 50 = 140\u00b0C.",
+    "mpC": 145.0,
+    "Prediction(integer)": 140.0,
+    "Abs error": 5.0,
+    "Test (Predicted reason)": "The compound in question is a large, complex molecule with multiple functional groups and structural features that influence its melting point. The basic unit for comparison could be a simple aromatic compound like benzene, which has a melting point of 5.5\u00b0C. The presence of fluorine atoms significantly increases the melting point due to the high electronegativity and the resulting strong dipole-dipole interactions, estimated at +10\u00b0C per fluorine atom. There are 19 fluorine atoms in the molecule. The pyridine ring contributes to the melting point due to its nitrogen atom, which can participate in hydrogen bonding, estimated at +5\u00b0C. The nonanamide group, consisting of a pyridine ring and a long alkyl chain, increases the melting point due to the additional van der Waals interactions and the rigidity of the structure, estimated at +10\u00b0C. The presence of multiple nitrogen atoms in the nonanamide group can also contribute to hydrogen bonding, estimated at +5\u00b0C. The overall molecule is highly symmetrical and has a high degree of molecular complexity, which can lead to a higher melting point due to increased packing efficiency, estimated at +10\u00b0C. Summing these effects, we predict a melting point of 140.5\u00b0C for the target compound.\n##Prediction: 140.0\n\n\n##Reason",
+    "Test (Predicted value)": 140.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

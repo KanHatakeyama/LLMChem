@@ -1,0 +1,14 @@
+{
+    "name": "2,4,7-trimethyl-1H-isoindole-1,3(2H)-dione",
+    "smiles": "O=C1N(C)C(=O)c2c1c(C)ccc2C",
+    "csid": 557079,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3947",
+    "Reason": "To predict the melting point of 2,4,7-trimethyl-1H-isoindole-1,3(2H)-dione, we can consider the effects of different functional groups and structural features on the basic isoindole structure. The isoindole base itself would have a certain melting point due to its aromaticity and the presence of a five-membered ring with a nitrogen atom. Then we look at the substitutions: \n\n- The presence of three methyl groups would add to the molecular weight and provide more van der Waals (dispersion) interactions, which could potentially increase the melting point. The effect of each methyl group may add approximately +5\u00b0C to +10\u00b0C. \n\n- The two carbonyl groups located at the 1 and 3-positions of the isoindole ring system will form a more rigid planar structure and could increase the potential for intermolecular hydrogen bonding, which would raise the melting point significantly. The effect of each carbonyl group can be estimated to add approximately +20\u00b0C to +30\u00b0C to the melting point of the base structure. \n\nIf we consider the basic isoindole structure to have a hypothetical melting point of around 100\u00b0C, the structural effects could sum up as follows: \n\n- Basic isoindole structure: 100\u00b0C \n- Adding three methyl groups: 3 * (+5 to +10) = +15 to +30\u00b0C \n- Adding two carbonyl groups: 2 * (+20 to +30) = +40 to +60\u00b0C \n\nBy adding these effects, we arrive at a predicted melting point range.",
+    "mpC": 170.0,
+    "Prediction(integer)": 172.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "The basic unit for comparison is benzene, which has a melting point of 5.5 \u00b0C. The isoindole structure has a fused ring system which generally increases the melting point due to the rigidity and planarity of the molecule, this can be estimated to add around +100.0 \u00b0C. The presence of a ketone (C=O) group contributes to the melting point through dipole-dipole interactions and potential hydrogen bonding, which could add approximately +30.0 \u00b0C. The three methyl groups (C) attached to the isoindole ring increase the molecular weight and provide some steric hindrance, which could raise the melting point by about +10.0 \u00b0C each, totaling +30.0 \u00b0C. The overall prediction is the sum of these effects.\n##Prediction: 175.0\n\n##Prediction",
+    "Test (Predicted value)": 175.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

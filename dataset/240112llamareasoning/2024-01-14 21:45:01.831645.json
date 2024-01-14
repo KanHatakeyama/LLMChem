@@ -1,0 +1,14 @@
+{
+    "name": "trimethyl phosphite",
+    "smiles": "COP(OC)OC",
+    "csid": 8159,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=43988",
+    "source": "Alfa Aesar",
+    "Reason": "Trimethyl phosphite is an organophosphorus compound with the molecular formula P(OCH3)3. To predict its melting point, we need to consider the contributions of its constituent functional groups and molecular structure:\n\n- Basic unit, phosphine (PH3): -133.5 \u00b0C. This is the melting point of the simplest phosphorus(V) hydride, analogous to the P center in the target molecule, but bonded to hydrogen rather than alkoxy groups. We start with this as a reference point.\n- Alkoxy groups: Each methoxy (OCH3) group increases the melting point when substituted for a hydrogen atom because of the higher molecular weight and the stronger P-O bond compared to the P-H bond. The electron-donating nature of the alkoxy groups also increases the electron density around the phosphorus, creating stronger intermolecular attractions (dipole-dipole interactions) due to the polarity of the P-O bonds. Estimate: +15 \u00b0C for each methoxy group.\n\nThere are three methoxy groups in trimethyl phosphite, hence we calculate the shift from the phosphine melting point three times.\n\n- Molecular weight: The three methoxy groups also collectively increase the molecular weight, which generally raises the melting point due to greater London dispersion forces.\n\n- Stereochemistry: The compact and symmetrical triangle shape around the phosphorus atom in trimethyl phosphite could lead to a fairly efficient molecular packing arrangement, which can contribute to a higher melting point.\n\n- Polarizability: The presence of three methoxy groups adds polarizability to the molecule, which increases the intermolecular interactions and therefore should raise the melting point.\n\nCombining all these effects, we can estimate the melting point of trimethyl phosphite:\n\n-133.5 (phosphine) + (3 * 15 methoxy groups) = -88.5 \u00b0C.",
+    "mpC": -78.0,
+    "Prediction(integer)": -88.0,
+    "Abs error": 10.0,
+    "Test (Predicted reason)": "The basic unit for trimethyl phosphite is phosphorus, which has a melting point of -118.5. The presence of three methyl groups (CH3) increases the molecular weight and size, which typically raises the melting point due to increased van der Waals forces. Each methyl group can be estimated to increase the melting point by about 20-30 degrees Celsius.\n##Prediction: -88.0\n\n\n#Prediction",
+    "Test (Predicted value)": -88.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

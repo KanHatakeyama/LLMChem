@@ -1,0 +1,14 @@
+{
+    "name": "dithioerythritol",
+    "smiles": "SCC(O)C(O)CS",
+    "csid": 17939,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "To predict the melting point of dithioerythritol, we start with the reference compound ethane, which has a melting point of -182\u00b0C. Each functional group will modify this base value. The two hydroxyl groups (-OH) in the compound each contribute to a significant increase in melting point due to their ability to form hydrogen bonds; we estimate this increase to be about +100\u00b0C for each hydroxyl group. The two thiol groups (-SH) are less influential than hydroxyl groups in raising the melting point but still contribute due to their polar nature and ability to form weaker hydrogen bonds; we estimate an increase of +20\u00b0C for each thiol group. The presence of a two-carbon aliphatic chain connecting the functional groups should have a minor effect, so we give this a +5\u00b0C. Consequently, the estimated effect on melting point is: -182 + (2 * 100) + (2 * 20) + 5.",
+    "mpC": 83.0,
+    "Prediction(integer)": 83.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "##Prediction: 100.0\n\n\n#Prediction",
+    "Test (Predicted value)": 100.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

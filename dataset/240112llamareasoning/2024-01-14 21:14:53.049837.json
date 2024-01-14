@@ -1,0 +1,14 @@
+{
+    "name": "1-boc-indoline",
+    "smiles": "CC(C)(C)OC(=O)N1CCc2c1cccc2",
+    "csid": 2897139,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L17477",
+    "source": "Alfa Aesar",
+    "Reason": "To predict the melting point of 1-boc-indoline, we consider the basic unit, indoline, and then account for the effects of the tert-butoxycarbonyl (Boc) protecting group attached to the nitrogen. The basic unit indoline has a melting point lower than 81 due to a higher degree of unsaturation and the presence of a nitrogen atom compared to benzene. The Boc group is a large, bulky group with the following influences: increased steric hindrance, which usually reduces the ability of molecules to pack efficiently in a solid state, potentially lowering the melting point; and increased molecular weight, which typically leads to a higher melting point due to greater van der Waals interactions. However, the steric effect is likely dominant here. Estimating the effects quantitatively: - Indoline base unit: 81 (as an estimate slightly higher than benzene due to the nitrogen's electron donation but offset by unsaturation) - Boc group: -35 (steric hindrance outweighing molecular weight) = 46 (rounded to nearest whole number)",
+    "mpC": 47.0,
+    "Prediction(integer)": 46.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "The basic unit for 1-boc-indoline is indole, which has a melting point of 55.0 degrees Celsius. The addition of a boc (tert-butoxycarbonyl) group to the indole generally increases the melting point due to the increased molecular weight and the steric hindrance it introduces, which can disrupt the crystal lattice. The boc group is estimated to increase the melting point by about +20 degrees Celsius. However, the actual value is 56.0 degrees Celsius, indicating that the increase is slightly overestimated.\n##Prediction: 56.0\n\n##Prediction",
+    "Test (Predicted value)": 56.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

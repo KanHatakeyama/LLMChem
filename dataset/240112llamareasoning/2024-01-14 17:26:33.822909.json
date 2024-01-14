@@ -1,0 +1,14 @@
+{
+    "name": "propanamide, 3,3,3-trifluoro-N-(1-phenylethyl)-2-(trifluoromethyl)-",
+    "smiles": "FC(F)(F)C(C(=O)NC(C)c1ccccc1)C(F)(F)F",
+    "csid": 2029898,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3474",
+    "Reason": "The presence of functional groups and their structural features significantly influence the melting point of a compound. For the given compound, we can analyze the contributing factors as follows: \n- Basic unit, acetamide, has a melting point of about 82\u00b0C. \n- Trifluoromethyl groups: Each -CF3 group, due to its high electronegativity and bulkiness, increases intermolecular forces like dipole-dipole interactions, thereby raising the melting point significantly. Assuming +20\u00b0C per trifluoromethyl group, and since we have two of them, the increment would be approximately +40\u00b0C. \n- N-(1-phenylethyl): The benzene ring contributes to the molecular rigidity and pi-stacking possibilities which can increase the melting point. Considering the phenyl contribution as +10\u00b0C and the ethyl group as a smaller increment due to increase in molecular size, say +5\u00b0C. \n- Amide functional group: The ability to form hydrogen bonds can significantly increase the melting point. However, since this is already considered part of the basic acetamide unit, we won't double-count it here. \n- Overall combined effect: Since we expect these effects to be roughly additive, we can simply sum the effects to estimate the melting point. This is a crude estimation and may not account for the synergistic or antagonistic effects of how these groups influence each other.",
+    "mpC": 137.0,
+    "Prediction(integer)": 137.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The base structure, propanamide, has a melting point of -10\u00b0C. The trifluoromethyl group (CF3) is a highly electronegative group that significantly increases the melting point due to its strong dipole and the inductive effect it has on the molecule, estimated at +40\u00b0C. The presence of two trifluoromethyl groups (CF3) adds to the overall electronegativity and molecular weight, contributing an estimated increase of +80\u00b0C. The phenyl group (C6H5) adds to the melting point due to increased molecular weight and pi-pi interactions, estimated at +20\u00b0C. The amide group (CONH2) can form hydrogen bonds, which significantly increases the melting point, estimated at +50\u00b0C. The cumulative effect of these functional groups leads to the calculated prediction.\n##Prediction: 150.0\n\n##Prediction",
+    "Test (Predicted value)": 150.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

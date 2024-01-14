@@ -1,0 +1,14 @@
+{
+    "name": "N-Decyldecan-1-amine",
+    "smiles": "CCCCCCCCCCNCCCCCCCCCC",
+    "csid": 13623,
+    "link": "http://msds.chem.ox.ac.uk/",
+    "source": "academic website",
+    "Reason": "The compound N-Decyldecan-1-amine comprises a straight chain alkane (decane) as a core structure and an amine group (-NH2) attached to the terminal carbon. Decane has a melting point of around -31\u00b0C. The amine group typically raises the melting point due to hydrogen bonding capabilities. Given that an alkyl chain increases the surface area and hence Van der Waals forces, we should consider the following effects: For the alkyl chain, a change in melting point per methylene group (CH2) can be approximately +2\u00b0C. With 19 additional CH2 groups from decane (C10H22) to N-Decyldecan-1-amine (C20H41NH2), the increase would be roughly 19*2 = +38\u00b0C. The amine group's capacity for hydrogen bonding could contribute an additional 20-25\u00b0C to the melting point. Therefore, the estimated increase due to the larger alkyl chain and the amine group is expected to be approximately 38 + 22 (average increase for NH2 group) = +60\u00b0C.",
+    "mpC": 43.0,
+    "Prediction(integer)": 43.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, decane has a melting point of around -30\u00b0C. \n- The addition of an amine group (-NH2) generally increases the melting point due to the potential for hydrogen bonding, which can be estimated to add approximately +40\u00b0C. \n- The presence of a long alkyl chain (C10) increases the melting point due to increased van der Waals forces, which can be estimated to add about +20\u00b0C for each additional methylene group (CH2) in the chain. However, the long alkyl chain also increases the flexibility of the molecule, which can lower the melting point. This effect is difficult to quantify but might be estimated to subtract around -5\u00b0C. \n- The overall effect of the long alkyl chain and the amine group is expected to increase the melting point, but the flexibility of the long alkyl chain might slightly lower it.\n##Prediction: 35.0\n##Reason",
+    "Test (Predicted value)": 35.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

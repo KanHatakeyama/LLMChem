@@ -1,0 +1,14 @@
+{
+    "name": "(1E)-N-hydroxy-1-(4,7,7-trimethylbicyclo[2.2.1]hept-2-yl)ethanimine",
+    "smiles": "ON=C(C)C1CC2(C)CCC1C2(C)C",
+    "csid": 7855502,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-876",
+    "Reason": "The base structure to consider is the bicyclic [2.2.1]heptane system, which we can simplify to norbornane for melting point estimation purposes. Norbornane has a melting point of 5.8 degrees Celsius. The addition of functional groups and substitution on the ring system will impact the melting point. Here's an estimation of each functional group's effect: \n- N-hydroxyimine (ON=C): The presence of hydrogen bonding from the hydroxyimine increases the melting point significantly, estimated at +60 due to strong dipole interactions and potential for intermolecular hydrogen bonding. \n- Ethyl group (C2): Compared to hydrogen, an ethyl group increases the molecular weight and steric hindrance, estimated to shift the melting point by +10. \n- Three methyl groups (3 x CH3): Each methyl group adds to the molecular weight and provides some steric bulk. The effect of a methyl group on melting point can be estimated at +5 per group. Since there are three, the overall increase can be approximated to 3 x 5 = +15. \n- The bicyclic structure adds constraints to molecular rotation, which might slightly raise the melting point, estimated to be +5. Adding all these increments to the base melting point gives us an approximation of the melting point for the target compound.",
+    "mpC": 96.0,
+    "Prediction(integer)": 96.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "##Prediction: 105.0\n\n##Reason",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

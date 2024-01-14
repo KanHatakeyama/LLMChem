@@ -1,0 +1,14 @@
+{
+    "name": "(2Z)-[2-(2-nitrophenyl)hydrazinylidene](4-phenyl-1,3-thiazol-2-yl)ethanenitrile",
+    "smiles": "s1cc([nH0]c1C(=NNc1ccccc1[N+](=O)[O-])C#N)c1ccccc1",
+    "csid": 7855606,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-851",
+    "Reason": "The compound in question contains a thiazole ring, two phenyl groups, a nitro group, a hydrazine derivative (hydrazone), and a nitrile group. The base thiazole ring's melting point can be estimated at around 80-100\u00b0C. Each phenyl group, due to increased aromatic interactions and molecular complexity, may raise the melting point by approximately +30\u00b0C. The nitro group is a strong electron-withdrawing group and can engage in intermolecular hydrogen bonding, raising the melting point by about +30\u00b0C. The hydrazone portion (\u2013NN\u2013) contributes to the melting point due to its potential for intermolecular hydrogen bonding, adding approximately +20\u00b0C. The nitrile group, with its strong dipole moment, may contribute +15\u00b0C due to increased polarity and specific intermolecular interactions. Summing these effects we have: base thiazole (90\u00b0C) + 2*phenyl (+60\u00b0C) + nitro group (+30\u00b0C) + hydrazone linkage (+20\u00b0C) + nitrile group (+15\u00b0C) = 215\u00b0C.",
+    "mpC": 211.0,
+    "Prediction(integer)": 215.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "The compound in question has several functional groups that influence its melting point. Starting with the base structure of benzene, which has a melting point of 5.5 \u00b0C, we consider the effects of the substituents. The thiazole ring is a heterocyclic compound that introduces rigidity and potential for hydrogen bonding, which could increase the melting point by approximately 50 \u00b0C. The nitrile group is polar and can engage in dipole-dipole interactions, which could add another 20 \u00b0C. The nitro group is highly electronegative and can participate in intermolecular interactions, potentially adding another 30 \u00b0C. The hydrazine group can form hydrogen bonds, which could add another 20 \u00b0C. The presence of two phenyl rings contributes to an increase in melting point due to increased molecular weight and pi-pi interactions, estimated at 20 \u00b0C each. The overall cumulative effect of these groups is expected to significantly increase the melting point relative to benzene.\n##Prediction: 205.0\n\n\n#Prediction",
+    "Test (Predicted value)": 205.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

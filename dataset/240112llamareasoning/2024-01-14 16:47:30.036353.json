@@ -1,0 +1,14 @@
+{
+    "name": "sulfanilamide",
+    "smiles": "c1cc(ccc1N)S(=O)(=O)N",
+    "csid": 5142,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A13001",
+    "source": "Alfa Aesar",
+    "Reason": "Sulfanilamide is an aromatic compound that includes both an amine group and a sulfonamide group attached to a benzene ring. The pure benzene ring has a melting point of 5.5 degrees Celsius. The amine group can be predicted to increase the melting point due to it enabling hydrogen bonding, and this effect can be quantified as approximately +50 degrees Celsius. The presence of the sulfonamide group also significantly increases the melting point due to strong hydrogen bonding and increased polarity; this effect can add an additional +90 degrees Celsius. The synergistic effect of these two groups on the melting point due to potential efficient crystal packing and complementary hydrogen bonding could account for an extra increase, which can be estimated conservatively as +20 degrees Celsius. The total increased melting point is the sum of these contributions.",
+    "mpC": 165.75,
+    "Prediction(integer)": 166.0,
+    "Abs error": 0.25,
+    "Test (Predicted reason)": "- Basic unit, aniline, has a melting point of around 6\u00b0C. \n- Sulfonyl group: This group is highly electronegative and can form strong dipole-dipole interactions, which would significantly increase the melting point. We can estimate an increase of +80\u00b0C. \n- Amide group: Amides can form strong hydrogen bonds, which would further increase the melting point. We can estimate an increase of +50\u00b0C. \n- The presence of the sulfonyl and amide groups in the same molecule would lead to additional intermolecular interactions, which could add another +10\u00b0C. \nSumming these effects to the base value of aniline, we predict the melting point of sulfanilamide to be roughly 6 + 80 + 50 + 10 = 146\u00b0C.\n##Prediction: 146.0\n\n\n#Problem",
+    "Test (Predicted value)": 146.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

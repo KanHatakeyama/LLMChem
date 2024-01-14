@@ -1,0 +1,14 @@
+{
+    "name": "1,1-Diphenylguanidine",
+    "smiles": "NC(=N)N(c1ccccc1)c2ccccc2",
+    "csid": 13990,
+    "link": "http://msds.chem.ox.ac.uk/",
+    "source": "academic website",
+    "Reason": "Starting with the basic unit aniline (phenylamine), which has a melting point around 184\u00b0C, we then analyze the impacts of each functional group. Substituting the hydrogen in aniline for a guanidine group (-C(=N)NH-) significantly alters the melting characteristics. The guanidine group adds additional nitrogen atoms, which contribute to a network of hydrogen bonds that would generally increase the melting point due to stronger intermolecular attractions. Adding a second phenyl group would also increase the molecular weight but can also increase the melting point due to enhanced pi-pi stacking interactions between the rings. However, the presence of guanidine brings steric hindrance which may disrupt the crystalline structure, thus lowering the melting point slightly compared to a more symmetrical di-substituted aniline. Adding these effects together, the guanidine group can be estimated to lower the melting point compared to aniline by 25\u00b0C (due to disruption of symmetry and steric hindrance), and each additional phenyl group may raise it by 5\u00b0C (due to pi-pi interactions and increased molecular weight).",
+    "mpC": 150.0,
+    "Prediction(integer)": 144.0,
+    "Abs error": 6.0,
+    "Test (Predicted reason)": "The compound 1,1-Diphenylguanidine has several functional groups that influence its melting point. Starting with benzene, which has a melting point of 5.5\u00b0C, we consider the effects of each substituent: - The guanidine group is a highly polar and rigid structure that can form strong intermolecular hydrogen bonds, significantly increasing the melting point. This could raise the melting point by approximately +100\u00b0C. - Each phenyl group (\u2013c1ccccc1-) adds to the rigidity and planarity of the molecule, which can increase the melting point due to better packing in the solid state. Each phenyl group might contribute an additional +20\u00b0C. - The presence of two phenyl groups in a 1,1-di configuration may slightly increase the melting point due to the additional pi-pi stacking interactions between the phenyl rings. This could add another +5\u00b0C. Considering these functional group contributions, we estimate the melting point of the target compound. Benzene (5.5) + Guanidine (+100) + 2x Phenyl Groups (+20) + 1,1-Di Configuration (+5), we get an estimated melting point.\n##Prediction: 135.0\n\n\n#Prediction",
+    "Test (Predicted value)": 135.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

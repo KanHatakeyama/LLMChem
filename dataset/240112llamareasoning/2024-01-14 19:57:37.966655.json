@@ -1,0 +1,14 @@
+{
+    "name": "(1Z)-1-(4,7,7-trimethylbicyclo[2.2.1]hept-2-en-2-yl)propan-1-one semicarbazone",
+    "smiles": "O=C(N)NN=C(CC)C1=CC2(C)CCC1C2(C)C",
+    "csid": 4701318,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1119",
+    "Reason": "The compound in question has a complicated structure, necessitating an individual analysis of each fragment's influence on the melting point. Starting with a base molecule such as acetone, which has a melting point of -95 C, we consider the following additions: \n- Bicyclic ring with alkenes: +150 to +200 (bicyclic structures significantly increase melting point due to increased rigidity and intermolecular interactions, while the alkenes decrease the polarity somewhat)\n- Two tertiary alkyl groups: +5 to +10 each (while these increase steric bulk, their impact on melting point is limited)\n- Semocarbazone group: +50 to +80 (contributes to the melting point considerably due to its ability to form hydrogen bonds and increase polarity)\n\nTo derive a more accurate prediction, let's assign concrete values within these ranges:\nBicyclic ring with alkenes: +200\nTwo tertiary alkyl groups: +10 each (total of +20)\nSemocarbazone group: +80\n\nSumming these adjustments and adding them to the base melting point of acetone yields: 200 + 20 + 80 - (-95) = 395",
+    "mpC": 197.0,
+    "Prediction(integer)": 197.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "##Prediction: 207.0\n##Reason",
+    "Test (Predicted value)": 207.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

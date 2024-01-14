@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-3-naphthalen-1-yl-2-phenylprop-2-enoic acid",
+    "smiles": "O=C(O)C(=Cc1cccc2ccccc21)c1ccccc1",
+    "csid": 4644531,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1465",
+    "Reason": "The base compound to consider for predicting the melting point of (2E)-3-naphthalen-1-yl-2-phenylprop-2-enoic acid is benzoic acid, which has a melting point of 122 degrees Celsius. To predict the melting point of the target compound, we have the following functional groups to account for:\n\n- Naphthyl group: This larger and more conjugated system than a phenyl group contributes to an increase in the melting point due to enhanced pi-pi interactions and molecular rigidity. We assign an influence of +25 degrees for the naphthyl group.\n\n- Phenyl group: This group contributes additional pi-pi stacking and Van der Waals interactions, thereby increasing the melting point. We assign an influence of +15 degrees for the phenyl group.\n\n- Double bond and trans configuration (E-isomer): The rigidity caused by the trans double bond promotes more stable and orderly crystalline packing, which can raise the melting point. We assign a conservative estimate of +4 degrees for this effect.\n\nAdding these contributions to the base melting point of benzoic acid gives the predicted melting point of the target compound.",
+    "mpC": 161.0,
+    "Prediction(integer)": 166.0,
+    "Abs error": 5.0,
+    "Test (Predicted reason)": "The compound in question is a derivative of naphthalene, which has a melting point of 80.5\u00b0C. The presence of a phenyl group and an alkene group will influence the melting point. The phenyl group adds rigidity and pi-pi interactions, which typically increase the melting point. The alkene group introduces a double bond, which can slightly lower the melting point due to less efficient packing, but the overall effect is still an increase due to the rigidity it introduces. The carboxylic acid group is capable of forming strong hydrogen bonds, which significantly increases the melting point. The presence of two phenyl groups and an alkene group will increase the melting point due to the additional pi-pi interactions and the rigidity they introduce.\n\nEstimated effects for the melting point of the target compound are as follows:\n- Basic naphthalene structure: 80.5\u00b0C\n- Phenyl group: +20 due to increased rigidity and pi-pi interactions\n- Alkene group: +10 due to less efficient packing but increased rigidity\n- Carboxylic acid group: +40 due to strong hydrogen bonding\n\nThe combined effects of these groups should be adjusted to fit the actual melting point.\n##Prediction: 150.0\n\n\n#Prediction",
+    "Test (Predicted value)": 150.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

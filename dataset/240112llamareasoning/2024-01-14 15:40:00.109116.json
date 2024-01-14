@@ -1,0 +1,14 @@
+{
+    "name": "benzenamine, 4-(1,1-dimethylethyl)",
+    "smiles": "CC(C)(C)c1ccc(N)cc1",
+    "csid": 63057,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The basic structure to consider is benzene, which has a melting point around 5.5\u00b0C. The addition of the amine (NH2) group to benzene generally increases the melting point because of the potential for hydrogen bonding, which can significantly raise the melting point, let's estimate this effect at about +50\u00b0C due to these interactions. The 4-tert-butyl (1,1-dimethylethyl) group, however, is large and bulky, which might disrupt crystal packing and slightly lower the melting point. Given that bulky groups can hinder solid packing, let's estimate the effect of the t-butyl group to be quite significant at -40\u00b0C. By combining these effects, we can make the prediction for the melting point of the target compound.",
+    "mpC": 17.0,
+    "Prediction(integer)": 25.0,
+    "Abs error": 8.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C.\n- The amine group (NH2) generally increases the melting point due to hydrogen bonding, which can be estimated at +20\u00b0C.\n- The 1,1-dimethylethyl group (CH3CH2CH2CH3) is a bulky alkyl group that increases the melting point due to increased van der Waals forces, estimated at +10\u00b0C.\n- The combined effect of these groups should be considered, and the prediction should be adjusted to match the actual value.\n##Prediction: 35.0\n\n\n#Problem",
+    "Test (Predicted value)": 35.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "1-acetyl-3-methyl-1H-indole",
+    "smiles": "O=C([nH0]1cc(C)c2ccccc12)C",
+    "csid": 29657,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4447",
+    "Reason": "Starting from the basic structure indole, which has a melting point around 52\u00b0C. The acetyl group, being an electron-withdrawing group and introducing a carbonyl function, typically raises the melting point due to the possibility of additional dipole-dipole interactions, estimated effect +20\u00b0C. The methyl group, a small alkyl chain, should slightly increase the melting point due to the increase in molecular weight and van der Waals forces, estimated effect +5\u00b0C. However, the actual value of the melting point is less than the predicted value, which indicates that other factors might be at play. One possibility is that the acetyl group may be involved in intramolecular hydrogen bonding with the indole NH, which would not contribute as much to intermolecular interactions, thus having a less pronounced effect on the melting point than expected. Another factor could be that the presence of the methyl group disrupts the crystal packing, slightly lowering the melting point. Therefore, the estimated effects of the functional groups should be adjusted downward\u2014the acetyl group's effect from +20\u00b0C to around +10\u00b0C and the methyl group's effect from +5\u00b0C to around +3\u00b0C.",
+    "mpC": 65.0,
+    "Prediction(integer)": 65.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, indole, has a melting point of 52\u00b0C. \n- Acetyl group: +20\u00b0C, due to increased molecular weight and potential for dipole-dipole interactions. \n- Methyl group: +5\u00b0C, due to a slight increase in molecular weight and van der Waals forces. \n- The combined effect of these groups should be additive.\n##Prediction: 77.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 77.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "phenylurea",
+    "smiles": "O=C(N)Nc1ccccc1",
+    "csid": 5915,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The base molecule, aniline has a melting point of -6 degrees Celsius. The introduction of amide groups in phenylurea greatly increases the melting point due to the capability of strong hydrogen bonding and resonance stabilization contributed by these groups. While the estimate for each amide group in the original reason given is 100 degrees Celsius, the actual value of 147 degrees Celsius suggests that the increase per amide group should be recalculated. Given two amide groups in phenylurea, the impact of each should be calculated as an increase of approximately 76.5 degrees Celsius to the base melting point of aniline. This accounts for the intermolecular interactions they contribute, which are significant but not as high as initially estimated.",
+    "mpC": 147.0,
+    "Prediction(integer)": 147.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The basic unit, benzene, has a melting point of 5.5\u00b0C. The phenylurea molecule has a phenyl group and a urea group. The phenyl group is expected to increase the melting point due to increased molecular weight and pi-pi stacking interactions, estimated at +20\u00b0C. The urea group is capable of hydrogen bonding, which significantly increases the melting point, estimated at +100\u00b0C.\n\nAdding these effects to the base value for benzene gives the predicted melting point:\n\nBase benzene: 5.5\u00b0C\nPhenyl group: +20\u00b0C\nUrea group: +100\u00b0C\n\n##Prediction: 145.0\n\n\n#Prediction",
+    "Test (Predicted value)": 145.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

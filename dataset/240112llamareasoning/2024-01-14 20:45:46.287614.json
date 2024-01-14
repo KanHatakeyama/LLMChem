@@ -1,0 +1,14 @@
+{
+    "name": "2,4,5-trichlorobenzenesulfonamide",
+    "smiles": "c1c(c(cc(c1Cl)Cl)Cl)S(=O)(=O)N",
+    "csid": 1042584,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H27687",
+    "source": "Alfa Aesar",
+    "Reason": "Starting from benzene, which has a melting point of 5.5\u00b0C, the introduction of functional groups and substituents can significantly alter the melting point of the compound. Each chloro (Cl) substituent adds to the melting point due to increased molecular weight, enhanced Van der Waals forces, and potential for intermolecular interactions, such as dipole-dipole attractions. Let's estimate that each Cl increases the melting point by about 20\u00b0C, with the three Cl groups together contributing approximately 60\u00b0C. The benzenesulfonamide group, with a sulfonyl group directly attached to the benzene ring, would further increase the melting point due to the strongly electron-withdrawing nature of the sulfonyl group, which can also participate in intermolecular hydrogen bonding. This could contribute an additional 70\u00b0C. However, since the mentioned values contribute to a total of 135.5\u00b0C which is significantly less than the actual value, the individual contributions need to be adjusted. Adjusting the estimations for the chloro and benzenesulfonamide groups: if we consider each chloro group to contribute about 30\u00b0C, the total from the chloro groups would be 90\u00b0C. For the benzenesulfonamide group, considering the strong potential for hydrogen bonding and electron-withdrawing nature, a larger contribution is expected, so let's estimate it as contributing 100\u00b0C instead.",
+    "mpC": 189.0,
+    "Prediction(integer)": 195.0,
+    "Abs error": 6.0,
+    "Test (Predicted reason)": "The basic unit, benzene, has a melting point of 5.5\u00b0C. The presence of three chlorine atoms on the benzene ring significantly increases the melting point due to the increase in molecular weight and the introduction of strong dipole-dipole interactions. Each chlorine might contribute approximately 20-30\u00b0C. The sulfonamide group is a strong electron-withdrawing group, which can form strong intermolecular hydrogen bonds, adding approximately 50-60\u00b0C. The presence of the sulfonamide group also introduces the potential for intramolecular hydrogen bonding, which can further increase the melting point. The overall increase in melting point is the sum of the increments provided by the functional groups.\n##Prediction: 170.0\n\n##Prediction",
+    "Test (Predicted value)": 170.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}
