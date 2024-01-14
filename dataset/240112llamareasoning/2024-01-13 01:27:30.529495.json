@@ -1,0 +1,14 @@
+{
+    "name": "benzamide, N-(3-cyano-4,5,6,7-tetrahydrobenzo[b]thien-2-yl)-",
+    "smiles": "s1c2CCCCc2c(C#N)c1NC(=O)c1ccccc1",
+    "csid": 256067,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4138",
+    "Reason": "To predict the melting point of N-(3-cyano-4,5,6,7-tetrahydrobenzo[b]thien-2-yl)benzamide, we consider the effects of its functional groups and structural features on the basic benzene unit. Benzene has a relatively low melting point (-5.5 \u00b0C) due to its symmetrical structure and lack of polar functional groups. First, consider the benzamide moiety: amides generally raise the melting point due to strong intermolecular hydrogen bonding; this could increase the melting point significantly, perhaps by 80 to 100 \u00b0C. Next, the cyano group (-C\u2261N) also increases the melting point due to its strong dipole and potential for dipole-dipole interactions, potentially adding around 10 to 20 \u00b0C. The presence of a saturated ring (tetrahydrobenzo[b]thien) adjacent to the benzene would decrease the melting point due to reduced pi-stacking interactions, potentially subtracting 10 to 20 \u00b0C. Lastly, the thienyl group (a sulfur-containing five-membered heterocycle) could contribute to an increase due to additional polarizability and potential for pi-stacking, perhaps by 5 to 15 \u00b0C. Combining these estimations provides a predictive melting point.",
+    "mpC": 110.0,
+    "Prediction(integer)": 110.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The basic unit for this compound is benzene, which has a melting point of 5.5 degrees Celsius. The presence of the amide functional group (\u2013CONH2) generally increases the melting point due to the potential for hydrogen bonding and the increase in molecular weight. This could be estimated as +50. The tetrahydrobenzo[b]thien-2-yl group is a rigid and planar structure that can increase the melting point due to enhanced pi-pi stacking interactions and potential for additional hydrogen bonding; this could be estimated as +30. The cyano group is a strong electron-withdrawing group that can increase the melting point due to its ability to enhance intermolecular forces; this could be estimated as +10. Summing these effects: Basic benzene at 5.5 + Amide group (+50) + Tetrahydrobenzo[b]thienyl group (+30) + Cyano group (+10), we get an estimated increase.\n##Prediction: 105.0\n\n\n#Prediction",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

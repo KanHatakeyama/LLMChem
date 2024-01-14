@@ -1,0 +1,14 @@
+{
+    "name": "2-methoxy-N-methyl-1H-indol-6-amine",
+    "smiles": "O(C)C=1N=C2C=C(NC)CC=C2C=1",
+    "csid": 2031154,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3119",
+    "Reason": "The basic unit of the target compound is indole, which has a melting point of 52\u00b0C. The addition of the methoxy group (-OCH3) is likely to raise the melting point due to increased polarity, potentially contributing an increase of around 20-40\u00b0C. The N-methyl group contributes additional steric hindrance and a slight increase in molecular weight, which can lead to a 5-10\u00b0C rise in melting point. The ability of the amine to participate in hydrogen bonding interactions could potentially increase the melting point by another 10-20\u00b0C. The cumulative effect of these functional groups will be to increase the melting point of the base indole structure. The expected influence of each substituent is based on common tendencies observed in functional group chemistry.",
+    "mpC": 165.0,
+    "Prediction(integer)": 165.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, indole has a melting point of 115\u00b0C. \n- Methoxy group: +20\u00b0C (due to increased molecular weight and polarity, which can lead to stronger intermolecular forces). \n- Methyl group: +5\u00b0C (due to an increase in molecular weight and van der Waals forces). \n- Amine group: +10\u00b0C (due to the potential for hydrogen bonding, which can increase the melting point). \n- The presence of the indole ring itself contributes to the melting point due to its planar structure and the ability to stack well with other molecules, which can lead to a higher melting point. \n- The overall effect of these functional groups is to increase the melting point due to the increased molecular weight and the potential for hydrogen bonding and stacking.\n##Prediction: 155.0\n##Reason",
+    "Test (Predicted value)": 155.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

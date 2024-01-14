@@ -1,0 +1,14 @@
+{
+    "name": "2-cyanotetrahydro-2H-pyran-3,4,5-triyl triacetate (non-preferred name)",
+    "smiles": "O=C(OC1COC(C#N)C(OC(=O)C)C1OC(=O)C)C",
+    "csid": 3042856,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1747",
+    "Reason": "To predict the melting point of 2-cyanotetrahydro-2H-pyran-3,4,5-triyl triacetate, we break it down into increments based on the functional groups present. Starting with a base unit similar to pyran, which as an unmodified six-membered oxygen heterocycle, might be expected to have a melting point around 30-70\u00b0C. Each acetate functional group is likely to raise the melting point due to increased molecular weight and possible intermolecular hydrogen bonding, by about 20\u00b0C per group, thus +60\u00b0C for the three groups. The nitrile (C#N) group could add rigidity and polarity to the molecule, which may increase the melting point further. However, nitrile groups in larger molecules generally don't raise the melting point as much as smaller polar functional groups do, possibly adding around 10-20\u00b0C. Finally, the substitution on the pyran ring may add slight rigidity. Overall, we estimate an approximate increase of 80-100\u00b0C above the base value.",
+    "mpC": 134.0,
+    "Prediction(integer)": 130.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "The compound in question is a complex organic molecule with several functional groups that influence its melting point. The basic unit for comparison could be a simple aliphatic ketone, which typically has a lower melting point. However, our target compound has several functional groups that significantly increase the melting point due to their effects on molecular interactions:\n- Ketone groups increase the melting point due to dipole-dipole interactions and possible hydrogen bonding: +20 \u00b0C per ketone link.\n- Acetyl groups increase the melting point due to dipole-dipole interactions and possible hydrogen bonding: +10 \u00b0C per acetyl group.\n- The cyano group is a strong electron-withdrawing group that can increase the melting point due to its ability to enhance intermolecular forces: +15 \u00b0C.\n- The tetrahydro-2H-pyran ring system contributes to the rigidity and planarity of the molecule, which can increase the melting point: +10 \u00b0C.\nCombining these adjustments with a base melting point provides a more accurate prediction.\n##Prediction: 115.0\n\n\n#Prediction",
+    "Test (Predicted value)": 115.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

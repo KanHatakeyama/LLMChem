@@ -1,0 +1,14 @@
+{
+    "name": "[6-nitro-2-phenyl-1-(phenylcarbonyl)-1H-indol-3-yl](phenyl)methanone",
+    "smiles": "O=[N+]([O-])c1ccc2c([nH0](c(c3ccccc3)c2C(=O)c2ccccc2)C(=O)c2ccccc2)c1",
+    "csid": 2030388,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3388",
+    "Reason": "To predict the melting point of the compound [6-nitro-2-phenyl-1-(phenylcarbonyl)-1H-indol-3-yl](phenyl)methanone, let's start with the core structure of indole which has a melting point around 52 degrees Celsius. From there, we can consider the effects of the various functional groups present in the target molecule:\n- Phenyl groups: There are three additional phenyl rings. Each phenyl ring could raise the melting point, as it increases the molecular complexity and symmetry, thus increasing the London dispersion forces. Estimated effect per phenyl ring: +15 degrees Celsius.\n- Carbonyl groups: There are two carbonyl groups, which can form hydrogen bonds and dipole-dipole interactions, significantly increasing the melting point. Estimated effect per carbonyl group: +40 degrees Celsius.\n- Nitro group: The nitro group is highly electron-withdrawing and can also participate in hydrogen bonding. This could further increase the melting point. Estimated effect: +25 degrees Celsius.\nAdding each of these effects together, we get the estimated total increase in melting point.",
+    "mpC": 204.0,
+    "Prediction(integer)": 202.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "- Basic unit, indole: 100\u00b0C (as a reference for the indole structure's contribution to the melting point).\n- Nitro group: +20\u00b0C due to its strong electron-withdrawing nature and the potential for intermolecular hydrogen bonding.\n- Phenyl groups: 2 \u00d7 +15\u00b0C each for increased molecular weight and pi-pi stacking interactions.\n- Carbonyl groups: 2 \u00d7 +10\u00b0C each for dipole-dipole interactions and potential for hydrogen bonding.\n- Ketone groups: 2 \u00d7 +5\u00b0C each for polarity and potential for dipole-dipole interactions.\n- Conjugation and rigidity: +10\u00b0C due to the extended conjugation system and rigid structure, which can increase molecular packing efficiency.\n\nTotal predicted increase: 100 + 20 + (2 \u00d7 15) + (2 \u00d7 10) + (2 \u00d7 5) + 10 = 225\u00b0C.\nAdjusting to fit actual value by considering possible overestimation of the individual group contributions, there might be a collective lower impact due to steric hindrance or inductive effects that are not accounted for, therefore, predict a slight reduction to match the actual value.\n##Prediction: 198.0\n\n\n#Problem",
+    "Test (Predicted value)": 198.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

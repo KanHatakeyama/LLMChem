@@ -1,0 +1,14 @@
+{
+    "name": "1,2,4-tribromo-5,6-dimethoxy-3-methylbenzene",
+    "smiles": "Brc1c(Br)c(C)c(Br)c(OC)c1OC",
+    "csid": 2033963,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2478",
+    "Reason": "To predict the melting point of 1,2,4-tribromo-5,6-dimethoxy-3-methylbenzene, we will start with the basic unit of benzene, which has a melting point of 5.5 degrees Celsius. Each substituent on the benzene ring can have an effect on the overall melting point based on its own properties. The bromine atoms, being large and heavy atoms, significantly increase the molecular weight and the rigidity of the molecule due to strong intermolecular van der Waals' forces, which we expect to raise the melting point by about +20 per bromine atom. The methoxy groups are electron-donating and can engage in dipole-dipole interactions, increasing the melting point; we estimate this increase to be about +10 per methoxy group. The methyl group is small and electron-donating, contributing slightly to the molecular weight and possibly packing efficiency; we estimate an increase of +5 for the methyl group. Summing these adjustments gives us a prediction for the melting point.",
+    "mpC": 90.0,
+    "Prediction(integer)": 90.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Bromine substituents: Each bromine atom is a heavy halogen that increases the molecular weight and enhances intermolecular forces, such as van der Waals forces. Bromine is expected to raise the melting point significantly. Estimating the effect of each bromine to be around +40\u00b0C, we have three bromines. \n- Methoxy groups: Each methoxy group (-OCH3) is an electron-donating group that can participate in dipole-dipole interactions. However, they are less electron-withdrawing than bromine, so their effect on the melting point is less pronounced. Estimating the effect of each methoxy group to be around +5\u00b0C, we have two methoxy groups. \n- Methyl group: A methyl group is a small alkyl group that can increase the molecular weight and provide some steric hindrance, but its effect on the melting point is generally less than that of halogens or alkoxy groups. Estimating the effect of the methyl group to be around +2\u00b0C. \n- Overall, the cumulative effect of these substituents on the melting point is expected to be significant, but the exact quantitative effects of each group need to be adjusted to match the actual value.\n##Prediction: 105.0\n##Reason",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

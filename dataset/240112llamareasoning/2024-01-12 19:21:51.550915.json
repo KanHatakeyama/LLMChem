@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-3-[5-(4-Chlorophenyl)-2-furyl]-1-phenylprop-2-en-1-one",
+    "smiles": "Clc1ccc(cc1)c1oc(cc1)C=CC(=O)c1ccccc1",
+    "csid": 4498407,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1559",
+    "Reason": "The compound under consideration has multiple functional groups that influence its melting point. The basic unit, benzene, has a melting point of 5.5\u00b0C. The presence of the furan ring generally increases the melting point due to aromaticity and planarity, approximately by +40\u00b0C. The 4-chlorophenyl group introduces electronegativity and slight steric hindrance, which usually elevates the melting point of the compound, we can estimate this to be around +50\u00b0C, considering the heavy chlorine atom interaction as well. The prop-2-en-1-one moiety (\u03b1,\u03b2-unsaturated carbonyl group) tends to increase the melting point due to its polar nature and the ability to form strong dipole-dipole interactions, which could be around +30\u00b0C. Summing up the increments provided by these groups to the base melting point of benzene, we get an estimated total.",
+    "mpC": 127.0,
+    "Prediction(integer)": 125.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Phenyl group: +20\u00b0C (due to increased molecular weight and pi-pi interactions) \n- Furan ring: +20\u00b0C (due to the presence of a five-membered ring, which increases rigidity and pi-pi interactions) \n- Chlorophenyl group: +30\u00b0C (due to the presence of a chlorine atom, which increases the molecular weight and polarity) \n- Ketone group: +20\u00b0C (due to the polar carbonyl group, which can form dipole-dipole interactions) \n- Additional phenyl group: +10\u00b0C (due to the additional pi-pi interactions) \n- Total predicted increase: 105\u00b0C (5.5 + 20 + 20 + 30 + 20 + 10)\n##Prediction: 110.0\n##Reason",
+    "Test (Predicted value)": 110.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

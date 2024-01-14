@@ -1,0 +1,14 @@
+{
+    "name": "(2Z)-2-cyano-3-[4-(dimethylamino)phenyl]prop-2-enethioamide",
+    "smiles": "S=C(N)C(C#N)=Cc1ccc(N(C)C)cc1",
+    "csid": 1266212,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3806",
+    "Reason": "The compound (2Z)-2-cyano-3-[4-(dimethylamino)phenyl]prop-2-enethioamide is composed of several functional groups, which affect its melting point. Starting with benzene as the basic unit with a reference melting point (5.5\u00b0C for benzene), we will consider the following groups and their estimated effects on the melting point: the cyano group (C#N), which is known to increase the melting point due to the presence of a triple bond and the ability to participate in dipole-dipole interactions, we estimate an increase of about +80\u00b0C; the thioamide group (S=C(N)C), which has the potential for hydrogen bonding and resonance stability, may contribute another +60\u00b0C; the vinyl group (C=C), can contribute to some rigidity but may have a less pronounced effect than the other groups, it may add about +10\u00b0C; the dimethylamino group ((N(C)C)), is an electron-donating group which could increase the density of electrons in the aromatic ring leading to possible intermolecular interactions, further increasing the melting point by around +30\u00b0C. In summary, starting from 5.5\u00b0C for benzene, the total estimated increase would be 5.5 (for benzene) + 80 (cyano) + 60 (thioamide) + 10 (vinyl) + 30 (dimethylamino) = 185.5\u00b0C.",
+    "mpC": 189.0,
+    "Prediction(integer)": 185.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "The basic unit, benzene, has a melting point of 5.5\u00b0C. The presence of a cyano group increases molecular polarity and intermolecular forces, leading to an estimated increase of about +70\u00b0C in melting point. The presence of a thioamide group, which is a combination of a thioether and an amide, introduces additional polarity and potential for hydrogen bonding, which could contribute an additional +30\u00b0C. The presence of two methylamino groups, which are electron-donating and can participate in hydrogen bonding, could contribute an additional +20\u00b0C each. The presence of a double bond in the prop-2-enethioamide structure may slightly increase the melting point due to increased rigidity, estimated at +5\u00b0C.\n##Prediction: 170.0\n\n##Prediction",
+    "Test (Predicted value)": 170.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

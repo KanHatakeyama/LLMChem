@@ -1,0 +1,14 @@
+{
+    "name": "5-(ethoxycarbonyl)-2,4-dinitrobenzoic acid",
+    "smiles": "O=[N+]([O-])c1cc([N+](=O)[O-])c(cc1C(=O)O)C(=O)OCC",
+    "csid": 2031114,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3132",
+    "Reason": "The compound to be analysed is 5-(ethoxycarbonyl)-2,4-dinitrobenzoic acid. The basic structure from which we start predicting is benzoic acid, which has a melting point of around 122 degrees Celsius. Each substituent on the ring can affect this melting point:- Nitro groups: Adding electron-withdrawing nitro groups tends to increase the melting point due to increased intermolecular forces, such as hydrogen bonding and dipolar interactions. Each nitro group is estimated to increase the melting point by about 15 degrees Celsius. With two nitro groups, that's an increase of 30 degrees.- Ethoxycarbonyl group: This group is an ester and contributes to an increase in the molecular weight and size, potentially leading to greater van der Waals forces. However, it may also introduce steric hindrance, which can interfere with crystal packing. Esters typically increase the melting point by about 10 degrees Celsius.- The carboxylic acid group is already accounted for in the base melting point of benzoic acid. Hence, no additional change is attributed to this group.Considering these effects cumulatively, we estimate an increase of 40 degrees Celsius over the base melting point of benzoic acid.",
+    "mpC": 154.0,
+    "Prediction(integer)": 162.0,
+    "Abs error": 8.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Carboxylic acid group: +100\u00b0C (due to the ability to form strong intermolecular hydrogen bonds and dimerization). \n- Nitro groups: +40\u00b0C each (due to strong electron-withdrawing nature and the ability to form intermolecular hydrogen bonds, as well as the increase in molecular rigidity). \n- Ethoxycarbonyl group: +20\u00b0C (due to the increase in molecular weight and the ability to participate in dipole-dipole interactions). \n- The presence of multiple functional groups will lead to an increase in the melting point due to the cumulative effect of these groups on the molecular structure and intermolecular forces. However, the presence of the ethoxycarbonyl group, which is an ester, may slightly reduce the melting point due to its lower polarity compared to a carboxylic acid. \n- The overall effect of these groups is expected to be an increase in the melting point, but the presence of the ester group may slightly offset this increase.\n##Prediction: 165.0\n##Prediction",
+    "Test (Predicted value)": 165.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

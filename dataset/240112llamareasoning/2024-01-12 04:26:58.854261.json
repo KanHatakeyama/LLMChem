@@ -1,0 +1,14 @@
+{
+    "name": "(1E)-5-Isopropenyl-2-methyl-2-cyclohexen-1-one oxime",
+    "smiles": "ON=C1CC(CC=C1C)C(=C)C",
+    "csid": 4528712,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1521",
+    "Reason": "The target compound contains several functional groups and structural features that can influence its melting point. The core structure is a cyclohexene, which will serve as the basic unit for comparison. Cyclohexane has a melting point of 6.5\u00b0C, and the introduction of a double bond to form cyclohexene would typically increase this due to the more rigid structure: \n- Double bond in cyclohexene: +5 (due to increased rigidity and planarity)\nAdditionally, specific functional groups and substituents present in the target compound will further influence the melting point: \n- Methyl group (\u2013CH3): +5 (methyl groups typically raise melting point due to increased van der Waals interactions)\n- Isopropenyl group (\u2013C(CH3)=CH2): +15 (this group is larger than a methyl and adds both steric bulk and rigidity, leading to a higher melting point)\n- Oxime group (\u2013C=N\u2013OH): +30 (hydrogen bonding capability, which significantly raises melting point due to intermolecular forces)\n- Ketone group (within the cyclohexenone structure): +10 (polar carbonyl group, which can lead to dipolar interactions)\nAdding these increments to the base melting point of cyclohexene gives the predicted melting point for the compound.",
+    "mpC": 72.0,
+    "Prediction(integer)": 71.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, cyclohexene has a melting point of 6.5\u00b0C. \n- Isopropenyl group: +20\u00b0C (due to increased molecular weight and branching, which increases the melting point) \n- Methyl group: +5\u00b0C (due to an increase in molecular weight and van der Waals forces) \n- Ketone group: +40\u00b0C (due to polarity and potential for hydrogen bonding) \n- Oxime group: +10\u00b0C (due to the presence of nitrogen, which can form hydrogen bonds, and the polarity of the carbonyl group) \nCombining these effects, the predicted melting point is calculated.\n##Prediction: 81.0\n##Reason",
+    "Test (Predicted value)": 81.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "n-amyl acetate",
+    "smiles": "CC(=O)OCCCCC",
+    "csid": 11843,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "To predict the melting point of n-amyl acetate, consider the effects of the functional groups involved. The basic unit we can use as a reference is ethyl acetate, which has a melting point of -83.6 \u00b0C. Adding additional carbon atoms increases the molecular weight and surface area, which typically raises the melting point. Each additional methylene (CH2) group in a linear alkane chain increases the melting point by approximately 2 \u00b0C. n-Amyl acetate has three more CH2 groups than ethyl acetate (C2H5COOCH3). Also, the ester functional group (COO) generally has a lower melting point than a similar alkane because of the polar nature of the ester group enabling better packing compared to nonpolar alkanes. However, the elongation of the carbon chain could counterbalance the ester effect due to the increase in van der Waals forces. Since our base reference is already an ester, the main consideration will be the alkyl chain length.",
+    "mpC": -70.8,
+    "Prediction(integer)": -77.0,
+    "Abs error": 6.200000000000003,
+    "Test (Predicted reason)": "- Basic unit, ethyl acetate has a melting point of -94.6\u00b0C. \n- The n-amyl group (C5H11) is a longer alkyl chain compared to ethyl, which generally increases the melting point due to increased van der Waals forces. However, the increase is not as significant as the increase from a longer alkyl chain like a pentane, which could be around +20\u00b0C for a similar increase in molecular weight. \n- The ester functional group (-COOCH3) is polar and can form dipole-dipole interactions, which typically raises the melting point. However, the effect of the ester group is less pronounced in n-amyl acetate compared to ethyl acetate due to the larger alkyl chain.\n- The overall molecule is still relatively large and bulky, which can hinder close packing and lead to a lower melting point.\n- The combined effects of the n-amyl group and the ester group are expected to raise the melting point, but the increase is not as large as the sum of the effects of the individual functional groups might suggest.\n##Prediction: -55.0\n##Reason",
+    "Test (Predicted value)": -55.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

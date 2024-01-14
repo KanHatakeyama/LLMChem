@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-2-[1-(4,7,7-trimethylbicyclo[2.2.1]hept-2-yl)ethylidene]hydrazinecarboxamide",
+    "smiles": "O=C(N)NN=C(C)C1CC2(C)CCC1C2(C)C",
+    "csid": 7855501,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-877",
+    "Reason": "To predict the melting point of a given compound, we first consider the known melting point of related smaller molecular structures and then estimate the effect of the functional groups present in the target compound. The base structure is the bicyclo[2.2.1]heptane group, which provides a rigid and bulky structure that generally increases the melting point relative to smaller, less complex hydrocarbons. Bicyclo[2.2.1]heptane has a melting point around 125 degrees Celsius. The target molecule has various functional groups that will affect the melting point:\n\n - The presence of three methyl groups (+3 x 20 = +60), which are each inductively electron-donating and alkylating, will increase the melting point due to increased molecular weight and size.\n - The hydrazinecarboxamide group is polar and capable of hydrogen bonding, which typically raises melting points significantly. As it is a relatively bulky and complex functional group, let's estimate a substantial addition of +50 to the melting point.\n\nConsidering these additions:\n\n125 (base bicyclo[2.2.1]heptane) + 60 (three methyl groups) + 50 (hydrazinecarboxamide group) = 235 degrees Celsius.",
+    "mpC": 236.0,
+    "Prediction(integer)": 235.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "##Prediction: 230.0\n\n##Reason",
+    "Test (Predicted value)": 230.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

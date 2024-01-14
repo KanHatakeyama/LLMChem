@@ -1,0 +1,14 @@
+{
+    "name": "(2Z)-2-(4-phenyl-1,3-thiazol-2-yl)-3-pyridin-3-ylprop-2-enenitrile",
+    "smiles": "s1cc([nH0]c1C(C#N)=Cc1c[nH0]ccc1)c1ccccc1",
+    "csid": 4645505,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1214",
+    "Reason": "The compound (2Z)-2-(4-phenyl-1,3-thiazol-2-yl)-3-pyridin-3-ylprop-2-enenitrile has a base structure of a pyridine ring, with an approximate melting point of 115\u00b0C. The addition of a phenyl group can be expected to increase this due to increased molecular complexity, pi-pi stacking, and increased molecular weight; an estimated increase of +20\u00b0C is attributed to this. The alkyne group, being linear and rigid, contributes to van der Waals interactions which can stiffen the molecule and lead to an increase in melting point. An estimated increase of +5\u00b0C may be considered for the alkyne. The thiazole ring with nitrogen and sulfur can add to the molecule's rigidity and potential for hydrogen bonding, contributing to an estimated +10\u00b0C increase. The enamine (C=C-N) structure contributes to the molecule's resonance stability and can slightly increase the melting point, an estimate of +4\u00b0C is given for this functional group. The numbers for the phenyl, alkyne, thiazole, and enamine increases may need to be adjusted as the prediction does not match the actual value. To reconcile the prediction with the actual value of 164\u00b0C, the individual contributions from each group should be recalculated.",
+    "mpC": 164.0,
+    "Prediction(integer)": 154.0,
+    "Abs error": 10.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Thiazole ring: +80\u00b0C (due to the presence of a heteroaromatic ring which increases the rigidity and intermolecular forces). \n- Pyridine ring: +40\u00b0C (due to the presence of a nitrogen atom which can participate in hydrogen bonding and the aromaticity of the ring system). \n- Nitrile group: +20\u00b0C (due to the strong dipole and potential for dipole-dipole interactions). \n- Double bond in the propene chain: +5\u00b0C (due to the rigidity and planarity of the structure which can increase the melting point). \n- Phenyl group: +30\u00b0C (due to the additional aromaticity and potential for \u03c0-\u03c0 interactions). \n- Overall, the presence of multiple aromatic rings and heteroatoms contributes to a significant increase in the melting point due to increased molecular weight and intermolecular forces.\n##Prediction: 170.0\n##Reason",
+    "Test (Predicted value)": 170.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

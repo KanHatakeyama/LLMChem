@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-3-[(4-methylphenyl)amino]-1-(5,6,7,8-tetrahydronaphthalen-2-yl)prop-2-en-1-one",
+    "smiles": "O=C(C=CNc1ccc(C)cc1)c1ccc2CCCCc2c1",
+    "csid": 4711983,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1111",
+    "Reason": "The basic unit here is trans-chalcone, which has a melting point of 56\u00b0C. The addition of a 4-methyl group to the aromatic ring generally would increase the melting point due to larger molecular weight and increased van der Waals forces; this increment would typically be around +5-15\u00b0C. The tetrahydronaphthalen-2-yl group further adds to the molecular weight and has a rigid, bulky structure that increases intermolecular interactions, likely contributing around +50-60\u00b0C to the melting point. The amino group can form internal hydrogen bonds with the ketone, which would stabilize the solid state and could contribute around +10-15\u00b0C. Considering these effects, an additive prediction can be made for the compound's melting point.",
+    "mpC": 139.0,
+    "Prediction(integer)": 133.0,
+    "Abs error": 6.0,
+    "Test (Predicted reason)": "- Basic unit, naphthalene has a melting point of 80.5\u00b0C. \n- The presence of the amino group (NH2) typically increases the melting point due to the ability to form hydrogen bonds, which can be estimated to add around +40\u00b0C. \n- The tetrahydronaphthalene (C4H4) substituent is a smaller, less rigid structure compared to naphthalene, which can lower the melting point. This effect might be around -20\u00b0C. \n- The vinyl group (C=C) is a small alkene that can increase the melting point due to the rigidity it adds to the molecule, estimated at +5\u00b0C. \n- The 4-methylphenyl group (C) adds steric hindrance and a small increase in molecular weight, which might contribute to a slight increase in the melting point, estimated at +5\u00b0C. \n- The conjugated system of the ketone (C=O) and the amino group (NH2) can increase the melting point due to the rigidity and planarity of the molecule, estimated at +10\u00b0C. \n- The overall molecule is quite large and rigid, which can lead to a higher melting point due to the increased van der Waals forces.\n##Prediction: 125.0\n##Reason",
+    "Test (Predicted value)": 125.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

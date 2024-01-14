@@ -1,0 +1,14 @@
+{
+    "name": "(1r,2s)-(-)-ephedrine",
+    "smiles": "OC(C(C)NC)c1ccccc1",
+    "csid": 4856,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "To predict the melting point of (1r,2s)-(-)-ephedrine, we start with phenyl group as the base unit, which in cases like benzene has a melting point around 5.5 \u00b0C. The additional functional groups in ephedrine and their expected contributions to the melting point are as follows:\n- The hydroxyl (OH) group is known to form hydrogen bonds, which typically raises the melting point significantly. For hydroxyl group attached to an aliphatic chain, the increase can be around +80 \u00b0C.\n- The methyl (CH3) attached to the aliphatic chain may slightly increase the melting point due to increased molecular weight and van der Waals forces. This is usually a small shift, so we can estimate about a +5 \u00b0C increase.\n- The presence of the amine group (NH) also contributes to the melting point, as amines can engage in hydrogen bonding. As a primary amine attached to an aliphatic chain, it might contribute with an additional increase of around +50 \u00b0C.\n- The additional alkyl chain (C) connecting the amine and the OH group provides more molecular surface area that can increase van der Waals interactions, likely contributing a further increase of +10 \u00b0C.\nCombining these effects, the overall prediction for the melting point shift from the base unit is calculated.",
+    "mpC": 34.0,
+    "Prediction(integer)": 34.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The compound (1r,2s)-(-)-ephedrine has a basic structure similar to that of noradrenaline, with an additional methyl group and a chiral center. The presence of the methyl group generally increases the melting point due to increased molecular weight and van der Waals interactions, estimated at +5\u00b0C. The chiral center, which is a stereocenter, can also increase the melting point due to the additional rigidity and potential for hydrogen bonding, estimated at +10\u00b0C. The basic structure of noradrenaline has a melting point of around 10\u00b0C. Combining these alterations, we modify the base value of noradrenaline accordingly: Base noradrenaline (10\u00b0C) + 5\u00b0C (methyl group) + 10\u00b0C (chiral center).\n##Prediction: 25.0\n\n\n#Prediction",
+    "Test (Predicted value)": 25.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

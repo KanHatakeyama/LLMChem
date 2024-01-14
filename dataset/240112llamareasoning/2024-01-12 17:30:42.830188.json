@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-3-[5-(4-Methylphenyl)-2-furyl]-1-phenylprop-2-en-1-one",
+    "smiles": "O=C(C=Cc1oc(cc1)c1ccc(C)cc1)c1ccccc1",
+    "csid": 4645634,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1191",
+    "Reason": "The compound in question can be broken down into three parts for analysis: a phenyl ring (Ph), a 4-methylphenyl group (p-tolyl), and a furan ring with an additional phenyl substituent. The basic phenyl ring has a known melting point of around 41\u00b0C. The p-tolyl group is expected to increase the melting point due to increasing the molecular weight and providing some additional van der Waals interactions; we can approximate this increase at about 20\u00b0C. The furan ring with an extra phenyl is likely to increase the melting point significantly owing to the rigidity and planarity it introduces to the molecule, as well as potential \u03c0-\u03c0 stacking interactions. This effect might be even stronger than the p-tolyl group, so an increase of approximately 30\u00b0C can be predicted. Additionally, the conjugated system across the molecule provides further rigidity, which should also increase the melting point roughly by an additional 10\u00b0C. All these increments are based on general trends observed for similar functional groups in other molecules.",
+    "mpC": 101.0,
+    "Prediction(integer)": 101.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The basic unit for comparison is benzene, which has a melting point of 5.5\u00b0C. The compound in question has several functional groups that will affect its melting point: a furan ring, a phenyl group, a prop-2-en-1-one structure, and a methyl group. The furan ring is a heterocyclic compound which generally increases the melting point due to the rigidity and polarity it introduces. The phenyl group is a large, aromatic ring which also increases the melting point due to \u03c0-\u03c0 interactions and increased molecular weight. The prop-2-en-1-one structure introduces a double bond and a carbonyl group, which can increase the melting point due to the rigidity and polarity of the double bond and the potential for hydrogen bonding with the carbonyl. The methyl group adds a small increase due to the increase in molecular weight and van der Waals interactions.\n##Prediction: 105.0\n\n\n#Prediction",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

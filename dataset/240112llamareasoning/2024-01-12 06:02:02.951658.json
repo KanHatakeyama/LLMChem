@@ -1,0 +1,14 @@
+{
+    "name": "2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,9-heptadecafluoro-N-pyridin-3-ylnonanamide",
+    "smiles": "FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(=O)Nc1c[nH0]ccc1",
+    "csid": 2029927,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3456",
+    "Reason": "The compound 2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,9-heptadecafluoro-N-pyridin-3-ylnonanamide is a large molecule consisting of several functional groups. The base structure for the melting point estimation would be nonanamide, which has an estimated melting point of around -5\u00b0C, due to its long aliphatic chain which is typical for such amides. Each fluorine atom attached to the carbon atoms increases the melting point due to the added electronegativity and the increased van der Waals forces, approximately +5\u00b0C per fluorine atom. There are 17 fluorine atoms, adding up to +85\u00b0C. The pyridine ring increases the rigidity and planarity of the molecule, typically raising the melting point by another +50\u00b0C. Combining these adjustments, the predicted melting point is (-5) + 17(5) + 50 = 140\u00b0C.",
+    "mpC": 145.0,
+    "Prediction(integer)": 140.0,
+    "Abs error": 5.0,
+    "Test (Predicted reason)": "- Basic unit, pyridine, has a melting point of 20\u00b0C. \n- Fluorine substituents: Each fluorine can be estimated to add +5\u00b0C due to increased molecular weight and dipole-dipole interactions. With 17 fluorines, this would contribute +85\u00b0C. \n- Pyridine ring: The nitrogen in the pyridine ring can participate in hydrogen bonding, which can increase the melting point. This might add +10\u00b0C. \n- Amide group: The amide group can form strong hydrogen bonds, which can significantly increase the melting point. This might add +30\u00b0C. \n- Long carbon chain: The long carbon chain can increase the melting point due to increased van der Waals forces. This might add +10\u00b0C. \n- The cumulative effect of these functional groups is expected to result in a high melting point.\n##Prediction: 135.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 135.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

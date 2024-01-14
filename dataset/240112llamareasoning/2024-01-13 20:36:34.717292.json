@@ -1,0 +1,14 @@
+{
+    "name": "3-hydroxyflavone",
+    "smiles": "c1ccc(cc1)c2c(c(=O)c3ccccc3o2)O",
+    "csid": 10871,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A18110",
+    "source": "Alfa Aesar",
+    "Reason": "The base structure to consider is flavone, which has a melting point close to 95 degrees Celsius. The 3-hydroxyflavone molecule has additional functional groups compared to flavone: a hydroxy group in the 3-position. The hydroxy group is expected to form strong intramolecular hydrogen bonds with the carbonyl group, which would significantly increase the melting point due to the additional stabilization of the crystal lattice. However, since the hydroxy group can participate in both intermolecular and intramolecular hydrogen bonding, the net effect could be a moderate increase. Estimating the contribution of the hydroxy group to the melting point might be around +75 degrees Celsius, considering both its influence on molecular weight and hydrogen bonding.",
+    "mpC": 170.75,
+    "Prediction(integer)": 170.0,
+    "Abs error": 0.75,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C.\n- Hydroxyl group: +50 (due to hydrogen bonding and increased polarity)\n- Ketone group: +20 (due to polarity and potential for dipole-dipole interactions)\n- Flavone structure: +100 (due to the rigidity and planarity of the structure, which enhances \u03c0-\u03c0 stacking and van der Waals interactions)\n\nAdding these effects to the base value of benzene gives us: 5.5 + 50 + 20 + 100 = 175.5\u00b0C.\n##Prediction: 175.5\n\n\n#Problem",
+    "Test (Predicted value)": 175.5,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

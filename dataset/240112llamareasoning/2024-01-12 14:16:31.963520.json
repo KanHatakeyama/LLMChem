@@ -1,0 +1,14 @@
+{
+    "name": "N,N'-[4,6-bis(2-hydroxyethoxy)benzene-1,3-diyl]diacetamide",
+    "smiles": "O=C(Nc1cc(NC(=O)C)c(OCCO)cc1OCCO)C",
+    "csid": 2030320,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3402",
+    "Reason": "The compound N,N'-[4,6-bis(2-hydroxyethoxy)benzene-1,3-diyl]diacetamide consists of a central benzene ring and various functional groups that influence its melting point. The presence of hydroxyl groups (\u2013OH) contributes significantly to an increase in the melting point due to hydrogen bonding. However, the increment of +80\u00b0C per \u2013OH group is an overestimate. A more realistic estimate for each \u2013OH group would be around +20\u00b0C, resulting in +80\u00b0C for all four groups. Ether linkages (\u2013O\u2013) provide a smaller increase due to the dipole-dipole interactions, with a more conservative estimate being +5\u00b0C per ether group for a total of +20\u00b0C. The amide groups (\u2013CONH\u2013) have a strong influence on the melting point due to hydrogen bonding and resonance, but the +100\u00b0C addition per group is excessive. A more moderate increase of +50\u00b0C per amide bond is appropriate, resulting in +100\u00b0C. The acetamide side chains also contribute to a higher melting point through hydrogen bonding, but rather than +50\u00b0C per group, an increase of +30\u00b0C each seems more plausible, so +60\u00b0C in total. Taking all these modified functional group effects into account, along with the base benzene ring melting point, we can make a more accurate prediction.",
+    "mpC": 206.0,
+    "Prediction(integer)": 206.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "##Prediction: 200.0\n\n##Reason",
+    "Test (Predicted value)": 200.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

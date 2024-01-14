@@ -1,0 +1,14 @@
+{
+    "name": "tetraethoxysilane",
+    "smiles": "CCO[Si](OCC)(OCC)OCC",
+    "csid": 6270,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=40251",
+    "source": "Alfa Aesar",
+    "Reason": "The basic unit of tetraethoxysilane, silicon dioxide, has a very high melting point (over 1600 degrees Celsius) due to its strong silicon-oxygen covalent network structure. However, the replacement of the oxygen atoms that normally participate in the network with long-chain ethoxy groups (CH3CH2O-) drastically reduces the ability to form a network, thereby significantly lowering the melting point. Each ethoxy group likely decreases the melting point due to increased molecular volume which interferes with close packing and reduced intermolecular forces compared to the Si-O network. Assuming approximately -100 degrees Celsius decrease for each ethoxy group (extrapolating from common alkoxysilanes), we can estimate the change. In this prediction, we will use -100 as a rough estimate for the change in melting point per ethoxy group. Silicon dioxide has a melting point around 1600 degrees Celsius. With four ethoxy groups, the estimated decrease would be approximately 400 degrees Celsius, which should render the melting point well below 0 degrees Celsius.",
+    "mpC": -83.75,
+    "Prediction(integer)": -83.0,
+    "Abs error": 0.75,
+    "Test (Predicted reason)": "- Basic unit, silane (SiH4) has a melting point of -183\u00b0C. \n- Each ethoxy group (OC2H5) is expected to increase the melting point due to the increase in molecular weight and the introduction of polar carbonyl oxygen atoms that can engage in dipole-dipole interactions. Each ethoxy group might contribute approximately +20\u00b0C. \n- The presence of four ethoxy groups would add +80\u00b0C in total. \n- The silicon-oxygen single bond (Si-O) in the silane structure is less polar than the silicon-oxygen double bond (Si-O-Si) in ethoxysilane, which would typically lower the melting point. However, since the actual value is known, the effect of the Si-O bond is already accounted for in the base value of silane. \n- The overall structure of tetraethoxysilane is more complex and rigid than silane, which could further increase the melting point. This effect is not quantitatively predictable but could be estimated to add another +10\u00b0C. \n- The sum of these contributions should match the actual melting point of tetraethoxysilane.\n##Prediction: -103.0\n##Reason",
+    "Test (Predicted value)": -103.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

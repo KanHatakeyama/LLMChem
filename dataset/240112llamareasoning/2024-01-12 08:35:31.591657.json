@@ -1,0 +1,14 @@
+{
+    "name": "Trilostane",
+    "smiles": "N#CC=2C[C@]4(C)[C@H]5CC[C@]1(C)[C@@H](O)CC[C@H]1[C@@H]5CC[C@]43O[C@@H]3C=2O",
+    "csid": 570949,
+    "link": "http://www.drugbank.ca/drugs/DB01108",
+    "source": "DrugBank",
+    "Reason": "Trilostane has a complex structure with a steroid framework which tends to result in high melting points due to structured packing and strong intermolecular forces that are common in steroids. The various functional groups such as hydroxyl and keto groups contribute to an increase in melting point due to additional hydrogen-bonding possibilities and polar interactions. An ethynyl group might slightly reduce the melting point due to its minimal effect on the molecular weight. However, the predicted values do not match the actual melting point, indicating an underestimation of either the baseline contribution of the steroid framework or the net effect of the functional groups. It is also possible that the synergistic effect of these groups interacting within the steroid framework is greater than the sum of the individual contributions.",
+    "mpC": 264.0,
+    "Prediction(integer)": 273.0,
+    "Abs error": 9.0,
+    "Test (Predicted reason)": "The target compound, trilostane, is a steroid with a complex structure that includes multiple functional groups and structural features that influence its melting point. Here's a breakdown of the contributions to the melting point:\n- Basic unit, steroid structure, has a high melting point due to the rigid, planar structure and the presence of multiple rings which facilitate strong \u03c0-\u03c0 interactions (+100).\n- The presence of three chlorine atoms attached to the steroid ring increases the molecular weight and polarizability, leading to a higher melting point (+30 each).\n- The ketone groups (C=O) in the steroid structure can form hydrogen bonds, which would further increase the melting point (+20 each).\n- The hydroxyl groups (OH) in the steroid structure can also form hydrogen bonds, adding to the melting point (+15 each).\n- The presence of a methyl group on the steroid ring slightly increases the melting point due to the increase in molecular weight (+5).\nConsidering these contributions, the melting point can be predicted quantitatively for each functional group adjustment to the base steroid structure.\n##Prediction: 255.0\n\n\n##Prediction",
+    "Test (Predicted value)": 255.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

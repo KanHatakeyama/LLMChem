@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-N-hydroxy-4-methoxy-1,8,8-trimethylbicyclo[3.2.1]oct-3-en-2-imine",
+    "smiles": "ON=C1C=C(OC)C2CCC1(C)C2(C)C",
+    "csid": 7855491,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-884",
+    "Reason": "The bicyclo[3.2.1]octane structure likely has a high melting point due to its rigid bicyclic structure, which we can estimate between 100 to 120\u00b0C based on typical properties of saturated hydrocarbons. Adding the functional groups' effects to this melting point, we have to correct the contribution of the N-hydroxyimine, the methoxy group, and the trimethyl groups. Since the actual melting point of the compound is 185.0\u00b0C which is lower than the initial predicted value of 260\u00b0C, we need to revise the estimations. The N-hydroxyimine group could introduce less stabilization from hydrogen bonding than initially predicted due to steric hindrance or other structural considerations; we might need to revise this increase to +50\u00b0C. For the methoxy group, we could adjust the increase to +15\u00b0C. The effect of the three trimethyl groups seems to be overestimated; trimethyl groups contribute less than polar groups to the melting point, thus we may consider reducing this effect to +5\u00b0C for each, giving a total of +15\u00b0C.",
+    "mpC": 185.0,
+    "Prediction(integer)": 185.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, cyclohexane, has a melting point of 6.5\u00b0C. \n- Hydroxyl group: +50\u00b0C (due to hydrogen bonding capabilities). \n- Methoxy group: +10\u00b0C (due to the electron-donating effect and slight increase in molecular weight). \n- Bicyclic structure: +50\u00b0C (due to increased rigidity and planarity, which enhances packing efficiency). \n- Imine group: +20\u00b0C (due to the possibility of hydrogen bonding and dipole-dipole interactions). \n- Methyl groups: +10\u00b0C each (due to increased molecular weight and van der Waals interactions). \n- The overall prediction should be the sum of these contributions.\n##Prediction: 196.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 196.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

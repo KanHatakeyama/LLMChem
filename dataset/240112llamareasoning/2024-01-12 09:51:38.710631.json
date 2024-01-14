@@ -1,0 +1,14 @@
+{
+    "name": "(1E)-1-(1,2-dihydroacenaphthylen-5-yl)-N-hydroxy-2-phenylethanimine",
+    "smiles": "ON=C(Cc1ccccc1)c1ccc2CCc3cccc1c32",
+    "csid": 7855433,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-896",
+    "Reason": "The target compound contains multiple functional groups and structural features that influence its melting point. - Basic unit, benzene has a melting point of 5.5 \u00b0C. - Phenyl group: +30 \u00b0C for each, due to the increment in molecular weight and the planar structure, contributing to increased van der Waals interactions. Since there are two phenyl groups, this results in an addition of +60 \u00b0C. - N-hydroxyethanimine moiety: +40 \u00b0C, due to hydrogen bonding capability of the hydroxyl and imine groups, and the polar nature of the overall moiety, which enhances intermolecular interactions. - Acenaphthylene framework: +25 \u00b0C, due to the rigid bicyclic structure that provides additional planar surfaces for stacking, increasing the van der Waals interactions. - Double bond: +5 \u00b0C, because it creates a rigid planar area that can stack well with other molecules, increasing the melting point slightly. Considering all these increments: 5.5 (basic benzene unit) + 60 (phenyl groups) + 40 (N-hydroxyethanimine) + 25 (acenaphthylene framework) + 5 (double bond), we can predict the melting point.",
+    "mpC": 138.0,
+    "Prediction(integer)": 135.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "- Basic unit, naphthalene has a melting point of 80.5\u00b0C. \n- The presence of a phenyl group generally increases the melting point due to increased pi-pi stacking interactions and van der Waals forces, estimated at +20\u00b0C. \n- The presence of an aromatic amine group (ethanimine) can also increase the melting point due to the potential for hydrogen bonding, estimated at +15\u00b0C. \n- The presence of a hydroxy group (\u2013OH) can form hydrogen bonds, which typically increases the melting point, estimated at +20\u00b0C. \n- The presence of a double bond in the aromatic ring (acenaphthylene) can slightly increase the melting point due to the rigidity it introduces, estimated at +5\u00b0C. \n- The overall structure is more rigid and planar than naphthalene, which can lead to better packing and higher melting point.\n##Prediction: 130.0\n##Reason",
+    "Test (Predicted value)": 130.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

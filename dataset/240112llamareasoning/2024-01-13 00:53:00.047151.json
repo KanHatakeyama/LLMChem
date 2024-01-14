@@ -1,0 +1,14 @@
+{
+    "name": "(3Z)-3-{[chloro(phenyl)amino]methylidene}-1,7,7-trimethylbicyclo[2.2.1]heptan-2-one",
+    "smiles": "ClN(C=C1C(=O)C2(C)CCC1C2(C)C)c1ccccc1",
+    "csid": 2031353,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3090",
+    "Reason": "The starting point for the prediction is considering a similar compound without additional functional groups, cyclohexanone, which has a melting point of around 47\u00b0C. To this, we will add the effects of functional groups in the target compound:\n- Phenyl group: +30 (due to increased molecular weight and pi stacking interactions)\n- Chlorine substituent: +20 (due to larger atomic weight and potential dipole interactions)\n- Amino group: -10 (it may introduce some polar character but also disrupt the crystal packing)\n- Additional alkyl groups (methyl and methylene on the ring): +10 (increased molecular weight and hydrophobic bulk)\n- Bicyclic system: +10 (increased rigidity and London dispersion forces)\n\nAdding these effects to the base value of cyclohexanone gives us: \n47 (base value for cyclohexanone) + 30 (phenyl) + 20 (chlorine) - 10 (amino group) + 10 (additional alkyl groups) + 10 (bicyclic system) = 107\u00b0C.",
+    "mpC": 103.0,
+    "Prediction(integer)": 107.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "The base structure of bicyclo[2.2.1]heptane has a melting point of around 10\u00b0C. The introduction of a chloro group (Cl) increases the melting point due to the increase in molecular weight and the introduction of dipole-dipole interactions, estimated at +10\u00b0C. The amino group (NH2) can form hydrogen bonds, which significantly increases the melting point, estimated at +20\u00b0C. The ketone (C=O) group also contributes to an increase due to its polarity and potential for dipole-dipole interactions, estimated at +15\u00b0C. The methyl groups (CH3) add to the molecular weight and van der Waals forces, estimated at +5\u00b0C each, for a total of +15\u00b0C. The methylidene (CH2CH2) group adds to the molecular weight and van der Waals forces, estimated at +5\u00b0C. The presence of the bicyclic structure also contributes to the rigidity of the molecule, which can increase the melting point, estimated at +5\u00b0C.\n##Prediction: 105.0\n\n\n#Problem",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

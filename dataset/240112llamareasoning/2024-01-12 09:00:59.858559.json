@@ -1,0 +1,14 @@
+{
+    "name": "6-[2-(1-benzyl-3,3-dimethyl-1,3-dihydro-2H-indol-2-ylidene)ethylidene]-4-bromo-2-nitrocyclohexa-2,4-dien-1-one",
+    "smiles": "Brc1cc([N+](=O)[O-])c([O-])c(c1)C=CC1=[N+](Cc2ccccc2)c2ccccc2C1(C)C",
+    "csid": 2034284,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2344",
+    "Reason": "To predict the melting point of 6-[2-(1-benzyl-3,3-dimethyl-1,3-dihydro-2H-indol-2-ylidene)ethylidene]-4-bromo-2-nitrocyclohexa-2,4-dien-1-one, we can start with the basic unit of benzene, which has a melting point of 5.5 degrees Celsius. We then consider the impact of various functional groups and structural features present in our target compound relative to benzene:\n- Bromine substituent: +40 (heavy atom with significant van der Waals forces)\n- Nitro group: +80 (introduces polarity and possible intermolecular hydrogen bonding)\n- Two aromatic rings additional to benzene: +40 (increment per ring due to pi-stacking and increased molecular size)\n- Keto group (cyclohexadienone): +20 (polarity)\n- Benzyl group: +20 (additional phenyl and alkyl chain)\n- Two methyl groups and one tertiary carbon in the indole structure: +10 (steric bulk)\n- Conjugation and rigidity in the structure: +30 (conjugated and planar structures tend to have higher melting points)\n\nThese adjustments are not additive but these figures give us a rough estimate of the effects of the functional groups. We combine these to get an estimated melting point adjustment from the base benzene unit.",
+    "mpC": 208.0,
+    "Prediction(integer)": 205.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "The target compound has several functional groups that influence its melting point: \n- Benzene ring: +80 (base value for aromatic compounds)\n- Indole ring: +40 (due to the presence of nitrogen and aromaticity)\n- Bromine atom: +50 (due to its large size and high electronegativity, which increases intermolecular forces)\n- Nitro group: +30 (due to its strong electron-withdrawing nature and potential for hydrogen bonding)\n- Cyclohexadienone structure: +20 (due to the rigidity and planarity of the structure, which can lead to better packing)\n- Two ethylidene groups: +10 each (due to the increase in molecular weight and van der Waals forces)\n\nAdding these values together gives us a predicted melting point.\n##Prediction: 200.0\n##Reason",
+    "Test (Predicted value)": 200.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

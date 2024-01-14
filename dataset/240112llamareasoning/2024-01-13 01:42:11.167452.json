@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-1-(5-Methyl-2-furyl)-3-[5-(3-nitrophenyl)-2-furyl]prop-2-en-1-one",
+    "smiles": "O=[N+]([O-])c1cccc(c1)c1oc(cc1)C=CC(=O)c1oc(C)cc1",
+    "csid": 4645639,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1186",
+    "Reason": "Starting with the basic unit furan, which has a melting point around -85.6, the target compound's melting point is significantly raised by a number of functional groups and structural features. The methyl (CH3) group generally increases molecular weight and Van der Waals forces, raising the melting point by an estimated +20. Conjugated double bonds strengthen the compound's planarity and rigidity and enhance \u03c0-\u03c0 stacking, contributing to an approximate increase of +100. The ketone group (C=O) is polar, leading to stronger dipole-dipole interactions; this typically raises the melting point by about +40. The nitro group (-NO2) is a strong electron-withdrawing group, which induces significant dipole moments, raising the melting point considerably; this effect can be estimated at +85. Combining these effects to estimate the overall influence on the basic furan unit results in the predicted value.",
+    "mpC": 160.0,
+    "Prediction(integer)": 159.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, furan, has a melting point of -85.6\u00b0C. \n- Each additional furan ring increases the melting point due to increased molecular weight and potential for \u03c0-\u03c0 interactions, estimated at +20\u00b0C per ring. \n- The presence of a nitro group on the phenyl ring contributes to the melting point through strong intermolecular forces such as dipole-dipole interactions and potential hydrogen bonding, estimated at +40\u00b0C. \n- The conjugated double bond in the prop-2-en-1-one moiety contributes to the rigidity of the molecule and potential for \u03c0-\u03c0 interactions, estimated at +20\u00b0C. \n- The overall molecular structure and the presence of multiple aromatic rings and functional groups suggest a significant increase in melting point compared to a single furan ring. \n- The presence of the enone moiety, which can engage in dipole-dipole interactions and has a rigid structure, is estimated to add another +20\u00b0C. \n- The cumulative effect of these functional groups and structural features is expected to significantly increase the melting point from the base value of furan.\n##Prediction: 145.0\n##Reason",
+    "Test (Predicted value)": 145.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

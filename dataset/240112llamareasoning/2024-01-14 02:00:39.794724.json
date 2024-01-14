@@ -1,0 +1,14 @@
+{
+    "name": "Lamotrigine",
+    "smiles": "Clc1cccc(c1Cl)c2nnc(N)nc2N",
+    "csid": 3741,
+    "link": "http://www.drugbank.ca/drugs/DB00555",
+    "source": "DrugBank",
+    "Reason": "The basic unit for this compound is benzene, with a typical melting point around 5.5\u00b0C. Now we look at the substituents and their effects: - Each chlorine (Cl) on the benzene ring significantly increases the melting point, due to the increased molecular weight and stronger intermolecular forces (such as dipole-dipole interactions) they provide. Estimated increase per Cl: +50\u00b0C. - The triazine moiety (c2nnc(N)nc2N) further greatly increases the melting point through its additional nitrogen atoms that can engage in hydrogen bonding and the rigid, planar structure of the system which facilitates strong intermolecular interactions. Estimated increase for triazine: +100\u00b0C. - The amine group (N) can engage in hydrogen bonding, which typically would raise the melting point. However, in this molecule, the amine is part of the triazine ring, so its effect is already included in the triazine estimate. We won't double-count this effect. Thus, the presence of two chlorine atoms and the triazine structure, without considering interactions that might lower the melting point, leads to: (2 * 50) + 100 + 5.5 (base benzene) = +205.5\u00b0C increase.",
+    "mpC": 217.0,
+    "Prediction(integer)": 210.0,
+    "Abs error": 7.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C.\n- The presence of two chlorine atoms on the benzene ring increases the melting point due to increased molecular weight and polarity; each chlorine could add approximately +20.\n- The addition of two nitrogen atoms in the form of a methylene bridge and an amine group contributes to the melting point through increased polarity and potential for hydrogen bonding; each nitrogen could add approximately +30.\n- The presence of a triazine ring, which is a fused ring system, increases the rigidity of the molecule, leading to a higher melting point; this could add approximately +50.\n- The overall molecular complexity and the presence of multiple functional groups that can engage in intermolecular interactions, such as hydrogen bonding, will further increase the melting point; this could add approximately +50.\n##Prediction: 205.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 205.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

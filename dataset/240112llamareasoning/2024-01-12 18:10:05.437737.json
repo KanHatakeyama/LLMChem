@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-3-[5-(4-Bromophenyl)-2-furyl]-1-phenylprop-2-en-1-one",
+    "smiles": "Brc1ccc(cc1)c1oc(cc1)C=CC(=O)c1ccccc1",
+    "csid": 4492575,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1565",
+    "Reason": "Let's analyze the compound structure based on the functional groups and their typical influence on the melting point. Our reference compound will be benzene, which has a documented melting point of 5.5 degrees Celsius. We will consider the influence of the following functional groups and structural features: phenyl rings, bromine substituent, furan ring, alpha-beta unsaturated ketone. Each phenyl ring generally increases the melting point due to increased planarity and pi-stacking ability, which enhances intermolecular interactions; this can add roughly 20-30 degrees per ring. The bromine substituent is a heavy atom which increases the molecular weight and therefore may raise the melting point, typically adding about 15 degrees. The furan ring contributes similarly to a phenyl ring due to its aromatic character, potentially adding another 20 degrees. However, it is less substantial than a phenyl, so we might count it as a 15 degree addition. The alpha-beta unsaturated ketone is a polar, planar structure that can enable strong dipole-dipole interactions and potential hydrogen bonding. This should add significantly to the melting point, perhaps around 40 degrees. Adding these adjustments to the benzene base melting point we get: 5.5 (benzene) + 60 (3x phenyl rings at 20 each) + 15 (bromine) + 15 (furan) + 40 (unsaturated ketone) = 135.5 degrees Celsius.",
+    "mpC": 129.0,
+    "Prediction(integer)": 135.0,
+    "Abs error": 6.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Bromophenyl group: +40\u00b0C (due to increased molecular weight and enhanced van der Waals forces) \n- Furan ring: +20\u00b0C (due to the presence of a five-membered ring which increases rigidity and intermolecular forces) \n- Ketone group: +40\u00b0C (due to the polar carbonyl group which can form dipole-dipole interactions) \n- Additional phenyl group: +20\u00b0C (due to increased molecular weight and pi-pi interactions) \n- Total predicted increase: +140\u00b0C\n##Prediction: 145.0\n##Reason",
+    "Test (Predicted value)": 145.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

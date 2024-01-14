@@ -1,0 +1,14 @@
+{
+    "name": "2-methyl-3,5-dinitrobenzoic acid",
+    "smiles": "Cc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])C(=O)O",
+    "csid": 89258,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A14555",
+    "source": "Alfa Aesar",
+    "Reason": "When predicting the melting point of a compound, various functional groups and structural features should be considered for their contributions to the overall melting point. The basic unit for this compound is benzoic acid, which has a melting point of 122. For the prediction, we would take this as our starting value and adjust it based on the substituents present in 2-methyl-3,5-dinitrobenzoic acid:\n\n- Methyl group: Generally, a methyl group can raise the melting point due to an increase in molecular weight and size, which could contribute to a stronger van der Waals forces. The effect is not very large, especially for melting points, and in some cases can actually lower the melting point by disrupting crystal packing. Let's estimate a mild increase of +5.\n\n- Nitro groups: Nitro groups are known to significantly increase the melting point because they can participate in strong intermolecular interactions, such as hydrogen bonding, and they increase the symmetry and rigidity of the molecule. Each nitro group could contribute substantially to the melting point. We'd assign an increase of about +40 for each nitro group.\n\n- Carboxylic acid group: The existing carboxylic acid in benzoic acid is accounted for in the base value of 122.\n\nAdding these values together: 122 (base benzoic acid) + 5 (methyl group) + 40 (first nitro group) + 40 (second nitro group) = 207.",
+    "mpC": 205.0,
+    "Prediction(integer)": 207.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "##Prediction: 200.0\n\n\n#Problem",
+    "Test (Predicted value)": 200.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

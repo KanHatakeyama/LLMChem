@@ -1,0 +1,14 @@
+{
+    "name": "benzaldehyde, 3,4-diethoxy-",
+    "smiles": "CCOc1cc(ccc1OCC)C=O",
+    "csid": 67412,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The basic unit to consider here is benzene, which has a melting point of 5.5 degrees Celsius. The effects of the substituents on benzene can be considered as follows: - The aldehyde (-CHO) group tends to decrease the melting point due to its dipolar nature and the fact it does not favor crystal packing, so we can estimate a -20-degree shift. - Ether groups (+OC2H5) typically increase the melting point because they introduce more mass and some polarity. Each ether functional group can be estimated to add +15 degrees to the melting point. - There are two ether groups in the molecule, so the combined effect is an increase of 30 degrees. Combining these influences: 5.5 (benzene's melting point) - 20 (aldehyde's influence) + 30 (two ether groups) = 15.5 degrees Celsius",
+    "mpC": 22.0,
+    "Prediction(integer)": 15.0,
+    "Abs error": 7.0,
+    "Test (Predicted reason)": "The basic unit, benzene, has a melting point of 5.5 degrees Celsius. The presence of an aldehyde group (C=O) generally increases the melting point due to the potential for hydrogen bonding and dipole-dipole interactions. This could add approximately 20 degrees Celsius. The two ethoxy groups (OCH2CH3) are electron-donating and can increase the melting point due to the inductive effect and the increase in molecular weight. Each ethoxy group might add around 5 degrees Celsius. The overall effect of these groups is an increase in the melting point due to the additional van der Waals forces and potential hydrogen bonding.\n##Prediction: 39.0\n\n\n#Prediction",
+    "Test (Predicted value)": 39.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

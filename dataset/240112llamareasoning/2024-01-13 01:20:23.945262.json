@@ -1,0 +1,14 @@
+{
+    "name": "(3E)-3-benzyl-4-[(4-methylphenyl)amino]but-3-en-2-one",
+    "smiles": "O=C(C)C(=CNc1ccc(C)cc1)Cc1ccccc1",
+    "csid": 4832291,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1009",
+    "Reason": "The basic unit for comparison is acetophenone, which has a melting point of 20.8\u00b0C. The compound (3E)-3-benzyl-4-[(4-methylphenyl)amino]but-3-en-2-one has several groups to consider for predicting melting point shifts: \n- The benzyl group: +30 (larger molecular weight and adds to the crystal packing through pi-stacking) \n- The amino group linked to a para-methyl phenyl: +35 (due to the presence of hydrogen bonding and additional ring structure)\n- The butenone moiety in conjugation with the amino group and a phenyl ring: +20 (conjugation increases rigidity and planarity, improving crystal packing) \n Each of these functionalities would contribute to increasing the melting point compared to the base compound acetophenone.",
+    "mpC": 103.0,
+    "Prediction(integer)": 106.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "The compound in question has several functional groups that influence its melting point. The basic unit here is benzene, which has a melting point of 5.5 \u00b0C. The following functional groups and structural features will affect the melting point:\n- The presence of a ketone group (C=O) generally increases the melting point due to the polar carbonyl group, which can form hydrogen bonds. This effect might be estimated to add about 20 \u00b0C.\n- The amino group (NH2) can form hydrogen bonds, which would significantly increase the melting point. The effect might be estimated to add about 40 \u00b0C.\n- The benzyl group (phenylmethyl) adds to the molecular weight and rigidity, which can increase the melting point. The effect might be estimated to add about 20 \u00b0C.\n- The methyl group attached to the benzene ring adds to the molecular weight and steric hindrance, which can increase the melting point. The effect might be estimated to add about 5 \u00b0C.\nThe combined effect of these groups leads to the prediction of the melting point.\n##Prediction: 90.0\n\n\n#Prediction",
+    "Test (Predicted value)": 90.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

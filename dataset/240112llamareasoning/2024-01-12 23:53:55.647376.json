@@ -1,0 +1,14 @@
+{
+    "name": "indole-3-carbinol",
+    "smiles": "OCc2cnc1ccccc12",
+    "csid": 3581,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "To predict the melting point of indole-3-carbinol, let us start with the basic structure which is indole. The melting point of indole itself is around 52 degrees Celsius. This serves as our starting point. Next, we'll consider the substituents and their effects: \n- The hydroxyl (OH) group typically increases the melting point due to the ability to form hydrogen bonds. This can be significant, let's estimate it as +50 degrees Celsius due to the strong intermolecular hydrogen bonding capability. \n- The presence of a benzene ring fused to a pyrrole already accounts for the indole's initial melting point, so no additional increment for this is needed. \n- There's no additional alkyl group on the nitrogen, so no steric hindrance increase or other alkyl-related increases are considered. \n- The overall molecular complexity and potential for hydrogen bonding interactions are already accounted for in the indole base and the OH group's effect. Thus, our estimated increase includes only the contribution from the hydroxyl group.",
+    "mpC": 97.5,
+    "Prediction(integer)": 102.0,
+    "Abs error": 4.5,
+    "Test (Predicted reason)": "The basic unit for comparison is benzene, which has a melting point of 5.5\u00b0C. Indole-3-carbinol has several functional groups that will affect its melting point:\n- The indole ring itself is a fused ring system, which generally increases the melting point due to increased rigidity and planarity compared to benzene. This could be estimated at +50\u00b0C.\n- The hydroxyl group (-OH) is capable of hydrogen bonding, which significantly increases the melting point. We can estimate this effect at +40\u00b0C.\n- The presence of a double bond in the indole ring might contribute to a slightly higher melting point due to increased rigidity and possible pi-pi stacking interactions; this could be estimated at +10\u00b0C.\n##Prediction: 105.0\n\n\n#Prediction",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

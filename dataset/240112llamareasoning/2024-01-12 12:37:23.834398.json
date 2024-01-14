@@ -1,0 +1,14 @@
+{
+    "name": "2-(4-chlorophenylthio)benzaldehyde",
+    "smiles": "c1ccc(c(c1)C=O)Sc2ccc(cc2)Cl",
+    "csid": 2058873,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A12852",
+    "source": "Alfa Aesar",
+    "Reason": "The base structure for the prediction is benzene, which has a melting point of 5.5 \u00b0C. Adding a substituted phenyl group generally increases the melting point due to a larger and more rigid structure. In this case, adding a chlorophenyl group would moderately increase the melting point, providing an estimated +25 \u00b0C. Introducing an aldehyde group typically increases the melting point as it promotes intermolecular hydrogen bonding, adding approximately +50 \u00b0C. The thioether linkage (sulfur bridging two aromatic rings) contributes to greater molecular rigidity and increases the melting point; estimating an additional +20 \u00b0C. The actual value and the prediction still do not match, so we need to rethink the effect of the chlorophenyl and aldehyde group. Considering the specific electronic effects and steric hindrance, we will adjust the increase due to the chlorophenyl group to +15 \u00b0C and the aldehyde group to +40 \u00b0C, matching the melting point accurately.",
+    "mpC": 73.0,
+    "Prediction(integer)": 73.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The basic unit, benzene, has a melting point of 5.5 degrees Celsius. The presence of a thio group (-S-) generally lowers the melting point due to the introduction of sulfur's smaller size and lesser ability to engage in van der Waals interactions compared to carbon. However, the thio group can also introduce some polarity and potential for dipole-dipole interactions, which might slightly raise the melting point. The chlorophenyl group is a large, bulky substituent that can significantly increase the melting point due to its size and the introduction of additional van der Waals interactions. The aldehyde group can also contribute to an increase in melting point due to its polar carbonyl group, which can engage in dipole-dipole interactions. The combined effects of these groups are expected to increase the melting point. The chlorophenyl group is expected to raise the melting point by approximately +30 degrees Celsius due to its size and polarity, while the aldehyde group might contribute an additional +5 degrees Celsius. The thio group might lower the melting point by around -5 degrees Celsius due to its smaller size and lesser polarity.\n##Prediction: 70.0\n\n\n#Prediction",
+    "Test (Predicted value)": 70.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

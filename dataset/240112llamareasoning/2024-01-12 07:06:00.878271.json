@@ -1,0 +1,14 @@
+{
+    "name": "Sulfapyridine",
+    "smiles": "O=S(=O)(Nc1ccccn1)c2ccc(N)cc2",
+    "csid": 5145,
+    "link": "http://www.drugbank.ca/drugs/DB00891",
+    "source": "DrugBank",
+    "Reason": "For predicting the melting point, let's consider two main functional groups present in sulfapyridine: the sulfonyl group (-S(=O)2-) and the primary amino group (-NH2). Basic unit we can use for comparison is pyridine, which has a melting point of -42\u00b0C. The sulfonyl group is a strong electron-withdrawing group, which would increase intermolecular forces due to dipole interactions, significantly raising the melting point. We can estimate the increase due to the sulfonyl group to be around +170\u00b0C, as sulfonyl groups tend to have strong effects on melting points. The amino group can participate in hydrogen bonding, which would further increase the melting point, and we can estimate this effect to be around +60\u00b0C. The presence of aromatic rings also contributes to the overall molecular stability and stacking interactions, which could incrementally raise the melting point, but this effect is less quantifiable. However, it is already included in the base value of pyridine, so we will not count it again.",
+    "mpC": 191.0,
+    "Prediction(integer)": 188.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "- Basic unit, pyridine has a melting point of 115\u00b0C. \n- Sulfonyl group (SO2): +40\u00b0C, due to the introduction of strong intermolecular forces such as dipole-dipole interactions and potential hydrogen bonding. \n- Amine group (NH): +20\u00b0C, due to the ability to form hydrogen bonds, which increases the melting point. \n- The presence of two nitrogen atoms in the ring, which can participate in hydrogen bonding, may add an additional +10\u00b0C. \n- The overall molecular structure is complex and rigid, which can contribute to a higher melting point. \n- The presence of the sulfide (S) atom in the ring may also contribute to an increase in melting point due to its polarizability and potential for dipole-dipole interactions, estimated at +15\u00b0C. \n- The molecule has a high degree of symmetry, which can lead to better packing in the solid state, potentially increasing the melting point by +5\u00b0C. \n- The presence of the methyl group (CH3) attached to the nitrogen atom may slightly increase the melting point due to an increase in molecular weight and van der Waals forces, estimated at +5\u00b0C. \n- The overall predicted increase is the sum of these contributions.\n##Prediction: 205.0\n##Reason",
+    "Test (Predicted value)": 205.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "3-fluorocatechol",
+    "smiles": "c1cc(c(c(c1)F)O)O",
+    "csid": 61083,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=B22145",
+    "source": "Alfa Aesar",
+    "Reason": "The actual melting point of 3-fluorocatechol is reported to be 72.0\u00b0C. Catechol, the parent compound, has a melting point of approximately 105\u00b0C. The two hydroxy groups in catechol can potentially add to the melting point due to hydrogen bonding, with each hydroxy group contributing significantly. However, the fluorine substituent, due to its electronegativity, is expected to have a slight electron-withdrawing effect, which can slightly reduce the melting point by diminishing intermolecular hydrogen bonding but not to a large extent. Given that the actual value is much lower than the initial prediction, the quantitative effects were overestimated. The revised estimated effects of the hydroxy groups should be lowered, and the electron-withdrawing effect of fluorine should be increased to account for the decreased melting point. A more fitting estimate would be to add a smaller increment for the hydroxy groups and a larger decrement for the fluorine substituent.",
+    "mpC": 72.0,
+    "Prediction(integer)": 72.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Fluorine substituent: +20\u00b0C (due to increased molecular weight and polarity, which enhances intermolecular forces). \n- Hydroxyl group (\u2013OH): +40\u00b0C (due to hydrogen bonding capabilities and increased polarity). \n- The presence of two hydroxyl groups in the catechol structure allows for additional hydrogen bonding, which significantly increases the melting point. \n- The catechol structure itself is a rigid, planar system that can pack efficiently in the solid state, further increasing the melting point. \n- The overall molecule is large and has a high degree of polarity, which should lead to strong intermolecular forces.\n##Prediction: 75.0\n##Reason",
+    "Test (Predicted value)": 75.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

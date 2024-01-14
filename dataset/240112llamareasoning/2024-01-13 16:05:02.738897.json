@@ -1,0 +1,14 @@
+{
+    "name": "dimethyl 4-(2-furyl)-2,6-dimethyl-1,4-dihydropyridine-3,5-dicarboxylate",
+    "smiles": "O=C(OC)C1=C(NC(C)=C(C(=O)OC)C1c1occc1)C",
+    "csid": 178657,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4238",
+    "Reason": "The compound in question is a conjugated system consisting of a dihydropyridine ring attached to a furan ring, with two ester groups and two methyl groups. To predict the melting point, we consider the following effects: \n- Basic dihydropyridine ring without substituents: estimated 100\u00b0C due to aromaticity and ring stability.\n- Furan ring: +20\u00b0C due to aromaticity and additional pi-electron conjugation with the dihydropyridine ring.\n- Methyl groups (2x): 2x(+5\u00b0C) = +10\u00b0C for additional van der Waals forces from the increased molecular size.\n- Ester groups (2x): 2x(+30\u00b0C) = +60\u00b0C, as ester groups can participate in dipole-dipole interactions and potentially hydrogen bonding, thus raising the melting point significantly.\nAdding these increments together gives the predicted melting point.",
+    "mpC": 186.0,
+    "Prediction(integer)": 190.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "- Basic unit, pyridine, has a melting point of -42\u00b0C. \n- The presence of two methyl groups is expected to increase the melting point due to increased molecular weight and van der Waals forces, estimated at +20\u00b0C per methyl group. \n- The furyl group is a heterocyclic aromatic compound, which can increase the melting point due to additional pi-pi interactions and rigidity, estimated at +30\u00b0C. \n- The dihydropyridine ring system is a rigid structure that can significantly increase the melting point due to the potential for hydrogen bonding and the rigidity of the structure, estimated at +100\u00b0C. \n- The carboxylate ester groups can form strong intermolecular hydrogen bonds, which can significantly increase the melting point, estimated at +50\u00b0C per ester group. \n##Prediction: 198.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 198.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

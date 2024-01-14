@@ -1,0 +1,14 @@
+{
+    "name": "N,N',N'',N'''-biphenyl-2,2',4,4'-tetrayltetrabenzamide",
+    "smiles": "O=C(Nc1ccc(c(NC(=O)c2ccccc2)c1)c1ccc(NC(=O)c2ccccc2)cc1NC(=O)c1ccccc1)c1ccccc1",
+    "csid": 2035344,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2126",
+    "Reason": "The target compound, N,N',N'',N'''-biphenyl-2,2',4,4'-tetrayltetrabenzamide, is a large aromatic molecule with multiple benzene rings and amide functional groups. The impact on melting point due to each functional group is as follows:\n- Basic benzene unit: 5.5 \u00b0C (as a reference point for aromatic compounds).\n- Each additional benzene ring: +30 \u00b0C (due to increased molecular weight, rigidity, and planar structure enhancing \u03c0-\u03c0 stacking).\n- Each amide group: +80 \u00b0C (due to the potential for strong hydrogen bonding and the increase in molecular rigidity).\n\nThis molecule has a total of nine benzene rings and four amide groups. Considering the base value for one aromatic ring,\n- Additional 8 benzene rings: 8 * 30 = 240 \u00b0C\n- 4 amide groups: 4 * 80 = 320 \u00b0C\n\nAdding these to the base value of one benzene ring, the total increase in melting point is 240 + 320 = 560 \u00b0C. Since the base value of a benzene ring is very low (5.5 \u00b0C), it will have negligible effect in comparison to the contributions of the additional benzene rings and amide groups.",
+    "mpC": 279.0,
+    "Prediction(integer)": 279.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The compound N,N',N'',N'''-biphenyl-2,2',4,4'-tetrayltetrabenzamide is a complex molecule with multiple functional groups that influence its melting point. The basic structure is biphenyl, which has a melting point of around 70\u00b0C. Each amide group (NHCONH2) typically raises the melting point due to the ability to form strong hydrogen bonds, which can increase the melting point by approximately +50\u00b0C to +70\u00b0C. The presence of four amide groups in this molecule would contribute significantly to the melting point. The tertiary amine groups (N,N',N'',N'''-tetra) also contribute to the melting point through increased molecular rigidity and potential hydrogen bonding, which could add another +20\u00b0C to +30\u00b0C. The presence of four tertiary amine groups would further increase the melting point. The overall prediction needs to account for the synergistic effects of these groups on the basic biphenyl structure.\n##Prediction: 270.0\n\n\n##Prediction",
+    "Test (Predicted value)": 270.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "(2Z)-6-methylhept-5-en-2-one semicarbazone",
+    "smiles": "O=C(N)NN=C(C)CCC=C(C)C",
+    "csid": 4644819,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1359",
+    "Reason": "The compound (2Z)-6-methylhept-5-en-2-one semicarbazone contains several functional groups that affect its melting point. The base structure is a non-aromatic, non-cyclic hydrocarbon, which would generally have a lower melting point, but it has multiple functional groups that can modify this value. The ene (-C=C-) contributes to rigidity but doesn't significantly affect melting point; let's consider this effect negligible for a first approximation. The ketone (C=O) exhibits dipole-dipole interactions, which moderately increase melting point, let's estimate this increase to be around +20 \u00b0C. The semicarbazone part of the molecule (O=C(N)NNHC-) offers the capability for hydrogen bonding due to the NH group and the dipolar nature of the carbonyl and azo groups, which can significantly raise the melting point. We can estimate this increase at around +80 \u00b0C. The methyl group may slightly increase the melting point compared to the hydrogen by adding some van der Waals interactions and slight steric hindrance, consider this effect to be around +5 \u00b0C. The baseline for a non-aromatic, non-cyclic hydrocarbon chain can be relatively low, possibly around 30 \u00b0C without any functional groups. Combining these rough estimates gives us a predicted melting point.",
+    "mpC": 136.0,
+    "Prediction(integer)": 135.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The presence of a carbonyl group (C=O) generally increases the melting point due to the possibility of hydrogen bonding and dipole-dipole interactions, which can be estimated to add around +40\u00b0C. \n- The semicarbazone group (NN=C) is a heterocyclic compound that can engage in hydrogen bonding, which typically raises the melting point significantly, estimated at +100\u00b0C. \n- The methyl group (CH3) attached to the double bond of the alkene (C=C) can increase the melting point due to the increase in molecular weight and van der Waals forces, estimated at +5\u00b0C. \n- The double bond itself can slightly lower the melting point due to less efficient packing in the solid state, estimated at -5\u00b0C. \n- The overall effect of these functional groups is to increase the melting point significantly.\n##Prediction: 150.0\n##Reason",
+    "Test (Predicted value)": 150.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

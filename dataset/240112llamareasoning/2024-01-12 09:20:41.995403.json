@@ -1,0 +1,14 @@
+{
+    "name": "N-(4-ethoxyphenyl)-3,3,3-trifluoro-2-(trifluoromethyl)propanamide",
+    "smiles": "FC(F)(F)C(C(=O)Nc1ccc(OCC)cc1)C(F)(F)F",
+    "csid": 2029904,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3468",
+    "Reason": "The base molecule, acetanilide, has a melting point of approximately 114 degrees Celsius. The trifluoromethyl group is a strongly electron-withdrawing group due to the high electronegativity of fluorine, which increases intermolecular forces and consequently raises the melting point; this effect might add around +20. The three fluorine atoms on the ethyl side chain also exert a significant electron-withdrawing inductive effect, and their additional molecular weight would contribute to a higher melting point; their cumulative effect may be estimated at around +30. The ethoxy functional group attached to the aromatic ring, through its increased molecular weight and steric bulk, should contribute to raising the melting point further, estimated at about +17. Summing these increments, a predicted melting point can be calculated.",
+    "mpC": 181.0,
+    "Prediction(integer)": 181.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Ethoxy group (-OCH2CH3): +20\u00b0C (due to increased molecular weight and polarity, which can lead to stronger intermolecular forces). \n- Trifluoromethyl group (-CF3): +20\u00b0C (due to the electronegativity of fluorine and the strong dipole-dipole interactions it can engage in). \n- Amide group (-CONH-): +80\u00b0C (due to the potential for hydrogen bonding and the rigidity it introduces to the molecule). \n- The presence of two trifluoromethyl groups and one ethoxy group will increase the melting point due to the strong electronegativity and the potential for additional dipole-dipole interactions. \n- The amide group is a strong hydrogen bond donor and acceptor, which can significantly increase the melting point. \n- The overall molecule is large and rigid, which can also contribute to a higher melting point.\n##Prediction: 185.0\n##Reason",
+    "Test (Predicted value)": 185.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

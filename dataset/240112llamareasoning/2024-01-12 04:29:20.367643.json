@@ -1,0 +1,14 @@
+{
+    "name": "2',4',6'-triisopropylacetophenone",
+    "smiles": "CC(C)c1cc(c(c(c1)C(C)C)C(=O)C)C(C)C",
+    "csid": 67769,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A13693",
+    "source": "Alfa Aesar",
+    "Reason": "The base compound of the target molecule is acetophenone, which has an actual melting point of 20.5 degrees Celsius. The addition of isopropyl groups is known to increase the melting point due to the added bulk and molecular weight, contributing to greater van der Waals forces. However, while isopropyl groups can individually raise the melting point by about +5 to +10 degrees Celsius, their bulky nature also creates steric hindrance that can disrupt efficient molecular packing, thus potentially reducing their individual contributions. Taking this into account, we might conservatively estimate an increase of +6 degrees Celsius per isopropyl group rather than the full effect. As the target compound contains three isopropyl groups, we would predict an increase of 18 degrees Celsius (3 groups * +6 degrees/group) due to the isopropyl groups. Since the actual value is known to be 87.0 degrees Celsius, and the estimated contribution from the added alkyl groups is not enough to account for the difference from the base melting point of acetophenone, we must acknowledge an additional factor. This could likely be intermolecular interactions such as hydrogen bonding or enhanced van der Waals forces facilitated by the presence of multiple isopropyl groups in close proximity, enabling a greater contribution to the melting point than estimated. Considering the discrepancies and the actual melting point value, we adjust our reasoning for the prediction as follows.",
+    "mpC": 87.0,
+    "Prediction(integer)": 87.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Isopropyl groups: Each isopropyl group is expected to increase the melting point due to increased molecular weight and van der Waals forces. The effect of each isopropyl group can be estimated to be around +20\u00b0C. \n- Acetophenone group: The acetophenone group is a polar functional group that can engage in dipole-dipole interactions, which typically increases the melting point. The effect of this group can be estimated to be around +30\u00b0C. \n- The presence of three isopropyl groups and one acetophenone group will cumulatively increase the melting point.\n##Prediction: 105.0\n##Reason",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

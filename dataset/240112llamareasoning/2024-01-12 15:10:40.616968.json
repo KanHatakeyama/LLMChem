@@ -1,0 +1,14 @@
+{
+    "name": "Iproniazid",
+    "smiles": "O=C(NNC(C)C)c1ccncc1",
+    "csid": 3617,
+    "link": "http://www.drugbank.ca/drugs/DB04818",
+    "source": "DrugBank",
+    "Reason": "To predict the melting point of Iproniazid, we analyze the impact of its functional groups on the melting point, starting with the basic unit of phenyl ring, as in benzene, which has a melting point of 5.5. The addition of a carboxamide group significantly raises the melting point due to hydrogen bonding capabilities; considering that acetamide's melting point is 82 which is a +76.5 increase from benzene's melting point, we will use this value for the carboxamide influence. The isopropyl group will also contribute to an increase in melting point because of the additional molecular weight and slight increase in van der Waals forces. Each methyl group in an isopropyl contributes approximately +5 to the melting point, thus for the entire isopropyl group, the increase should be about +15. The hydrazide group (\u2013NHNH2) attached to the carboxamide can increase the melting point through additional hydrogen bonding, dipole-dipole interactions, and an overall increase in molecular complexity; we estimate an increase of +30 for this group. The pyridine ring is a variation of the basic phenyl group and has a higher melting point; pyridine itself has a melting point of about 115. This can be taken as an additional +30 compared to benzene. Summing these modifications, we predict a total increase in melting point.",
+    "mpC": 150.0,
+    "Prediction(integer)": 156.0,
+    "Abs error": 6.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The presence of the imidazole ring contributes to the melting point due to its ability to form hydrogen bonds and its nitrogen's contribution to the ring's aromaticity, which can be estimated to increase the melting point by approximately +100\u00b0C. \n- The isopropyl group attached to the nitrogen in the imidazole ring adds steric bulk and increases the molecular weight, which can be estimated to increase the melting point by about +20\u00b0C. \n- The nitro group is an electron-withdrawing group and can participate in intermolecular interactions, such as hydrogen bonding, which can further increase the melting point by about +10\u00b0C. \n- The overall molecular structure and the presence of multiple functional groups that can engage in intermolecular interactions will lead to a higher melting point compared to a simple aromatic compound.\n##Prediction: 135.0\n##Reason",
+    "Test (Predicted value)": 135.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

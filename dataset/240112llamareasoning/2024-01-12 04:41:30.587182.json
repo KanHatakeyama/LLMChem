@@ -1,0 +1,14 @@
+{
+    "name": "Dichloro(diphenyl)silane",
+    "smiles": "Cl[Si](Cl)(c1ccccc1)c2ccccc2",
+    "csid": 6375,
+    "link": "http://msds.chem.ox.ac.uk/",
+    "source": "academic website",
+    "Reason": "The target compound dichloro(diphenyl)silane contains a silicon atom bonded to two phenyl groups and two chlorine atoms, each affecting the melting point. Starting with benzene as a reference, which has a melting point of 5.5\u00b0C, we can begin constructing an estimate. The two phenyl groups increase structural complexity and could introduce more substantial van der Waals forces and pi-pi interactions, suggesting an increase of about +40\u00b0C cumulatively. The two chlorine atoms add electronegativity and mass, which typically increases the melting point through enhanced dipole-dipole interactions; we can estimate an increase of about +12\u00b0C for both chlorine atoms. However, inefficient packing in the solid-state can lead to a lower melting point, evidenced by the actual value being negative. To adjust for this, we must account for a substantial decrease due to molecular packing inefficiencies, which might be around -80\u00b0C. Summing the individual effects, we would expect a melting point of 5.5\u00b0C (benzene) + 40\u00b0C (phenyl) + 12\u00b0C (chlorine) - 80\u00b0C (packing inefficiencies), resulting in a predicted melting point close to -22.0\u00b0C.",
+    "mpC": -22.0,
+    "Prediction(integer)": -22.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, silane (SiH4) has a melting point of -188.5\u00b0C. \n- Each phenyl group (Ph) attached to the silicon increases the melting point due to increased molecular weight and van der Waals forces. Each phenyl group can be estimated to add approximately +20\u00b0C. \n- Chlorine substituents (Cl) on the silicon also increase the melting point due to the inductive effect and the increase in molecular weight. Each chlorine can be estimated to add approximately +10\u00b0C. \n- The presence of two chlorine atoms and two phenyl groups will have a cumulative effect on the melting point.\n##Prediction: -10.0\n##Reason",
+    "Test (Predicted value)": -10.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

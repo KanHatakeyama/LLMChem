@@ -1,0 +1,14 @@
+{
+    "name": "ethylthioperazine",
+    "smiles": "CN1CCN(CC1)CCCN2c4ccccc4Sc3ccc(SCC)cc23",
+    "csid": 5245,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "To predict the melting point of ethylthioperazine, we need to analyze the effects of its various functional groups and molecular structure. The core structure can be considered to be related to a biphenyl which has a melting point around 69\u00b0C. The nitrogen atoms, specifically in tertiary amine groups which are less polarizable and offer some steric hindrance, might slightly decrease the melting point owing to disrupting the crystalline structure. However, the presence of the alkyl chain and the two thioether groups (-S-) could lead to an increase in the melting point as they add to the molecular weight and provide additional van der Waals interactions. Nevertheless, the extended alkyl chain might introduce some flexibility, which can lower the melting point again. The competing effects of these groups are difficult to quantify precisely without empirical data, but estimates for the changes due to each group are provided below. \n- Biphenyl base: +69 \n- Two thioether groups: +10 to +15 (each sulfur adds to van der Waals forces) \n- Extended alkyl chain: -5 to -10 (increased flexibility leads to potential decrease) \n- Tertiary amine: -5 to -10 (steric hindrance disrupting packing) \n- Additional alkyl and methylene groups attached to nitrogen: +5 to +10 (increase molecular weight and size)\nOverall, we would expect the melting point to be marginally above or below the base structure of biphenyl, but not significantly so.",
+    "mpC": 63.0,
+    "Prediction(integer)": 71.0,
+    "Abs error": 8.0,
+    "Test (Predicted reason)": "- Basic unit, thiophene has a melting point of -42\u00b0C. \n- Ethyl group: +20\u00b0C (due to increased molecular weight and van der Waals forces) \n- Methyl group: +5\u00b0C (due to increased molecular weight and van der Waals forces) \n- Thioperazine ring: +10\u00b0C (due to the presence of a heterocyclic ring which increases rigidity and intermolecular interactions) \n- Sulfur atom: +5\u00b0C (due to the presence of a sulfur atom which increases the molecular weight and polarizability) \n- Amine groups: +10\u00b0C (due to the presence of two amine groups which can engage in hydrogen bonding) \n- Methylene groups: +5\u00b0C (due to the presence of two methylene groups which increase the molecular weight and van der Waals forces) \n- Methyl group: +5\u00b0C (due to the presence of a methyl group which increases the molecular weight and van der Waals forces) \n- The cumulative effect of these functional groups leads to an increase in the melting point.\n##Prediction: 55.0\n##Reason",
+    "Test (Predicted value)": 55.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

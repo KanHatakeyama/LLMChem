@@ -1,0 +1,14 @@
+{
+    "name": "5-(1-chloro-2-phenylethenyl)-6-nitro-1,2-dihydroacenaphthylene",
+    "smiles": "ClC(=Cc1ccccc1)c1ccc2CCc3ccc([N+](=O)[O-])c1c32",
+    "csid": 5410774,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-935",
+    "Reason": "To predict the melting point of 5-(1-chloro-2-phenylethenyl)-6-nitro-1,2-dihydroacenaphthylene, we need to consider the functional groups and their influence on the melting point separately. 1. Basic skeleton of acenaphthylene, we can assume starting around 93-95 degrees Celsius as a basic reference for simple fused aromatic hydrocarbons. 2. Substituents and functional groups should be considered: - Phenyl ring: +20 (introducing additional pi-stacking potential and rigidity). - Chloro group: +10 (due to its electronegativity and dipole moments). - Nitro group: +30 (highly electronegative, introduces strong intermolecular forces such as hydrogen bonding). - Double bond conjugated with the phenyl ring: +5 (the conjugation could increase the rigidity of the molecule, affecting the melting point). - Bridgehead unsaturation within the acenaphthylene: could be approximately +5 (conjugation and rigidity imparted by the unsaturation). According to this estimation, the different functional groups contribute separately to the overall melting point of the target compound.",
+    "mpC": 161.0,
+    "Prediction(integer)": 153.0,
+    "Abs error": 8.0,
+    "Test (Predicted reason)": "- Basic unit, naphthalene has a melting point of 80.5\u00b0C.\n- Chloro substituent: +20\u00b0C (due to increased molecular weight and polarity)\n- Phenyl group: +20\u00b0C (due to increased molecular weight and pi-pi interactions)\n- Nitro group: +40\u00b0C (due to strong dipole-dipole interactions and potential for hydrogen bonding)\n- Double bond: +5\u00b0C (due to less rigid structure and slightly less pi-pi interactions)\n- Aromaticity: +10\u00b0C (due to \u03c0-\u03c0 interactions and increased molecular stability)\n- Length of the molecule: +5\u00b0C (due to increased molecular weight and van der Waals interactions)\n- The cumulative effect of these functional groups and structural features leads to an increase in the melting point.\n##Prediction: 155.0\n##Reason",
+    "Test (Predicted value)": 155.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

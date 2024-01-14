@@ -1,0 +1,14 @@
+{
+    "name": "2,4-dibromopyridine",
+    "smiles": "c1cnc(cc1Br)Br",
+    "csid": 713812,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L20038",
+    "source": "Alfa Aesar",
+    "Reason": "The basic unit, pyridine, has a melting point of -42\u00b0C. Each bromine substituent can increase the melting point due to its high molecular weight and inductive effect, which increases intermolecular forces. A bromine atom might add approximately +40\u00b0C due to these effects. Since there are two bromine atoms, the effect would be doubled.",
+    "mpC": 39.0,
+    "Prediction(integer)": 38.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, pyridine has a melting point of -42\u00b0C. \n- Each bromine atom is expected to increase the melting point due to its large size and the increase in van der Waals forces. Bromine is a large halogen, and its effect on the melting point is typically around +40\u00b0C per bromine atom. \n- However, the presence of two bromine atoms on the same carbon may lead to steric hindrance and a decrease in the overall effect of each bromine atom. This decrease is estimated to be around -10\u00b0C for the second bromine atom. \n- The net effect of two bromine atoms on the melting point is therefore +30\u00b0C (2 * 40\u00b0C) minus the decrease of -10\u00b0C due to steric hindrance.\n##Prediction: 30.0\n##Reason",
+    "Test (Predicted value)": 30.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Carbidopa",
+    "smiles": "Oc1ccc(C[C@](C)(NN)C(=O)O)cc1O",
+    "csid": 31640,
+    "link": "http://www.drugbank.ca/drugs/DB00190",
+    "source": "DrugBank",
+    "Reason": "To predict the melting point of Carbidopa, we will analyze the contribution of functional groups in the compound based on a related structure with known melting point and then adjust for the differences in functional groups for Carbidopa.\n\n- Basic unit for comparison: Benzene, with a melting point of 5.5 \u00b0C.\n- Two hydroxyl groups (O-H): Hydroxyl groups can form strong hydrogen bonds. Each hydroxyl group could potentially increase the melting point by approximately +90\u00b0C, as they significantly increase the intermolecular forces.\n- One carboxylic acid group (COOH): Carboxylic acids can form dimeric structures through hydrogen bonding, which may increase the melting point. The contribution of a carboxylic acid group can be roughly +50\u00b0C.\n- One amide-like structure from the alpha-amino acid moiety (\u223cN-C-C=O): This functionality also introduces hydrogen bonding, which could contribute around +80\u00b0C. It is considered amide-like due to its attachment to the side chain rather than forming a primary structure of proteins.\n- Two alkyl chains from the carbamate moiety (C-C-C): Alkyl chains increase the van der Waals forces, leading to an increment in melting point. Each such alkyl chain might add about +20\u00b0C.\n- One tertiary amine (N-): Tertiary amines have a slight increase in melting point due to the potential for hydrogen bonding and steric hindrance, which can be estimated at around +10\u00b0C.\n\nSumming up these contributions, we can predict the melting point of Carbidopa.",
+    "mpC": 204.0,
+    "Prediction(integer)": 204.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Carboxylic acid group: +40\u00b0C (due to the ability to form strong intermolecular hydrogen bonds and dimerization). \n- Amide group: +80\u00b0C (due to the potential for hydrogen bonding and resonance stabilization). \n- Ether linkage: +5\u00b0C (due to the slight increase in molecular weight and polarity). \n- Secondary amine: +5\u00b0C (due to the ability to form hydrogen bonds, but less than primary amines due to the lack of a hydrogen atom directly bonded to the nitrogen). \n- Methyl group: +5\u00b0C (due to the increase in molecular weight and van der Waals forces). \n- Overall, the presence of multiple functional groups that can engage in hydrogen bonding and dipole-dipole interactions significantly increases the melting point.\n##Prediction: 185.0\n##Reason",
+    "Test (Predicted value)": 185.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

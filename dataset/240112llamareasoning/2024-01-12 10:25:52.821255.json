@@ -1,0 +1,14 @@
+{
+    "name": "bicyclo[6.1.0]nonane-9,9-dicarboxylic acid",
+    "smiles": "O=C(O)C1(C(=O)O)C2CCCCCCC21",
+    "csid": 480084,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4035",
+    "Reason": "The base structure is a bicyclic alkane (bicyclo[6.1.0]nonane), which we can compare to cyclohexane which has a melting point of around 6.5 degrees Celsius. Bicyclic structures tend to have higher melting points than their monocyclic counterparts due to increased rigidity and decreased conformational flexibility, therefore, we can reason that the basic bicyclic structure adds to the melting point. Let's say this contributes to an increase of +50 degrees Celsius. Next, we consider the dicarboxylic acid functional groups. Each carboxylic acid typically increases the melting point significantly due to the potential for hydrogen bonding and increased polarity. For a typical carboxylic acid like benzoic acid, which melts at 122 degrees Celsius, the carboxyl group contributes greatly to the melting point when compared to benzene. Assuming similar hydrogen bonding capabilities, each carboxylic acid group could contribute an additional +80 degrees Celsius to the base bicyclic structure. We have two of these groups, so this would be a total contribution of +160 degrees Celsius.",
+    "mpC": 217.0,
+    "Prediction(integer)": 216.5,
+    "Abs error": 0.5,
+    "Test (Predicted reason)": "The base structure of bicyclo[6.1.0]nonane-9,9-dicarboxylic acid is a bicyclic ring system, which typically has a higher melting point than acyclic structures due to increased rigidity. The presence of two carboxylic acid groups (COOH) will significantly increase the melting point due to strong intermolecular hydrogen bonding and dimerization. Each carboxylic acid group can be estimated to contribute approximately +100 units to the melting point. The bicyclic structure adds to the rigidity and planarity of the molecule, which can further increase the melting point. However, the presence of a double bond in the bicyclic ring system might slightly reduce the melting point due to less efficient packing.\n##Prediction: 200.0\n\n##Prediction",
+    "Test (Predicted value)": 200.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

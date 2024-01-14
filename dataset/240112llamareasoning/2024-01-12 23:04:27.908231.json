@@ -1,0 +1,14 @@
+{
+    "name": "cetoxime",
+    "smiles": "NC(CN(Cc1ccccc1)c2ccccc2)=NO",
+    "csid": 7844837,
+    "link": "http://dx.doi.org/10.1021/ci020280x",
+    "source": "Bergstrom C. A. S.; Norinder U.; Luthman K.; Artursson P. Molecular Descriptors Influencing Melting Point and Their Role in Classification of Solid Drugs. J. Chem. Inf. Comput. Sci.; (Article); 2003; 43(4); 1177-1380",
+    "Reason": "Cetoxime is composed of multiple functional groups that affect its melting point. Starting with a basic amine group (like in aniline, whose melting point is around -6\u00b0C), we need to consider the following modifications: The presence of a nitrile group generally raises the melting point due to the dipole-dipole interaction and potential for hydrogen bonding with the N-H of the amine; this can be estimated to add about 40-60\u00b0C. Additionally, the oxime group (C=N-OH) will further enhance hydrogen bonding capabilities, contributing to an increase in melting point, possibly adding another 20-30\u00b0C. The two phenyl rings add steric bulk and pi-pi interactions, potentially raising the melting point by a further 20-40\u00b0C each. Considering all these factors, the estimation is a summation of the base amine value and the adjustments for each functional group influence.",
+    "mpC": 107.0,
+    "Prediction(integer)": 107.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The basic unit for cetoxime is benzene, which has a melting point of 5.5 \u00b0C. The compound has several functional groups that will affect its melting point: \n- Nitrile group: Nitrile groups are known to increase the melting point due to their strong dipole-dipole interactions and potential for hydrogen bonding. Estimated effect is +20\u00b0C.\n- Amide group: Amides have strong hydrogen bonding capabilities, which significantly raises the melting point. Estimated effect is +50\u00b0C.\n- Ether linkage: Ether linkages can contribute to an increase in melting point through dipole-dipole interactions; we can estimate an additional +10\u00b0C for the contribution of this ring structure and the associated ether linkage.\n- Methyl group: Methyl groups typically increase the melting point due to increased molecular weight and van der Waals forces. Estimated effect is +5\u00b0C.\nConsidering these adjustments, the predicted melting point is the sum of these effects: 5.5 (benzene) + 20 (nitrile) + 50 (amide) + 10 (ether linkage) + 5 (methyl group) = 100.5 \u00b0C.\n##Prediction: 100.0\n\n\n#Prediction",
+    "Test (Predicted value)": 100.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

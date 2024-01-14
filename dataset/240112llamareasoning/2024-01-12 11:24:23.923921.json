@@ -1,0 +1,14 @@
+{
+    "name": "quinidine",
+    "smiles": "COc1ccc2c(c1)c(ccn2)[C@@H]([C@H]3C[C@@H]4CC[N@]3C[C@@H]4C=C)O",
+    "csid": 389880,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A12559",
+    "source": "Alfa Aesar",
+    "Reason": "The basic structure for quinidine includes a quinoline moiety and a quinuclidine moiety. Starting with quinoline, which is structurally related to naphthalene, we take naphthalene's melting point of 80 C as a reference. We expect the quinoline's nitrogen to add approximately +10 C due to enhanced intermolecular hydrogen bonding. The quinuclidine moiety adds to the rigidity of the molecular structure and likely contributes about +30 C. The hydroxyl (OH) group can participate in hydrogen bonding and so it is reasonable to add another +50 C for that functionality. The methoxy (OCH3) group's contribution is typically smaller, but it can still contribute to an increased melting point through van der Waals interactions, adding around +10 C. Therefore, combining all these contributions, we predict the melting point.",
+    "mpC": 174.0,
+    "Prediction(integer)": 180.0,
+    "Abs error": 6.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C.\n- Quinidine has several functional groups that influence its melting point:\n- The presence of a quinoline ring system, which is a fused aromatic system, increases the melting point due to increased rigidity and planarity of the molecule, which can lead to better stacking and crystal packing. This can be estimated to add around +100\u00b0C.\n- The presence of a tertiary amine (quinidine) on the quinoline ring contributes to the melting point by increasing the potential for hydrogen bonding, which can be estimated to add around +20\u00b0C.\n- The presence of a ketone group (C=O) can form hydrogen bonds and also increases the polarity of the molecule, which can contribute to a higher melting point, estimated at +15\u00b0C.\n- The presence of a secondary amine (NH) on the quinoline ring can form hydrogen bonds, adding around +10\u00b0C.\n- The presence of a methyl group (CH3) on the quinoline ring can slightly increase the melting point due to increased molecular weight and van der Waals forces, estimated at +5\u00b0C.\n- The overall molecular complexity and the presence of multiple aromatic rings contribute to a higher melting point.\n##Prediction: 180.0\n##Reason",
+    "Test (Predicted value)": 180.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "2,2,3,3-tetrafluoro-1,4-butanediol",
+    "smiles": "C(C(C(CO)(F)F)(F)F)O",
+    "csid": 120045,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L16635",
+    "source": "Alfa Aesar",
+    "Reason": "The basic unit to consider here is butane, which has a melting point around -138.4\u00b0C. Functional groups in the target compound are hydroxyl (-OH) and fluorine atoms (F). Each hydroxyl group contributes to intermolecular hydrogen bonding, significantly increasing the melting point. Let's conservatively estimate: +100\u00b0C each for simplicity. Fluorine atoms are electronegative and attract electrons towards themselves, enhancing the intermolecular forces through dipole-dipole interactions, thus increasing the melting point as well. Because all fluorine atoms are on adjacent carbons, their effect may not be purely additive due to steric and electronic repulsions, so let's estimate a +5\u00b0C for each individual fluorine atom. Therefore, the total effect is estimated to be: Butane (-138.4) + 2(OH groups) * 100 + 4(F atoms) * 5 = -138.4 + 200 + 20 = 81.6\u00b0C.",
+    "mpC": 84.0,
+    "Prediction(integer)": 81.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "The compound 2,2,3,3-tetrafluoro-1,4-butanediol has a butanediol core with four fluorine atoms attached. The butanediol base structure has a melting point of around 20\u00b0C. The fluorine atoms significantly increase the melting point due to their high electronegativity and the resulting strong dipole-dipole interactions. Each fluorine atom can be estimated to contribute approximately +20\u00b0C to the melting point. However, the presence of four fluorine atoms may lead to a non-linear increase due to steric hindrance and the potential for intermolecular interactions to be disrupted, which could reduce the overall effect. Therefore, a more conservative estimate might be around +10\u00b0C per fluorine atom.\n##Prediction: 80.0\n\n\n#Prediction",
+    "Test (Predicted value)": 80.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

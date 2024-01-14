@@ -1,0 +1,14 @@
+{
+    "name": "3-methylquinoline n-oxide",
+    "smiles": "Cc1cc2ccccc2[n+](c1)[O-]",
+    "csid": 5384376,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L10635",
+    "source": "Alfa Aesar",
+    "Reason": "The basic unit here is quinoline which has a melting point around 237\u00b0C. The effect of introducing the N-oxide function lowers this melting point significantly because it introduces an internal dipole that can stabilize the compound in a solid state, but also causes disruptions in the crystal lattice due to the steric and electronic effects. The methylation at the 3-position would tend to raise the melting point slightly as it increases the molecular weight and provides more van der Waals interactions, probably around +5\u00b0C. However, the presence of the N-oxide is a much more significant factor that will lower the melting point substantially, by an estimated -150\u00b0C or more given the polarity and potential for intermolecular interactions it adds, contrasting the stabilizing effects of the methyl group.",
+    "mpC": 89.0,
+    "Prediction(integer)": 92.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "- Basic unit, quinoline has a melting point of around 23\u00b0C.\n- Methyl group: +5\u00b0C (due to increased molecular weight and slight increase in van der Waals forces)\n- Nitro group: +80\u00b0C (due to strong intermolecular forces such as hydrogen bonding and dipole-dipole interactions)\n- The nitro group's effect is the most significant, as it introduces strong dipole-dipole interactions and potential hydrogen bonding with other molecules, significantly raising the melting point.\n##Prediction: 103.0\n##Reason",
+    "Test (Predicted value)": 103.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "1(trans), 2(cis), 3-trimethylcyclopentane",
+    "smiles": "CC1CCC(C)C1C",
+    "csid": 32554,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The base structure here is cyclopentane, which has a melting point of -94 degrees Celsius. The presence of three methyl groups, one in trans- (opposite side) and two in cis- (same side) configuration, will affect the melting point. Each methyl group generally increases the melting point due to an increase in molecular weight and van der Waals forces. However, since they cause steric strain, especially the cis-configured methyl groups, which are closer and interact more strenuously, the overall effect might be a reduced melting point due to destabilization of the crystal structure. One could estimate roughly +5 degrees for the trans-configured methyl group and -10 degrees for each of the cis-configured methyl groups due to steric strain.",
+    "mpC": -112.0,
+    "Prediction(integer)": -112.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, cyclopentane has a melting point of -94.\n- Methyl groups: Each methyl group typically raises the melting point due to an increase in molecular weight and van der Waals forces. However, in this case, the trans configuration of the methyl groups may slightly lower the melting point due to steric hindrance and less efficient packing. Let's estimate the effect of each methyl group to be -5 degrees.\n- The cis configuration of the second methyl group may have a slightly higher effect due to the increased rigidity of the molecule, which could raise the melting point by about +2 degrees.\n- The overall effect of the three methyl groups is then -5 (first methyl) + -5 (second methyl) + +2 (third methyl) = -12 degrees.\n##Prediction: -106.0\n##Reason",
+    "Test (Predicted value)": -106.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

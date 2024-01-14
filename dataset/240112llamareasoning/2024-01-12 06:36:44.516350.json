@@ -1,0 +1,14 @@
+{
+    "name": "Permethrin",
+    "smiles": "ClC(Cl)=C/C3C(C(=O)OCc2cccc(Oc1ccccc1)c2)C3(C)C",
+    "csid": 36845,
+    "link": "http://www.drugbank.ca/drugs/DB04930",
+    "source": "DrugBank",
+    "Reason": "To predict the melting point of permethrin, we look at the structural elements and compare them with known values or trends for similar functionalities. We can start with the reference compound benzene, which has a melting point of 5.5\u00b0C. Permethrin has two benzene rings, an ester group, a chlorinated alkene, and a cyclopropane. Each of these functional groups influences the melting point in the following ways: Benzene rings add stability and rigidity to the structure, which typically increases melting points. For two benzene rings, we can estimate an increase of +10\u00b0C for each, resulting in +20\u00b0C. The ester group (\u2013COO\u2013), can provide additional rigidity and potential for intermolecular hydrogen bonding, possibly raising the melting point by +10\u00b0C. The cyclopropane ring introduces strain, but its effect on the melting point is not as straightforward as the others; it can be assumed to be negligible in this case. The chlorinated alkene (-CCl=CCl-) introduces electronegative chlorine atoms that increase the molecular weight and may raise the melting point due to stronger van der Waals forces; an estimated increase of +5\u00b0C. Therefore, the overall estimated increase would be +35\u00b0C over the reference benzene.",
+    "mpC": 34.0,
+    "Prediction(integer)": 40.0,
+    "Abs error": 6.0,
+    "Test (Predicted reason)": "The compound permethrin is a complex organic molecule with multiple functional groups that influence its melting point. The base structure is a benzene ring, which has a melting point of 5.5\u00b0C. The presence of multiple chlorine atoms and a ketone group (C=O) will increase the melting point due to the polar nature of these groups and the potential for dipole-dipole interactions. Each chlorine atom might contribute an additional 5\u00b0C due to its electronegativity and size, and the ketone group could add another 10\u00b0C due to its polarity and the potential for hydrogen bonding. The presence of a tertiary butyl group (C(C)C) adds steric bulk and may increase the melting point by about 5\u00b0C. The presence of a tertiary butyl group also increases the molecular weight, which can further increase the melting point. The overall structure of the molecule is highly symmetrical and rigid, which can further increase the melting point due to efficient packing.\n##Prediction: 31.0\n\n\n#Prediction",
+    "Test (Predicted value)": 31.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

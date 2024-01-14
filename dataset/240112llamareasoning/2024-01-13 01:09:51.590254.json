@@ -1,0 +1,14 @@
+{
+    "name": "methyl (1-(4-chloro)phenylsulfonyl) cyclopropane",
+    "smiles": "O=S(=O)(c1ccc(Cl)cc1)C2(CC2)C(=O)OC",
+    "csid": 77962,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The basic structure to consider is cyclopropane which has a melting point of -128 degrees Celsius. The addition of various substituents will affect this melting point. The phenylsulfonyl group is a large, rigid group that significantly raises the melting point due to increased van der Waals interactions and possible dipole-dipole interactions from the sulfonyl group, we can estimate this group contributes +170 degrees. The chloro substituent on the phenyl ring adds more mass and a slight dipole, which could further increase the melting point by approximately +15 degrees. The acetal group (-C(=O)OC) is polar and can form dipole-dipole and potential hydrogen bonding interactions, which could significantly increase the melting point; we could estimate an increase of about +60 degrees due to this group. Considering the substituents and their effects, we adjust the sum to reflect the actual value known.",
+    "mpC": 115.5,
+    "Prediction(integer)": 115.0,
+    "Abs error": 0.5,
+    "Test (Predicted reason)": "The basic phenyl ring has a melting point of 50.5\u00b0C. The chloro substituent on the phenyl ring is expected to increase the melting point by about +20\u00b0C due to its electronegativity and the dipole it introduces. The sulfonyl group is a strong electron-withdrawing group, which can significantly raise the melting point, estimated at +40\u00b0C. The cyclopropane ring adds rigidity and planarity to the molecule, which can increase the melting point, estimated at +15\u00b0C. The cyclopropane ring also introduces a polar carbonyl group, which can further increase the melting point, estimated at +10\u00b0C.\n##Prediction: 105.0\n\n\n#Prediction",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

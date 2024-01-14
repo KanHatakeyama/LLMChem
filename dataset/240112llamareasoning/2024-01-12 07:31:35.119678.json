@@ -1,0 +1,14 @@
+{
+    "name": "p-diisopropylbenzene dihydroperoxide",
+    "smiles": "OOC(C)(C)c1ccc(cc1)C(C)(C)OO",
+    "csid": 174073,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The basic unit for comparison is benzene, which has a melting point of 5.5\u00b0C. The addition of each isopropyl group contributes to an increase in the melting point due to greater steric hindrance and molecular weight. Isopropyl groups are typically bulky and hinder close packing of molecules in the solid phase, however, they also raise the melting point by creating a more complex crystal lattice structure that requires more energy to break apart. Let's quantitatively estimate this increase to be around +12\u00b0C per isopropyl group. There are two such groups in the compound, which should total an increase of +24\u00b0C. On the other hand, each hydroperoxide group (-OOH) is capable of forming strong intermolecular hydrogen bonds, which greatly increases the melting point. Estimating this increase at around +54\u00b0C per hydroperoxide group (given that hydrogen bonding has a significant impact on melting points) and considering there are two such groups, we get an additional increase of +108\u00b0C. Summing these values to the base melting point of benzene gives us a predicted melting point of: 5.5 (base) + 24 (isopropyl groups) + 108 (hydroperoxide groups) = 137.5\u00b0C.",
+    "mpC": 141.0,
+    "Prediction(integer)": 137.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "The compound p-diisopropylbenzene dihydroperoxide has several functional groups that influence its melting point. The base structure is benzene, which has a melting point of 5.5\u00b0C. The presence of two isopropyl groups (C(C)(C)C) adds steric bulk and increases the molecular weight, which typically increases the melting point. Each isopropyl group can be estimated to contribute about +20\u00b0C due to these effects. The hydroperoxide group (OO) is a strong oxidizing agent that can form intermolecular hydrogen bonds, which significantly increases the melting point. This effect can be estimated at around +100\u00b0C. The cumulative effect of these groups leads to a predicted melting point higher than that of benzene.\n##Prediction: 135.0\n\n\n#Prediction",
+    "Test (Predicted value)": 135.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "(2,2-dimethyl-3-oxo-1-phenylpropyl)propanedioic acid",
+    "smiles": "O=CC(C)(C)C(c1ccccc1)C(C(=O)O)C(=O)O",
+    "csid": 2029424,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3615",
+    "Reason": "The target compound has multiple functional groups that affect its melting point. A benzene ring provides a base level given its ability to partake in pi-pi stacking interactions. The keto (carbonyl) groups can serve as hydrogen bond acceptors and create dipole-dipole interactions, which typically raise the melting point. Each tertiary-butyl group contributes to an increased melting point by introducing more molecular weight and steric bulk. The carboxylic acid groups significantly increase the melting point due to their ability to form strong intermolecular hydrogen bonds. However, the overall impact of each group must be moderated to fit the actual melting point value of 153.0. The predicted contributions to the melting point might be estimated as follows: Base benzene ring: 80; Keto groups (2): +10 each (considering any potential steric hindrance or attenuated dipole interactions); Tertiary-butyl group: +5 (small increase due to molecular size); Carboxylic acid groups (2): +25 each (due to the possibility of dimer formation and strong hydrogen bonding, moderated by the steric interference from nearby bulky groups). To revise the estimate considering these moderated values, the prediction is calculated as: 80 + (2*10) + 5 + (2*25) = 80 + 20 + 5 + 50 = 155.",
+    "mpC": 153.0,
+    "Prediction(integer)": 155.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The presence of two methyl groups (\u2013CH3) generally increases the melting point due to an increase in molecular weight and van der Waals forces, each contributing approximately +5\u00b0C. \n- The 3-oxo group (\u2013C(=O)\u2013) is an aromatic ring that can engage in additional pi-pi stacking interactions, which typically increases the melting point by about +20\u00b0C. \n- The propanedioic acid group (\u2013C(=O)\u2013C(=O)\u2013) is a rigid structure that can form strong intermolecular hydrogen bonds, which significantly increases the melting point. This effect can be estimated at +100\u00b0C. \n- The presence of the phenyl group (\u2013C6H5) adds to the rigidity and planarity of the molecule, which can increase the melting point by about +15\u00b0C. \n- The overall molecule is large and has multiple functional groups that can engage in intermolecular interactions, which will further increase the melting point.\n##Prediction: 140.0\n##Reason",
+    "Test (Predicted value)": 140.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

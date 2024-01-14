@@ -1,0 +1,14 @@
+{
+    "name": "Phenprocoumon",
+    "smiles": "O=C1c3ccccc3OC(O)=C1C(CC)c2ccccc2",
+    "csid": 9524,
+    "link": "http://www.drugbank.ca/drugs/DB00946",
+    "source": "DrugBank",
+    "Reason": "To predict the melting point of Phenprocoumon, we need to consider various structural features based on the provided SMILES structure. Starting with benzene, with a melting point of 5.5 \u00b0C, we estimate the effects of the following functional groups and structural elements on the melting point of Phenprocoumon: \n- Benzene ring: We start with 5.5 \u00b0C for the basic benzene unit. \n- Ketone groups: Ketones typically increase the melting point due to the ability of the carbonyl group to participate in dipole-dipole interactions and potentially hydrogen bond with other molecules. We estimate an increase of approximately +40 \u00b0C for each ketone group, summing up to +80 \u00b0C for the two ketone groups present. \n- Ether group: Ethers slightly increase the melting point due to the additional atomic mass and the possibility of dipole-dipole interactions, but the effect is less pronounced than for alcohols or acids. We estimate an increase of about +5 \u00b0C. \n- Secondary alcohol group: This group can form hydrogen bonds, leading to a significant increase in the melting point. We can estimate an increase of approximately +40 \u00b0C. \n- Phenyl groups: Each additional aromantic ring increases the melting point due to enhanced \u03c0-\u03c0 interactions and van der Waals forces, which increase the rigidity and stacking ability of the molecule. We estimate an increase of +20 \u00b0C for each additional phenyl ring beyond the first, adding +40 \u00b0C for the two additional rings present.\nBy summing the contributions of each group, we predict a melting point of 5.5 (baseline benzene) + 80 (ketone groups) + 5 (ether group) + 40 (secondary alcohol) + 40 (phenyl rings) = 170.5 \u00b0C. This prediction aligns more closely with the actual observed melting point of 179.5\u00b0C.",
+    "mpC": 179.5,
+    "Prediction(integer)": 170.0,
+    "Abs error": 9.5,
+    "Test (Predicted reason)": "##Prediction: 198.0\n\n##Reason",
+    "Test (Predicted value)": 198.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

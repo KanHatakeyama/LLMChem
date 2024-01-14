@@ -1,0 +1,14 @@
+{
+    "name": "(1R,2S,5R,6S)-9-oxatricyclo[4.2.1.1~2,5~]dec-7-en-10-ol",
+    "smiles": "OC1C2CCC1C1OC2C=C1",
+    "csid": 2035975,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2041",
+    "Reason": "The compound provided is a bicyclic compound containing several functional groups that can influence its melting point. The bicyclic structure provides a higher baseline melting point due to increased rigidity and intermolecular interactions. Hydroxyl groups generally increase the melting point due to their ability to form hydrogen bonds, which are strong intermolecular forces. The epoxy group contributes to the melting point due to the ring strain and polar character, which enhances intermolecular interactions. However, the presence of an alkene may slightly reduce the melting point by restricting efficient packing of the molecules. In this case, the initial assessment of the contributions seems to be overestimating the effect of some functional groups because the predicted value substantially exceeds the actual value. One must critically reassess the impact of the functional groups, taking into account the actual bicyclic context and possible steric factors that might not favor such high contributions from the hydroxyl and epoxy groups.",
+    "mpC": 122.0,
+    "Prediction(integer)": 125.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "- Basic unit, Cyclohexane, has a melting point of 6.5\u00b0C.\n- The presence of an oxirane ring (epoxide) generally increases the melting point due to the ring strain and potential for hydrogen bonding, let's estimate this effect to be around +50\u00b0C.\n- The presence of a hydroxyl group (OH) can form strong hydrogen bonds, which significantly increases the melting point, let's estimate this effect to be around +40\u00b0C.\n- The presence of a conjugated double bond system (C=C) can increase the melting point due to increased rigidity and potential for \u03c0-\u03c0 interactions, let's estimate this effect to be around +10\u00b0C.\n- The overall molecular symmetry and rigidity of the compound will also contribute to a higher melting point, let's estimate this effect to be around +10\u00b0C.\n\nBy adding these estimates, we can expect an increase of around +100\u00b0C from the oxirane ring, hydroxyl group, conjugated double bond system, and overall molecular symmetry relative to the base melting point of cyclohexane.\n##Prediction: 116.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 116.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

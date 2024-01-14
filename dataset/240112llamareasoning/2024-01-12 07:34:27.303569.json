@@ -1,0 +1,14 @@
+{
+    "name": "p-(1,1,3,3-tetramethylbutyl)phenol",
+    "smiles": "Oc1ccc(cc1)C(C)(C)CC(C)(C)C",
+    "csid": 8483,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The base unit, phenol, has a melting point of 41 degrees Celsius. The p-(1,1,3,3-tetramethylbutyl) group significantly increases the molecular weight and size, influencing the melting point. Each methyl group can be considered to add about 5 degrees due to increased London dispersion forces. There are six methyl groups in the substituent, which would add a total of 30 degrees. The bulky tert-butyl group can also increase the melting point; however, due to steric hindrance, it can disrupt the crystal lattice structure, making it less predictable. Estimating its effect is complex, but let's assign a conservative value of +10 degrees, considering both the increase in molecular weight and steric hindrance on packing efficiency. Combining these modifications, the predicted melting point should be higher than that of phenol by roughly 40 degrees.",
+    "mpC": 84.5,
+    "Prediction(integer)": 81.0,
+    "Abs error": 3.5,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The hydroxyl group (-OH) is capable of forming hydrogen bonds, which significantly increases the melting point. This effect can be estimated to be around +100\u00b0C. \n- The tertiary butyl group (C(C)(C)C) is a bulky group that can disrupt the crystal lattice, leading to a decrease in melting point. This effect can be estimated to be around -20\u00b0C. \n- The additional methyl groups (three in total) attached to the tertiary butyl group will further increase the molecular weight and steric hindrance, which can be estimated to decrease the melting point by another -10\u00b0C in total. \n- The overall effect of these functional groups on the melting point is a balance between the hydrogen bonding capability of the hydroxyl group and the steric hindrance and increased molecular weight of the tertiary butyl and methyl groups.\n##Prediction: 85.0\n##Reason",
+    "Test (Predicted value)": 85.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

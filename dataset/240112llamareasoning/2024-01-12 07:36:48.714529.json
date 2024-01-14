@@ -1,0 +1,14 @@
+{
+    "name": "curcumin",
+    "smiles": "COc1c(ccc(c1)/C=C/C(=O)CC(=O)/C=C/c2cc(c(cc2)O)OC)O",
+    "csid": 839564,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=B21573",
+    "source": "Alfa Aesar",
+    "Reason": "The compound curcumin has multiple functional groups that affect its melting point. The base structure consists of two phenolic rings, which would have a base melting point similar to phenol, which is 43\u00b0C. However, curcumin has several additional functional groups that must be considered: \n- Methoxy groups: typically increase the melting point due to increased molecular weight and potential for additional hydrogen bonding (two are present, so let's estimate +20\u00b0C each). \n- Ketone groups (within the heptadienone bridge): usually increase melting point as they can form strong dipole interactions (two are present, so let's estimate +35\u00b0C each). \n- Conjugated diene system: contributes to rigidity and planarity of the molecule, which can pack more efficiently in a solid state, leading to a higher melting point (+25\u00b0C). \nAdding these adjustments to our estimated base value, we get a predicted melting point of 43 + (2*20) + (2*35) + 25 = 178\u00b0C.",
+    "mpC": 178.0,
+    "Prediction(integer)": 178.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C.\n- The presence of multiple phenolic hydroxyl groups (-OH) significantly increases the melting point due to hydrogen bonding: +100.\n- The presence of a ketone group (-C=O) also contributes to an increase in melting point due to polar interactions: +20.\n- The presence of a conjugated system (diketone) further increases the melting point due to rigidity and planarity: +30.\n- The presence of a methoxy group (-OCH3) adds some flexibility and may slightly lower the melting point: -5.\n- The presence of a methyl group (-CH3) adds some bulk and may slightly increase the melting point: +5.\nSumming these adjustments, we get a predicted melting point for curcumin.\n##Prediction: 165.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 165.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

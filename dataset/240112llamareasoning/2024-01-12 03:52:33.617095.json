@@ -1,0 +1,14 @@
+{
+    "name": "1H-pyrazole-5-methanol, 3-methyl-",
+    "smiles": "OCC=1N=NC(C)C=1",
+    "csid": 637713,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3901",
+    "Reason": "The basic unit for comparison here is pyrazole, which has a melting point of about 70\u00b0C. The hydroxyl (-OH) group generally contributes to an increased melting point because of potential for hydrogen bonding, which makes intermolecular interactions stronger and thus requires more energy to break. For the -OH group, an increase of about +20\u00b0C can be considered. On the other hand, the methyl (CH3) group attached to the pyrazole ring usually raises the melting point slightly due to the larger molecular weight and enhanced van der Waals forces, which can be estimated as a +5\u00b0C increase. However, since the actual melting point of the compound is given as 79.0\u00b0C, an adjustment in the predictions for the functional group effects is needed. Given that the actual value is higher than the base pyrazole but less than the predicted, the influence of the hydroxyl and methyl groups are overestimated. The corrected estimation for the hydroxyl group should hence be lower, let's say around +7\u00b0C for hydroxyl group, while the methyl group appears to have a negligible effect on the melting point, thus an increase of 0\u00b0C, resulting in an additive contribution of +7\u00b0C to the base pyrazole melting point.",
+    "mpC": 79.0,
+    "Prediction(integer)": 77.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "##Prediction: 95.0\n\n\n##Prediction",
+    "Test (Predicted value)": 95.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

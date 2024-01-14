@@ -1,0 +1,14 @@
+{
+    "name": "Dapsone",
+    "smiles": "Nc1ccc(cc1)S(=O)(=O)c2ccc(N)cc2",
+    "csid": 2849,
+    "link": "http://www.drugbank.ca/drugs/DB00250",
+    "source": "DrugBank",
+    "Reason": "The compound dapsone consists of a diphenyl sulfone framework with two amine groups attached to the benzene rings. The basic unit here is diphenyl sulfone with a high melting point due to its rigid planar structure and strong dipolar interactions. The sulfone group is a strong electron-withdrawing group, which tends to increase the melting point due to enhanced intermolecular attractions. Each benzene ring contributes significantly to the melting point due to the pi-pi stacking interactions between aromatic rings. However, the presence of two amine (-NH2) groups, which are electron-donating, will slightly decrease the melting point because it can disrupt the symmetry and planarity of the molecule, potentially reducing the strength of the intermolecular forces slightly. Given the competing effects, the overall melting point may not shift drastically from the base structure. We estimate the effects quantitatively as follows: diphenyl sulfone (base structure) ~160\u00b0C, sulfone group +20\u00b0C (increased intermolecular interactions), two amine groups -4.5\u00b0C each (disruption of symmetry and planarity, slight electron donation).",
+    "mpC": 175.5,
+    "Prediction(integer)": 181.0,
+    "Abs error": 5.5,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The presence of a sulfonyl group (S(=O)2) typically increases the melting point due to the ability to form strong intermolecular hydrogen bonds and dipole-dipole interactions, which can be estimated to add around +80\u00b0C. \n- The thiophene ring (C=S) is a heterocyclic compound that can also increase the melting point due to its rigid structure and potential for additional intermolecular interactions, estimated to add around +20\u00b0C. \n- The amine group (NH2) can form hydrogen bonds, which would further increase the melting point, estimated to add around +10\u00b0C. \n- The presence of two methyl groups (CH3) attached to the benzene ring can slightly increase the melting point due to increased molecular weight and van der Waals forces, estimated to add around +5\u00b0C each. \n- The overall molecular complexity and the presence of multiple functional groups contribute to a higher melting point.\n##Prediction: 165.0\n##Reason",
+    "Test (Predicted value)": 165.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

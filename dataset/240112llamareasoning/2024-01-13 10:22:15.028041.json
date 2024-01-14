@@ -1,0 +1,14 @@
+{
+    "name": "suclofenide",
+    "smiles": "NS(=O)(=O)c1cc(Cl)c(cc1)N2C(=O)CC(C2=O)c3ccccc3",
+    "csid": 65079,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "To predict the melting point of suclofenide, we need to consider the effects of its functional groups and structural features. The base molecule we can consider is benzene, which has a melting point around 5.5\u00b0C. The various groups and features in suclofenide will modify this value.",
+    "mpC": 206.0,
+    "Prediction(integer)": 206.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Base unit, benzene, has a melting point of 5.5\u00b0C.\n- The presence of two sulfonyl groups (-S(=O)2) significantly increases the melting point due to their strong electronegativity and ability to form strong dipole-dipole interactions - estimated effect is +100 for each group.\n- The chloro substituent on the benzene ring adds to the molecular weight and enhances van der Waals forces, but its electronegativity is less than that of sulfonyl groups, so its effect is moderate - estimated effect is +20.\n- The amide group (-CONH-) can form hydrogen bonds, which would further increase the melting point - estimated effect is +30.\n- The presence of two aromatic rings contributes to the rigidity of the molecule and enhances \u03c0-\u03c0 stacking interactions, which would also increase the melting point - estimated effect is +20.\n- The presence of two carbonyl groups (C=O) can engage in dipole-dipole interactions and potentially form hydrogen bonds, which would further increase the melting point - estimated effect is +10 for each group.\n- The overall molecular complexity and the presence of multiple functional groups that can engage in intermolecular interactions will lead to a higher melting point than a simple benzene ring.\n##Prediction: 205.0\n\n\n#Problem",
+    "Test (Predicted value)": 205.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

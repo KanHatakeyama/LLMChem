@@ -1,0 +1,14 @@
+{
+    "name": "4-{(E)-[2-amino-5-thiophen-2-yl-7-(trifluoromethyl)pyrazolo[1,5-a]pyrimidin-3-yl]diazenyl}benzoic acid",
+    "smiles": "s1cccc1C1=Nc2[nH0]([nH0]c(N)c2N=Nc2ccc(cc2)C(=O)O)C(=C1)C(F)(F)F",
+    "csid": 2034806,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2188",
+    "Reason": "The target compound has multiple functional groups that influence its melting point. Basic units here include a thiophene ring and a pyrazolopyrimidine core, which are heteroaromatic systems known for higher melting points due to greater lattice energy from stronger intermolecular forces, such as pi-pi stacking and hydrogen bonding. Thiophene: +20 (pi-stacking), Pyrazolo[1,5-a]Pyrimidine core: +100 (rigidity and hydrogen bonding). The presence of a carboxylic acid group typically raises the melting point significantly due to the strong hydrogen bonding and dimerization: +50. Trifluoromethyl (CF3) groups are heavy and highly electronegative, which may increase intermolecular forces: +20. The azo (-N=N-) linker is relatively rigid and can contribute to an increased melting point: +15. Summing these modifications, the predicted melting point becomes 185\u00b0C which is very close to the actual melting point.",
+    "mpC": 184.0,
+    "Prediction(integer)": 185.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, benzoic acid: 122\u00b0C\n- Amino group: +20\u00b0C (due to hydrogen bonding capabilities)\n- Thiophene ring: +10\u00b0C (due to increased rigidity and planarity)\n- Pyrazolo[1,5-a]pyrimidine ring: +30\u00b0C (due to the presence of nitrogen atoms and aromaticity)\n- Trifluoromethyl group: +20\u00b0C (due to strong electronegativity and increased molecular weight)\n- Diazenyl group: +15\u00b0C (due to the presence of nitrogen atoms and potential for intermolecular interactions)\n\nCombining these adjustments gives an estimated melting point:\n122 + 20 + 10 + 30 + 20 + 15 = 197\u00b0C\n##Prediction: 197.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 197.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

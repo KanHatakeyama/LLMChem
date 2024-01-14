@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-2-phenyl-3-(phenylamino)prop-2-enenitrile",
+    "smiles": "N#CC(=CNc1ccccc1)c1ccccc1",
+    "csid": 5653383,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-925",
+    "Reason": "The target compound, (2E)-2-phenyl-3-(phenylamino)prop-2-enenitrile, has multiple functional groups that influence its melting point. The fundamental structure to consider is that of benzene, which has a melting point of 5.5\u00b0C. Each substituent on the basic benzene ring affects the melting point through different intermolecular forces and structural effects: \n- The two phenyl groups are expected to significantly increase the melting point due to augmented pi-pi interactions. Considering the extensive conjugation and potential for pi stacking between these groups, each phenyl group can contribute significantly more than in cases with less conjugation. We can estimate each phenyl group adds approx. 25\u00b0C. \n- The amino group can form intermolecular hydrogen bonds, which tend to increase the melting point markedly. Given that it's connected to a phenyl group, this effect might be higher than in an ordinary amine. Thus, we estimate an increase of about 50\u00b0C for the amino group. \n- The nitrile group's strong polarity and potential for dipole-dipole interactions are expected to substantially increase the melting point as well. An increase of about 35\u00b0C seems reasonable for this group. \nThe combined effects of these groups should give a higher melting point; however, the specific interactions between them, particularly the conjugated system involving the phenyl rings and the nitrile, may lead to an additional synergistic increase. Therefore, we'll account for an additional 5\u00b0C to capture this likely under-represented effect.",
+    "mpC": 156.0,
+    "Prediction(integer)": 155.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "The basic unit for comparison is benzene, which has a melting point of 5.5\u00b0C. The presence of a nitrile group (-C\u2261N) generally increases the melting point due to the dipole and potential for hydrogen bonding. This could add approximately +20\u00b0C. The amino group (-NH2) can also engage in hydrogen bonding, which could add another +20\u00b0C. The presence of two phenyl rings adds significant molecular weight and rigidity, which can increase the melting point by approximately +40\u00b0C for each ring. The overall molecule has a rigid and planar structure, which can further increase the melting point due to better packing in the solid state.\n##Prediction: 145.0\n\n\n#Prediction",
+    "Test (Predicted value)": 145.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

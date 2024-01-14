@@ -1,0 +1,14 @@
+{
+    "name": "5,7,7-trimethyl-4-(1-methylethyl)-3,6-dioxabicyclo[3.2.2]nonan-2-one",
+    "smiles": "O=C1OC(C(C)C)C2(OC(C)(C)C1CC2)C",
+    "csid": 2031824,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2964",
+    "Reason": "The basic unit of cyclohexane has a melting point of approximately 6.5\u00b0C. The presence of oxygen atoms in the form of ether linkages (\u2013O\u2013) generally increases the polarity, which typically raises the melting point due to stronger dipole-dipole interactions. Adding two ether linkages might increase the melting point by around +20\u00b0C each. The carbonyl group (C=O) also contributes to the increase through potential hydrogen bonding and dipole-dipole interactions, estimated to be around +50\u00b0C. The three trimethyl groups and the isopropyl group add steric hindrance and bulk, which might decrease the melting point collectively by about -15\u00b0C due to disrupted crystal packing. The bicyclic structure introduces rigidity, which restricts molecular motion and can increase the melting point by around +30\u00b0C. Factoring these groups into the base value for cyclohexane provides the following summation: 6.5 (cyclohexane) + 2 * 20 (ether linkages) + 50 (carbonyl group) + 30 (bicyclic structure) - 15 (steric hindrance) = 6.5 + 40 + 50 + 30 - 15 = 111.5\u00b0C",
+    "mpC": 120.0,
+    "Prediction(integer)": 111.0,
+    "Abs error": 9.0,
+    "Test (Predicted reason)": "The compound in question is a bicyclic ketone with multiple methyl and ethyl groups. The base structure, bicyclo[3.2.2]nonane, has a melting point of 100\u00b0C. The presence of the ketone group (C=O) generally increases the melting point due to the polar nature of the carbonyl group, which can form dipole-dipole interactions, contributing around +20\u00b0C. The methyl groups (three in total) would increase the melting point due to the increase in molecular weight and van der Waals forces, contributing approximately +5\u00b0C each, totaling +15\u00b0C. The ethyl group (one in total) would also increase the melting point due to the increase in molecular weight and van der Waals forces, contributing approximately +5\u00b0C. However, the bicyclic structure and the presence of multiple substituents may lead to steric hindrance and a less efficient packing of the molecules in the solid state, which could lower the melting point by about -20\u00b0C. Adding these effects together, the predicted melting point would be: 100 + 20 (ketone) + 15 (methyl groups) + 5 (ethyl group) - 20 (steric hindrance) = 105\u00b0C.\n##Prediction: 105.0\n\n\n#Prediction",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

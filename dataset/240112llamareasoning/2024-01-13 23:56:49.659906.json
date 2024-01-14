@@ -1,0 +1,14 @@
+{
+    "name": "(1Z)-1,2-bis(4-aminophenyl)ethanone oxime",
+    "smiles": "ON=C(Cc1ccc(N)cc1)c1ccc(N)cc1",
+    "csid": 4898073,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-985",
+    "Reason": "While calculating the melting point for (1Z)-1,2-bis(4-aminophenyl)ethanone oxime, errors were made in the initial assessment of functional group influence on the melting point. The revised reasoning is as follows: The base unit is benzene, with a melting point of 5.5\u00b0C. The addition of an ethanone group to the structure contributes to the melting point by enhancing the polarity and potential for hydrogen bonding. This contribution might be closer to +20, considering steric hindrance and the effect on molecular symmetry. Each phenyl ring contributes to the melting point through \u03c0-\u03c0 interactions, but the value attributed should be lower, around +5 per ring as they do not significantly alter the crystalline packing efficiency. Amino groups indeed engage in hydrogen bonding, yet their net effect on the melting point is overshot, with a more reasonable contribution around +20 each due to the pre-existing influence of the ethanone and oxime groups. The oxime group promotes hydrogen bonding, but its effect was overestimated; +20 is a more accurate number since the molecule already has multiple sites for hydrogen bonding.",
+    "mpC": 147.0,
+    "Prediction(integer)": 147.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C. \n- Each amino group can form hydrogen bonds, which significantly increases the melting point; an estimate of +50\u00b0C per amino group is reasonable. \n- The oxime group (C=NOH) can also participate in hydrogen bonding, adding another +30\u00b0C. \n- The rigidity of the molecule due to the conjugated system and the planar structure of the molecule will also increase the melting point; an estimate of +10\u00b0C for the overall molecular structure is reasonable. \n##Prediction: 145.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 145.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

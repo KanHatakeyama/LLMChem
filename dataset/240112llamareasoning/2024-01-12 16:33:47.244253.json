@@ -1,0 +1,14 @@
+{
+    "name": "1,1,1,2-Tetrafluoroethane",
+    "smiles": "FCC(F)(F)F",
+    "csid": 12577,
+    "link": "http://msds.chem.ox.ac.uk/",
+    "source": "academic website",
+    "Reason": "The basic unit methane has a melting point of -182.5\u00b0C. The fluorination of the hydrogens results in a higher melting point due to the polarity and the strength of the carbon-fluorine bond compared to the carbon-hydrogen bond. Each fluorine is estimated to add around +20\u00b0C due to these effects. However, since there is one hydrogen left in the structure, we don't have complete fluorination which would maximize the melting point. Therefore, the increment is slightly lower than the theoretical maximum per fluorine atom. The addition of four fluorine atoms would thus contribute approximately +80\u00b0C in total.",
+    "mpC": -101.0,
+    "Prediction(integer)": -103.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "The compound 1,1,1,2-Tetrafluoroethane consists of a fluorinated ethane backbone. The fluorine atoms significantly increase the melting point due to their high electronegativity and the resulting strong dipole-dipole interactions. Each fluorine atom can be estimated to contribute approximately +20\u00b0C to the melting point. Since there are four fluorine atoms, the total increase would be 80\u00b0C. Starting with a base value of -185\u00b0C for ethane, we add the estimated increase from the fluorinated substituents.\n##Prediction: -105.0\n\n\n#Prediction",
+    "Test (Predicted value)": -105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

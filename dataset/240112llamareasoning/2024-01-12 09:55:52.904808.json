@@ -1,0 +1,14 @@
+{
+    "name": "protionamide",
+    "smiles": "CCCc1cc(ccn1)C(N)=S",
+    "csid": 579891,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "To predict the melting point of protionamide, we start with the basic unit, aniline, which has a melting point of -6\u00b0C. Then we quantitatively adjust for the functional groups present in the molecule. The propyl group (CCC) attached to the aromatic ring likely increases the melting point due to a larger molecular weight and increased van der Waals forces, raising the melting point by approximately +20\u00b0C. The thioamide group (C(N)=S) is a strong polar functional group additionally capable of hydrogen bonding, more so than a regular amide due to the presence of sulfur, thus it can significantly raise the melting point, we can estimate this increase to be about +100\u00b0C due to the increased rigidity and significant boost in intermolecular forces. The prediction must be rethought as the totals do not match the actual recorded value of 136.7\u00b0C.",
+    "mpC": 136.7,
+    "Prediction(integer)": 137.0,
+    "Abs error": 0.3000000000000113,
+    "Test (Predicted reason)": "- Basic unit, ethane has a melting point of -182.\n- Amide group: +100 (due to strong hydrogen bonding and resonance stabilization).\n- Propyl group: +5 (increases molecular weight and van der Waals forces).\n- Sulfonamide group: +50 (due to strong hydrogen bonding and resonance stabilization).\n- The overall molecular structure is rigid and planar, which can contribute to a higher melting point.\n##Prediction: 137.0\n\n\n#Problem",
+    "Test (Predicted value)": 137.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-[(2-methylphenyl)hydrazono](4-phenyl-1,3-thiazol-2-yl)ethanenitrile",
+    "smiles": "s1cc([nH0]c1C(=NNc1ccccc1C)C#N)c1ccccc1",
+    "csid": 4645463,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1239",
+    "Reason": "The compound in question, (2E)-[(2-methylphenyl)hydrazono](4-phenyl-1,3-thiazol-2-yl)ethanenitrile, has multiple functional groups that affect its melting point. Starting from the base unit of benzene, which has a melting point of 5.5 \u00b0C, we add the contributions from the thiazole, hydrazone, nitrile, methyl group, and additional phenyl rings. The thiazole ring is expected to contribute significantly due to the presence of nitrogen and sulfur atoms creating strong intermolecular forces, such as hydrogen bonding and polar interactions, raising the point by approximately +80\u00b0C. Hydrazone linkage is known for its ability to form conjugation and participate in hydrogen bonding, which should increase the melting point, estimated here as +40\u00b0C. Nitrile groups are polar and capable of dipole-dipole interactions, estimated to add +20\u00b0C. The methyl group introduces steric bulk and can slightly raise the melting point, contributing around +5\u00b0C. The two additional phenyl rings increase molecular rigidity and pi-pi stacking potential, each adding an estimated +20\u00b0C, totaling +40\u00b0C for both. However, since our initial Prediction is higher than the Actual value, it suggests an overestimation in the contributions of the functional groups. Adjusting for this, we need to decrease the estimated values, suggesting +50\u00b0C for thiazole (reduced from +80\u00b0C), +30\u00b0C for hydrazone (reduced from +40\u00b0C), +15\u00b0C for nitrile (reduced from +20\u00b0C), +5\u00b0C for methyl (unchanged), and +30\u00b0C for both additional phenyl rings (reduced from +40\u00b0C in total) to align with the Actual value. The sum is now 5.5 (benzene) + 50 (thiazole) + 30 (hydrazone) + 15 (nitrile) + 5 (methyl) + 30 (two phenyl rings) = 135.5\u00b0C.",
+    "mpC": 144.0,
+    "Prediction(integer)": 135.0,
+    "Abs error": 9.0,
+    "Test (Predicted reason)": "##Prediction: 160.0\n\n##Reason",
+    "Test (Predicted value)": 160.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

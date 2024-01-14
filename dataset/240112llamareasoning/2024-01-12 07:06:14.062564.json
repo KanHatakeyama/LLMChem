@@ -1,0 +1,14 @@
+{
+    "name": "(3Z)-5-Isobutyl-3-{[5-(2-methoxyphenyl)-2-furyl]methylene}furan-2(3H)-one",
+    "smiles": "O=C1OC(=CC1=Cc1oc(cc1)c1ccccc1OC)CC(C)C",
+    "csid": 1473706,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3770",
+    "Reason": "The target compound is a fused bicyclic furanone with isobutyl and methoxyphenyl substituents. The basic furan structure has a melting point around -85.6\u00b0C. When functional groups are present, several factors need to be considered: aromatic rings, alkylation, intramolecular hydrogen bonds, and polar substituents. Starting with furan (-85.6\u00b0C), adding an aromatic ring generally increases the melting point due to greater pi-pi interactions (+50\u00b0C). The isobutyl group will contribute to an increase due to van der Waals interactions and increased molecular weight (+10\u00b0C). The presence of an additional furan ring in the bicyclic structure significantly increases rigidity and can contribute a substantial increase (+70\u00b0C). However, the molecule also contains a methoxy group, which is electron-donating and increases the polarity of the molecule but should not significantly affect the melting point in this context (\u00b10\u00b0C). Estimating the overall effect, the expected melting point would be the sum of the contributions.",
+    "mpC": 89.0,
+    "Prediction(integer)": 89.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The compound in question is a complex molecule with several functional groups that influence its melting point:\n- Basic furan ring: Furan has a melting point of -85.5\u00b0C.\n- Isobutyl group: Isobutyl groups are bulky and increase the melting point due to increased van der Waals interactions. Isobutyl group effect: +20.\n- Methoxy group: Methoxy groups are electron-donating and can increase the melting point due to the inductive effect and the possibility of hydrogen bonding. Methoxy group effect: +10.\n- Phenyl group: Phenyl groups increase the melting point due to \u03c0-\u03c0 interactions and the rigidity they provide. Phenyl group effect: +20.\n- Furanone ring: The furanone ring is a rigid structure that can increase the melting point due to the presence of a keto group and the rigidity of the structure. Furanone ring effect: +30.\n- Conjugation: The conjugated double bond (C=C) in the structure can increase the packing efficiency and thus the melting point. Conjugation effect: +15.\n\n##Prediction: 105.0\n\n\n#Prediction",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-1-(3,4-Dimethoxyphenyl)-3-[5-(2-nitrophenyl)-2-furyl]prop-2-en-1-one",
+    "smiles": "O=[N+]([O-])c1ccccc1c1oc(cc1)C=CC(=O)c1ccc(OC)c(OC)c1",
+    "csid": 4645632,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1193",
+    "Reason": "The compound in question is a chalcone derivative with multiple functional groups including aromatic rings, ethers, a nitro group, and a carbonyl group. The benzene rings serve as the baseline, with a hypothetical melting point in the range of 5-10 \u00b0C because pure benzene freezes at 5.5 \u00b0C. Ethers (methoxy groups) have minimal effects on the melting point in this context and can be considered neutral due to their symmetry and lack of strong hydrogen bonding. However, the nitro group significantly increases the melting point, estimated at +80 \u00b0C due to its strong electron-withdrawing nature, which promotes intermolecular attraction. Finally, the carbonyl group is also an electron-withdrawing group that increases the melting point, estimated at +30 \u00b0C because of additional dipole-dipole interactions and possible hydrogen bonding with nearby molecules. Combining these effects leads to an approximate melting point.",
+    "mpC": 120.0,
+    "Prediction(integer)": 115.0,
+    "Abs error": 5.0,
+    "Test (Predicted reason)": "The compound in question has several functional groups that influence its melting point. The base structure is a bicyclic compound, which typically has a higher melting point than a monocyclic compound due to increased rigidity and potential for pi-pi interactions. The presence of a furan ring adds to the rigidity and potential for hydrogen bonding, which could contribute an estimated +20 to the melting point. The ketone group (C=O) can form hydrogen bonds, which would increase the melting point by approximately +30. The nitro group (NO2) is highly electronegative and can participate in dipole-dipole interactions, adding around +20. The methoxy groups (-OCH3) are electron-donating and can participate in dipole-dipole interactions, each contributing approximately +15. The overall effect of these groups is additive, but the cumulative effect might not be a simple sum due to potential steric hindrance and molecular packing effects.\n##Prediction: 125.0\n\n##Prediction",
+    "Test (Predicted value)": 125.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

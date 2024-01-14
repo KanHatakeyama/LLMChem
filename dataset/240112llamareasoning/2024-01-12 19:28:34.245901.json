@@ -1,0 +1,14 @@
+{
+    "name": "2-(1-hydroxy-2-phenylethyl)-4-methylphenol",
+    "smiles": "Oc1ccc(C)cc1C(O)Cc1ccccc1",
+    "csid": 2032707,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2768",
+    "Reason": "The compound 2-(1-hydroxy-2-phenylethyl)-4-methylphenol is composed of two phenyl rings and one tertiary alcohol group, as well as a methyl substituent. The melting point of a basic benzene molecule is approximately 5.53\u00b0C. Each additional ring typically raises the melting point due to increased pi-stacking and van der Waals interactions; we can estimate this increase to be around +30\u00b0C per additional ring. The tertiary alcohol group (phenol) is likely to engage in hydrogen bonding, further increasing the melting point by approximately +80\u00b0C. A methyl group, being electron-donating, marginally stabilizes the structure but does not significantly alter the melting point; the effect may be around +5\u00b0C. Therefore, the total predicted shift due to two additional rings, one methyl group, and a tertiary alcohol group would be (+30 * 2) + (+80) + (+5) = +145\u00b0C. However, the steric hindrance introduced by substituents may reduce this effect somewhat, so a slight adjustment will be made, resulting in a prediction that is slightly less than the calculated value.",
+    "mpC": 83.0,
+    "Prediction(integer)": 73.0,
+    "Abs error": 10.0,
+    "Test (Predicted reason)": "The basic unit for comparison could be phenol, which has a melting point of 41 degrees Celsius. The compound in question has a 1-hydroxy-2-phenylethyl group attached, which includes a phenyl ring and an ethyl group. The phenyl ring contributes to the melting point due to its aromaticity and the potential for \u03c0-\u03c0 interactions, which could increase the melting point. The ethyl group is a small alkyl chain that can increase the melting point due to increased molecular weight and van der Waals forces. The hydroxy group is capable of hydrogen bonding, which can significantly increase the melting point.\n- Phenyl group: +20 (due to aromaticity and potential for \u03c0-\u03c0 interactions)\n- Ethyl group: +5 (due to increased molecular weight and van der Waals forces)\n- Hydroxy group: +40 (due to hydrogen bonding)\n\n##Prediction: 76.0\n\n\n#Prediction",
+    "Test (Predicted value)": 76.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

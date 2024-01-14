@@ -1,0 +1,14 @@
+{
+    "name": "2,6-dinitrobenzonitrile",
+    "smiles": "c1cc(c(c(c1)[N+](=O)[O-])C#N)[N+](=O)[O-]",
+    "csid": 454200,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L12624",
+    "source": "Alfa Aesar",
+    "Reason": "The basic structure of 2,6-dinitrobenzonitrile is benzene, which has a melting point of 5.5\u00b0C. The nitrile (C#N) group increases the melting point due to strong dipole-dipole attractions and possible cyano stacking interactions, contributing an estimated increase of about +80\u00b0C. Each nitro (NO2) group is an electron-withdrawing group that can significantly increase the melting point due to its ability to participate in intermolecular attractions such as dipole-dipole interactions and potential hydrogen bonding. We can estimate each nitro group to contribute an increase of about +30\u00b0C. With two nitro groups, the total increase would be approximately +60\u00b0C. Combining these effects gives us an overall prediction for the melting point.",
+    "mpC": 148.0,
+    "Prediction(integer)": 145.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C.\n- Nitro groups: Each nitro group is electron-withdrawing and can increase the melting point due to its ability to participate in intermolecular interactions. We can estimate each nitro group to add +40\u00b0C. There are two nitro groups, so that's +80\u00b0C in total.\n- Nitrile group: The cyano group (C#N) is also electron-withdrawing and can increase the melting point due to its linear geometry and the possibility of dipole-dipole interactions. We can estimate the nitrile group to add +20\u00b0C.\n- Aromaticity: The compound has two aromatic rings, which can increase the melting point due to pi-pi stacking interactions. We can estimate each aromatic ring to add +20\u00b0C.\n- Total estimated increase: 5.5 (benzene) + 80 (nitro groups) + 20 (nitrile group) + 40 (aromaticity) = 145.5\u00b0C.\n##Prediction: 145.5\n\n\n#Problem",
+    "Test (Predicted value)": 145.5,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

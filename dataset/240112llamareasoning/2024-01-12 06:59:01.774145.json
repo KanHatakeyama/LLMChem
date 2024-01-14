@@ -1,0 +1,14 @@
+{
+    "name": "dfdd",
+    "smiles": "Fc1ccc(cc1)C(=C(/Cl)Cl)c2ccc(F)cc2",
+    "csid": 13597790,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "To predict the melting point of the compound with SMILES 'Fc1ccc(cc1)C(=C(/Cl)Cl)c2ccc(F)cc2', various functional group effects need to be quantitatively considered. The basic unit here would be benzene, which has a melting point of 5.5 \u00b0C. Adding substituents will alter the melting point based on their individual properties.\n- Fluorine substituents: These are highly electronegative atoms that can increase the melting point due to strong dipole-dipole interactions. Since there are two fluorine atoms, the effect is additive. Fluorine can be estimated to increase the melting point by about 20 \u00b0C per fluorine.\n- The geminal dichloroethylene group (-C(=C(/Cl)Cl)-): This group tends to increase the melting point because of the polarizability and mass it adds to the molecule. Also, the rigidity introduced by this double bond may affect the melting point. The effect might be estimated to increase the melting point by about 40 \u00b0C.\nThe combined effect of two fluorine atoms and the dichloroethylene group leads to the prediction of the melting point.",
+    "mpC": 77.0,
+    "Prediction(integer)": 85.0,
+    "Abs error": 8.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C.\n- Fluorine substituents: +20\u00b0C each (due to the electronegativity and the dipole-dipole interactions they introduce).\n- Chloro substituent: +20\u00b0C (due to the increase in molecular weight and electron-withdrawing nature, which can increase intermolecular forces).\n- Double bond: +10\u00b0C (due to the rigidity it introduces).\n\nCalculations:\nBase benzene: 5.5\u00b0C\nFluorine substituents: 2 * 20\u00b0C = +40\u00b0C\nChloro substituent: +20\u00b0C\nDouble bond: +10\u00b0C\nTotal: 5.5 + 40 + 20 + 10 = 75.5\u00b0C\n##Prediction: 75.0\n\n\n#Prediction",
+    "Test (Predicted value)": 75.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "2,6-diisopropylphenol",
+    "smiles": "CC(C)c1cccc(c1O)C(C)C",
+    "csid": 4774,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L06841",
+    "source": "Alfa Aesar",
+    "Reason": "The target compound, 2,6-diisopropylphenol, can be analyzed starting with phenol as the base structure, which has a melting point of 41\u00b0C. The introduction of isopropyl groups typically lowers the melting point due to the increased steric hindrance, which disrupts the regular packing in the crystal lattice, thus reducing its stability. Each isopropyl group is estimated to decrease the melting point by approximately 11.5\u00b0C. Since there are two isopropyl groups, the total reduction would be 23\u00b0C. No additional adjustments for the hydroxyl group are necessary as its influence is already included in the base value of phenol.",
+    "mpC": 18.0,
+    "Prediction(integer)": 18.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, phenol has a melting point of 41\u00b0C. \n- Isopropyl groups: Each isopropyl group is expected to increase the melting point due to increased molecular weight and van der Waals forces. However, the presence of the isopropyl groups also introduces steric hindrance which can disrupt the crystal lattice, potentially lowering the melting point. The effect of each isopropyl group is complex and depends on the specific molecule. For 2,6-diisopropylphenol, we can estimate the effect of each isopropyl group to be around -5\u00b0C to -10\u00b0C each, considering the steric hindrance and the disruption of the crystal lattice. \n- The hydroxyl group (OH) is capable of forming strong intermolecular hydrogen bonds, which typically increases the melting point. However, in this case, the hydroxyl group is part of a phenol ring, which already has a high melting point due to hydrogen bonding. Therefore, the effect of the hydroxyl group on the melting point is already accounted for in the base value of phenol. \n- The molecule is symmetrical, which can lead to better packing in the solid state, potentially increasing the melting point. However, this effect is not as pronounced as the effects of the isopropyl groups. \n- The overall prediction should be a balance of the effects of the isopropyl groups and the hydroxyl group, taking into account the steric hindrance and the disruption of the crystal lattice.\n##Prediction: 25.0\n##Reason",
+    "Test (Predicted value)": 25.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

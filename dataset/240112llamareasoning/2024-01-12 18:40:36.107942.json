@@ -1,0 +1,14 @@
+{
+    "name": "1,5-cyclocholestan-2-one",
+    "smiles": "O=C1CCC23CCC4C(CCC5(C)C4CCC5C(C)CCCC(C)C)C3(C)C12",
+    "csid": 4290854,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1608",
+    "Reason": "The base structure of 1,5-cyclocholestan-2-one is a steroid framework similar to that of cholesterol, which has a melting point of around 148\u00b0C. The introduction of a ketone functional group at the 2-position is expected to raise the melting point due to the possibility of hydrogen bonding and dipole-dipole interactions, but by a smaller amount compared to the impact of the additional methyl groups because it is only a single functional group in a large molecule. The increase might be estimated to be around 5\u00b0C. There are eight additional methyl groups present compared to cholesterol. Each methyl group typically contributes towards an increase in melting point because it increases the molecular weight and the van der Waals interactions, which can be estimated to add around 1-2\u00b0C per methyl group for such a large and complex molecule. Therefore, the cumulative effect of these alkyl chains is around 8-16\u00b0C (8 methyl groups * 1-2\u00b0C each).",
+    "mpC": 164.0,
+    "Prediction(integer)": 157.0,
+    "Abs error": 7.0,
+    "Test (Predicted reason)": "- Basic unit, cyclohexane has a melting point of 6.5\u00b0C. \n- The presence of a ketone group (C=O) generally increases the melting point due to the polar nature of the carbonyl group, which can form dipole-dipole interactions. This can be estimated to add approximately +40\u00b0C. \n- The presence of a cholestane structure with multiple rings and a hydroxyl group (OH) can significantly increase the melting point due to the increased molecular weight and the potential for hydrogen bonding. The hydroxyl group can be estimated to add approximately +100\u00b0C. \n- The presence of multiple methyl groups (C) can increase the melting point due to the increase in van der Waals forces. Each methyl group can be estimated to add approximately +5\u00b0C. \n- The presence of a double bond (C=C) in the structure can slightly increase the melting point due to the rigidity it introduces, estimated at +5\u00b0C. \n- The overall structure of the compound is complex and has multiple functional groups that can influence the melting point. However, the exact contribution of each functional group to the melting point is difficult to predict without empirical data.\n##Prediction: 161.0\n##Reason",
+    "Test (Predicted value)": 161.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "benzene, 1,1',1''-(1-ethenyl-2-ylidene)tris-",
+    "smiles": "C(/c1ccccc1)=C(/c2ccccc2)c3ccccc3",
+    "csid": 5803,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The target compound benzene, 1,1',1''-(1-ethenyl-2-ylidene)tris-, also known as triphenylethylene, incorporates the fundamental structure of benzene, which has a melting point of approximately 5.5 degrees Celsius. Each phenyl group attached to the central ethene structure significantly elevates the molecular weight and also enhances the symmetry and rigidity of the molecule, which generally results in an increase in the melting point. The presence of the double bond in ethene slightly affects the melting point but its impact is minimal compared to the influence of the added phenyl groups. Considering that the added phenyl groups enhance the planarity of the molecule and its ability to stack in a crystalline lattice, the overall effect on the melting point would be an increase but less pronounced than if different bulky groups were attached. Despite the large size of the molecule, this planarity and enhanced \u03c0-\u03c0 interactions can lead to stronger intermolecular forces and greater stability in the solid state, which might slightly temper the increase in the melting point.",
+    "mpC": 72.5,
+    "Prediction(integer)": 69.0,
+    "Abs error": 3.5,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C.\n- The presence of three vinyl groups (ethenyl) will significantly increase the melting point due to the rigidity and planarity of the molecule, which enhances \u03c0-\u03c0 stacking interactions. Each vinyl group can be estimated to increase the melting point by about +20\u00b0C.\n- The rigidity of the molecule also contributes to a higher melting point, which can be estimated at an additional +10\u00b0C.\n\nAdditions:\nBase value (benzene): 5.5\u00b0C\nVinyl groups: 3 * 20\u00b0C = +60\u00b0C\nRigidity: +10\u00b0C\nTotal estimated increase: 5.5 + 60 + 10 = 75.5\u00b0C\n\nAdjusted base value with total increase: 5.5\u00b0C + 75.5\u00b0C = 81\u00b0C.\n##Prediction: 81.0\n\n\n#Problem",
+    "Test (Predicted value)": 81.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

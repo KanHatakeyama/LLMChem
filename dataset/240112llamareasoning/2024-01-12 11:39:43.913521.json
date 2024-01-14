@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-2-hydrazono-1-naphthalen-1-yl-2-phenylethanone",
+    "smiles": "O=C(c1cccc2ccccc21)C(=NN)c1ccccc1",
+    "csid": 4705594,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1114",
+    "Reason": "The compound (2E)-2-hydrazono-1-naphthalen-1-yl-2-phenylethanone is a complex molecule with multiple functional groups that influence its melting point. The base structure can be considered as naphthalene, which has a melting point of 80.2 degrees Celsius. The addition of a phenyl group would generally increase the melting point due to increased molecular weight and \u03c0-\u03c0 interactions, potentially by around +20 degrees Celsius. The ketone functional group typically raises the melting point as well due to the possibility of hydrogen bonding and dipole-dipole interactions; we can estimate this increase to be around +20 degrees Celsius. The hydrazone group can form intramolecular hydrogen bonds, which would raise the melting point; we can estimate this as +30 degrees Celsius. Thus, considering the cumulative effects of naphthalene as the base unit (80.2) and the added functional groups, we add up the shifts: 80.2 (naphthalene base) + 20 (phenyl group) + 20 (ketone group) + 30 (hydrazone group).",
+    "mpC": 152.0,
+    "Prediction(integer)": 150.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "The compound in question is a complex molecule with multiple functional groups that influence its melting point. Starting with the base structure of naphthalene, which has a melting point of 80.5\u00b0C, we consider the effects of the functional groups. The presence of a hydrazono group (\u2013NNH\u2013) is expected to increase the melting point due to the potential for hydrogen bonding and the rigidity it introduces to the molecule. This could be estimated to contribute +20\u00b0C. The ketone (\u2013C=O\u2013) group is polar and can form dipole-dipole interactions, which could contribute an additional +15\u00b0C. The phenyl group (\u2013c1ccccc1\u2013) is bulky and increases the molecular weight, which might contribute +10\u00b0C. The 1-naphthyl group (\u2013c1ccccc1\u2013) is also bulky and can increase the melting point due to its rigid structure and potential for \u03c0-\u03c0 stacking interactions, estimated at +20\u00b0C. The overall prediction would be 80.5 (naphthalene) + 20 (hydrazono group) + 15 (ketone) + 10 (phenyl group) + 20 (1-naphthyl group) = 135.5\u00b0C. However, the actual value is 128.0\u00b0C, which suggests that the prediction overestimated the contribution of the functional groups.\n##Prediction: 135.0\n\n\n#Prediction",
+    "Test (Predicted value)": 135.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

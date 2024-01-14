@@ -1,0 +1,14 @@
+{
+    "name": "carbohydrazide",
+    "smiles": "C(=O)(NN)NN",
+    "csid": 66578,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A11145",
+    "source": "Alfa Aesar",
+    "Reason": "Carbohydrazide contains a carbonyl group and two hydrazide groups that influence its melting point. Starting with urea, which has a melting point of 133\u00b0C, we can estimate the effects of these functional groups. The carbonyl group in carbohydrazide is capable of forming strong hydrogen bonds due to its polar nature and the hydrogen bond acceptor oxygen, typically increasing the melting point by about 10-20\u00b0C. Each hydrazide group (-NN) adds to the potential for hydrogen bonding due to the presence of N-H bonds. Given the structure of carbohydrazide, we would expect each hydrazide group to contribute an increase slightly less than the carbonyl group, so around 5-10\u00b0C per hydrazide. Therefore, we estimate the total increase in the melting point to be from the sum of these contributions over the base melting point of urea.",
+    "mpC": 156.0,
+    "Prediction(integer)": 158.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "- Base unit, ethane, has a melting point of -183\u00b0C. \n- The carbonyl group (C=O) typically raises the melting point due to the possibility of hydrogen bonding and dipole-dipole interactions, which can be estimated at +40\u00b0C. \n- The hydrazide group (NN) is capable of hydrogen bonding and has a significant impact on the melting point, estimated at +80\u00b0C. \n- The presence of two hydrazide groups contributes to the rigidity of the molecule, which can further increase the melting point, estimated at +20\u00b0C for the additional hydrazide group. \n- The overall effect of these functional groups is to increase the melting point significantly from the base value of ethane.\n##Prediction: 140.0\n\n\n#Problem",
+    "Test (Predicted value)": 140.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "(+/+)-indoprofen",
+    "smiles": "O=C(O)C(C)c1ccc(cc1)N2Cc3ccccc3C2=O",
+    "csid": 3587,
+    "link": "http://dx.doi.org/10.1021/ci700307p",
+    "source": "Hughes LD; Palmer DS; Nigsch F and Mitchell JBO. 2008 Why are some properties more difficult to predict than others? A study of QSPR models of solubility; melting point and LogP. J. Chem. Inf. Model. 2008. 48 (1). pp 220?302",
+    "Reason": "Starting with the basic unit, benzene, which has a melting point of 5.5 degrees Celsius. The benzene moiety in indoprofen is modified with several functional groups that affect its melting point: 1) The presence of two carboxamide groups, one aromatic and one aliphatic, leads to strong intermolecular hydrogen bonding, significantly increasing the melting point. A carboxamide group typically adds around 80 degrees Celsius due to its potential for hydrogen bonding and planarity, which facilitates solid-state packing. 2) The molecule also contains an isoindoline structure, which introduces strain and rigidity to the system, impacting the crystal packing efficiency. This bicyclic system might increase the melting point by around 50 degrees Celsius due to these effects. 3) There is a tertiary butyl group that, due to its bulky nature, might hinder close packing of the molecules in the solid state. While this could decrease the melting point, in the context of strong hydrogen bonding, its effect is probably overshadowed. We could estimate an impact of +5 degrees Celsius. Summing these changes, we get an estimate for the melting point of indoprofen.",
+    "mpC": 212.5,
+    "Prediction(integer)": 220.0,
+    "Abs error": 7.5,
+    "Test (Predicted reason)": "The compound (+/+)-indoprofen has several functional groups that influence its melting point. The base structure can be considered similar to biphenyl, which has a melting point of 69\u00b0C. The compound has two phenyl rings, which are aromatic and contribute to the melting point through \u03c0-\u03c0 interactions. The presence of a carboxylic acid group (COOH) and a ketone group (CO) can form hydrogen bonds and increase the melting point significantly, estimated at +50\u00b0C for each. The presence of two methyl groups (CH3) and a methoxy group (OCH3) will increase the melting point due to the increase in molecular weight and van der Waals interactions, estimated at +5\u00b0C for each. The presence of a nitrogen atom in the compound can participate in hydrogen bonding, which would further increase the melting point, estimated at +10\u00b0C. The overall prediction is based on the cumulative effect of these functional groups on the melting point of the base biphenyl structure.\n##Prediction: 199.0\n\n\n#Prediction",
+    "Test (Predicted value)": 199.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

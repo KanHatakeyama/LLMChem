@@ -1,0 +1,14 @@
+{
+    "name": "benzoic acid, 4-(dodecyloxy)-",
+    "smiles": "O=C(O)c1ccc(OCCCCCCCCCCCC)cc1",
+    "csid": 67867,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The target compound is a dodecyloxy-substituted benzoic acid. The parent compound benzoic acid has a melting point of 122 \u00b0C. The dodecyloxy substituent, being a long alkyl chain, would typically lower the melting point due to introducing a degree of flexibility and disrupting the crystal lattice of the aromatic carboxylic acid. However, the sheer length of this chain (12 carbons) can enable van der Waals interactions that slightly counteract this effect. A rough estimate for the effect of each additional methylene group past the normal alkyl chain length for fatty acids (which usually contain up to about 10 carbons and increase melting points) on the melting point is about -2 to -5 \u00b0C per methylene group. Given there are two extra methylene groups in comparison to a decanoate (which would be expected to have a higher melting point due to better packing), this would give a range of -4 to -10 \u00b0C reduction from where the melting point might be without these two additional methylene groups.",
+    "mpC": 95.0,
+    "Prediction(integer)": 103.0,
+    "Abs error": 8.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Carboxylic acid group: +100\u00b0C (due to the ability to form strong intermolecular hydrogen bonds and dimerization). \n- Dodecyloxy group: +100\u00b0C (due to the large size and hydrophobic nature of the alkyl chain, which increases the molecular weight and surface area, leading to stronger van der Waals forces). \n- The presence of both functional groups in the same molecule allows for potential synergistic effects, which could increase the melting point further. However, the large alkyl chain may also introduce steric hindrance that could disrupt the crystal lattice, potentially lowering the melting point. \n- The actual value of 105.0\u00b0C suggests that the increase in melting point due to the functional groups is greater than the disruptive effect of the alkyl chain.\n##Prediction: 105.0\n##Reason",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "4,4'-Biphenyldiyl diacetate",
+    "smiles": "O=C(Oc1ccc(cc1)c1ccc(OC(=O)C)cc1)C",
+    "csid": 525308,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3995",
+    "Reason": "The basic unit for this consideration can be biphenyl, which has a melting point of 71 degrees Celsius. Adding acetoxy functional groups (OC(=O)C) typically increases the melting point due to an increase in molecular weight and potential for hydrogen bonding interactions. The presence of two of these groups is expected to have an additive effect. Each acetoxy group can increase the melting point by approximately 45 degrees Celsius. Therefore, the additive effect of two acetoxy groups can be estimated as 45 * 2 = 90 degrees Celsius increase over the base melting point of biphenyl.",
+    "mpC": 161.0,
+    "Prediction(integer)": 161.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The biphenyl structure adds rigidity and planarity to the molecule, which typically increases the melting point due to better packing in the solid state. This effect can be estimated to add around +80\u00b0C. \n- The presence of two acetate groups (CO2CH2CO2H) introduces both polarity and the potential for hydrogen bonding, which can significantly increase the melting point. Each acetate group can be estimated to add around +40\u00b0C due to these effects. \n- The presence of the biphenyl ring also introduces aromaticity, which can increase the melting point due to \u03c0-\u03c0 interactions. This effect can be estimated to add around +20\u00b0C. \n- The overall molecule is large and has a high degree of symmetry, which can lead to more efficient packing in the solid state, further increasing the melting point. This effect can be estimated to add around +10\u00b0C.\n##Prediction: 165.0\n##Reason",
+    "Test (Predicted value)": 165.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

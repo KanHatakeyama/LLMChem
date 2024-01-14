@@ -1,0 +1,14 @@
+{
+    "name": "2,2,3,3-tetrafluoro-1,4-butanediol",
+    "smiles": "C(C(C(CO)(F)F)(F)F)O",
+    "csid": 120045,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L16635",
+    "source": "Alfa Aesar",
+    "Reason": "The basic unit to consider here is butane, which has a melting point around -138.4\u00b0C. Functional groups in the target compound are hydroxyl (-OH) and fluorine atoms (F). Each hydroxyl group contributes to intermolecular hydrogen bonding, significantly increasing the melting point. Let's conservatively estimate: +100\u00b0C each for simplicity. Fluorine atoms are electronegative and attract electrons towards themselves, enhancing the intermolecular forces through dipole-dipole interactions, thus increasing the melting point as well. Because all fluorine atoms are on adjacent carbons, their effect may not be purely additive due to steric and electronic repulsions, so let's estimate a +5\u00b0C for each individual fluorine atom. Therefore, the total effect is estimated to be: Butane (-138.4) + 2(OH groups) * 100 + 4(F atoms) * 5 = -138.4 + 200 + 20 = 81.6\u00b0C.",
+    "mpC": 84.0,
+    "Prediction(integer)": 81.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "- Basic unit, ethane, has a melting point of -172\u00b0C. \n- Each fluorine atom is highly electronegative and can engage in dipole-dipole interactions, which typically increases the melting point. We can estimate this effect to be around +20\u00b0C per fluorine atom. \n- The hydroxyl groups (OH) can form hydrogen bonds, which significantly increases the melting point. We can estimate this effect to be around +40\u00b0C per OH group. \n- The presence of the diol group (C(CO)(F)F) introduces additional rigidity and potential for hydrogen bonding, which could further increase the melting point. We can estimate this effect to be around +10\u00b0C. \n- The overall molecular weight and size of the molecule will also influence the melting point, but this is already accounted for in the base unit of ethane. \n##Prediction: 102.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 102.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

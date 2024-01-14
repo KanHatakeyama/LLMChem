@@ -1,0 +1,14 @@
+{
+    "name": "3-[(Z)-(3-hydroxyphenyl)-NNO-azoxy]phenol",
+    "smiles": "[O-][N+](=Nc1cccc(O)c1)c1cccc(O)c1",
+    "csid": 477441,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4037",
+    "Reason": "The target compound has two main functional groups that will affect its melting point: phenol groups and an azoxy linkage. Starting with the basic benzene unit, which has a melting point around 5.5 degrees Celsius, each functional group will contribute as follows:\n- Phenol group: +60 degrees Celsius per group. The presence of a hydroxyl group on the benzene ring increases the melting point due to hydrogen bonding, which makes the compound more rigid, requiring more energy to break the bonds and transition into a liquid state. There are two phenol groups in the molecule.\n- Azoxy linkage: +55 degrees Celsius. The azoxy group has a resonance-stabilized structure, which increases the rigidity of the molecule and provides more intermolecular forces such as dipole-dipole interactions that need to be overcome to melt the compound.\nThe effects are additive because the functional groups do not interact in a way that would otherwise affect the melting point significantly.\nPrediction calculation: 5.5 (benzene) + 2 * 60 (phenol groups) + 55 (azoxy linkage) = 180.5 degrees Celsius.",
+    "mpC": 183.0,
+    "Prediction(integer)": 180.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "- Basic unit, phenol, has a melting point of 41\u00b0C.\n- Hydroxyl groups: Each hydroxyl group can form hydrogen bonds, which significantly increases the melting point. We can estimate an increase of +50\u00b0C for each hydroxyl group.\n- Azoxy group: The presence of the nitrogen in the azoxy group can participate in hydrogen bonding, and the oxygen can participate in dipole-dipole interactions, which can raise the melting point. We can estimate an increase of +30\u00b0C for the azoxy group.\n- Styryl group: The additional aromatic ring and the extended conjugation can increase the melting point due to increased molecular rigidity and pi-pi stacking interactions. We can estimate an increase of +25\u00b0C for the styryl group.\n- Nitrogen in the NNO bridge: The nitrogen can participate in hydrogen bonding, which can further increase the melting point. We can estimate an increase of +10\u00b0C for the nitrogen in the NNO bridge.\n\nSumming these contributions gives us a total estimated increase from the base value of phenol of 156\u00b0C.\n##Prediction: 201.0\n\n\n#Problem",
+    "Test (Predicted value)": 201.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

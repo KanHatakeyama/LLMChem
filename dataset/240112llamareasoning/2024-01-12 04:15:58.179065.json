@@ -1,0 +1,14 @@
+{
+    "name": "1,2-bis(4-fluorophenyl)ethane-1,2-diol",
+    "smiles": "Fc1ccc(cc1)C(O)C(O)c1ccc(F)cc1",
+    "csid": 2036658,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1841",
+    "Reason": "The basic unit we'll consider is benzene, which has a melting point of 5.5\u00b0C. Each fluoro substituent on the benzene ring is electron-withdrawing and increases the rigidity of the molecule; this could typically add around 10-15\u00b0C per fluorine to the melting point due to increased polarity and intermolecular forces. The two hydroxyl groups offer the potential for intermolecular and intramolecular hydrogen bonding, which would significantly increase the melting point. Each hydroxyl group can increase the melting point by approximately 50-70\u00b0C. The introduction of the 1,2-di-substitution pattern of the ethane-1,2-diol moiety between the benzene rings contributes to a more rigid structure and enhances hydrogen bonding, but intramolecular bonding may slightly reduce their effect compared to intermolecular hydrogen bonding only. However, this effect tends to be within the range of the increase estimated for the hydroxyl groups. The combined effect of having two benzene rings connected by a diol linkage may slightly increase the melting point due to the rigid and planar structure facilitating better packing in the solid state. Thus, the overall impact of the molecule's functionality on the melting point is a combination of these effects, favoring a higher melting point due to strong intermolecular forces and rigidity.",
+    "mpC": 153.0,
+    "Prediction(integer)": 151.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "The compound in question is 1,2-bis(4-fluorophenyl)ethane-1,2-diol. The basic unit, ethane, has a melting point of -172.2\u00b0C. The presence of two phenyl groups and two hydroxyl groups will significantly affect the melting point. Each phenyl group increases the melting point due to increased molecular weight and pi-pi interactions, which can be estimated at +40\u00b0C each. The hydroxyl groups can form hydrogen bonds, which significantly increase the melting point, estimated at +100\u00b0C per hydroxyl group. The fluorine atoms on the phenyl groups will also increase the melting point due to their high electronegativity and the dipole-dipole interactions they introduce, estimated at +10\u00b0C each.\n##Prediction: 172.0\n\n##Prediction",
+    "Test (Predicted value)": 172.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

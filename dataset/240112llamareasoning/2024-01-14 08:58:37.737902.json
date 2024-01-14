@@ -1,0 +1,14 @@
+{
+    "name": "4-benzyloxyphenol",
+    "smiles": "c1ccc(cc1)COc2ccc(cc2)O",
+    "csid": 7356,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A14843",
+    "source": "Alfa Aesar",
+    "Reason": "The basic unit, phenol, has a melting point of around 41\u00b0C. Adding a benzyl group (phenylmethyl) introduces additional pi-pi interactions and van der Waals forces, which typically increases the melting point. The increment can be approximated to be around +60\u00b0C. Another phenol group adds hydrogen bonding capacity and rigidity to the molecule, which should further increase the melting point. The increment due to an additional phenol ring structure can be estimated to be around +20\u00b0C. Therefore, adding both the benzyl group and the effects of the additional phenol structure should lead to a cumulative increase.",
+    "mpC": 120.0,
+    "Prediction(integer)": 121.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C. \n- The hydroxyl group (-OH) is capable of strong intermolecular hydrogen bonding, which significantly raises the melting point. This effect can be estimated to add approximately 70 degrees Celsius. \n- The benzyl ether linkage (-Oc2ccc(cc2)O) adds steric bulk and some polarity, which can increase the melting point by about 20 degrees Celsius. \nCombining these adjustments from the base value of 5.5 for benzene gives a predicted melting point.\n##Prediction: 115.5\n\n\n#Problem",
+    "Test (Predicted value)": 115.5,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

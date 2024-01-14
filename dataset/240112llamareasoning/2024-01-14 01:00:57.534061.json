@@ -1,0 +1,14 @@
+{
+    "name": "Guanosine",
+    "smiles": "NC3=Nc1c(ncn1[C@@H]2O[C@@H](CO)[C@H](O)[C@H]2O)C(=O)N3",
+    "csid": 399452,
+    "link": "http://www.drugbank.ca/drugs/DB02857",
+    "source": "DrugBank",
+    "Reason": "The basic unit, ribose, has a melting point around 85-90\u00b0C. Guanine, the additional nitrogenous base, has a planar aromatic structure with potential for significant hydrogen bonding, which often raises the melting point of compounds it is part of. This contribution can be estimated to be around +150\u00b0C due to increased molecular rigidity and potential for extra hydrogen bonds. However, the presence of the glycosidic bond and additional hydroxyl groups in guanosine introduce further possibilities for hydrogen bonding, which can increase the melting point even more. Hence, the total increase due to the guanine base and additional hydrogen bonds could be reasoned to be slightly higher than the base estimate. Considering these factors, a predicted melting point increase for guanine and extra hydrogen bonding might be in the range of +155\u00b0C over the base value of ribose.",
+    "mpC": 239.0,
+    "Prediction(integer)": 240.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, purine ring: +100 (as a starting point for the base structure)\n- Nitrogen atoms: +20 each (5 nitrogen atoms in the purine ring, each contributing to the melting point)\n- Hydroxyl groups: +40 each (there are two hydroxyl groups in the guanosine molecule, each contributing to the melting point through hydrogen bonding)\n- Carbonyl group: +30 (the carbonyl group contributes to the melting point through dipole-dipole interactions and potential hydrogen bonding)\n- Adenine base: +50 (the adenine base is a part of the purine ring and contributes to the melting point through its nitrogen atoms and the potential for hydrogen bonding)\n- Sugar moiety: +20 (the sugar moiety contributes to the melting point through hydrogen bonding and the presence of a ring structure)\n\nThe sum of these contributions should give us the predicted melting point for guanosine.\n##Prediction: 230.0\n##Reason",
+    "Test (Predicted value)": 230.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

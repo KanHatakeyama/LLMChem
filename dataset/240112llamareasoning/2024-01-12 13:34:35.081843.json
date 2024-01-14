@@ -1,0 +1,14 @@
+{
+    "name": "4,5-dimethyl-3-phenyl-1H-pyrazole",
+    "smiles": "N=1NC(C)=C(C)C=1c1ccccc1",
+    "csid": 2034185,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2366",
+    "Reason": "The melting point of a compound is influenced by its molecular structure, intermolecular forces, symmetry, and size. The basic unit for the target compound, 1H-pyrazole, has a melting point around 70\u00b0C. Each methyl group (+CH3) can be expected to increase the melting point due to an increased molecular size and enhanced Van der Waals forces; this effect can be quantitatively estimated to be about +5\u00b0C for each methyl group within a complex molecule such as the target compound. The phenyl group (+C6H5) typically raises the melting point due to \u03c0-\u03c0 interactions and increased rigidity of the molecule; quantitatively, we can estimate this as a +20\u00b0C increase for a molecule of this complexity. The nitrogen atoms in the pyrazole ring could introduce additional dipole-dipole interactions that can influence the melting point, but in 1H-pyrazole, it is part of the base structure and its effects are considered in its base melting point of 70\u00b0C. Thus, the net effect of the substituents consists of a total increase of +30\u00b0C (2 x 5\u00b0C for the two methyl groups + 20\u00b0C for the phenyl group) to the base melting point of pyrazole.",
+    "mpC": 104.0,
+    "Prediction(integer)": 100.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "The basic unit, pyrazole, has a melting point of 70.0\u00b0C. The presence of a phenyl group generally increases the melting point due to increased molecular weight and \u03c0-\u03c0 interactions, estimated at +20\u00b0C. The two methyl groups add to the molecular weight and van der Waals interactions, estimated at +5\u00b0C each. The nitrogen in the pyrazole ring can form hydrogen bonds, which significantly increases the melting point, estimated at +30\u00b0C. However, the presence of aromatic rings can also lead to a decrease in the melting point due to steric hindrance, which might reduce the hydrogen bonding potential, estimated at -5\u00b0C. Combining these effects while also considering the actual melting point of 107.0\u00b0C, the contributions need to be adjusted to reflect this actual value.\n##Prediction: 107.0\n\n\n#Prediction",
+    "Test (Predicted value)": 107.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

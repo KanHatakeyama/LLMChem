@@ -1,0 +1,14 @@
+{
+    "name": "benzamide, N-(4-butylphenyl)-4-methoxy-",
+    "smiles": "O=C(Nc1ccc(cc1)CCCC)c1ccc(OC)cc1",
+    "csid": 1622395,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3755",
+    "Reason": "The target compound N-(4-butylphenyl)-4-methoxybenzamide consists of a basic benzene structure with additional functional groups that influence the melting point. Functional groups generally influence the melting point through factors such as hydrogen bonding, molecular symmetry, polarity, and steric hindrance. Here is how each contributes: \n- Benzamide moiety: Amides can form strong intermolecular hydrogen bonds as hydrogen bond donors and acceptors, leading to a significant increase in melting point. Given the substantial effect of amide groups on the melting point, we might consider an increase of around +130 degrees when compared to bare benzene.\n- Butyl group: Alkyl chains usually reduce melting points by decreasing the symmetry and disrupting crystal packing; however, if the chain can adopt a conformation that allows better crystal packing, this decrease might be less pronounced. Let\u2019s estimate a -3 degrees for the butyl group.\n- Methoxy group: This group can engage in dipole-dipole interactions due to its polarity, although it's not as strong as hydrogen bonding. It can increase the melting point, estimated to be about +17 degrees for a methoxy substitution.\nThe combined effects are complex, but for estimation purposes, we take an additive approach of these individual influences, taking benzene as the base reference with a melting point of 5.5 degrees Celsius.",
+    "mpC": 147.0,
+    "Prediction(integer)": 149.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Amide group: +80\u00b0C (due to the potential for hydrogen bonding and the resonance stabilization of the amide bond). \n- Butyl group: +20\u00b0C (due to an increase in molecular weight and van der Waals forces). \n- Methoxy group: +10\u00b0C (due to the electron-donating effect and the increase in molecular weight). \n- Phenyl group: +30\u00b0C (due to the additional pi-pi interactions and the increase in molecular weight). \n- The overall molecule has a complex structure with multiple functional groups that can participate in intermolecular interactions, leading to a higher melting point. \n##Prediction: 145.0\n##Reason",
+    "Test (Predicted value)": 145.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

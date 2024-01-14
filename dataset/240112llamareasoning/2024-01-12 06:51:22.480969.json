@@ -1,0 +1,14 @@
+{
+    "name": "3-(boc-amino)-3-(2-fluorophenyl)propionic acid",
+    "smiles": "CC(C)(C)OC(=O)NC(CC(=O)O)c1ccccc1F",
+    "csid": 2037555,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L19804",
+    "source": "Alfa Aesar",
+    "Reason": "The target compound has several functional groups that influence its melting point. The base structure is phenylpropionic acid, and we will use benzoic acid (a compound with a similar structure, with a melting point around 122 \u00b0C) as our starting reference point. Each functional group contributes to the melting point as follows:\n- Fluorination on the phenyl ring: +20 (due to the strong electronegativity and dipole-dipole interaction of the fluorine atom)\n- The boc-amino group: +2 (due to the steric hindrance and substitution on the nitrogen, which slightly increases the melting point)\n- The propionic acid moiety usually doesn't have a significant deviation from the benzoic acid reference, but the attachment to the aminoboc group could result in a slight decrease. So, let's assume a -1 change.\nAdding this together to the reference benzoic acid melting point of 122 \u00b0C, we get an estimated melting point for the target compound.",
+    "mpC": 143.0,
+    "Prediction(integer)": 143.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5 \u00b0C. \n- The amide group typically raises the melting point due to strong hydrogen bonding and resonance stability, estimated at +80 \u00b0C. \n- The fluorophenyl group increases the melting point due to the electronegativity of fluorine, which enhances the intermolecular forces, estimated at +20 \u00b0C. \n- The Boc group (tert-butoxycarbonyl) is a protecting group that can increase the melting point due to its steric bulk and potential for hydrogen bonding, estimated at +10 \u00b0C. \n- The propionic acid group contributes to the melting point through hydrogen bonding and dipole-dipole interactions, estimated at +20 \u00b0C. \nAdding these increments to the base value for benzene gives us, by this approximation method: 5.5 (benzene) + 80 (amide) + 20 (fluorophenyl) + 10 (Boc group) + 20 (propionic acid) = 135.5 \u00b0C\n##Prediction: 135.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 135.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

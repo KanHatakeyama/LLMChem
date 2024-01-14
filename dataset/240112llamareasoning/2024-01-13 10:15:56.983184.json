@@ -1,0 +1,14 @@
+{
+    "name": "(4,5-dimethoxy-2-methylphenyl)(hydroxy)acetonitrile",
+    "smiles": "OC(C#N)c1cc(OC)c(OC)cc1C",
+    "csid": 2034156,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2385",
+    "Reason": "The core structure to consider is benzene, which has a melting point around 5.5\u00b0C. The functional groups in the compound need to be considered for their effects on the melting point. The methyl group is generally known to increase the melting point due to increased molecular weight and van der Waals interactions. Each methoxy group can also raise the melting point as it introduces more polar character and potential for hydrogen bonding with other molecules. The hydroxyl group contributes to the melting point elevation due to strong hydrogen bonding. The nitrile group introduces polarity due to the cyano group (-C#N), which can increase the melting point through dipole-dipole interactions. However, these interactions are somewhat weaker compared to hydrogen bonding. The additive effects of these groups are considered on the base melting point of benzene to arrive at the prediction. The approximate effects are: Methyl group: +5\u00b0C (increase due to molecular weight), each Methoxy group: +15\u00b0C (increase due to possible hydrogen bonding), Hydroxyl group: +40\u00b0C (strong increase due to hydrogen bonding), Nitrile group: +10\u00b0C (modest increase due to polarity).",
+    "mpC": 80.0,
+    "Prediction(integer)": 75.0,
+    "Abs error": 5.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C. \n- Methoxy groups: Each methoxy group is expected to increase the melting point due to the electron-donating effect and the increase in molecular weight. Estimating an increase of +10\u00b0C for each methoxy group (2 groups, +20\u00b0C total). \n- Methyl group: A small increase due to the increase in molecular weight and van der Waals forces, estimated at +5\u00b0C. \n- Hydroxy group: The hydroxy group can form hydrogen bonds, significantly raising the melting point. Estimating an increase of +40\u00b0C. \n- Nitrile group: The cyano group is highly electronegative and can participate in dipole-dipole interactions, raising the melting point. Estimating an increase of +15\u00b0C. \nCombining these effects, we predict the melting point.\n##Prediction: 85.0\n\n\n#Problem",
+    "Test (Predicted value)": 85.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

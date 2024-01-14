@@ -1,0 +1,14 @@
+{
+    "name": "3,4-methylendioxyphenylacetic acid",
+    "smiles": "O=C(O)Cc1ccc2OCOc2c1",
+    "csid": 68601,
+    "link": "http://www.alfa.com/content/msds/USA/A11229.pdf",
+    "source": "Alfa Aesar",
+    "Reason": "The target compound, 3,4-methylenedioxyphenylacetic acid, is a complex molecule with the basic unit being benzene, which has a melting point of 5.5 degrees Celsius. The compound has additional functional groups that will impact this base value: \n\n- Carboxylic acid group (\u2013COOH): This polar and hydrogen-bonding capable group significantly raises the melting point, by approximately +80 degrees Celsius. \n- Methylenedioxy group (\u2013O2CH2\u2013 bonded to benzene): This adds some rigidity and polarity to the molecule, which also increases the melting point. This contribution might be around +30 degrees Celsius. \n- Acetic acid side chain (\u2013CH2\u2013): A small alkyl chain like this typically doesn't increase the melting point much, possibly by about +5 degrees Celsius, but its effect is included within the COOH contribution as it cannot exist independently. \n\nAdding these modifications to the base value, we get an estimated melting point shift.",
+    "mpC": 128.5,
+    "Prediction(integer)": 120.0,
+    "Abs error": 8.5,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The presence of the carboxylic acid group (COOH) generally increases the melting point due to the ability to form strong intermolecular hydrogen bonds, which can be estimated to add around +100\u00b0C. \n- The methyl group (CH3) attached to the benzene ring typically increases the melting point due to an increase in molecular weight and van der Waals forces, which can be estimated to add around +5\u00b0C. \n- The ketone group (CO) can also increase the melting point due to dipole-dipole interactions, but its effect is less pronounced than that of the carboxylic acid group, estimated to add around +5\u00b0C. \n- The ether linkage (OCO) between the benzene ring and the carboxylic acid group can slightly increase the melting point due to the polarity and the potential for dipole-dipole interactions, estimated to add around +2\u00b0C. \n- The overall molecule is large and has multiple functional groups that can engage in intermolecular interactions, which will increase the melting point.\n##Prediction: 110.0\n##Reason",
+    "Test (Predicted value)": 110.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "(2,2-dibromoethenyl)benzene",
+    "smiles": "BrC(Br)=Cc1ccccc1",
+    "csid": 142042,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4246",
+    "Reason": "The target compound, (2,2-dibromoethenyl)benzene has two functional groups to consider: the phenyl ring and two bromine atoms attached to a vinyl group. The basic unit, benzene, has a melting point of 5.5\u00b0C. The addition of the vinyl group would typically tend to lower the melting point due to reduced symmetry and might introduce some degree of steric hindrance, which could be estimated as -5. However, the attachment of two bromine atoms significantly increases molecular weight and intermolecular attractive forces (specifically, van der Waals forces), which typically leads to a substantial increase in the melting point. Each bromine is estimated to contribute about +35 to the melting point. Therefore, we have two substantial increases from bromine atoms, somewhat offset by a smaller decrease due to the vinyl group.",
+    "mpC": 75.0,
+    "Prediction(integer)": 75.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The basic unit, benzene, has a melting point of 5.5 \u00b0C. The introduction of a bromine atom on the benzene ring significantly increases the melting point due to the increased molecular weight and the introduction of polarizability and van der Waals forces; this might contribute an increase of about +40. The presence of another bromine atom on the same ring further increases the melting point due to the increased molecular weight and polarizability; this might contribute an additional +30. The ethenyl group (vinyl group) adds rigidity to the molecule and can increase the melting point by about +10.\n##Prediction: 85.0\n\n\n#Prediction",
+    "Test (Predicted value)": 85.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

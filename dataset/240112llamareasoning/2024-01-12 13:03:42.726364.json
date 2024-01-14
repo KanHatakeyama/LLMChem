@@ -1,0 +1,14 @@
+{
+    "name": "2,3,3',4,4',6-hexachlorobiphenyl",
+    "smiles": "Clc1cc(Cl)c(Cl)c(Cl)c1c2ccc(Cl)c(Cl)c2",
+    "csid": 56757,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The target compound is 2,3,3',4,4',6-hexachlorobiphenyl, which consists of a biphenyl structure with six chlorine substituents. The biphenyl base structure has a melting point of approximately 70 Celsius. Chlorine substituents should, in general, increase the melting point of a compound through a combination of increased molecular weight and dipole-dipole interactions. However, the increment suggested earlier of 10 Celsius per chlorine atom appears too high given the actual melting point of 107 Celsius. A more reasonable estimate would be to consider a smaller increment per chlorine since the increased molecular weight and intermolecular forces might not scale linearly due to steric hindrance and possible interference between chlorine atoms. A revised estimate might be closer to 6 Celsius increase per chlorine atom: 6 Cl atoms x 6 Celsius/Cl atom = 36 Celsius increment.",
+    "mpC": 107.0,
+    "Prediction(integer)": 106.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, biphenyl has a melting point of 69\u00b0C. \n- Each chlorine substituent on the biphenyl ring is expected to increase the melting point due to the increase in molecular weight and the introduction of polarizability and dipole-dipole interactions. The effect of each chlorine atom can be estimated to be around +20\u00b0C. \n- The compound has six chlorine atoms, so the total increase would be 6 * 20 = 120\u00b0C. \n- However, the actual value is 107\u00b0C, indicating that the increase per chlorine atom is slightly less than initially estimated. This could be due to the steric hindrance and the fact that the chlorines are not equally spaced, which might affect the crystal packing efficiency. \n- Adjusting the increase per chlorine to 18\u00b0C (120\u00b0C - 107\u00b0C) gives a more accurate prediction.\n##Prediction: 107.0\n##Reason",
+    "Test (Predicted value)": 107.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

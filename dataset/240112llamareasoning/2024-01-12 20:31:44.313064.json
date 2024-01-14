@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-3-(5-bromo-8-nitronaphthalen-1-yl)prop-2-enoic acid",
+    "smiles": "Brc1ccc([N+](=O)[O-])c2c(cccc12)C=CC(=O)O",
+    "csid": 4644530,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1466",
+    "Reason": "The basic unit naphthalene has a melting point of 80 degrees Celsius. Introducing a nitro group adds strong dipoles and potential for hydrogen bonding, which significantly increases the melting point; this could be estimated at +30 degrees Celsius. The presence of a bromine atom contributes to increased van der Waals forces due to its larger atomic size, estimated at +10 degrees Celsius. An alkenyl group does not significantly affect the melting point and can be considered neutral in this context, so its effect is estimated at 0 degrees Celsius. A carboxylic acid group is capable of strong hydrogen bonding, which should also significantly increase the melting point; this could be estimated at +20 degrees Celsius. By summing up these contributions, we obtain the predicted melting point increment.",
+    "mpC": 142.0,
+    "Prediction(integer)": 140.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "- Basic unit, naphthalene has a melting point of 80.5\u00b0C. \n- Bromo substituent: +20\u00b0C (due to increased molecular weight and polarizability) \n- Nitro group: +50\u00b0C (due to strong electron-withdrawing nature and potential for intermolecular hydrogen bonding) \n- Carboxylic acid group: +40\u00b0C (due to the ability to form strong intermolecular hydrogen bonds) \n- Alkene group: +10\u00b0C (due to the presence of a double bond which can increase the rigidity of the molecule slightly) \n- The overall molecule is large and has multiple functional groups that can increase the melting point. However, the presence of the conjugated system and the potential for intramolecular hydrogen bonding may also lead to a lower melting point due to the restricted rotation and packing of the molecule.\n##Prediction: 150.0\n##Reason",
+    "Test (Predicted value)": 150.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

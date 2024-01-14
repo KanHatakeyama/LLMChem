@@ -1,0 +1,14 @@
+{
+    "name": "2-bromo-p-xylene",
+    "smiles": "Cc1ccc(c(c1)Br)C",
+    "csid": 21171515,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A14358",
+    "source": "Alfa Aesar",
+    "Reason": "The basic unit for 2-bromo-p-xylene is benzene with a melting point of 5.5 \u00b0C. The presence of methyl groups generally increase the melting point due to an increase in hydrophobic interaction and Van der Waals forces, but since xylene has three isomers (ortho, meta, and para) with differing melting points, for p-xylene specifically, it has a melting point of 13 \u00b0C, so each methyl group in p-xylene contributes an increase of approximately 3.75 \u00b0C. The introduction of a bromine atom increases the molecular weight and the polarizability, which tends to raise the melting point as well, bromobenzene has a melting point of -30.8 \u00b0C; however, the combination of the electron-withdrawing bromine and the electron-donating methyl groups on the para position can also influence the crystal packing efficiency. If we attribute an approximate increase of 5 \u00b0C for the addition of a bromine atom to a xylene structure, we can estimate the shift in melting point due to this substitution, we also need to account for the potential decreased contribution of the methyl groups due to the steric hindrance imposed by the bromine, which might reduce it by 1 \u00b0C per methyl group. Combining these effects for 2-bromo-p-xylene: base value for benzene (5.5) + increase for both methyl groups (2 * 3.75) + increase for bromine (5) - steric reduction for methyl groups (2 * 1) = 16.0 \u00b0C",
+    "mpC": 10.0,
+    "Prediction(integer)": 16.0,
+    "Abs error": 6.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The presence of a bromine atom on the para position of the benzene ring increases the melting point due to the increased molecular weight and the polarizability of the bromine atom, which enhances intermolecular forces. This can be estimated to add approximately +40\u00b0C. \n- The meta-xylene part of the molecule is a cycloalkane, which has a lower melting point than benzene due to the lack of aromaticity and the presence of a ring strain. This can be estimated to lower the melting point by about -20\u00b0C. \n- The overall effect of the bromine atom and the meta-xylene part is expected to be an increase in the melting point due to the bromine's contribution, but the meta-xylene part's contribution is negative.\n##Prediction: 25.0\n##Reason",
+    "Test (Predicted value)": 25.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "1-(6-methoxynaphthalen-2-yl)propane-1,2-diol",
+    "smiles": "OC(C)C(O)c1ccc2cc(OC)ccc2c1",
+    "csid": 2029669,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3546",
+    "Reason": "The base structure of naphthalene has a melting point of around 80\u00b0C. The 6-methoxy group, which is an electron-donating group, increases the melting point by providing stabilization through resonance but also slightly increases the molecular weight, contributing to an increase by approximately +10\u00b0C. The propane-1,2-diol side chain introduces two hydroxyl (OH) groups which are capable of forming hydrogen bonds. Hydrogen bonding greatly increases melting points due to the strong intermolecular forces, raising the melting point significantly. Each hydroxyl group could contribute about +15\u00b0C to the melting point. Finally, the additional methoxy group on the naphthalene likely contributes a smaller increase than the first methoxy group due to steric hindrance and electronic effects, estimated at +5\u00b0C.",
+    "mpC": 115.0,
+    "Prediction(integer)": 125.0,
+    "Abs error": 10.0,
+    "Test (Predicted reason)": "- Basic unit, naphthalene has a melting point of 80.5\u00b0C. \n- Methoxy group: +20\u00b0C (due to increased molecular weight and polarity, which enhances intermolecular forces). \n- Ether linkage: +10\u00b0C (due to the polarity and the ability to form dipole-dipole interactions). \n- Additional phenyl group: +20\u00b0C (due to increased molecular weight and pi-pi stacking interactions). \n- Hydroxyl groups: +10\u00b0C each (due to hydrogen bonding capabilities). \n- The presence of two hydroxyl groups and the ether linkage will increase the melting point due to the potential for hydrogen bonding and dipole-dipole interactions.\n##Prediction: 130.0\n##Reason",
+    "Test (Predicted value)": 130.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

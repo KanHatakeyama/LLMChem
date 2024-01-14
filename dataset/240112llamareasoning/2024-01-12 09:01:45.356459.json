@@ -1,0 +1,14 @@
+{
+    "name": "1-ethyl-4-[(p-tolyl)ethynyl]benzene",
+    "smiles": "CCc1ccc(cc1)C#Cc2ccc(cc2)C",
+    "csid": 9588255,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H26882",
+    "source": "Alfa Aesar",
+    "Reason": "To predict the melting point of 1-ethyl-4-[(p-tolyl)ethynyl]benzene, we need to consider the impact of individual functional groups on the base structure of benzene, which has a melting point of 5.5 \u00b0C. An ethyl group usually increases the melting point due to higher molecular weight and increased van der Waals interactions; we estimate this as +10 \u00b0C. The ethynyl group adds rigidity to the molecule and can enhance crystalline packing, potentially raising the melting point by +20 \u00b0C. The tolyl group adds both van der Waals forces and pi-pi interactions, which might increase the melting point by an additional +15\u00b0C. When estimating the combined effects, significant deviations from the actual value may occur, indicating that individual contributions might not be strictly additive, and other molecular interactions or packing effects might play a role. Given the actual melting point is 73.0 \u00b0C, the initial prediction appears to be underestimated. Therefore, the contributions from the ethyl group should remain the same, but the contributions from the ethynyl linkage and tolyl group need revision. Adjusting the influence of the ethynyl linkage to +25 \u00b0C and tolyl group to +25 \u00b0C would better approximate the actual melting point.",
+    "mpC": 73.0,
+    "Prediction(integer)": 65.0,
+    "Abs error": 8.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C.\n- The ethynyl group (C#C) is a linear group that can increase the melting point due to increased molecular rigidity and potential for pi-pi stacking interactions, estimated at +20\u00b0C.\n- The ethyl group (C-C) is a small alkyl chain that can slightly increase the melting point due to increased molecular weight and van der Waals forces, estimated at +5\u00b0C.\n- The tolyl group (phenyl ring) is a large, aromatic group that can significantly increase the melting point due to increased pi-pi stacking and van der Waals interactions, estimated at +40\u00b0C.\n##Prediction: 70.0\n\n\n#Problem",
+    "Test (Predicted value)": 70.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

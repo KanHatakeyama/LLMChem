@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-2-(1,3-benzothiazol-2-yl)-2-[2-(2-methoxyphenyl)hydrazinylidene]ethanamide",
+    "smiles": "s1c2ccccc2[nH0]c1C(=NNc1ccccc1OC)C(=O)N",
+    "csid": 7855589,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-856",
+    "Reason": "The compound in question contains several functional groups and structural features that need to be considered. The basic unit we can compare with is benzene, which has a melting point of 5.5 \u00b0C. Starting with this, we can add the effects of the functional groups: The benzothiazole group adds substantial rigidity and aromaticity, which can significantly increase the melting point. Estimating the impact of benzothiazole at +120\u00b0C, taking into account its bicyclic structure and sulfur/nitrogen heteroatoms which can form strong intermolecular interactions. The presence of the methoxyphenyl group also contributes to an increase due to increased molecular weight and potential for pi-pi interactions, we estimate this to be around +40\u00b0C. The hydrazinylidene linkage increases the potential for hydrogen bonding, adding another +30\u00b0C. Finally, the ethanamide group typically increases the melting point due to the potential for hydrogen bonding and the carbonyl group's dipolar nature, estimated at +20\u00b0C. Summing these contributions gives us the predicted melting point.",
+    "mpC": 213.0,
+    "Prediction(integer)": 215.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C.\n- Benzothiazole group: +80\u00b0C (introduces aromaticity and heteroatoms which significantly increase the melting point)\n- Hydrazine group: +40\u00b0C (introduces the potential for hydrogen bonding and increases molecular weight)\n- Methoxy group: +10\u00b0C (electron-donating group which can increase the melting point due to increased polarity)\n- Amide group: +80\u00b0C (strong hydrogen bonding and resonance stabilization)\n- Ether linkage: +5\u00b0C (slight increase due to polarity)\n\nCombining these adjustments gives an estimated melting point: 5.5 + 80 + 40 + 10 + 80 + 5 = 210.5\u00b0C.\n##Prediction: 210.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 210.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

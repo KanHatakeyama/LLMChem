@@ -1,0 +1,14 @@
+{
+    "name": "2,3-Dinitroaniline",
+    "smiles": "O=[N+]([O-])c1cccc(N)c1[N+](=O)[O-]",
+    "csid": 120172,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4272",
+    "Reason": "To predict the melting point of 2,3-Dinitroaniline, we start with aniline as the basic unit, which has a melting point of around -6 degrees Celsius. Each nitro group typically increases the melting point because it introduces more possibilities for hydrogen bonding and also increases the overall symmetry of the molecule, both of which contribute to a higher degree of molecular stability in the solid phase. Thus, for each nitro group we could estimate an increase. The presence of the amino group (NH2) originally in the aniline ring also contributes to hydrogen bonding, increasing the melting point from a hypothetical unsubstituted benzene baseline. Let us estimate each effect quantitatively: aniline as a base unit could be considered from benzene with an amino group (+77), each nitro group substantially increases this value (+25 per nitro group), so for two nitro groups we add twice this value.",
+    "mpC": 122.0,
+    "Prediction(integer)": 122.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The compound 2,3-Dinitroaniline has several functional groups that influence its melting point. Starting with aniline, which has a melting point of around -6\u00b0C, we consider the effects of the nitro groups and the presence of the amino group: \n1. Nitro groups are highly electronegative and introduce strong dipole-dipole interactions, significantly raising the melting point. Each nitro group can be estimated to increase the melting point by about +80\u00b0C due to the strong intermolecular forces they introduce.\n2. The amino group can form hydrogen bonds, which would further increase the melting point. Estimate an increase of about +20\u00b0C.\n##Prediction: 109.0\n\n\n#Prediction",
+    "Test (Predicted value)": 109.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

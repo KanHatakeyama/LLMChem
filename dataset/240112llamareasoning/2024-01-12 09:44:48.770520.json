@@ -1,0 +1,14 @@
+{
+    "name": "propanoic acid 3,3'-thiobis(didodecyl) ester",
+    "smiles": "O=C(OCCCCCCCCCCCC)CCSCCC(=O)OCCCCCCCCCCCC",
+    "csid": 28990,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The target compound is propanoic acid 3,3'-thiobis(didodecyl) ester, a symmetrical molecule with a central thioether linkage, two ester groups, and long-chain alkane sections. To predict its melting point, we consider the basic components and how they influence the melting point.\n- Base propanoic acid has a melting point of -20.8\u00b0C. The presence of the central thioether and the increase in molecular weight could raise the melting point.\n- Two didodecyl ester groups are present, which due to their large alkyl chains will enhance the van der Waals interactions significantly. Each ester with a long alkyl chain typically raises the melting point; a conservative estimate might be approximately +30\u00b0C for each, accounting for the flexibility and possible entanglement of chains.\n- The thioether linkage can increase the melting due to increased van der Waals interactions compared to an ether link. This could add roughly +5\u00b0C taking into consideration the size and polarizability of sulfur.\nConsidering these effects cumulatively, we can estimate the melting point.\nMelting point estimate = Base propanoic acid (-20.8\u00b0C) + 2 * didodecyl ester (+60\u00b0C) + thioether link (+5\u00b0C).",
+    "mpC": 41.0,
+    "Prediction(integer)": 44.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "- Basic unit, propanoic acid, has a melting point of 20\u00b0C.\n- The ester group generally lowers the melting point due to the loss of hydrogen bonding capability compared to the carboxylic acid. This might reduce the melting point by around -50\u00b0C.\n- The presence of two thioether groups (didodecyl) adds steric bulk and increases the molecular weight, which can raise the melting point. Each thioether might contribute an increase of around +20\u00b0C.\n- The overall molecule is large and has a complex structure, which can lead to increased van der Waals forces and potential for additional intermolecular interactions, potentially raising the melting point by another +10\u00b0C.\n##Prediction: 50.0\n\n##Prediction",
+    "Test (Predicted value)": 50.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "2-[(6-chloro-3-pyridazinyl)thio]-n,n-diethylacet",
+    "smiles": "CCN(CC)C(=O)CSc1ccc(Cl)nn1",
+    "csid": 64258,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The target compound has several functional groups: an ester (acetyl portion), an ether (thioether linkage), a diethylamino group, and a chloropyridazine ring. Acetyl groups typically raise the melting point due to the polar carbonyl group, which enables stronger dipole-dipole interactions; we can estimate this contributes to an increase by about +40 degrees. Thioethers slightly raise the melting point over alkanes due to increased molecular weight and mild polarity, estimated at +10 degrees. Diethylamino groups have a pair of nitrogen atoms capable of hydrogen bond accepting, which again can raise the melting point; estimated at +25 degrees. Chlorinated aromatic rings have higher melting points due to increased molecular weight and introduction of a polar substituent, estimated at +10 degrees. However, due to steric hindrance between the groups and the overall non-planar structure, which hampers effective packing, the melting point could be lower than the sum of these effects. Thus, we might adjust our estimate downwards somewhat, assuming a slight offset of -10 degrees.",
+    "mpC": 97.0,
+    "Prediction(integer)": 97.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, pyridazine, has a melting point of around 20\u00b0C.\n- Chloro substituent: +40 (increases molecular weight and enhances intermolecular interactions due to its electronegativity)\n- Thioether linkage: +20 (introduces polarity and potential for dipole-dipole interactions)\n- Acetyl group: +15 (increases molecular weight and provides additional van der Waals interactions)\n- Ethyl groups: +10 each (increases molecular weight and provides additional van der Waals interactions)\n\nThe predicted melting point is the sum of the contributions from each functional group to the base value of pyridazine.\n##Prediction: 105.0\n\n\n#Problem",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "(1Z)-2-methyl-3-phenyl-1H-inden-1-one semicarbazone",
+    "smiles": "O=C(N)NN=C1c2ccccc2C(c2ccccc2)=C1C",
+    "csid": 4644783,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1371",
+    "Reason": "To estimate the melting point of the compound (1Z)-2-methyl-3-phenyl-1H-inden-1-one semicarbazone, we should break down the functional groups and consider their effects on the melting point compared to a reference compound. We'll start with indene, which has a melting point of 13 degrees Celsius, as our basic reference structure. Inden-1-one (indanone) introduces a ketone group (-C=O) on the indene, which would significantly increase the melting point due to the polar character and the potential for hydrogen bonding with -NH groups in the semicarbazone moiety, estimated to increase by about +100 degrees. The semicarbazone group itself, being a derivative of the very polar semicarbazide, typically raises the melting point due to increased hydrogen bonding capabilities and rigidity in the structure, let's estimate that as another +70 degrees. The methyl group adds a minor increase due to a larger molecular weight and small increase in van der Waals interactions, estimated to be around +5 degrees. The phenyl group also contributes to the increase in melting point due to additional \u03c0-\u03c0 interactions and van der Waals forces, which we can estimate to be about +15 degrees. Adding these adjustments together gives us the predicted melting point.",
+    "mpC": 201.0,
+    "Prediction(integer)": 203.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "- Basic unit, indene has a melting point of around 100\u00b0C. \n- The presence of a phenyl group generally increases the melting point due to increased molecular weight and \u03c0-\u03c0 interactions, which can be estimated at +20\u00b0C. \n- The semicarbazone group is a heterocyclic compound that can form hydrogen bonds, which significantly increases the melting point. This effect can be estimated at +80\u00b0C. \n- The methyl group attached to the indene ring is a small alkyl group that may slightly increase the melting point due to increased van der Waals forces, estimated at +5\u00b0C. \n- The overall molecule is rigid and planar, which can lead to better packing in the solid state, further increasing the melting point. This effect can be estimated at +10\u00b0C.\n##Prediction: 195.0\n##Reason",
+    "Test (Predicted value)": 195.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

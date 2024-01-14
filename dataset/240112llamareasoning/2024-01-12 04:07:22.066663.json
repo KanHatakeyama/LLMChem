@@ -1,0 +1,14 @@
+{
+    "name": "DL-Naproxen",
+    "smiles": "O=C(O)C(C)c1ccc2cc(OC)ccc2c1",
+    "csid": 1262,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4668",
+    "Reason": "The target compound DL-Naproxen consists of a naphthalene ring as its basic unit, several substituents including a carboxylic acid group, a methyl group, and a methoxy group. For naphthalene, the melting point is approximately 80 degrees Celsius. The carboxylic acid group is known to significantly increase the melting point due to strong hydrogen bonding, typically adding more than +50 degrees Celsius. The methyl group is a small alkyl substituent and might contribute a few degrees by increasing the molecular weight and van der Waals forces, estimated at +5 degrees Celsius. The methoxy group can increase the melting point due to its polar nature and the possibility of additional dipole-dipole interactions, let's roughly estimate this effect at +15 degrees Celsius. Combining these effects leads to a predicted melting point for DL-Naproxen.",
+    "mpC": 152.0,
+    "Prediction(integer)": 152.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C.\n- The naphthalene structure contributes to a higher melting point due to increased molecular weight and rigidity. Estimated effect: +50\u00b0C.\n- The carboxylic acid group (COOH) is capable of strong intermolecular hydrogen bonding, which significantly increases the melting point. Estimated effect: +80\u00b0C.\n- The chiral center and the presence of the D-configuration contribute to the overall rigidity and planarity of the molecule, which can further increase the melting point. Estimated effect: +10\u00b0C.\nCombining these effects, the predicted melting point is: 5.5\u00b0C (benzene) + 50\u00b0C (naphthalene) + 80\u00b0C (carboxylic acid) + 10\u00b0C (chiral center) = 145.5\u00b0C.\n##Prediction: 145.5\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 145.5,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

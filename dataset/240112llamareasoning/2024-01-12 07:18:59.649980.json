@@ -1,0 +1,14 @@
+{
+    "name": "4-Methylbenzophenone",
+    "smiles": "O=C(c1ccccc1)c1ccc(C)cc1",
+    "csid": 8330,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4545",
+    "Reason": "The basic unit for 4-Methylbenzophenone is benzophenone which has a melting point of about 48\u00b0C. A methyl group typically raises the melting point due to an increase in molecular weight and van der Waals forces, which could be estimated as +5\u00b0C. However, the presence of the ketone (carbonyl group) already accounts for the higher melting point of benzophenone compared to benzene, as it promotes more rigid crystal lattice structure due to possibilities of intermolecular hydrogen bonding and dipole-dipole interactions, which also discourage further substantial increase in melting point by the additional methyl group. The net change caused by the methyl group in this case would thus be less pronounced, potentially offset by symmetry contributions to the crystal packing efficiency, and it might fall in the range of +2 to +3\u00b0C.",
+    "mpC": 50.0,
+    "Prediction(integer)": 51.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The ketone functional group (C=O) typically raises the melting point due to the polar nature and potential for hydrogen bonding, which can be estimated to increase the melting point by about 40\u00b0C. \n- The methyl group (CH3) attached to the benzene ring generally increases the melting point due to an increase in molecular weight and van der Waals forces, which can be estimated to increase the melting point by about 5\u00b0C. \n- The additional phenyl group (benzene ring) contributes to the rigidity of the molecule, which can further increase the melting point. This effect can be estimated to increase the melting point by about 10\u00b0C. \n- The overall molecular symmetry and planarity of the molecule also contribute to a higher melting point, which can be estimated to increase the melting point by about 5\u00b0C. \n- The combined effects of these functional groups and structural features lead to an increase in the melting point from the base value of benzene.\n##Prediction: 65.0\n##Reason",
+    "Test (Predicted value)": 65.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

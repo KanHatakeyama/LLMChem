@@ -1,0 +1,14 @@
+{
+    "name": "benzarone",
+    "smiles": "CCc2oc1ccccc1c2C(=O)c3ccc(O)cc3",
+    "csid": 224468,
+    "link": "http://dx.doi.org/10.1021/ci020280x",
+    "source": "Bergstrom C. A. S.; Norinder U.; Luthman K.; Artursson P. Molecular Descriptors Influencing Melting Point and Their Role in Classification of Solid Drugs. J. Chem. Inf. Comput. Sci.; (Article); 2003; 43(4); 1177-1222",
+    "Reason": "Benzarone consists of a benzofuran moiety fused to a phenol with an additional ketone functionality. To predict the melting point quantitatively, we start with the basic building blocks and consider their individual contributions: The base structure benzofuran has a melting point of around 84 degrees Celsius. The ketone (CO) group generally increases the melting point due to the additional possibility for hydrogen bonding and stronger dipole interactions. Typically, this contribution could raise the melting point by approximately +20 degrees. The phenol group (OH on benzene) can significantly raise the melting point through strong intermolecular hydrogen bonding, ordinarily contributing around +40 degrees. The two methyl groups (CH3) usually have a smaller impact on melting point compared to polar or hydrogen bonding functional groups. However, they increase the molecular weight and might slightly increase the melting point; we estimate a contribution of about +5 degrees for both. The presence of aromatic rings is already considered within the base benzofuran structure, so no additional increment is needed for the phenyl group. In revising the prediction, the phenol group's effect may have been overestimated. Considering hydrogen bonding and structural effects, let's adjust its contribution to +20 degrees instead of +40. Accounting for these adjusted contributions gives us a predicted melting point of 84 (base) + 20 (CO) + 20 (OH) + 5 (CH3) degrees Celsius.",
+    "mpC": 124.15,
+    "Prediction(integer)": 129.0,
+    "Abs error": 4.849999999999994,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C.\n- The presence of two phenyl rings will increase the melting point due to increased molecular weight and van der Waals forces. Each phenyl might contribute an increase of +20\u00b0C.\n- The ketone group (C=O) can engage in dipole-dipole interactions and potentially hydrogen bonding, which could raise the melting point by about +20\u00b0C.\n- The hydroxyl groups (OH) can form hydrogen bonds, which significantly increase the melting point. Each hydroxyl might contribute an increase of +30\u00b0C.\n- The presence of the ether linkage (O-C-O) will contribute to the melting point through dipole-dipole interactions, but its effect is less pronounced than that of the hydroxyl and ketone groups. We can estimate an increase of +5\u00b0C for the ether linkage.\n##Prediction: 105.0\n\n\n#Problem",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "1-propen-2-ol acetate",
+    "smiles": "C=C(C)OC(C)=O",
+    "csid": 7628,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The target compound 1-propen-2-ol acetate consists of several functional groups that affect its melting point. Starting with acetone, which has a melting point of -94.9, we begin our estimation: a vinyl group replaces one methyl group, which tends to decrease the melting point due to less effective van der Waals interactions, estimated as -5. The alkoxy group, similar to an ether (with a slightly higher effect due to acylation), would generally increase the melting point due to dipole-dipole interactions, estimated as +3. The ester functional group typically increases the melting point as a result of dipole-dipole interactions and possible hydrogen bonding if not sterically hindered, estimated as +4. Combining these effects, the total estimated shift in melting point is -5 (vinyl) + 3 (alkoxy) + 4 (ester) = +2.",
+    "mpC": -92.9,
+    "Prediction(integer)": -92.9,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The basic unit for comparison can be ethanol, which has a melting point of -114.1 degrees Celsius. The addition of a double bond to the alkene (propen-2-ol) increases the rigidity of the molecule, which typically raises the melting point; this effect might be around +20 degrees. The ester group can increase the melting point due to the polar nature and the possibility of dipole-dipole interactions; this effect might be around +10 degrees. However, the overall molecular structure is relatively small and not as rigid as larger molecules, which could limit the increase in melting point.\n##Prediction: -104.0\n\n\n#Prediction",
+    "Test (Predicted value)": -104.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

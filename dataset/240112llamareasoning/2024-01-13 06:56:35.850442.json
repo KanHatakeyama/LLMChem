@@ -1,0 +1,14 @@
+{
+    "name": "17-hydroxy-21-phenylpregn-20-yn-3-yl formate",
+    "smiles": "O=COC1CCC2(C)C(CCC3C4CCC(O)(C#Cc5ccccc5)C4(C)CCC32)C1",
+    "csid": 3424017,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1681",
+    "Reason": "The target compound 17-hydroxy-21-phenylpregn-20-yn-3-yl formate contains multiple functional groups that we need to consider for predicting its melting point. The core structure is a steroidal framework which typically has a high melting point due to its rigid and complex structure. For instance, simple steroids like testosterone have melting points around 155. Additionally, the compound contains a hydroxy group (-OH), a phenyl group (phenyl), an alkyne group (C#C), and a formate ester (-COO-). Different functional group contributions might be as follows: - OH group: +10 (hydrogen bonding increases intermolecular forces), - Phenyl group: +15 (due to pi-pi interactions and increased molecular weight), - Alkyne group: +5 (slight increase in linearity and molecular weight), - Formate ester: +5 (polarity contributes marginally to intermolecular forces and increased molecular weight).",
+    "mpC": 205.0,
+    "Prediction(integer)": 205.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, pregnane structure: +100 (as a starting point for the steroidal structure)\n- Hydroxyl group: +40 (due to hydrogen bonding and polarity)\n- Phenyl group: +30 (due to increased molecular weight and pi-pi interactions)\n- Carbonyl group (formate ester): +20 (due to polarity and potential for hydrogen bonding)\n- Conjugated system: +10 (due to increased rigidity and planarity)\n- Additional alkyl chain: +5 (due to increased molecular weight)\n\nThe predicted melting point is the sum of these adjustments.\n##Prediction: 205.0\n##Reason",
+    "Test (Predicted value)": 205.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "(1E)-1-[4-(dimethylamino)phenyl]-5-phenylpent-1-en-3-one",
+    "smiles": "O=C(C=Cc1ccc(N(C)C)cc1)CCc1ccccc1",
+    "csid": 4759227,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1082",
+    "Reason": "The target compound, (1E)-1-[4-(dimethylamino)phenyl]-5-phenylpent-1-en-3-one, can be considered based on its structural components and their influence on melting point. The basic units to consider are the benzene rings, enone unit, and dimethylamino group. Benzene has a melting point of 5.5 \u00b0C. The presence of the enone (alpha, beta-unsaturated carbonyl) adds rigidity to the molecule, which typically increases the melting point. We can estimate this increase to be +50, considering that enones create a planar and rigid structure that allows better stacking in the solid phase. The dimethylamino group can contribute to some additional rigidity but also introduces steric bulk, which might slightly decrease the ability to pack efficiently; this effect might be around +10. Two phenyl rings are present, which can also increase the melting point due to pi-pi interactions and enhanced rigidity; each ring could add +30. Lastly, alkyl chain might slightly lower the melting point, given its flexibility; however, in this case, the effect may not be significant enough to adjust the estimate due to the overall rigid and planar nature of the compound.",
+    "mpC": 93.0,
+    "Prediction(integer)": 95.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "The basic unit we can consider is benzene, which has a melting point of 5.5 degrees Celsius. The compound in question has several functional groups that will affect its melting point: \n- The presence of two phenyl rings (one in the base structure and one in the keto group) will increase the melting point due to increased molecular weight and pi-pi stacking interactions. Each phenyl group could add approximately 20-30 degrees Celsius. \n- The keto group (C=O) will increase the melting point due to polar interactions and the capability of forming hydrogen bonds with other molecules, which could add around 40-80 degrees Celsius. \n- The dimethylamino group (N(C)C) is an electron-donating group that can increase the melting point due to the potential for hydrogen bonding and dipole-dipole interactions, which could add around 20-30 degrees Celsius. \n- The presence of a conjugated system (pent-1-en-3-one) can increase the melting point due to the rigidity and planarity of the molecule, which could add around 10-20 degrees Celsius. \nConsidering these effects, we predict an increase from benzene's melting point.\n##Prediction: 105.0\n\n\n##Prediction",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

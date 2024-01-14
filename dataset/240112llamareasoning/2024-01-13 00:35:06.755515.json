@@ -1,0 +1,14 @@
+{
+    "name": "4-amino-2,2,6,6-tetramethylpiperidine",
+    "smiles": "CC1(CC(CC(N1)(C)C)N)C",
+    "csid": 34423,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=B24062",
+    "source": "Alfa Aesar",
+    "Reason": "To predict the melting point of 4-amino-2,2,6,6-tetramethylpiperidine, we consider the base structure of piperidine with a melting point of -9\u00b0C. The tetramethyl groups increase the van der Waals forces due to the added molecular weight, which typically raises the melting point. The contribution of each methyl group might be around +5\u00b0C due to steric hindrance, leading to diminishing effects of multiple substituents on the same carbon. The amino group can form hydrogen bonds, increasing the melting point. However, since the amino group is tertiary, its effect is not as strong as it would be in primary or secondary amines, contributing approximately +5\u00b0C. Considering these modifications, the total predicted increase would be +25\u00b0C from the methyl groups (5\u00b0C each) and +5\u00b0C from the amino group, providing a sum of +30\u00b0C to the base melting point of piperidine.",
+    "mpC": 17.0,
+    "Prediction(integer)": 21.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "- Basic unit, piperidine has a melting point of -42\u00b0C. \n- Each methyl group typically increases the melting point due to increased molecular weight and van der Waals forces, but the effect is not linear. For a simple alkyl group, an increase of about +5\u00b0C per methyl group is reasonable. However, the presence of the amino group introduces the possibility of hydrogen bonding, which can significantly raise the melting point. The amino group can be estimated to contribute an increase of about +20\u00b0C due to hydrogen bonding. \n- The presence of four methyl groups and one amino group in 4-amino-2,2,6,6-tetramethylpiperidine will thus lead to an increase in the melting point.\n##Prediction: 10.0\n##Reason",
+    "Test (Predicted value)": 10.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

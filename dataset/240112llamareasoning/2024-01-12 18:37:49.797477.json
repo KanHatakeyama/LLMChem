@@ -1,0 +1,14 @@
+{
+    "name": "(1Z)-1-[(2E)-1-benzyl-3-phenyl-2-(phenylhydrazono)propylidene]-2-phenylhydrazine",
+    "smiles": "N(Nc1ccccc1)=C(Cc1ccccc1)C(=NNc1ccccc1)Cc1ccccc1",
+    "csid": 5006400,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-960",
+    "Reason": "The target compound is a large molecule with several aromatic rings and hydrazone linkages. To predict its melting point, we will consider these features quantitatively: - Base unit (phenyl ring): Given that phenyl, as part of benzene, has a melting point of 5.5\u00b0C, we consider multiple phenyl rings in the compound. Due to strong \u03c0-\u03c0 stacking interactions and the overall symmetry and rigidity of the molecule, which enhance crystallinity, we will assign a +30\u00b0C for each phenyl ring. - Hydrazone groups: The presence of the hydrazone (-NNC=N-) linkage is expected to significantly affect the melting point, due to the rigidity and potential for intermolecular hydrogen bonding they provide. We estimate a +20\u00b0C increase in melting point for each hydrazone group. - Benzyl group: The presence of a benzyl group, compared to a phenyl group, adds marginal steric bulk and additional van der Waals forces. We expect a +5\u00b0C increase for the benzyl group. The compound has 4 phenyl rings, 2 hydrazones, and 1 benzyl group. Thus, the overall adjustment is a sum of each functional group's impact on the melting point over the base melting point of the phenyl ring.",
+    "mpC": 181.0,
+    "Prediction(integer)": 171.0,
+    "Abs error": 10.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Benzyl group: +40\u00b0C (due to increased molecular weight and van der Waals interactions) \n- Phenyl group: +40\u00b0C (due to increased molecular weight and pi-pi interactions) \n- Hydrazono group: +30\u00b0C (due to the ability to form intermolecular hydrogen bonds) \n- Propylidene group: +20\u00b0C (due to the increase in molecular weight and rigidity) \n- Additional phenyl group: +20\u00b0C (due to increased molecular weight and pi-pi interactions) \n- Total predicted increase: 170\u00b0C (5.5 + 40 + 40 + 30 + 20 + 20)\n##Prediction: 175.0\n##Reason",
+    "Test (Predicted value)": 175.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "(1E)-1-bicyclo[4.2.0]octa-1,3,5-trien-7-ylidene-2-(2,4-dinitrophenyl)hydrazine",
+    "smiles": "O=[N+]([O-])c1ccc(NN=C2Cc3ccccc32)c([N+](=O)[O-])c1",
+    "csid": 5501881,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-932",
+    "Reason": "The compound given is a derivative of hydrazine with additional functional groups: a bicyclo[4.2.0]octa-1,3,5-triene moiety and two 2,4-dinitrophenyl groups. The basic unit of hydrazine has a melting point of 2 degrees Celsius. The bicyclooctatriene moiety is a rigid, fused ring system which will significantly increase the melting point due to the restricted rotation and increased structural rigidity: +100 degrees. Each dinitrophenyl group adds aromaticity and electron-withdrawing nitro groups that stabilize the solid form through intermolecular forces, such as dipole interactions and possibly hydrogen bonding with the hydrazine nitrogen: +50 degrees for each dinitrophenyl group. There are two such groups, so this contribution is doubled. However, without experimental data for similar compounds, these effects are only approximate.",
+    "mpC": 203.0,
+    "Prediction(integer)": 202.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, bicyclo[4.2.0]octa-1,3,5-triene has a melting point of around 100\u00b0C. \n- The presence of the hydrazine group (-NNH-) typically increases the melting point due to the potential for hydrogen bonding and the rigidity it adds to the molecule, estimated at +20\u00b0C. \n- The 2,4-dinitrophenyl group is a large, rigid, and highly electron-withdrawing group, which can significantly increase the melting point due to strong intermolecular forces such as dipole-dipole interactions and potential hydrogen bonding with the hydrazine, estimated at +50\u00b0C. \n- The overall molecular complexity and the presence of multiple aromatic rings and nitro groups contribute to a higher melting point due to increased molecular weight and van der Waals interactions, estimated at +20\u00b0C. \n- The presence of the conjugated system in the bicyclic structure can also increase the melting point due to the rigidity and planarity of the molecule, estimated at +10\u00b0C. \n- The presence of the nitro groups on the phenyl ring can also increase the melting point due to their strong electron-withdrawing nature and the potential for intermolecular hydrogen bonding, estimated at +10\u00b0C each. \n- The overall predicted increase is the sum of these contributions.\n##Prediction: 210.0\n##Reason",
+    "Test (Predicted value)": 210.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

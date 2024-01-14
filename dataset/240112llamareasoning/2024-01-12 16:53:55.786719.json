@@ -1,0 +1,14 @@
+{
+    "name": "heptadecanoic acid, methyl ester",
+    "smiles": "O=C(CCCCCCCCCCCCCCCC)OC",
+    "csid": 14849,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The basic structure to consider is that of pentadecane, which is a hydrocarbon with 15 carbon atoms and has a melting point around -10\u00b0C. First, the carboxylic acid methyl ester functional group typically raises the melting point due to polar interactions and ester linkage, compared to the hydrocarbon chain. The polarity of the ester functional group allows for dipole-dipole interactions that increase the melting point. The ester can be estimated to increase the melting point by around 40\u00b0C. Secondly, the addition of two carbon atoms in the chain (from pentadecane to heptadecanoic acid methyl ester) can slightly raise the melting point due to the increased Van der Waals forces, estimated at around 2\u00b0C per carbon atom. Hence, the estimated increment due to the additional carbons would be 4\u00b0C. Combining these two effects gives us a predicted melting point of 34\u00b0C.",
+    "mpC": 30.0,
+    "Prediction(integer)": 34.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "- Basic unit, decanoic acid has a melting point of 18.5\u00b0C. \n- Methyl ester group: -10\u00b0C (due to the reduction in molecular weight and the loss of hydrogen bonding capability compared to the carboxylic acid). \n- The long carbon chain (17 carbons) contributes to an increase in the melting point due to increased van der Waals forces, but the effect is not as pronounced as in longer chains. The increase is estimated to be around +10\u00b0C for each additional methylene group (CH2) in a long chain. \n- The presence of the ester group (COOCH3) introduces steric hindrance and disrupts the crystal lattice, which would typically lower the melting point. However, since the ester is in the meta position, it does not disrupt the crystal lattice as much as it would if it were in the para position. The effect of the ester group is estimated to be -5\u00b0C. \n- The overall effect of the ester group is a net decrease in melting point due to the disruption of the crystal lattice and the introduction of steric hindrance.\n##Prediction: 18.0\n##Reason",
+    "Test (Predicted value)": 18.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

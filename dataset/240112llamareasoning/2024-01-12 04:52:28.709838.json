@@ -1,0 +1,14 @@
+{
+    "name": "Octadecafluorooctane",
+    "smiles": "FC(F)(C(F)(F)C(F)(F)F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "csid": 9018,
+    "link": "http://msds.chem.ox.ac.uk/",
+    "source": "academic website",
+    "Reason": "The basic unit to consider for comparison is octane, which has a melting point of -57 degrees Celsius. The main difference is the substitution of all hydrogen atoms with fluorine atoms. Fluorine atoms create a stronger carbon-fluorine bond compared to carbon-hydrogen bonds and increases molecular rigidity due to the strong electronegativity of fluorine, which increases intermolecular forces such as dipole-dipole attractions, and the overall size and mass of the molecule. Each fluorine substitution can be estimated to raise the melting point by about 4 degrees Celsius.",
+    "mpC": -25.0,
+    "Prediction(integer)": -25.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, octane has a melting point of -57\u00b0C. \n- Fluorine atoms: Each fluorine atom is highly electronegative and introduces strong dipole-dipole interactions, which significantly increase the melting point. We can estimate the effect of each fluorine atom to be around +20\u00b0C. With 18 fluorine atoms, this would add +360\u00b0C to the melting point. \n- Long carbon chain: The longer carbon chain increases the van der Waals forces, which also raises the melting point. We can estimate this effect to be around +10\u00b0C per additional methylene group (CH2). With 18 additional methylene groups, this would add +180\u00b0C. \n- Branching: The presence of branching in the carbon chain can slightly lower the melting point due to the disruption of crystal packing. However, since the molecule is highly fluorinated, the effect of branching is likely minimal. \n- Overall, the strong electronegativity of fluorine and the long carbon chain contribute significantly to the melting point.\n##Prediction: -17.0\n##Reason",
+    "Test (Predicted value)": -17.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

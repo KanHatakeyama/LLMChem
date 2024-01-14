@@ -1,0 +1,14 @@
+{
+    "name": "Ethanone, 2-(morpholin-4-yl)-1-phenyl-2-thioxo-",
+    "smiles": "S=C(N1CCOCC1)C(=O)c1ccccc1",
+    "csid": 258296,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4131",
+    "Reason": "To predict the melting point of the given ethanone compound, we must consider the functional groups and their likely impact on intermolecular forces and structural rigidity. The basic skeletal structure is acetophenone, with a base melting point reference of 20\u00b0C. The presence of a thioxo group (C=S) typically increases rigidity and intermolecular attraction due to the possibility of polar interactions, which could raise the melting point by approximately +5\u00b0C. The phenyl group contributes to melting point elevation through \u03c0-\u03c0 stacking interactions, increased molecular rigidity, and van der Waals forces, estimated to further increase the melting point by around +30\u00b0C. The morpholine ring, a heterocyclic amine, can participate in hydrogen bonding, which generally raises melting points; however, the impact of a morpholine ring on the melting point is less straightforward to quantify and might increase it by about +10\u00b0C due to its polar nature and potential for hydrogen bonding. Adding these contributions, the adjustment to the melting point comes to an aggregate of +45\u00b0C above the base reference.",
+    "mpC": 75.0,
+    "Prediction(integer)": 65.0,
+    "Abs error": 10.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Morpholine group: +40\u00b0C (due to the presence of nitrogen atoms and the ring structure which increases rigidity and the potential for hydrogen bonding). \n- Phenyl group: +20\u00b0C (due to the additional pi-pi interactions and the increased molecular weight). \n- Thioxo group: +10\u00b0C (due to the polarity and potential for hydrogen bonding). \n- The overall molecule is more rigid and has a larger surface area, which can lead to stronger intermolecular forces, thus increasing the melting point.\n##Prediction: 75.0\n##Reason",
+    "Test (Predicted value)": 75.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

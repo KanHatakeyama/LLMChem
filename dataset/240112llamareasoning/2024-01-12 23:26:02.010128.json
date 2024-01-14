@@ -1,0 +1,14 @@
+{
+    "name": "5-[2-(4-chlorophenyl)hydrazinylidene]-2,2-dimethyl-1,3-dioxane-4,6-dione",
+    "smiles": "Clc1ccc(NN=C2C(=O)OC(OC2=O)(C)C)cc1",
+    "csid": 299622,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4094",
+    "Reason": "The compound in question contains several functional groups that will influence its melting point. To predict the melting point quantitatively, we will consider benzene as the base unit and then account for the effect of substituents and functional groups. Benzene has a melting point of 5.5 degrees Celsius. Here are the changes expected due to each functional group or feature (all values in degrees Celsius): \n- Chlorophenyl group: +50 (introduction of chlorine which is electronegative and heavy increases intermolecular forces) \n- Hydrazinylidene group: +30 (creates strong polar character and potential for hydrogen bonding, thus increasing melting point) \n- 1,3-Dioxane-4,6-dione functional group: +70 (the ring structure introduces strain and the carbonyl groups increase polarity, both of which lead to higher melting points)\n- Methyl groups: +10 (increased molecular weight and van der Waals forces)\nAdding these adjustments to the base unit, we arrive at the following prediction.",
+    "mpC": 156.0,
+    "Prediction(integer)": 165.0,
+    "Abs error": 9.0,
+    "Test (Predicted reason)": "The compound in question is a complex molecule with multiple functional groups that influence its melting point. The basic unit we can consider is benzene, which has a melting point of 5.5 degrees Celsius. The presence of a chlorophenyl group adds to the molecular weight and provides some degree of polarity, which could increase the melting point by approximately +20 degrees Celsius. The hydrazinylidene group is capable of forming hydrogen bonds, which would significantly raise the melting point, estimated at +50 degrees Celsius. The dioxane ring contributes to the rigidity of the molecule and could add another +20 degrees Celsius. The ketone groups also contribute to the rigidity and potential for hydrogen bonding, estimated at +15 degrees Celsius each. The presence of two methyl groups adds to the molecular weight and may slightly increase the melting point, estimated at +5 degrees Celsius each. The overall effect of these functional groups is expected to significantly increase the melting point compared to benzene.\n##Prediction: 155.0\n\n\n##Prediction",
+    "Test (Predicted value)": 155.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

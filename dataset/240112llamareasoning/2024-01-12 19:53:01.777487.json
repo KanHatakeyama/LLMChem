@@ -1,0 +1,14 @@
+{
+    "name": "(1Z)-1,2-diphenylethanone O-(phenylcarbonyl)oxime",
+    "smiles": "O=C(ON=C(Cc1ccccc1)c1ccccc1)c1ccccc1",
+    "csid": 4907501,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-969",
+    "Reason": "The target compound (1Z)-1,2-diphenylethanone O-(phenylcarbonyl)oxime consists of several functional groups: three phenyl rings, a ketone, and an oxime. Starting with benzene, which has a melting point of 5.5\u00b0C as a reference, we analyze the contribution of each group. Each additional phenyl group would contribute to an increase due to enhanced van der Waals interactions and a larger molecular surface area. This increase can be estimated at roughly +20\u00b0C per phenyl group. The ketone group, with its polar nature and potential for dipole-dipole interactions, can be expected to contribute an additional +15\u00b0C. The oxime group, due to its capacity for hydrogen bonding, might increase the melting point by an additional +30\u00b0C. All these effects, however, might be reduced due to potentially unfavorable steric hindrance and imperfect molecular packing.",
+    "mpC": 92.0,
+    "Prediction(integer)": 90.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Phenyl groups: Each phenyl group is expected to increase the melting point due to increased molecular weight and \u03c0-\u03c0 interactions. The addition of two phenyl groups is estimated to increase the melting point by approximately +20\u00b0C each. \n- Carbonyl group: The carbonyl group contributes to the melting point through dipole-dipole interactions and possible hydrogen bonding with other molecules. This group is expected to increase the melting point by about +20\u00b0C. \n- Oxime group: The oxime group can form hydrogen bonds, which significantly increases the melting point. The effect of the oxime group is estimated to be +30\u00b0C. \n- The cumulative effect of these functional groups is the predicted melting point.\n##Prediction: 105.0\n##Reason",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

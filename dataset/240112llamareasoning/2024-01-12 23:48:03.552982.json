@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-3-(2-Chlorophenyl)-2-[4-(2-thienyl)-1,3-thiazol-2-yl]acrylonitrile",
+    "smiles": "Clc1ccccc1C=C(C#N)c1scc([nH0]1)c1sccc1",
+    "csid": 4495596,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1561",
+    "Reason": "The target compound has several functional groups that influence its melting point. Below is the estimated impact of each functional group based on known melting point tendencies: \n- The base structure phenylacrylonitrile is known to have a melting point in the range of 70-75\u00b0C, which serves as the starting point for our prediction. This structure provides strong \u03c0-\u03c0 interactions and efficient packing in the crystal lattice, which sustains a higher melting point. \n- Chlorophenyl group: The chlorine atom is an electron-withdrawing group that also adds mass. This typically increases the molecule's boiling point and melting point due to enhanced van der Waals and dipole-dipole interactions. An approximate increase due to a chloro substituent is around +10\u00b0C. \n- Thiazole and thiophene rings: These heterocycles are known for their rigid structure and ability to engage in \u03c0-\u03c0 stacking, which often increases the melting point due to more ordered packing in the solid state. Each heterocyclic ring might contribute an increase of about +10\u00b0C. \n- Nitrile group: The nitrile functionality is highly polar and capable of engaging in dipole-dipole interactions, but since it's a smaller group, its effect on the melting point is relatively modest, estimated at around +5\u00b0C. \nSumming the contributions from each group, a more accurate melting point prediction can be made.",
+    "mpC": 102.0,
+    "Prediction(integer)": 110.0,
+    "Abs error": 8.0,
+    "Test (Predicted reason)": "The compound in question has several functional groups that influence its melting point. The base structure is a fused benzene and thiazole ring system, which provides a significant rigidity to the molecule and allows for efficient packing, thus increasing the melting point. The presence of a chlorophenyl group adds to the molecular weight and the van der Waals forces, contributing to an increase in melting point. The acrylonitrile group is polar and can form hydrogen bonds, which would further increase the melting point. The thiazole ring is also polar and can participate in hydrogen bonding, which would further contribute to the melting point. The overall molecule is quite large and rigid, which would allow for efficient packing and a higher melting point.\n##Prediction: 120.0\n\n##Prediction",
+    "Test (Predicted value)": 120.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

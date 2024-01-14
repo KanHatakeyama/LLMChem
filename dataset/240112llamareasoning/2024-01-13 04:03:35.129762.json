@@ -1,0 +1,14 @@
+{
+    "name": "(1,2,2,3-tetramethylcyclopentyl)methanol",
+    "smiles": "OCC1(C)CCC(C)C1(C)C",
+    "csid": 2031986,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2919",
+    "Reason": "The compound (1,2,2,3-tetramethylcyclopentyl)methanol has several structural features influencing its melting point. Basic cyclopentane has a melting point around -94 \u00b0C. The presence of four methyl groups will increase the melting point due to increased molecular weight and van der Waals forces, but each additional methyl group has a diminishing increment effect as the compound becomes more bulky and branched, which could reduce symmetry and potentially lower the melting point slightly. Let's estimate the increase due to methyl groups at about +8 \u00b0C each for the first two (due to greater impact on the molecular weight and structure) and then +5 \u00b0C each for the following two considering the diminishing effect. This sums up to 8 + 8 + 5 + 5 = +26 \u00b0C increase for the methyl groups. The hydroxyl group (-OH) generally increases the melting point due to hydrogen bonding, which can be a significant effect. This could increase the melting point by about +40 \u00b0C. Combining these effects, the overall estimated increase would be +26 (methyl groups) + 40 (hydroxyl group).",
+    "mpC": 94.0,
+    "Prediction(integer)": 94.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, cyclopentane, has a melting point of -94 degrees Celsius. \n- Methyl groups generally increase the melting point due to increased molecular weight and van der Waals forces; each methyl group could be estimated to add about +5 degrees. There are four methyl groups, so this would add +20 degrees. \n- The hydroxyl group (OH) forms hydrogen bonds, which significantly raise the melting point; this could be estimated as +40 degrees. \n- The tertiary carbon in the cyclopentane ring (t-butyl group) adds steric hindrance and bulkiness, which can increase the melting point; this could be estimated as +10 degrees. \n- The overall molecular structure is more complex and rigid due to the tertiary carbon, which could contribute to a higher melting point; this could be estimated as +10 degrees. \n- The molecule is still relatively small, which could limit the increase in melting point; this could be estimated as -5 degrees. \nAdding these effects together gives us a predicted melting point.\n##Prediction: 79.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 79.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

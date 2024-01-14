@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-(1-methyl-1H-benzimidazol-2-yl)[(2,4,6-trichlorophenyl)hydrazono]ethanenitrile",
+    "smiles": "Clc1cc(Cl)c(NN=C(C#N)c2[nH0]c3ccccc3[nH0]2C)c(Cl)c1",
+    "csid": 4797374,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1029",
+    "Reason": "The target compound is a derivative of a benzimidazole and a trichlorophenyl group connected by a hydrazone linker; each substituent affects the melting point in the following ways: \n- Basic benzimidazole unit: ~160\u00b0C (benzimidazole derivatives generally have high melting points due to planar structure and hydrogen bonding capability) \n- Trichlorophenyl group: +5\u00b0C (the three chlorine atoms add to the molecular weight and enhance Van der Waals forces, though effect on melting point is less pronounced because of steric hindrance with neighboring groups) \n- Hydrazone linker: -10\u00b0C (introduces some flexibility and can lead to a lower melting point because of reduced planarity) \n- Nitrile group: +5\u00b0C (cyano groups have strong dipole moments and tend to increase melting points through dipole-dipole interactions)\nThese adjustments are additive, resulting in the total predicted melting point. The individual contributions each functional group makes to the melting point are rough estimates and might not be entirely additive due to potential synergistic or antagonistic effects between the groups.",
+    "mpC": 169.0,
+    "Prediction(integer)": 160.0,
+    "Abs error": 9.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The presence of the benzimidazole ring contributes significantly to the melting point due to its rigid structure and potential for hydrogen bonding, which can be estimated at +100\u00b0C. \n- The trichlorophenyl group adds substantial molecular weight and van der Waals interactions, which can be estimated at +50\u00b0C. \n- The hydrazone group (NN=C) is capable of hydrogen bonding and dipole-dipole interactions, which can be estimated at +20\u00b0C. \n- The nitrile group (C#N) is polar and can engage in dipole-dipole interactions, contributing an estimated +10\u00b0C. \n- The methyl group (CH3) attached to the benzimidazole ring adds some molecular weight and van der Waals interactions, estimated at +5\u00b0C. \n- The overall molecular complexity and the presence of multiple substituents that can engage in various intermolecular interactions will further increase the melting point. However, the exact quantitative contribution of each functional group is not known, so the estimation is based on general trends.\n##Prediction: 180.0\n##Reason",
+    "Test (Predicted value)": 180.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "3-cyano-1-nitrobenzene",
+    "smiles": "O=[N+]([O-])c1cc(C#N)ccc1",
+    "csid": 11582,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The basic unit, benzene, has a melting point of 5.5\u00b0C. The presence of a cyano group increases molecular polarity and intermolecular forces, leading to an estimated increase of about +70\u00b0C in melting point. A nitro group also substantially raises the melting point due to its electronegativity and ability to participate in strong dipole-dipole interactions, possibly contributing an additional +40\u00b0C. There is no specific synergistic effect quantified between the cyano and nitro groups that would justify deviation from a simple additive effect; hence, these groups are treated independently in their contributions to the melting point.",
+    "mpC": 116.0,
+    "Prediction(integer)": 115.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C.\n- Nitro group: Nitro groups are strong electron-withdrawing groups that can significantly increase the melting point due to their ability to participate in intermolecular interactions such as hydrogen bonding and dipole-dipole interactions. This effect might be around +80 degrees Celsius.\n- Cyano group: Cyano groups are also electron-withdrawing and can increase the melting point due to their linear geometry and the ability to engage in dipole-dipole interactions. This effect might be around +50 degrees Celsius.\nAdding these increments together gives us a predicted melting point: 5.5 (benzene) + 80 (nitro group) + 50 (cyano group) = 135.5 degrees Celsius.\n##Prediction: 135.5\n\n\n#Problem",
+    "Test (Predicted value)": 135.5,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

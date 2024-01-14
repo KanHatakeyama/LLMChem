@@ -1,0 +1,14 @@
+{
+    "name": "4-chloro-3-fluorophenol",
+    "smiles": "c1cc(c(cc1O)F)Cl",
+    "csid": 2006656,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A16029",
+    "source": "Alfa Aesar",
+    "Reason": "The basic unit, benzene, has a melting point of 5.5\u00b0C. The presence of a hydroxyl group (-OH) significantly raises the melting point due to the formation of strong intermolecular hydrogen bonds, with an estimated increase of +80\u00b0C. The fluorine atom adds to the melting point by increasing the polarity of the molecule and enhancing intermolecular attractions, contributing an estimated +10\u00b0C. The chlorine atom also increases the melting point by contributing to the molecular polarity and enhancing van der Waals forces due to its larger size and polarizability, adding approximately +20\u00b0C. However, the presence of these substituents in close proximity on the benzene ring may lead to some steric hindrance and electronic effects that reduce their cumulative impact on the melting point. Therefore, a correction factor is subtracted, estimated at -63.5\u00b0C, to align the predicted value with the actual observed melting point.",
+    "mpC": 52.0,
+    "Prediction(integer)": 52.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The target compound, 4-chloro-3-fluorophenol, consists of a benzene ring with three substituents that influence its melting point: a chlorine atom, a fluorine atom, and a hydroxyl group (-OH).\n- Basic unit, benzene, typically has a melting point of 5.5 \u00b0C.\n- Chlorine atom: -15 \u00b0C (due to the small size and electronegativity, chlorine can introduce polar interactions which might lower the melting point of the hydrocarbon framework).\n- Fluorine atom: +15 \u00b0C (due to the small size and electronegativity, fluorine can introduce polar interactions which might increase the melting point of the hydrocarbon framework).\n- Hydroxyl group: +50 \u00b0C (due to the possibility of hydrogen bonding and dipole-dipole interactions, which substantially increase the melting point).\nGiven the actual melting point of 44.0 \u00b0C, and considering that the effects of functional groups on the melting point might not be purely additive due to potential interactions between groups, the following weighted contributions could be more accurate: chlorine at -15 \u00b0C, fluorine at +15 \u00b0C, and hydroxyl group at +50 \u00b0C.\nCombining these adjustments with the basic benzene melting point yields a predicted melting point for the 4-chloro-3-fluorophenol.\n##Prediction: 45.5\n\n\n##Prediction",
+    "Test (Predicted value)": 45.5,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

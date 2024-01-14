@@ -1,0 +1,14 @@
+{
+    "name": "1,4-dibromo-2,3-dimethylnaphthalene",
+    "smiles": "Brc1c(C)c(C)c(Br)c2ccccc12",
+    "csid": 230297,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4171",
+    "Reason": "The base structure for 1,4-dibromo-2,3-dimethylnaphthalene is naphthalene, which has a melting point of approximately 80 degrees Celsius. The introduction of two bromine atoms significantly increases the melting point due to their relatively high atomic mass and added van der Waals forces as well as dipole-dipole interactions. Each bromine atom is predicted to increase the melting point by approximately 40 degrees Celsius. Additionally, the molecule has two methyl groups. These groups can increase the melting point by increasing the molecular weight and surface area, thus augmenting van der Waals interactions. We can expect each methyl group to contribute an increase of about 5 degrees Celsius.",
+    "mpC": 164.0,
+    "Prediction(integer)": 170.0,
+    "Abs error": 6.0,
+    "Test (Predicted reason)": "- Basic unit, naphthalene has a melting point of 80.5\u00b0C. \n- Bromine substituents: Each bromine atom is a heavy halogen that increases the molecular weight and enhances the van der Waals forces, which typically raises the melting point. The effect of each bromine atom can be estimated to be around +20\u00b0C. \n- Methyl groups: Each methyl group increases the molecular weight and provides a slight increase in the melting point due to the increase in van der Waals forces. The effect of each methyl group can be estimated to be around +5\u00b0C. \n- The presence of two bromine atoms and two methyl groups will cumulatively increase the melting point. \n##Prediction: 145.0\n##Reason",
+    "Test (Predicted value)": 145.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

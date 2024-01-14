@@ -1,0 +1,14 @@
+{
+    "name": "2,3,4,6-tetrachlorophenol",
+    "smiles": "Clc1cc(Cl)c(Cl)c(Cl)c1O",
+    "csid": 5806,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The basic unit for comparison is benzene, which has a melting point of 5.5\u00b0C. Chlorine substituents are electron-withdrawing and increase intermolecular forces such as dipole-dipole interactions, due to increased polarity, which tend to raise the melting point. Each chlorine substituent on the benzene ring can be approximated to raise the melting point by about +40\u00b0C. The hydroxyl group (-OH) is capable of hydrogen bonding, which greatly increases the melting point. We can estimate an increase of about +50\u00b0C for the hydroxyl group. However, there is also a cumulative effect when multiple substituents on the ring not only affect the overall polarity, but also the symmetry and planarity of the molecule, which can lead to more efficient packing in the solid state, potentially enhancing the melting point further beyond the additive effects of individual groups. Clusters of chlorine atoms disrupt the symmetry, which might reduce the overall increase expected from efficient packing. We will consider a slight deduction for the loss of symmetry and steric hindrance between adjacent substituents -5\u00b0C for each adjacent pair of chlorine atoms. Since there are two pairs of adjacent chlorine atoms in 2,3,4,6-tetrachlorophenol, we'll double that deduction. Therefore, the calculation becomes as follows: Benzene (5.5) + 4 Chlorine atoms (4 * 40) + Hydroxyl group (50) - 2 Adjacent Cl pair deductions (2 * -5).",
+    "mpC": 70.0,
+    "Prediction(integer)": 70.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, phenol, has a melting point of 41.5 \u00b0C.\n- Each chlorine atom increases the melting point due to the increase in molecular weight and the polarizability of the molecule, which enhances intermolecular forces. We can estimate the effect of each chlorine to be around +5 \u00b0C. There are four chlorine atoms, so the total increase would be +20 \u00b0C.\n##Prediction: 61.5\n\n\n#Problem",
+    "Test (Predicted value)": 61.5,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

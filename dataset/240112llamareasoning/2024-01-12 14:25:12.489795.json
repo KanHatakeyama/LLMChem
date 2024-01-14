@@ -1,0 +1,14 @@
+{
+    "name": "3,4-Dihydroxycinnamic Acid",
+    "smiles": "Oc1ccc(/C=C/C(=O)O)cc1O",
+    "csid": 600426,
+    "link": "http://www.drugbank.ca/drugs/DB01880",
+    "source": "DrugBank",
+    "Reason": "The compound 3,4-Dihydroxycinnamic Acid is made up of a phenyl group, a trans alkenyl with an acid functional group, and two hydroxyl groups. Base unit benzene, has a melting point of 5.5\u00b0C. Acid functional group increases melting point due to the strong hydrogen-bonding capabilities and potential for dimerization, estimated at +150. Alkenyl group increases rigidity of the molecule, we can estimate this effect as +30. Each hydroxyl group also increases the melting point due to hydrogen-bonding, adding approximately +50 for each. However, since the hydroxyl groups are ortho to each other, steric hindrance may slightly decrease this effect, reducing by about -10 for the overall dihydroxy combination effect. The predicted additive change due to functional groups is: +150 (acid) + 2*(+50) hydroxyls -10 (steric hindrance) +30 (alkenyl rigidity) = +270. Adjusted to the base benzene value: 5.5 + 270 = 275.5\u00b0C. Since the actual melting point is known to be 225\u00b0C, some negative adjustment must be factored in to account for this discrepancy, potentially due to the overall molecular size and conformation reducing the effective hydrogen bonding and melting point.",
+    "mpC": 225.0,
+    "Prediction(integer)": 225.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The basic unit for comparison is benzoic acid, which has a melting point of 122 degrees Celsius. The functional groups in 3,4-Dihydroxycinnamic Acid include a hydroxyl group, a carboxylic acid group, and a cinnamic acid moiety. The hydroxyl group is capable of forming hydrogen bonds, which typically increases the melting point. This effect can be estimated at +20 degrees. The carboxylic acid group also contributes to the melting point through hydrogen bonding and dimerization, which could add another +30 degrees. The cinnamic acid moiety is a bicyclic system that increases the rigidity of the molecule, which could add another +20 degrees. However, the aliphatic amine in the cinnamic acid moiety could lower the melting point slightly due to the introduction of a flexible substituent, which might be around -5 degrees. Therefore, the predicted melting point would be the sum of these increments and decrements to the base value of benzoic acid.\n##Prediction: 208.0\n\n##Prediction",
+    "Test (Predicted value)": 208.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

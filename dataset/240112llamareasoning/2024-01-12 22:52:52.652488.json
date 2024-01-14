@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-2-(carbamothioylhydrazono)-N-phenylpropanamide",
+    "smiles": "S=C(N)NN=C(C)C(=O)Nc1ccccc1",
+    "csid": 4644353,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1494",
+    "Reason": "The molecule (2E)-2-(carbamothioylhydrazono)-N-phenylpropanamide consists of an amide link (C(=O)N), a phenyl group (c1ccccc1), a thiourea moiety (S=C(N)NN=), and a hydrazone component (NN=C) attached to an alkene (C=C). Starting with a simple amide which has a general melting point of 120 degrees Celsius due to hydrogen bonding, we introduce the following increments for each functional group: the thiourea moieties are known to have strong intermolecular forces due to the presence of sulfur, similarly to amides they participate in hydrogen bonding but the presence of sulfur typically raises the melting point and we can add approximately +40 to the base value for this moiety. The phenyl group is known to provide rigidity and \u03c0-\u03c0 interactions that can increase the melting point; this can be estimated as a +30 increment. The hydrazone formation can additionally increase the melting point due to its ability to form conjugated systems that enhance molecular rigidity, adding another +10. The alkene (-C=C-) group contributes less significantly to the melting point but can also add to the rigidity of the molecule, let's add +2 for the alkene influence. Summing these up, we predict a melting point of 120 (base amide) + 40 (thiourea) + 30 (phenyl) + 10 (hydrazone) + 2 (alkene) = 202 degrees Celsius.",
+    "mpC": 212.0,
+    "Prediction(integer)": 202.0,
+    "Abs error": 10.0,
+    "Test (Predicted reason)": "The compound in question has several functional groups that influence its melting point. The basic unit, benzene, has a melting point of 5.5 degrees Celsius. The presence of a carbamothioylhydrazono group is expected to significantly raise the melting point due to the potential for hydrogen bonding and the rigidity it introduces to the molecule. The amide linkage also contributes to the melting point through hydrogen bonding and resonance stabilization. The presence of a phenyl group adds to the molecular weight and rigidity, which can further increase the melting point. The overall structure is expected to have a substantial increase in melting point compared to benzene. The carbamothioylhydrazono group might contribute an estimated increase of about 100-120 degrees Celsius, the amide linkage could add around 50-60 degrees Celsius, and the phenyl group could contribute an additional 20-30 degrees Celsius.\n##Prediction: 205.0\n\n##Prediction",
+    "Test (Predicted value)": 205.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

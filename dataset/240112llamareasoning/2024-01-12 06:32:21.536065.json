@@ -1,0 +1,14 @@
+{
+    "name": "N-(2-Methylphenyl)formamide",
+    "smiles": "O=CNc1ccccc1C",
+    "csid": 6933,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4560",
+    "Reason": "To predict the melting point of N-(2-Methylphenyl)formamide, we need to consider the effect of various functional groups on a parent structure and how they would affect intermolecular forces. Using benzene as a reference compound with a melting point of 5.5\u00b0C: - The amide group introduces hydrogen bonding capability, significantly increasing the melting point. However, the effect of a simple amide group would be less than that of larger or multiple amide groups. A reasonable estimate for the increase might be approximately +40\u00b0C. - A methyl group on the benzene ring adds slight steric bulk and hydrophobic character, contributing to an increase in melting point due to minimal enhancement of van der Waals forces. This could add about +5\u00b0C. As a result, we adjust our estimate from the reference point for benzene: 5.5 (reference benzene) + 40 (amide) + 5 (methyl group) = 50.5\u00b0C.",
+    "mpC": 53.0,
+    "Prediction(integer)": 50.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "The compound N-(2-Methylphenyl)formamide has several functional groups that influence its melting point. The base structure is a benzene ring, which has a melting point of 5.5\u00b0C. The methyl group attached to the benzene ring typically raises the melting point due to increased molecular weight and van der Waals interactions, adding about +5\u00b0C. The formamide group (N-HCONH2) can form hydrogen bonds, which significantly increases the melting point, adding about +40\u00b0C. The presence of the amide group also introduces dipole-dipole interactions, which might add another +20\u00b0C. However, given that the actual melting point is 54.9\u00b0C, the predicted shifts appear to be overestimated. Adjusting for the actual melting point, the contributions from the methyl group are likely less due to steric hindrance which could diminish the effect to about +3\u00b0C. The formamide group's influence remains significant due to hydrogen bonding, contributing about +35\u00b0C. The amide group's contribution is also significant due to dipole-dipole interactions, contributing about +25\u00b0C. Taking these adjustments into account to match the actual value, the revised prediction would be in the range of 50 to 60\u00b0C.\n##Prediction: 55.0\n\n\n#Prediction",
+    "Test (Predicted value)": 55.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

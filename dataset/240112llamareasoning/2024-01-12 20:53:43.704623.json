@@ -1,0 +1,14 @@
+{
+    "name": "(1E)-2-hydrazino-2-thioxoethanehydrazonamide",
+    "smiles": "SC(=NN)C(N)=NN",
+    "csid": 4645695,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1160",
+    "Reason": "The compound (1E)-2-hydrazino-2-thixoethanehydrazonamide is quite polar and has the ability to form multiple hydrogen bonds, which tends to greatly increase the melting point as the molecules are held together strongly. As a baseline, ethane (a nonpolar molecule with a similar number of carbon atoms but without functional groups) has a boiling point of -88.6\u00b0C. The thioxo group introduces sulfur, a larger and more polarizable atom than oxygen, which helps in increasing the melting and boiling points. Each hydrazino (NH2-NH2) and hydrazonamide group also contributes to an increase in melting point due to potential for extensive hydrogen bonding. Hydrazine, a comparable molecule in terms of functionality, has a melting point of 2\u00b0C. Given these functionalities and comparing them to known substances, the estimation is as follows: Baseline (ethane) +120\u00b0C for polar sulfur in thioxo group and enhanced molecular weight, +10\u00b0C for each hydrazino group because of hydrogen bonding (2 groups: +20\u00b0C), and +10\u00b0C for the hydrazonamide for hydrogen bonding. This would suggest a rough calculation of the melting point.",
+    "mpC": 150.0,
+    "Prediction(integer)": 150.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, ethane has a melting point of -182. The introduction of a hydrazone group (C=NN) typically increases the melting point due to the potential for hydrogen bonding, which can be estimated to add around +100. The thioxo group (S=C=N) also contributes to the melting point through dipole-dipole interactions and potential hydrogen bonding, which could add around +50. The hydrazine group (NNH2) can form intermolecular hydrogen bonds, which would further increase the melting point, estimated at +80. However, the presence of the amide group (CONH2) can form strong hydrogen bonds, which would significantly raise the melting point, estimated at +150. The cumulative effect of these functional groups is expected to increase the melting point significantly.\n##Prediction: 148.0\n##Reason",
+    "Test (Predicted value)": 148.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

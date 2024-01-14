@@ -1,0 +1,14 @@
+{
+    "name": "2,4-Dimethyl-3,5-dicarbethoxypyrrole",
+    "smiles": "O=C(OCC)C1N=C(C)C(=C1C)C(=O)OCC",
+    "csid": 68052,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4349",
+    "Reason": "The base structure, pyrrole, has a melting point around 23 degrees Celsius. Substitutions on the pyrrole ring can either raise or lower this temperature depending on their nature and position. Carbethoxy groups (-CO2Ethyl) are electron-withdrawing due to the presence of oxygen atoms and can be expected to increase the melting point through stronger intermolecular forces, such as dipole-dipole interactions. Each carbethoxy group might contribute around +40 to +50 degrees Celsius. Methyl groups (-CH3) are electron-donating and can provide additional van der Waals forces, slightly increasing the melting point, but they also increase steric hindrance, which could disrupt packing. Each methyl group might contribute around +5 to +10 degrees Celsius. The combined effects of two carbethoxy groups (+80 to +100) and two methyl groups (+10 to +20) would yield an estimated increase of +90 to +120 degrees Celsius on top of the base pyrrole melting point.",
+    "mpC": 137.0,
+    "Prediction(integer)": 128.0,
+    "Abs error": 9.0,
+    "Test (Predicted reason)": "The basic unit for the prediction is pyrrole, which has a melting point of around 20 \u00b0C. The presence of two methyl groups (\u2013CH3) and two carbonyl groups (\u2013C=O) will significantly affect the melting point. Each methyl group increases the molecular weight and provides some steric hindrance, which can slightly raise the melting point due to increased London dispersion forces. However, the carbonyl groups introduce polarity and the potential for hydrogen bonding, which can significantly increase the melting point. The carbonyl groups also introduce rigidity to the molecule, which can further increase the melting point. The presence of two carbonyl groups and two methyl groups can be estimated to increase the melting point by approximately 100 \u00b0C.\n##Prediction: 120.0\n\n\n#Prediction",
+    "Test (Predicted value)": 120.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

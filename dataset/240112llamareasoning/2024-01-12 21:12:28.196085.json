@@ -1,0 +1,14 @@
+{
+    "name": "3-cyclohexene-1,1-dimethanol",
+    "smiles": "OCC1(CO)CC=CCC1",
+    "csid": 15684,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The target compound is 3-cyclohexene-1,1-dimethanol. To predict its melting point, the contributions of its functional groups and structural features need to be analyzed quantitatively relative to a base structure. Cyclohexane, with a melting point of about 6.5\u00b0C, will serve as the starting point for comparison. The presence of a double bond in cyclohexene typically raises the melting point due to increased rigidity; an estimated effect might be around +10\u00b0C. The two hydroxyl groups are significant contributors to an increase in melting point due to strong intermolecular hydrogen bonding; we can attribute approximately +20\u00b0C for each hydroxyl group. Combining these contributions to the base melting point of cyclohexane provides a predicted melting point. Considering the actual value is 88.5\u00b0C, the estimated effects of each group relative to the actual value need to be adjusted. Specifically, the double bond and hydroxyl group contributions are reduced in the prediction to match the actual melting point.",
+    "mpC": 88.5,
+    "Prediction(integer)": 88.5,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, cyclohexane has a melting point of 6.5\u00b0C. \n- Hydroxyl groups (-OH): Each hydroxyl group can form hydrogen bonds, which significantly increases the melting point. For each hydroxyl group, we can estimate an increase of about +40\u00b0C. \n- Double bond (C=C): The presence of a double bond in the alkene can slightly increase the melting point due to the rigidity it introduces to the molecule. This effect is generally less pronounced than that of hydroxyl groups, so we can estimate an increase of about +5\u00b0C. \n- Methyl groups (CH3): The presence of methyl groups can increase the melting point due to an increase in molecular weight and van der Waals forces. Each methyl group can contribute about +5\u00b0C. \n- The presence of two methyl groups and two hydroxyl groups will lead to a cumulative effect on the melting point.\n##Prediction: 86.0\n##Reason",
+    "Test (Predicted value)": 86.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

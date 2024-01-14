@@ -1,0 +1,14 @@
+{
+    "name": "2-fluoro-5-iodobenzoic acid",
+    "smiles": "c1cc(c(cc1I)C(=O)O)F",
+    "csid": 2059165,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H26175",
+    "source": "Alfa Aesar",
+    "Reason": "For 2-fluoro-5-iodobenzoic acid, the base structure is benzene, which has a melting point of 5.5 \u00b0C. Each substituent on the benzene ring will alter the melting point as follows: \n- Fluoro group (-F): expected to raise the melting point by approximately 15-25 \u00b0C due to the high electronegativity and dipole-dipole interactions it introduces. \n- Iodo group (-I): expected to raise the melting point significantly by approximately 40-60 \u00b0C due to its large size, increasing the London dispersion forces and also due to its significant polarizability. \n- Carboxylic acid group (-COOH): expected to raise the melting point by approximately 70-90 \u00b0C due to its ability to form strong hydrogen bonds, both intra- and intermolecularly, and because it increases the overall polarity of the molecule. \nThese effects should be additive; however, the close proximity of the substituents might either enhance or reduce the individual effects due to steric or electronic interactions between them.",
+    "mpC": 163.0,
+    "Prediction(integer)": 164.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C.\n- Fluoro group: +20\u00b0C, due to the electronegativity of fluorine, which increases intermolecular forces.\n- Iodine atom: +40\u00b0C, as iodine is a large, heavy atom that increases the molecular weight and van der Waals forces.\n- Carboxylic acid group: +100\u00b0C, as it can form strong hydrogen bonds and dimerize, significantly raising the melting point.\n\nCombining these adjustments gives us a total predicted increase of 5.5 + 20 + 40 + 100 = 165.5\u00b0C.\n##Prediction: 165.5\n\n\n#Problem",
+    "Test (Predicted value)": 165.5,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

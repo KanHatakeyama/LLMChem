@@ -1,0 +1,14 @@
+{
+    "name": "pyrazoxyfen",
+    "smiles": "O=C(c2c(OCC(=O)c1ccccc1)n(C)nc2C)c3ccc(Cl)cc3Cl",
+    "csid": 83405,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "To predict the melting point of pyrazoxyfen, we start with a base structure and then adjust for the effect of each functional group. The base structure could be related to a simple benzene ring, which has a melting point of around 5.5\u00b0C. However, due to the complexity of the target molecule and the lack of a direct comparison, we might consider a more relevant base structure to approximate, like a chlorinated benzene, which might have a higher melting point due to increased molecular weight and size. For this example, we can estimate a starting melting point of about 45\u00b0C for a dichlorobenzene ring structure. From this point, adjustments will be made for the following groups and structural features:\n- Carbonyl groups (C=O): The presence of two carbonyl groups typically increases intermolecular forces due to polar interactions, raising the melting point. Each carbonyl group might contribute around +20\u00b0C.\n- Methoxy group (OCH3): This group is able to form dipole-dipole interactions but may also decrease the symmetry of the molecule, slightly lowering the melting point. The methoxy group might contribute around +5\u00b0C.\n- Nitrogen-containing heterocycle: This pyrazole ring will increase the rigidity of the compound and potentially the melting point due to the additional ring system and the nitrogen's capacity to form hydrogen bonds. This could result in around +30\u00b0C.\n- The alkyl group (methyl on nitrogen): Alkyl groups can add van der Waals forces, slightly increasing the melting point; however, the overall effect might be modest, let's say around +5\u00b0C.\n- Chlorine substituents on the phenyl ring: Each chlorine is electron-withdrawing and increases the molecule's molecular weight, which likely increases the melting point. Each Cl might add about +5\u00b0C.\n\nAdjusting for all these contributions should give us the predicted melting point.",
+    "mpC": 111.5,
+    "Prediction(integer)": 111.0,
+    "Abs error": 0.5,
+    "Test (Predicted reason)": "##Prediction: 120.0\n\n##Reason",
+    "Test (Predicted value)": 120.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "6-chloro-5-hydroxycholestan-3-one",
+    "smiles": "ClC1CC2C3CCC(C(C)CCCC(C)C)C3(C)CCC2C2(C)CCC(=O)CC12O",
+    "csid": 2787197,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1770",
+    "Reason": "The basic unit for 6-chloro-5-hydroxycholestan-3-one would be cholestane, a saturated hydrocarbon with a typical melting point in the range of 80-100 degrees Celsius, depending on its exact structure and purity. Steroids like cholestane often have their melting points increased due to their rigid, polycyclic structure, which allows for efficient packing in the solid state. We will take an average and assume a baseline melting point of 90 degrees Celsius for cholestane as the starting point. From this starting point, functional groups in the compound will either increase or decrease the melting point: \n- Hydroxyl group: +10 (due to hydrogen bonding capabilities which increase intermolecular forces), \n- Ketone group: +20-25 (due to polar character and rigidity in the structure, enhancing intermolecular forces), \n- Chloro group: +5-10 (due to an increase in molecular weight and polarizability, which can enhance intermolecular interactions). \nThese functional groups increase the melting point cumulatively, although there is a limit to these effects as they can also disturb the crystal lattice to some extent.",
+    "mpC": 214.0,
+    "Prediction(integer)": 214.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, cholestan has a melting point of 140\u00b0C.\n- Hydroxyl group: +50\u00b0C (due to hydrogen bonding and polarity)\n- Chlorine substituent: +20\u00b0C (due to increased molecular weight and polarity)\n- Ketone group: +10\u00b0C (due to polarity and potential for dipole-dipole interactions)\n- The presence of multiple cholestane rings and the ketone group will increase the melting point due to the increased rigidity and planarity of the molecule, which enhances intermolecular interactions.\n##Prediction: 210.0\n##Reason",
+    "Test (Predicted value)": 210.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

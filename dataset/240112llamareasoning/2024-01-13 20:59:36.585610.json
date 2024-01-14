@@ -1,0 +1,14 @@
+{
+    "name": "trimethoprim",
+    "smiles": "Nc2nc(N)ncc2Cc1cc(OC)c(OC)c(OC)c1",
+    "csid": 5376,
+    "link": "http://dx.doi.org/10.1021/ci700307p",
+    "source": "Hughes LD; Palmer DS; Nigsch F and Mitchell JBO. 2008 Why are some properties more difficult to predict than others? A study of QSPR models of solubility; melting point and LogP. J. Chem. Inf. Model. 2008. 48 (1). pp 220?492",
+    "Reason": "The target compound trimethoprim contains several functional groups which affect its melting point. The base unit for comparison could be aniline, which has a melting point of around 6 degrees Celsius, because it contains an amine attached to a benzene ring. The different functional groups that need to be considered for trimethoprim are as follows: - Aromatic amine groups: Each amine connected to a ring (like aniline) generally raises the melting point due to increased hydrogen bonding capabilities and planarity which enhances packing in solid state. Assuming two amine groups each add approximately +50 to the melting point. - Methoxy groups: Each methoxy group can increase the melting point due to its ability to participate in hydrogen bonding as a hydrogen bond acceptor and due to the increase in molecular weight and van der Waals forces. Assuming three methoxy groups each contribute about +20 to the melting point. - Linked aromatic rings: The presence of two aromatic rings linked through a central carbon can lead to an increase in the melting point due to rigidification of the structure and enhanced pi-pi stacking interactions. This is difficult to quantify, but it might reasonably add around +20 to +30. Therefore, combining these effects, we have: Base aniline: 6 + Two amino groups: 2 * 50 + Three methoxy groups: 3 * 20 + Linked aromatic rings: 25 (average) The total predicted increase is 191 degrees Celsius.",
+    "mpC": 201.0,
+    "Prediction(integer)": 197.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "##Prediction: 200.0\n\n\n##Prediction",
+    "Test (Predicted value)": 200.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

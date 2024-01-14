@@ -1,0 +1,14 @@
+{
+    "name": "m-xylylene dibromide",
+    "smiles": "BrCc1cccc(c1)CBr",
+    "csid": 62581,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=B24959",
+    "source": "Alfa Aesar",
+    "Reason": "The base molecule for m-xylylene dibromide is benzene, which has a melting point of 5.5 degrees Celsius. The compound has two methyl groups that would typically raise the melting point due to increased molecular weight and slight increase in van der Waals forces, which might contribute +5 degrees Celsius for each group. However, the compound also has two bromine atoms, which significantly increase the molecular weight and the polarizability of the molecule. Bromine atoms have a much larger effect than methyl groups due to their larger size and higher atomic mass, which can be estimated as a +40 degrees Celsius contribution for each bromine atom. The presence of the bromine atoms ortho to one another introduces steric hindrance that may reduce the symmetry and can slightly reduce the melting point; this might be a -5 degrees Celsius for the effect of steric hindrance. Adding these effects together yields the prediction.",
+    "mpC": 75.0,
+    "Prediction(integer)": 85.0,
+    "Abs error": 10.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C.\n- The presence of two bromine atoms increases the melting point due to the increase in molecular weight and the polarizability of the molecule, which enhances intermolecular forces. Each bromine might contribute approximately +20\u00b0C.\n- The m-xylylene structure introduces additional rigidity and planarity to the molecule, which can increase the melting point. This effect can be estimated at +10\u00b0C.\nCombining these effects: 5.5 (benzene) + 40 (two bromines) + 10 (m-xylylene structure) = 55.5\u00b0C.\n##Prediction: 55.5\n\n\n#Problem",
+    "Test (Predicted value)": 55.5,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

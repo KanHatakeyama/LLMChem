@@ -1,0 +1,14 @@
+{
+    "name": "7-methyl-5-phenylquino[4,3-b][1,5]benzothiazepin-6(5H)-one",
+    "smiles": "S1c2ccccc2N=C(C)C2=C1c1ccccc1N(c1ccccc1)C2=O",
+    "csid": 1050834,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3824",
+    "Reason": "The basic unit for the target compound can be considered as quinoline, which has a melting point of 76\u00b0C. The target compound has several functional groups appended to this basic structure. These groups are expected to interact and affect the melting point in the following ways: \n- Phenyl groups (two at different positions): Each provides additional pi-pi stacking and increases van der Waals interactions, so we can estimate each might increase the melting point by about 30-40\u00b0C due to their planar and conjugated nature, and they also increase molecular rigidity. \n- Methyl group: This small alkyl group can slightly raise the melting point due to the increase in molecular size and van der Waals interactions, estimated effect could be around 5\u00b0C. \n- Benzothiazepin moiety: This is a large heterocyclic component that vastly increases the molecular rigidity and surface area for van der Waals interactions. It's difficult to predict its exact influence without empirical data, but it might contribute to an increase of approximately 70-90\u00b0C due to multiple ring systems and nitrogen/sulfur atoms which could form additional intermolecular interactions. \n- Ketone (C=O): Polar carbonyl groups can form dipole-dipole interactions, increasing the melting point compared to non-polar compounds. The effect could be around 10-15\u00b0C. \nThe additive effects should provide an estimate that aligns with the experimental melting point value.",
+    "mpC": 231.0,
+    "Prediction(integer)": 237.0,
+    "Abs error": 6.0,
+    "Test (Predicted reason)": "- Basic unit, quino[4,3-b][1,5]benzothiazepine-6(5H)-one has a melting point of around 220\u00b0C. \n- Methyl group: +5\u00b0C (due to increased molecular weight and van der Waals interactions) \n- Phenyl group: +20\u00b0C (due to increased pi-pi interactions and rigidity of the phenyl ring) \n- N-methyl group: +5\u00b0C (due to increased molecular weight and van der Waals interactions) \n- The presence of the quino[4,3-b][1,5]benzothiazepine core structure is expected to have a significant impact on the melting point due to its rigid and planar structure, which can lead to strong intermolecular interactions such as pi-pi stacking and dipole-dipole interactions. However, the exact quantification of this effect is difficult to predict without empirical data.\n##Prediction: 240.0\n##Reason",
+    "Test (Predicted value)": 240.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

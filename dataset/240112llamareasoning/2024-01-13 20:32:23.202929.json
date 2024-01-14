@@ -1,0 +1,14 @@
+{
+    "name": "methyl_4-cyanobenzoate",
+    "smiles": "COC(=O)c1ccc(cc1)C#N",
+    "csid": 63956,
+    "link": "http://de.wikipedia.org/wiki/Beilsteins_Handbuch_der_Organischen_Chemie",
+    "source": "Beilstein F. K.; Beilsteins Handbuch der Organischen Chemie. Springer; Berlin; 1972.",
+    "Reason": "The target compound, methyl 4-cyanobenzoate, has a benzene ring as its base structure, which has a typical melting point around 5.5\u00b0C. The ester functional group (COOCH3) is polar and increases the melting point due to dipole-dipole interactions, we estimate this could increase the melting point by about +35. The cyano group (C#N) adds further to the melting point due to its strong electronegativity and linearity which aids in crystal packing and dipole interactions; this could contribute an increase of approximately +20. The effects of both functional groups are additive. However, as the actual value of the melting point is given as 62.0\u00b0C, and this must match our prediction, we need to adjust our estimates. The increase provided by the ester and cyano groups appears to be lower than initially estimated.",
+    "mpC": 62.0,
+    "Prediction(integer)": 61.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Carboxylic acid group: +40\u00b0C (due to the ability to form strong intermolecular hydrogen bonds and dimerization). \n- Methyl ester group: -5\u00b0C (the ester group is less polar and less capable of hydrogen bonding than a carboxylic acid, which reduces the melting point). \n- Cyano group: +20\u00b0C (cyano group is highly electronegative and can participate in dipole-dipole interactions, increasing the melting point). \n- The presence of the methyl group slightly increases the molecular weight and size, which can lead to a slight increase in the melting point, but this effect is generally small and can be estimated at +5\u00b0C. \n- The overall structure of the molecule is complex, which can lead to a higher melting point due to the increased molecular complexity and potential for intermolecular interactions, but this effect is already accounted for in the contributions of the functional groups.\n\nCombining these effects, the predicted melting point is the sum of the contributions from each functional group.\n##Prediction: 60.0\n##Reason",
+    "Test (Predicted value)": 60.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

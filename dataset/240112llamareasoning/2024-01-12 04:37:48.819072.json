@@ -1,0 +1,14 @@
+{
+    "name": "1,4-dibromo-2-nitrobenzene",
+    "smiles": "c1cc(c(cc1Br)[N+](=O)[O-])Br",
+    "csid": 69450,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A10472",
+    "source": "Alfa Aesar",
+    "Reason": "Starting with the basic benzene structure, which has a melting point of 5.5 \u00b0C, the introduction of two bromine atoms on the 1 and 4 positions of the benzene ring adds significant molecular weight and increases the London dispersion forces, which can be estimated to increase the melting point substantially. Each bromine might contribute an estimated +30 \u00b0C due to their size and the increase in dispersion forces. The nitro group is a strong electron-withdrawing group, which contributes to intermolecular forces, especially dipole-dipole interactions. The nitro group can also form hydrogen bonds due to the presence of oxygen atoms, which could potentially raise the melting point. However, the contribution of a nitro group is typically less than that of a bromine atom in terms of melting point elevation; thus, an estimated increase of +20 \u00b0C from the nitro group is reasonable. Combining these adjustments to the base melting point of benzene, we have: basic benzene (+5.5), bromine substitutions (2x+30), and nitro group (+20).",
+    "mpC": 84.0,
+    "Prediction(integer)": 85.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, benzene: 5.5 \u00b0C\n- Bromine atoms: Each bromine atom is a heavy atom that increases the molecular weight and enhances van der Waals forces, contributing approximately 20 \u00b0C per bromine atom.\n- Nitro group: The nitro group is an electron-withdrawing group that can engage in intermolecular interactions, such as dipole-dipole interactions, and can increase the melting point by about 40 \u00b0C.\nCombining these contributions:\n- Basic unit (benzene): 5.5 \u00b0C\n- Bromine atoms: 2 x 20 \u00b0C = 40 \u00b0C\n- Nitro group: 40 \u00b0C\nBased on these conservative estimates, we would get a total increase in melting point of 65.5 \u00b0C.\n##Prediction: 71.0\n\n\n#Problem",
+    "Test (Predicted value)": 71.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

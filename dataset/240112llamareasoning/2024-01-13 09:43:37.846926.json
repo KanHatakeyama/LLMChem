@@ -1,0 +1,14 @@
+{
+    "name": "benazolin",
+    "smiles": "O=C(O)CN2c1c(cccc1Cl)SC2=O",
+    "csid": 18521,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The compound benazolin contains several functional groups that influence its melting point. Here's the breakdown of its structure: a benzothiazole backbone, a carboxylic acid group, a chloro substituent, and a secondary amine-linked to the benzothiazole system. Benzothiazole as the base structure contributes significantly since heterocyclic compounds often have substantial melting points due to ring stability and potential for pi-pi stacking interactions. We'll consider benzothiazole to have a relatively high baseline melting point. The carboxylic acid group can form strong hydrogen bonds, which typically raises the melting point substantially. The chloro substituent will slightly increase the melting point due to its electronegativity and additional Van der Waals interactions. However, the secondary amine can participate in hydrogen bonding but to a lesser extent than the carboxylic acid, so its effect on melting point will be more moderate. Considering an estimated baseline for benzothiazole at around 150 degrees, the carboxylic acid might add another 40 due to strong hydrogen bonding, the chlorine could add about 5 due to increased molecular weight and stronger intermolecular forces, and the secondary amine could add around 3 due to its moderate hydrogen-bonding ability. These are rough estimates to illustrate the contribution of each functional group.",
+    "mpC": 193.0,
+    "Prediction(integer)": 198.0,
+    "Abs error": 5.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5 \u00b0C.\n- The benzazolin structure introduces a benzene ring fused with a pyrimidine ring, which significantly increases the melting point due to the rigidity and potential for hydrogen bonding. This could add approximately +150 \u00b0C.\n- The chlorine substituent on the benzene ring adds to the molecular weight and enhances van der Waals interactions, contributing an estimated +10 \u00b0C.\n- The amide group (C=O) is capable of strong hydrogen bonding, which can further increase the melting point. This could add around +20 \u00b0C.\n- The ether linkage (O=C(O)) may contribute to the melting point due to dipole-dipole interactions, estimated at +5 \u00b0C.\nCombining these adjustments, the predicted melting point would be the sum of contributions from each functional group plus the reference value for benzene.\n##Prediction: 190.0\n\n\n#Problem",
+    "Test (Predicted value)": 190.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

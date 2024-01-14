@@ -1,0 +1,14 @@
+{
+    "name": "Butylcyclohexane",
+    "smiles": "CCCCC1CCCCC1",
+    "csid": 14753,
+    "link": "http://msds.chem.ox.ac.uk/",
+    "source": "academic website",
+    "Reason": "The base structure for the target compound, butylcyclohexane, is cyclohexane, with a melting point of 6.5\u00b0C. Attaching a butyl group (an alkyl chain) to cyclohexane generally lowers the melting point, as alkyl chains increase the molecular size and flexibility, disrupting the crystalline structure and easing the transition to the liquid state. Each methylene (-CH2-) unit in an alkyl chain typically lowers the melting point by about 18.75\u00b0C, judging from the difference between the melting points of methane (-182\u00b0C) and ethane (-172\u00b0C), as a rough approximation. Given that the butyl group adds four such methylene units, the estimated cumulative effect would be -75\u00b0C.",
+    "mpC": -75.0,
+    "Prediction(integer)": -68.5,
+    "Abs error": 6.5,
+    "Test (Predicted reason)": "The basic unit, cyclohexane, has a melting point of -95 degrees Celsius. Adding a butyl group (\u2013C4H9-) to the cyclohexane ring will increase the melting point due to the increased molecular weight and van der Waals forces. However, the branching of the butyl group can disrupt the crystalline structure, potentially lowering the melting point. The effect of the butyl group is estimated to be a +5 increase due to the increase in molecular weight and van der Waals forces, but the branching might decrease the melting point by -5 due to the disruption of the crystalline structure.\n##Prediction: -90.0\n\n\n#Prediction",
+    "Test (Predicted value)": -90.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

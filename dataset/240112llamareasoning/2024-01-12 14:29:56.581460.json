@@ -1,0 +1,14 @@
+{
+    "name": "1H-pyrazole-3-carboxylic acid, 5-methyl-, methyl ester",
+    "smiles": "O=C(OC)C1=NNC(C)=C1",
+    "csid": 2034152,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2387",
+    "Reason": "To predict the melting point of 5-methyl-1H-pyrazole-3-carboxylic acid methyl ester, we start with the basic structure of pyrazole which has a melting point in the range of 70\u00b0C. Adding a carboxylic acid ester generally increases the melting point due to the possibility of hydrogen bonding and dipole-dipole interactions, but the ester, in this case, methyl ester, is less capable of hydrogen bonding than the free acid, reducing this effect. This might add roughly +20\u00b0C. The 5-methyl group contributes to an increase in the hydrophobic interactions due to the addition of nonpolar bulk, but its effect is less significant than that of functional groups capable of hydrogen bonding, so we might estimate an increase of +5\u00b0C for this group. Thus, the overall predicted melting point would be higher than that of pyrazole but moderated by the specific substituents.",
+    "mpC": 94.5,
+    "Prediction(integer)": 95.0,
+    "Abs error": 0.5,
+    "Test (Predicted reason)": "- Basic unit, pyrazole has a melting point of around 80\u00b0C. \n- Methyl group: +5\u00b0C (due to increased molecular weight and van der Waals interactions) \n- Methyl ester group: -5\u00b0C (due to the ester linkage which can disrupt crystal packing, but the methyl group's effect is already accounted for) \n- The carboxylic acid group is a strong hydrogen bond donor and acceptor, which can significantly increase the melting point. However, the presence of the ester linkage reduces the ability of the acid to form strong hydrogen bonds, so the effect is less pronounced. Estimated effect: +20\u00b0C (considering the acid group's ability to form hydrogen bonds and the ester linkage's impact on hydrogen bonding). \n- The nitrogen in the pyrazole ring can participate in hydrogen bonding, but the effect is not as significant as that of the carboxylic acid group. Estimated effect: +5\u00b0C (due to hydrogen bonding potential). \n- The overall molecule is more rigid and planar due to the pyrazole ring, which can increase the melting point. Estimated effect: +10\u00b0C (due to increased molecular rigidity).\n##Prediction: 110.0\n##Reason",
+    "Test (Predicted value)": 110.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

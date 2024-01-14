@@ -1,0 +1,14 @@
+{
+    "name": "3-benzoylthiophene-2-carboxylic acid",
+    "smiles": "c1ccc(cc1)C(=O)c2ccsc2C(=O)O",
+    "csid": 279249,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H28040",
+    "source": "Alfa Aesar",
+    "Reason": "The base molecule thiophene has a melting point of -38\u00b0C. Benzoyl groups are phenyl rings with an attached carbonyl (C=O), contributing significantly to intermolecular forces through dipole interactions and potential hydrogen bonding with the carboxylic acid. Let's estimate this effect of one benzoyl group to be +120\u00b0C due to its large size and electron-withdrawing nature. The second benzoyl group will contribute similarly; however, the effect may be slightly less due to steric hindrance and electronic effects, so let's be conservative and estimate +100\u00b0C. The carboxylic acid group significantly increases melting point through strong hydrogen bonding, and we can estimate this effect at +70\u00b0C. The combined effects of these functional groups result in the following additive contributions: base thiophene (-38) + first benzoyl (+120) + second benzoyl (+100) + carboxylic acid (+70).",
+    "mpC": 152.0,
+    "Prediction(integer)": 152.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The target compound 3-benzoylthiophene-2-carboxylic acid has several functional groups that influence its melting point. The basic unit, thiophene, has a melting point of -38\u00b0C. The benzoyl group adds aromaticity and increases the molecular weight, which could contribute to an increase in the melting point by about +40 to +50. The carboxylic acid group is capable of forming strong hydrogen bonds, which would significantly raise the melting point, potentially by +80 to +100. The presence of two carboxylic acid groups would further increase the melting point due to the potential for dimer formation and additional hydrogen bonding.\n##Prediction: 148.0\n\n\n#Prediction",
+    "Test (Predicted value)": 148.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

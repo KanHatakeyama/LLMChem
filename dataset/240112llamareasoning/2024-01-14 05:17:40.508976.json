@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-3-(4H-imidazol-5-yl)-N-[2-(1H-imidazol-5-yl)ethyl]prop-2-enamide",
+    "smiles": "O=C(NCCC=1N=CNC=1)C=CC1=NC=NC1",
+    "csid": 4645757,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1150",
+    "Reason": "The target compound contains several functional groups that contribute to its melting point. The backbone of the compound consists of an extended planar structure with conjugated double bonds, which generally increases the melting point due to stronger intermolecular interactions and higher rigidity of the molecule. The imidazole rings, which contain nitrogen atoms, can engage in hydrogen bonding, further raising the melting point. The amide linkage also contributes to hydrogen bonding. Predicting the melting point incrementally, we start with benzene as a reference compound with a melting point of 5.5\u00b0C. Each imidazole adds significant rigidity and the potential for hydrogen bonding, which we estimate to increase the melting point by about 100\u00b0C for both imidazole rings. The conjugated double bonds and the amide also enhance the rigidity and hydrogen bonding, contributing an additional 35\u00b0C. Thus, the overall prediction is 5.5 (benzene baseline) + 100 (imidazole influence) + 100 (second imidazole influence) + 35 (conjugation and amide contribution).",
+    "mpC": 241.0,
+    "Prediction(integer)": 240.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C. \n- The imidazole ring system is a heterocyclic compound that can form hydrogen bonds and has a melting point significantly higher than benzene. Each imidazole ring can be estimated to contribute around +80 to +100\u00b0C due to its ability to form strong intermolecular hydrogen bonds and its rigid structure. \n- The amide group (\u2013CONH\u2013) is capable of hydrogen bonding and has a significant impact on the melting point, potentially adding around +50 to +70\u00b0C. \n- The alkene group (\u2013C=C\u2013) contributes to the rigidity of the molecule and can increase the melting point by about +5 to +10\u00b0C. \n- The ether linkage (\u2013O\u2013) does not significantly affect the melting point. \n- The overall molecular complexity and rigidity of the molecule will contribute to a higher melting point, estimated to be around +10 to +20\u00b0C. \n##Prediction: 225.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 225.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

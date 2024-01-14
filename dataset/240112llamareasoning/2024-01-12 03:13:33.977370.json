@@ -1,0 +1,14 @@
+{
+    "name": "(1,2,2,3-tetramethylcyclopentyl)methyl 4-aminobenzoate",
+    "smiles": "O=C(OCC1(C)CCC(C)C1(C)C)c1ccc(N)cc1",
+    "csid": 2031985,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2920",
+    "Reason": "To predict the melting point of (1,2,2,3-tetramethylcyclopentyl)methyl 4-aminobenzoate, we consider the effects of various functional groups and structural features:\n- Basic unit, cyclopentane has a typical melting point around -94\u00b0C.\n- Methyl groups: Four methyl groups attached to the cyclopentane ring increase molecular weight and steric hindrance; each can contribute an estimated +20\u00b0C due to increased van der Waals interactions.\n- Benzene ring attached via ester linkage: The aromatic ring contributes to an increase in molecular weight and rigidity; estimated contribution is +80\u00b0C.\n- Ester group: Ester functionality typically raises the melting point due to polar interactions and possible hydrogen bonding if protic solvents are present or intramolecularly; estimated contribution is +40\u00b0C.\n- Amino group on the benzene ring: The amine can engage in hydrogen bonding, raising the melting point further. Its effect might be less pronounced due to intramolecular interactions with the ester group; estimated contribution is +20\u00b0C.\nCombining these effects in a qualitative manner leads to the predicted melting point.",
+    "mpC": 74.0,
+    "Prediction(integer)": 74.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The base structure of benzene has a melting point of 5.5 \u00b0C (41.9 \u00b0F). The following functional groups and structural features will influence the melting point:\n- Tetramethylcyclopentyl group: +30\u00b0C, due to the increased molecular weight and steric hindrance from the bulky tetramethyl groups.\n- Methyl group on the benzene ring: +5\u00b0C, as methyl groups typically raise the melting point due to increased van der Waals interactions.\n- Amide group: +40\u00b0C, as amides can form strong hydrogen bonds and increase the melting point significantly.\n- Ketone group: +20\u00b0C, as the polar carbonyl group can engage in dipole-dipole interactions.\nAdding these contributions together to the base benzene melting point gives us: 5.5 + 5 + 40 + 20 = 70.5\u00b0C\n##Prediction: 70.0\n\n\n#Prediction",
+    "Test (Predicted value)": 70.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

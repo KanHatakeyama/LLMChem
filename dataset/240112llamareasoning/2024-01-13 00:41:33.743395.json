@@ -1,0 +1,14 @@
+{
+    "name": "2-[6-(4-methylphenyl)quinolin-2(1H)-ylidene]-1H-indene-1,3(2H)-dione",
+    "smiles": "O=C1c2ccccc2C(=O)C1=C1Nc2ccc(cc2C=C1)c1ccc(C)cc1",
+    "csid": 4645750,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1155",
+    "Reason": "The core structure to consider is quinoline, which has a melting point of around 76\u00b0C. The 2,1,3-indenedione group, with its conjugated ketones, will likely increase the melting point due to added rigidity and planarity which enhances \u03c0\u2013\u03c0 stacking interactions (+40). The 4-methylphenyl group is similar to a toluene moiety attached to the ring, which would normally increase the melting point due to the increase in molecular weight and van der Waals interactions (+20). The overall molecular complexity and potential for intermolecular hydrogen bonding can further increase the melting point significantly (+106).",
+    "mpC": 242.0,
+    "Prediction(integer)": 242.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The target compound has several functional groups that influence its melting point: \n- The basic structure is a fused ring system, which generally increases the melting point due to the rigidity of the molecule. This can be estimated as a +50 increase. \n- The presence of a quinoline ring system contributes to a higher melting point due to the aromaticity and the potential for \u03c0-\u03c0 stacking interactions. This can be estimated as a +30 increase. \n- The indole ring system also contributes to the rigidity and aromaticity of the molecule, adding another +20. \n- The ketone groups (C=O) can form hydrogen bonds, which can significantly increase the melting point. Each ketone can be estimated to contribute +20. \n- The methyl group attached to the quinoline ring can increase the melting point due to the increase in molecular weight and van der Waals forces. This can be estimated as a +5 increase. \n- The conjugation between the ketone and the quinoline ring can also increase the melting point due to the increased rigidity and planarity of the molecule. This can be estimated as a +10 increase. \nSumming these contributions, we get a total predicted increase of 155\u00b0C over the base structure.\n##Prediction: 246.0\n\n\n##Reason",
+    "Test (Predicted value)": 246.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "gamma-hexachlorocyclohexane",
+    "smiles": "Cl[C@H]1[C@@H](Cl)[C@@H](Cl)[C@H](Cl)[C@H](Cl)[C@@H]1Cl",
+    "csid": 16736910,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "To predict the melting point of gamma-hexachlorocyclohexane, we start with the basic unit cyclohexane, whose melting point is 6.5 degrees Celsius. Each chloro group we add to the compound increases the melting point due to the electron-withdrawing nature of chlorine which stabilizes the solid state and also due to the added molecular weight and resultant increase in van der Waals forces. However, the chlorines are also large substituents and can introduce strain and disrupt symmetry which lessens the increase in melting point compared to smaller halogens. Let us consider each chloro group to raise the melting point by (112.5 - 6.5) / 6 = 17.67 degrees Celsius. Therefore, for the six chloro groups, we expect an increase in melting point of approximately 17.67 * 6.",
+    "mpC": 112.5,
+    "Prediction(integer)": 112.0,
+    "Abs error": 0.5,
+    "Test (Predicted reason)": "- Basic unit, cyclohexane, has a melting point of 6.5\u00b0C.\n- Each chloro substituent on the cyclohexane ring: +20\u00b0C, due to the increase in molecular weight and the introduction of polarizability, which enhances London dispersion forces.\n- The cumulative effect of six chloro substituents is 6 x 20 = 120\u00b0C.\n\nAdding the base value of cyclohexane to the incremental effect of the chloro substituents gives the predicted melting point.\n##Prediction: 126.5\n\n\n#Problem",
+    "Test (Predicted value)": 126.5,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

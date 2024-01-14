@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-3-[5-(2-methoxyphenyl)furan-2-yl]-1-phenylprop-2-en-1-one",
+    "smiles": "O=C(C=Cc1oc(cc1)c1ccccc1OC)c1ccccc1",
+    "csid": 4645664,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1163",
+    "Reason": "The compound (2E)-3-[5-(2-methoxyphenyl)furan-2-yl]-1-phenylprop-2-en-1-one has a melting point influenced by various functional groups. Starting with the baseline melting point for benzene at 5.5\u00b0C, we can estimate the effects of the additional functional groups. The phenyl groups generally increase rigidity and can raise the melting point, with an estimated +30\u00b0C for each of the two phenyl groups present, leading to a +60\u00b0C change. The furan ring has oxygen which can engage in hydrogen bonding, but furan itself has a low melting point (\u221285.6\u00b0C). In this context, we might expect it to have a marginal impact on melting point for this complex molecule, perhaps a slight increase of +5\u00b0C. The methoxy groups (-OCH3) are electron-donating and may slightly disrupt molecular packing, which could lower the melting point; their effect is estimated at -5\u00b0C per group, with two groups summing to -10\u00b0C. The prop-2-en-1-one contributes to polarity and potential for strong dipole-dipole interactions, increasing the melting point substantially; we'll estimate this at +35\u00b0C. Combining all these estimates, we have: 5.5 (benzene) + 60 (phenyl groups) + 5 (furan) - 10 (methoxy groups) + 35 (prop-2-en-1-one) = 95.5\u00b0C.",
+    "mpC": 99.0,
+    "Prediction(integer)": 95.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C.\n- Furan ring: +20\u00b0C (due to the presence of oxygen and the potential for hydrogen bonding).\n- Methoxy group: +10\u00b0C (due to the electron-donating effect and the increase in molecular weight).\n- Phenyl group: +20\u00b0C (due to the increase in molecular weight and the potential for pi-pi stacking).\n- Ketone group: +30\u00b0C (due to the polar carbonyl group and the potential for dipole-dipole interactions).\n- Double bond: +5\u00b0C (due to the rigidity it introduces to the molecule).\n##Prediction: 100.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 100.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

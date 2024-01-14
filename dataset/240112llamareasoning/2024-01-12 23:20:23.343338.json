@@ -1,0 +1,14 @@
+{
+    "name": "N-heptacosane",
+    "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "csid": 11146,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L07796",
+    "source": "Alfa Aesar",
+    "Reason": "The basic unit, methane, has a melting point of -182. Since N-heptacosane is a straight-chain alkane with 27 carbon atoms, each -(CH2)- group contributes positively to the melting point due to increased molecular weight and van der Waals forces. Methane's melting point is shifted by approximately 241/(27-1) = 9.3 degrees for each additional -(CH2)- unit beyond the first carbon. Therefore, for 26 additional -(CH2)- groups, the melting point increases by 26 * 9.3.",
+    "mpC": 59.0,
+    "Prediction(integer)": 59.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, hexane has a melting point of -95.2\u00b0C. \n- Each additional methylene group (CH2) in a saturated hydrocarbon chain generally increases the melting point due to increased van der Waals forces. However, the effect of each additional CH2 is not linear, and the increase is not as significant as in smaller hydrocarbons. For N-heptacosane, there are 21 additional CH2 groups compared to hexane. Assuming an increase of about 20\u00b0C per CH2 group, the total increase would be 21 * 20 = 420\u00b0C. \n- The presence of a long carbon chain also increases the melting point due to increased molecular weight and van der Waals interactions. However, the effect of the long chain is not as significant as the increase in CH2 groups. For N-heptacosane, the long carbon chain adds approximately 100\u00b0C to the melting point. \n- The presence of a straight-chain alkane with 21 carbon atoms is less flexible than a branched chain, which could slightly increase the melting point due to better packing in the solid state. This effect is minor and can be estimated at around 5\u00b0C. \n- The presence of a long carbon chain also increases the molecular weight, which can lead to stronger London dispersion forces, further increasing the melting point. This effect is also minor and can be estimated at around 5\u00b0C. \n- The overall increase in the melting point due to the combined effects of additional CH2 groups, long carbon chain, and straight-chain alkane is estimated to be 420 + 100 + 5 = 525\u00b0C.\n##Prediction: 52.0\n##Reason",
+    "Test (Predicted value)": 52.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

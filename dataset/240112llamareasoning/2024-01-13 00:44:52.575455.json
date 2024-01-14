@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-1-phenylpropan-2-one semicarbazone",
+    "smiles": "O=C(N)NN=C(C)Cc1ccccc1",
+    "csid": 4793802,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1035",
+    "Reason": "To predict the melting point for (2E)-1-phenylpropan-2-one semicarbazone, consider the following functional groups: ketone, phenyl group, and semicarbazone unit. Starting with the basic unit, acetophenone, which has a melting point of about 20\u00b0C, the addition of each functional group will affect the melting point. Ketones generally increase the melting point due to their polar nature and the additional alkene moiety in the (2E)-position may contribute slightly due to increased molecular rigidity, leading to a slight increase in the melting point, estimated at +1 to +5\u00b0C. However, the key functional group influencing the melting point is the semicarbazone unit, which through its ability to form strong hydrogen bonds and its rigid structure, can increase the melting point significantly. Semicarbazones are known to elevate the melting points of the compounds they are a part of, sometimes resulting in an increase of around +150 to +170\u00b0C compared to the parent ketone. When summing these contributions, the predicted melting point will be higher than that of acetophenone, taking into account the observed impact of individual functional groups on melting points in similar compounds.",
+    "mpC": 189.0,
+    "Prediction(integer)": 193.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "The basic unit for comparison is benzene, which has a melting point of 5.5\u00b0C. The phenyl group (\u2013C6H5) is a large, planar, and rigid structure that increases the melting point due to enhanced pi-pi stacking interactions and van der Waals forces. This can be estimated to add approximately +80\u00b0C. The semicarbazone group (\u2013NN=C\u2013) is a heterocyclic compound that can form hydrogen bonds, which significantly increases the melting point. This can be estimated to add +100\u00b0C. The ketone group (\u2013C=O\u2013) is another polar functional group that can participate in dipole-dipole interactions, which might further increase the melting point. This can be estimated to add +20\u00b0C. The presence of a single methyl group (\u2013CH3) attached to the phenyl ring might slightly increase the melting point due to the increase in molecular weight, but the effect is relatively small and can be estimated to add +5\u00b0C.\n##Prediction: 195.0\n\n\n#Prediction",
+    "Test (Predicted value)": 195.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

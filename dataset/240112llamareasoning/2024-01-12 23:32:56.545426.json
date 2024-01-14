@@ -1,0 +1,14 @@
+{
+    "name": "2-fluoro-4-(trifluoromethyl)benzeneboronic acid",
+    "smiles": "B(c1ccc(cc1F)C(F)(F)F)(O)O",
+    "csid": 10820000,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H28788",
+    "source": "Alfa Aesar",
+    "Reason": "To predict the melting point of 2-fluoro-4-(trifluoromethyl)benzeneboronic acid, the melting point contributions of the functional groups on the benzene ring need to be considered. The basic benzene has a melting point of 5.5 \u00b0C. For the fluorine atom directly attached to the benzene ring, it can be anticipated to increase the melting point due to its inductive effect and electronegativity which augment intermolecular attractions; this increment is typically around +20 \u00b0C per fluorine atom. With one such fluorine, the increase is +20 \u00b0C. The trifluoromethyl group, itself being a strongly electron-withdrawing group due to the presence of three fluorine atoms, would also increase the melting point. However, the addition of multiple fluorine atoms within the same group does not result in a simple additive effect, due to possible steric hindrance and electronic saturation. Thus, the entire trifluoromethyl group could be estimated to increase the melting point by around +40 \u00b0C, rather than +60 \u00b0C. The boronic acid group is capable of forming strong intermolecular hydrogen bonds, which can have a drastic effect on melting point. We might estimate this increase to be around +45 \u00b0C. Combining these estimated contributions, the total predicted increase to benzene's melting point would be 20 (for the fluorine atom) + 40 (for the trifluoromethyl group) + 45 (for the boronic acid group) = +105 \u00b0C.",
+    "mpC": 114.0,
+    "Prediction(integer)": 110.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Fluorine substituents: Each fluorine atom is highly electronegative and can participate in dipole-dipole interactions, which typically increases the melting point. However, the effect of each fluorine atom is not as strong as it would be in a hydrocarbon due to the presence of the boronic acid group, which can disrupt the crystal lattice. Let's estimate the effect of each fluorine to be +5\u00b0C. \n- Boronic acid group: This group can form strong hydrogen bonds, which significantly increases the melting point. The effect of the boronic acid group is estimated to be +100\u00b0C. \n- Trifluoromethyl group: This group is highly electronegative and can also participate in dipole-dipole interactions. However, its effect is less pronounced than the boronic acid group. Let's estimate the effect to be +20\u00b0C. \n- The overall effect of these groups is additive.\n##Prediction: 130.0\n##Reason",
+    "Test (Predicted value)": 130.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

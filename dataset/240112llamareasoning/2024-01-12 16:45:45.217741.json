@@ -1,0 +1,14 @@
+{
+    "name": "N'-(4-hydroxy-3-methoxybenzylidene)-3-(2-methyl-1H-benzimidazol-1-yl)propanehydrazide",
+    "smiles": "O=C(NN=Cc1ccc(O)c(OC)c1)CC[nH0]1c2ccccc2[nH0]c1C",
+    "csid": 10484353,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-637",
+    "Reason": "The target compound contains several functional groups that influence its melting point. Basic unit benzene, which is part of the compound's structure, typically has a melting point around 5.5 degrees Celsius. The compound has several substituents: -OH, -OCH3, -NH=, -CNH2, benzimidazole ring, and a hydrazide group. Each of these groups affects the melting point differently. The -OH group forms hydrogen bonds, raising the melting point significantly. The estimation for the hydroxy group is around +100 due to strong intermolecular hydrogen bonding. The -OCH3 group is an alkoxy group, which may also increase the melting point through hydrogen bonding but to a lesser extent than hydroxy, estimated as +20. The -NH= (imine) is likely to form hydrogen bonds as well, contributing roughly +50 to the melting point. The -CNH2 (primary amide) can form two hydrogen bonds, which can further increase the melting point significantly, estimated as +80. The benzimidazole ring has a pi electron system that can interact with other molecules or parts of the same molecule, raising the melting point, estimated at +30 due to the bulky and rigid structure. The hydrazide group is also capable of hydrogen bonding, which can contribute +50 to the melting point. The cumulative effect of these groups must be considered to predict the melting point.",
+    "mpC": 230.0,
+    "Prediction(integer)": 230.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "##Prediction: 240.0\n\n##Reason",
+    "Test (Predicted value)": 240.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-3-[4-(3-chloropropoxy)phenyl]-1-phenylprop-2-en-1-one",
+    "smiles": "ClCCCOc1ccc(cc1)C=CC(=O)c1ccccc1",
+    "csid": 4650234,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1131",
+    "Reason": "Starting with the base structure of benzene which has a melting point of 5.5 \u00b0C, we consider the effects of the substituents on the (2E)-3-[4-(3-chloropropoxy)phenyl]-1-phenylprop-2-en-1-one molecule. The molecule has several functional groups, each contributing to the variation in the melting point: \n- Phenyl groups: Each would typically raise the melting point. With two phenyl groups, it could be approximated as +40 \u00b0C for both. \n- Chloropropoxy substituent: The introduction of a chlorine atom would increase the melting point due to higher molecular weight and polarizability, estimated as +30 \u00b0C. The alkoxy group generally raises the melting point due to increased molecular weight and potential for intermolecular hydrogen bonding if available, but without the OH group, this effect is less pronounced, so we'll estimate it as +5 \u00b0C. \n- Propenone (\u03b1,\u03b2-unsaturated ketone): The conjugation in the molecule provides additional rigidity which can raise the melting point. Still, the presence of the carbonyl (C=O) may introduce dipole interactions that could increase or decrease the melting point. We estimate a modest increase of +10 \u00b0C. \nAdding these estimated effects together gives an increase of +85 \u00b0C to the boiling point of benzene. However, large complex molecules often have lower melting points due to steric hindrance and packing inefficiencies, which we have not yet accounted for. This could lend a decrease that we'll estimate to be around -20 \u00b0C.",
+    "mpC": 74.0,
+    "Prediction(integer)": 70.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The presence of the phenyl group contributes to an increase in melting point due to the increased molecular weight and pi-pi interactions, estimated at +20\u00b0C. \n- The prop-2-en-1-one (alpha, beta-unsaturated carbonyl) group introduces rigidity and the potential for hydrogen bonding, which could increase the melting point by approximately +30\u00b0C. \n- The 3-chloropropoxy group adds both molecular weight and the potential for dipole-dipole interactions, estimated at +15\u00b0C. \n- The additional phenyl group adds further to the molecular weight and pi-pi interactions, estimated at +10\u00b0C. \n- The cumulative effect of these functional groups is expected to increase the melting point significantly.\n##Prediction: 70.0\n##Reason",
+    "Test (Predicted value)": 70.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

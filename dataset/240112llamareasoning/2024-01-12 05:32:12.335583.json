@@ -1,0 +1,14 @@
+{
+    "name": "(1Z)-3-(hydroxyamino)-1,3-diphenylpropan-1-one oxime",
+    "smiles": "ON=C(CC(NO)c1ccccc1)c1ccccc1",
+    "csid": 4907416,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-970",
+    "Reason": "The target compound contains several functional groups, including two phenyl rings, an oxime group (-C=N-OH), a hydroxyamino group (-NH-OH), and a ketone group within its structure. Starting with propanone as the basic molecule, which has a low melting point, the multiple functional groups in the compound significantly increase its rigidity and its ability to form hydrogen bonds, both of which contribute to an increase in the melting point. Each phenyl ring adds aromaticity and further possibilities for intermolecular interactions, such as pi-pi stacking, which I estimate to increase the melting point by about +70 degrees Celsius per ring. The oxime group with its ability to hydrogen bond and dimerize can be estimated to increase the melting point by +50 degrees Celsius. The hydroxyamino group also introduces additional hydrogen bonding, which can be estimated to add another +50 degrees Celsius. Although the propanone (acetone) base has a melting point of -95 degrees Celsius, the presence of these functional groups substantially alters the melting point of the compound.",
+    "mpC": 141.0,
+    "Prediction(integer)": 141.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The basic unit, benzene, has a melting point of 5.5\u00b0C. The presence of the hydroxylamine group (ON=C) introduces the potential for hydrogen bonding, which significantly increases the melting point. This effect can be estimated at +100\u00b0C. The diphenylmethyl group (Cc1ccccc1) adds steric bulk and increases molecular weight, which typically raises the melting point by about +20\u00b0C per group due to increased van der Waals interactions. The ketone group (C=O) can form hydrogen bonds and also increases the melting point due to polarity, estimated at +30\u00b0C. The overall molecule is large and rigid, which can further increase the melting point. However, the presence of the oxime group (NOH) can form hydrogen bonds, which might slightly lower the melting point due to the potential for hydrogen bonding with the hydroxyl group, estimated at -5\u00b0C. Summing these effects should provide a prediction.\n##Prediction: 160.0\n\n\n#Prediction",
+    "Test (Predicted value)": 160.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

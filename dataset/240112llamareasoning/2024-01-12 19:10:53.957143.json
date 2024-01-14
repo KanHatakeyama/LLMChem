@@ -1,0 +1,14 @@
+{
+    "name": "Heptadecanoic acid",
+    "smiles": "O=C(O)CCCCCCCCCCCCCCCC",
+    "csid": 10033,
+    "link": "http://msds.chem.ox.ac.uk/",
+    "source": "academic website",
+    "Reason": "The base structure for heptadecanoic acid is the hydrocarbon chain with 17 carbon atoms, which in the form of an alkane (heptadecane) has a melting point of about 22\u00b0C. Adding a carboxyl group (COOH) typically raises the melting point due to the possibility of hydrogen bonding, which increases intermolecular forces. The carboxyl group can increase the melting point by roughly 40\u00b0C. Since the long hydrocarbon chain also allows for greater Van der Waals forces, we can take into account an increase of about 1\u00b0C per additional CH2 group compared to the base structure (which is already counted in the 22\u00b0C for heptadecane).",
+    "mpC": 60.0,
+    "Prediction(integer)": 62.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "- Basic unit, decane has a melting point of -30.5\u00b0C. \n- Each additional methylene group (CH2) in a long chain typically increases the melting point due to increased van der Waals forces. However, the effect of each CH2 group is not linear, and the increase is not as significant as in shorter chains. For a long chain like heptadecane, the increase per CH2 group is less than in shorter chains. \n- The presence of a carboxylic acid group (COOH) significantly increases the melting point due to the ability to form strong intermolecular hydrogen bonds. The effect of the carboxylic acid group is substantial, and it can be estimated to increase the melting point by approximately 100\u00b0C. \n- The overall effect of the long chain and the carboxylic acid group on the melting point is additive.\n##Prediction: 70.0\n##Reason",
+    "Test (Predicted value)": 70.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

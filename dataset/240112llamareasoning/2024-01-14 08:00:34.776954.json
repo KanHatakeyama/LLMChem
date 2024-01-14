@@ -1,0 +1,14 @@
+{
+    "name": "sulphenone",
+    "smiles": "O=S(=O)(c1ccc(Cl)cc1)c2ccccc2",
+    "csid": 6369,
+    "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+    "source": "PHYSPROP",
+    "Reason": "The compound sulphenone consists of a diphenyl sulfone core with a chlorine substituent on one of the phenyl rings. The melting point consideration involves the following contributions: \n\n- Diphenyl sulfone base structure: The base structure contributes to a substantial part of the melting point due to strong intermolecular forces such as dipole-dipole interaction and pi-pi stacking between the phenyl rings. Diphenyl sulfone has a base melting point of around 128-129\u00b0C.\n\n- Chlorine substituent: The presence of a chlorine, which is an electron-withdrawing group, typically increases the melting point by enhancing intermolecular attractions through stronger dipole-dipole interactions and possibly improving crystalline packing due to increased polarity. The quantitative effect might be around +5\u00b0C.\n\n- Ortho effect: The ortho position of the chlorine to the sulfone group can induce some steric hindrance, potentially disrupting efficient crystal packing and slightly lowering the melting point. This could be estimated at around -5\u00b0C.\n\nGiven these contributions, the predicted melting point should account for both the increase due to the chlorine and the decrease from the ortho effect. However, the prediction provided is 129\u00b0C, which matches the melting point of the base structure but does not account for the effects of the chlorine and the ortho effect quantitatively.",
+    "mpC": 94.0,
+    "Prediction(integer)": 94.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C.\n- Sulfonyl group (S(=O)2): This group is highly electronegative and can form strong dipole-dipole interactions, which typically increases the melting point. Estimating an increase of +40\u00b0C.\n- Chlorine substituent: Chlorine is electron-withdrawing and can increase the melting point due to increased polarity. Estimating an increase of +5\u00b0C.\n- Two phenyl rings: Each additional phenyl ring increases the melting point due to increased molecular weight and van der Waals interactions. Estimating an increase of +10\u00b0C for each ring, adding +20\u00b0C.\n\nAdding these modifications to the baseline melting point of benzene gives us a total increase of +75\u00b0C.\n##Prediction: 80.5\n\n\n#Problem",
+    "Test (Predicted value)": 80.5,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

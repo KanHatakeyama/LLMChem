@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-1-(2,4-dinitrophenyl)-2-[(2E)-2-methylpenta-2,4-dien-1-ylidene]hydrazine",
+    "smiles": "O=[N+]([O-])c1ccc(NN=CC(C)=CC=C)c([N+](=O)[O-])c1",
+    "csid": 7855537,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-866",
+    "Reason": "To predict the melting point of this compound, we must consider the effects of each functional group present in the molecule: \n 1. 2,4-dinitrophenyl group: High resonance and electron-withdrawing nature of nitro groups typically raise the melting point of an aromatic ring significantly. Each nitro group can add approximately +40 to the melting point. \n 2. Hydrazine linkage (NN=): As a relatively small functional group capable of hydrogen bonding, it could increase the melting point by about +20 due to enhanced molecular interactions. \n 3. 2-Methylpentadienylidene: Conjugated dienes can raise the melting point due to increased rigidity and extended \u03c0-electron system. The presence of the additional methyl group suggests a further molecular weight increase and a higher melting point, roughly +10. \n Considering a base aromatic ring similar to benzene, which has a melting point of around 5 degrees Celsius, we then adjust for the aforementioned groups.",
+    "mpC": 171.0,
+    "Prediction(integer)": 171.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Nitro groups: Each nitro group is highly electronegative and can form strong intermolecular forces such as dipole-dipole interactions, which typically increase the melting point. We can estimate an increase of about +40\u00b0C per nitro group. \n- Hydrazine moiety: This group can form hydrogen bonds, which significantly increases the melting point. We can estimate an increase of about +50\u00b0C. \n- Alkene group: The presence of an alkene can increase the melting point due to the rigidity of the molecule and potential for pi-pi stacking interactions. We can estimate an increase of about +20\u00b0C. \n- Methyl group: This group can increase the melting point due to an increase in molecular weight and van der Waals forces. We can estimate an increase of about +5\u00b0C. \n- The conjugated system and the overall molecular complexity will also contribute to an increase in the melting point, but this is more difficult to quantify and will be included in the overall adjustment. \n- The conjugated system and the overall molecular complexity will also contribute to an increase in the melting point, but this is more difficult to quantify and will be included in the overall adjustment. \n##Prediction: 175.0\n##Reason",
+    "Test (Predicted value)": 175.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

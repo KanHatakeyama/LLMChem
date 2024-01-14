@@ -1,0 +1,14 @@
+{
+    "name": "methyl_3-iodobenzoate",
+    "smiles": "Ic1cc(ccc1)C(=O)OC",
+    "csid": 62471,
+    "link": "http://de.wikipedia.org/wiki/Beilsteins_Handbuch_der_Organischen_Chemie",
+    "source": "Beilstein F. K.; Beilsteins Handbuch der Organischen Chemie. Springer; Berlin; 1972.",
+    "Reason": "The target compound, methyl 3-iodobenzoate, a derivative of benzene, can have its melting point estimated based on the effects of its functional groups and substitutions. Benzene's basic structure has a melting point of 5.5\u00b0C. We consider the contributions of each substituent as follows: the ester group (COOCH3) is generally polar and can create dipoles and engage in dipole-dipole interactions; this typically increases melting point, let's estimate this effect as +40\u00b0C. The iodine substituent on the benzene ring is a large, heavy atom that significantly increases the molecular weight and the van der Waals forces; this commonly raises the melting point as well. Given the substantial mass of iodine, we might estimate an increase of about +30\u00b0C for the iodine. However, large halogens like iodine often perturb the crystal lattice in a way that can either increase or decrease melting points; their bulky size can interfere with efficient molecular packing, potentially leading to a decrease. Since this action is complex, I'll conservatively estimate an increase of +20\u00b0C due to iodine's effect on an intermolecular force. However, if we were only to consider the increases without any decreases, this would overpredict the melting point, given the actual value. Therefore, we must acknowledge a balance between the molecular weight increase and the possible disruption in packing, possibly estimating the latter effect as a -5\u00b0C decrease from the iodine. Therefore, adding all the effects to the base melting point of 5.5\u00b0C: benzene (5.5) + ester group (+40) + iodine (+20) - iodine packing disruption (-5), the predicted melting point should be close to the actual value.",
+    "mpC": 54.0,
+    "Prediction(integer)": 60.5,
+    "Abs error": 6.5,
+    "Test (Predicted reason)": "- Basic unit, benzene: 5.5\u00b0C\n- Methyl ester group: +20 (increases the melting point due to the polar carbonyl group and the possibility of dipole-dipole interactions)\n- Iodine substituent: +40 (the large iodine atom increases the molecular weight and size, which can raise the melting point)\n##Prediction: 65.5\n\n\n#Problem",
+    "Test (Predicted value)": 65.5,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

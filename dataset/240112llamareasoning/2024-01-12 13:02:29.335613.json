@@ -1,0 +1,14 @@
+{
+    "name": "4-methoxy-1,8,8-trimethylbicyclo[3.2.1]oct-3-en-2-one",
+    "smiles": "O=C1C=C(OC)C2CCC1(C)C2(C)C",
+    "csid": 2032094,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2886",
+    "Reason": "The target compound, 4-methoxy-1,8,8-trimethylbicyclo[3.2.1]oct-3-en-2-one, has multiple functional groups and structural features affecting its melting point:\n\n- Basic structural unit, cyclohexane, has a melting point around 6.5\u00b0C.\n- The keto functional group (C=O) generally increases melting point due to polarizability and potential hydrogen bonding: +40\u00b0C.\n- The double bond in a ring (cycloalkene) structure increases ring strain resulting in a lower melting point compared to cycloalkanes: -5\u00b0C.\n- Methoxy group (OCH3) might increase the melting point due to polarizability: +5\u00b0C.\n- Three methyl groups should increase the melting point because of increased molecular weight and size, but also may decrease it marginally due to increased branching which disrupts packing: Overall +(3*2) - 1.5\u00b0C.\n\nAdding these adjustments to the base value, we get: 6.5 + 40 - 5 + 5 + 4.5 = 51\u00b0C",
+    "mpC": 55.0,
+    "Prediction(integer)": 51.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "- Basic unit, cyclooctene has a melting point of -10\u00b0C. \n- Methoxy group: +20\u00b0C (due to increased polarity and potential for dipole-dipole interactions) \n- Two methyl groups: +10\u00b0C each (due to increased molecular weight and van der Waals interactions) \n- Bicyclic structure: +20\u00b0C (due to increased rigidity and planarity, which can lead to better packing in the solid state) \n- Ketone group: +10\u00b0C (due to polarity and potential for hydrogen bonding) \n- The cumulative effect of these functional groups is expected to increase the melting point significantly from the base value of cyclooctene.\n##Prediction: 50.0\n##Reason",
+    "Test (Predicted value)": 50.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

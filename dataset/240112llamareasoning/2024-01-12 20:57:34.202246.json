@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-[(2,3-dimethylphenyl)hydrazono][4-(4-methoxyphenyl)-1,3-thiazol-2-yl]ethanenitrile",
+    "smiles": "s1cc([nH0]c1C(=NNc1cccc(C)c1C)C#N)c1ccc(OC)cc1",
+    "csid": 4645478,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1232",
+    "Reason": "The target molecule is complex with multiple functional groups, and we need to assess the melting point shift for each group based on a reference structure. Let's consider benzothiazole as our reference structure with a reported melting point of 98 \u00b0C. The functional groups present and their predicted effects on melting point are: \n- Phenyl group: +30 (adding aromatic ring generally increases melting point due to increased pi-pi interactions) \n- Methoxy group: +15 (additional methoxy can increase melting point through dipole-dipole interactions, despite offering more flexibility to the molecule) \n- Methyl groups: +5 per methyl group (alkyl groups tend to increase melting point due to increased molecular weight, Van der Waals interactions, although effect is smaller than functional groups capable of hydrogen bonding) \n- Hydrazono group: +30 (higher molecular weight and potential for intermolecular hydrogen bonding) \n- Nitrile group: +20 (polar group can lead to dipole-dipole interactions, and CN triple bond can restrict rotation and increase melting point) \nSumming the effects, we have 98 (reference) + 30 (phenyl) + 15 (methoxy) + 10 (2 methyl groups) + 30 (hydrazono) + 20 (nitrile) = 203 \u00b0C predicted melting point. Since the actual value is lower, we need to consider that some flexibility and steric hindrance due to the bulkiness of substituents might lower the melting point more than expected by the individual functional group contributions. This might cause intramolecular rotation that disrupts crystalline packing, leading to a lower melting point than predicted by simple summation of functional group effects.",
+    "mpC": 164.0,
+    "Prediction(integer)": 164.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "##Prediction: 178.0\n\n##Reason",
+    "Test (Predicted value)": 178.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

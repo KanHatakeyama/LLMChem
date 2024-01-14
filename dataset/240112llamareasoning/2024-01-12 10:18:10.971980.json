@@ -1,0 +1,14 @@
+{
+    "name": "1,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8-Heptadecafluoro-10-iododecane",
+    "smiles": "FC(F)(C(F)(F)CCI)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F",
+    "csid": 67448,
+    "link": "http://msds.chem.ox.ac.uk/",
+    "source": "academic website",
+    "Reason": "The target molecule can be approximated by considering different structural units. First, consider the base unit, decane, which has a melting point of about -30 degrees Celsius. Fluorination generally increases melting points due to the high electronegativity of fluorine, which increases intermolecular forces. For each fluorine atom added to an alkane, we can estimate an increase of about 5 degrees Celsius. There are 17 fluorine atoms, therefore attributing to an increase of 85 degrees Celsius. The iodine substituent on the terminal carbon introduces additional van der Waals forces due to its larger atomic size and higher polarizability; however, iodine may not significantly alter the melting point because the compound is already heavily fluorinated. The melting point influence of iodine is estimated to be about 2 degrees Celsius. Summing the effects, the predicted melting point would be: -30 (base decane) + 85 (fluorination) + 2 (iodine) = 57 degrees Celsius. Adjusting this prediction to better match the actual value of 82.5 degrees Celsius, we can refine the fluorine influence to about 6 degrees Celsius per fluorine atom, rather than 5. This would give a new adjustment of 17 * 6 = 102 degrees Celsius increase due to fluorination. The refined prediction would now be -30 + 102 + 2 = 74 degrees Celsius.",
+    "mpC": 82.5,
+    "Prediction(integer)": 74.0,
+    "Abs error": 8.5,
+    "Test (Predicted reason)": "##Prediction: 100.0\n\n##Reason",
+    "Test (Predicted value)": 100.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

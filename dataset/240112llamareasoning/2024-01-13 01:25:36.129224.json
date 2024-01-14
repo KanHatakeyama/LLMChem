@@ -1,0 +1,14 @@
+{
+    "name": "(2Z)-3-(4-hydroxy-3-methoxyphenyl)-2-sulfanylprop-2-enoic acid",
+    "smiles": "SC(=Cc1ccc(O)c(OC)c1)C(=O)O",
+    "csid": 594207,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3933",
+    "Reason": "The target compound has various functional groups that affect its melting point. The foundational structure is benzene with a melting point of 5.5\u00b0C. The contributions of each functional group are estimated as follows: The conjugated system formed by the phenyl ring and the double bond in the compound tends to add rigidity and could increase the melting point significantly; an estimated increase of +50\u00b0C is reasonable. The carboxylic acid is known for strong hydrogen bonding which can dramatically raise the melting point; we can reasonably assume an increase of +50\u00b0C. As for the hydroxyl group, it can engage in hydrogen bonding, so an estimated increase of +40\u00b0C is plausible. The methoxy group, which can participate in dipole-dipole interactions, likely contributes less to the melting point compared to the other groups that can form hydrogen bonds; an estimated increase of +5\u00b0C seems rational. Finally, the sulfanyl group with its ability for weaker hydrogen bonding compared to the carboxylic acid and hydroxyl groups, could contribute an increase of around +15\u00b0C. Summing up the estimated increases yields a predicted melting point.",
+    "mpC": 161.0,
+    "Prediction(integer)": 165.0,
+    "Abs error": 4.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Hydroxyl group: +40\u00b0C (due to hydrogen bonding and increased polarity). \n- Methoxy group: +20\u00b0C (due to increased molecular weight and polarity). \n- Sulfonyl group: +50\u00b0C (due to strong dipole-dipole interactions and potential for hydrogen bonding). \n- Double bond: +5\u00b0C (slight increase in rigidity and planarity). \n- Carboxylic acid group: +50\u00b0C (due to strong hydrogen bonding and dimerization). \n- The presence of the two aromatic rings and the conjugation between them will increase the melting point due to increased rigidity and planarity, but this effect is already accounted for in the base value of benzene. \n- The overall molecule is quite large and has a significant amount of polar and hydrogen-bonding capable groups, which will significantly increase the melting point. \n##Prediction: 175.0\n##Reason",
+    "Test (Predicted value)": 175.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

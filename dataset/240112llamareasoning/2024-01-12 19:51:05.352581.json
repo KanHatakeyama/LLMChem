@@ -1,0 +1,14 @@
+{
+    "name": "(1E)-N-hydroxy-1-(4,7,7-trimethylbicyclo[2.2.1]hept-2-yl)propan-1-imine",
+    "smiles": "ON=C(CC)C1CC2(C)CCC1C2(C)C",
+    "csid": 7855500,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-878",
+    "Reason": "The target compound is based on a bicyclo[2.2.1]heptane structure, which is a rigid, strain-contained framework leading to a higher melting point compared to acyclic hydrocarbons. The reference point for the base structure (bicyclo[2.2.1]heptane or norbornane) is assumed to be around 90. Each of the three methyl groups attached to the bicyclo[2.2.1]heptane structure contributes to increased van der Waals interactions and slightly raises the melting point due to added molecular weight and bulk. These effects can be quantitatively estimated to raise the melting point by about +2\u00b0C per methyl group. The N-hydroxypropylimine group introduces polarity and hydrogen bonding possibilities which could increase the melting point, but its potential steric strain may hinder close packing in the solid state. The net effect of this functional group is complex, but a conservative estimate might be a +5\u00b0C increase, given the balance between the increase in melting point due to hydrogen bonding possibility and decrease due to steric effects. Thus, the quantitative contributions can be summed to predict the melting point.",
+    "mpC": 93.0,
+    "Prediction(integer)": 101.0,
+    "Abs error": 8.0,
+    "Test (Predicted reason)": "The target compound has several functional groups that influence its melting point. The basic unit, propane, has a melting point of -187.7\u00b0C. The presence of the imine group (C=N) typically increases the melting point due to the potential for hydrogen bonding and dipole-dipole interactions, estimated at +20\u00b0C. The bicyclic structure (bicyclo[2.2.1]heptane) adds rigidity and increases the melting point, estimated at +40\u00b0C. The hydroxy group (\u2013OH) can form hydrogen bonds, which significantly increases the melting point, estimated at +50\u00b0C. The trimethyl groups on the bicyclic structure add steric bulk and increase the melting point, estimated at +10\u00b0C each, totaling +30\u00b0C.\n##Prediction: 105.0\n\n\n#Prediction",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

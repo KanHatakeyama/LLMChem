@@ -1,0 +1,14 @@
+{
+    "name": "1H-pyrazole-3-carboxylic acid, 5-methyl-, methyl ester",
+    "smiles": "O=C(OC)C1=NNC(C)=C1",
+    "csid": 2034152,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2387",
+    "Reason": "To predict the melting point of 5-methyl-1H-pyrazole-3-carboxylic acid methyl ester, we start with the basic structure of pyrazole which has a melting point in the range of 70\u00b0C. Adding a carboxylic acid ester generally increases the melting point due to the possibility of hydrogen bonding and dipole-dipole interactions, but the ester, in this case, methyl ester, is less capable of hydrogen bonding than the free acid, reducing this effect. This might add roughly +20\u00b0C. The 5-methyl group contributes to an increase in the hydrophobic interactions due to the addition of nonpolar bulk, but its effect is less significant than that of functional groups capable of hydrogen bonding, so we might estimate an increase of +5\u00b0C for this group. Thus, the overall predicted melting point would be higher than that of pyrazole but moderated by the specific substituents.",
+    "mpC": 94.5,
+    "Prediction(integer)": 95.0,
+    "Abs error": 0.5,
+    "Test (Predicted reason)": "- Basic unit, pyrazole has a melting point around 70\u00b0C. \n- Methyl ester group: +20\u00b0C (due to increased molecular weight and van der Waals forces). \n- Methyl group on the pyrazole ring: +10\u00b0C (due to increased molecular weight and steric hindrance). \n- The carboxylic acid group is already accounted for in the base pyrazole structure, so it does not contribute to the melting point increment. \n- The overall structure is aromatic and has a planar structure, which can lead to better packing in the solid state, potentially increasing the melting point. However, this effect is already considered in the base pyrazole value.\n\n##Prediction: 100.0\n##Reason",
+    "Test (Predicted value)": 100.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "(3E)-1,8,8-trimethyl-3-(phenylhydrazono)bicyclo[3.2.1]octane-2,4-dione",
+    "smiles": "O=C1C(=NNc2ccccc2)C(=O)C2(C)CCC1C2(C)C",
+    "csid": 4791368,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1040",
+    "Reason": "The target compound has several functional groups and structural features that influence its melting point. The bicyclic dione structure is a strong contributor due to its rigid and planar nature, which allows for efficient packing in the solid state. The melting point of naphthalene-1,4-dione, a related structure, is approximately 191\u00b0C but it is more planar than our target structure, suggesting a negative adjustment is needed. Phenylhydrazono groups are known to increase the melting point due to possibilities for \u03c0-\u03c0 stacking and hydrogen bonding, while methyl groups add steric bulk and slightly elevate the melting point by increasing molecular weight and rigidity. However, the initial prediction calculation needs to be reconsidered since it significantly overestimates the actual melting point value by comparing with more planar and potentially more stable structures. Adjusting the estimated contributions: Bicyclic dione base adjustment is likely too high, and a more moderate decrease should be considered. Combined phenylhydrazono and trimethyl groups' effects seem too low. The estimated contributions are recalculated considering these factors.",
+    "mpC": 117.0,
+    "Prediction(integer)": 117.0,
+    "Abs error": 0.0,
+    "Test (Predicted reason)": "The compound in question is a complex molecule with multiple functional groups that influence its melting point. The base structure is a bicyclic compound, which generally has a higher melting point due to the rigid structure and potential for \u03c0-\u03c0 interactions. The presence of a phenylhydrazono group adds to the rigidity and potential for intermolecular hydrogen bonding, which can significantly increase the melting point. The ketone groups also contribute to the melting point through dipole-dipole interactions. However, the presence of multiple methyl groups can slightly lower the melting point due to increased molecular weight and steric hindrance, which might disrupt the crystal lattice. The overall effect of these groups on the melting point must be considered quantitatively.\n##Prediction: 110.0\n\n##Reason",
+    "Test (Predicted value)": 110.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

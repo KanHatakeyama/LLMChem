@@ -1,0 +1,14 @@
+{
+    "name": "3-hydroxy-4,7-dimethyl-2-benzofuran-1(3H)-one",
+    "smiles": "O=C1OC(O)c2c1c(C)ccc2C",
+    "csid": 2033670,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2664",
+    "Reason": "To predict the melting point of the target compound, we have to consider the effects of its functional groups compared to a basic structure. For our comparison, we will use benzofuran as our basic unit, which has a melting point of about 22\u00b0C. The benzofuran parent structure contributes with its base value of 22\u00b0C. The addition of hydroxyl groups generally increases the melting point due to the ability to form hydrogen bonds: approximately +70\u00b0C. The keto group can also form hydrogen bonds and has a planar structure that can lead to good molecular packing, thus raising the melting point substantially: approximately +50\u00b0C. Methyl groups usually lower the melting point compared to H substituents because they disrupt the planar structure of aromatic rings and hinder close packing, but to a lesser extent than the increase due to hydroxyl and keto groups: approximately -5\u00b0C each, one at position 4 and one at position 7: -10\u00b0C in total. We modify the contributions considering that methyl groups have a smaller effect in the context of the compound's ability to form hydrogen bonds, and pack efficiently. The effects of substitution can't be considered strictly additive due to potential intramolecular hydrogen bonding and other structural considerations, but this model offers an estimate.",
+    "mpC": 158.0,
+    "Prediction(integer)": 152.0,
+    "Abs error": 6.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5 \u00b0C. \n- Furan ring: +20 \u00b0C (increased polarity and potential for hydrogen bonding) \n- Ketone group: +30 \u00b0C (polar carbonyl group capable of dipole-dipole interactions) \n- Hydroxyl group: +40 \u00b0C (strong hydrogen bonding capability) \n- Methyl groups: +5 \u00b0C each (increase in molecular weight and van der Waals forces) \nThe combined effect of these functional groups should be considered for the prediction.\n##Prediction: 140.0\n\n\n#Problem",
+    "Test (Predicted value)": 140.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

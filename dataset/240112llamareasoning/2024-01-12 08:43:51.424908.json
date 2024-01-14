@@ -1,0 +1,14 @@
+{
+    "name": "(2,4-Dichlorophenyl)(4,5-dimethoxy-2-nitrophenyl)methanone",
+    "smiles": "Clc1ccc(c(Cl)c1)C(=O)c1cc(OC)c(OC)cc1[N+](=O)[O-]",
+    "csid": 1466860,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3774",
+    "Reason": "The target compound combines several functional groups with different properties. Benzophenone is the core structure with a default melting point around 48\u00b0C. When substituents are added to the benzophenone, the melting point can be affected in various ways. The compound has several functional groups that could affect its melting point: chlorine atoms, methoxy groups, and a nitro group. Each chloro group on the benzene ring can increase the melting point due to the increased molecular weight and polarity, which strengthens intermolecular interactions. This might add +20\u00b0C for each. The methoxy groups (-OCH3) could contribute to a raise in melting point through weak intermolecular hydrogen bonding and increased molecular weight. This might add +10\u00b0C for each. The nitro group is electron-withdrawing and can also participate in intermolecular interactions due to dipole moments, possibly adding +15\u00b0C. Combining these increases, we expect the overall melting point to be significantly higher than that of the benzophenone base.",
+    "mpC": 114.0,
+    "Prediction(integer)": 123.0,
+    "Abs error": 9.0,
+    "Test (Predicted reason)": "The compound has several functional groups that influence its melting point: a phenyl group, two methoxy groups, a nitro group, and a methanone group. The phenyl group is a large, rigid structure that can increase the melting point due to pi-pi stacking interactions and increased molecular weight. The methoxy groups introduce polarity and the potential for dipole-dipole interactions, which can raise the melting point. The nitro group is highly electronegative and can participate in intermolecular interactions, such as dipole-dipole interactions, which can further increase the melting point. The methanone group is a carbonyl group, which can form hydrogen bonds and increase the melting point. However, the presence of multiple substituents on the phenyl ring can lead to steric hindrance, which might reduce the melting point. The overall effect of these groups is complex and depends on their specific interactions and the overall molecular structure.\n##Prediction: 120.0\n\n##Prediction",
+    "Test (Predicted value)": 120.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

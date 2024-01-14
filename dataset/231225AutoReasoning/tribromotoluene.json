@@ -1,45 +1,589 @@
 [
     {
-        "mpC": 69.5,
-        "name": "2,4,6-tribromotoluene",
-        "smiles": "Cc1c(cc(cc1Br)Br)Br",
-        "csid": 31264,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L01149",
+        "mpC": 114.0,
+        "name": "2,4,5-tribromotoluene",
+        "smiles": "Cc1cc(c(cc1Br)Br)Br",
+        "csid": 121524,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A13507",
         "source": "Alfa Aesar",
         "Reason": "",
         "Prediction": ""
     },
     {
-        "mpC": 69.5,
-        "name": "2,4,6-tribromotoluene",
-        "smiles": "Cc1c(cc(cc1Br)Br)Br",
-        "csid": 31264,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L01149",
+        "mpC": 114.0,
+        "name": "2,4,5-tribromotoluene",
+        "smiles": "Cc1cc(c(cc1Br)Br)Br",
+        "csid": 121524,
+        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A13507",
         "source": "Alfa Aesar",
-        "Reason": "The basic unit for comparison is benzene, which has a melting point of 5.5\u00b0C. Adding three bromine atoms at the 2, 4, 6 positions on the benzene ring would increase the melting point due to the increased molecular weight and the introduction of heavier halogen atoms, which tend to have higher melting points owing to stronger Van der Waals forces. Each bromine might be estimated to add +40\u00b0C. A methyl group at position 1 (toluene as the base unit) provides an inductive effect and slightly increases molecular weight, which might raise the melting point by about +5\u00b0C. However, there may be some limitation to these additive effects due to steric hindrance and possible intermolecular interactions that could lead to different crystalline packing, potentially lowering the overall predicted increase. Taking these into account, we might moderately adjust the additional contribution by bromine down to +35\u00b0C each.",
-        "Prediction": "5.5 (base benzene) + 35*3 (bromine contributions) + 5 (methyl group) = 115.5\u00b0C",
-        "Prediction(integer)": 115.0
-    },
-    {
-        "mpC": 69.5,
-        "name": "2,4,6-tribromotoluene",
-        "smiles": "Cc1c(cc(cc1Br)Br)Br",
-        "csid": 31264,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L01149",
-        "source": "Alfa Aesar",
-        "Reason": "The basic unit for comparison is benzene, which has a melting point of 5.5\u00b0C. Adding three bromine atoms at the 2, 4, 6 positions on the benzene ring would typically increase the melting point due to the significantly increased molecular weight and the introduction of heavier halogen atoms, which have higher melting points due to stronger Van der Waals forces. However, such substituents can also cause significant deviations due to their influence on the crystal lattice and possible packing effects. Each bromine might theoretically add approximately +20\u00b0C, which would be a reasonable estimate for a halogen substituent of this size affecting the melting point. A methyl group at position 1 (toluene as the base unit) would provide an inductive effect and slightly increase molecular weight, contributing to an increase in the melting point; however, the effect of a methyl group is much smaller than that of a bromine atom. A conservative estimate for the increase due to a methyl group might be around +2\u00b0C. Taking into account the combined effects of increased molecular weight and halogen presence, along with potential structural perturbations in the crystal lattice that could either raise or lower the melting point, a revised estimate for each bromine might be closer to +15\u00b0C rather than +20\u00b0C, leading to a more accurate prediction.",
-        "Prediction": "5.5 (base benzene) + 15*3 (bromine contributions) + 2 (methyl group) = 5.5 + 45 + 2 = 52.5\u00b0C",
-        "Prediction(integer)": 52.0
-    },
-    {
-        "mpC": 69.5,
-        "name": "2,4,6-tribromotoluene",
-        "smiles": "Cc1c(cc(cc1Br)Br)Br",
-        "csid": 31264,
-        "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L01149",
-        "source": "Alfa Aesar",
-        "Reason": "The starting reference point for predicting the melting point of a given compound could be the melting point of toluene, which is \u221295 \u00b0C. The addition of bromine atoms to the aromatic ring would have significant effects due to their size, electronegativity, and ability to participate in various types of intermolecular interactions such as dipole-dipole interactions and perhaps even halogen bonding. These interactions can significantly raise the melting point. Each bromine is expected to add considerable melting point elevation due to these stronger intermolecular forces. An estimate for each bromine could be around +55 \u00b0C increase in the melting point when comparing it to a hydrogen it replaces in toluene. However, with three bromines, the compound also becomes heavier and more rigid, which could lead to even higher elevation in the melting point as the molecules pack more efficiently in the solid state. Considering the symmetry might also slightly reduce the melting point due to more efficient packing. Thus, for three bromines, the increase could be somewhat less than three times the contribution of a single bromine atom.",
-        "Prediction": "Considering the above, the prediction for the melting point elevation due to each additional bromine would be: (\u221295 \u00b0C for toluene) + 3 * (55 \u00b0C for each Br) = 70 \u00b0C. The predicted melting point for 2,4,6-tribromotoluene is therefore approximately 70 \u00b0C, which corresponds closely to the actual value of 69.5 \u00b0C.",
-        "Prediction(integer)": 70.0
+        "Reason": "Starting with toluene, which has a melting point of -93 degrees Celsius, we consider the effects of bromine substituents. Each bromine is large and heavy which raises the melting point as they increase intermolecular forces, specifically London dispersion forces, due to increased polarizability. The effect of each bromine could be conservatively estimated at approximately +70 degrees Celsius per bromine, as seen in monobrominated benzenes. The presence of three bromines would therefore raise the melting point substantially.",
+        "Prediction": "113 degrees Celsius (Toluene's melting point -93 + 206 for three bromine substituents)",
+        "logprob": [
+            [
+                "{\n",
+                -7.517272e-05
+            ],
+            [
+                " ",
+                -0.020569915
+            ],
+            [
+                " \"",
+                -1.9361265e-07
+            ],
+            [
+                "Reason",
+                0.0
+            ],
+            [
+                "\":",
+                -0.00029244067
+            ],
+            [
+                " \"",
+                -0.003889265
+            ],
+            [
+                "Starting",
+                -1.7295699
+            ],
+            [
+                " with",
+                -0.18314117
+            ],
+            [
+                " to",
+                -2.9870477
+            ],
+            [
+                "lu",
+                0.0
+            ],
+            [
+                "ene",
+                -9.0883464e-07
+            ],
+            [
+                ",",
+                -0.5723505
+            ],
+            [
+                " which",
+                -0.002678272
+            ],
+            [
+                " has",
+                -0.0043316106
+            ],
+            [
+                " a",
+                -0.0007306627
+            ],
+            [
+                " melting",
+                -0.044359628
+            ],
+            [
+                " point",
+                -1.6524515e-05
+            ],
+            [
+                " of",
+                -0.13210917
+            ],
+            [
+                " -",
+                -0.432453
+            ],
+            [
+                "93",
+                -2.9595668
+            ],
+            [
+                " degrees",
+                -0.7801104
+            ],
+            [
+                " Celsius",
+                -0.0016681614
+            ],
+            [
+                ",",
+                -0.08450321
+            ],
+            [
+                " we",
+                -0.49408472
+            ],
+            [
+                " consider",
+                -1.0102423
+            ],
+            [
+                " the",
+                -0.018552918
+            ],
+            [
+                " effects",
+                -0.31169665
+            ],
+            [
+                " of",
+                -0.0016431652
+            ],
+            [
+                " brom",
+                -1.1743383
+            ],
+            [
+                "ine",
+                -0.07242324
+            ],
+            [
+                " substit",
+                -0.46758568
+            ],
+            [
+                "u",
+                -0.0002291655
+            ],
+            [
+                "ents",
+                -5.6769813e-06
+            ],
+            [
+                ".",
+                -0.496353
+            ],
+            [
+                " Each",
+                -0.100374244
+            ],
+            [
+                " brom",
+                -0.00589123
+            ],
+            [
+                "ine",
+                -0.005939344
+            ],
+            [
+                " is",
+                -0.61894274
+            ],
+            [
+                " large",
+                -3.0407262
+            ],
+            [
+                " and",
+                -0.11343763
+            ],
+            [
+                " heavy",
+                -0.088900745
+            ],
+            [
+                " which",
+                -3.3031623
+            ],
+            [
+                " raises",
+                -4.0315905
+            ],
+            [
+                " the",
+                -0.009048465
+            ],
+            [
+                " melting",
+                -0.14297909
+            ],
+            [
+                " point",
+                -0.0009261109
+            ],
+            [
+                " as",
+                -6.7354
+            ],
+            [
+                " they",
+                -3.115539
+            ],
+            [
+                " increase",
+                -0.44414425
+            ],
+            [
+                " inter",
+                -0.9380294
+            ],
+            [
+                "m",
+                -6.992776e-05
+            ],
+            [
+                "olecular",
+                -1.0325924e-05
+            ],
+            [
+                " forces",
+                -0.19395818
+            ],
+            [
+                ",",
+                -0.25806957
+            ],
+            [
+                " specifically",
+                -0.5884808
+            ],
+            [
+                " London",
+                -0.27384666
+            ],
+            [
+                " dispersion",
+                -0.0046850187
+            ],
+            [
+                " forces",
+                -0.0049252585
+            ],
+            [
+                ",",
+                -1.3773603
+            ],
+            [
+                " due",
+                -0.1032282
+            ],
+            [
+                " to",
+                -0.0006554892
+            ],
+            [
+                " increased",
+                -2.2758288
+            ],
+            [
+                " polar",
+                -1.2376344
+            ],
+            [
+                "iz",
+                -0.00019591136
+            ],
+            [
+                "ability",
+                -0.00011439072
+            ],
+            [
+                ".",
+                -0.1466842
+            ],
+            [
+                " The",
+                -1.2683611
+            ],
+            [
+                " effect",
+                -2.3164926
+            ],
+            [
+                " of",
+                -0.013933477
+            ],
+            [
+                " each",
+                -0.59229714
+            ],
+            [
+                " brom",
+                -0.0635654
+            ],
+            [
+                "ine",
+                -0.014976017
+            ],
+            [
+                " could",
+                -4.1993766
+            ],
+            [
+                " be",
+                -0.060583107
+            ],
+            [
+                " conserv",
+                -4.862176
+            ],
+            [
+                "atively",
+                -1.4259645e-05
+            ],
+            [
+                " estimated",
+                -0.002293352
+            ],
+            [
+                " at",
+                -0.60964113
+            ],
+            [
+                " approximately",
+                -2.7027745
+            ],
+            [
+                " +",
+                -0.04539303
+            ],
+            [
+                "70",
+                -0.64526486
+            ],
+            [
+                " degrees",
+                -0.010839351
+            ],
+            [
+                " Celsius",
+                -0.014899325
+            ],
+            [
+                " per",
+                -2.5685508
+            ],
+            [
+                " brom",
+                -0.0796949
+            ],
+            [
+                "ine",
+                -0.020300807
+            ],
+            [
+                ",",
+                -4.8652816
+            ],
+            [
+                " as",
+                -2.6725051
+            ],
+            [
+                " seen",
+                -1.5106643
+            ],
+            [
+                " in",
+                -0.1262002
+            ],
+            [
+                " mon",
+                -2.2090259
+            ],
+            [
+                "ob",
+                -0.42872813
+            ],
+            [
+                "rom",
+                -0.05164507
+            ],
+            [
+                "inated",
+                -0.540644
+            ],
+            [
+                " ben",
+                -2.5997403
+            ],
+            [
+                "zen",
+                -4.1199673e-05
+            ],
+            [
+                "es",
+                -3.7146747e-05
+            ],
+            [
+                ".",
+                -0.31230783
+            ],
+            [
+                " The",
+                -2.7936358
+            ],
+            [
+                " presence",
+                -1.3975178
+            ],
+            [
+                " of",
+                -5.312004e-05
+            ],
+            [
+                " three",
+                -0.042079985
+            ],
+            [
+                " brom",
+                -0.0014880776
+            ],
+            [
+                "ines",
+                -0.16608192
+            ],
+            [
+                " would",
+                -0.37523696
+            ],
+            [
+                " therefore",
+                -2.0539734
+            ],
+            [
+                " raise",
+                -3.1439002
+            ],
+            [
+                " the",
+                -0.010789118
+            ],
+            [
+                " melting",
+                -0.018991632
+            ],
+            [
+                " point",
+                -0.0030030198
+            ],
+            [
+                " substantially",
+                -2.5290265
+            ],
+            [
+                ".\",\n",
+                -1.565532
+            ],
+            [
+                " ",
+                -0.004657257
+            ],
+            [
+                " \"",
+                -4.3202e-07
+            ],
+            [
+                "Prediction",
+                -3.1737043e-06
+            ],
+            [
+                "\":",
+                -2.451116e-05
+            ],
+            [
+                " \"",
+                -0.075786375
+            ],
+            [
+                "113",
+                -3.9327307
+            ],
+            [
+                " degrees",
+                -0.31139758
+            ],
+            [
+                " Celsius",
+                -2.6060809e-05
+            ],
+            [
+                " (",
+                -0.3491555
+            ],
+            [
+                "T",
+                -0.66308486
+            ],
+            [
+                "olu",
+                -6.15835e-05
+            ],
+            [
+                "ene",
+                -1.9361265e-07
+            ],
+            [
+                "'s",
+                -2.1053715
+            ],
+            [
+                " melting",
+                -0.6394045
+            ],
+            [
+                " point",
+                -3.5597102e-05
+            ],
+            [
+                " -",
+                -2.0780623
+            ],
+            [
+                "93",
+                -0.00037466554
+            ],
+            [
+                " +",
+                -0.014239319
+            ],
+            [
+                " ",
+                -0.7824083
+            ],
+            [
+                "206",
+                -2.944014
+            ],
+            [
+                " for",
+                -1.2850862
+            ],
+            [
+                " three",
+                -0.30015558
+            ],
+            [
+                " brom",
+                -0.024688229
+            ],
+            [
+                "ine",
+                -1.9649721
+            ],
+            [
+                " substit",
+                -0.32657197
+            ],
+            [
+                "u",
+                -0.0017402705
+            ],
+            [
+                "ents",
+                -6.392203e-06
+            ],
+            [
+                ")\"\n",
+                -0.22164404
+            ],
+            [
+                "}",
+                -0.0030926317
+            ]
+        ],
+        "Prediction(integer)": 113.0
     }
 ]

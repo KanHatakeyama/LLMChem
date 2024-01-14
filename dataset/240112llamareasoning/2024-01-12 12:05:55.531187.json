@@ -1,0 +1,14 @@
+{
+    "name": "(3E)-3-(hydroxyimino)-1,8,8-trimethylbicyclo[3.2.1]octane-2,4-dione",
+    "smiles": "O=C1C(=NO)C(=O)C2(C)CCC1C2(C)C",
+    "csid": 7855490,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-885",
+    "Reason": "The compound (3E)-3-(hydroxyimino)-1,8,8-trimethylbicyclo[3.2.1]octane-2,4-dione contains a bicyclo[3.2.1]octane core, which serves as the base structure. Its base melting point could be around 50 degrees, considering general fusion behavior of saturated bicyclic compounds. The presence of two keto groups (C=O) generally raises the melting point due to their polar nature and potential for hydrogen bonding; this increase is estimated at +10 degrees for each keto group. The hydroxyimino group (N-OH) is capable of hydrogen bonding, which can have a significant impact; its contribution to the melting point is estimated at +20 degrees. The three methyl groups increase molecular weight and van der Waals interactions, with a smaller effect on melting point; an estimated increase of +3 for each of the three methyl groups. Therefore, summing these up leads to the prediction: Base (50) + Keto groups (2 * 10) + Hydroxyimino group (20) + Methyl groups (3 * 3) = 50 + 20 + 20 + 9 = 99 degrees.",
+    "mpC": 109.0,
+    "Prediction(integer)": 99.0,
+    "Abs error": 10.0,
+    "Test (Predicted reason)": "- Basic unit, cyclohexane has a melting point of 6.5\u00b0C. \n- Hydroxyl group: +40\u00b0C (due to hydrogen bonding capabilities and polarity). \n- Keto groups (diketone): +20\u00b0C each (due to polarity and potential for hydrogen bonding). \n- Methyl groups: +5\u00b0C each (due to increased molecular weight and van der Waals forces). \n- Bicyclic structure: +20\u00b0C (due to increased rigidity and planarity, which can lead to better packing in the solid state). \n- Hydroxyimino group: +10\u00b0C (due to its ability to participate in hydrogen bonding and dipole-dipole interactions). \n- The compound has a bicyclic structure, which generally increases the melting point due to the rigidity and planarity of the molecule. \n- The presence of multiple keto groups and a hydroxyl group also increases the melting point due to their polar nature and potential for hydrogen bonding. \n- The methyl groups increase the melting point due to increased molecular weight and van der Waals forces. \n- The hydroxyimino group also contributes to the melting point due to its ability to participate in hydrogen bonding and dipole-dipole interactions. \n- The overall structure of the compound is complex and rigid, which would lead to a higher melting point. \n##Prediction: 121.0\n##Prediction",
+    "Test (Predicted value)": 121.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

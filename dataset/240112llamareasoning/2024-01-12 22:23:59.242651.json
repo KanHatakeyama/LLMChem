@@ -1,0 +1,14 @@
+{
+    "name": "2,6-di-tert-butyl-4-sulfanylphenol",
+    "smiles": "Sc1cc(c(O)c(c1)C(C)(C)C)C(C)(C)C",
+    "csid": 63551,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4382",
+    "Reason": "The basic unit for the compound is phenol, which has a melting point of 41\u00b0C. Each tert-butyl group appended to the phenol core increases the melting point due to steric hindrance and increased molecular weight. A rough estimation for the effect of a tert-butyl group on melting point could be around +10\u00b0C (this is a simplified estimate for the purpose of demonstration and the real effect could be different based on the structure). There are two tert-butyl groups bringing the predicted increase to +20\u00b0C. The sulfanyl group (-SH) is a polar substituent and likely to engage in intermolecular interactions such as hydrogen bonding, which generally increases the melting point; we could estimate this increase to be about +5\u00b0C as it provides stronger intermolecular forces, but doesn't enlarge the molecule as much as the tert-butyl groups. The presence of the hydroxyl group is already considered in the base value of phenol's melting point.",
+    "mpC": 76.0,
+    "Prediction(integer)": 86.0,
+    "Abs error": 10.0,
+    "Test (Predicted reason)": "The basic unit, phenol, has a melting point of 41 degrees Celsius. The presence of two tert-butyl groups (C(C)(C)C) adds steric bulk and increases the molecular weight, which typically raises the melting point. Each tert-butyl group can be estimated to increase the melting point by about 10 degrees Celsius. The sulfanyl group (-SCH2CH2-) adds a sulfur atom which can participate in hydrogen bonding, further increasing the melting point. This group can be estimated to increase the melting point by about 20 degrees Celsius.\n##Prediction: 81.0\n\n\n#Prediction",
+    "Test (Predicted value)": 81.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

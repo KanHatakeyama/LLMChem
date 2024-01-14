@@ -1,0 +1,14 @@
+{
+    "name": "ubenimex",
+    "smiles": "CC(C)CC(NC(=O)C(O)C(N)Cc1ccccc1)C(O)=O",
+    "csid": 3125,
+    "link": "http://dx.doi.org/10.1021/ci020280x",
+    "source": "Bergstrom C. A. S.; Norinder U.; Luthman K.; Artursson P. Molecular Descriptors Influencing Melting Point and Their Role in Classification of Solid Drugs. J. Chem. Inf. Comput. Sci.; (Article); 2003; 43(4); 1177-1447",
+    "Reason": "The core structure of ubenimex can be considered to be benzoic acid, which has a melting point of around 122 degrees Celsius. The modifications to consider include: an isobutyl group, an alpha-amino group, a secondary amine connected to an aromatic ring, an amide group, and a hydroxyl group. The isobutyl group (+30) will raise the melting point due to increased molecular weight and van der Waals interactions. The alpha-amino group (+10) will contribute to hydrogen-bonding capabilities, raising the melting point, but less so than a primary amino group due to steric hindrance. The secondary amine connected to an aromatic ring (+5) will have a slight increase in molecular weight and some limited hydrogen-bonding potential. The amide group (+40) is a strong site for hydrogen bonding, significantly raising the melting point. Finally, the hydroxyl group (+20) introduces an additional strong site for hydrogen bonding. The effects of these functional groups are considered additive.",
+    "mpC": 233.75,
+    "Prediction(integer)": 227.0,
+    "Abs error": 6.75,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The presence of the amide group (C(=O)NH) typically raises the melting point due to the potential for hydrogen bonding and resonance stabilization, which can be estimated to add around +80\u00b0C. \n- The presence of the carboxylic acid group (C(O)OH) also raises the melting point due to the ability to form strong intermolecular hydrogen bonds, which can be estimated to add around +100\u00b0C. \n- The presence of the tertiary butyl group (C(C)CC) adds steric bulk and increases the molecular weight, which can slightly raise the melting point, estimated to add around +5\u00b0C. \n- The presence of the methyl group (CH3) attached to the benzene ring has a minimal effect on the melting point, estimated to add around +5\u00b0C. \n- The presence of the nitrogen in the amide group can also participate in hydrogen bonding, which can further increase the melting point, estimated to add around +5\u00b0C. \n- The overall molecule is large and has multiple functional groups that can participate in hydrogen bonding, which can lead to a higher melting point.\n##Prediction: 240.0\n##Reason",
+    "Test (Predicted value)": 240.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

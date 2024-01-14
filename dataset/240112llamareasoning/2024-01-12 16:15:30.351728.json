@@ -1,0 +1,14 @@
+{
+    "name": "(1R,2S,5R,6S)-9-oxatricyclo[4.2.1.1~2,5~]dec-7-en-10-ol",
+    "smiles": "OC1C2CCC1C1OC2C=C1",
+    "csid": 2035975,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2041",
+    "Reason": "The compound provided is a bicyclic compound containing several functional groups that can influence its melting point. The bicyclic structure provides a higher baseline melting point due to increased rigidity and intermolecular interactions. Hydroxyl groups generally increase the melting point due to their ability to form hydrogen bonds, which are strong intermolecular forces. The epoxy group contributes to the melting point due to the ring strain and polar character, which enhances intermolecular interactions. However, the presence of an alkene may slightly reduce the melting point by restricting efficient packing of the molecules. In this case, the initial assessment of the contributions seems to be overestimating the effect of some functional groups because the predicted value substantially exceeds the actual value. One must critically reassess the impact of the functional groups, taking into account the actual bicyclic context and possible steric factors that might not favor such high contributions from the hydroxyl and epoxy groups.",
+    "mpC": 122.0,
+    "Prediction(integer)": 125.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "- Basic unit, cyclohexane has a melting point of 6.5\u00b0C. \n- The presence of the oxo (ketone) group generally increases the melting point due to the polar nature and the potential for hydrogen bonding, which can be estimated to add around +40\u00b0C. \n- The presence of the double bond in the cyclohexane ring is expected to have a smaller effect on the melting point, but it can slightly increase it due to the rigidity it introduces, estimated at +5\u00b0C. \n- The stereochemistry of the molecule, particularly the (1R,2S,5R,6S) configuration, can influence the melting point due to the specific packing of the molecules in the solid state. This can be estimated to add around +10\u00b0C. \n- The overall molecular complexity and the presence of the ketone and double bond contribute to a higher melting point.\n##Prediction: 121.0\n##Reason",
+    "Test (Predicted value)": 121.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

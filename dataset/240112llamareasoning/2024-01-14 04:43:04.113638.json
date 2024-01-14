@@ -1,0 +1,14 @@
+{
+    "name": "2,2'-benzene-1,3-diylbis(6-nitro-3H-indol-3-one) 1,1'-dioxide",
+    "smiles": "O=[N+]([O-])c1ccc2c([N+]([O-])=C(c3cccc(c3)C3=[N+]([O-])c4cc([N+](=O)[O-])ccc4C3=O)C2=O)c1",
+    "csid": 2030779,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3236",
+    "Reason": "The target compound has several functional groups that affect its melting point. The basic benzene unit typically has a melting point around 5.5\u00b0C. The addition of two indole units is expected to substantially increase the melting point because of the increased rigidity and molecular complexity. Indole units are complex aromatic heterocycles and contribute significantly to the melting point; however, estimating each indole's contribution at +100\u00b0C might be too high. A more conservative estimate could be around +50\u00b0C each. Therefore, the two indole units would together contribute approximately +100\u00b0C. Four nitro groups are present, and each nitro group typically increases the melting point by about +30\u00b0C due to strong intermolecular forces, contributing a total of +120\u00b0C. Two sulfonyl groups are likely to increment the melting point due to their polarity and ability to form strong dipole-dipole interactions. While sulfonyl groups do contribute significantly, an estimate of +50\u00b0C each seems high, and a figure closer to +25\u00b0C each (for a total of +50\u00b0C) would be more typical. The added complexity and potential for hydrogen bonding also need to be considered, and connecting these aromatic systems through a central benzene could add approximately +10\u00b0C. Adding these together gives the predicted melting point.",
+    "mpC": 287.0,
+    "Prediction(integer)": 285.0,
+    "Abs error": 2.0,
+    "Test (Predicted reason)": "- Basic unit, benzene, has a melting point of 5.5\u00b0C. \n- Each indole group is expected to increase the melting point due to its rigid structure and potential for hydrogen bonding, estimated at +100\u00b0C for each indole. \n- The nitro groups are strong electron-withdrawing groups that can increase the melting point through intermolecular interactions, estimated at +50\u00b0C for each nitro group. \n- The dioxide groups are polar and can form strong dipole-dipole interactions, estimated at +20\u00b0C for each dioxide group. \n- The conjugation and planarity of the molecule can lead to a more ordered solid structure, estimated at +10\u00b0C. \n- The overall molecular weight and size of the molecule will also increase the melting point, estimated at +5\u00b0C. \n##Prediction: 300.0\n\n\n#Problem",
+    "Test (Predicted value)": 300.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

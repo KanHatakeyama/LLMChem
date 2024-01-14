@@ -1,0 +1,14 @@
+{
+    "name": "17-(benzyloxy)androst-4-en-3-one",
+    "smiles": "O=C1C=C2CCC3C4CCC(OCc5ccccc5)C4(C)CCC3C2(C)CC1",
+    "csid": 3233625,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1693",
+    "Reason": "The structure of 17-(benzyloxy)androst-4-en-3-one is complex, composed of a steroid backbone fused with a benzyl ether group. The basic steroid structure, with four fused rings (three six-membered and one five-membered), would already have a relatively high melting point due to the rigid structure and van der Waals forces. An androstane structure (without any substituents) has a melting point of about 160\u2013170\u00b0C. Adding an oxygen atom as in an ether linkage might slightly decrease the melting point due to the polar nature of the oxygen, which could disrupt crystalline packing (-5). However, the benzyl group, being a bulky and large group, can increase the melting point significantly due to increased molecular weight and van der Waals interactions (+25). Benzyl groups tend to increase the melting point due to the aromatic ring providing extra stability and pi-pi interactions in the crystalline state (+10). Therefore, we can predict a net increase in the melting point relative to the base androstane structure.",
+    "mpC": 199.0,
+    "Prediction(integer)": 190.0,
+    "Abs error": 9.0,
+    "Test (Predicted reason)": "The compound has several functional groups that influence its melting point: \n- The steroid structure provides a rigid framework, which typically raises the melting point significantly. \n- The presence of a ketone group (C=O) can form dipole-dipole interactions, which would increase the melting point. \n- The benzyloxy group (phenyl-O-) adds to the molecular weight and provides some degree of polarity, which could contribute to an increase in melting point. \n- The androstane structure itself is a complex molecule with multiple fused rings, which would further increase the melting point due to the rigidity and potential for hydrogen bonding. \nConsidering these effects, we can estimate the melting point increase for each functional group: \n- Steroid structure: +100 (due to rigidity and potential for hydrogen bonding) \n- Ketone group: +20 (dipole-dipole interactions) \n- Benzyloxy group: +15 (due to increased molecular weight and polarity) \n- Fused rings: +50 (due to increased rigidity and potential for hydrogen bonding) \n##Prediction: 205.0\n\n##Prediction",
+    "Test (Predicted value)": 205.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "4-methyl-N-[4-(octyloxy)phenyl]benzamide",
+    "smiles": "O=C(Nc1ccc(OCCCCCCCC)cc1)c1ccc(C)cc1",
+    "csid": 2034446,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2321",
+    "Reason": "The compound 4-methyl-N-[4-(octyloxy)phenyl]benzamide is composed of several functional groups and structural features that affect its melting point. Starting with benzene as a reference, we have: \n1. The basic benzene ring has a reported melting point of 5.5\u00b0C.\n2. The amide group typically increases the melting point due to its capacity for strong hydrogen bonding and resonance stability, contributing approximately +80\u00b0C to the melting point.\n3. The addition of a methyl group to a benzene ring slightly increases the melting point due to an increase in molecular weight and van der Waals interactions, contributing about +5\u00b0C.\n4. The phenyl group (as part of the benzyl derivative) provides additional aromaticity and increases the melting point, estimated to be +20\u00b0C.\n5. The alkoxy group (octyloxy) present introduces more flexibility and a larger hydrophobic surface area which generally decreases the melting point. However, in this case, the length of the alkyl chain (octyl) can lead to increased van der Waals interactions that outweigh the flexibility, adding around +30\u00b0C.\n6. The N-substitution on the amide introduces additional steric hindrance and significantly increases the molecular weight, expected to contribute about +10\u00b0C.\n\nWhen added together, these increments give us an estimated melting point for the target compound.",
+    "mpC": 141.0,
+    "Prediction(integer)": 150.0,
+    "Abs error": 9.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Amide group: +80\u00b0C (due to strong hydrogen bonding and resonance stability). \n- Methyl group: +5\u00b0C (due to an increase in molecular weight and van der Waals forces). \n- Octyl group: +20\u00b0C (due to an increase in molecular weight and van der Waals forces, as well as steric hindrance which can disrupt the crystal lattice). \n- Phenyl group: +20\u00b0C (due to increased molecular weight and pi-pi interactions). \n- The overall molecule is quite large and bulky, which can disrupt the crystal lattice and lower the melting point. However, the strong intermolecular forces and the rigidity of the molecule due to the amide and phenyl groups will likely counteract this effect. \n- The prediction should be adjusted to reflect the balance between these factors.\n##Prediction: 125.0\n##Reason",
+    "Test (Predicted value)": 125.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

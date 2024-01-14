@@ -1,0 +1,14 @@
+{
+    "name": "(3Z)-3-(2-nitrobenzylidene)-1,3-dihydro-2H-indol-2-one",
+    "smiles": "O=[N+]([O-])c1ccccc1C=C1c2ccccc2NC1=O",
+    "csid": 4644750,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1388",
+    "Reason": "The target compound possesses various functional groups that influence its melting point: a nitro group which is known for increasing melting point through enhanced intermolecular attractions estimated at +40\u00b0C, an indole structure that contributes robustness and planarity to the molecule estimated at +15\u00b0C, and a carbonyl group which can engage in additional polar interactions estimated at +10\u00b0C. The basic benzene unit has a melting point of 5.5\u00b0C. Therefore, the sum of effects from each functional group needs to be added to the base value of benzene to predict the melting point.",
+    "mpC": 82.0,
+    "Prediction(integer)": 76.0,
+    "Abs error": 6.0,
+    "Test (Predicted reason)": "The compound in question is a complex molecule with several functional groups that influence its melting point. The basic unit, indole, has a melting point of 50\u00b0C. The following functional groups and structural features will affect the melting point:\n\n- Benzene ring: +20\u00b0C due to increased molecular weight and pi-pi stacking.\n- Nitro group: +20\u00b0C due to strong electron-withdrawing effect and potential for intermolecular interactions.\n- Ketone group: +10\u00b0C due to polarity and potential for dipole-dipole interactions.\n- Ester linkage (methoxycarbonyl): +10\u00b0C due to increased polarity and potential for dipole-dipole interactions.\n- The presence of the nitro group and the ketone group increases the polarity and potential for dipole-dipole interactions, which would increase the melting point.\n\nAdding these effects to the base value of indole, the cumulative increase would result in a higher melting point.\n##Prediction: 100.0\n\n\n##Prediction",
+    "Test (Predicted value)": 100.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

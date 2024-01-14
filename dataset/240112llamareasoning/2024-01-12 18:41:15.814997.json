@@ -1,0 +1,14 @@
+{
+    "name": "4-Hydrazinobenzoic acid",
+    "smiles": "NNc1ccc(cc1)C(=O)O",
+    "csid": 11592,
+    "link": "http://msds.chem.ox.ac.uk/",
+    "source": "academic website",
+    "Reason": "The compound 4-Hydrazinobenzoic acid comprises the benzene ring as the base structure, a carboxylic acid group, and a hydrazino group. The benzene ring provides a stable structure with a base melting point which we can approximate based on benzoic acid since it's not provided, which has a melting point around 122\u00b0C. The carboxylic acid group tends to increase melting point due to the possibility of strong intermolecular hydrogen bonding (+50). The hydrazino group is an amino compound that can form intermolecular hydrogen bonds but not as effectively as carboxylic acids, and it likely leads to an increase in the melting point similar to an amino group (+30). Therefore, the predicted melting point is the sum of the base benzene structure (approximated from benzoic acid) and the contributions from the functional groups.",
+    "mpC": 205.0,
+    "Prediction(integer)": 202.0,
+    "Abs error": 3.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- Hydrazine group (NN) typically raises the melting point due to the ability to form hydrogen bonds, which can be estimated to add around +80\u00b0C. \n- Carboxylic acid group (C(=O)O) is a strong hydrogen bond donor and acceptor, which can significantly increase the melting point. This effect can be estimated to add around +120\u00b0C. \n- The presence of the benzene ring and the carboxylic acid group will increase the melting point due to the rigidity and polarity of the molecule, which can be estimated to add another +20\u00b0C. \n- The overall effect of these functional groups is expected to be additive.\n##Prediction: 215.0\n##Reason",
+    "Test (Predicted value)": 215.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

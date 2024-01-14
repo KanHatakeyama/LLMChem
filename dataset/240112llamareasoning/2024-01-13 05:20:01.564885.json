@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-3-[(4-methylphenyl)amino]-1-(5,6,7,8-tetrahydronaphthalen-2-yl)prop-2-en-1-one",
+    "smiles": "O=C(C=CNc1ccc(C)cc1)c1ccc2CCCCc2c1",
+    "csid": 4711983,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1111",
+    "Reason": "The basic unit here is trans-chalcone, which has a melting point of 56\u00b0C. The addition of a 4-methyl group to the aromatic ring generally would increase the melting point due to larger molecular weight and increased van der Waals forces; this increment would typically be around +5-15\u00b0C. The tetrahydronaphthalen-2-yl group further adds to the molecular weight and has a rigid, bulky structure that increases intermolecular interactions, likely contributing around +50-60\u00b0C to the melting point. The amino group can form internal hydrogen bonds with the ketone, which would stabilize the solid state and could contribute around +10-15\u00b0C. Considering these effects, an additive prediction can be made for the compound's melting point.",
+    "mpC": 139.0,
+    "Prediction(integer)": 133.0,
+    "Abs error": 6.0,
+    "Test (Predicted reason)": "- Basic unit, naphthalene, has a melting point of 80\u00b0C.\n- Amino group: +20 (introduces hydrogen bonding capability, significantly increasing melting point).\n- Ketone group: +10 (polar carbonyl group contributes to dipole-dipole interactions, increasing melting point).\n- Methyl group on the phenyl ring: +5 (increases molecular weight and van der Waals interactions).\n- The tetrahydronaphthalene moiety adds rigidity and planarity to the molecule, which can increase the melting point. However, the actual value is not known, so we will estimate it as +20.\n- The conjugated double bond system in the molecule contributes to the rigidity and planarity of the molecule, which can increase the melting point. We will estimate this effect as +10.\nAdding these effects to the base value of naphthalene gives the predicted melting point.\n##Prediction: 135.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Test (Predicted value)": 135.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

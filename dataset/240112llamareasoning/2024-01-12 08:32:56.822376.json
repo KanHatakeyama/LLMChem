@@ -1,0 +1,14 @@
+{
+    "name": "2-[(E)-(hydroxyimino)methyl]-3-methyl-6-(propan-2-yl)cyclohexa-2,4-dien-1-one",
+    "smiles": "O=C1C(C=NO)=C(C)C=CC1C(C)C",
+    "csid": 7855471,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-890",
+    "Reason": "The target compound is a derivative of cyclohexadienone with additional functional groups attached to it. Cyclohexadienone has a melting point around 105 \u00b0C (estimated from benzaldehyde which has similar structure). Each substituent will have an effect on the melting point:\n- Hydroxylamine (=NOH) group: increases melting point due to potential for hydrogen bonding, estimated as +20 \u00b0C.\n- Methyl group (CH3): slightly increases melting point due to increase in molecular weight and van der Waals forces, estimated as +5 \u00b0C.\n- Isopropyl group ((CH3)2CH): substantially increases melting point, due to increase in molecular weight and steric effects, estimated as +15 \u00b0C.\nAdding these effects gives an estimated melting point shift of +40 \u00b0C to the base value of 105 \u00b0C.",
+    "mpC": 146.0,
+    "Prediction(integer)": 145.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, cyclohexadienone has a melting point of 100\u00b0C. \n- Hydroxyimino group: +50\u00b0C (due to the possibility of hydrogen bonding and the rigidity it introduces to the molecule) \n- Methyl group: +5\u00b0C (due to an increase in molecular weight and van der Waals forces) \n- Methyl group on the cyclohexadienone: +5\u00b0C (due to an increase in molecular weight and van der Waals forces) \n- Propyl group: +10\u00b0C (due to an increase in molecular weight and van der Waals forces) \n- The presence of the cyclohexadienone ring and the double bond in the ring system generally increases the melting point due to the rigidity and planarity of the molecule, which can lead to better packing in the solid state. However, the presence of the double bond also introduces some flexibility, which might slightly lower the melting point. The overall effect of these functional groups is to increase the melting point due to the rigidity and planarity of the molecule, but the presence of the double bond might slightly decrease it.\n##Prediction: 165.0\n##Reason",
+    "Test (Predicted value)": 165.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

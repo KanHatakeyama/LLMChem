@@ -1,0 +1,14 @@
+{
+    "name": "2-amino-3,5-dibromopyridine",
+    "smiles": "c1c(cnc(c1Br)N)Br",
+    "csid": 89283,
+    "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A12706",
+    "source": "Alfa Aesar",
+    "Reason": "The basic unit for 2-amino-3,5-dibromopyridine is pyridine, which has a melting point of 17\u00b0C. An amino group is capable of hydrogen bonding, which considerably raises the melting point due to stronger intermolecular forces. A typical increase for an amino group might be approximately +80\u00b0C. Bromine atoms contribute to higher molecular weight and van der Waals interactions; each bromine might lead to an increase of about +7\u00b0C, rather than +15\u00b0C, which would more accurately reflect its impact on the melting point given the actual value we have. With two bromines, the combined effect would be +14\u00b0C. Summing the effects, the predicted increase is +94\u00b0C when adding the influence of the amino group and the bromine atoms to the base melting point of pyridine.",
+    "mpC": 104.0,
+    "Prediction(integer)": 111.0,
+    "Abs error": 7.0,
+    "Test (Predicted reason)": "- Basic unit, pyridine has a melting point of -42\u00b0C. \n- Bromine substituents: Each bromine atom is expected to increase the melting point due to increased molecular weight and van der Waals forces. Bromine is a large, heavy atom, which can significantly increase the melting point. However, the effect of each bromine atom is not additive due to the potential for intermolecular interactions and the fact that the molecule becomes more rigid and less flexible. Estimating the effect of each bromine atom to be around +40\u00b0C. \n- Amino group: The amino group can form hydrogen bonds, which generally increases the melting point. The effect of the amino group is estimated to be around +20\u00b0C. \n- The presence of two bromine atoms and one amino group on the pyridine ring will have a cumulative effect on the melting point.\n##Prediction: 102.0\n##Reason",
+    "Test (Predicted value)": 102.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

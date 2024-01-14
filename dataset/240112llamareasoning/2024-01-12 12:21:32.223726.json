@@ -1,0 +1,14 @@
+{
+    "name": "Midodrine",
+    "smiles": "COc1ccc(cc1C(O)CNC(=O)CN)OC",
+    "csid": 4050,
+    "link": "http://www.drugbank.ca/drugs/DB00211",
+    "source": "DrugBank",
+    "Reason": "The starting point for predicting the melting point of midodrine is to choose a basic unit. Phenol, which is structurally similar to the aromatic part of midodrine, has a melting point of 41\u00b0C. From there, we can consider the effects of functional groups and substituents in midodrine:\n- Methoxy groups (\u2013OCH3): Two methoxy groups are expected to increase the melting point due to an increase in molecular weight and potential for hydrogen bonding interactions. We can estimate this effect as +20\u00b0C for each methoxy group.\n- Hydroxyethyl group (\u2013CH2CH2OH) on the aromatic ring: Hydroxyl groups generally increase melting points due to hydrogen bonding. Attached to a larger moiety, the effect might be a bit less than in simpler molecules. Estimating this at +15\u00b0C.\n- Carboxamide group (\u2013C(=O)NH2): This group significantly raises the melting point due to strong hydrogen bonding and resonance stability of the amide bond, estimated at +80\u00b0C.\n- Methyl group attached to the nitrogen (-NCH3): This can increase the melting point slightly due to added molecular weight, estimated at +5\u00b0C.\n- Secondary amine (-NHC-): Secondary amines have a lower hydrogen bond donating ability compared to primary amines or amides, so this might lower the melting point relative to an amide, but in the presence of an amide, it's merely a modest increase in molecular weight, estimated at +5\u00b0C.\n\nSumming up all the predicted changes gives us an overall predicted melting point for midodrine.",
+    "mpC": 201.5,
+    "Prediction(integer)": 201.0,
+    "Abs error": 0.5,
+    "Test (Predicted reason)": "The basic unit for comparison could be chosen as benzene, which has a melting point of 5.5 degrees Celsius. The compound midodrine has several functional groups that influence its melting point: (1) The presence of two aromatic rings contributes to a higher melting point due to increased molecular rigidity and pi-pi interactions. This might add approximately +40 degrees. (2) The compound has a tertiary amine, which can increase the melting point due to the ability to form hydrogen bonds. This might add around +20 degrees. (3) The presence of a carboxylic acid group can raise the melting point due to the formation of hydrogen bonds and an increase in polarity. This might add approximately +30 degrees. (4) The compound has a chiral center, which can lead to a higher melting point due to the specific three-dimensional arrangement of the molecule. This might add around +5 degrees. Combining these effects, we can predict the melting point of midodrine.\n##Prediction: 199.0\n\n##Prediction",
+    "Test (Predicted value)": 199.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

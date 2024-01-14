@@ -1,0 +1,14 @@
+{
+    "name": "1H-pyrazole-4,5-dione, 1-phenyl-3-(trifluoromethyl)-, 4-[2-[3-(trifluoromethyl)phenyl]hydrazone], (4Z)-",
+    "smiles": "FC(F)(F)c1cccc(NN=C2C(=O)N(N=C2C(F)(F)F)c2ccccc2)c1",
+    "csid": 4645386,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1273",
+    "Reason": "The compound provided has several distinct functional groups that influence its melting point. We will analyze each group and predict how they contribute to the overall melting point of the compound: Base molecule (pyrazole), aromatic rings, trifluoromethyl groups, and hydrazone linkage. The base molecule (pyrazole) typically has a moderate melting point, but we don't have a specific number for this, so we will consider the basic heterocyclic structure to contribute +50\u00b0C. Aromatic rings generally increase the melting point due to \u03c0-\u03c0 interactions and a rigid structure; with three phenyls, this would add approximately +45\u00b0C (15\u00b0C per ring). Trifluoromethyl groups are highly electronegative and can increase the melting point due to the induction of dipoles; each CF3 might add about +20\u00b0C, so with three groups, that would be +60\u00b0C. The hydrazone linkage contributes through conjugation and potential hydrogen bonding; we will estimate its effect as +15\u00b0C. Note that these are rough estimates and the interaction between the functional groups could cause variations.",
+    "mpC": 160.0,
+    "Prediction(integer)": 170.0,
+    "Abs error": 10.0,
+    "Test (Predicted reason)": "The compound in question is a complex molecule with several functional groups that influence its melting point. The basic unit we can consider is pyrazole, which has a melting point of around 80\u00b0C. The presence of a ketone group (dione) generally increases the melting point due to the possibility of hydrogen bonding and dipole-dipole interactions, estimated at +20\u00b0C. The trifluoromethyl group is highly electronegative and introduces strong dipole moments, which can significantly increase the melting point, estimated at +30\u00b0C. The hydrazone group is capable of hydrogen bonding and can also increase the melting point, estimated at +20\u00b0C. The presence of two phenyl rings adds to the molecular rigidity and \u03c0-\u03c0 interactions, estimated at +10\u00b0C each. The overall molecular complexity and potential for strong intermolecular interactions suggest a substantial increase in melting point. However, the actual value is lower than the sum of these individual contributions, indicating that the molecular packing and crystal structure are not as favorable as expected.\n##Prediction: 170.0\n\n##Reason",
+    "Test (Predicted value)": 170.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

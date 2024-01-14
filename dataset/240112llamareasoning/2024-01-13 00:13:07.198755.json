@@ -1,0 +1,14 @@
+{
+    "name": "(2,4-dichlorophenyl)(3,4-dimethoxyphenyl)methanone",
+    "smiles": "Clc1ccc(c(Cl)c1)C(=O)c1ccc(OC)c(OC)c1",
+    "csid": 2035465,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2108",
+    "Reason": "The target compound has several functional groups that influence its melting point. The basic unit we can consider is benzophenone, which has a melting point of 49 degrees Celsius. Each chloro group is electron-withdrawing and tends to increase the rigidity of the molecule, leading to a higher melting point; a chloro group can add approximately +20 degrees Celsius. There are two chloro groups, which would add +40 degrees Celsius. Each methoxy group is electron-donating and also contributes to increased molecular weight, but it also increases the flexibility of the phenyl ring to which it is attached; a methoxy group might add approximately +10 degrees Celsius due to these balancing effects. There are two methoxy groups, adding +20 degrees Celsius in total. Therefore, the expected adjustments to the melting point due to these functional groups are as follows: base melting point of benzophenone (+49 degrees Celsius), two chloro groups (+40 degrees Celsius), and two methoxy groups (+20 degrees Celsius).",
+    "mpC": 128.0,
+    "Prediction(integer)": 129.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "The compound in question is a complex molecule with several functional groups that influence its melting point. The basic structure is a benzene ring, which has a melting point of 5.5 degrees Celsius. The presence of two chlorine atoms on the benzene ring will significantly increase the melting point due to the increased molecular weight and the inductive effect of the chlorine atoms, which enhance the intermolecular forces. Each chlorine might add approximately 20 degrees Celsius. The methoxy groups (\u2013OCH3) are electron-donating groups, which can increase the melting point due to the increase in molecular weight and the potential for hydrogen bonding. Each methoxy group might add around 10 degrees Celsius. The carbonyl group (C=O) is capable of forming hydrogen bonds, which can further increase the melting point. This could add around 20 degrees Celsius. The overall effect of these groups is expected to be additive.\n##Prediction: 110.0\n\n##Prediction",
+    "Test (Predicted value)": 110.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

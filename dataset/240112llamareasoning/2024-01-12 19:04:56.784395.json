@@ -1,0 +1,14 @@
+{
+    "name": "2-[(E)-(hydroxyimino)methyl]-3-methyl-6-(propan-2-yl)cyclohexa-2,4-dien-1-one",
+    "smiles": "O=C1C(C=NO)=C(C)C=CC1C(C)C",
+    "csid": 7855471,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-890",
+    "Reason": "The target compound is a derivative of cyclohexadienone with additional functional groups attached to it. Cyclohexadienone has a melting point around 105 \u00b0C (estimated from benzaldehyde which has similar structure). Each substituent will have an effect on the melting point:\n- Hydroxylamine (=NOH) group: increases melting point due to potential for hydrogen bonding, estimated as +20 \u00b0C.\n- Methyl group (CH3): slightly increases melting point due to increase in molecular weight and van der Waals forces, estimated as +5 \u00b0C.\n- Isopropyl group ((CH3)2CH): substantially increases melting point, due to increase in molecular weight and steric effects, estimated as +15 \u00b0C.\nAdding these effects gives an estimated melting point shift of +40 \u00b0C to the base value of 105 \u00b0C.",
+    "mpC": 146.0,
+    "Prediction(integer)": 145.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "- Basic unit, cyclohexadienone: 100 (assuming a base value for a similar structure)\n- Methyl group: +5 (due to increased molecular weight and van der Waals forces)\n- Hydroxyimino group: +20 (due to the ability to form hydrogen bonds and the polarity it introduces)\n- Propyl group: +5 (due to increased molecular weight and van der Waals forces)\n- Double bond: +5 (due to the rigidity and planarity it introduces)\n- Keto group: +10 (due to the polarity and potential for hydrogen bonding)\n- E-configuration: +5 (due to the increased rigidity and planarity)\n\nAdding these adjustments to the base value of the cyclohexadienone gives us the predicted melting point.\n##Prediction: 155.0\n##Reason",
+    "Test (Predicted value)": 155.0,
+    "model_name": "./outputs/13b_ft_merge_3epoch"
+}

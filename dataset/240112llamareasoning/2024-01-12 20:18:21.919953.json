@@ -1,0 +1,14 @@
+{
+    "name": "(Diphenylphosphoryl)(mesityl)methanone",
+    "smiles": "O=P(C(=O)c1c(C)cc(C)cc1C)(c2ccccc2)c3ccccc3",
+    "csid": 145710,
+    "link": "http://msds.chem.ox.ac.uk/",
+    "source": "academic website",
+    "Reason": "The target compound, (Diphenylphosphoryl)(mesityl)methanone, consists of a phosphonyl group (=P(OR)(OR)), a benzoyl group (C(=O)-), as well as two phenyl groups and a mesityl group (which is a derivative of a phenyl group with three methyl substitutions). Each of these groups influences the melting point in various ways. The basic unit for comparison could be a simple alkane (e.g., octane) with a melting point around -57 degrees Celsius. The introduction of aromatic rings such as phenyl groups generally increases the melting point due to the increased surface area for van der Waals interactions, and the potential for pi-pi interactions between aromatic rings. Each phenyl group might add approximately +20 to +30 degrees Celsius. The mesityl group, being a substituted phenyl, could further increase the melting point due to its bulkier nature, we might estimate a similar effect as a single phenyl group for simplicity. The presence of the phosphonyl and the benzoyl groups introduces the possibility of intermolecular hydrogen bonding and dipole-dipole interactions, which tend to increase melting points significantly. The phosphonyl group might contribute around +40 to +50 degrees Celsius due to these strong intermolecular forces. The benzoyl group, with its polar carbonyl, might contribute around +30 to +40 degrees Celsius. Thus, we have +20 for each phenyl (x2), +20 for the mesityl group, +45 for the phosphonyl group, and +35 for the benzoyl group. Summing these adjustments, we would have an estimated net change of +140 degrees Celsius from the alkane baseline. Since the alkane baseline is around -57 degrees Celsius, our estimated melting point would be 83 degrees Celsius.",
+    "mpC": 90.0,
+    "Prediction(integer)": 83.0,
+    "Abs error": 7.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C.\n- Phosphoryl group: +40\u00b0C (due to the strong intermolecular forces and the rigidity it introduces)\n- Mesityl group: +30\u00b0C (due to the increased molecular weight and van der Waals forces)\n- Ketone group: +20\u00b0C (due to the polarity and potential for dipole-dipole interactions)\n- Additional phenyl groups: +10\u00b0C each (due to increased molecular weight and \u03c0-\u03c0 interactions)\n- Total predicted increase: 40 + 30 + 20 + 2 x 10 = 100\u00b0C\n##Prediction: 105.0\n##Reason",
+    "Test (Predicted value)": 105.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "(2E)-3-(2-oxo-2-phenylethoxy)-2-phenylbut-2-enenitrile",
+    "smiles": "O=C(COC(C)=C(C#N)c1ccccc1)c1ccccc1",
+    "csid": 4908078,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-966",
+    "Reason": "The target compound has several functional groups that affect its melting point. The base unit here can be considered as benzene, which has a melting point of 5.5\u00b0C. The presence of two phenyl rings typically increases the melting point due to more substantial pi-pi stacking interactions and increased molecular weight, each could add approximately +20 to +30\u00b0C. An alkyne group (C#N) can increase the rigidity of the molecule, which might contribute roughly +20\u00b0C. The ester linkage (OCO) and the keto group (C=O) also increase the hydrogen bonding potential and polarity, respectively, contributing to an increase in the melting point, each could add around +20\u00b0C. There is also conjugation within the molecule, which could enhance the rigidity and thus the melting point but its effect is merged with the others and hard to assess in isolation. The final melting point is a cumulative effect of these functionalities.",
+    "mpC": 111.0,
+    "Prediction(integer)": 116.0,
+    "Abs error": 5.0,
+    "Test (Predicted reason)": "- Basic unit, benzene has a melting point of 5.5\u00b0C. \n- The presence of the nitrile group (C#N) generally increases the melting point due to the dipole-dipole interactions and the potential for hydrogen bonding, which can be estimated to add around +40\u00b0C. \n- The phenyl group attached to the nitrile is expected to increase the melting point due to increased molecular weight and van der Waals forces, estimated at +20\u00b0C. \n- The ether linkage (O-C-O) is expected to have a moderate effect on the melting point, estimated at +10\u00b0C. \n- The conjugated system of the phenyl group and the nitrile group is expected to increase the melting point due to the rigidity and planarity of the molecule, estimated at +15\u00b0C. \n- The overall molecular complexity and the presence of multiple aromatic rings contribute to a higher melting point, estimated at +25\u00b0C. \n- The cumulative effect of these functional groups is expected to increase the melting point significantly.\n##Prediction: 115.0\n##Reason",
+    "Test (Predicted value)": 115.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}

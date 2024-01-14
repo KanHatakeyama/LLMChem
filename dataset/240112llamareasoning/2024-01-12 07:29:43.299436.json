@@ -1,0 +1,14 @@
+{
+    "name": "[4-(2,6-Diphenyl-pyran-4-ylidenemethyl)-phenyl]-dimethyl-amine",
+    "smiles": "O1C(=CC(C=C1c1ccccc1)=Cc1ccc(N(C)C)cc1)c1ccccc1",
+    "csid": 2032661,
+    "link": "http://dx.doi.org/10.1021/ci0500132",
+    "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2790",
+    "Reason": "The target compound contains several functional groups that contribute to its melting point: two phenyl rings connected via a pyran ring with a substituted benzylidene attachment, and a dimethylamine substituent. Each phenyl contributes approximately +30 to the melting point due to pi-stacking and van der Waals interactions. The pyran ring with a double bond likely contributes an additional +20 due to the rigidity and planarity of the conjugated system, which enhances pi-pi interactions. The substituted benzylidene might add another +40, as it increases the molecular complexity and potential for intermolecular interactions. The dimethylamine substituent may contribute slightly less due to its less structured nature compared to aromatic rings; let's estimate it at +15. The basic benzene ring has a melting point of around 5. Adding all contributions, we estimate the melting point of the target compound.",
+    "mpC": 181.0,
+    "Prediction(integer)": 180.0,
+    "Abs error": 1.0,
+    "Test (Predicted reason)": "The target compound [4-(2,6-Diphenyl-pyran-4-ylidenemethyl)-phenyl]-dimethyl-amine has several functional groups that influence its melting point. The basic unit, aniline, has a melting point of 6.2\u00b0C. The following group contributions are considered: \n- The presence of two phenyl rings: +100\u00b0C due to increased molecular weight and pi-pi interactions between aromatic rings, which significantly enhance intermolecular forces. \n- The pyran ring (C4=C=C4) adds rigidity and potential for hydrogen bonding, contributing +30\u00b0C. \n- The dimethylamine group (N(C)C) adds steric bulk and the potential for hydrogen bonding, contributing +20\u00b0C. \n- The presence of the methyl group (CH3) attached to the amine adds a small increase in molecular weight and van der Waals interactions, contributing +5\u00b0C. \nThe cumulative effect of these groups leads to a significant increase in the melting point.\n##Prediction: 191.0\n\n\n#Prediction",
+    "Test (Predicted value)": 191.0,
+    "model_name": "./outputs/7b_ft_merge_3epoch"
+}
