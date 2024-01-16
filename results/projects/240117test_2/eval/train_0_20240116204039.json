@@ -1,0 +1,112 @@
+{
+    "MSE": 7439.8203125,
+    "MAE": 62.53125,
+    "R2": 0.525344026044106,
+    "Answer ratio": 0.8,
+    "plot": [
+        {
+            "name": "(2E)-2-phenyl-3-(phenylamino)prop-2-enenitrile",
+            "smiles": "N#CC(=CNc1ccccc1)c1ccccc1",
+            "csid": 5653383,
+            "link": "http://dx.doi.org/10.1021/ci0500132",
+            "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-925",
+            "Reason": "The target compound, (2E)-2-phenyl-3-(phenylamino)prop-2-enenitrile, has multiple functional groups that influence its melting point. The fundamental structure to consider is that of benzene, which has a melting point of 5.5\u00b0C. Each substituent on the basic benzene ring affects the melting point through different intermolecular forces and structural effects: \n- The two phenyl groups are expected to significantly increase the melting point due to augmented pi-pi interactions. Considering the extensive conjugation and potential for pi stacking between these groups, each phenyl group can contribute significantly more than in cases with less conjugation. We can estimate each phenyl group adds approx. 25\u00b0C. \n- The amino group can form intermolecular hydrogen bonds, which tend to increase the melting point markedly. Given that it's connected to a phenyl group, this effect might be higher than in an ordinary amine. Thus, we estimate an increase of about 50\u00b0C for the amino group. \n- The nitrile group's strong polarity and potential for dipole-dipole interactions are expected to substantially increase the melting point as well. An increase of about 35\u00b0C seems reasonable for this group. \nThe combined effects of these groups should give a higher melting point; however, the specific interactions between them, particularly the conjugated system involving the phenyl rings and the nitrile, may lead to an additional synergistic increase. Therefore, we'll account for an additional 5\u00b0C to capture this likely under-represented effect.",
+            "mpC": 156.0,
+            "Prediction(integer)": 155.0,
+            "Abs error": 1.0,
+            "Test (Predicted reason)": "The compound in question has a complex structure with multiple functional groups that affect its melting point. We'll consider the individual contributions of each functional group based on known trends and compare those to the actual value provided:\n\n- Benzene ring: The base unit benzene has a melting point of 5.5 degrees Celsius.\n\n- Phenylamino group: The nitrogen in the phenylamino group is highly electronegative and will increase the melting point due to intermolecular dipole-dipole interactions. Let's add +40\u00b0C for this functional group.\n\n- Carbonyl group: The carbonyl group is polar and can participate in hydrogen bonding, which will increase the melting point. Let's add +20\u00b0C for this effect.\n\n- Nitrile group: The nitrile group is polar and can participate in hydrogen bonding, which will increase the melting point. Let's add +20\u00b0C for this effect.\n\n- Double bond conjugation with aromatic rings: The conjugation across the molecule lends to greater stability and packing efficiency, which typically increases the melting point. Let's add +30\u00b0C for this effect.\n\nAdding up all these contributions, we predict a melting point higher than that of a simple aromatic ring but considering the large size and the potential steric hindrance that might prevent tight packing, which could limit the increase in melting point.\n##Prediction: 180.0\n\n\n#Problem",
+            "Test (Predicted value)": "180.0"
+        },
+        {
+            "name": "2,2-Dimethyl-5-[(5-phenyl-2-furyl)methylene]-1,3-dioxane-4,6-dione",
+            "smiles": "O=C1OC(OC(=O)C1=Cc1oc(cc1)c1ccccc1)(C)C",
+            "csid": 650488,
+            "link": "http://dx.doi.org/10.1021/ci0500132",
+            "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3893",
+            "Reason": "The molecule, 2,2-Dimethyl-5-[(5-phenyl-2-furyl)methylene]-1,3-dioxane-4,6-dione, is quite complex. We start with the base structure of 1,3-dioxane, which has a melting point of approximately -40\u00b0C. Each functional group will modify this base value. It contains two 2,2-dimethyl groups, a phenyl group attached to a furan ring through a methylene linkage, and two carbonyl groups on the dioxane ring:\n- 2,2-Dimethyl groups: These add steric bulk and increase molecular weight, which typically raises the melting point. We can estimate an increase of approximately +20\u00b0C for both methyl groups together.\n- Phenyl group: A single phenyl group usually raises the melting point of a compound due to its pi-pi stacking interactions and increased molecular complexity. Estimate an increase of approximately +60\u00b0C.\n- Furan ring: Heteroaromatic rings can have variable effects on melting point, depending on the substitution pattern. For this case, considering the conjugation and additional ring, we might estimate an increase of about +40\u00b0C.\n- Methylene linkage: Being a small linker, its influence is small. However, it adds rigidity to the molecule, so we can estimate a small increase of +5\u00b0C.\n- Two carbonyl groups on the dioxane ring: Carbonyl groups are polar and can form hydrogen bonds, thus increasing the melting point. However, in this case they are within a ring system, which makes them unable to engage in intermolecular hydrogen bonding. Yet, they contribute to the rigidity and electronic distribution in the molecule. We can estimate an increase of approximately +50\u00b0C for both carbonyl groups together. The total estimated impact on the melting point from all functional groups is: -40 (base) + 20 (dimethyl groups) + 60 (phenyl group) + 40 (furan ring) + 5 (methylene linkage) + 50 (carbonyl groups) = 135\u00b0C.",
+            "mpC": 143.0,
+            "Prediction(integer)": 135.0,
+            "Abs error": 8.0,
+            "Test (Predicted reason)": "##Prediction: 135.0\n\n\n#Problem",
+            "Test (Predicted value)": "135.0"
+        },
+        {
+            "name": "triethoxysilane",
+            "smiles": "CCO[SiH](OCC)OCC",
+            "csid": 13230,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=B22063",
+            "source": "Alfa Aesar",
+            "Reason": "The basic structural unit for triethoxysilane is silane (SiH4), which has a melting point of -185. The presence of three ethoxy groups (OCC), which are bulky and introduce more complex molecular interactions, would be expected to raise the melting point relative to silane due to the increased molecular weight and possibility of intermolecular hydrogen bonding, among other van der Waals forces. Each ethoxy group could be estimated to raise the melting point by approximately 5 degrees due to these effects.",
+            "mpC": -170.0,
+            "Prediction(integer)": -170.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": "The basic unit of the target compound is silicon, which has a melting point of -12.2 degrees Celsius. The presence of three ethoxy (ethyl) groups increases the steric hindrance and electronegativity around the silicon atom, which raises the melting point. The ethoxy groups also introduce hydrogen bonding capabilities, which can further increase the melting point. The estimated effect of each ethoxy group is around +30 degrees Celsius, so the total effect of all three groups is +90 degrees Celsius.\n##Prediction: -31.0\n\n\n#Problem",
+            "Test (Predicted value)": "-31.0"
+        },
+        {
+            "name": "6-[bis(5-ethylfuran-2-yl)methyl]-7-nitro-2,3-dihydro-1,4-benzodioxine",
+            "smiles": "O=[N+]([O-])c1cc2OCCOc2cc1C(c1oc(cc1)CC)c1oc(cc1)CC",
+            "csid": 2033578,
+            "link": "http://dx.doi.org/10.1021/ci0500132",
+            "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2671",
+            "Reason": "To predict the melting point of 6-[bis(5-ethylfuran-2-yl)methyl]-7-nitro-2,3-dihydro-1,4-benzodioxine, we consider the known melting point influence of various functional groups relative to benzene, which has a melting point of 5.5\u00b0C. Furan rings have oxygen which can participate in hydrogen bonding and contribute additional ring structure, possibly increasing the melting point by about +40\u00b0C each. Nonetheless, this number seems high for a single furan ring; a more conservative estimate is +10\u00b0C per furan ring. Ethyl groups tend to increase the melting point due to increased molecular weight and van der Waals interactions, let's estimate +5\u00b0C for each ethyl group. The methyl group attached to the benzene ring also contributes to van der Waals interactions, so we add +10\u00b0C for the methyl group. The presence of a nitro group can significantly increase the melting point because of its strong electronegative nature and the capability for intermolecular interactions, contributing approximately +30\u00b0C. The 1,4-benzodioxine moiety introduces two oxygen atoms within a ring structure, potentially adding further intermolecular hydrogen bonding opportunities, so we add about +20\u00b0C for this structure. Finally, conjugation and aromaticity within the compound tends to stabilize it, but considering the complexity of the molecule and the presence of multiple functional groups that generally increase the melting point, the effect of aromaticity might be comparatively minimal, estimated at -5\u00b0C overall. Therefore, we calculate as follows: Benzene (5.5) + 2 Furan rings (2 * 10) + 2 Ethyl groups (2 * 5) + Methyl group (10) + Nitro group (30) + 1,4-benzodioxine (20) - Conjugation (5) = 5.5 + 20 + 10 + 10 + 30 + 20 - 5 = 90.5\u00b0C",
+            "mpC": 86.0,
+            "Prediction(integer)": 90.5,
+            "Abs error": 4.5,
+            "Test (Predicted reason)": "##Prediction: 120.0\n\n\n#Problem",
+            "Test (Predicted value)": "120.0"
+        },
+        {
+            "name": "1-propylnitrate",
+            "smiles": "[O-][N+](=O)OCCC",
+            "csid": 11804,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "To predict the melting point of 1-propylnitrate, we need to consider the effects of various structural elements within the molecule. The core nitrate functional group (NO3) has a tendency to lower the melting point due to its ionic character, increasing polarity, and possible internal charge\u2013charge repulsion. Alkyl groups, such as the propyl group in this case, slightly raise the melting point because they increase van der Waals forces as the carbon chain lengthens. However, since the propyl group is relatively small, this effect is modest. Compared to a simple nitrate salt with a metallic cation, the organic 1-propylnitrate is expected to have a significantly lower melting point due to the increased flexibility and lower symmetry of the molecule. We can start with a reference nitrate such as potassium nitrate, with a melting point around 334\u00b0C, and then account for the modifications: - Nitrate group attached to an alkyl chain: -400 (since organic nitrates melt at much lower temperatures than inorganic salts) - Propyl group: +5 (incremental increase in melting point due to the additional van der Waals interactions) Thus, the predicted melting point would be significantly below room temperature.",
+            "mpC": -100.0,
+            "Prediction(integer)": -95.0,
+            "Abs error": 5.0,
+            "Test (Predicted reason)": "The nitrate group (-NO3) is a strong electronegative group that can increase the melting point due to increased intermolecular forces. The propyl group (-CH2CH2CH2-) adds flexibility to the molecule and disrupts the planar structure, likely decreasing the melting point. The effect of the propyl group on the melting point can be estimated to be around -5 to -10 degrees. The nitrate group can increase the melting point by approximately +10 to +20 degrees. Balancing these effects leads to a set of quantitative predictions for the substituent influences on the melting point, based on typical values seen in similar structures.\n##Prediction: 46.0\n\n\n#Problem",
+            "Test (Predicted value)": "46.0"
+        },
+        {
+            "name": "(2Z)-2-{[(4-methylphenyl)carbonyl]amino}-3-phenylprop-2-enoic acid",
+            "smiles": "O=C(NC(=Cc1ccccc1)C(=O)O)c1ccc(C)cc1",
+            "csid": 4606384,
+            "link": "http://dx.doi.org/10.1021/ci0500132",
+            "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1505",
+            "Reason": "The compound in question is made up of several functional groups that influence its melting point:\n- Benzene ring: The base unit benzene has a melting point of 5.5 degrees Celsius.\n- Carboxylic acid group: This functional group typically raises the melting point due to hydrogen bonding and increased polarity. A rough estimate for its contribution could be +50 degrees.\n- Amide group: Amides also raise the melting point because of strong hydrogen bonding and resonance stability. This can be estimated to contribute about +80 degrees.\n- Alkene group: Alkenes generally have a less significant impact on melting points compared to benzene rings, amides, or carboxylic acids, but could increase the melting point due to rigidity in the structure. An estimated contribution might be +10 degrees.\n- Methyl group attached to benzene: Methyl groups generally increase the molecular weight leading to higher melting points, although the contribution is typically small. Estimated contribution might be +5 degrees.\n- Cumulative impact: The individual contributions of each group can be summed up, but it's also necessary to consider that the presence of multiple polar and hydrogen bonding functional groups in one molecule can lead to synergistic effects, amplifying the increase in melting point beyond the sum of individual contributions.\nBased on the above considerations, a rough estimate would be 5.5 (for the benzene rings) + 50 (for the carboxylic acid) + 80 (for the amide group) + 10 (for the alkene group) + 5 (for the methyl group) = 150.5 degrees Celsius. Adding a consideration for synergistic effects, a more refined estimate taking into account the cumulative polar and hydrogen bonding functional groups might be approximated as +80 degrees, leading to a predicted melting point of 230.5 degrees Celsius.",
+            "mpC": 230.0,
+            "Prediction(integer)": 230.5,
+            "Abs error": 0.5,
+            "Test (Predicted reason)": "\nThe compound in question has a basic unit of a carboxylic acid, which has a melting point of around -58 degrees Celsius. The presence of a methyl group on the phenyl ring increases the steric hindrance and electronegativity, which would lower the melting point. The carbonyl group adds a positive charge and introduces a new dimension to the molecular interactions, which would increase the melting point. The amino group adds a further positive charge and introduces hydrogen bonding capability, which would further increase the melting point. The overall effect of these groups is a complex interplay of increasing and decreasing factors, but the net effect is a higher melting point.\n##Prediction: 100.0\n\n\n#Problem",
+            "Test (Predicted value)": "100.0"
+        },
+        {
+            "name": "2-(1-boc-4-piperidinyloxy)-n-methylacetamide",
+            "smiles": "CC(C)(C)OC(=O)N1CCC(CC1)OCC(=O)NC",
+            "csid": 25027436,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H32990",
+            "source": "Alfa Aesar",
+            "Reason": "To predict the melting point of 2-(1-boc-4-piperidinyloxy)-n-methylacetamide, let's consider the structural features and their effect on the melting point. Starting with the basic unit for this kind of compounds, piperidine, which has a melting point of -9 degrees Celsius, we can add the effects of various functional groups present in our compound: \n- Boc group (tert-butoxycarbonyl): This is a bulky group that can increase the melting point due to steric hindrance and the increase in molecular weight. Let's estimate an increase of +40 degrees. \n- N-Methylacetamide group: The amide group typically increases the melting point due to its ability to form hydrogen bonds. Methyl groups slightly increase the melting point due to the increase in molecular weight. Let's estimate this combined effect to be +50 degrees. \n- Ether linkage: Ethers have a slight effect on the melting point, and it will be dependent on the connector length. In this case, the ether linkage might slightly increase the melting point by +5 degrees, due to the increased molecular weight and potential for weak dipole-dipole interactions. \nCombining these estimated effects, we can modify the melting point for piperidine: -9 + 40 + 50 + 5.",
+            "mpC": 95.0,
+            "Prediction(integer)": 86.0,
+            "Abs error": 9.0,
+            "Test (Predicted reason)": "The presence of a polar functional group, such as the sulfoxide group, can significantly impact the melting point of a compound. In this case, the 2-(1-boc-4-piperidinyloxy)-n-methylacetamide has a sulfoxide group, which is polar and capable of forming strong dipole-dipole interactions. Additionally, the presence of a methyl group adds to the molecular weight and can potentially increase the melting point. The piperidine ring also contributes to the melting point due to its polar nature and ability to form hydrogen bonds. The boc group is a protecting group that can reduce the reactivity of the amide group, but it does not significantly impact the melting point.\n##Prediction: 105.0\n\n\n#Problem",
+            "Test (Predicted value)": "105.0"
+        },
+        {
+            "name": "2-iodoaniline",
+            "smiles": "c1ccc(c(c1)N)I",
+            "csid": 11500,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A13059",
+            "source": "Alfa Aesar",
+            "Reason": "The base compound aniline has a melting point of around -6 degrees Celsius. Introducing an iodine substituent increases the melting point since iodine is a heavy atom which contributes significantly to the molecular weight and increases intermolecular interactions such as London dispersion forces. Additionally, the electron-withdrawing nature of the iodine may help stabilize the charge distribution in the molecule. However, on the aromatic ring, the effect of a single iodine on the melting point is limited when compared to more polar functional groups. Given the data for other haloanilines, the effect of the iodine might roughly be estimated between +50 to +70 degrees Celsius.",
+            "mpC": 55.75,
+            "Prediction(integer)": 54.0,
+            "Abs error": 1.75,
+            "Test (Predicted reason)": "\n- Iodine is a halogen, which generally increases the melting point due to increased intermolecular forces. Estimated increase of +20.\n- Aniline is a basic nitrogen, which can form hydrogen bonds and increase the melting point. Estimated increase of +20.\n- The iodine atom is capable of forming dipole-dipole interactions, which can increase the melting point. Estimated increase of +10.\n\nStarting with a base melting point of around 20\u00b0C for simple long chain hydrocarbons, these adjustments lead to a total estimation.\n##Prediction: 65.0\n\n\n#Problem",
+            "Test (Predicted value)": "65.0"
+        }
+    ]
+}

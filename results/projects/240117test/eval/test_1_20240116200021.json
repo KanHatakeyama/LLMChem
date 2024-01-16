@@ -1,0 +1,73 @@
+{
+    "MSE": 2874.4,
+    "MAE": 51.6,
+    "R2": -1.2183120330925483,
+    "Answer ratio": 1.0,
+    "plot": [
+        {
+            "name": "4-methoxy-3-nitrobenzaldehyde",
+            "smiles": "COc1ccc(cc1[N+](=O)[O-])C=O",
+            "csid": 610566,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A17081",
+            "source": "Alfa Aesar",
+            "Reason": "To predict the melting point of 4-methoxy-3-nitrobenzaldehyde, it's important to assess the individual contributions of the functional groups present in the molecule in relation to the base structure of benzene, which has a melting point of 5.5\u00b0C. The methoxy group, being an electron-donating group, is generally expected to lower the melting point as it will partly disrupt the \u03c0-cloud, leading to slightly less effective aromatic stacking and therefore promoting more molecular fluidity. However, the actual effect of a methoxy group on the melting point in aromatic compounds can be variable, and without precise data, it is challenging to predict its exact influence numerically. The nitro group, on the other hand, significantly increases the melting point due to its strong electron-withdrawing nature which contributes to the polarity of the molecule, enhancing intermolecular forces, mainly through dipole-dipole interactions. This effect generally results in a substantial increase in the melting point. Lastly, the aldehyde group, with its ability to form weaker dipole-dipole interactions compared to strong nitro groups, also contributes to an increase in the melting point, though to a lesser extent than the nitro group. Given these considerations and the discrepancy between the actual melting point (99.0\u00b0C) and the predicted (63.5\u00b0C), it is evident that the methoxy group does not lower the melting point as significantly as initially estimated, and its actual numerical influence must be reconsidered. Similarly, the effects of the nitro and aldehyde groups must be recalibrated to accurately reflect their combined influence on the melting point.",
+            "mpC": 99.0,
+            "Prediction(integer)": 105.0,
+            "Abs error": 6.0,
+            "Test (Predicted reason)": "The functional groups in this molecule are:\n\n- Benzene ring: The base unit benzene has a melting point of 5.5 degrees Celsius.\n\n- Methoxy group: Methoxy groups typically raise the melting point due to increased polarity and hydrogen bonding. A rough estimate for its contribution could be +20 degrees.\n\n- Nitro group: Nitro groups are highly electronegative and will increase the melting point due to intermolecular dipole-dipole interactions. We'll add +40 degrees for this functional group.\n\n- Aldehyde group: Aldehydes are known to increase the melting point due to increased polarity and hydrogen bonding. Let's add +30 degrees for this effect.\n\nAdding up all these contributions, we predict a melting point higher than that of a simple aromatic ring but considering the large size and the potential steric hindrance that might prevent tight packing, which could limit the increase in melting point.\n##Prediction: 130.0\n\n\n#Problem",
+            "Test (Predicted value)": "130.0"
+        },
+        {
+            "name": "1,2,3,4,6-Pentakis-O-{3,4-dihydroxy-5-[(3,4,5-trihydroxybenzoyl)oxy]benzoyl}-beta-D-glucopyranose",
+            "smiles": "O=C(O[C@@H]9O[C@H](COC(=O)c2cc(O)c(O)c(OC(=O)c1cc(O)c(O)c(O)c1)c2)[C@@H](OC(=O)c4cc(O)c(O)c(OC(=O)c3cc(O)c(O)c(O)c3)c4)[C@H](OC(=O)c6cc(O)c(O)c(OC(=O)c5cc(O)c(O)c(O)c5)c6)[C@H]9OC(=O)c8cc(O)c(O)c(OC(=O)c7cc(O)c(O)c(O)c7)c8)c%11cc(O)c(O)c(OC(=O)c%10cc(O)c(O)c(O)c%10)c%11",
+            "csid": 17286569,
+            "link": "http://msds.chem.ox.ac.uk/",
+            "source": "academic website",
+            "Reason": "The target compound is a complex polyphenolic molecule. The basic unit we can consider as a reference is glucose, which alone has a melting point of about 146 degrees Celsius. Multiple aromatic rings (phenyl groups) are generally expected to increase the melting point due to increased \u03c0-\u03c0 interactions and a more rigid structure, by about +20 degrees each. However, the presence of hydroxy (-OH) and ester (COOC) groups, which introduce hydrogen bonding, will further increase the melting point. The effects of these groups are not strictly additive, but a rough estimation for each hydroxy group could be +5 degrees and for each ester group could also be around +5 degrees. The molecule has numerous such groups, but because of sterics and potential internal hydrogen bonding, the actual contribution may be less than the sum of individual effects. It's also a very large molecule which decreases volatility and increases the melting point. An estimation of the overall effect for such a complex molecule is inevitably rough, but given the large number of functional groups, an incremental increase of about +2 degrees per functional group (hydroxy or ester) might be a conservative estimation to account for both increases due to hydrogen bonding and rigid structure, and decreases due to steric hindrance and potential internal hydrogen bonding that do not contribute to melting point.",
+            "mpC": 210.0,
+            "Prediction(integer)": 206.0,
+            "Abs error": 4.0,
+            "Test (Predicted reason)": "The molecule has a complex structure with multiple functional groups, including a sugar backbone, a phenolic hydroxyl group, a carboxylic acid group, and a methyl ester group. The sugar backbone has a melting point of around -20\u00b0C, while the other functional groups contribute to the melting point as follows:\n- Phenolic hydroxyl group: A single phenolic hydroxyl group usually raises the melting point of a compound due to its pi-pi stacking interactions and increased molecular complexity. Estimate an increase of approximately +60\u00b0C.\n- Carboxylic acid group: A carboxylic acid group can increase the melting point due to its polarity and ability to form hydrogen bonds. Estimate an increase of approximately +40\u00b0C.\n- Methyl ester group: A methyl ester group can increase the melting point due to its rigidity and steric hindrance. Estimate an increase of approximately +20\u00b0C.\n- Sugar backbone: The sugar backbone has a melting point of around -20\u00b0C.\n##Prediction: 135.0\n\n\n#Problem",
+            "Test (Predicted value)": "135.0"
+        },
+        {
+            "name": "3-hydroxy-2-methyl-4-pyrone",
+            "smiles": "Cc1c(c(=O)cco1)O",
+            "csid": 8066,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A10735",
+            "source": "Alfa Aesar",
+            "Reason": "The compound 3-hydroxy-2-methyl-4-pyrone has the pyrone ring as a base structure, which closely resembles pyridine and has a melting point of approximately 115 \u00b0C. The presence of a hydroxyl (-OH) group increases the compound's capability for hydrogen bonding, typically raising the melting point. Normally, the effect of a single hydroxyl group in an aromatic compound can increase the melting point by around +30 \u00b0C due to hydrogen bonding possibilities. The keto group (=O) also contributes to hydrogen bonding and increases the rigidity of the structure, which usually raises the melting point by about +20 \u00b0C. The methyl group (\u2013CH3) adds a slight steric bulk, possibly increasing the melting point by a small amount, around +5 \u00b0C. Taking into account the individual contributions from the functional groups, the predicted melting point can be calculated.",
+            "mpC": 163.0,
+            "Prediction(integer)": 155.0,
+            "Abs error": 8.0,
+            "Test (Predicted reason)": "The base structure is a simple ketone, which has a melting point of around 120 degrees Celsius. The hydroxyl group (-OH) adds a hydrogen bond acceptor, which increases the melting point. The methyl group (-CH3) adds bulkiness and steric hindrance, which also increases the melting point. The pyrone ring adds aromaticity, which further increases the melting point. The overall effect of these groups is estimated to be +100 degrees Celsius.\n##Prediction: 220.0\n\n\n#Problem",
+            "Test (Predicted value)": "220.0"
+        },
+        {
+            "name": "2,2'-(4,6-dinitrobenzene-1,3-diyl)bis(1-phenylethanone)",
+            "smiles": "O=[N+]([O-])c1cc([N+](=O)[O-])c(cc1CC(=O)c1ccccc1)CC(=O)c1ccccc1",
+            "csid": 2030293,
+            "link": "http://dx.doi.org/10.1021/ci0500132",
+            "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-3419",
+            "Reason": "The compound 2,2'-(4,6-dinitrobenzene-1,3-diyl)bis(1-phenylethanone) contains a complex array of functional groups. Starting with benzene as the base unit (5.5 \u00b0C), the presence of each nitro group is known to significantly increase the melting point, typically by approximately +25 \u00b0C due to strong electron-withdrawing effects and resonance stability. There are two benzoyl groups attached to the benzene ring, each of which can be estimated to increase the melting point by about +20 \u00b0C due to their ability to increase molecular rigidity and planarity. The central bis(phenylethanone) structure contributes to molecular rigidity, which is substantial in this case, so we can estimate an additional +30 \u00b0C. However, considering the actual melting point is 171.0 \u00b0C, our estimates must be calibrated to reflect the real value.",
+            "mpC": 171.0,
+            "Prediction(integer)": 171.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": "##Prediction: 120.0\n\n\n#Problem",
+            "Test (Predicted value)": "120.0"
+        },
+        {
+            "name": "ethyl 5-(1,3-benzothiazol-2-yl)-6-imino-4-methyl-1-phenyl-1,6-dihydropyridazine-3-carboxylate",
+            "smiles": "s1c2ccccc2[nH0]c1C=1C(=N)N(N=C(C=1C)C(=O)OCC)c1ccccc1",
+            "csid": 10483947,
+            "link": "http://dx.doi.org/10.1021/ci0500132",
+            "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-719",
+            "Reason": "The target compound is a complex molecule with multiple functional groups that influence its melting point. The basic unit we can consider is benzene, which has a melting point of 5.5\u00b0C. The following functional groups and structural features will modify this value:\n- Benzothiazole group: +80\u00b0C, as incorporation of nitrogen and sulfur atoms into the aromatic ring increases the rigidity and introduces additional polar character, which stabilizes the crystal lattice.\n- Imino group: +20\u00b0C, due to increased hydrogen bonding potential and the introduction of nitrogen leading to a more polar compound.\n- Methyl group: +5\u00b0C, slightly increases the molecular weight and adds minimal steric hindrance.\n- Phenyl group: +30\u00b0C, significantly increases the molecular weight and enhances \u03c0-\u03c0 interactions between aromatic rings.\n- Pyridazine ring: +40\u00b0C, adds rigidity and nitrogen atoms increase the polar character.\n- Carboxylate ester: +10\u00b0C, contributes to polarity and potential for dipole-dipole interactions.\n- Cumulative effect: 5.5 + 80 + 20 + 5 + 30 + 40 + 10 = 190.5\u00b0C\nHowever, this cumulative effect likely overestimates the actual value due to potential steric hindrance reducing the overall symmetry and packing efficiency in the solid state, so we adjust downward by approximately 40\u00b0C.",
+            "mpC": 148.0,
+            "Prediction(integer)": 150.0,
+            "Abs error": 2.0,
+            "Test (Predicted reason)": "The molecule has a complex structure with multiple functional groups, including a thiazole ring, a phenyl group, a methyl group, a carboxylate group, and an imino group. Each of these groups can contribute to the melting point of the molecule. For example, the thiazole ring is typically associated with a higher melting point due to its planarity and the pi-pi interactions between the ring and other molecules in the solid state. The phenyl group can also contribute to the melting point due to its electron-withdrawing nature and the increased molecular volume. The methyl group can decrease the melting point due to its small size and low polarity. The carboxylate group can also contribute to the melting point due to its polarity and the increased molecular weight. The imino group can also contribute to the melting point due to its electron-donating nature and the increased molecular volume.\n##Prediction: 104.0\n\n\n#Problem",
+            "Test (Predicted value)": "104.0"
+        }
+    ]
+}
