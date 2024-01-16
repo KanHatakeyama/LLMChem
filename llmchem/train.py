@@ -1,13 +1,15 @@
 import transformers
 from datetime import datetime
 from .dataset import tokenize_dataset,gen_train_text
+import json
 
 def train_model(model,tokenizer,dataset,
+                project_dir="",
                 epochs=3,
                 lr=10**-5,
                 per_device_train_batch_size=1,
                 gradient_checkpointing=False,
-
+                generation=0,
                 ):
     tokenized_dataset = tokenize_dataset(gen_train_text(dataset), tokenizer)
 
@@ -21,7 +23,7 @@ def train_model(model,tokenizer,dataset,
             fp16=True,
             logging_steps=100,
             save_total_limit=1,
-            output_dir='outputs/'+datetime.now().strftime('%Y%m%d%H%M%S'),
+            output_dir=f'outputs/{generation}_'+datetime.now().strftime('%Y%m%d%H%M%S'),
             gradient_checkpointing=gradient_checkpointing,
         )
 
@@ -40,4 +42,7 @@ def train_model(model,tokenizer,dataset,
 
     train_result = trainer.train()
 
+    if project_dir!="":
+        with open(f"{project_dir}/train/{datetime.now().strftime('%Y%m%d%H%M%S')}.json","w") as f:
+            json.dump(train_result,f,indent=4)
     return train_result

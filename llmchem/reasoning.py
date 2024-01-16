@@ -9,6 +9,7 @@ import copy
 
 
 def self_reasoning(model,tokenizer,dataset,prompt_dataset,save_dir,
+    generation=0,
     n_iterations=100,
     n_max_trials=4,  # 値を返さなかったときの再試行の最大数
     error_threshold=30, #結果を保存する許容誤差
@@ -27,11 +28,12 @@ def self_reasoning(model,tokenizer,dataset,prompt_dataset,save_dir,
                                                 n_prompt_examples=n_prompt_examples,
                                                 prompt_dataset=prompt_dataset,
                                                )
-                reason,value=ask_value(prompt,model,tokenizer)
+                output,value=ask_value(prompt,model,tokenizer)
             except Exception as e:
                 print(e)
                 continue
-
+            
+            reason=clean_output(output)
             if len(reason)<30:
                 continue
 
@@ -51,8 +53,18 @@ def self_reasoning(model,tokenizer,dataset,prompt_dataset,save_dir,
 
                 
                 if err<error_threshold:
-                    save_path=save_dir+f"/{datetime.now().strftime('%Y%m%d%H%M%S')}.json"
+                    save_path=save_dir+f"/self_reasoning/{generation}_{datetime.now().strftime('%Y%m%d%H%M%S')}.json"
                     with open(save_path,"w") as f:
                         json.dump(record,f,indent=4)
 
                     break
+
+def clean_output(gen_reason):
+    for tag in [
+        "##Prediction","#Prediction"
+                ]:
+        if gen_reason.find(tag)>0:
+            gen_reason=gen_reason.split(tag)[0]
+    gen_reason=gen_reason.strip()
+
+    return gen_reason
