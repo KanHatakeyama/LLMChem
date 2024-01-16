@@ -51,7 +51,7 @@ def generate_question_prompt(dataset,
     return prompt
 
 
-def prepare_dataset(context_list, tokenizer):
+def tokenize_dataset(context_list, tokenizer):
     data_list = [{"text": i} for i in context_list]
     random.shuffle(data_list)
 
@@ -62,3 +62,14 @@ def prepare_dataset(context_list, tokenizer):
         samples['text']), batched=True)
 
     return dataset
+
+
+def gen_train_text(dataset):
+    train_text_list=[]
+    for id in range(len(dataset)):
+        prompt=gen_compound_text(dataset[id],
+                                    reason=dataset[id]["Reason"],
+                                    prediction=dataset[id]["Prediction(integer)"])
+        train_text_list.append(prompt)
+
+    return train_text_list
