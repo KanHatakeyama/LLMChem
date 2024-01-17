@@ -1,0 +1,86 @@
+{
+    "MSE": 6558.808750000001,
+    "MAE": 64.25833333333334,
+    "R2": -0.49217845659989545,
+    "Answer ratio": 0.6,
+    "plot": [
+        {
+            "name": "benzoic acid, 2-hydroxy-, 2-hydroxyethyl ester",
+            "smiles": "Oc1ccccc1C(=O)OCCO",
+            "csid": 6616,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "Target compound: benzoic acid, 2-hydroxy-, 2-hydroxyethyl ester. Basic unit benzene has a melting point of 5.5\u00b0C. The presence of the carboxylic acid ester functional group typically contributes to a decrease in melting point compared to the parent compound due to less symmetry and weaker intermolecular forces, like hydrogen bonding, which might decrease the melting point by approximately -20 to -40\u00b0C. Each of the two hydroxy groups contributes to an increase in melting point due to increased hydrogen bonding capability. The hydroxy group on the benzene can raise the melting point by about 50 to 80\u00b0C because it participates in strong intermolecular hydrogen bonds due to its position on the rigid benzene ring. In contrast, the hydroxy group on the ethyl chain might contribute a smaller increase because of its greater rotational freedom and the flexibility of the chain, potentially around 20-40\u00b0C. Taken together, the net effect of the two hydroxy groups could be estimated to increase the melting point by 70 to 120\u00b0C.",
+            "mpC": 37.0,
+            "Prediction(integer)": 37.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": "\nThe compound has a melting point of 37\u00b0C, which is lower than the predicted value of 230.5\u00b0C for the same compound with a base melting point of 20\u00b0C. This discrepancy can be attributed to the following factors:\n\n1. Incorrect functional groups: The SMILES string provided does not include the ester functional group, which is present in the molecule. The presence of this group can significantly lower the melting point due to the weaker intermolecular forces compared to the parent compound.\n2. Incorrect stereochemistry: The SMILES string does not provide information on the stereochemistry of the molecule. The presence of chiral centers can affect the melting point, and the incorrect stereochemistry can lead to an incorrect prediction.\n3. Incorrect molecular weight: The molecular weight of the compound can also affect the melting point. The incorrect molecular weight provided in the SMILES string can lead to an incorrect prediction.\n\nTo correct these errors, the correct SMILES string for the compound should include the ester functional group, and the stereochemistry should be taken into account. The molecular weight should also be corrected to the actual value. After making these corrections, the predicted melting point for the compound can be recalculated.\n##Prediction: 120.0\n\n\n#Problem",
+            "Test (Predicted value)": "120.0"
+        },
+        {
+            "name": "m-diethenylbenzene",
+            "smiles": "C=Cc1cccc(C=C)c1",
+            "csid": 7653,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "The target compound, m-diethenylbenzene, has as its basic unit benzene, which has a melting point of 5.5 degrees Celsius. The two ethenyl (vinyl) groups each introduce additional steric hindrance and electron donating ability via their alkene double bond, which typically decreases the melting point since they disrupt the crystal lattice and lower intermolecular attractions. However, the release of ring strain that comes with substitution at the meta positions tends to raise melting points. Nonetheless, the overall effect of the vinyl groups is more significant in this case. Estimating the influence of each vinyl group to be a decrease of around 30 degrees Celsius, we get a combined shift of -60 degrees Celsius.",
+            "mpC": -52.3,
+            "Prediction(integer)": -54.5,
+            "Abs error": 2.200000000000003,
+            "Test (Predicted reason)": "##Prediction: 105.0\n\n\n#Problem",
+            "Test (Predicted value)": "105.0"
+        },
+        {
+            "name": "pyrinoline",
+            "smiles": "OC(C1=CC(C=C1)=C(c2ccccn2)c3ccccn3)(c4ccccn4)c5ccccn5",
+            "csid": 2314542,
+            "link": "http://dx.doi.org/10.1021/ci020280x",
+            "source": "Bergstrom C. A. S.; Norinder U.; Luthman K.; Artursson P. Molecular Descriptors Influencing Melting Point and Their Role in Classification of Solid Drugs. J. Chem. Inf. Comput. Sci.; (Article); 2003; 43(4); 1177-1432",
+            "Reason": "The compound pyridinoline has a structure composed of a hexane-1,6-diol core with four pyridine rings attached to the alpha carbon atoms. Each pyridine ring can be expected to increase the melting point due to the presence of nitrogen, which introduces both inductive and resonance stabilization that increases intermolecular forces such as hydrogen bonding and dipole-dipole interactions. However, the flexible linkages introduced by the hexane-1,6-diol may slightly decrease the melting point because they reduce the planarity and potential packing efficiency of the molecule. Starting with a base value for hexane-1,6-diol around 42 degrees Celsius (as a rough approximation considering butane-1,4-diol has a melting point at 20 degrees Celsius and accounting for the extra two carbons), the addition of four pyridine rings each might introduce an increase of approximately 25 degrees Celsius, due to their aromatic character and ability to participate in \u03c0-\u03c0 stacking. Therefore, the estimated shift would be 42 (base) + 4(25) (pyridine contributions) - 5 (flexibility adjustment).",
+            "mpC": 147.0,
+            "Prediction(integer)": 147.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": "##Prediction: 120.0\n\n\n#Problem",
+            "Test (Predicted value)": "120.0"
+        },
+        {
+            "name": "Dibenzyl Sulfoxide",
+            "smiles": "[S+]([O-])(Cc1ccccc1)Cc1ccccc1",
+            "csid": 11618,
+            "link": "http://dx.doi.org/10.1021/ci0500132",
+            "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4509",
+            "Reason": "The melting point of a compound is influenced by various factors such as the molecular weight, symmetry, intermolecular forces, and polarity. Dibenzyl Sulfoxide's base structure is the sulfoxide group (SO), which contributes to the melting point due to its polar nature and capability to form strong dipole-dipole interactions. The presence of two benzyl groups adds to the molecular weight significantly and provides some symmetry, possibly influencing the melting point positively. Each benzyl group also includes a phenyl ring that can engage in pi-pi interactions, adding to the overall stabilization of the solid state. However, it should be noted that compared to a single benzene, the presence of the sulfoxide group along with two additional phenyl rings adds substantial steric bulk and polarity which would increase the melting point significantly. Using benzene as a base (having a melting point of 5.5C), the addition of the sulfoxide group could raise the melting point significantly, estimated here as approximately +80C. Each additional benzyl group, due to the increased molecular weight and potential for pi-pi stacking, could add roughly +25C to the melting point. Therefore, the collective effect of each group must be considered synergistically, rather than additively, due to the complex interplay of implied intermolecular interactions.",
+            "mpC": 133.0,
+            "Prediction(integer)": 133.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": "##Prediction: 133.0\n\n\n#Problem",
+            "Test (Predicted value)": "133.0"
+        },
+        {
+            "name": "6-[bis(5-ethylfuran-2-yl)methyl]-7-nitro-2,3-dihydro-1,4-benzodioxine",
+            "smiles": "O=[N+]([O-])c1cc2OCCOc2cc1C(c1oc(cc1)CC)c1oc(cc1)CC",
+            "csid": 2033578,
+            "link": "http://dx.doi.org/10.1021/ci0500132",
+            "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-2671",
+            "Reason": "To predict the melting point of 6-[bis(5-ethylfuran-2-yl)methyl]-7-nitro-2,3-dihydro-1,4-benzodioxine, we consider the known melting point influence of various functional groups relative to benzene, which has a melting point of 5.5\u00b0C. Furan rings have oxygen which can participate in hydrogen bonding and contribute additional ring structure, possibly increasing the melting point by about +40\u00b0C each. Nonetheless, this number seems high for a single furan ring; a more conservative estimate is +10\u00b0C per furan ring. Ethyl groups tend to increase the melting point due to increased molecular weight and van der Waals interactions, let's estimate +5\u00b0C for each ethyl group. The methyl group attached to the benzene ring also contributes to van der Waals interactions, so we add +10\u00b0C for the methyl group. The presence of a nitro group can significantly increase the melting point because of its strong electronegative nature and the capability for intermolecular interactions, contributing approximately +30\u00b0C. The 1,4-benzodioxine moiety introduces two oxygen atoms within a ring structure, potentially adding further intermolecular hydrogen bonding opportunities, so we add about +20\u00b0C for this structure. Finally, conjugation and aromaticity within the compound tends to stabilize it, but considering the complexity of the molecule and the presence of multiple functional groups that generally increase the melting point, the effect of aromaticity might be comparatively minimal, estimated at -5\u00b0C overall. Therefore, we calculate as follows: Benzene (5.5) + 2 Furan rings (2 * 10) + 2 Ethyl groups (2 * 5) + Methyl group (10) + Nitro group (30) + 1,4-benzodioxine (20) - Conjugation (5) = 5.5 + 20 + 10 + 10 + 30 + 20 - 5 = 90.5\u00b0C",
+            "mpC": 86.0,
+            "Prediction(integer)": 90.5,
+            "Abs error": 4.5,
+            "Test (Predicted reason)": "The molecule, 6-[bis(5-ethylfuran-2-yl)methyl]-7-nitro-2,3-dihydro-1,4-benzodioxine, contains a nitro functional group, which is known to increase the melting point due to its electronegative nature. The ethylfuran moiety is a heterocyclic ring, which can also contribute to the molecule's rigidity and increase the melting point. Additionally, the presence of a benzodioxine ring system and the methyl and nitro functional groups may also affect the melting point.\n##Prediction: 145.0\n\n\n#Problem",
+            "Test (Predicted value)": "145.0"
+        },
+        {
+            "name": "2-iodoaniline",
+            "smiles": "c1ccc(c(c1)N)I",
+            "csid": 11500,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A13059",
+            "source": "Alfa Aesar",
+            "Reason": "The base compound aniline has a melting point of around -6 degrees Celsius. Introducing an iodine substituent increases the melting point since iodine is a heavy atom which contributes significantly to the molecular weight and increases intermolecular interactions such as London dispersion forces. Additionally, the electron-withdrawing nature of the iodine may help stabilize the charge distribution in the molecule. However, on the aromatic ring, the effect of a single iodine on the melting point is limited when compared to more polar functional groups. Given the data for other haloanilines, the effect of the iodine might roughly be estimated between +50 to +70 degrees Celsius.",
+            "mpC": 55.75,
+            "Prediction(integer)": 54.0,
+            "Abs error": 1.75,
+            "Test (Predicted reason)": "- Benzene ring: The base unit benzene has a melting point of 5.5 degrees Celsius.\n- Iodine atom: Iodine atoms are highly polarizable and can participate in hydrogen bonding, which can increase the melting point. A rough estimate for this contribution could be +20 degrees.\n- Aniline group: Aniline functional groups can contribute to hydrogen bonding and increase the melting point due to their electronegativity and polarity. This can be estimated to contribute about +40 degrees.\n- Molecular weight: Iodine is heavier than hydrogen, which can contribute to a higher melting point due to increased molecular weight. An estimated contribution might be +10 degrees.\n- Cumulative impact: The individual contributions of each group can be summed up, but it's also necessary to consider that the presence of multiple polar and hydrogen bonding functional groups in one molecule can lead to synergistic effects, amplifying the increase in melting point beyond the sum of individual contributions.\nBased on the above considerations, a rough estimate would be 5.5 (for the benzene rings) + 20 (for the iodine atom) + 40 (for the aniline group) + 10 (for the molecular weight) = 75 degrees Celsius. Adding a consideration for synergistic effects, a more refined estimate taking into account the cumulative polar and hydrogen bonding functional groups might be approximated as +40 degrees, leading to a predicted melting point of 115 degrees Celsius.\n##Prediction: 115\n\n\n#Problem",
+            "Test (Predicted value)": "115"
+        }
+    ]
+}
