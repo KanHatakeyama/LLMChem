@@ -1,23 +1,2234 @@
 [
     {
-        "mpC": 70.0,
-        "name": "2,3,4,6-tetrachlorophenol",
-        "smiles": "Clc1cc(Cl)c(Cl)c(Cl)c1O",
-        "csid": 5806,
+        "mpC": 116.5,
+        "name": "2,3,4,5-tetrachlorophenol",
+        "smiles": "Clc1c(O)cc(Cl)c(Cl)c1Cl",
+        "csid": 19766,
         "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
         "source": "PHYSPROP",
         "Reason": "",
         "Prediction": ""
     },
     {
-        "mpC": 70.0,
-        "name": "2,3,4,6-tetrachlorophenol",
-        "smiles": "Clc1cc(Cl)c(Cl)c(Cl)c1O",
-        "csid": 5806,
+        "mpC": 116.5,
+        "name": "2,3,4,5-tetrachlorophenol",
+        "smiles": "Clc1c(O)cc(Cl)c(Cl)c1Cl",
+        "csid": 19766,
         "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
         "source": "PHYSPROP",
-        "Reason": "The basic unit for comparison is benzene, which has a melting point of 5.5\u00b0C. Chlorine substituents are electron-withdrawing and increase intermolecular forces such as dipole-dipole interactions, due to increased polarity, which tend to raise the melting point. Each chlorine substituent on the benzene ring can be approximated to raise the melting point by about +40\u00b0C. The hydroxyl group (-OH) is capable of hydrogen bonding, which greatly increases the melting point. We can estimate an increase of about +50\u00b0C for the hydroxyl group. However, there is also a cumulative effect when multiple substituents on the ring not only affect the overall polarity, but also the symmetry and planarity of the molecule, which can lead to more efficient packing in the solid state, potentially enhancing the melting point further beyond the additive effects of individual groups. Clusters of chlorine atoms disrupt the symmetry, which might reduce the overall increase expected from efficient packing. We will consider a slight deduction for the loss of symmetry and steric hindrance between adjacent substituents -5\u00b0C for each adjacent pair of chlorine atoms. Since there are two pairs of adjacent chlorine atoms in 2,3,4,6-tetrachlorophenol, we'll double that deduction. Therefore, the calculation becomes as follows: Benzene (5.5) + 4 Chlorine atoms (4 * 40) + Hydroxyl group (50) - 2 Adjacent Cl pair deductions (2 * -5).",
-        "Prediction": "70.5",
-        "Prediction(integer)": 70.0
+        "Reason": "The melting point of phenol is approximately 40.5 degrees Celsius. Each chloro substituent contributes to raising the melting point by extending the molecular size, increasing van der Waals forces, and enhancing the potential for intermolecular interactions such as dipole-dipole attractions due to the polarity of the C-Cl bond. The presence of the hydroxyl group (OH) also contributes to the melting point through the capacity for hydrogen bonding, which is a strong intermolecular force. For chloro substituents, each may add roughly 15 to 20 degrees Celsius compared to hydrogen. With four chloro substituents, this effect would quadruple. Thus, the increment might be in the range of 60 to 80 degrees Celsius due to the chloro groups. The hydroxyl group can increase the melting point significantly as well, potentially adding an additional 15 to 20 degrees Celsius.",
+        "Prediction": "The predicted melting point would therefore be approximately 40.5 (phenol base) + 60 to 80 (chloro substituents) + 15 to 20 (hydroxyl group) = 115.5 to 140.5 degrees Celsius.",
+        "logprob": [
+            [
+                "{\n",
+                -2.9279307e-05
+            ],
+            [
+                " ",
+                -0.088971645
+            ],
+            [
+                " \"",
+                -1.9361265e-07
+            ],
+            [
+                "Reason",
+                0.0
+            ],
+            [
+                "\":",
+                -0.00034428327
+            ],
+            [
+                " \"",
+                -0.0027866925
+            ],
+            [
+                "The",
+                -0.2511269
+            ],
+            [
+                " melting",
+                -3.4937868
+            ],
+            [
+                " point",
+                -0.0026299963
+            ],
+            [
+                " of",
+                -0.01686071
+            ],
+            [
+                " phen",
+                -1.3901681
+            ],
+            [
+                "ol",
+                -0.00042364356
+            ],
+            [
+                " is",
+                -1.3165834
+            ],
+            [
+                " approximately",
+                -1.3875424
+            ],
+            [
+                " ",
+                -8.76891e-05
+            ],
+            [
+                "40",
+                -1.9692216
+            ],
+            [
+                ".",
+                -0.08470629
+            ],
+            [
+                "5",
+                -0.01960213
+            ],
+            [
+                " degrees",
+                -0.28697106
+            ],
+            [
+                " Celsius",
+                -0.0006772888
+            ],
+            [
+                ".",
+                -0.0072677326
+            ],
+            [
+                " Each",
+                -1.4000474
+            ],
+            [
+                " chlor",
+                -0.80302036
+            ],
+            [
+                "o",
+                -0.00010580806
+            ],
+            [
+                " substit",
+                -0.3099573
+            ],
+            [
+                "uent",
+                -0.00040672027
+            ],
+            [
+                " contributes",
+                -4.3465896
+            ],
+            [
+                " to",
+                -0.05387148
+            ],
+            [
+                " raising",
+                -4.1736593
+            ],
+            [
+                " the",
+                -0.009516062
+            ],
+            [
+                " melting",
+                -0.00059628166
+            ],
+            [
+                " point",
+                -0.00012201976
+            ],
+            [
+                " by",
+                -2.6537478
+            ],
+            [
+                " extending",
+                -11.512247
+            ],
+            [
+                " the",
+                -0.0164403
+            ],
+            [
+                " molecular",
+                -0.48857042
+            ],
+            [
+                " size",
+                -0.9693488
+            ],
+            [
+                ",",
+                -0.21506287
+            ],
+            [
+                " increasing",
+                -0.5423431
+            ],
+            [
+                " van",
+                -2.4759488
+            ],
+            [
+                " der",
+                -0.0009668456
+            ],
+            [
+                " Wa",
+                -0.00019626896
+            ],
+            [
+                "als",
+                -0.0036582681
+            ],
+            [
+                " forces",
+                -0.17328931
+            ],
+            [
+                ",",
+                -0.08072414
+            ],
+            [
+                " and",
+                -0.02877988
+            ],
+            [
+                " enhancing",
+                -0.24016513
+            ],
+            [
+                " the",
+                -0.552867
+            ],
+            [
+                " potential",
+                -2.9257207
+            ],
+            [
+                " for",
+                -0.0009008581
+            ],
+            [
+                " inter",
+                -0.28003898
+            ],
+            [
+                "m",
+                -0.00088276115
+            ],
+            [
+                "olecular",
+                -3.5313153e-06
+            ],
+            [
+                " interactions",
+                -0.44247055
+            ],
+            [
+                " such",
+                -0.79266405
+            ],
+            [
+                " as",
+                -6.6947665e-05
+            ],
+            [
+                " dip",
+                -0.054253202
+            ],
+            [
+                "ole",
+                -0.0015299786
+            ],
+            [
+                "-d",
+                -0.011491151
+            ],
+            [
+                "ip",
+                -3.2855416e-05
+            ],
+            [
+                "ole",
+                -8.299462e-06
+            ],
+            [
+                " attractions",
+                -0.6014812
+            ],
+            [
+                " due",
+                -2.7472465
+            ],
+            [
+                " to",
+                -0.0006552508
+            ],
+            [
+                " the",
+                -0.34695306
+            ],
+            [
+                " polarity",
+                -3.9339468
+            ],
+            [
+                " of",
+                -0.2937112
+            ],
+            [
+                " the",
+                -0.01541242
+            ],
+            [
+                " C",
+                -0.07284703
+            ],
+            [
+                "-",
+                -0.00040838914
+            ],
+            [
+                "Cl",
+                -7.89631e-07
+            ],
+            [
+                " bond",
+                -0.015772032
+            ],
+            [
+                ".",
+                -0.009540267
+            ],
+            [
+                " The",
+                -1.7451165
+            ],
+            [
+                " presence",
+                -1.7252853
+            ],
+            [
+                " of",
+                -4.0246043e-05
+            ],
+            [
+                " the",
+                -1.3263149
+            ],
+            [
+                " hydro",
+                -0.018251903
+            ],
+            [
+                "x",
+                -0.030693213
+            ],
+            [
+                "yl",
+                -4.0007635e-05
+            ],
+            [
+                " group",
+                -0.24407983
+            ],
+            [
+                " (",
+                -1.086964
+            ],
+            [
+                "OH",
+                -0.036373198
+            ],
+            [
+                ")",
+                -0.004251489
+            ],
+            [
+                " also",
+                -0.71015394
+            ],
+            [
+                " contributes",
+                -1.4332573
+            ],
+            [
+                " to",
+                -0.18743846
+            ],
+            [
+                " the",
+                -0.84006464
+            ],
+            [
+                " melting",
+                -0.31383342
+            ],
+            [
+                " point",
+                -6.49212e-05
+            ],
+            [
+                " through",
+                -1.0012596
+            ],
+            [
+                " the",
+                -1.3905418
+            ],
+            [
+                " capacity",
+                -1.6744496
+            ],
+            [
+                " for",
+                -0.04389804
+            ],
+            [
+                " hydrogen",
+                -0.005558163
+            ],
+            [
+                " bonding",
+                -0.007785247
+            ],
+            [
+                ",",
+                -1.4059789
+            ],
+            [
+                " which",
+                -0.04782364
+            ],
+            [
+                " is",
+                -0.49335906
+            ],
+            [
+                " a",
+                -0.06333169
+            ],
+            [
+                " strong",
+                -0.3060046
+            ],
+            [
+                " inter",
+                -0.017507406
+            ],
+            [
+                "m",
+                -5.5980927e-05
+            ],
+            [
+                "olecular",
+                -9.5914154e-05
+            ],
+            [
+                " force",
+                -0.003478551
+            ],
+            [
+                ".",
+                -0.042739604
+            ],
+            [
+                " For",
+                -1.6598327
+            ],
+            [
+                " chlor",
+                -1.4241822
+            ],
+            [
+                "o",
+                -0.11534179
+            ],
+            [
+                " substit",
+                -0.15616876
+            ],
+            [
+                "u",
+                -0.006111044
+            ],
+            [
+                "ents",
+                -1.3856493e-06
+            ],
+            [
+                ",",
+                -0.12330862
+            ],
+            [
+                " each",
+                -2.9912398
+            ],
+            [
+                " may",
+                -0.72854924
+            ],
+            [
+                " add",
+                -1.2583976
+            ],
+            [
+                " roughly",
+                -1.274688
+            ],
+            [
+                " ",
+                -0.39404595
+            ],
+            [
+                "15",
+                -1.2862706
+            ],
+            [
+                " to",
+                -2.6678517
+            ],
+            [
+                " ",
+                -0.01378758
+            ],
+            [
+                "20",
+                -0.017347854
+            ],
+            [
+                " degrees",
+                -0.007629227
+            ],
+            [
+                " Celsius",
+                -0.23819363
+            ],
+            [
+                " compared",
+                -8.296321
+            ],
+            [
+                " to",
+                -0.0073375534
+            ],
+            [
+                " hydrogen",
+                -0.080067106
+            ],
+            [
+                ".",
+                -1.5832818
+            ],
+            [
+                " With",
+                -2.4721837
+            ],
+            [
+                " four",
+                -0.10225086
+            ],
+            [
+                " chlor",
+                -0.016643375
+            ],
+            [
+                "o",
+                -0.027608993
+            ],
+            [
+                " substit",
+                -0.1614635
+            ],
+            [
+                "u",
+                -0.00029935446
+            ],
+            [
+                "ents",
+                -4.3202e-07
+            ],
+            [
+                ",",
+                -0.21424015
+            ],
+            [
+                " this",
+                -0.9662539
+            ],
+            [
+                " effect",
+                -1.6249506
+            ],
+            [
+                " would",
+                -1.4306815
+            ],
+            [
+                " quadr",
+                -6.597374
+            ],
+            [
+                "uple",
+                -0.035805512
+            ],
+            [
+                ".",
+                -0.08222822
+            ],
+            [
+                " Thus",
+                -2.6515183
+            ],
+            [
+                ",",
+                -0.040989008
+            ],
+            [
+                " the",
+                -0.5070276
+            ],
+            [
+                " increment",
+                -4.138538
+            ],
+            [
+                " might",
+                -2.5683908
+            ],
+            [
+                " be",
+                -0.04479047
+            ],
+            [
+                " in",
+                -1.7549616
+            ],
+            [
+                " the",
+                -0.0068939235
+            ],
+            [
+                " range",
+                -0.031357646
+            ],
+            [
+                " of",
+                -0.0016597089
+            ],
+            [
+                " ",
+                -0.0136878695
+            ],
+            [
+                "60",
+                -0.0046493034
+            ],
+            [
+                " to",
+                -0.15341237
+            ],
+            [
+                " ",
+                -7.89631e-07
+            ],
+            [
+                "80",
+                -1.92662e-05
+            ],
+            [
+                " degrees",
+                -0.003634754
+            ],
+            [
+                " Celsius",
+                -0.017063828
+            ],
+            [
+                " due",
+                -2.2942908
+            ],
+            [
+                " to",
+                -0.0022293562
+            ],
+            [
+                " the",
+                -0.4313358
+            ],
+            [
+                " chlor",
+                -0.05584212
+            ],
+            [
+                "o",
+                -0.033727415
+            ],
+            [
+                " groups",
+                -0.3838441
+            ],
+            [
+                ".",
+                -0.23034604
+            ],
+            [
+                " The",
+                -0.48190752
+            ],
+            [
+                " hydro",
+                -0.29967687
+            ],
+            [
+                "x",
+                -0.012166296
+            ],
+            [
+                "yl",
+                -0.00011749002
+            ],
+            [
+                " group",
+                -0.013296346
+            ],
+            [
+                " can",
+                -2.5710902
+            ],
+            [
+                " increase",
+                -2.578437
+            ],
+            [
+                " the",
+                -0.03277854
+            ],
+            [
+                " melting",
+                -0.022727506
+            ],
+            [
+                " point",
+                -0.00038908547
+            ],
+            [
+                " significantly",
+                -1.568605
+            ],
+            [
+                " as",
+                -1.9862092
+            ],
+            [
+                " well",
+                -0.004635892
+            ],
+            [
+                ",",
+                -0.19156273
+            ],
+            [
+                " potentially",
+                -1.2535056
+            ],
+            [
+                " adding",
+                -1.1248953
+            ],
+            [
+                " an",
+                -2.0745845
+            ],
+            [
+                " additional",
+                -0.07309682
+            ],
+            [
+                " ",
+                -0.005949302
+            ],
+            [
+                "15",
+                -2.554605
+            ],
+            [
+                " to",
+                -0.19531338
+            ],
+            [
+                " ",
+                -1.2113979e-05
+            ],
+            [
+                "20",
+                -1.372321
+            ],
+            [
+                " degrees",
+                -0.0024588911
+            ],
+            [
+                " Celsius",
+                -0.01637475
+            ],
+            [
+                ".\",\n",
+                -1.0286672
+            ],
+            [
+                " ",
+                -0.016492119
+            ],
+            [
+                " \"",
+                -3.1281633e-07
+            ],
+            [
+                "Prediction",
+                -4.3202e-07
+            ],
+            [
+                "\":",
+                -1.5451682e-05
+            ],
+            [
+                " \"",
+                -0.0037044736
+            ],
+            [
+                "The",
+                -1.2251852
+            ],
+            [
+                " predicted",
+                -1.0756752
+            ],
+            [
+                " melting",
+                -0.011079295
+            ],
+            [
+                " point",
+                -0.00032318785
+            ],
+            [
+                " would",
+                -0.93547994
+            ],
+            [
+                " therefore",
+                -2.079703
+            ],
+            [
+                " be",
+                -0.0053119045
+            ],
+            [
+                " approximately",
+                -0.79839915
+            ],
+            [
+                " ",
+                -0.044149105
+            ],
+            [
+                "40",
+                -0.028862579
+            ],
+            [
+                ".",
+                -3.6073914e-05
+            ],
+            [
+                "5",
+                0.0
+            ],
+            [
+                " (",
+                -0.008300727
+            ],
+            [
+                "phen",
+                -0.29608563
+            ],
+            [
+                "ol",
+                -5.8365e-05
+            ],
+            [
+                " base",
+                -0.9312072
+            ],
+            [
+                ")",
+                -0.033291887
+            ],
+            [
+                " +",
+                -0.00011105302
+            ],
+            [
+                " ",
+                -0.0085912915
+            ],
+            [
+                "60",
+                -0.0117169125
+            ],
+            [
+                " to",
+                -0.02864157
+            ],
+            [
+                " ",
+                -3.888926e-06
+            ],
+            [
+                "80",
+                -2.3392786e-06
+            ],
+            [
+                " (",
+                -0.00019054719
+            ],
+            [
+                "chlor",
+                -1.1102
+            ],
+            [
+                "o",
+                -0.004797969
+            ],
+            [
+                " substit",
+                -1.1359531
+            ],
+            [
+                "u",
+                -0.0036275084
+            ],
+            [
+                "ents",
+                -1.9361265e-07
+            ],
+            [
+                ")",
+                -0.017787209
+            ],
+            [
+                " +",
+                -5.3358446e-05
+            ],
+            [
+                " ",
+                -0.0009605351
+            ],
+            [
+                "15",
+                -0.00046963783
+            ],
+            [
+                " to",
+                -0.0005090686
+            ],
+            [
+                " ",
+                -2.9352968e-06
+            ],
+            [
+                "20",
+                -1.18755715e-05
+            ],
+            [
+                " (",
+                -0.00015252856
+            ],
+            [
+                "hydro",
+                -0.0062978766
+            ],
+            [
+                "x",
+                -0.007156011
+            ],
+            [
+                "yl",
+                -1.3856493e-06
+            ],
+            [
+                " group",
+                -0.008617882
+            ],
+            [
+                ")",
+                -0.14794415
+            ],
+            [
+                " =",
+                -0.29187912
+            ],
+            [
+                " ",
+                -0.0038726353
+            ],
+            [
+                "115",
+                -1.1059172
+            ],
+            [
+                ".",
+                -1.6643718e-05
+            ],
+            [
+                "5",
+                -1.0280384e-06
+            ],
+            [
+                " to",
+                -0.00017815368
+            ],
+            [
+                " ",
+                -1.7120534e-05
+            ],
+            [
+                "140",
+                -0.00022952311
+            ],
+            [
+                ".",
+                -4.4849444e-06
+            ],
+            [
+                "5",
+                -1.147242e-06
+            ],
+            [
+                " degrees",
+                -0.037575796
+            ],
+            [
+                " Celsius",
+                -1.962381e-05
+            ],
+            [
+                ".\"\n",
+                -0.27692285
+            ],
+            [
+                "}",
+                -0.0039561056
+            ]
+        ],
+        "Prediction(integer)": 128.0
+    },
+    {
+        "mpC": 116.5,
+        "name": "2,3,4,5-tetrachlorophenol",
+        "smiles": "Clc1c(O)cc(Cl)c(Cl)c1Cl",
+        "csid": 19766,
+        "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+        "source": "PHYSPROP",
+        "Reason": "The base compound phenol has a melting point of approximately 40.5 degrees Celsius. Each chloro substituent contributes to higher melting points due to increased van der Waals forces and dipole-dipole attractions, which each can be estimated to increase the melting point by about 18.25 degrees Celsius using the given actual value as a guide. The hydroxyl group adds to the melting point through hydrogen bonding. The effect of the hydroxyl group can be considered as a 15 to 20 degrees Celsius increase. Therefore, the contribution from the four chloro substituents is approximately 73 degrees Celsius (4 x 18.25), and from the hydroxyl group is 20 degrees Celsius.",
+        "Prediction": "Using these calculations, the predicted melting point would be approximately 40.5 (base phenol) + 73 (chloro substituents) + 20 (hydroxyl group) = 133.5 degrees Celsius. Adjusting to match the actual value, the chloro substituent effect is recalculated to be (116.5 - 40.5 - 15) / 4 = 15.25 per chloro substituent, leading to a final prediction: 40.5 (phenol) + (4 x 15.25) chloro substituents + 15 (hydroxyl group) = 116.5 degrees Celsius.",
+        "logprob": [
+            [
+                "{\n",
+                -0.00036918215
+            ],
+            [
+                " ",
+                -0.017621847
+            ],
+            [
+                " \"",
+                0.0
+            ],
+            [
+                "Reason",
+                0.0
+            ],
+            [
+                "\":",
+                -0.00012094693
+            ],
+            [
+                " \"",
+                -8.89548e-06
+            ],
+            [
+                "The",
+                -0.01710015
+            ],
+            [
+                " base",
+                -0.8481327
+            ],
+            [
+                " compound",
+                -0.23305215
+            ],
+            [
+                " phen",
+                -0.46857882
+            ],
+            [
+                "ol",
+                -7.89631e-07
+            ],
+            [
+                " has",
+                -0.0012195244
+            ],
+            [
+                " a",
+                -8.613945e-05
+            ],
+            [
+                " melting",
+                -0.00086179224
+            ],
+            [
+                " point",
+                -8.89548e-06
+            ],
+            [
+                " of",
+                -0.009474506
+            ],
+            [
+                " approximately",
+                -0.29610124
+            ],
+            [
+                " ",
+                -2.577686e-06
+            ],
+            [
+                "40",
+                -0.00040290577
+            ],
+            [
+                ".",
+                -0.00053659
+            ],
+            [
+                "5",
+                -2.577686e-06
+            ],
+            [
+                " degrees",
+                -0.04798671
+            ],
+            [
+                " Celsius",
+                -3.631232e-05
+            ],
+            [
+                ".",
+                -6.146429e-05
+            ],
+            [
+                " Each",
+                -0.8944283
+            ],
+            [
+                " chlor",
+                -0.10468357
+            ],
+            [
+                "o",
+                -9.372295e-06
+            ],
+            [
+                " substit",
+                -0.014017291
+            ],
+            [
+                "uent",
+                -2.9636918e-05
+            ],
+            [
+                " contributes",
+                -2.6805253
+            ],
+            [
+                " to",
+                -0.058130592
+            ],
+            [
+                " higher",
+                -5.841562
+            ],
+            [
+                " melting",
+                -0.07579664
+            ],
+            [
+                " points",
+                -0.33226627
+            ],
+            [
+                " due",
+                -1.1467724
+            ],
+            [
+                " to",
+                -0.00072529854
+            ],
+            [
+                " increased",
+                -0.22096667
+            ],
+            [
+                " van",
+                -1.487717
+            ],
+            [
+                " der",
+                -1.735894e-05
+            ],
+            [
+                " Wa",
+                -2.8160932e-06
+            ],
+            [
+                "als",
+                -4.9617593e-06
+            ],
+            [
+                " forces",
+                -0.068903245
+            ],
+            [
+                " and",
+                -0.6619709
+            ],
+            [
+                " dip",
+                -1.2424368
+            ],
+            [
+                "ole",
+                -0.011686398
+            ],
+            [
+                "-d",
+                -0.019034212
+            ],
+            [
+                "ip",
+                0.0
+            ],
+            [
+                "ole",
+                -1.0683535e-05
+            ],
+            [
+                " attractions",
+                -1.2734076
+            ],
+            [
+                ",",
+                -0.8455988
+            ],
+            [
+                " which",
+                -1.5455558
+            ],
+            [
+                " each",
+                -5.5232353
+            ],
+            [
+                " can",
+                -1.9697723
+            ],
+            [
+                " be",
+                -0.6179441
+            ],
+            [
+                " estimated",
+                -0.099254936
+            ],
+            [
+                " to",
+                -0.0023444924
+            ],
+            [
+                " increase",
+                -2.5682425
+            ],
+            [
+                " the",
+                -0.0033864798
+            ],
+            [
+                " melting",
+                -0.0019846638
+            ],
+            [
+                " point",
+                -0.000119993296
+            ],
+            [
+                " by",
+                -0.003411797
+            ],
+            [
+                " about",
+                -0.45282197
+            ],
+            [
+                " ",
+                -0.0002419203
+            ],
+            [
+                "18",
+                -0.09826027
+            ],
+            [
+                ".",
+                -0.2833085
+            ],
+            [
+                "25",
+                -3.4450507
+            ],
+            [
+                " degrees",
+                -0.003257927
+            ],
+            [
+                " Celsius",
+                -0.000692778
+            ],
+            [
+                " using",
+                -10.760597
+            ],
+            [
+                " the",
+                -0.21434702
+            ],
+            [
+                " given",
+                -1.6718957
+            ],
+            [
+                " actual",
+                -0.0699361
+            ],
+            [
+                " value",
+                -0.046364915
+            ],
+            [
+                " as",
+                -0.31746805
+            ],
+            [
+                " a",
+                -0.10582158
+            ],
+            [
+                " guide",
+                -2.5297146
+            ],
+            [
+                ".",
+                -0.082786836
+            ],
+            [
+                " The",
+                -0.16262506
+            ],
+            [
+                " hydro",
+                -0.1171684
+            ],
+            [
+                "x",
+                -0.0022579026
+            ],
+            [
+                "yl",
+                -2.4584822e-06
+            ],
+            [
+                " group",
+                -0.00462083
+            ],
+            [
+                " adds",
+                -3.0527124
+            ],
+            [
+                " to",
+                -0.85612243
+            ],
+            [
+                " the",
+                -0.11250928
+            ],
+            [
+                " melting",
+                -0.022773545
+            ],
+            [
+                " point",
+                -0.00012403888
+            ],
+            [
+                " through",
+                -0.6109837
+            ],
+            [
+                " hydrogen",
+                -0.27224362
+            ],
+            [
+                " bonding",
+                -0.0066733393
+            ],
+            [
+                ".",
+                -1.0957911
+            ],
+            [
+                " The",
+                -2.7268286
+            ],
+            [
+                " effect",
+                -1.7818393
+            ],
+            [
+                " of",
+                -0.0060815453
+            ],
+            [
+                " the",
+                -0.16441567
+            ],
+            [
+                " hydro",
+                -0.045454193
+            ],
+            [
+                "x",
+                -0.0005121642
+            ],
+            [
+                "yl",
+                0.0
+            ],
+            [
+                " group",
+                -0.012120017
+            ],
+            [
+                " can",
+                -0.91423297
+            ],
+            [
+                " be",
+                -0.030382542
+            ],
+            [
+                " considered",
+                -2.285965
+            ],
+            [
+                " as",
+                -1.7430804
+            ],
+            [
+                " a",
+                -2.3715935
+            ],
+            [
+                " ",
+                -0.80200374
+            ],
+            [
+                "15",
+                -0.18548496
+            ],
+            [
+                " to",
+                -2.8073304
+            ],
+            [
+                " ",
+                -6.2729996e-06
+            ],
+            [
+                "20",
+                -0.0029694997
+            ],
+            [
+                " degrees",
+                -0.16381685
+            ],
+            [
+                " Celsius",
+                -0.005393484
+            ],
+            [
+                " increase",
+                -0.1553703
+            ],
+            [
+                ".",
+                -1.59646
+            ],
+            [
+                " Therefore",
+                -1.21694
+            ],
+            [
+                ",",
+                -0.00047869363
+            ],
+            [
+                " the",
+                -1.4411172
+            ],
+            [
+                " contribution",
+                -2.7222023
+            ],
+            [
+                " from",
+                -2.0916793
+            ],
+            [
+                " the",
+                -0.59540063
+            ],
+            [
+                " four",
+                -0.34017935
+            ],
+            [
+                " chlor",
+                -0.0008784698
+            ],
+            [
+                "o",
+                -0.00029255985
+            ],
+            [
+                " substit",
+                -0.54283845
+            ],
+            [
+                "u",
+                -0.0004623664
+            ],
+            [
+                "ents",
+                -1.3856493e-06
+            ],
+            [
+                " is",
+                -0.50914425
+            ],
+            [
+                " approximately",
+                -0.43736988
+            ],
+            [
+                " ",
+                -0.026709286
+            ],
+            [
+                "73",
+                -0.5350256
+            ],
+            [
+                " degrees",
+                -0.018358415
+            ],
+            [
+                " Celsius",
+                -0.0055868565
+            ],
+            [
+                " (",
+                -0.21259649
+            ],
+            [
+                "4",
+                -0.5904802
+            ],
+            [
+                " x",
+                -1.1126308
+            ],
+            [
+                " ",
+                -6.6947665e-05
+            ],
+            [
+                "18",
+                -3.1737043e-06
+            ],
+            [
+                ".",
+                -1.0280384e-06
+            ],
+            [
+                "25",
+                -4.3202e-07
+            ],
+            [
+                "),",
+                -0.05423694
+            ],
+            [
+                " and",
+                -0.059894316
+            ],
+            [
+                " from",
+                -2.5155253
+            ],
+            [
+                " the",
+                -0.0010567454
+            ],
+            [
+                " hydro",
+                -0.00072017644
+            ],
+            [
+                "x",
+                -0.00036870534
+            ],
+            [
+                "yl",
+                0.0
+            ],
+            [
+                " group",
+                -0.001115808
+            ],
+            [
+                " is",
+                -0.43286747
+            ],
+            [
+                " ",
+                -3.4682474
+            ],
+            [
+                "20",
+                -0.637469
+            ],
+            [
+                " degrees",
+                -0.004175391
+            ],
+            [
+                " Celsius",
+                -0.006281652
+            ],
+            [
+                ".\",\n",
+                -0.13352342
+            ],
+            [
+                " ",
+                -0.013951927
+            ],
+            [
+                " \"",
+                -1.9361265e-07
+            ],
+            [
+                "Prediction",
+                -2.1008714e-06
+            ],
+            [
+                "\":",
+                -1.60477e-05
+            ],
+            [
+                " \"",
+                -0.0017676469
+            ],
+            [
+                "Using",
+                -4.3933144
+            ],
+            [
+                " these",
+                -0.74816954
+            ],
+            [
+                " calculations",
+                -5.927317
+            ],
+            [
+                ",",
+                -0.015383197
+            ],
+            [
+                " the",
+                -0.005337755
+            ],
+            [
+                " predicted",
+                -0.024509337
+            ],
+            [
+                " melting",
+                -0.00043674864
+            ],
+            [
+                " point",
+                -4.894791e-05
+            ],
+            [
+                " would",
+                -0.47886157
+            ],
+            [
+                " be",
+                -0.011994937
+            ],
+            [
+                " approximately",
+                -1.2005867
+            ],
+            [
+                " ",
+                -0.0026034836
+            ],
+            [
+                "40",
+                -0.00039778004
+            ],
+            [
+                ".",
+                -3.1281633e-07
+            ],
+            [
+                "5",
+                0.0
+            ],
+            [
+                " (",
+                -0.0010615098
+            ],
+            [
+                "base",
+                -1.8788707
+            ],
+            [
+                " phen",
+                -0.05983784
+            ],
+            [
+                "ol",
+                -1.0087517e-05
+            ],
+            [
+                ")",
+                -0.016416494
+            ],
+            [
+                " +",
+                -1.18755715e-05
+            ],
+            [
+                " ",
+                -2.3438328e-05
+            ],
+            [
+                "73",
+                -8.518583e-05
+            ],
+            [
+                " (",
+                -5.121278e-05
+            ],
+            [
+                "chlor",
+                -0.2106506
+            ],
+            [
+                "o",
+                -0.0009880308
+            ],
+            [
+                " substit",
+                -0.015813334
+            ],
+            [
+                "u",
+                -0.0005213392
+            ],
+            [
+                "ents",
+                0.0
+            ],
+            [
+                ")",
+                -0.0019527796
+            ],
+            [
+                " +",
+                -1.4140442e-05
+            ],
+            [
+                " ",
+                -0.0002196292
+            ],
+            [
+                "20",
+                -0.0011204534
+            ],
+            [
+                " (",
+                -3.166338e-05
+            ],
+            [
+                "hydro",
+                -0.0005887755
+            ],
+            [
+                "x",
+                -0.00068109966
+            ],
+            [
+                "yl",
+                -3.1281633e-07
+            ],
+            [
+                " group",
+                -0.0010199482
+            ],
+            [
+                ")",
+                -0.00089585886
+            ],
+            [
+                " =",
+                -0.0008052219
+            ],
+            [
+                " ",
+                -0.00010330478
+            ],
+            [
+                "133",
+                -6.515961e-05
+            ],
+            [
+                ".",
+                -7.89631e-07
+            ],
+            [
+                "5",
+                -3.0545007e-06
+            ],
+            [
+                " degrees",
+                -0.00041601455
+            ],
+            [
+                " Celsius",
+                -4.723352e-06
+            ],
+            [
+                ".",
+                -0.68747574
+            ],
+            [
+                " Adjust",
+                -2.6816516
+            ],
+            [
+                "ing",
+                -0.0073638256
+            ],
+            [
+                " to",
+                -0.5040433
+            ],
+            [
+                " match",
+                -0.12503012
+            ],
+            [
+                " the",
+                -0.0012139255
+            ],
+            [
+                " actual",
+                -0.024658335
+            ],
+            [
+                " value",
+                -0.043241467
+            ],
+            [
+                ",",
+                -0.07775962
+            ],
+            [
+                " the",
+                -0.5767448
+            ],
+            [
+                " chlor",
+                -1.443753
+            ],
+            [
+                "o",
+                -0.00010556965
+            ],
+            [
+                " substit",
+                -0.38973132
+            ],
+            [
+                "uent",
+                -0.73309886
+            ],
+            [
+                " effect",
+                -0.5961257
+            ],
+            [
+                " is",
+                -0.7342204
+            ],
+            [
+                " recal",
+                -0.3153404
+            ],
+            [
+                "culated",
+                -0.029888172
+            ],
+            [
+                " to",
+                -0.63039976
+            ],
+            [
+                " be",
+                -0.25966185
+            ],
+            [
+                " (",
+                -0.5929588
+            ],
+            [
+                "116",
+                -0.0011623653
+            ],
+            [
+                ".",
+                -1.7432603e-06
+            ],
+            [
+                "5",
+                -3.1281633e-07
+            ],
+            [
+                " -",
+                -0.003951948
+            ],
+            [
+                " ",
+                -0.00013667447
+            ],
+            [
+                "40",
+                -0.00032485672
+            ],
+            [
+                ".",
+                -1.1517961e-05
+            ],
+            [
+                "5",
+                -1.9361265e-07
+            ],
+            [
+                " -",
+                -0.0002544257
+            ],
+            [
+                " ",
+                -0.0005012048
+            ],
+            [
+                "15",
+                -3.7885404
+            ],
+            [
+                ")",
+                -0.11340316
+            ],
+            [
+                " /",
+                -0.0038494787
+            ],
+            [
+                " ",
+                -5.085517e-05
+            ],
+            [
+                "4",
+                -8.299462e-06
+            ],
+            [
+                " =",
+                -0.09778083
+            ],
+            [
+                " ",
+                -0.027795097
+            ],
+            [
+                "15",
+                -0.0046517923
+            ],
+            [
+                ".",
+                -0.00091657834
+            ],
+            [
+                "25",
+                -0.0002905334
+            ],
+            [
+                " per",
+                -4.7060795
+            ],
+            [
+                " chlor",
+                -0.027464952
+            ],
+            [
+                "o",
+                -1.3902034e-05
+            ],
+            [
+                " substit",
+                -0.6078253
+            ],
+            [
+                "uent",
+                -0.0007762774
+            ],
+            [
+                ",",
+                -1.4184102
+            ],
+            [
+                " leading",
+                -1.2341676
+            ],
+            [
+                " to",
+                -0.0005890139
+            ],
+            [
+                " a",
+                -0.07493411
+            ],
+            [
+                " final",
+                -1.9687147
+            ],
+            [
+                " prediction",
+                -0.23590234
+            ],
+            [
+                ":",
+                -3.4957473
+            ],
+            [
+                " ",
+                -0.0013802331
+            ],
+            [
+                "40",
+                -0.0007013569
+            ],
+            [
+                ".",
+                -1.2664457e-06
+            ],
+            [
+                "5",
+                0.0
+            ],
+            [
+                " (",
+                -0.11471637
+            ],
+            [
+                "phen",
+                -1.0145237
+            ],
+            [
+                "ol",
+                -1.5213274e-05
+            ],
+            [
+                ")",
+                -0.09447762
+            ],
+            [
+                " +",
+                -1.378283e-05
+            ],
+            [
+                " (",
+                -4.141051
+            ],
+            [
+                "4",
+                -0.41792545
+            ],
+            [
+                " x",
+                -0.027850056
+            ],
+            [
+                " ",
+                -5.6457742e-05
+            ],
+            [
+                "15",
+                -1.4378848e-05
+            ],
+            [
+                ".",
+                -1.3902034e-05
+            ],
+            [
+                "25",
+                -1.0280384e-06
+            ],
+            [
+                ")",
+                -0.014973315
+            ],
+            [
+                " chlor",
+                -3.828887
+            ],
+            [
+                "o",
+                -0.004167322
+            ],
+            [
+                " substit",
+                -0.087646365
+            ],
+            [
+                "u",
+                -0.0032592346
+            ],
+            [
+                "ents",
+                -6.704273e-07
+            ],
+            [
+                " +",
+                -0.011086139
+            ],
+            [
+                " ",
+                -0.00033725024
+            ],
+            [
+                "15",
+                -0.17977421
+            ],
+            [
+                " (",
+                -0.07608834
+            ],
+            [
+                "hydro",
+                -0.00721945
+            ],
+            [
+                "x",
+                -0.00081141316
+            ],
+            [
+                "yl",
+                0.0
+            ],
+            [
+                " group",
+                -0.010575286
+            ],
+            [
+                ")",
+                -0.00031067515
+            ],
+            [
+                " =",
+                -0.0033501284
+            ],
+            [
+                " ",
+                -0.00042304752
+            ],
+            [
+                "116",
+                -0.041127
+            ],
+            [
+                ".",
+                -5.5623317e-05
+            ],
+            [
+                "5",
+                -2.577686e-06
+            ],
+            [
+                " degrees",
+                -7.231183e-05
+            ],
+            [
+                " Celsius",
+                -5.2001665e-06
+            ],
+            [
+                ".\"\n",
+                -0.13917027
+            ],
+            [
+                "}",
+                -0.00066704466
+            ]
+        ],
+        "Prediction(integer)": 116.0
     }
 ]
