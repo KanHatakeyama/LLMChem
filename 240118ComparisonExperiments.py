@@ -87,7 +87,7 @@ for model_nickname in model_dict:
     model_name = model_dict[model_nickname]["name"]
     target_modules = model_dict[model_nickname]["modules"]
     for epochs in [3, 1, 5]:
-        for r in [32, 8, 16, 64, 128]:
+        for r in [32,  64, 128]:
             lora_alpha = r
             for n_train in [10, 50, 100, 500, 1000, 5000, 10000]:
                 # project path
