@@ -51,20 +51,6 @@ model_dict = {
             "w2",
             "w3"],
     },
-    "Llama2-7b": {
-        "name": "meta-llama/Llama-2-7b-chat-hf",
-        "modules": [
-            # "embed_tokens",
-            "lm_head",
-            # "q_proj",
-            # "k_proj",
-            "v_proj",
-            "o_proj",
-            "gate_proj",
-            "up_proj",
-            # "down_proj",
-        ]
-    },
     "Llama2-7b-Full": {
         "name": "meta-llama/Llama-2-7b-chat-hf",
         "modules": [
@@ -77,21 +63,6 @@ model_dict = {
             "gate_proj",
             "up_proj",
             "down_proj",
-        ]
-    },
-
-    "Llama2-13b": {
-        "name": "meta-llama/Llama-2-13b-chat-hf",
-        "modules": [
-            # "embed_tokens",
-            "lm_head",
-            # "q_proj",
-            # "k_proj",
-            "v_proj",
-            "o_proj",
-            "gate_proj",
-            "up_proj",
-            # "down_proj",
         ]
     },
 }
@@ -107,16 +78,16 @@ for with_reason in [False, True]:
             gradient_checkpointing = True
         else:
             gradient_checkpointing = False
-        for epochs in [3, 1, 5]:
-            for r in [32, 64, 128]:
+        for epochs in [3]:
+            for r in [32,]:
                 lora_alpha = r
-                for n_train in [10, 100, 1000, 2000, 5000, 10000]:
+                for n_train in [3, 10, 20, 50, 100, 1000, 2000, 5000, 10000]:
                     # project path
                     if with_reason:
                         project_dir = f"results/projects/240118comparisons/{model_nickname}_{epochs}_{r}_{n_train}"
                     else:
                         project_dir = f"results/projects/240118comparisons_wo_reason/{model_nickname}_{epochs}_{r}_{n_train}"
-
+                    print("Task :", project_dir)
                     if len(glob.glob(f"{project_dir}/eval/test*")) > 0:
                         print(f"Already exists: {project_dir}")
                         continue
