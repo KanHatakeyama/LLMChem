@@ -83,7 +83,7 @@ for with_reason in [False, True]:
         for epochs in [3]:
             for r in [32,]:
                 lora_alpha = r
-                for n_train in [3, 10, 20, 50, 100, 1000, 2000, 5000, 10000]:
+                for n_train in [5, 10, 20, 50, 100, 1000, 2000, 5000, 10000]:
                     # project path
                     if with_reason:
                         project_dir = f"results/projects/240118comparisons/{model_nickname}_{epochs}_{r}_{n_train}"
