@@ -127,7 +127,7 @@ for generation in range(max_generations):
 
     # eval
     if len(train_dataset) < 1000:
-        n_prompt_examples = 5
+        n_prompt_examples = 3
     else:
         n_prompt_examples = 0
 
@@ -154,7 +154,7 @@ for generation in range(max_generations):
                    n_iterations=n_generation_iterations,
                    error_threshold=error_threshold,
                    n_max_trials=2,
-                   n_prompt_numbers=(3, 8),
+                   n_prompt_numbers=(1, 5),
                    )
 
 # %%
