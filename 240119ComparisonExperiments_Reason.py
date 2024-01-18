@@ -19,6 +19,7 @@ n_test = 50  # number of testing data
 # number of training data for checking (i.e., checking everything takes too long, so we check only a part of training data)
 n_train_check = 50
 
+n_prompt_examples = 4
 
 bit = 16
 # bit=8
@@ -133,12 +134,6 @@ for with_reason in [False, True]:
                     train_check_dataset = copy.deepcopy(
                         train_dataset[:n_train_check])
                     random.shuffle(train_check_dataset)
-
-                    # eval_settings
-                    if len(train_dataset) < 1000:
-                        n_prompt_examples = 3
-                    else:
-                        n_prompt_examples = 0
 
                     train_eval_result = eval_model(model, tokenizer, train_check_dataset,
                                                    f"{project_dir}/eval",
