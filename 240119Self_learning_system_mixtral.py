@@ -26,7 +26,7 @@ from llmchem.utils import mk_dir, clean_vram
 n_test = 50  # number of testing data
 # number of training data for checking (i.e., checking everything takes too long, so we check only a part of training data)
 n_train_check = 50
-n_GPT_reasoning = 3  # number of reasoning data made by GPT
+n_GPT_reasoning = 10  # number of reasoning data made by GPT
 n_generation_iterations = 100   # trial numbers to generate new self reasoning data
 max_generations = 10**5
 
@@ -127,7 +127,7 @@ for generation in range(max_generations):
 
     # eval
     if len(train_dataset) < 1000:
-        n_prompt_examples = 3
+        n_prompt_examples = 5
     else:
         n_prompt_examples = 0
 
@@ -153,7 +153,9 @@ for generation in range(max_generations):
                    generation=generation,
                    n_iterations=n_generation_iterations,
                    error_threshold=error_threshold,
-                   n_max_trials=2)
+                   n_max_trials=2,
+                   n_prompt_numbers=(3, 8),
+                   )
 
 # %%
 
