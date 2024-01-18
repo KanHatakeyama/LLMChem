@@ -155,7 +155,7 @@ for generation in range(max_generations):
                    n_iterations=n_generation_iterations,
                    error_threshold=error_threshold,
                    n_max_trials=2,
-                   n_prompt_numbers=(3, 5),
+                   n_prompt_numbers=(4, 4),
                    )
 
 # %%
