@@ -11,27 +11,29 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_compute_dtype=torch.bfloat16
 )
 
-def init_model(model_name, r, lora_alpha, target_modules, bit=4,device_map="auto"):
+def init_model(model_name, r, lora_alpha, target_modules, bit=4,device_map="auto",
+use_flash_attention_2=True
+               ):
     if bit == 4:
         print("Using 4-bit mode")
         model = AutoModelForCausalLM.from_pretrained(model_name,
                                                      quantization_config=bnb_config,
                                                      device_map=device_map,
-                                                     use_flash_attention_2=True,
+                                                     use_flash_attention_2=use_flash_attention_2,
                                                      )
     elif bit == 8:
         print("Using 8-bit mode")
         model = AutoModelForCausalLM.from_pretrained(model_name,
                                                      load_in_8bit=True,
                                                      device_map=device_map,
-                                                     use_flash_attention_2=True,
+                                                     use_flash_attention_2=use_flash_attention_2,
                                                      )
     elif bit == 16:
         print("Using fp16 mode")
         model = AutoModelForCausalLM.from_pretrained(model_name,
                                                      device_map=device_map,
                                                      torch_dtype=torch.float16,
-                                                     use_flash_attention_2=True,
+                                                     use_flash_attention_2=use_flash_attention_2,
                                                      )
     else:
         raise ValueError("bit must be 4, 8 or 16")
