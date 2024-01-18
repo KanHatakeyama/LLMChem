@@ -126,10 +126,11 @@ for generation in range(max_generations):
                                )
 
     # eval
-    if len(train_dataset) < 1000:
-        n_prompt_examples = 3
-    else:
-        n_prompt_examples = 0
+    # if len(train_dataset) < 1000:
+    #    n_prompt_examples = 5
+    # else:
+    #    n_prompt_examples = 0
+    n_prompt_examples = 4
 
     train_check_dataset = copy.deepcopy(train_dataset[:n_train_check])
     random.shuffle(train_check_dataset)
@@ -154,7 +155,7 @@ for generation in range(max_generations):
                    n_iterations=n_generation_iterations,
                    error_threshold=error_threshold,
                    n_max_trials=2,
-                   n_prompt_numbers=(1, 5),
+                   n_prompt_numbers=(3, 5),
                    )
 
 # %%
