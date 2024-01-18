@@ -3,6 +3,7 @@
 import os
 # os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
+import glob
 from transformers import AutoTokenizer
 import pandas as pd
 import random
@@ -51,7 +52,21 @@ model_dict = {
             # "down_proj",
         ]
     },
-    "Mixtral": {
+    "Llama2-7b-Full": {
+        "name": "meta-llama/Llama-2-7b-chat-hf",
+        "modules": [
+            "embed_tokens",
+            "lm_head",
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj",
+            "gate_proj",
+            "up_proj",
+            "down_proj",
+        ]
+    },
+    "Mixtral-Full": {
         "name": "mistralai/Mixtral-8x7B-Instruct-v0.1",
         "modules": [
             "lm_head",
@@ -64,8 +79,8 @@ model_dict = {
             "w2",
             "w3"],
     },
-    "Llama2-7b": {
-        "name": "meta-llama/Llama-2-7b-chat-hf",
+    "Llama2-13b": {
+        "name": "meta-llama/Llama-2-13b-chat-hf",
         "modules": [
             # "embed_tokens",
             "lm_head",
@@ -87,11 +102,15 @@ for model_nickname in model_dict:
     model_name = model_dict[model_nickname]["name"]
     target_modules = model_dict[model_nickname]["modules"]
     for epochs in [3, 1, 5]:
-        for r in [32,  64, 128]:
+        for r in [32, 64, 128]:
             lora_alpha = r
-            for n_train in [10, 50, 100, 500, 1000, 5000, 10000]:
+            for n_train in [10, 100, 1000, 2000, 5000, 10000]:
                 # project path
                 project_dir = f"results/projects/240118comparisons/{model_nickname}_{epochs}_{r}_{n_train}"
+
+                if len(glob.glob(f"{project_dir}/eval/test*")) > 0:
+                    print(f"Already exists: {project_dir}")
+                    continue
 
                 # make project dir
                 make_project_dirs(project_dir)
