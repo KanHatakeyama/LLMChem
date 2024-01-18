@@ -29,6 +29,7 @@ n_train_check = 50
 n_GPT_reasoning = 10  # number of reasoning data made by GPT
 n_generation_iterations = 100   # trial numbers to generate new self reasoning data
 max_generations = 10**5
+n_prompt_examples = 5
 
 # model settings
 model_name = "mistralai/Mixtral-8x7B-Instruct-v0.1"
@@ -130,7 +131,6 @@ for generation in range(max_generations):
     #    n_prompt_examples = 5
     # else:
     #    n_prompt_examples = 0
-    n_prompt_examples = 4
 
     train_check_dataset = copy.deepcopy(train_dataset[:n_train_check])
     random.shuffle(train_check_dataset)
@@ -155,7 +155,7 @@ for generation in range(max_generations):
                    n_iterations=n_generation_iterations,
                    error_threshold=error_threshold,
                    n_max_trials=2,
-                   n_prompt_numbers=(4, 4),
+                   n_prompt_numbers=(5, 5),
                    )
 
 # %%
