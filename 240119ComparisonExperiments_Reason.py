@@ -70,6 +70,7 @@ model_dict = {
 
 df = pd.read_csv(dataset_path)
 # %%
+model = None
 for with_reason in [False, True]:
     for model_nickname in model_dict:
         model_name = model_dict[model_nickname]["name"]
@@ -114,6 +115,7 @@ for with_reason in [False, True]:
                     random.shuffle(train_dataset)
 
                     # train model
+                    del model
                     clean_vram()
                     tokenizer = AutoTokenizer.from_pretrained(model_name)
                     tokenizer.pad_token = tokenizer.eos_token
