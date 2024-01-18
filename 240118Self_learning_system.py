@@ -5,8 +5,12 @@
 # %%
 
 
+from llmchem.reasoning import self_reasoning
+from llmchem.eval import eval_model
+from llmchem.train import train_model
+from llmchem.model import init_model
 import os
-#os.environ["CUDA_VISIBLE_DEVICES"]="0"
+# os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 from transformers import AutoTokenizer
 import pandas as pd
@@ -15,19 +19,20 @@ import copy
 import glob
 import json
 from datetime import datetime
-from llmchem.utils import mk_dir,clean_vram
+from llmchem.utils import mk_dir, clean_vram
 
 # %%
-#dataset settings
-n_test=50 #number of testing data
-n_train_check=50 #number of training data for checking (i.e., checking everything takes too long, so we check only a part of training data)
-n_GPT_reasoning=10 # number of reasoning data made by GPT
-n_generation_iterations=300   # trial numbers to generate new self reasoning data
-max_generations=10**5
+# dataset settings
+n_test = 50  # number of testing data
+# number of training data for checking (i.e., checking everything takes too long, so we check only a part of training data)
+n_train_check = 50
+n_GPT_reasoning = 10  # number of reasoning data made by GPT
+n_generation_iterations = 300   # trial numbers to generate new self reasoning data
+max_generations = 10**5
 
-#model settings
-model_name="mistralai/Mixtral-8x7B-Instruct-v0.1"
-target_modules= [
+# model settings
+model_name = "mistralai/Mixtral-8x7B-Instruct-v0.1"
+target_modules = [
     "lm_head",
     "q_proj",
     "k_proj",
@@ -39,45 +44,44 @@ target_modules= [
     "w3"
 ]
 
-model_name=f"meta-llama/Llama-2-7b-chat-hf"
-target_modules= [
-    #"embed_tokens",
+model_name = f"meta-llama/Llama-2-7b-chat-hf"
+target_modules = [
+    # "embed_tokens",
     "lm_head",
-    #"q_proj",
-    #"k_proj",
+    # "q_proj",
+    # "k_proj",
     "v_proj",
     "o_proj",
     "gate_proj",
     "up_proj",
-    #"down_proj",
+    # "down_proj",
 ]
 
 
+# LoRA settings
+r = 32
+lora_alpha = r
+bit = 16
+# bit=8
+# bit=4
 
-#LoRA settings
-r=32
-lora_alpha=r
-bit=16
-#bit=8
-#bit=4
+# train settings
+gradient_checkpointing = False
+per_device_train_batch_size = 1
+epochs = 3
+lr = 10**-5
 
-#train settings
-gradient_checkpointing =False
-per_device_train_batch_size=1
-epochs=3
-lr=10**-5
+# device settings
+device_map = "auto"
 
-#device settings
-device_map="auto"
+# dataset path
+dataset_path = "dataset/231225AutoReasoning/240117best_reason_record_3k.csv"
 
-#dataset path
-dataset_path="dataset/231225AutoReasoning/240117best_reason_record_3k.csv"
+# project path
+project_dir = f"results/projects/240118llama2-7b_self_reasoning_{n_GPT_reasoning}"
 
-#project path
-project_dir=f"results/projects/240118llama7b_{n_GPT_reasoning}"
-
-#reasoning options
-error_threshold=30  # if abolute error is smaller than this, add to training data
+# reasoning options
+error_threshold = 30  # if abolute error is smaller than this, add to training data
 
 # %%
 mk_dir(project_dir)
@@ -86,38 +90,34 @@ mk_dir(project_dir+"/self_reasoning")
 mk_dir(project_dir+"/train")
 
 # %%
-from llmchem.model import init_model
-from llmchem.train import train_model
-from llmchem.eval import eval_model
-from llmchem.reasoning import self_reasoning
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 tokenizer.pad_token = tokenizer.eos_token
 
 # %%
-#load base dataset
+# load base dataset
 
-df=pd.read_csv(dataset_path)
-dataset=df.to_dict(orient="records")
+df = pd.read_csv(dataset_path)
+dataset = df.to_dict(orient="records")
 random.seed(0)
 random.shuffle(dataset)
 
-base_train_dataset=dataset[:-n_test]
-example_reasoning_dataset=base_train_dataset[:n_GPT_reasoning]
-test_dataset=dataset[-n_test:]
+base_train_dataset = dataset[:-n_test]
+example_reasoning_dataset = base_train_dataset[:n_GPT_reasoning]
+test_dataset = dataset[-n_test:]
 
 # %%
-#Loop: training, evaluation, data generation
+# Loop: training, evaluation, data generation
 for generation in range(max_generations):
-    #clear_output()
+    # clear_output()
     print(f"Generation: {generation}")
-    #prepare train dataset
+    # prepare train dataset
 
-    ## reason data made by GPT4
-    train_dataset=copy.deepcopy(example_reasoning_dataset)
+    # reason data made by GPT4
+    train_dataset = copy.deepcopy(example_reasoning_dataset)
 
     print(f"GPT-generated reasons: {len(train_dataset)}")
 
-    ## reason data made by model itself
+    # reason data made by model itself
     for path in glob.glob(f"{project_dir}/self_reasoning/*.json"):
         with open(path) as f:
             train_dataset.append(json.load(f))
@@ -125,47 +125,49 @@ for generation in range(max_generations):
     print(f"All-generated reasons: {len(train_dataset)}")
     random.shuffle(train_dataset)
 
-    #train model
+    # train model
     clean_vram()
-    model=init_model(model_name, r, lora_alpha, target_modules, bit=bit,device_map=device_map)
-    train_result=train_model(model,tokenizer,train_dataset,
-                    project_dir=project_dir,
-                    epochs=epochs,
-                    lr=lr,
-                    per_device_train_batch_size=per_device_train_batch_size,
-                    gradient_checkpointing=gradient_checkpointing,
-                    )
+    model = init_model(model_name, r, lora_alpha,
+                       target_modules, bit=bit, device_map=device_map)
+    train_result = train_model(model, tokenizer, train_dataset,
+                               project_dir=project_dir,
+                               epochs=epochs,
+                               lr=lr,
+                               per_device_train_batch_size=per_device_train_batch_size,
+                               gradient_checkpointing=gradient_checkpointing,
+                               )
 
-    #eval
+    # eval
+    if len(train_dataset) < 1000:
+        n_prompt_examples = 3
+    else:
+        n_prompt_examples = 0
 
-    train_check_dataset=copy.deepcopy(train_dataset[:n_train_check])
+    train_check_dataset = copy.deepcopy(train_dataset[:n_train_check])
     random.shuffle(train_check_dataset)
-    train_eval_result=eval_model(model,tokenizer,train_check_dataset,
-                                f"{project_dir}/eval",
-                                n_prompt_examples=3,
-                                prompt_dataset=example_reasoning_dataset,
-                                prefix=f"train_{generation}"
-                                )
+    train_eval_result = eval_model(model, tokenizer, train_check_dataset,
+                                   f"{project_dir}/eval",
+                                   n_prompt_examples=n_prompt_examples,
+                                   prompt_dataset=example_reasoning_dataset,
+                                   prefix=f"train_{generation}"
+                                   )
 
-    test_eval_result=eval_model(model,tokenizer,test_dataset,
-                                f"{project_dir}/eval",
-                                n_prompt_examples=3,
-                                prompt_dataset=example_reasoning_dataset,
-                                prefix=f"test_{generation}"
-                                )
+    test_eval_result = eval_model(model, tokenizer, test_dataset,
+                                  f"{project_dir}/eval",
+                                  n_prompt_examples=n_prompt_examples,
+                                  prompt_dataset=example_reasoning_dataset,
+                                  prefix=f"test_{generation}"
+                                  )
 
-    #generate additional training data by self-reasoning
-    self_reasoning(model,tokenizer,base_train_dataset,
-                example_reasoning_dataset,project_dir,
-                generation=generation,
-                n_iterations=n_generation_iterations,
-                error_threshold=error_threshold,
-                n_max_trials=2)
-
-# %%
-
+    # generate additional training data by self-reasoning
+    self_reasoning(model, tokenizer, base_train_dataset,
+                   example_reasoning_dataset, project_dir,
+                   generation=generation,
+                   n_iterations=n_generation_iterations,
+                   error_threshold=error_threshold,
+                   n_max_trials=2)
 
 # %%
 
 
-
+# %%
