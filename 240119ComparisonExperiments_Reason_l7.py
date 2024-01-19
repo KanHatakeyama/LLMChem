@@ -18,7 +18,7 @@ from llmchem.eval import eval_model
 n_test = 50  # number of testing data
 # number of training data for checking (i.e., checking everything takes too long, so we check only a part of training data)
 n_train_check = 50
-n_prompt_examples = 4
+n_prompt_examples = 5
 
 bit = 16
 # bit=8
