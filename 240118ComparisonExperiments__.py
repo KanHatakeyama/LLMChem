@@ -25,7 +25,7 @@ bit = 16
 # bit=4
 
 # train settings
-gradient_checkpointing = False
+gradient_checkpointing = True
 per_device_train_batch_size = 1
 lr = 10**-5
 
