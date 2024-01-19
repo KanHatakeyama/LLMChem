@@ -57,7 +57,8 @@ model_dict = {
 
 df = pd.read_csv(dataset_path)
 # %%
-for with_reason in [False, True]:
+
+for n_train in [5, 10, 20, 50, 100, 1000, 2000, 5000, 10000]:
     for model_nickname in model_dict:
         model_name = model_dict[model_nickname]["name"]
         target_modules = model_dict[model_nickname]["modules"]
@@ -68,7 +69,7 @@ for with_reason in [False, True]:
         for epochs in [3]:
             for r in [32,]:
                 lora_alpha = r
-                for n_train in [5, 10, 20, 50, 100, 1000, 2000, 5000, 10000]:
+                for with_reason in [False, True]:
                     # project path
                     if with_reason:
                         project_dir = f"results/projects/240118comparisons/{model_nickname}_{epochs}_{r}_{n_train}"
