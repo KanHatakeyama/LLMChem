@@ -82,7 +82,7 @@ for model_nickname in model_dict:
     for epochs in [3]:
         for r in [32,]:
             lora_alpha = r
-            for n_train in [5, 10, 20, 50, 100, 1000, 2000, 5000, 10000]:
+            for n_train in [0, 5, 10, 20, 50, 100, 1000, 2000, 5000, 10000]:
                 for with_reason in [True, False]:
                     # project path
                     if with_reason:
@@ -107,7 +107,7 @@ for model_nickname in model_dict:
                         for data in dataset:
                             data["Reason"] = "-"
 
-                    train_dataset = dataset[:n_train]
+                    train_dataset = dataset[:max(n_train, n_prompt_examples)]
                     test_dataset = dataset[-n_test:]
 
                     # prepare train dataset
@@ -122,9 +122,13 @@ for model_nickname in model_dict:
                     tokenizer.pad_token = tokenizer.eos_token
                     model = init_model(model_name, r, lora_alpha,
                                        target_modules, bit=bit, device_map=device_map)
+
+                    actual_epochs = epochs
+                    if n_train == 0:
+                        actual_epochs = 0
                     train_result = train_model(model, tokenizer, train_dataset,
                                                project_dir=project_dir,
-                                               epochs=epochs,
+                                               epochs=actual_epochs,
                                                lr=lr,
                                                per_device_train_batch_size=per_device_train_batch_size,
                                                gradient_checkpointing=gradient_checkpointing,
