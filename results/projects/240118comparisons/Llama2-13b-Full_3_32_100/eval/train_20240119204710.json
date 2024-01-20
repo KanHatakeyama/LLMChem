@@ -1,0 +1,112 @@
+{
+    "MSE": 6572.75,
+    "MAE": 64.5,
+    "R2": 0.4274163800273051,
+    "Answer ratio": 0.16,
+    "plot": [
+        {
+            "name": "bis(2-(dimethylamino)ethyl) ether",
+            "smiles": "CN(C)CCOCCN(C)C",
+            "csid": 17194,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "To predict the melting point for bis(2-(dimethylamino)ethyl) ether, we need to consider the effects of molecular weight, branching, and the types of functional groups present within the compound. Starting with a basic linear alkane as the simplest organic substance, which has a very low or even negative melting point, the introduction of functional groups and branching can increase the melting point. However, when functional groups like ethers (R-O-R') and tertiary amines (R3N) are present, they often result in lower melting points compared to the corresponding alcohols or primary/secondary amines, respectively, due to the inability to hydrogen bond with themselves. Both ether and tertiary amine groups reduce intermolecular forces, resulting in a decreased melting point. In this case, bis(2-(dimethylamino)ethyl) ether has both ether and tertiary amine groups, which suggests a significantly reduced melting point. Since no numbers are provided for the basic units or the individual groups, including the linear portions versus branching, precise quantitative effects cannot be specified without additional data.",
+            "mpC": -80.0,
+            "Prediction(integer)": -80.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": "\nBis(2-(dimethylamino)ethyl) ether has a base structure of ethyl ether, which has a melting point of -128\u00b0C. The two dimethylamino functional groups attached to the ether backbone significantly increase the melting point due to the following reasons: \n1. Increased molecular weight: Each dimethylamino group adds approximately 30 g/mol to the molecular weight, which contributes to a higher melting point.\n2. Enhanced dipole-dipole interactions: The positively charged nitrogen atoms in the dimethylamino groups can participate in dipole-dipole interactions, which increase the melting point.\n3. Hydrogen bonding: The amino functional groups can form hydrogen bonds with each other and with other molecules, which can significantly raise the melting point.\nConsidering the combined effects of these factors, the melting point of bis(2-(dimethylamino)ethyl) ether can be estimated.\n##Prediction: -60.0\n\n\n#Problem",
+            "Test (Predicted value)": "-60.0"
+        },
+        {
+            "name": "tert-butyl acrylate",
+            "smiles": "CC(C)(C)OC(=O)C=C",
+            "csid": 14708,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L17169",
+            "source": "Alfa Aesar",
+            "Reason": "The melting point of a compound is influenced by its molecular structure, including the nature and arrangement of functional groups. For tert-butyl acrylate, we analyze the influence of individual groups on a hypothetical basic unit acrylate (acrylic acid ester) which might have an estimated melting point similar to acrylic acid itself, around 13\u00b0C. The tert-butyl group is large and bulky, which can disrupt the crystal lattice, generally decreasing the melting point. The ester linkage (OC(=O)) can allow for some dipole-dipole interactions, but less so than the acid group it replaces, which could slightly increase the melting point compared to aliphatic hydrocarbons but is offset by the bulky tert-butyl. The vinyl group (C=C) provides rigidity to the molecule which may slightly increase the melting point, but has minimal effect due to its small size. Combining these effects: Ester vs Acid: +5\u00b0 (from associative interactions), Bulky tert-butyl group: -60\u00b0 to -80\u00b0 (from steric hindrance and disruption of packing), Vinyl group: +5\u00b0 (from rigidity).",
+            "mpC": -69.0,
+            "Prediction(integer)": -69.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": " The base structure for tert-butyl acrylate is acrylic acid, which has a melting point of -12.0 degrees Celsius. The tert-butyl group is a long, flexible chain that can disrupt the crystal packing and lower the melting point. However, the tert-butyl group can also contribute to van der Waals forces, which may offset some of the melting point depression. The acrylate ester group can increase the melting point due to hydrogen bonding, which may also contribute to the crystal packing. We can estimate the increase due to the ester group at about +20 degrees Celsius. The cumulative effect of the tert-butyl group and the ester group may be estimated as a +20 degrees Celsius increase.\n##Prediction: -12.0\n\n\n#Problem",
+            "Test (Predicted value)": "-12.0"
+        },
+        {
+            "name": "p-acetylbiphenyl",
+            "smiles": "O=C(C)c1ccc(cc1)c2ccccc2",
+            "csid": 6846,
+            "link": "http://de.wikipedia.org/wiki/Beilsteins_Handbuch_der_Organischen_Chemie",
+            "source": "Beilstein F. K.; Beilsteins Handbuch der Organischen Chemie. Springer; Berlin; 1972.",
+            "Reason": "The base structure for p-acetylbiphenyl is biphenyl, which has a melting point of around 69 degrees Celsius. Adding an acetyl group (COCH3) to the biphenyl increases the melting point due to the additional polar carbonyl group and the slightly increased molecular weight. The acetyl group can strengthen dipole-dipole interactions, albeit hydrogen bonding isn\u2019t applicable in this case due to the lack of hydrogen bond donors. Still, the dipole introduced by the carbonyl group along with augmented pi-pi interactions due to the extended conjugation result in a notable increase in the melting point. Generally, adding an acetyl group to an aromatic ring can elevate the melting point by approximately 40-50 degrees Celsius based on similar compounds.",
+            "mpC": 122.0,
+            "Prediction(integer)": 114.0,
+            "Abs error": 8.0,
+            "Test (Predicted reason)": " The melting point of p-acetylbiphenyl can be estimated based on the following factors: (1) The basic unit, biphenyl, has a melting point of 170\u00b0C due to strong intermolecular forces from pi-pi stacking and van der Waals interactions. (2) The acetyl group (-COCH3) can increase the melting point due to the added polarity and potential for hydrogen bonding, which may contribute about +20\u00b0C. (3) The alkyl chain (c1ccc(cc1)c2ccccc2) can lower the melting point due to reduced intermolecular interactions compared to a phenyl group, which might subtract about -20\u00b0C.\n##Prediction: 170.0\n\n\n#Problem",
+            "Test (Predicted value)": "170.0"
+        },
+        {
+            "name": "p-nitrobenzamide",
+            "smiles": "O=[N+]([O-])c1ccc(cc1)C(N)=O",
+            "csid": 11594,
+            "link": "http://de.wikipedia.org/wiki/Beilsteins_Handbuch_der_Organischen_Chemie",
+            "source": "Beilstein F. K.; Beilsteins Handbuch der Organischen Chemie. Springer; Berlin; 1972.",
+            "Reason": "The melting point of a compound is influenced by a variety of intermolecular forces such as hydrogen bonding, dipole interactions, and London dispersion forces. The basic unit for p-nitrobenzamide is benzene, which has a melting point of approximately 5.5 degrees Celsius. The amide functional group (C(N)=O) introduces a strong potential for hydrogen bonding and has a generally elevating effect on the melting point. The nitro group (O=[N+](O-)) is an electron-withdrawing group that also contributes to an increase in melting point due to its ability to stabilize the compound through resonance, leading to a more rigid structure. However, predicting the quantitative effect of each functional group without empirical data is challenging, as the intermolecular forces' contribution to melting point can vary widely between different compounds. For the sake of an illustrative prediction, we might assign: \n\n- Amide group: +120 degrees Celsius (significant potential for hydrogen bonding) \n- Nitro group: +75 degrees Celsius (due to electron-withdrawing effects and resonance stabilization) \n\nSumming these estimated contributions to the basic benzene unit gives us an estimated melting point.",
+            "mpC": 201.0,
+            "Prediction(integer)": 200.0,
+            "Abs error": 1.0,
+            "Test (Predicted reason)": "\n##Prediction: 180.0\n\n\n#Problem",
+            "Test (Predicted value)": "180.0"
+        },
+        {
+            "name": "cyclopentanone, 2-methyl-",
+            "smiles": "O=C1CCCC1C",
+            "csid": 13627,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "The basic unit, cyclopentane, has a melting point of -94\u00b0C. The carbonyl group (C=O) in cyclopentanone generally increases the melting point due to the polar nature of the functional group, which leads to stronger intermolecular forces like dipole-dipole interactions. This polar effect might add approximately +30\u00b0C to the melting point. The methyl group attached to the cyclopentanone slightly decreases the melting point due to branching, which can disrupt the crystal lattice structure leading to a less compact packing. The effect might be around -5\u00b0C for the methyl group.",
+            "mpC": -75.0,
+            "Prediction(integer)": -69.0,
+            "Abs error": 6.0,
+            "Test (Predicted reason)": "\n##Prediction: -10.0\n\n\n#Problem",
+            "Test (Predicted value)": "-10.0"
+        },
+        {
+            "name": "l-proline, 1-acetyl-4-hydroxy-, trans-",
+            "smiles": "OC1CC(C(=O)O)N(C1)C(=O)C",
+            "csid": 468812,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "The basic unit for our comparison here is proline, which has a melting point around 221 degrees Celsius. The modifications to consider on this proline derivative are the acetyl group and the hydroxy group. Typically, acetyl groups tend to lower the melting point due to their potential to disrupt hydrogen bonding in the solid state compared to the carboxylic acid they may replace or the amine they may acetylate. However, since this is a trans-configuration, there might be some kind of stabilization due to the rigidity of the molecule, but not enough to increase the melting point significantly. We can estimate this effect to be approximately -60 degrees Celsius. The hydroxy group generally increases the melting point because of the increased capacity for hydrogen bonding, but since proline already has a secondary amine and a carboxyl, the additional hydroxy won't increase the melting point as much as it would on a non-functionalized alkane. We can estimate this hydroxy group to contribute around +10 degrees Celsius to the melting point.",
+            "mpC": 132.0,
+            "Prediction(integer)": 131.0,
+            "Abs error": 1.0,
+            "Test (Predicted reason)": "\n##Prediction: 105.0\n\n\n#Problem",
+            "Test (Predicted value)": "105.0"
+        },
+        {
+            "name": "methyl isobutyrylacetate",
+            "smiles": "CC(C)C(=O)CC(=O)OC",
+            "csid": 2040717,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L16216",
+            "source": "Alfa Aesar",
+            "Reason": "To predict the melting point of methyl isobutyrylacetate, we need to consider the structural components and their influence on intermolecular interactions, since the molecule consists of several functional groups that have different effects on the melting point. The base unit we will consider is methyl acetate, which has a typical ester melting point around -98\u00b0C. The influence of the functional groups are as follows: the isobutyl side chain (CC(C)C) adds steric hindrance and some dispersion forces, which typically raises the melting point, although since the molecule can no longer pack as efficiently as a smaller molecule, the effect might not be large (+5\u00b0C). The additional carbonyl group (C(=O)) introduces the possibility for more dipole-dipole interaction and potential hydrogen bonding, although the lack of hydrogens attached to electronegative atoms means hydrogen bonding is not a major factor in this molecule. Still, additional carbonyl can increase the melting point due to stronger dipole-dipole interactions (+10\u00b0C). Putting all these changes together, we adjust the melting point of the base unit upwards accordingly.",
+            "mpC": -75.0,
+            "Prediction(integer)": -83.0,
+            "Abs error": 8.0,
+            "Test (Predicted reason)": "\n##Prediction: 100.0\n\n\n#Problem",
+            "Test (Predicted value)": "100.0"
+        },
+        {
+            "name": "acetyl benzoyl peroxide",
+            "smiles": "CC(=O)OOC(=O)c1ccccc1",
+            "csid": 12048,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "The compound acetyl benzoyl peroxide includes a benzene ring, a peroxy bond (OO), and two acyl groups (C=O). The basic unit for the benzene ring, benzene, has a melting point of 5.5\u00b0C. The introduction of the two acyl groups should increase the melting point since they can participate in intermolecular dipole-dipole interactions and have a rigid planar structure, further promoting organized crystal stacking. Acyl groups typically raise the melting point by about 20-40\u00b0C each due to these interactions and increased molecular weight. The peroxy linkage is less common and more difficult to predict, but it typically leads to lower melting points due to the unstable nature of the O-O bond, which might decrease the melting point by 20-30\u00b0C since it can lead to a less ordered crystal lattice. Combining these effects, the expected overall increase might be: Benzene: +5.5, Two acyl groups: +40 to +80, Peroxy linkage: -20 to -30.",
+            "mpC": 37.0,
+            "Prediction(integer)": 45.0,
+            "Abs error": 8.0,
+            "Test (Predicted reason)": "\n##Prediction: 140.0\n\n\n#Problem",
+            "Test (Predicted value)": "140.0"
+        }
+    ]
+}

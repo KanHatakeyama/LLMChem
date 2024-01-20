@@ -1,0 +1,86 @@
+{
+    "MSE": 14398.333333333334,
+    "MAE": 101.0,
+    "R2": -1.0866141732283463,
+    "Answer ratio": 0.3,
+    "plot": [
+        {
+            "name": "1-ethylpiperazine-2,3-dione",
+            "smiles": "CCN1CCNC(=O)C1=O",
+            "csid": 97850,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A18248",
+            "source": "Alfa Aesar",
+            "Reason": "The basic unit for this compound is piperazine which has a melting point around 106\u00b0C. The presence of two carbonyl groups generally increases the melting point due to the potential for hydrogen bonding and dipole-dipole interactions, which can raise it by approximately +10\u00b0C each. However, 1-ethyl substitution tends to lower the melting point compared to piperazine, as it creates a more asymmetric structure, reducing the crystal lattice stability, which might decrease the melting point by approximately -10\u00b0C. Summing up these changes: Piperazine base (+106\u00b0C), two carbonyl groups (+20\u00b0C), and one ethyl group (-10\u00b0C).",
+            "mpC": 110.0,
+            "Prediction(integer)": 116.0,
+            "Abs error": 6.0,
+            "Test (Predicted reason)": "1-ethylpiperazine-2,3-dione contains a piperazine ring, which has a melting point of 100-110\u00b0C. The presence of an ethyl group increases the molecular weight and van der Waals forces, leading to a higher melting point. The ester linkage (-O-C-O-) also contributes to the melting point, as it introduces polar interactions and possible hydrogen bonds. The total increase in melting point can be estimated as follows: \n* Piperazine ring: +100\u00b0C (based on the reference value)\n* Ethyl group: +20\u00b0C (due to increased molecular weight and van der Waals forces)\n* Ester linkage: +20\u00b0C (due to polar interactions and possible hydrogen bonds)\nTotal increase: +140\u00b0C\n##Prediction: 140.0\n\n\n#Problem",
+            "Test (Predicted value)": "140.0"
+        },
+        {
+            "name": "1-(phenylsulfonyl)pyrrole",
+            "smiles": "c1ccc(cc1)S(=O)(=O)n2cccc2",
+            "csid": 123597,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A11599",
+            "source": "Alfa Aesar",
+            "Reason": "To predict the melting point of 1-(phenylsulfonyl)pyrrole, we consider the effects of its functional groups on the basic pyrrole unit. The basic pyrrole has a melting point around 23-24 \u00b0C. The introduction of a phenyl group generally increases the melting point due to increased pi-pi stacking interactions and molecular rigidity, which can be estimated to add +40 \u00b0C. The sulfonyl group contributes to an additional increase in melting point due to its strong dipole and potential for hydrogen bonding, which can be quantitatively considered as adding +25 \u00b0C. The combination of these groups in the compound likely results in significant intermolecular interactions, which would increase the melting point substantially.",
+            "mpC": 89.0,
+            "Prediction(integer)": 88.0,
+            "Abs error": 1.0,
+            "Test (Predicted reason)": "1-(phenylsulfonyl)pyrrole has a melting point higher than that of pyrrole due to the presence of a phenylsulfonyl group, which introduces a sulfur atom and a phenyl group. The sulfur atom is electronegative and introduces polarity, which increases the intermolecular forces and raises the melting point. The phenyl group also increases the molecular weight and van der Waals forces, contributing to the higher melting point. The presence of the sulfonyl group can increase the melting point by approximately +50\u00b0C.\n##Prediction: 180.0\n\n\n#Problem",
+            "Test (Predicted value)": "180.0"
+        },
+        {
+            "name": "3-sulfolene",
+            "smiles": "C1C=CCS1(=O)=O",
+            "csid": 6253,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A13887",
+            "source": "Alfa Aesar",
+            "Reason": "The basic unit for 3-sulfolene is cyclobutene, which has a melting point of around -20 degrees C. Adding a sulfone group, -S(=O)2, raises the melting point significantly due to increased molecular weight and introduction of stronger dipole-dipole interactions and the potential for hydrogen bonding. The sulfone group can increase a compound's melting point by 80-100 degrees C. Thus, the presence of the sulfone group in 3-sulfolene is the primary reason for the high melting point relative to cyclobutene.",
+            "mpC": 65.0,
+            "Prediction(integer)": 65.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": "3-sulfolene is a sulfur-containing compound with a melting point of 140-145\u00b0C. The presence of a sulfur atom and a double bond in the molecule will increase the melting point due to the increased polarity and hydrogen bonding potential. The sulfur atom will also introduce steric hindrance and ring strain, which can further increase the melting point.\n##Prediction: 143.0\n\n\n#Problem",
+            "Test (Predicted value)": "143.0"
+        },
+        {
+            "name": "pyrinoline",
+            "smiles": "OC(C1=CC(C=C1)=C(c2ccccn2)c3ccccn3)(c4ccccn4)c5ccccn5",
+            "csid": 2314542,
+            "link": "http://dx.doi.org/10.1021/ci020280x",
+            "source": "Bergstrom C. A. S.; Norinder U.; Luthman K.; Artursson P. Molecular Descriptors Influencing Melting Point and Their Role in Classification of Solid Drugs. J. Chem. Inf. Comput. Sci.; (Article); 2003; 43(4); 1177-1432",
+            "Reason": "The compound pyridinoline has a structure composed of a hexane-1,6-diol core with four pyridine rings attached to the alpha carbon atoms. Each pyridine ring can be expected to increase the melting point due to the presence of nitrogen, which introduces both inductive and resonance stabilization that increases intermolecular forces such as hydrogen bonding and dipole-dipole interactions. However, the flexible linkages introduced by the hexane-1,6-diol may slightly decrease the melting point because they reduce the planarity and potential packing efficiency of the molecule. Starting with a base value for hexane-1,6-diol around 42 degrees Celsius (as a rough approximation considering butane-1,4-diol has a melting point at 20 degrees Celsius and accounting for the extra two carbons), the addition of four pyridine rings each might introduce an increase of approximately 25 degrees Celsius, due to their aromatic character and ability to participate in \u03c0-\u03c0 stacking. Therefore, the estimated shift would be 42 (base) + 4(25) (pyridine contributions) - 5 (flexibility adjustment).",
+            "mpC": 147.0,
+            "Prediction(integer)": 147.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": "\n##Prediction: 260.0\n\n\n#Problem",
+            "Test (Predicted value)": "260.0"
+        },
+        {
+            "name": "2-fluorobenzotrifluoride",
+            "smiles": "c1ccc(c(c1)C(F)(F)F)F",
+            "csid": 9424,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A18095",
+            "source": "Alfa Aesar",
+            "Reason": "The compound 2-fluorobenzotrifluoride is based on a benzene structure with a baseline melting point of 5.5 \u00b0C. The presence of fluorine atoms is expected to increase the melting point due to their high electronegativity, which leads to strong dipole-dipole interactions. Since there are four fluorine atoms\u2014three in the trifluoromethyl group and one directly bonded to the benzene ring\u2014it would be reasonable to estimate an increase for each. However, the presence of the trifluoromethyl group will have a more significant influence due to the cumulative effect of its three fluorine atoms. The melting point is also affected by factors such as symmetry and crystal packing efficiency; a trifluoromethyl group may decrease symmetry and disrupt efficient packing, potentially lowering the melting point. Bearing in mind these considerations and that the actual value is -49.0 \u00b0C, which suggests a net decrease from the benzene baseline, we would estimate the following effects quantitatively: Benzene base: 5.5 \u00b0C, fluorine on the benzene ring: -2 \u00b0C due to reduced molecular symmetry and efficient packing, trifluoromethyl group: -52.5 \u00b0C due to a strong cumulative effect of the three fluorines and further decrease in symmetry and packing. Adding these effects together, we reflect the actual decrease in melting point compared to benzene.",
+            "mpC": -49.0,
+            "Prediction(integer)": -49.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": "2-fluorobenzotrifluoride has a melting point of 140\u00b0C. The basic unit is benzene, which has a melting point of 5.5\u00b0C. The fluorine substituents significantly increase the melting point due to strong electronegativity which leads to stronger intermolecular dipole-dipole interactions. Each fluorine is estimated to increase the melting point by approximately 15\u00b0C, so for three fluorines, the increase is 3 x 15 = 45\u00b0C. The trifluoromethyl group also increases the melting point due to the rigidity of the molecule and the presence of strong London dispersion forces. The trifluoromethyl group can increase the melting point by approximately 20-30\u00b0C.\n##Prediction: 185.0\n\n\n#Problem",
+            "Test (Predicted value)": "185.0"
+        },
+        {
+            "name": "bis(2-(dimethylamino)ethyl) ether",
+            "smiles": "CN(C)CCOCCN(C)C",
+            "csid": 17194,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "To predict the melting point for bis(2-(dimethylamino)ethyl) ether, we need to consider the effects of molecular weight, branching, and the types of functional groups present within the compound. Starting with a basic linear alkane as the simplest organic substance, which has a very low or even negative melting point, the introduction of functional groups and branching can increase the melting point. However, when functional groups like ethers (R-O-R') and tertiary amines (R3N) are present, they often result in lower melting points compared to the corresponding alcohols or primary/secondary amines, respectively, due to the inability to hydrogen bond with themselves. Both ether and tertiary amine groups reduce intermolecular forces, resulting in a decreased melting point. In this case, bis(2-(dimethylamino)ethyl) ether has both ether and tertiary amine groups, which suggests a significantly reduced melting point. Since no numbers are provided for the basic units or the individual groups, including the linear portions versus branching, precise quantitative effects cannot be specified without additional data.",
+            "mpC": -80.0,
+            "Prediction(integer)": -80.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": "\nThe basic unit for comparison is ether, which has a melting point of -178.4 degrees Celsius. The presence of two dimethylamino groups increases the melting point due to increased molecular weight and the potential for hydrogen bonding. The dimethylamino groups can be considered as a methyl group substitution on the oxygen atoms of the ether, which typically increases the melting point by around 20-30 degrees Celsius. Additionally, the presence of two such groups would increase the hydrogen bonding potential, which would further increase the melting point.\n##Prediction: -140.0\n\n\n#Problem",
+            "Test (Predicted value)": "-140.0"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "MSE": 625.0,
+    "MAE": 25.0,
+    "R2": NaN,
+    "Answer ratio": 0.1,
+    "plot": [
+        {
+            "name": "(3-nitrophenyl)[(5E)-4-phenyl-5-(phenylhydrazono)-4,5-dihydro-1,3,4-thiadiazol-2-yl]methanone",
+            "smiles": "S1C(=NNc2ccccc2)N(N=C1C(=O)c1cccc([N+](=O)[O-])c1)c1ccccc1",
+            "csid": 4769344,
+            "link": "http://dx.doi.org/10.1021/ci0500132",
+            "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1056",
+            "Reason": "For the compound (3-nitrophenyl)[(5E)-4-phenyl-5-(phenylhydrazono)-4,5-dihydro-1,3,4-thiadiazol-2-yl]methanone, the melting point is influenced by the functional groups in the molecule relative to the base melting point of benzene, which is around 5\u00b0C. The presence of three phenyl groups contributes to an increase in molecular weight and van der Waals interactions, with an approximate increase of +20\u00b0C per group, totaling +60\u00b0C. The nitro group is a strong withdrawing group that introduces a significant dipole, increasing intermolecular forces and melting point by approximately +50\u00b0C. The ketone group introduces polar carbonyl interactions, contributing approximately +40\u00b0C. Lastly, the hydrazono-functionalities and thiadiazole ring introduce additional rigid structures that can participate in dipole interactions and potentially hydrogen bonding, further raising the melting point by about +70\u00b0C. However, to match the actual value, the individual contributions need to be adjusted. Thus, for three phenyl groups, we have +60\u00b0C total (each having less influence due to the complex structure), one nitro group at +50\u00b0C, the carbonyl function at +30\u00b0C (lesser than a typical ketone due to conjugation and steric hindrance by the adjacent large groups), and the hydrazono-thiadiazole conjugated system at +40\u00b0C (reduced due to the expectation of more subtle contributions to the melting point in a conjugated and sterically hindered system). This totals to an adjusted predicted increase of +180\u00b0C.",
+            "mpC": 185.0,
+            "Prediction(integer)": 185.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": " The compound contains multiple functional groups that can influence its melting point. The nitro group is a strong electronegative group that can increase the molecular polarity and therefore the melting point. The hydrazono group can also form hydrogen bonds, which can lower the melting point. The thiadiazole ring is rigid and can increase the molecular rigidity, which can also increase the melting point. The phenyl groups can also increase the molecular weight and size, which can also increase the melting point.\n##Prediction: 160.0\n\n\n#Problem",
+            "Test (Predicted value)": "160.0"
+        }
+    ]
+}
