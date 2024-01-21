@@ -1,9 +1,10 @@
 import transformers
 from datetime import datetime
-from .dataset import tokenize_dataset,gen_train_text
+from .dataset import tokenize_dataset, gen_train_text
 import json
 
-def train_model(model,tokenizer,dataset,
+
+def train_model(model, tokenizer, dataset,
                 project_dir="",
                 epochs=3,
                 lr=10**-5,
@@ -12,23 +13,25 @@ def train_model(model,tokenizer,dataset,
                 generation=0,
                 ):
     tokenized_dataset = tokenize_dataset(gen_train_text(dataset), tokenizer)
-
-    #train
+    if epochs == 0:
+        return None
+    # train
     train_args = transformers.TrainingArguments(
-            per_device_train_batch_size=per_device_train_batch_size,
-            #gradient_accumulation_steps=1,
-            warmup_steps=0,
-            num_train_epochs=epochs,
-            learning_rate=lr,
-            fp16=True,
-            logging_steps=100,
-            save_total_limit=1,
-            output_dir=f'outputs/{generation}_'+datetime.now().strftime('%Y%m%d%H%M%S'),
-            gradient_checkpointing=gradient_checkpointing,
-        )
+        per_device_train_batch_size=per_device_train_batch_size,
+        # gradient_accumulation_steps=1,
+        warmup_steps=0,
+        num_train_epochs=epochs,
+        learning_rate=lr,
+        fp16=True,
+        logging_steps=100,
+        save_total_limit=1,
+        output_dir=f'outputs/{generation}_' + \
+        datetime.now().strftime('%Y%m%d%H%M%S'),
+        gradient_checkpointing=gradient_checkpointing,
+    )
 
     # trainer
-    #callbacks = [EarlyStoppingCallback()]
+    # callbacks = [EarlyStoppingCallback()]
     callbacks = []
 
     trainer = transformers.Trainer(
@@ -42,7 +45,7 @@ def train_model(model,tokenizer,dataset,
 
     train_result = trainer.train()
 
-    if project_dir!="":
-        with open(f"{project_dir}/train/{datetime.now().strftime('%Y%m%d%H%M%S')}.json","w") as f:
-            json.dump(train_result,f,indent=4)
+    if project_dir != "":
+        with open(f"{project_dir}/train/{datetime.now().strftime('%Y%m%d%H%M%S')}.json", "w") as f:
+            json.dump(train_result, f, indent=4)
     return train_result
