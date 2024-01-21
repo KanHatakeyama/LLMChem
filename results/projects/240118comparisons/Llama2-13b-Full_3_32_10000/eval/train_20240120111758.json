@@ -1,0 +1,60 @@
+{
+    "MSE": 4954.7225,
+    "MAE": 62.925,
+    "R2": 0.6510682013248531,
+    "Answer ratio": 0.08,
+    "plot": [
+        {
+            "name": "3-thiahexane",
+            "smiles": "CCSCCC",
+            "csid": 18902,
+            "link": "http://www.amazon.com/dp/B002IYRJWI",
+            "source": "American Petroleum Institute. Research Project 44; Selected Values of Properties of Hydrocarbons and Related Compounds. Texas A & M University; College Station; TX; 1973.",
+            "Reason": "The base structure to consider is propane, which has a melting point of -187.7\u00b0C. The presence of the sulfur atom in place of a methylene group (CH2) in 3-thiahexane increases the molecular weight and provides a polarizable electron cloud which can increase London dispersion forces. However, these effects might be offset slightly by the introduction of potential steric strain and reduced molecular symmetry. Given the relatively modest size and electronegativity difference between sulfur and carbon, we estimate that the sulfur inclusion would raise the melting point by about 50-60\u00b0C as a rough estimate.",
+            "mpC": -117.0,
+            "Prediction(integer)": -123.0,
+            "Abs error": 6.0,
+            "Test (Predicted reason)": "3-thiahexane is a six-carbon chain with a sulfur atom at the third carbon. The basic unit we can consider is hexane, which has a melting point of -95.3 degrees Celsius. The sulfur atom in 3-thiahexane introduces polarity and the potential for dipole-dipole interactions, which typically raise the melting point. However, the effect of sulfur is less pronounced than that of oxygen or nitrogen due to its smaller size and less electronegativity. The increase in melting point due to the sulfur atom can be estimated to be around 10 degrees Celsius.\n##Prediction: -85.3\n\n\n#Problem",
+            "Test (Predicted value)": "-85.3"
+        },
+        {
+            "name": "m-diiodobenzene",
+            "smiles": "Ic1cccc(I)c1",
+            "csid": 21168837,
+            "link": "http://de.wikipedia.org/wiki/Beilsteins_Handbuch_der_Organischen_Chemie",
+            "source": "Beilstein F. K.; Beilsteins Handbuch der Organischen Chemie. Springer; Berlin; 1972.",
+            "Reason": "The basic unit, benzene, has a melting point of 5.5\u00b0C. Adding iodine groups to a benzene ring typically increases its melting point due to the increased molecular weight and enhanced intermolecular London dispersion forces. Each iodine could increase the melting point by around +15 to +25\u00b0C. Given that there are two iodines in the meta position, these effects are additive, but may not be purely cumulative due to potential steric hindrance affecting crystalline packing. Predicting a moderate effect of approximately +20\u00b0C per iodine would account for both the increased intermolecular forces and the slight reduction due to suboptimal packing. This yields an increase of +40\u00b0C from the two iodines.",
+            "mpC": 37.0,
+            "Prediction(integer)": 45.0,
+            "Abs error": 8.0,
+            "Test (Predicted reason)": " The basic unit for comparison is benzene, which has a melting point of 5.5 degrees Celsius. The presence of two iodine atoms significantly increases the molecular weight and the van der Waals forces, which typically raises the melting point. Each iodine atom can be estimated to raise the melting point by about 40 degrees due to its large size and the significant increase in London dispersion forces.\n##Prediction: 80.0\n\n\n#Problem",
+            "Test (Predicted value)": "80.0"
+        },
+        {
+            "name": "3,5-diiodo-4-hydroxybenzonitrile",
+            "smiles": "c1c(cc(c(c1I)O)I)C#N",
+            "csid": 14774,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=A13929",
+            "source": "Alfa Aesar",
+            "Reason": "The compound 3,5-diiodo-4-hydroxybenzonitrile has a base structure of a benzene ring, which has a melting point of 5.5\u00b0C. The presence of substituents will modify this value as follows: Iodine atoms contribute significantly to the melting point because of the high atomic mass and the introduction of substantial van der Waals interactions. Individually, each iodine atom may add approximately +80\u00b0C rather than +100\u00b0C since too high of an estimate for each iodine may overestimate the influence on the melting point. Thus, adding two iodine atoms would contribute approximately +160\u00b0C. The hydroxyl group (OH) introduces hydrogen bonding capabilities, which generally results in a considerable increase in the melting point due to the formation of strong intermolecular forces. This can be estimated to raise the melting point by about +40\u00b0C. The nitrile group (C#N), being less polar and unable to form hydrogen bonds, has a lesser effect but can still raise the melting point due to increased polarity and potential for dipole-dipole interactions; an increase of about +5\u00b0C is reasonable. Therefore, the cumulative effect of these functional groups is considered in the predicted melting point.",
+            "mpC": 204.0,
+            "Prediction(integer)": 210.0,
+            "Abs error": 6.0,
+            "Test (Predicted reason)": "3,5-diiodo-4-hydroxybenzonitrile has several functional groups that will affect its melting point. The base structure is benzene, which has a melting point of 5.5\u00b0C. The presence of two iodine atoms significantly increases the molecular weight and the Van der Waals forces, which can be estimated to raise the melting point by +40\u00b0C each. The hydroxyl group can form hydrogen bonds, which typically raises the melting point, estimated at +20\u00b0C. The nitrile group is polar and can engage in dipole-dipole interactions, which might increase the melting point by +10\u00b0C. However, the overall molecule is quite large and flexible, which might reduce the melting point due to less efficient packing, estimated at -5\u00b0C.\n##Prediction: 90.0\n\n\n#Problem",
+            "Test (Predicted value)": "90.0"
+        },
+        {
+            "name": "ethyl 1h-indazole-6-carboxylate",
+            "smiles": "CCOC(=O)c1ccc2cn[nH]c2c1",
+            "csid": 14354351,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=H32249",
+            "source": "Alfa Aesar",
+            "Reason": "The compound ethyl 1H-indazole-6-carboxylate consists of several functional groups that influence its melting point. The basic unit we can consider is indazole, which is a fused structure of benzene and pyrrole. Benzene has a melting point of 5.5 \u00b0C, while pyrrole is higher due to the presence of a heteroatom that increases polarity, leading to a higher melting point for pyrrole. The indazole fusion creates a more rigid structure, which is usually associated with a higher melting point due to increased crystal stability. The presence of a carboxylate ester (ethoxycarbonyl) group should further increase the melting point since esters can engage in dipole-dipole interactions, and the ethyl group slightly increases the molecular weight and size. The predicted melting point for ethyl 1H-indazole-6-carboxylate is expected to be much higher than that of indazole alone due to these contributing factors, and each one is quantitatively considered: indazole base +45, ethoxycarbonyl ester +40, overall molecular rigidity and size +35.",
+            "mpC": 125.0,
+            "Prediction(integer)": 125.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": "1H-indazole has a melting point of around 52\u00b0C. The ethyl ester group (COOEt) is likely to increase the melting point due to the additional molecular weight and the possibility of dipole-dipole interactions, but not as much as a carboxylic acid due to the lack of hydrogen bonding. We can estimate this increase to be around +10\u00b0C.\n##Prediction: 62.0\n\n\n#Problem",
+            "Test (Predicted value)": "62.0"
+        }
+    ]
+}
