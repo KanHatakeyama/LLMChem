@@ -19,7 +19,7 @@ n_test = 50  # number of testing data
 # number of training data for checking (i.e., checking everything takes too long, so we check only a part of training data)
 n_train_check = 50
 
-n_prompt_examples = 5
+n_prompt_examples = 1
 
 bit = 16
 # bit=8
@@ -39,7 +39,7 @@ dataset_path = "dataset/231225AutoReasoning/240117best_reason_record_11k.csv"
 
 # %%
 model_dict = {
-    "Llama2-70b(4bit)-Full": {
+    "Llama2-70b(4bit)-Full-Prompt2": {
         "name": "meta-llama/Llama-2-70b-chat-hf",
         "modules": [
             "embed_tokens",
@@ -53,6 +53,7 @@ model_dict = {
             "down_proj",
         ]
     },
+
 }
 
 

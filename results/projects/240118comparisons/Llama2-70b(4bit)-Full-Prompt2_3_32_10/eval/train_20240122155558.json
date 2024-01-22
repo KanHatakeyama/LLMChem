@@ -1,0 +1,86 @@
+{
+    "MSE": 50403.482083333336,
+    "MAE": 200.45833333333334,
+    "R2": -1.5304735091627126,
+    "Answer ratio": 0.6,
+    "plot": [
+        {
+            "name": "cyclobutane, methylene-",
+            "smiles": "C=C1CCC1",
+            "csid": 13624,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "The basic unit for this compound can be considered ethylene (with a melting point of -169.2\u00b0C) because the cyclobutane ring formation will significantly alter the physical properties compared to a straight-chain butene isomer. For the methylene-cyclobutane specifically, the introduction of the four-membered ring introduces ring strain and a more rigid structure, but also reduces the symmetry. This reduction in symmetry and presence of strain usually leads to a higher melting point. However, the exact impact of ring formation is difficult to quantify without experimental data or detailed computational studies. Ring formation: +35\u00b0C (This is a rough estimate and may not reflect the exact value for such structural modifications).",
+            "mpC": -134.7,
+            "Prediction(integer)": -134.0,
+            "Abs error": 0.6999999999999886,
+            "Test (Predicted reason)": "\n##Prediction: 164.0\n\n\n#Problem",
+            "Test (Predicted value)": "164.0"
+        },
+        {
+            "name": "(3-nitrophenyl)[(5E)-4-phenyl-5-(phenylhydrazono)-4,5-dihydro-1,3,4-thiadiazol-2-yl]methanone",
+            "smiles": "S1C(=NNc2ccccc2)N(N=C1C(=O)c1cccc([N+](=O)[O-])c1)c1ccccc1",
+            "csid": 4769344,
+            "link": "http://dx.doi.org/10.1021/ci0500132",
+            "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1056",
+            "Reason": "For the compound (3-nitrophenyl)[(5E)-4-phenyl-5-(phenylhydrazono)-4,5-dihydro-1,3,4-thiadiazol-2-yl]methanone, the melting point is influenced by the functional groups in the molecule relative to the base melting point of benzene, which is around 5\u00b0C. The presence of three phenyl groups contributes to an increase in molecular weight and van der Waals interactions, with an approximate increase of +20\u00b0C per group, totaling +60\u00b0C. The nitro group is a strong withdrawing group that introduces a significant dipole, increasing intermolecular forces and melting point by approximately +50\u00b0C. The ketone group introduces polar carbonyl interactions, contributing approximately +40\u00b0C. Lastly, the hydrazono-functionalities and thiadiazole ring introduce additional rigid structures that can participate in dipole interactions and potentially hydrogen bonding, further raising the melting point by about +70\u00b0C. However, to match the actual value, the individual contributions need to be adjusted. Thus, for three phenyl groups, we have +60\u00b0C total (each having less influence due to the complex structure), one nitro group at +50\u00b0C, the carbonyl function at +30\u00b0C (lesser than a typical ketone due to conjugation and steric hindrance by the adjacent large groups), and the hydrazono-thiadiazole conjugated system at +40\u00b0C (reduced due to the expectation of more subtle contributions to the melting point in a conjugated and sterically hindered system). This totals to an adjusted predicted increase of +180\u00b0C.",
+            "mpC": 185.0,
+            "Prediction(integer)": 185.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": "\n##Prediction: -134.0\n\n\n#Problem",
+            "Test (Predicted value)": "-134.0"
+        },
+        {
+            "name": "2-Methoxyethanol",
+            "smiles": "OCCOC",
+            "csid": 7728,
+            "link": "http://msds.chem.ox.ac.uk/",
+            "source": "academic website",
+            "Reason": "The basic unit for comparison can be ethanol, which has a melting point of -114.1 degrees Celsius. The introduction of the methoxy group (\u2013OCH3) in place of a hydrogen atom increases the molecular weight and size which generally raises the melting point. However, the oxygen within the methoxy group also increases hydrogen bonding potential. Since hydrogen bonds are already present in ethanol, the additional oxygen atom allows for more hydrogen bond formation, which can further lower the melting point. Taking the effect of the methoxy group into consideration, we can predict an increase due to molecular size but a more significant decrease due to additional hydrogen bonding. The net effect should thus be a decreased melting point but not as low as the increase observed with ethanol's hydrogen bonding alone.",
+            "mpC": -85.05,
+            "Prediction(integer)": -95.0,
+            "Abs error": 9.950000000000005,
+            "Test (Predicted reason)": "2-Methoxyethanol has a melting point of 106-108\u00b0C.\n##Prediction: 107.0\n\n\n#Problem",
+            "Test (Predicted value)": "107.0"
+        },
+        {
+            "name": "1,1':4',1''-Terphenyl",
+            "smiles": "c1cc(ccc1)c2ccc(cc2)c3ccccc3",
+            "csid": 6848,
+            "link": "http://msds.chem.ox.ac.uk/",
+            "source": "academic website",
+            "Reason": "The basic unit for our comparison will be benzene, which has a melting point of 5.5\u00b0C (according to the CRC Handbook of Chemistry and Physics, 49th Edition, 1968-1969). The structural modifications we need to consider are the presence of two additional phenyl rings. Phenyl groups, when connected to a benzene ring, tend to increase the melting point due to the enhancement of the crystalline structure and the increase in molecular weight. In the case of 1,1':4',1''-Terphenyl, we have two additional phenyl rings linked in a linear fashion, which would notably augment the melting point. Each additional phenyl group can be estimated to add approximately 100\u00b0C to the melting point due to increased pi-pi interactions, rigidity, and molecular weight.",
+            "mpC": 213.0,
+            "Prediction(integer)": 205.0,
+            "Abs error": 8.0,
+            "Test (Predicted reason)": "1,1':4',1''-Terphenyl is a polycyclic aromatic hydrocarbon (PAH) consisting of four fused benzene rings. The molecular structure has a planar, flat shape, which can lead to strong pi-pi stacking interactions between adjacent molecules, resulting in a higher melting point. Additionally, the molecule has a high molecular weight, which also contributes to a higher melting point.\n##Prediction: 198.0\n\n\n#Problem",
+            "Test (Predicted value)": "198.0"
+        },
+        {
+            "name": "1,2-propanediol, 3-(2-methoxyphenoxy)-, 1-carbam",
+            "smiles": "NC(=O)OCC(O)COc1ccccc1OC",
+            "csid": 3964,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "The compound under consideration contains several functional groups whose influences on the melting point can be examined. The basic unit of analysis is the 1,2-propanediol moiety, which on its own exhibits intermolecular hydrogen bonding, thus increasing the melting point. Substituting hydrogen with a methoxyphenoxy group will raise the melting point due to the increased molecular weight and van der Waals forces but will also contain aromaticity which discourages packing hence slightly lowering the melting point. A methoxy group will increase the molecular weight and volume, which might minutely raise the melting point. However, the presence of an ether linkage (\u2013O\u2013) has a slight lowering effect because it does not participate in hydrogen bonding as intensely as a hydroxyl group would. Finally, the carbamate group (1-carbam) will increase the melting point due to its ability to form intermolecular hydrogen bonds and increase molecular weight. Quantitatively, the propanediol base might be considered to have a melting point around 50 degrees Celsius, based on the fact that 1,2-propanediol itself has a melting point around that value. For the methoxyphenoxy group, let's say it increases it by +20 degrees Celsius due to the increased molecular weight mitigated by the aromaticity. The ether linkage might reduce it very slightly, say -2 degrees Celsius. The methoxy group's effect might be around +2 degrees Celsius. Lastly, the carbamate group can lead to a significant increase, of about +20 degrees Celsius. The effects are additive.",
+            "mpC": 93.0,
+            "Prediction(integer)": 92.0,
+            "Abs error": 1.0,
+            "Test (Predicted reason)": "\n##Prediction: -134.0\n\n\n#Problem",
+            "Test (Predicted value)": "-134.0"
+        },
+        {
+            "name": "1,1,1,2,2-pentafluoroethane",
+            "smiles": "FC(F)C(F)(F)F",
+            "csid": 9256,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "The basic unit, ethane, has a melting point of -172.0 degrees Celsius. Fluorine substituents significantly increase the melting point due to strong electronegativity which leads to stronger intermolecular dipole-dipole interactions. Each fluorine is estimated to increase the melting point by approximately 15 degrees Celsius, giving a total increase of (15 degrees Celsius x 5 fluorines) = 75 degrees Celsius.",
+            "mpC": -103.0,
+            "Prediction(integer)": -97.0,
+            "Abs error": 6.0,
+            "Test (Predicted reason)": "1,1,1,2,2-pentafluoroethane is a simple halogenated hydrocarbon with a linear chain of five carbon atoms. The presence of five fluorine atoms increases the molecular weight and electronegativity, which typically raises the melting point. The molecule has a symmetrical structure, which can facilitate strong intermolecular interactions, such as dipole-dipole forces or hydrogen bonding, depending on the environment. However, the absence of any functional groups capable of participating in these interactions limits the potential for significant increases in melting point.\n##Prediction: 48.0\n\n\n#Problem",
+            "Test (Predicted value)": "48.0"
+        }
+    ]
+}
