@@ -52,6 +52,20 @@ model_dict = {
             "down_proj",
         ]
     },
+    "Llama2-7b-Part": {
+        "name": "meta-llama/Llama-2-7b-chat-hf",
+        "modules": [
+            # "embed_tokens",
+            "lm_head",
+            # "q_proj",
+            # "k_proj",
+            "v_proj",
+            "o_proj",
+            "gate_proj",
+            "up_proj",
+            # "down_proj",
+        ]
+    },
 }
 
 
@@ -66,8 +80,8 @@ for n_train in [0, 5, 10, 20, 50, 100, 1000, 2000, 5000, 10000]:
             gradient_checkpointing = True
         else:
             gradient_checkpointing = False
-        for epochs in [3]:
-            for r in [32,]:
+        for epochs in [1, 3, 5]:
+            for r in [16, 32, 64, 128]:
                 lora_alpha = r
                 for with_reason in [False, True]:
                     # project path
