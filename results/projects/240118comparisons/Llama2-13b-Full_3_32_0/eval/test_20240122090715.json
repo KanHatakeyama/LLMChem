@@ -1,0 +1,34 @@
+{
+    "MSE": 3541.0,
+    "MAE": 54.0,
+    "R2": -2.0631487889273354,
+    "Answer ratio": 0.04,
+    "plot": [
+        {
+            "name": "2,6-dinitrotoluene",
+            "smiles": "Cc1c(cccc1[N+](=O)[O-])[N+](=O)[O-]",
+            "csid": 11320,
+            "link": "http://www.alfa.com/en/GP100W.pgm?DSSTK=L00856",
+            "source": "Alfa Aesar",
+            "Reason": "Starting from the base molecule benzene which has a melting point of 5.5\u00b0C, we consider the effects of substituents on it to predict the melting point of 2,6-dinitrotoluene. Each nitro group, due to its electron-withdrawing nature and the ability to form intramolecular hydrogen bonding, typically raises the melting point. For each nitro group, the increase in melting point can be estimated at around +25\u00b0C due to strong intermolecular interactions and rigidification of the structure. The methyl group is electron-donating and can slightly decrease the melting point, which can be estimated around -5\u00b0C, but it does not offset the strong effect of the nitro groups. Taking into account symmetrical substitution, which generally stabilizes and raises the melting point due to improved molecular packing, one might estimate an additional +10\u00b0C. Therefore, our prediction would adjust the effect of the substituents based on these considerations.",
+            "mpC": 65.0,
+            "Prediction(integer)": 60.0,
+            "Abs error": 5.0,
+            "Test (Predicted reason)": "2,6-dinitrotoluene has a melting point of 144.0\u00b0C. The presence of two nitro functional groups increases the melting point due to the electron-withdrawing effect, which enhances intermolecular forces such as dipole-dipole interactions and potential hydrogen bonding with surrounding molecules. The nitro group can contribute +20\u00b0C. Additionally, the aromatic ring structure provides rigidity and planarity, which also contributes to the increased melting point. The actual value is close to the predicted value, indicating that the prediction is reasonable.\n##Prediction: 144.0\n\n\n#Problem",
+            "Test (Predicted value)": "144.0"
+        },
+        {
+            "name": "pyridine, 2-(2-phenylethyl)-",
+            "smiles": "C(Cc1ccccn1)c2ccccc2",
+            "csid": 67581,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "The target compound is an aromatic compound with a pyridine ring and a phenylethyl substituent. The basic unit here can be considered as pyridine, which has a melting point of around -42\u00b0C. The phenyl group typically raises the melting point due to increased molecular weight and planar structure which allows for better stacking and pi-pi interactions. The ethyl group branching off the phenyl group will have a smaller impact on the melting point, but it can contribute to hindrance in packing efficiency. Phenyl group: +35 (due to increased molecular weight, planarity, and pi-pi interactions). Ethyl group: +5 (due to additional carbon atoms increasing the molecular complexity slightly). Therefore, the predicted melting point will be the sum of the pyridine base and the contributions of the phenyl and ethyl groups.",
+            "mpC": -3.0,
+            "Prediction(integer)": -2.0,
+            "Abs error": 1.0,
+            "Test (Predicted reason)": "2-phenylethyl group is electron-withdrawing and can increase the melting point due to increased molecular weight and electronegativity. The pyridine ring also has a significant effect on the melting point due to the presence of hydrogen bonding. The predicted melting point of pyridine is -42\u00b0C. The 2-phenylethyl group can increase the melting point by approximately 10-15\u00b0C due to its electron-withdrawing nature and increased molecular weight.\n##Prediction: -32.0\n\n\n#Problem",
+            "Test (Predicted value)": "-32.0"
+        }
+    ]
+}
