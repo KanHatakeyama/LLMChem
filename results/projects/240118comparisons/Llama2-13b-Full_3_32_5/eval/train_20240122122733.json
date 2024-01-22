@@ -1,0 +1,47 @@
+{
+    "MSE": 19219.797499999997,
+    "MAE": 101.55,
+    "R2": -1.0110417504827542,
+    "Answer ratio": 0.6,
+    "plot": [
+        {
+            "name": "cyclobutane, methylene-",
+            "smiles": "C=C1CCC1",
+            "csid": 13624,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "The basic unit for this compound can be considered ethylene (with a melting point of -169.2\u00b0C) because the cyclobutane ring formation will significantly alter the physical properties compared to a straight-chain butene isomer. For the methylene-cyclobutane specifically, the introduction of the four-membered ring introduces ring strain and a more rigid structure, but also reduces the symmetry. This reduction in symmetry and presence of strain usually leads to a higher melting point. However, the exact impact of ring formation is difficult to quantify without experimental data or detailed computational studies. Ring formation: +35\u00b0C (This is a rough estimate and may not reflect the exact value for such structural modifications).",
+            "mpC": -134.7,
+            "Prediction(integer)": -134.0,
+            "Abs error": 0.6999999999999886,
+            "Test (Predicted reason)": "\nThe melting point of cyclobutane, methylene- can be predicted based on the molecular structure and functional groups present. The molecule consists of a four-membered ring with a methylene group (-CH2-) attached. The ring structure and the presence of the methylene group will increase the molecular weight and steric hindrance, leading to a higher melting point. Additionally, the molecule does not contain any functional groups that would significantly affect the melting point.\n##Prediction: 100.0\n\n\n#Problem",
+            "Test (Predicted value)": "100.0"
+        },
+        {
+            "name": "1,2-propanediol, 3-(2-methoxyphenoxy)-, 1-carbam",
+            "smiles": "NC(=O)OCC(O)COc1ccccc1OC",
+            "csid": 3964,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "The compound under consideration contains several functional groups whose influences on the melting point can be examined. The basic unit of analysis is the 1,2-propanediol moiety, which on its own exhibits intermolecular hydrogen bonding, thus increasing the melting point. Substituting hydrogen with a methoxyphenoxy group will raise the melting point due to the increased molecular weight and van der Waals forces but will also contain aromaticity which discourages packing hence slightly lowering the melting point. A methoxy group will increase the molecular weight and volume, which might minutely raise the melting point. However, the presence of an ether linkage (\u2013O\u2013) has a slight lowering effect because it does not participate in hydrogen bonding as intensely as a hydroxyl group would. Finally, the carbamate group (1-carbam) will increase the melting point due to its ability to form intermolecular hydrogen bonds and increase molecular weight. Quantitatively, the propanediol base might be considered to have a melting point around 50 degrees Celsius, based on the fact that 1,2-propanediol itself has a melting point around that value. For the methoxyphenoxy group, let's say it increases it by +20 degrees Celsius due to the increased molecular weight mitigated by the aromaticity. The ether linkage might reduce it very slightly, say -2 degrees Celsius. The methoxy group's effect might be around +2 degrees Celsius. Lastly, the carbamate group can lead to a significant increase, of about +20 degrees Celsius. The effects are additive.",
+            "mpC": 93.0,
+            "Prediction(integer)": 92.0,
+            "Abs error": 1.0,
+            "Test (Predicted reason)": "1,2-propanediol, 3-(2-methoxyphenoxy)-, 1-carbam can be considered as a combination of a straight-chain diol (with a melting point of -12\u00b0C) and a phenoxy group (which can add around +20\u00b0C due to the ability to form hydrogen bonds and increase molecular rigidity). Additionally, the carbamate group can contribute around +20\u00b0C due to the formation of hydrogen bonds and the rigidity it introduces. The total estimated melting point shift is the sum of these contributions.\n##Prediction: 50.0\n\n\n#Problem",
+            "Test (Predicted value)": "50.0"
+        },
+        {
+            "name": "2-Methoxyethanol",
+            "smiles": "OCCOC",
+            "csid": 7728,
+            "link": "http://msds.chem.ox.ac.uk/",
+            "source": "academic website",
+            "Reason": "The basic unit for comparison can be ethanol, which has a melting point of -114.1 degrees Celsius. The introduction of the methoxy group (\u2013OCH3) in place of a hydrogen atom increases the molecular weight and size which generally raises the melting point. However, the oxygen within the methoxy group also increases hydrogen bonding potential. Since hydrogen bonds are already present in ethanol, the additional oxygen atom allows for more hydrogen bond formation, which can further lower the melting point. Taking the effect of the methoxy group into consideration, we can predict an increase due to molecular size but a more significant decrease due to additional hydrogen bonding. The net effect should thus be a decreased melting point but not as low as the increase observed with ethanol's hydrogen bonding alone.",
+            "mpC": -85.05,
+            "Prediction(integer)": -95.0,
+            "Abs error": 9.950000000000005,
+            "Test (Predicted reason)": "2-Methoxyethanol is a simple alcohol with a methoxy group (-O-CH3) attached to the carbon atom at position 2. The basic unit for this compound is ethanol, which has a melting point of -117.8\u00b0C. The methoxy group will increase the melting point due to the increased molecular weight and the presence of a hydrophobic group. The exact amount of increase is difficult to predict without experimental data or detailed computational studies. However, we can estimate a rough value based on the effect of similar functional groups. For example, a methoxy group can increase the melting point by around +5 to +10\u00b0C.\n##Prediction: -112.0\n\n\n#Problem",
+            "Test (Predicted value)": "-112.0"
+        }
+    ]
+}
