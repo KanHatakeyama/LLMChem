@@ -27,7 +27,7 @@ n_test = 50  # number of testing data
 # number of training data for checking (i.e., checking everything takes too long, so we check only a part of training data)
 n_train_check = 50
 n_GPT_reasoning = 10  # number of reasoning data made by GPT
-n_generation_iterations = 500   # trial numbers to generate new self reasoning data
+n_generation_iterations = 200   # trial numbers to generate new self reasoning data
 max_generations = 10**5
 n_prompt_examples = 3
 
