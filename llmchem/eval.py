@@ -15,9 +15,11 @@ def eval_model(model, tokenizer, dataset, save_dir,
                prompt_dataset=None,
                n_prompt_examples=0,
                n_max_trials=1,
-               prefix=""):
-
-    model.eval()
+               prefix="",
+               gpt_mode=False
+               ):
+    if not gpt_mode:
+        model.eval()
 
     n_problems = len(dataset)
 
@@ -30,7 +32,8 @@ def eval_model(model, tokenizer, dataset, save_dir,
                     dataset, test_id, n_prompt_examples=n_prompt_examples, prompt_dataset=prompt_dataset)
                 # print("*problem")
                 # print(prompt)
-                reason, value = ask_value(prompt, model, tokenizer)
+                reason, value = ask_value(
+                    prompt, model, tokenizer, gpt_mode=gpt_mode)
             except Exception as e:
                 print(e)
                 continue
