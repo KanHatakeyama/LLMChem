@@ -1,0 +1,73 @@
+{
+    "MSE": 20130.9185,
+    "MAE": 127.15,
+    "R2": -0.14798214704039414,
+    "Answer ratio": 1.0,
+    "plot": [
+        {
+            "name": "N-{4-[(1E)-3-Oxo-3-phenylprop-1-en-1-yl]phenyl}acetamide",
+            "smiles": "O=C(Nc1ccc(cc1)C=CC(=O)c1ccccc1)C",
+            "csid": 4737823,
+            "link": "http://dx.doi.org/10.1021/ci0500132",
+            "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-1087",
+            "Reason": "To predict the melting point of N-{4-[(1E)-3-Oxo-3-phenylprop-1-en-1-yl]phenyl}acetamide, we start by considering the melting point of a basic aromatic system such as benzene, which has a melting point of 5.5\u00b0C. Then, we account for the following functional group effects: \n- Phenyl groups: The two phenyl rings should significantly increase the melting point due to their ability to enhance \u03c0-\u03c0 interactions and overall molecular rigidity. Each phenyl group may contribute around +30 to +50\u00b0C. \n- Carbonyl groups: The two carbonyl groups (one from the ketone and one from the amide) can form strong hydrogen bonds and rigidify the structure as well, contributing around +20 to +40\u00b0C for each carbonyl. \n- Amide linkage: The amide group also has the potential for hydrogen bonding, contributing a similar effect as the carbonyl, so around +20 to +30\u00b0C. \n- Alkenyl linkage: The presence of a double bond adjacent to a phenyl group could moderately increase the melting point due to the restricted rotation and planarity it introduces; we can estimate this at about +5 to +10\u00b0C. \nGiven these considerations, we would sum the contributions to benzene's melting point: +60 to +100\u00b0C for the phenyl groups, +40 to +80\u00b0C for the carbonyl groups, +20 to +30\u00b0C for the amide group, and +5 to +10\u00b0C for the alkenyl linkage.",
+            "mpC": 179.0,
+            "Prediction(integer)": 178.0,
+            "Abs error": 1.0,
+            "Test (Predicted reason)": " The compound contains a phenyl group, which is known to increase the melting point due to the increased molecular weight and the presence of aromaticity. The 3-oxo-3-phenylprop-1-en-1-yl group is also known to increase the melting point due to the increased molecular weight and the presence of aromaticity. The acetamide group is known to decrease the melting point due to the increased polarity and the presence of a hydrogen bond acceptor. The exact impact of these functional groups on the melting point is difficult to quantify without experimental data or detailed computational studies.\n##Prediction: 70.0\n\n\n#Problem",
+            "Test (Predicted value)": "70.0"
+        },
+        {
+            "name": "cyclobutane, methylene-",
+            "smiles": "C=C1CCC1",
+            "csid": 13624,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "The basic unit for this compound can be considered ethylene (with a melting point of -169.2\u00b0C) because the cyclobutane ring formation will significantly alter the physical properties compared to a straight-chain butene isomer. For the methylene-cyclobutane specifically, the introduction of the four-membered ring introduces ring strain and a more rigid structure, but also reduces the symmetry. This reduction in symmetry and presence of strain usually leads to a higher melting point. However, the exact impact of ring formation is difficult to quantify without experimental data or detailed computational studies. Ring formation: +35\u00b0C (This is a rough estimate and may not reflect the exact value for such structural modifications).",
+            "mpC": -134.7,
+            "Prediction(integer)": -134.0,
+            "Abs error": 0.6999999999999886,
+            "Test (Predicted reason)": "\n##Prediction: 100.0\n\n\n#Problem",
+            "Test (Predicted value)": "100.0"
+        },
+        {
+            "name": "1,2-propanediol, 3-(2-methoxyphenoxy)-, 1-carbam",
+            "smiles": "NC(=O)OCC(O)COc1ccccc1OC",
+            "csid": 3964,
+            "link": "http://www.srcinc.com/what-we-do/product.aspx?id=133",
+            "source": "PHYSPROP",
+            "Reason": "The compound under consideration contains several functional groups whose influences on the melting point can be examined. The basic unit of analysis is the 1,2-propanediol moiety, which on its own exhibits intermolecular hydrogen bonding, thus increasing the melting point. Substituting hydrogen with a methoxyphenoxy group will raise the melting point due to the increased molecular weight and van der Waals forces but will also contain aromaticity which discourages packing hence slightly lowering the melting point. A methoxy group will increase the molecular weight and volume, which might minutely raise the melting point. However, the presence of an ether linkage (\u2013O\u2013) has a slight lowering effect because it does not participate in hydrogen bonding as intensely as a hydroxyl group would. Finally, the carbamate group (1-carbam) will increase the melting point due to its ability to form intermolecular hydrogen bonds and increase molecular weight. Quantitatively, the propanediol base might be considered to have a melting point around 50 degrees Celsius, based on the fact that 1,2-propanediol itself has a melting point around that value. For the methoxyphenoxy group, let's say it increases it by +20 degrees Celsius due to the increased molecular weight mitigated by the aromaticity. The ether linkage might reduce it very slightly, say -2 degrees Celsius. The methoxy group's effect might be around +2 degrees Celsius. Lastly, the carbamate group can lead to a significant increase, of about +20 degrees Celsius. The effects are additive.",
+            "mpC": 93.0,
+            "Prediction(integer)": 92.0,
+            "Abs error": 1.0,
+            "Test (Predicted reason)": "1,2-propanediol, 3-(2-methoxyphenoxy)-, 1-carbam is a compound with a propane backbone and a 3-methoxyphenoxy group attached to the 1-carbon atom. The presence of the 3-methoxyphenoxy group can increase the melting point due to the increased steric hindrance and the formation of hydrogen bonds. The exact impact of this group is difficult to quantify without experimental data or detailed computational studies. However, we can estimate the contribution to the melting point based on the size of the group and the steric hindrance it causes. The 3-methoxyphenoxy group is a relatively large group, and its presence can increase the melting point by around +20 to +30\u00b0C.\n##Prediction: 150.0\n\n\n#Problem",
+            "Test (Predicted value)": "150.0"
+        },
+        {
+            "name": "2-Methoxyethanol",
+            "smiles": "OCCOC",
+            "csid": 7728,
+            "link": "http://msds.chem.ox.ac.uk/",
+            "source": "academic website",
+            "Reason": "The basic unit for comparison can be ethanol, which has a melting point of -114.1 degrees Celsius. The introduction of the methoxy group (\u2013OCH3) in place of a hydrogen atom increases the molecular weight and size which generally raises the melting point. However, the oxygen within the methoxy group also increases hydrogen bonding potential. Since hydrogen bonds are already present in ethanol, the additional oxygen atom allows for more hydrogen bond formation, which can further lower the melting point. Taking the effect of the methoxy group into consideration, we can predict an increase due to molecular size but a more significant decrease due to additional hydrogen bonding. The net effect should thus be a decreased melting point but not as low as the increase observed with ethanol's hydrogen bonding alone.",
+            "mpC": -85.05,
+            "Prediction(integer)": -95.0,
+            "Abs error": 9.950000000000005,
+            "Test (Predicted reason)": "2-Methoxyethanol has a simple structure with only one functional group, a methoxy (-O-CH3) group. The methoxy group can increase the melting point of the compound by around 20-30 degrees Celsius due to the increased molecular weight and van der Waals forces.\n##Prediction: 70.0\n\n\n#Problem",
+            "Test (Predicted value)": "70.0"
+        },
+        {
+            "name": "Dextromoramide",
+            "smiles": "O=C(N1CCCC1)C(c1ccccc1)(c1ccccc1)C(C)CN1CCOCC1",
+            "csid": 9269,
+            "link": "http://dx.doi.org/10.1021/ci0500132",
+            "source": "Karthikeyan M.; Glen R.C.; Bender A. General melting point prediction based on a diverse compound dataset and artificial neural networks. J. Chem. Inf. Model.; 2005; 45(3); 581-4536",
+            "Reason": "The melting point of dextromoramide, an organic compound with various functional groups can be considered as follows: The basic unit we can compare to is N-methylacetamide which has a melting point of around 30 degrees Celsius. The additional functional groups and structural features in dextromoramide will affect its melting point: (1) Two phenyl groups, which could each add approximately +20 due to the increase in molecular weight and rigidity of the structure; (2) The tertiary butyl group (C(C)C) is a bulky group which could add about +10 due to steric hindrance and increasing the molecular volume; (3) The piperidine ring (N1CCCC1) and 1-ethyl-4-methylenepiperidine moiety may both add roughly +20 each due to adding more rigid ring structures and making the molecule more compact; (4) The moramide group (O=C(N1CCCC1)) includes functionalities related to amides, which can significantly increase the melting point due to hydrogen bonding, adding about +30. Summing these modifications gives us an estimated melting point shift.",
+            "mpC": 180.0,
+            "Prediction(integer)": 180.0,
+            "Abs error": 0.0,
+            "Test (Predicted reason)": "\n##Prediction: 100.0\n\n\n#Problem",
+            "Test (Predicted value)": "100.0"
+        }
+    ]
+}
